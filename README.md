@@ -54,43 +54,78 @@ Text(text.chatReadCount(3));
 
 各端根目录另有 `l10n.resources.json` 和 `l10n.resources.lock.json`，声明补充资源导出器并记录生成内容摘要。SDK的Flutter配置位于 `packages/im_sdk/l10n.bundle.json`；SDK根配置会指向它。
 
-更新公共源后，在 Ln18 中执行：
+各项目的同步入口默认从 GitHub 获取自己的固定版本，不需要本机保留 Ln18。
+`l10n.source.json` 记录远程仓库、完整提交号、版本归档路径和 SHA256；
+工具只下载对应语言包到项目内被忽略的 `.l10n-cache/`，校验后再生成。
+移动端和 SDK 当前固定 0.3.0，PC 固定独立维护的 0.2.1。
+
+在对应项目目录执行更新或校验：
 
 ```sh
-python3 tool/sync_all.py --only sdk
+# chat-im-cs/lpp/lpp_mobile
+python3 tool/sync_l10n.py
+python3 tool/sync_l10n.py --check
+
+# chat-im-cs/lpp/lpp_pc_client
+npm run i18n:sync
+npm run i18n:check
+
+# IMSDK
+python3 scripts/sync_l10n.py
+python3 scripts/sync_l10n.py --check
 ```
 
-它按移动端和SDK各自已固定的Flutter工具链生成资源并执行gen-l10n，同时导出PC词库。只校验、不改文件：
+移动端和 SDK 的更新命令会自动执行各自的 `flutter gen-l10n`。
+`--check` 不改消费者生成文件；首次使用时允许下载归档和准备生成器的锁定 Dart 依赖。
+已有缓存时可加 `--offline`，缺少所需输入则明确失败，不回退到最新分支。
+缓存可随时移除，下次资源维护再获取；普通构建和运行不访问远程词库。
+
+需要在一台开发机同时维护多个项目时，也可在 Ln18 中执行：
 
 ```sh
-python3 tool/sync_all.py --only sdk --check
+python3 tool/sync_all.py
+```
+
+该命令调用各项目的同步入口，分别使用自己的远程版本和固定工具链，不强制三端使用同一个公共包。只校验消费者生成文件：
+
+```sh
+python3 tool/sync_all.py --check
 ```
 
 可用 `--only mobile`、`--only sdk`、`--only pc` 限定范围，也可用root参数指定其他机器上的仓库位置。没有对应源仓库时，公共包、A/B示例和已有SDK生成代码仍可单独查看或运行。
 
-各原仓库也有维护入口：
+测试尚未发布的词库修改时，显式传入本地包路径：
 
 ```sh
 # chat-im-cs/lpp/lpp_mobile
-python3 tool/sync_l10n.py --catalog-root /Users/starburst/Desktop/Ln18/packages/im_l10n_catalog --check
+python3 tool/sync_l10n.py --catalog-root /path/to/Ln18/packages/im_l10n_catalog
 
 # chat-im-cs/lpp/lpp_pc_client
-python3 scripts/sync-l10n.py --catalog-root /Users/starburst/Desktop/Ln18/packages/im_l10n_catalog --check
+python3 scripts/sync-l10n.py --catalog-root /path/to/Ln18/packages/im_l10n_catalog-0.2.1
 
 # IMSDK
-python3 scripts/sync_l10n.py --catalog-root /Users/starburst/Desktop/Ln18/packages/im_l10n_catalog --check
+python3 scripts/sync_l10n.py --catalog-root /path/to/Ln18/packages/im_l10n_catalog
 ```
 
-0.3.0 本轮只更新 SDK；chat-im-cs 移动/PC消费者仍固定0.2.0，应配合未变的0.2.0归档源使用。当前checkout请用 `python3 tool/sync_all.py --only sdk`，不要直接运行默认全消费者同步。
-
-这些命令也支持环境变量 `IM_L10N_CATALOG_ROOT`。去掉 `--check` 更新生成资源；之后Flutter消费者执行自己的gen-l10n。只读check需要先准备公共包的Dart依赖，缺少依赖时会报错而不会自动写缓存。
+本地维护覆盖也支持环境变量 `IM_L10N_CATALOG_ROOT`；未显式提供时始终使用远程固定来源，不再隐式查找桌面 Ln18。`--cache-dir` 可用于 CI 隔离缓存。以上本地源必须与相应消费者声明的版本一致。
 
 ## 日常维护与版本
 
-1. 修改公共catalog中的翻译源；App专属差异保存在对应profile或独立消费者dataset。
-2. 包版本、catalog版本、消费者声明一起升级；发布后的版本内容保持不变。
-3. 运行同步、等价或本地化检查，以及受影响端的定向测试。
-4. 提交公共包和对应消费者生成结果。SDK源码交付必须包含生成Dart/TS和收据。
+1. 新功能可以先在 chat-im-cs 开发，同时在 Ln18 的模块 ARB 中添加词条及参数 metadata，并更新 `catalog/index.json` 和 `chat_mobile` profile 的 key 清单。不要直接维护消费者生成文件。
+2. SDK 采用该模块或需要这些文案时，同步把所需 key 纳入 `im_sdk` profile 和消费者模块选择；保留 SDK 专属覆盖。新增移动端功能不会自动扩大 SDK 的词条范围。PC 在 `catalog/pc` 中维护自己的 JSON 数据集，同义词条不自动跨格式映射。
+3. 为本次词库变更创建新版本，更新包、catalog 及待升级消费者声明。使用显式本地源生成和验证后，由 `tool/package_catalog.py` 生成版本归档，提交并推送 Ln18。已发布归档保持不变；PC 维护包使用对应版本的归档流程。
+4. 在需要更新的消费者中，把 `l10n.source.json` 固定到包含该归档的完整远程提交号、归档路径和 SHA256；同步更新资源配置中的 `catalogVersion`（Flutter 同时更新 bundle 配置）。固定提交和摘要，不追踪 `main` 的浮动内容。
+5. 在各项目运行同步、`--check` 及受影响端的定向测试，提交生成资源、两个收据和版本来源配置。SDK 源码交付仍包含生成 Dart/TS，普通构建独立于远程词库。未涉及语言资源的业务更新不需要同步词库。
+
+三个消费者旁的 `l10n_source.py` 是 `tool/l10n_source.py` 的随项目交付副本；升级下载工具时应一起更新并核对内容一致。当前仅改造按固定版本获取与生成入口，没有配置自动跨仓库提交或 PR。
+
+创建归档前可先验证已有版本的内容一致性，检查不会改写归档或证据：
+
+```sh
+python3 tool/package_catalog.py --check
+python3 tool/package_catalog.py --package-root packages/im_l10n_catalog-0.2.1 --check
+# PC 维护源升级到新版本后，去掉 --check 创建对应新归档。
+```
 
 本轮未向原项目pubspec添加外部path依赖，避免破坏SDK独立打包检查。生成工具是维护时依赖，源仓库中的生成结果是构建输入，运行时不读取整个公共catalog，也不下载语言包。
 
