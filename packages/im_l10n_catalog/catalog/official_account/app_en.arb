@@ -1,0 +1,112 @@
+{
+  "@@locale": "en",
+  "officialAccountBadge": "Official",
+  "officialAccountOpenConversation": "Open conversation",
+  "officialAccountJoinHint": "Adding this account joins the enterprise as a customer. No friend approval is needed.",
+  "officialAccountJoinDisabled": "This enterprise is not accepting new customers. Please contact support.",
+  "officialAccountRemoved": "You were removed from this enterprise. Ask the enterprise to invite you again.",
+  "officialAccountBanned": "Your account has been disabled in this enterprise.",
+  "officialAccountUnavailable": "This official account is currently unavailable.",
+  "officialAccountJoinBindingDisabled": "Joining an enterprise is not allowed in the current mode.",
+  "officialAccountPlatformRequired": "Use a platform account to add this official account.",
+  "officialAccountOpenFailed": "Could not open the conversation. Please retry.",
+  "officialAccountAccountChanged": "The account or space changed. Please open it again.",
+  "officialAccountDirectoryUnavailable": "The enterprise directory is not up to date. Please retry shortly.",
+  "officialAccountInboxSyncFailed": "Official account sync failed. Local content is still available.",
+  "officialAccountInboxSyncing": "Syncing official account messages",
+  "officialIdentityQr": "Official account profile and QR code",
+  "officialIdentityHint": "Manage the official identity your customers see",
+  "officialEditProfile": "Edit profile",
+  "officialSetIdentityHint": "Set the official account number, name and avatar",
+  "officialQrTitle": "Official account QR code",
+  "officialViewReset": "View or reset",
+  "officialAutoJoin": "Automatically join the organization when adding its official account",
+  "officialAutoJoinHint": "Customers automatically join the organization's customer space when they add its official account",
+  "officialConversationFeatures": "Conversation features",
+  "officialConversationSettingsHint": "Changes immediately affect customers' official conversations",
+  "officialServiceMenu": "Service menu",
+  "officialServiceMenuHint": "Show customers the menu configured in the desktop console",
+  "officialWelcomeOnFirstContact": "First-contact welcome",
+  "officialWelcomeMessage": "Welcome message",
+  "officialHumanSupport": "Handoff to live agents",
+  "officialReceptionModeHint": "New or reopened receptions use the selected mode. Active conversations keep their current mode.",
+  "officialReceptionMode": "Agent reception mode",
+  "officialReceptionInOfficial": "In the official account conversation",
+  "officialReceptionLegacy": "Separate agent chat (legacy mode)",
+  "officialServiceNotice": "Reception notice",
+  "officialServiceNoticeText": "Reception notice text",
+  "officialAutoHandoff": "Automatic agent handoff",
+  "officialAutoHandoffHint": "Assign an agent when a customer messages the official account",
+  "officialForwardCustomerText": "Forward the customer's message",
+  "officialForwardCustomerTextHint": "Relay the customer's message to the assigned agent after handoff",
+  "officialSyncAgentReplies": "Sync agent replies to the official account",
+  "officialSyncAgentRepliesHint": "Relay agent replies back to the official conversation in legacy mode",
+  "officialHandoffCooldown": "Handoff notice cooldown",
+  "officialAssignedNotice": "Agent assigned message",
+  "officialQueuedNotice": "Queue message",
+  "officialDesktopManagementHint": "Manage menu structure, passwords and official groups in the desktop console.",
+  "officialSaveFailed": "Could not save. Please try again later.",
+  "officialCooldownRange": "Range: 0–1440 minutes",
+  "officialMenuItems": "Menu items",
+  "officialMenuVersion": "Menu version",
+  "officialEnabled": "Enabled",
+  "officialManageDenied": "This account cannot manage official accounts",
+  "officialSettingsLoadFailed": "Could not load official account settings",
+  "officialProfileSaved": "Official account profile saved",
+  "officialProfileTitle": "Official account profile",
+  "officialDisplayName": "Display name",
+  "officialAvatarUrl": "Avatar URL",
+  "officialAvatarLogoFallback": "Leave blank to use the organization logo",
+  "officialIdHint": "6–10 digits; leave blank to unlink",
+  "officialResetQr": "Reset QR code",
+  "officialResetQrConfirm": "The old QR code will stop working immediately. Reset it?",
+  "officialReset": "Reset",
+  "officialQrNotGenerated": "No QR code has been generated",
+  "officialQrLoadFailed": "Could not load the QR code. Please retry.",
+  "officialGenerate": "Generate",
+  "officialMenuCustomerOnly": "Contacting support is available only to customers",
+  "officialMenuUpdated": "The menu has changed. Please try again.",
+  "officialMenuActionFailed": "The action failed. Check your connection and retry.",
+  "officialMenuLoadFailed": "Could not load the service menu",
+  "officialMenuRefreshFailed": "Could not refresh the service menu",
+  "officialAccountIdValue": "Official account {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, =1 {1 minute} other {{count} minutes}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Supports the placeholders {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, =1 {Used 1 time} other {Used {count} times}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Name must contain 1–64 characters",
+  "officialIdFormatInvalid": "Official account number must be 6–10 digits"
+}

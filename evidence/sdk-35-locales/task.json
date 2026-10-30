@@ -1,0 +1,22 @@
+{
+  "task_id": "L10N-35",
+  "mode": "implementation",
+  "objective": "Synchronize SDK common localization from6 to35 using versioned Ln18 sources",
+  "constraints": [
+    "Preserve chat-im-cs and MediaServiceClient",
+    "Preserve oldsixSDK values,1040keys,30overrides",
+    "Keep0.2.0 archive immutable",
+    "Do not commit,push,or publish",
+    "Nonshared missingtranslations useexplicitEnglish fallback andcoverage"
+  ],
+  "acceptance_criteria": [
+    "35x1040generatedARB",
+    "old6metadata/values unchanged",
+    "placeholder/API validation",
+    "hostlocale35 selection",
+    "source-onlySDK independence",
+    "reproducible version0.3.0 archive"
+  ],
+  "status": "completed",
+  "validation": "validation.json"
+}

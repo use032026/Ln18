@@ -1,0 +1,53 @@
+{
+  "@@locale": "da",
+  "notificationTitle": "Notifikationer",
+  "notificationGlobalMute": "Forstyr ikke",
+  "notificationSound": "Lyd",
+  "notificationVibration": "Vibration",
+  "notificationPreview": "Forhåndsvisning af beskeder",
+  "notificationDndStart": "Starttid for Forstyr ikke",
+  "notificationDndEnd": "Sluttid for Forstyr ikke",
+  "notificationNewMessageTitle": "Ny StartLink-besked",
+  "notificationOnlineServiceTitle": "Ny kundeservicebesked",
+  "notificationNewMessageBody": "Du har modtaget en ny besked",
+  "notificationImagePreview": "Sendte et billede",
+  "notificationVideoPreview": "Sendte en video",
+  "notificationVoicePreview": "Sendte en talebesked",
+  "notificationFilePreview": "Sendte en fil",
+  "notificationContactPreview": "Sendte et kontaktkort",
+  "notificationCallLogPreview": "Sendte en opkaldsregistrering",
+  "notificationLocationPreview": "Delte en placering",
+  "notificationLinkPreview": "Delte et link",
+  "notificationMentionMe": "Omtalte dig: {body}",
+  "notificationMentionMeBy": "{sender} omtalte dig: {body}",
+  "notificationMentionAll": "Omtalte alle: {body}",
+  "notificationMentionAllBy": "{sender} omtalte alle: {body}",
+  "notificationSecurityTitle": "Kontosikkerhedsadvarsel",
+  "notificationSecurityBody": "Sikkerhedsindstillingerne for din StartLink-konto er ændret. Kontrollér dem nu.",
+  "notificationFriendAcceptedTitle": "Venneanmodning accepteret",
+  "notificationFriendRejectedTitle": "Venneanmodning afvist",
+  "notificationFriendAcceptedBody": "Den anden accepterede din venneanmodning",
+  "notificationFriendRejectedBody": "Den anden afviste din venneanmodning",
+  "notificationVideoCallTitle": "Invitation til videoopkald",
+  "notificationAudioCallTitle": "Invitation til taleopkald",
+  "notificationVideoCallBody": "{caller} inviterede dig til et videoopkald",
+  "notificationAudioCallBody": "{caller} inviterede dig til et taleopkald",
+  "notificationMessageChannelName": "Beskeder",
+  "notificationMessageChannelDescription": "Chatbeskeder, opkaldsregistreringer og systemadvarsler",
+  "notificationCallChannelName": "Opkald",
+  "notificationCallChannelDescription": "Advarsler om tale- og videoopkald",
+  "notificationSecurityChannelName": "Kontosikkerhed",
+  "notificationSecurityChannelDescription": "Advarsler om login, adgangskode- og mobilnummerændringer",
+  "notificationUnknownCaller": "Ukendt opkalder",
+  "notificationBadgeChannelName": "Beskedmærker",
+  "notificationBadgeChannelDescription": "Antal ulæste beskeder på appikonet",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} ulæst besked} other {{count} ulæste beskeder}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ ulæste beskeder"
+}

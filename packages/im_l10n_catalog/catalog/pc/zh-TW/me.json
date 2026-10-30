@@ -1,0 +1,778 @@
+{
+  "action": {
+    "check": "檢查",
+    "clean": "清理",
+    "processing": "處理中"
+  },
+  "chatArchive": {
+    "aria": "聊天記錄管理",
+    "backup": "備份",
+    "backingUp": "備份中",
+    "backupSuccessNotice": "聊天記錄備份已保存",
+    "backupSuccessState": "備份 {conversations} 個會話、{messages} 條訊息{partial}。",
+    "cancelledNotice": "已取消聊天記錄檔案保存",
+    "cancelledState": "已取消聊天記錄檔案保存。",
+    "error": {
+      "desktopApiUnavailable": "目前需要在 PC 桌面客戶端中使用聊天記錄導出、備份和恢復。",
+      "loginExpired": "登入狀態已失效，請重新登入",
+      "messageApiUnavailable": "會話訊息接口不可用，未能導出聊天記錄。",
+      "noExportableMessages": "暫無可導出的聊天記錄。",
+      "restoreInvalid": "備份檔案無法恢復"
+    },
+    "export": "導出",
+    "exporting": "導出中",
+    "exportSuccessNotice": "聊天記錄已導出",
+    "exportSuccessState": "導出 {conversations} 個會話、{messages} 條訊息{partial}。",
+    "initialState": "本地歸檔不會同步到雲端，也不會寫入服務端訊息。",
+    "partialFailed": "，{count} 個會話因接口失敗未導出",
+    "restore": "導入",
+    "restoring": "導入中",
+    "restoreSuccessNotice": "聊天記錄備份已導入本機歸檔",
+    "restoreSuccessState": "已導入本地備份歸檔，真實會話列表和未讀狀態未被修改。"
+  },
+  "currentStatus": "目前設定狀態",
+  "diagnosticsRecords": {
+    "aria": "診斷記錄",
+    "browserDebug": "瀏覽器調試",
+    "copyTraceAria": "複製最近 traceId",
+    "countItems": "{count} 條",
+    "currentProfile": "目前 profile",
+    "emptyLog": "暫無{filter}診斷記錄。發生接口錯誤、訊息鏈路異常或設定寫入後會在這裡顯示脫敏日誌行。",
+    "emptySummary": "暫無本機診斷記錄，可繼續使用導出診斷包給研發定位。",
+    "exportPackage": "導出診斷包",
+    "failedCount": "{count} 異常",
+    "failedRecords": "異常記錄",
+    "filter": {
+      "api-error": "API 錯誤",
+      "api-traffic": "API 請求",
+      "all": "全部",
+      "cs-routing": "客服路由",
+      "gateway": "閘道",
+      "message": "訊息鏈路",
+      "runtime": "執行時",
+      "settings": "設定"
+    },
+    "latestError": "最近異常",
+    "logTitle": "{filter}日誌",
+    "moduleFilterAria": "診斷模組篩選",
+    "recentCount": "{count} 條最近記錄",
+    "recentRecords": "最近記錄",
+    "recordCount": "{filter}記錄",
+    "sourceNote": "設定頁按問題域彙總 renderer 記憶體診斷並展示脫敏日誌行；診斷包裡的持久化記錄會繼續按 jsonl 檔案分流，供研發深化。",
+    "summary": "已收集 {total} 條最近診斷記錄，其中 {failed} 條需要關注。",
+    "title": "最近診斷記錄",
+    "traceCopied": "已複製 traceId",
+    "traceCopyFailed": "無法複製 traceId，請手動選擇",
+    "waitingRecords": "等待記錄"
+  },
+  "group": {
+    "appearance": "外觀",
+    "chat": "聊天",
+    "desktop": "桌面",
+    "input": "輸入",
+    "languageTime": "語言與時間",
+    "notifications": "通知",
+    "systemPermissions": "系統權限",
+    "translation": "翻譯"
+  },
+  "heroSubtitle": "按清晰領域管理 PC 客服工作環境，聊天、通知和外觀等共用能力統一收進通用設定。",
+  "navAria": "設定分組",
+  "navSubtitle": "按帳戶、企業、消息、隱私、線上客服、線路、通用、診斷和關於組織設定。",
+  "network": {
+    "autoReconnectOn": "已啟用，網路恢復後自動重連介面和即時消息。",
+    "off": "已關閉。",
+    "weakNetworkOff": "未記錄弱網線索。",
+    "weakNetworkOn": "已記錄弱網線索，可隨診斷包匯出。"
+  },
+  "chatBackground": {
+    "aria": "聊天背景",
+    "chooseImage": "選擇圖片",
+    "current": "目前：{name}",
+    "customImage": "本機圖片：{name}",
+    "desc": "設定聊天視窗背景。",
+    "imageActive": "聊天背景圖片已生效",
+    "imageLoadFailed": "圖片讀取失敗，請重新選擇。",
+    "imageTooLarge": "請選擇 3.5 MB 以內的 PNG、JPG、WebP 或 GIF 圖片。",
+    "preset": {
+      "beige": "暖米紋理",
+      "default": "微信淺灰",
+      "light-blue": "雨後藍",
+      "light-gray": "霧面灰",
+      "light-green": "竹青",
+      "light-pink": "淡櫻",
+      "light-purple": "淺藤",
+      "white": "宣紙白"
+    },
+    "removeImage": "清除圖片",
+    "title": "聊天背景"
+  },
+  "connectivityHealth": {
+    "aria": "連接體檢",
+    "item": {
+      "api-base": {
+        "desc": "展示目前請求基址；如果最近有 API 錯誤，會直接標記為需關注。",
+        "label": "目前 API"
+      },
+      "api-health": {
+        "desc": "服務端提供輕量 health 後展示 API 服務狀態、版本和依賴摘要。",
+        "label": "API 健康端點"
+      },
+      "cs-health": {
+        "desc": "客服服務提供佇列/分配健康端點後展示接待鏈路。",
+        "label": "線上客服佇列端點"
+      },
+      "customer-service-routing": {
+        "desc": "讀取線上客服狀態與快取診斷，輔助判斷接待、佇列和分配問題。",
+        "label": "客服路由"
+      },
+      "fixture-health": {
+        "desc": "僅開發/測試環境接入，用於驗證客服夾具介面狀態。",
+        "label": "客服測試夾具"
+      },
+      "gateway-health": {
+        "desc": "服務端提供長連線健康狀態後展示連線、協商和訂閱狀態。",
+        "label": "Gateway 健康端點"
+      },
+      "gateway-runtime": {
+        "desc": "讀取現有 Gateway 連線診斷，不新建測試長連線。",
+        "label": "即時連線"
+      },
+      "media-health": {
+        "desc": "媒體服務提供健康端點後展示上傳、下載和鑑權鏈路。",
+        "label": "媒體上傳/下載端點"
+      },
+      "media-recent-errors": {
+        "desc": "只顯示最近媒體上傳、下載或快取錯誤；未發生過則不冒充成功。",
+        "label": "媒體鏈路"
+      },
+      "site-lines": {
+        "desc": "複用線路配置與測速能力，不額外攜帶 token 或 Cookie。",
+        "label": "線路配置"
+      }
+    },
+    "needsAttention": "需關注",
+    "noSyntheticConnection": "不新建合成連線",
+    "observable": "可觀測",
+    "pendingOrNoSample": "待接入/暫無採樣",
+    "phaseOne": "現有訊號",
+    "phaseTwo": "待服務端補齊",
+    "recentRecord": "最近記錄 {time}",
+    "requiresServerHealth": "待服務端 health 接入",
+    "siteLineValue": "{site} / {count} 條線路",
+    "status": {
+      "failed": "需關注",
+      "noBaseUrl": "未讀取到 API 基址",
+      "noLines": "暫無線路",
+      "no-sample": "暫無採樣",
+      "observable": "可觀測",
+      "pending": "待接入"
+    },
+    "summaryNoFailures": "目前沒有失敗採樣，{pending} 項待接入或暫無採樣。",
+    "summaryWithFailures": "{failed} 項需要關注，{pending} 項待接入或暫無採樣。",
+    "title": "連接體檢"
+  },
+  "networkLine": {
+    "activeLine": "目前線路",
+    "aria": "網路線路",
+    "available": "配置可達",
+    "configRefreshed": "線路配置已刷新",
+    "currentSite": "目前站點",
+    "latency": {
+      "ms": "{value} ms",
+      "testing": "測試中",
+      "unavailable": "不可用",
+      "untested": "未測試"
+    },
+    "localChecked": "已檢查本地線路配置",
+    "latencyTest": "線路測速",
+    "note": "{activeLine} 會真實切換 PC 目前 API 與即時連線基址，{latencyTest} 僅請求線路配置地址，不攜帶 token、Authorization 或 Cookie。",
+    "refresh": "刷新站點",
+    "refreshing": "刷新中",
+    "refreshFailed": "刷新線路配置失敗，請稍後重試",
+    "switchableSites": "可切換站點",
+    "switchableSummary": "{count} 條線路，S3 僅作為兜底配置源，不顯示在線路列表。",
+    "switchFailed": "線路切換未生效，請稍後重試",
+    "switchUnavailable": "線路不可用，已保留目前線路",
+    "switched": "已切換到 {name}",
+    "testAll": "全部測速",
+    "testCompleted": "線路測速已完成",
+    "testing": "測速中",
+    "testNamed": "測試 {name}",
+    "unavailable": "配置不可達",
+    "unverified": "未驗證"
+  },
+  "notificationSettings": {
+    "friendRequestDesc": "新的好友申請跟隨 IM 訊息提醒策略。目前：{state}",
+    "loadFailed": "提醒設定載入失敗：{error}。目前控制項會先儲存在本機，介面恢復後可再次同步。",
+    "loading": "正在讀取帳號提醒設定...",
+    "off": "關閉",
+    "on": "開啟",
+    "saved": "提醒設定已儲存",
+    "saveFailed": "提醒設定儲存失敗：{error}"
+  },
+  "notice": {
+    "autoSave": "設定更改後會自動儲存",
+    "chatCacheCleared": "已清理聊天快取",
+    "diagnosticsExportCancelled": "已取消匯出診斷包",
+    "diagnosticsExported": "診斷包已匯出",
+    "localDataCleaned": "已清理本機訊息索引 {count} 條",
+    "localDataCleanFailed": "清理本機訊息索引失敗：{error}",
+    "localDataRepairDone": "本地庫檢查完成：DB {status}，失效媒體 {stale} 個",
+    "localDataRepairFailed": "本地庫檢查失敗：{error}",
+    "localMediaCleaned": "已清理本機媒體快取 {size}",
+    "localMediaCleanFailed": "清理本機媒體快取失敗：{error}",
+    "saved": "已儲存"
+  },
+  "localDataStorage": {
+    "cleanupConfirm": "確認清理本機已落庫訊息索引？不會刪除雲端訊息，但本機歷史搜尋和離線首屏會重新依賴服務端同步。",
+    "cleanupDesc": "清理目前帳號空間的本機訊息索引，並保留雲端訊息。",
+    "cleanupTitle": "清理本機訊息索引",
+    "loading": "正在讀取本地訊息庫...",
+    "mediaCleanupDesc": "清理本機圖片、影片和檔案快取，不刪除雲端訊息。",
+    "mediaCleanupTitle": "清理本機媒體快取",
+    "repairDesc": "檢查 DB、重建搜尋索引，並標記遺失的本機媒體檔案。",
+    "repairTitle": "檢查並修復本地庫",
+    "stats": "本機訊息 {messages} 條，媒體 {media} 個，發送箱 {outbox} 條，佔用 {size}",
+    "title": "本地訊息庫",
+    "unavailable": "目前客戶端未接入本地訊息庫統計"
+  },
+  "option": {
+    "apiLog": {
+      "body": "完整脫敏",
+      "errors": "僅失敗",
+      "off": "關閉",
+      "summary": "全部摘要"
+    },
+    "disabled": "不啟用",
+    "fontSize": {
+      "extraLarge": "超大",
+      "large": "大",
+      "small": "小",
+      "standard": "標準"
+    },
+    "skin": {
+      "blue": "商務藍",
+      "graphite": "石墨灰",
+      "jade": "翡翠綠"
+    },
+    "theme": {
+      "business": "專業商務",
+      "classicWechat": "經典微信",
+      "dark": "深色",
+      "highContrast": "高對比",
+      "porcelain": "白瓷"
+    }
+  },
+  "desktop": {
+    "browserUnavailable": "瀏覽器調試不可用",
+    "macCloseBehavior": "macOS 關閉視窗後仍保持在線；請使用 Cmd+Q 退出。",
+    "launchDisabled": "已關閉開機自啟",
+    "launchEnabled": "已開啟開機自啟",
+    "launchFailed": "開機自啟設定失敗：{error}",
+    "launchUnsupported": "目前瀏覽器調試環境不支援開機自啟",
+    "statusReadFailed": "狀態讀取失敗",
+    "statusSyncFailed": "狀態同步失敗",
+    "trayDisabled": "已關閉最小化到托盤",
+    "trayEnabled": "已開啟最小化到托盤",
+    "trayFailed": "最小化到托盤設定失敗：{error}",
+    "trayUnsupported": "目前瀏覽器調試環境不支援最小化到托盤"
+  },
+  "systemPermissions": {
+    "camera": {
+      "desc": "僅在主動發起或接聽視訊通話時使用。",
+      "label": "攝影機"
+    },
+    "firstLaunch": {
+      "allow": "開啟通知",
+      "description": "StartLink 在背景並保持運行時，可透過系統通知提醒你新訊息、客服任務和安全事件。",
+      "eyebrow": "首次啟動設定",
+      "failed": "通知權限申請失敗，請稍後在設定的「系統權限」中重試。",
+      "hint": "繼續後會傳送一則測試通知，並開啟 macOS 通知設定供你確認。",
+      "later": "暫不",
+      "requesting": "正在開啟…",
+      "title": "即時接收重要通知",
+      "unavailable": "目前環境不支援系統通知，請稍後在設定中檢查。"
+    },
+    "loginItems": {
+      "desc": "開啟登入時啟動後，可在 macOS 登入項目中複核 StartLink。",
+      "label": "登入項目設定"
+    },
+    "microphone": {
+      "desc": "僅在主動發起或接聽語音、視訊通話時使用。",
+      "label": "麥克風"
+    },
+    "notifications": {
+      "desc": "傳送明確標記的測試通知；最終驗收必須使用正式簽署版本。",
+      "label": "通知中心"
+    },
+    "openSettings": "開啟設定",
+    "readFailed": "系統權限狀態讀取失敗，返回 StartLink 後可重試。",
+    "refresh": "重新整理",
+    "request": "申請權限",
+    "requestBlocked": "權限未開啟；請在系統設定中允許 StartLink 後重試對應功能。",
+    "requestFailed": "權限申請失敗；請開啟系統設定後重試。",
+    "requestGranted": "權限已允許。",
+    "notificationSettingsOpened": "已傳送測試通知並開啟系統設定；請在其中開啟 StartLink，再用正式簽名包驗證傳送和點擊喚醒。",
+    "screen": {
+      "desc": "僅在主動截圖時申請，不擷取桌面音訊。",
+      "label": "螢幕錄製"
+    },
+    "settingsOpened": "已開啟系統設定；修改權限後請返回 StartLink 重試。",
+    "status": {
+      "denied": "已拒絕",
+      "granted": "已允許",
+      "not-determined": "未申請",
+      "restricted": "系統限制",
+      "unknown": "待驗證",
+      "unsupported": "不支援"
+    }
+  },
+  "development": {
+    "apiUrl": "API 地址",
+    "browserDebug": "瀏覽器調試",
+    "currentEnvironment": "目前環境",
+    "defaultEnvironment": "目前程式碼預設測試環境",
+    "devRuntime": "開發/測試運行",
+    "environmentMasked": "目前連線環境（已隱藏敏感資訊）",
+    "environmentOrigin": "{origin}（已隱藏 token、Authorization、Cookie）",
+    "loadingProfile": "正在讀取目前視窗 profile...",
+    "recentDiagnostics": "最近診斷記錄",
+    "recentDiagnosticsCount": "{count} 條，可匯出診斷包給研發定位。",
+    "realtime": "即時連線",
+    "realtimeHint": "隨診斷包採集 WebSocket 與消息網關狀態。",
+    "redactedHint": "診斷資訊預設脫敏，不展示密碼、token、Authorization、Cookie 或完整手機號。",
+    "testConnection": "測試連線或內部開關",
+    "title": "開發診斷",
+    "unknownVersion": "未知版本",
+    "version": "版本",
+    "visibleHint": "僅開發/測試環境顯示"
+  },
+  "enterprise": {
+    "current": "目前企業",
+    "identity": "{name} / 企業號 {code} / {role}"
+  },
+  "planning": {
+    "aria": "規劃能力",
+    "defaultDependency": "需要補齊產品、介面或桌面端基礎能力。",
+    "defaultNext": "完成依賴拆分後接入。",
+    "defaultValue": "完善 PC 客服端設定能力。",
+    "dependency": "依賴",
+    "next": "下一步",
+    "planned": "計畫接入",
+    "subtitle": "這些能力已有明確產品位置和接入條件，暫不偽裝成可生效開關。",
+    "title": "規劃能力",
+    "value": "價值"
+  },
+  "capability": {
+    "missingBackendApi": "缺少接口",
+    "missingDesktopApi": "缺少桌面能力",
+    "missingRuntimeWiring": "待接入流程"
+  },
+  "rowEffect": {
+    "account": "設定會隨帳號保存，目前 PC 客戶端會立即使用最新策略。",
+    "enterprise": "內容來自目前企業信息，目前 PC 客戶端只展示可用狀態。",
+    "local": "操作結果僅保存在目前 PC 客戶端。",
+    "localEffective": "此設定僅影響目前 PC 客戶端。",
+    "missingBackendApi": "需要補齊帳號或企業接口後才能提供真實設定入口。",
+    "missingDesktopApi": "需要補齊桌面客戶端能力後才能啟用。",
+    "missingRuntimeWiring": "需要接入完整客戶端流程後才能啟用。",
+    "recordOnly": "此項僅展示目前狀態，不提供設定入口。",
+    "system": "僅在桌面客戶端生效，瀏覽器調試環境不可用。"
+  },
+  "row": {
+    "profile": {
+      "label": "个人資料",
+      "desc": "頭像、暱稱、{publicIdLabel}、手機號、信箱和建立時間。"
+    },
+    "enterpriseIdentity": {
+      "label": "目前企業",
+      "desc": "目前企業、企業号、角色和企業切换入口。"
+    },
+    "changePassword": {
+      "label": "修改密码",
+      "desc": "校验旧密码后更新帳號登入密码。"
+    },
+    "loginDevices": {
+      "label": "登入設備",
+      "desc": "查看已登入設備并下线异常設備。"
+    },
+    "logoutAccount": {
+      "label": "退出登入",
+      "desc": "退出目前 {publicName} 帳號。"
+    },
+    "deactivateAccount": {
+      "label": "註銷帳戶",
+      "desc": "提交验证码后进入帳號註銷冷静期。"
+    },
+    "allowMobileSearch": {
+      "label": "允许透過手機號搜尋",
+      "desc": "其他用戶可透過手機號找到你。"
+    },
+    "allowLppSearch": {
+      "label": "允许透過 {publicIdLabel}搜尋",
+      "desc": "其他用戶可透過 {publicIdLabel}找到你。"
+    },
+    "friendRequestVerification": {
+      "label": "加我为好友",
+      "desc": "控制陌生人向你发起好友申请的範圍。"
+    },
+    "profileVisibility": {
+      "label": "个人資料可見性",
+      "desc": "控制資料页对外展示範圍。"
+    },
+    "blocklist": {
+      "label": "黑名單",
+      "desc": "查看黑名單列表，移出后对方可恢復互动。"
+    },
+    "imNotifications": {
+      "label": "IM 消息提醒",
+      "desc": "好友、群聊、系统通知和好友申请进入消息提醒。"
+    },
+    "friendRequestNotifications": {
+      "label": "好友申请提醒",
+      "desc": "新的好友申请跟随 IM 消息通知策略。"
+    },
+    "serviceQueueNotifications": {
+      "label": "訪客排队/待接入提醒",
+      "desc": "有訪客排队、待接入或待接管时提醒客服。"
+    },
+    "customerServiceMessageNotifications": {
+      "label": "已接入會話新消息提醒",
+      "desc": "已接入或正在處理的客服會話收到訪客新消息时提醒。"
+    },
+    "foregroundInAppCustomerServiceReminders": {
+      "label": "前台站内消息提醒",
+      "desc": "PC 客戶端在前台时，收到已接入客服會話新消息顯示右上角提醒卡片。"
+    },
+    "slaTimeoutNotifications": {
+      "label": "SLA 逾時提醒",
+      "desc": "會話接近逾時或已经逾時时提醒。"
+    },
+    "desktopNotifications": {
+      "label": "桌面系统通知",
+      "desc": "允许系统通知中心展示 IM 和客服提醒。"
+    },
+    "notificationPreview": {
+      "label": "通知預覽",
+      "desc": "桌面通知中顯示發送人和摘要，敏感內容仍按脱敏规则處理。"
+    },
+    "notificationSound": {
+      "label": "声音提醒",
+      "desc": "新消息、排队和 SLA 事件播放輕量提示音。"
+    },
+    "doNotDisturb": {
+      "label": "免打扰",
+      "desc": "暫停 IM、客服佇列和 SLA 提醒；來電與帳號安全通知仍會保留。"
+    },
+    "enterToSend": {
+      "label": "Enter 發送",
+      "desc": "开启后 Enter 發送消息，Shift + Enter 换行。"
+    },
+    "screenshotShortcut": {
+      "label": "截圖快捷键",
+      "desc": "在聊天输入区快速截屏并作为图片待發送。"
+    },
+    "dragUpload": {
+      "label": "文件拖拽上傳",
+      "desc": "把图片或文件拖进输入区即可發送。"
+    },
+    "autoTranslate": {
+      "label": "自動翻譯全部會話",
+      "desc": "僅自動翻譯目前聊天視口內的對方文字，會話可單獨覆蓋。"
+    },
+    "autoTranslateTargetLanguage": {
+      "label": "翻譯目標語言",
+      "desc": "自動翻譯始終使用這裡選擇的目標語言，與介面語言分開。"
+    },
+    "shortcutHints": {
+      "label": "快捷键提示",
+      "desc": "在输入区和工具按钮上顯示快捷键提示。"
+    },
+    "chatBackground": {
+      "label": "聊天背景",
+      "desc": "设置默认聊天背景或按會話单独设置。"
+    },
+    "chatExport": {
+      "label": "匯出聊天記錄",
+      "desc": "匯出最近真实會話消息为 JSON 文件。"
+    },
+    "chatBackup": {
+      "label": "備份聊天記錄",
+      "desc": "生成本机加密聊天記錄備份文件。"
+    },
+    "chatRestore": {
+      "label": "匯入/恢復聊天記錄",
+      "desc": "校验本地備份文件并保存为本机归档。"
+    },
+    "theme": {
+      "label": "主題",
+      "desc": "切换整套颜色、邊界和管理端视觉基调。"
+    },
+    "skin": {
+      "label": "皮肤",
+      "desc": "在目前主題下调整主色，不改变信息结构。"
+    },
+    "fontSize": {
+      "label": "字號",
+      "desc": "调整會話、聊天、資料面板的基础字號。"
+    },
+    "compactList": {
+      "label": "緊湊列表",
+      "desc": "減少會話列表行高，提高 PC 信息密度。"
+    },
+    "highDensityContext": {
+      "label": "高密度客户上下文",
+      "desc": "右侧資料面板以更緊湊的行距展示。"
+    },
+    "reduceMotion": {
+      "label": "減少動效",
+      "desc": "降低弹层、列表和按钮过渡动画。"
+    },
+    "highContrastBoundary": {
+      "label": "高对比度邊界",
+      "desc": "增强边框和分隔线，适合长时间办公。"
+    },
+    "keyboardFocusHint": {
+      "label": "鍵盤焦點提示",
+      "desc": "Tab 操作时顯示更清晰的焦點狀態。"
+    },
+    "minimizeToTray": {
+      "label": "最小化到托盤",
+      "desc": "关闭視窗时保留後台在线。"
+    },
+    "launchAtStartup": {
+      "label": "開機自启",
+      "desc": "登入系统后自動启动 PC 客戶端。"
+    },
+    "multiProfileIndicator": {
+      "label": "多开 profile 標識",
+      "desc": "顯示目前視窗 profile，避免多帳號測試和多客服環境串号。"
+    },
+    "language": {
+      "label": "界面語言",
+      "desc": "PC 客戶端菜单和界面文案語言。"
+    },
+    "timezone": {
+      "label": "時區",
+      "desc": "统一聊天时间、客服 SLA、历史會話和报表时间。"
+    },
+    "currentEnvironment": {
+      "label": "目前連接環境",
+      "desc": "顯示目前測試環境地址，不展示 token、Authorization 或 Cookie。"
+    },
+    "activeLine": {
+      "label": "網路線路",
+      "desc": "按 APP 線路管理规则自動或手动选择可用站点，切换后 API 与实时連接使用新線路。"
+    },
+    "lineLatencyTest": {
+      "label": "線路測速",
+      "desc": "通過線路配置地址測試候選線路延遲和可達狀態，不再把 API 根地址當作健康檢查。"
+    },
+    "autoReconnect": {
+      "label": "斷線自動重連",
+      "desc": "網路恢復后自動重連接口和实时消息。"
+    },
+    "weakNetworkDiagnostics": {
+      "label": "弱網提示",
+      "desc": "检测接口延迟、实时連接和最近失败请求。"
+    },
+    "clearLocalCache": {
+      "label": "清理快取",
+      "desc": "清理图片、文件缩略图和临时快取，不删除云端消息。"
+    },
+    "diagnosticsExport": {
+      "label": "匯出診斷包",
+      "desc": "匯出本地日志、traceId、接口错误和关键操作轨迹。"
+    },
+    "apiTrafficLogLevel": {
+      "label": "API 请求回應日志",
+      "desc": "控制 data/api 层统一記錄接口请求、回應和脱敏 body 的详细程度。"
+    },
+    "diagnosticsRecentRecords": {
+      "label": "診斷記錄",
+      "desc": "查看本机最近診斷摘要、模块筛选和脱敏后的 traceId。"
+    },
+    "connectivityHealth": {
+      "label": "連接体检",
+      "desc": "查看目前 API、線路、实时連接、媒体和客服路由的可观测狀態。"
+    },
+    "developmentDiagnostics": {
+      "label": "开发診斷",
+      "desc": "查看環境、版本、构建、接口、实时連接和 profile 狀態。"
+    },
+    "runtimeStatus": {
+      "label": "運行情况",
+      "desc": "抽样顯示最近消息發送、长連接接收、快取写入和視窗展示耗时。"
+    },
+    "feedback": {
+      "label": "回饋",
+      "desc": "提交投诉、建议、问题回饋和缺陷线索。"
+    },
+    "terms": {
+      "label": "用戶協議",
+      "desc": "查看 {publicName}用戶服務協議。"
+    },
+    "privacyPolicy": {
+      "label": "隱私政策",
+      "desc": "查看 {publicName}隱私政策和个人信息處理說明。"
+    },
+    "aboutClient": {
+      "label": "关于客戶端",
+      "desc": "查看版本號、构建信息和運行環境。"
+    },
+    "autoCheckUpdates": {
+      "label": "自動檢查更新",
+      "desc": "開啟後啟動客戶端會延遲檢查一次；只提示，不自動下載或安裝。"
+    },
+    "updateChannel": {
+      "label": "更新渠道",
+      "desc": "預設使用 stable，beta 預留給灰度和測試版本。"
+    },
+    "updateDownloadStrategy": {
+      "label": "下載策略",
+      "desc": "優先增量，失敗自動完整下載。"
+    },
+    "checkUpdate": {
+      "label": "檢查更新",
+      "desc": "檢查目前版本、更新說明和可用安装包。"
+    }
+  },
+  "runtimeStatus": {
+    "aria": "運行情況",
+    "channel": {
+      "gateway": "長連線",
+      "httpQuery": "主動查詢",
+      "send": "發送鏈路"
+    },
+    "empty": "暫無採樣",
+    "emptyDesc": "暫無訊息耗時採樣，發送或接收訊息後會自動顯示。",
+    "latestStage": "{channel}，最新階段：{stage}",
+    "localOnly": "僅展示本機可觀測階段",
+    "milliseconds": "{value} 毫秒",
+    "metric": {
+      "gatewayToCache": "長連線到快取",
+      "gatewayToUi": "長連線到視窗",
+      "sendHttp": "發送請求",
+      "sendToAck": "提交到確認",
+      "serverToGateway": "服務端到長連線"
+    },
+    "owner": {
+      "customerService": "線上客服",
+      "im": "IM"
+    },
+    "recentLatency": "最近訊息耗時",
+    "realtime": "即時採樣",
+    "seconds": "{value} 秒",
+    "stage": {
+      "query_message_discovered": "主動查詢發現",
+      "receive_cache_written": "寫入本機快取",
+      "receive_gateway_observed": "長連線收到",
+      "receive_paint_observed": "視窗繪製完成",
+      "receive_ui_observed": "視窗狀態收到",
+      "send_compose_submit": "提交發送",
+      "send_http_done": "發送請求完成",
+      "send_http_failed": "發送失敗",
+      "send_http_start": "發送請求開始",
+      "send_local_echo_written": "本地顯示",
+      "send_server_ack_observed": "服務端確認"
+    },
+    "summary": {
+      "queryDiscovered": "最近一條訊息由主動查詢發現。",
+      "recorded": "已記錄最近訊息運行軌跡。",
+      "sendHttp": "最近一次發送請求耗時 {duration}。",
+      "serverToGateway": "最近一條長連線訊息：服務端時間到本機收到 {duration}。"
+    },
+    "traceTitle": "{owner} 訊息 {id}",
+    "waiting": "等待採樣"
+  },
+  "profile": {
+    "avatar": "個人頭像",
+    "avatarCancelled": "已取消頭像更改",
+    "avatarFormat": "JPG、PNG、WebP，最大 5 MB",
+    "avatarSelected": "已選擇頭像，點擊儲存後生效",
+    "avatarSyncHint": "目前頭像會同步到會話、聯絡人和側邊欄展示。",
+    "avatarTooLarge": "頭像圖片不能超過 5 MB",
+    "avatarUpdateFailed": "頭像更新失敗：{error}",
+    "avatarUpdated": "頭像已更新",
+    "chooseImage": "選擇圖片",
+    "createdAt": "建立時間",
+    "displayName": "暱稱",
+    "displayNamePlaceholder": "請輸入暱稱",
+    "email": "郵箱",
+    "error": {
+      "avatarNoUrl": "頭像上傳成功，但服務端未返回圖片地址",
+      "avatarProfileNoUrl": "頭像已上傳，但服務端個人資料未返回頭像地址",
+      "avatarProfileUnchanged": "頭像已上傳，但服務端個人資料未寫入新頭像",
+      "emptyDisplayName": "暱稱不能為空"
+    },
+    "info": "資料資訊",
+    "infoHint": "暱稱和簽名會同步到個人名片",
+    "loadFailed": "個人資料載入失敗：{error}",
+    "loading": "正在讀取個人資料...",
+    "loginExpiredAvatar": "登入狀態已失效，請重新登入後設定頭像。",
+    "loginName": "登入名",
+    "lppId": "{publicIdLabel}",
+    "member": "成員",
+    "mobile": "手機號",
+    "reverted": "已還原資料編輯",
+    "revert": "還原",
+    "role": "角色",
+    "saveAvatar": "儲存頭像",
+    "saveFailed": "個人資料儲存失敗：{error}",
+    "saveProfile": "儲存資料",
+    "saved": "個人資料已儲存",
+    "selectImageFile": "請選擇圖片檔案作為頭像",
+    "signature": "簽名",
+    "signaturePlaceholder": "添加一句工作狀態或個人簽名",
+    "userId": "使用者 ID"
+  },
+  "section": {
+    "about": {
+      "desc": "版本、幫助、協議和診斷資訊。",
+      "title": "關於"
+    },
+    "account": {
+      "desc": "頭像、資料、登入安全和帳戶狀態。",
+      "title": "帳戶"
+    },
+    "common": {
+      "desc": "通知、輸入、聊天、外觀、桌面、語言與時間。",
+      "title": "通用"
+    },
+    "customerService": {
+      "desc": "客服提醒、客戶上下文和接待體驗。",
+      "title": "線上客服"
+    },
+    "enterprise": {
+      "desc": "目前企業、空間身分和組織資訊。",
+      "title": "企業"
+    },
+    "messages": {
+      "desc": "IM 消息提醒、輸入和會話體驗。",
+      "title": "消息"
+    },
+    "network": {
+      "desc": "線路、連線、重連和弱網診斷。",
+      "title": "線路"
+    },
+    "privacy": {
+      "desc": "搜尋權限、好友驗證、資料可見性和黑名單。",
+      "title": "隱私"
+    },
+    "storageDiagnostics": {
+      "desc": "快取、診斷、體檢和脫敏日誌。",
+      "title": "診斷"
+    }
+  },
+  "state": {
+    "autoTranslate": "會話級按鈕可設為跟隨、開啟或關閉。"
+  },
+  "status": {
+    "common": "通用設定已按通知、輸入、聊天、外觀、桌面、語言時間分組。",
+    "customerService": "客服提醒和客戶上下文設定會服務目前接待工作台。",
+    "default": "設定項會在目前頁面自動儲存並顯示最新狀態。",
+    "notLoggedIn": "登入狀態未恢復，帳戶類設定會在重新登入後讀取。",
+    "storageDiagnostics": "診斷和體檢資訊只展示脫敏後的本機可觀測狀態。"
+  },
+  "title": "設定中心"
+}

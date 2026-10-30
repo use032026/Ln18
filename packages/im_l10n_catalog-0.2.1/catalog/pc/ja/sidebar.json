@@ -1,0 +1,97 @@
+{
+  "account": {
+    "accountAndClient": "アカウントとクライアント",
+    "createQrFailed": "QR コードの生成に失敗しました：{error}",
+    "entryAria": "{name}、{account}、状態：{status}",
+    "identifyingClient": "クライアントを識別中",
+    "imStatus": "IM 状態",
+    "instance": "インスタンス {id}",
+    "inviteQrMessage": "スキャンして追加",
+    "logout": "ログアウト",
+    "manageDevices": "ログイン端末を管理",
+    "member": "メンバー",
+    "myAccount": "自分のアカウント",
+    "myEntrances": "自分の入口",
+    "noSignature": "署名なし",
+    "openClientFailed": "新しいクライアントを開けませんでした：{error}",
+    "openNewClient": "新しいクライアントを開く",
+    "openProfile": "アカウントプロフィールを開く",
+    "openedNewClient": "新しい PC クライアントを開きました",
+    "opening": "開いています",
+    "pcUser": "PC ユーザー",
+    "setImStatus": "IM 状態を {status} に設定"
+  },
+  "badge": {
+    "friendRequestsSuffix": "、友だち申請 {count} 件",
+    "remindersSuffix": "、リマインダー {count} 件"
+  },
+  "brand": {
+    "about": "{publicName} について",
+    "helpAboutUpdate": "ヘルプ / About / 更新確認"
+  },
+  "collapse": "サイドバーを折りたたむ",
+  "expand": "サイドバーを展開",
+  "navAria": "メインナビゲーション",
+  "notification": {
+    "newServiceThread": "新しいオンラインサポート会話",
+    "queueBody": "訪問者が待機中で、対応を待っています",
+    "queueCountBody": "新しい訪問者が待機中で、対応を待っています",
+    "queueFromSource": "{source} からの訪問者が待機中で、対応を待っています",
+    "serviceMessageBody": "オンラインサポート会話に新着メッセージがあります",
+    "serviceMessageTitle": "オンラインサポートの新着メッセージ",
+    "slaBody": "オンラインサポート会話がタイムアウト間近、またはすでに超過しています",
+    "slaBodyNamed": "{title} がタイムアウト間近、またはすでに超過しています",
+    "slaTitle": "SLA タイムアウト通知"
+  },
+  "presence": {
+    "away": "離席",
+    "busy": "取り込み中",
+    "invisible": "非表示",
+    "online": "オンライン"
+  },
+  "productVersion": "プロ版 · v{version}",
+  "service": {
+    "accessModeAria": "カスタマーサービス受付モード",
+    "autoEnableHint": "クリック後、カスタマーサービスをオンラインにして自動割り当てを有効にします。",
+    "counterQueue": "キュー",
+    "counterQueueShort": "キ",
+    "counterReception": "対応中",
+    "counterReceptionShort": "対",
+    "counterUnread": "未読",
+    "counterUnreadShort": "未",
+    "enter": "カスタマーサービスへ",
+    "entryAria": "カスタマーサービス：{status}",
+    "fullDetail": "対応 {reception} · キュー {queue} · 未読 {unread}",
+    "metricQueue": "キュー {value}",
+    "metricReception": "対応 {value}",
+    "metricUnread": "未読 {value}",
+    "receptionNotSynced": "受付状態が同期されていないため、受付モードを変更できません。",
+    "receptionStatusAria": "カスタマーサービス受付状態",
+    "status": {
+      "break": "一時離席",
+      "busy": "ビジー",
+      "offline": "オフライン",
+      "online": "オンライン"
+    },
+    "statusHint": {
+      "break": "新しい待機中の会話を一時的に受け付けません",
+      "busy": "自動受付はせず、手動対応は可能です",
+      "offline": "受付には参加しません",
+      "online": "待機中の会話を手動で受付できます"
+    },
+    "statusAria": "カスタマーサービス状態",
+    "statusUnsynced": "状態未同期",
+    "syncFailed": "受付状態の同期に失敗しました：{error}",
+    "tooltip": "カスタマーサービス · {status}"
+  },
+  "space": {
+    "enterprise": "企業スペース",
+    "enterpriseCode": "企業コード {code}",
+    "entryAria": "現在のスペース：{name}、{meta}",
+    "pendingSuffix": " · 未処理 {count} 件",
+    "personal": "個人スペース",
+    "personalAccount": "個人アカウント",
+    "tooltip": "スペース · {name} · {meta}"
+  },
+  "statusCenter": "状態センター"
+}

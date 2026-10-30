@@ -1,0 +1,78 @@
+{
+  "status": "completed",
+  "catalogVersion": "0.3.0",
+  "locales": 35,
+  "arbKeysPerLocale": 1040,
+  "totalArbValues": 36400,
+  "originalSixArbsAndPublicApiUnchanged": true,
+  "fallback": {
+    "sharedArbProfileExclusiveKeysPerNewLocale": 5,
+    "newLocaleCount": 29,
+    "profileEnglishFallbackValues": 145,
+    "sdkChromeSharedKeys": 18,
+    "sdkChromeEnglishFallbackKeys": 59,
+    "webSharedKeys": 45,
+    "webEnglishFallbackKeys": 101,
+    "legalBodies": "unchanged existing resources/fallback"
+  },
+  "verification": {
+    "catalogDartContractTests": 24,
+    "exporterBoundaryTests": 5,
+    "rendererTests": 5,
+    "flutterTargetedTests": 38,
+    "webExistingTests": 54,
+    "webLocale35Tests": 6,
+    "browserLocaleSwitches": 35,
+    "nativeReferenceLocaleMappings": 47,
+    "mobileAnalysisErrors": 0,
+    "mobileAnalysisWarnings": 0,
+    "webTypecheck": "passed",
+    "webBuild": "passed",
+    "sdkSyncCheck": "passed",
+    "sdkSourceIndependence": "passed",
+    "independentReview": "passed"
+  },
+  "delivery": {
+    "version": "0.3.0",
+    "file": "deliverables/im_l10n_catalog-0.3.0.zip",
+    "bytes": 2690727,
+    "files": 753,
+    "sha256": "4d91dea1af8120f7f901ae7839364c1cfd45f0e4ce80187a138834ed120713b9",
+    "remotePublished": false
+  },
+  "cleanup": {
+    "status": "passed",
+    "removedAllocatedBytes": 103272448,
+    "sourceAndArtifactHashesUnchanged": true,
+    "sdkIndexAndStatusUnchangedByCleanup": true,
+    "readOnlyProjects": {
+      "chat": {
+        "headUnchanged": true,
+        "statusUnchanged": true,
+        "writesByThisTask": false
+      },
+      "host": {
+        "headUnchanged": true,
+        "statusUnchanged": true,
+        "writesByThisTask": false
+      }
+    },
+    "oldArchivesUnchanged": true,
+    "newArchiveAll753FilesEqualCurrentSource": true,
+    "retained": [
+      "Source/ARB/generated Dart and TypeScript",
+      "0.3.0 local archive, old archives, evidence/screenshots",
+      "SDK project-local native hook dependency outputs",
+      "Web/dist current usable browser output",
+      "Ln18 example previews and dependency caches"
+    ]
+  },
+  "notPerformed": [
+    "Physical-device acceptance",
+    "Real MediaServiceClient integration/backend acceptance",
+    "Every screen visual/font/translation quality review in35 languages",
+    "New native SDK binaries or remote release"
+  ],
+  "committed": false,
+  "pushed": false
+}

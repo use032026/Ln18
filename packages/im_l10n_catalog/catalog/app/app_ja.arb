@@ -1,0 +1,75 @@
+{
+  "@@locale": "ja",
+  "appRuntimeLoadFailed": "アカウントデータを読み込めませんでした",
+  "privacyConsentTitle": "利用規約とプライバシーポリシー",
+  "privacyConsentBodyAndroid": "{brand}をご利用いただきありがとうございます。アカウントログイン、インスタントメッセージ、企業コラボレーション、オンラインカスタマーサービス、通知、安全保護を提供するため、利用規約とプライバシーポリシーに従って必要な情報を処理します。\n\n同意するまでは、クリップボード情報を読み取らず、JPush/JCore または端末メーカーのプッシュ SDK を初期化せず、これらの SDK を通じて Android ID、OAID、インストール済みアプリ一覧、MAC アドレスなどを取得しません。今は同意しない場合、その選択を保存します。文書を引き続き確認し、後から選択し直すことができます。\n\n同意後、メッセージ、カスタマーサービス、着信通知を届けるため、JPush/JCore および端末メーカーのプッシュサービスが、端末モデル、Android バージョン、アプリのパッケージ名とバージョン、ネットワーク種類、IP アドレス、Android ID、OAID、プッシュ Registration ID、メーカーのプッシュ Token、通知の配信・クリック情報を処理する場合があります。スマートプッシュ、インストール済みアプリ一覧、MAC、IMEI、IMSI、Wi-Fi 一覧、自動起動、関連起動など不要な機能は無効にしています。\n\nクリップボードはコピーまたは貼り付けをユーザーが実行した場合にのみ使用します。カメラ、マイク、通知などのシステム権限は、該当機能を使用するときにのみ要求します。個別の権限を拒否しても、その機能にのみ影響します。以下の全文を確認し、同意するか選択してください。",
+  "privacyConsentBodyIos": "{brand}をご利用いただきありがとうございます。アカウントログイン、インスタントメッセージ、企業コラボレーション、オンラインカスタマーサービス、通知、安全保護を提供するため、利用規約とプライバシーポリシーに従って必要な情報を処理します。\n\n同意するまでは、クリップボード情報を読み取らず、JPush/JCore を初期化せず、Apple Push Notification service（APNs）への登録も行いません。また、JPush の Registration ID や APNs デバイストークンなどのプッシュ識別子も取得しません。今は同意しない場合、その選択を保存します。文書を引き続き確認し、後から選択し直すことができます。\n\n同意後、メッセージ、カスタマーサービス、着信通知を届けるため、iPhone のモデル、iOS のバージョン、アプリのパッケージ名とバージョン、ネットワークの種類、IP アドレス、IDFV、JPush の Registration ID、APNs デバイストークン、通知の配信・クリック情報を処理する場合があります。JPush/JCore はプッシュサービスへの接続に使用し、Apple APNs はシステム通知の配信に必要なアプリ識別子、デバイストークン、通知内容を処理します。現在の iOS 版では広告サービスを利用せず、IDFA を取得しません。\n\nクリップボードはコピーまたは貼り付けをユーザーが実行した場合にのみ使用します。カメラ、マイク、通知などのシステム権限は、該当機能を使用するときにのみ要求します。個別の権限を拒否しても、その機能にのみ影響します。以下の全文を確認し、同意するか選択してください。",
+  "privacyConsentTermsLink": "利用規約",
+  "privacyConsentConjunction": "と",
+  "privacyConsentPrivacyLink": "プライバシーポリシー",
+  "privacyConsentDecline": "同意しない",
+  "privacyConsentDeclinedExit": "利用規約とプライバシーポリシーに同意しなかったため、アプリを終了します。",
+  "privacyConsentAccept": "同意する",
+  "privacyConsentRuntimeFailure": "起動に失敗しました。ネットワークを確認して再試行してください。",
+  "privacyConsentSaveFailure": "選択を保存できませんでした。再試行してください。",
+  "appUpdateRequiredTitle": "続行するには更新が必要です",
+  "appUpdateOptionalTitle": "新しいバージョンがあります",
+  "appUpdateVersionAvailable": "{brand} {version} に更新できます",
+  "appUpdateLater": "後で",
+  "appUpdateNow": "今すぐ更新",
+  "appUpdateProcessing": "処理中...",
+  "appUpdateInvalidUrl": "更新先が無効です。しばらくしてから再試行してください。",
+  "appUpdateOpenUrlFailed": "更新リンクを開けませんでした。しばらくしてから再試行してください。",
+  "appUpdateDownloadInterrupted": "ダウンロードが中断されました。ネットワークを確認して再試行してください。",
+  "appUpdatePackageVerificationFailed": "パッケージの検証に失敗しました。もう一度ダウンロードしてください。",
+  "appUpdatePermissionDenied": "システム設定で{brand}による更新のインストールを許可してください。",
+  "appUpdateOpenInstallerFailed": "システムインストーラーを開けませんでした。インストール権限を確認してください。",
+  "appUpdateGenericFailure": "更新に失敗しました。ネットワークを確認して再試行してください。",
+  "appUpdateUnavailable": "新しいバージョンはまだダウンロードできません。しばらくしてからお試しください。",
+  "appUpdateCheckFailed": "更新を確認できませんでした。しばらくしてから再試行してください。",
+  "appUpdateChecking": "確認中",
+  "privacySettingsTitle": "プライバシー",
+  "privacySearchableByMobile": "電話番号での検索を許可",
+  "privacySearchableByLppId": "StartLink IDでの検索を許可",
+  "privacyAllowFriendRequest": "友達申請を許可",
+  "privacyProfileVisibility": "プロフィールの公開範囲",
+  "privacyEveryone": "全員",
+  "privacyFriendsOfFriends": "友達の友達",
+  "privacyNobody": "非公開",
+  "privacyFriendsOnly": "友達のみ",
+  "privacySaveSuccess": "設定を保存しました",
+  "privacySaveFailed": "保存に失敗しました。もう一度お試しください",
+  "termsTitle": "利用規約",
+  "privacyPolicyTitle": "プライバシーポリシー",
+  "permissionGroupManageDenied": "グループ設定を変更できるのはグループの所有者または管理者のみです。",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "グループ名を変更できるのはグループの所有者または管理者のみです。",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "このグループではメンバー同士の友だち追加が許可されていません。",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "この組織では顧客間の交流が制限されているため、顧客を友だちに追加できません。",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "公式サイトで最新版を表示",
+  "legalOfficialOpenFailed": "公式ページを開けないため、ローカルのバックアップを表示しています。",
+  "legalLocalChineseNotice": "ローカルの規約バックアップは簡体字中国語で提供されています。",
+  "legalPlatformDocumentTitle": "{title}（{platform}）",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

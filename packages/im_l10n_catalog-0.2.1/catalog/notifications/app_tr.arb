@@ -1,0 +1,53 @@
+{
+  "@@locale": "tr",
+  "notificationTitle": "Bildirimler",
+  "notificationGlobalMute": "Rahatsız etmeyin",
+  "notificationSound": "Ses",
+  "notificationVibration": "Titreşim",
+  "notificationPreview": "Mesaj önizlemesi",
+  "notificationDndStart": "Rahatsız etmeyin başlangıcı",
+  "notificationDndEnd": "Rahatsız etmeyin bitişi",
+  "notificationNewMessageTitle": "Yeni StartLink mesajı",
+  "notificationOnlineServiceTitle": "Yeni müşteri hizmetleri mesajı",
+  "notificationNewMessageBody": "Yeni bir mesaj aldınız",
+  "notificationImagePreview": "Bir görsel gönderdi",
+  "notificationVideoPreview": "Bir video gönderdi",
+  "notificationVoicePreview": "Bir sesli mesaj gönderdi",
+  "notificationFilePreview": "Bir dosya gönderdi",
+  "notificationContactPreview": "Bir kişi kartı gönderdi",
+  "notificationCallLogPreview": "Bir arama kaydı gönderdi",
+  "notificationLocationPreview": "Bir konum paylaştı",
+  "notificationLinkPreview": "Bir bağlantı paylaştı",
+  "notificationMentionMe": "Sizden bahsetti: {body}",
+  "notificationMentionMeBy": "{sender} sizden bahsetti: {body}",
+  "notificationMentionAll": "Herkesten bahsetti: {body}",
+  "notificationMentionAllBy": "{sender} herkesten bahsetti: {body}",
+  "notificationSecurityTitle": "Hesap güvenliği uyarısı",
+  "notificationSecurityBody": "StartLink hesap güvenliği ayarlarınız değişti. Şimdi inceleyin.",
+  "notificationFriendAcceptedTitle": "Arkadaşlık isteği kabul edildi",
+  "notificationFriendRejectedTitle": "Arkadaşlık isteği reddedildi",
+  "notificationFriendAcceptedBody": "Karşı taraf arkadaşlık isteğinizi kabul etti",
+  "notificationFriendRejectedBody": "Karşı taraf arkadaşlık isteğinizi reddetti",
+  "notificationVideoCallTitle": "Görüntülü arama daveti",
+  "notificationAudioCallTitle": "Sesli arama daveti",
+  "notificationVideoCallBody": "{caller} sizi görüntülü aramaya davet etti",
+  "notificationAudioCallBody": "{caller} sizi sesli aramaya davet etti",
+  "notificationMessageChannelName": "Mesajlar",
+  "notificationMessageChannelDescription": "Sohbet mesajları, arama kayıtları ve sistem uyarıları",
+  "notificationCallChannelName": "Aramalar",
+  "notificationCallChannelDescription": "Sesli ve görüntülü arama uyarıları",
+  "notificationSecurityChannelName": "Hesap güvenliği",
+  "notificationSecurityChannelDescription": "Giriş, parola ve cep telefonu numarası değişikliği uyarıları",
+  "notificationUnknownCaller": "Bilinmeyen arayan",
+  "notificationBadgeChannelName": "Mesaj rozetleri",
+  "notificationBadgeChannelDescription": "Uygulama simgesinde okunmamış mesaj sayısı",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} okunmamış mesaj} other {{count} okunmamış mesaj}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ okunmamış mesaj"
+}

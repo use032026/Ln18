@@ -1,0 +1,370 @@
+{
+  "@@locale": "hu",
+  "contactsTitle": "Névjegyek",
+  "contactsSearch": "Névjegyek keresése",
+  "contactsNewFriends": "Új barátok",
+  "contactsGroups": "Csoportok",
+  "contactsFavorites": "Kedvencek",
+  "contactsRecent": "Legutóbbiak",
+  "contactsOrganization": "Szervezet",
+  "contactsAnnouncement": "Közlemények",
+  "contactsNewApplications": "Új kérelmek",
+  "contactsCustomerGroups": "Ügyfélcsoportok",
+  "contactsAllCustomers": "Összes ügyfél",
+  "contactsMyCustomers": "Saját ügyfelek",
+  "contactsViewAll": "Összes megtekintése",
+  "contactsMyContacts": "Saját névjegyek",
+  "contactsMyAdvisor": "Saját tanácsadó",
+  "contactsNoAdvisor": "Még nincs kijelölt tanácsadó",
+  "contactsAdvisorLoading": "Betöltés...",
+  "contactsNavigateFailed": "A navigáció sikertelen. Próbálja újra.",
+  "contactsEmpty": "Nincsenek névjegyek",
+  "contactsNoAnnouncement": "Nincsenek közlemények",
+  "contactsOfficialBadge": "Hivatalos",
+  "contactsCustomerBadge": "Ügyfél",
+  "contactsEmptyCustomers": "Nincsenek ügyfelek",
+  "friendAddTitle": "Névjegy hozzáadása",
+  "friendSearchHint": "Telefon / e-mail / StartLink-azonosító",
+  "friendRequestSent": "Barátkérelem elküldve",
+  "friendRequestFailed": "A küldés sikertelen. Próbálja újra.",
+  "friendAlreadyFriend": "Már névjegyek",
+  "friendNewFriendsTitle": "Új barátok",
+  "friendNoRequests": "Nincsenek barátkérelmek",
+  "friendAccept": "Elfogadás",
+  "friendReject": "Elutasítás",
+  "friendAccepted": "Elfogadva",
+  "friendRejected": "Elutasítva",
+  "friendDeleteConfirm": "Eltávolítja ezt a névjegyet?",
+  "friendDeleteSuccess": "Névjegy eltávolítva",
+  "friendDeleteFailed": "Az eltávolítás sikertelen. Próbálja újra.",
+  "friendRemarkName": "Becenév",
+  "friendGroupName": "Csoport",
+  "friendSendMessage": "Üzenet",
+  "friendMatchTypeLppId": "Találat StartLink-azonosító alapján",
+  "friendMatchTypeMobile": "Találat telefonszám alapján",
+  "friendMatchTypeEmail": "Találat e-mail alapján",
+  "friendSearchEmpty": "Nem található felhasználó",
+  "friendAddMessage": "Szeretném hozzáadni Önt a névjegyeimhez",
+  "friendBlockConfirm": "Letiltja ezt a felhasználót?",
+  "friendUnblockConfirm": "Feloldja a felhasználó tiltását?",
+  "friendBlockSuccess": "Letiltva",
+  "friendUnblockSuccess": "Tiltás feloldva",
+  "searchTitle": "Keresés",
+  "searchHint": "Keresés telefonszám, e-mail vagy StartLink-azonosító alapján",
+  "searchNoResults": "Nincs találat",
+  "searchMessages": "Üzenetek",
+  "searchUsers": "Felhasználók",
+  "searchFailed": "A keresés sikertelen. Próbálja újra.",
+  "scanTitle": "Beolvasás",
+  "scanFailed": "A felismerés sikertelen. Próbálja újra.",
+  "scanInvalidQrCode": "Érvénytelen QR-kód",
+  "scanFlashOn": "Zseblámpa bekapcsolása",
+  "scanFlashOff": "Zseblámpa kikapcsolása",
+  "scanAlbum": "Kiválasztás az albumból",
+  "blacklistTitle": "Letiltva",
+  "blacklistEmpty": "Nincsenek letiltott felhasználók",
+  "blacklistRemove": "Tiltás feloldása",
+  "blacklistRemoveConfirm": "Feloldja a felhasználó tiltását?",
+  "addFriendTitle": "Névjegy hozzáadása",
+  "addFriendSearchHint": "Telefon / e-mail / StartLink-azonosító",
+  "addFriendLppIdLabel": "StartLink-azonosító: {lppId}",
+  "addFriendButton": "Hozzáadás",
+  "addFriendCannotAddSelf": "Nem adhatja hozzá saját magát",
+  "addFriendUnsupportedUser": "Ez a felhasználó nem adható hozzá. Közvetlenül üzenhet neki.",
+  "addFriendMessageHint": "Írjon be üzenetet",
+  "addFriendSendRequest": "Kérelem küldése",
+  "scanAlreadyGroupMember": "Ön már ebben a csoportban van",
+  "scanCameraInitializing": "A kamera indul. Próbálja rövidesen újra.",
+  "scanCameraPermissionRequired": "Engedélyezze a kamerát a QR-kódok beolvasásához",
+  "scanCameraStartFailed": "Nem sikerült elindítani a kamerát. Próbálja később újra.",
+  "scanCameraStarting": "Kamera indítása",
+  "scanCameraUnsupported": "Ez az eszköz nem támogatja a QR-beolvasást",
+  "scanDesktopAlbumUnsupported": "QR-kódok képből olvasása számítógépen nem elérhető",
+  "scanDesktopUnsupported": "A QR-beolvasás számítógépen nem elérhető. Használja a mobilalkalmazást.",
+  "scanEnterGroup": "Csoportbeszélgetés megnyitása",
+  "scanFallbackFriendName": "Névjegy",
+  "scanFrameHint": "Helyezze a QR-kódot a keretbe az automatikus beolvasáshoz",
+  "scanFriendAddUnavailable": "Ezt a névjegyet most nem adhatja hozzá ezzel a QR-kóddal",
+  "scanFriendAdded": "Most már névjegyek",
+  "scanFriendBlocked": "Ez a személy most nem fogadhatja a barátkérelmét",
+  "scanFriendIsolation": "Ezt a névjegyet nem adhatja hozzá a jelenlegi térben",
+  "scanFriendQrExhausted": "Ez a QR-kód elérte a használati korlátot. Kérjen új kódot.",
+  "scanFriendQrExpiredPreview": "A névjegy QR-kódja lejárt vagy nem elérhető",
+  "scanFriendQrRevoked": "Ez a QR-kód már nem érvényes. Kérjen új kódot.",
+  "scanFriendRequestPending": "Barátkérelem elküldve. Jóváhagyásra vár.",
+  "scanFriendRequestsDisabled": "Ez a személy nem fogad barátkérelmeket",
+  "scanGroupApprovalHint": "E csoporthoz csatlakozáshoz a tulajdonos vagy rendszergazda jóváhagyása szükséges",
+  "scanGroupJoinFailed": "Nem sikerült beküldeni a csoporthoz csatlakozási kérelmet",
+  "scanGroupJoinPending": "Csoporthoz csatlakozási kérelem elküldve. Jóváhagyásra vár.",
+  "scanGroupJoinUnavailable": "Most nem csatlakozhat e csoporthoz ezzel a QR-kóddal",
+  "scanGroupJoined": "Csatlakozott a csoporthoz",
+  "scanGroupPermissionDenied": "Nincs engedélye e csoporthoz csatlakozni ezzel a QR-kóddal",
+  "scanGroupProcessFailed": "Nem sikerült feldolgozni a csoport QR-kódját",
+  "scanGroupQrDisabled": "A tulajdonos vagy rendszergazda letiltotta a QR-kódos csatlakozást",
+  "scanGroupQrExhausted": "Ez a QR-kód elérte a használati korlátot. Kérjen új kódot egy csoporttagtól.",
+  "scanGroupQrExpired": "Ez a QR-kód lejárt. Kérjen új kódot egy csoporttagtól.",
+  "scanGroupQrRevoked": "Ezt a QR-kódot visszavonták. Kérjen új kódot egy csoporttagtól.",
+  "scanGroupQrUnavailable": "Ez a QR-kód már nem érvényes. Kérjen új kódot egy csoporttagtól.",
+  "scanGroupScannerInvalid": "Ez a fiók nem csatlakozhat ehhez a csoporthoz",
+  "scanImageReadFailed": "Nem sikerült beolvasni a képet. Próbálja újra.",
+  "scanIncomingFriendRequest": "Ez a személy már küldött Önnek barátkérelmet. Először ellenőrizze azt.",
+  "scanInvalidGroupQr": "Érvénytelen csoport-QR-kód",
+  "scanInviterDeleted": "Ezt a felhasználói fiókot törölték",
+  "scanJoinGroup": "Csatlakozás a csoporthoz",
+  "scanJoinGroupConfirmation": "Csatlakozik ehhez a csoporthoz?",
+  "scanMutualFriendsOnly": "Ez a személy csak közös baráttal rendelkezőktől fogad kérelmet",
+  "scanNoQrFound": "Nem található QR-kód",
+  "scanOwnQr": "Ez a saját QR-kódja",
+  "scanPluginUnavailable": "A beolvasás nem elérhető. Zárja be teljesen az alkalmazást, és próbálja újra.",
+  "scanProcessFailed": "Nem sikerült feldolgozni a QR-kódot",
+  "scanQrExpired": "Ez a QR-kód lejárt",
+  "scanQrUnavailableTitle": "A QR-kód már nem érvényes",
+  "scanSendFriendConfirmation": "Küld barátkérelmet?",
+  "scanTorchFailed": "Nem sikerült átkapcsolni a zseblámpát. Próbálja később újra.",
+  "scanTorchUnavailable": "Ezen az eszközön nincs zseblámpa",
+  "scanUnsupportedQr": "Ez a QR-kód nem támogatott",
+  "contactsRequestsUnavailable": "A barátkérelmek átmenetileg nem elérhetők",
+  "contactsTryLater": "Próbálja később újra",
+  "contactsQrSource": "QR-kód",
+  "contactsRequestStatusInvalid": "Érvénytelen állapot",
+  "contactsCustomerTagFilter": "Ügyfélcímke-szűrő",
+  "contactsOverviewTitle": "Ügyfelek áttekintése",
+  "contactsLoaded": "Betöltve",
+  "contactsAssigned": "Kijelölve",
+  "contactsUnassigned": "Nincs kijelölve",
+  "contactsCustomerDataError": "Nem sikerült betölteni az ügyfeleket. Ellenőrizze a kapcsolatot vagy bejelentkezési állapotot, és próbálja újra.",
+  "contactsTagFilter": "Szűrés címke szerint",
+  "contactsReassign": "Újbóli kijelölés",
+  "contactsCustomersLoadFailed": "Nem sikerült betölteni az ügyfeleket",
+  "contactsNoAssigned": "Nincsenek kijelölt ügyfelek",
+  "contactsNoUnassigned": "Nincs kijelöletlen ügyfél",
+  "contactsDirectoryDenied": "Szerepköre nem érheti el az ügyfélcímtárat",
+  "contactsApplicationAccessDenied": "Csak a szervezet rendszergazdái vagy tulajdonosai láthatják az új kérelmeket",
+  "contactsApplicationsUnavailable": "A csatlakozási kérelmek átmenetileg nem elérhetők",
+  "contactsPullToRetry": "Nem sikerült betölteni. Húzza le a frissítéshez, és próbálja újra.",
+  "contactsApplicationApproved": "Kérelem jóváhagyva",
+  "contactsApplicantUnavailable": "A kérelmező részletei átmenetileg nem elérhetők",
+  "contactsApplicationApprove": "Teljesítve",
+  "contactsApplicationAccepted": "Jóváhagyott",
+  "contactsFriendRequests": "Barátkérelmek",
+  "contactsRecentActive": "Nemrég aktív",
+  "contactsRecentActiveUnavailable": "A legutóbbi ügyfélaktivitás átmenetileg nem elérhető",
+  "contactsMyCustomersRetry": "Nem sikerült betölteni az ügyfeleit. Koppintson az újrapróbáláshoz.",
+  "contactsLoadRetry": "Nem sikerült betölteni a névjegyeket. Koppintson az újrapróbáláshoz.",
+  "contactsLoadFailed": "Nem sikerült betölteni a névjegyeket",
+  "contactsNoCustomerYet": "Még nincsenek ügyfelek",
+  "contactsInviteCustomerHint": "Hívjon meg ügyfeleket QR-kódja vagy szervezeti kódja megosztásával",
+  "contactsShareQr": "Saját QR-kód megosztása",
+  "contactsScanFriendHint": "Olvassa be a QR-kódot barátkérelem küldéséhez",
+  "contactsQrToken": "QR-kód azonosítója",
+  "contactsQrUsage": "Használatok száma",
+  "contactsQrNote": "Alapértelmezett megjegyzés",
+  "contactsCopyQr": "QR-kód tartalmának másolása",
+  "contactsGeneratingQr": "Videó létrehozása..",
+  "contactsRegenerateQr": "Új QR-kód létrehozása",
+  "contactsQrLoadFailed": "Nem sikerült betölteni a QR-kódot",
+  "contactsSearchGroups": "Csoportok keresése",
+  "contactsNoMatchingGroups": "Nincs megfelelő csoportbeszélgetés",
+  "contactsCreateGroupHint": "Csoportbeszélgetés indításához koppintson a jobb felső + jelre",
+  "contactsGroupOverview": "Csoportfelügyelet áttekintése",
+  "contactsGroupsLabel": "Csoportok",
+  "contactsCurrentFilter": "Jelenlegi szűrő",
+  "contactsFreeze": "Befagyasztás",
+  "contactsRisk": "Kockázat",
+  "contactsGroupStatisticsUnavailable": "A csoportfelügyeleti statisztikák átmenetileg nem elérhetők",
+  "contactsGroupList": "Csoportlista",
+  "contactsNoGroupData": "Nincs elérhető csoport",
+  "contactsNoMatchingGroupData": "Nincs megfelelő csoport",
+  "contactsGroupDataUnavailable": "A csoportok most nem jeleníthetők meg. Próbálja később újra.",
+  "contactsFrozen": "Befagyasztva",
+  "contactsNormal": "Aktív",
+  "contactsGroupSupervisionDetail": "Csoportfelügyelet részletei",
+  "contactsFreezeStatus": "Befagyasztás állapota",
+  "contactsRiskStatus": "Kockázati állapot",
+  "contactsGroupId": "Csoportazonosító",
+  "contactsUnfreeze": "Feloldás",
+  "contactsAdminMuteAll": "Minden csoporttag némítása",
+  "contactsAdminMembers": "Csoporttagok kezelése",
+  "contactsForceDissolve": "Kényszerített feloszlatás",
+  "contactsAdminDissolve": "Csoport kényszerített feloszlatása",
+  "contactsNoCustomerContacts": "Még nincsenek ügyfélnévjegyek",
+  "contactsNoMatchingCustomers": "Nincs megfelelő ügyfél",
+  "contactsCustomerContactsRetry": "Nem sikerült betölteni az ügyfélnévjegyeket. Koppintson az újrapróbáláshoz.",
+  "contactsFriendsOnlySetting": "Ez a beállítás csak barátoknál elérhető",
+  "contactsHandleFriendRequest": "Barátkérelem áttekintése",
+  "contactsSaved": "Mentve",
+  "contactsPrivateGender": "Nem (csak Ön látja)",
+  "contactsTags": "Címkék",
+  "contactsMoreInfo": "További információ",
+  "contactsMutualGroupsHeading": "Közös csoportok",
+  "contactsNone": "Nincs",
+  "contactsSource": "Forrás",
+  "contactsAddedAt": "Hozzáadva",
+  "contactsGroupOpenFailed": "Ez a csoportbeszélgetés most nem nyitható meg",
+  "contactsMutualGroups": "Közös csoportok",
+  "contactsMutualGroupsSyncing": "Közös csoportok szinkronizálása",
+  "contactsNoMutualGroups": "Nincsenek közös csoportok",
+  "contactsDiscardTitle": "Elveti a módosításokat?",
+  "contactsUnsavedChanges": "Módosításai nincsenek mentve.",
+  "contactsContinueEditing": "Szerkesztés folytatása",
+  "contactsDiscardChanges": "Módosítások elvetése",
+  "contactsEditRemark": "Megjegyzés szerkesztése",
+  "contactsAddRemark": "Megjegyzés hozzáadása",
+  "contactsAddTag": "Címke hozzáadása",
+  "contactsAddText": "Szöveg hozzáadása",
+  "contactsEditTags": "Címkék szerkesztése",
+  "contactsAddedTags": "Hozzáadott címkék",
+  "contactsEnterTag": "Adjon meg címkét",
+  "contactsProfileLoadFailed": "Nem sikerült betölteni a profilt. Próbálja újra.",
+  "contactsDeleteFriend": "Barát törlése",
+  "contactsFriendSettings": "Barát beállításai",
+  "contactsBlockUser": "Felhasználó letiltása",
+  "contactsDeleting": "Törlés…",
+  "contactsReassignHint": "Válasszon új ügyintézőt. A kapcsolódó ügyfélszolgálati beszélgetések is átadásra kerülnek.",
+  "contactsAssignOwnerOnly": "Ez a fiók nem jelölhet ki ügyintézőket. Használjon szervezettulajdonosi fiókot.",
+  "contactsAssignRetry": "Nem sikerült ügyintézőt kijelölni. Próbálja később újra.",
+  "contactsEnterpriseTags": "Szervezeti címkék",
+  "contactsTagsCommaHint": "A címkéket vesszővel válassza el",
+  "contactsEnterpriseTagsSaved": "Szervezeti címkék mentve",
+  "contactsTagsSaveFailed": "Nem sikerült menteni a címkéket. Próbálja később újra.",
+  "contactsSharedTagsHint": "Ügyfélszűrésre használható, a szervezeten belül megosztva",
+  "contactsOwnerActionsHint": "A tulajdonosok módosíthatják az ügyfél kijelölt ügyintézőjét. Az ügyfélszolgálati beszélgetési rekordok átmenetileg nem elérhetők.",
+  "contactsViewChatInfo": "Beszélgetési adatok megtekintése",
+  "contactsCustomerServiceGroups": "Az ügyfél ügyfélszolgálati csoportjai",
+  "contactsCannotAddFriend": "Barátok hozzáadása jelenleg nem elérhető",
+  "contactsSaving": "Mentés..",
+  "contactsRequestSource": "Kérelem forrása: {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "Barátkérelmet küldött · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, one {{count} ügyfél betöltve} other {{count} ügyfél betöltve}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Kijelölt ügyintéző: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Hivatkozás: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "Függőben ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Feldolgozva ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Érvényes eddig: {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Korlátlan",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Olvassa be a barátként hozzáadáshoz",
+  "contactsItemCount": "{count, plural, one {{count} csoport} other {{count} csoport}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Becenév: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Régió: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Eredeti becenév: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "Törli {name} felhasználót a barátai közül? A meglévő beszélgetési előzmények megmaradnak.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Kijelölve neki: {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Az ügyfélbeszélgetések nem elérhetők",
+  "contactsCustomerChatUnavailable": "Az ügyfél ügyfélszolgálati beszélgetései most nem tekinthetők meg. Próbálja később újra."
+}

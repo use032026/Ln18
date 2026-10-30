@@ -1,0 +1,74 @@
+[
+  {
+    "step": "sync",
+    "command": [
+      "python3",
+      "scripts/sync-l10n.py"
+    ],
+    "exitCode": 0,
+    "seconds": 0.13,
+    "log": "evidence/full-integration-pc-sync.log"
+  },
+  {
+    "step": "check",
+    "command": [
+      "python3",
+      "scripts/sync-l10n.py",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.11,
+    "log": "evidence/full-integration-pc-check.log"
+  },
+  {
+    "step": "equivalence",
+    "command": [
+      "python3",
+      "/Users/starburst/Desktop/Ln18/tool/check_pc_equivalence.py",
+      "--pc-root",
+      "/Users/starburst/chat-im-cs/lpp/lpp_pc_client"
+    ],
+    "exitCode": 0,
+    "seconds": 0.43,
+    "log": "evidence/full-integration-pc-equivalence.log"
+  },
+  {
+    "step": "typecheck",
+    "command": [
+      "npm",
+      "run",
+      "typecheck"
+    ],
+    "exitCode": 0,
+    "seconds": 8.24,
+    "log": "evidence/full-integration-pc-typecheck.log"
+  },
+  {
+    "step": "boundaries",
+    "command": [
+      "node",
+      "scripts/check-i18n-boundaries.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.14,
+    "log": "evidence/full-integration-pc-boundaries.log"
+  },
+  {
+    "step": "tests",
+    "command": [
+      "npx",
+      "vitest",
+      "--configLoader",
+      "runner",
+      "run",
+      "tests/unit/i18n.spec.ts",
+      "tests/unit/i18n-boundaries.spec.ts",
+      "tests/unit/i18n-display-keys.spec.ts",
+      "--pool=forks",
+      "--maxWorkers=1"
+    ],
+    "exitCode": 0,
+    "seconds": 1.65,
+    "log": "evidence/full-integration-pc-tests.log"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "@@locale": "nl",
+  "officialAccountBadge": "Officieel",
+  "officialAccountOpenConversation": "Gesprek openen",
+  "officialAccountJoinHint": "Door dit account toe te voegen wordt u klant van het bedrijf. Goedkeuring als vriend is niet nodig.",
+  "officialAccountJoinDisabled": "Dit bedrijf accepteert momenteel geen nieuwe klanten. Neem contact op met ondersteuning.",
+  "officialAccountRemoved": "U bent uit dit bedrijf verwijderd. Vraag het bedrijf u opnieuw uit te nodigen.",
+  "officialAccountBanned": "Uw account is in dit bedrijf uitgeschakeld.",
+  "officialAccountUnavailable": "Dit officiële account is momenteel niet beschikbaar.",
+  "officialAccountJoinBindingDisabled": "In de huidige modus is lid worden van een bedrijf niet toegestaan.",
+  "officialAccountPlatformRequired": "Gebruik een platformaccount om dit officiële account toe te voegen.",
+  "officialAccountOpenFailed": "Het gesprek kon niet worden geopend. Probeer het opnieuw.",
+  "officialAccountAccountChanged": "Het account of de ruimte is gewijzigd. Open het opnieuw.",
+  "officialAccountDirectoryUnavailable": "De bedrijfsgids is niet actueel. Probeer het binnenkort opnieuw.",
+  "officialAccountInboxSyncFailed": "Synchroniseren van officieel account mislukt. Lokale inhoud blijft beschikbaar.",
+  "officialAccountInboxSyncing": "Berichten van officieel account synchroniseren",
+  "officialIdentityQr": "Profiel en QR-code van officieel account",
+  "officialIdentityHint": "Beheer de officiële identiteit die uw klanten zien",
+  "officialEditProfile": "Profiel bewerken",
+  "officialSetIdentityHint": "Stel het nummer, de naam en de profielfoto van het officiële account in",
+  "officialQrTitle": "QR-code van officieel account",
+  "officialViewReset": "Bekijken of opnieuw instellen",
+  "officialAutoJoin": "Automatisch lid worden van de organisatie bij toevoegen van het officiële account",
+  "officialAutoJoinHint": "Klanten worden automatisch lid van de klantruimte van de organisatie wanneer zij het officiële account toevoegen",
+  "officialConversationFeatures": "Gespreksfuncties",
+  "officialConversationSettingsHint": "Wijzigingen hebben direct effect op officiële klantgesprekken",
+  "officialServiceMenu": "Servicemenu",
+  "officialServiceMenuHint": "Klanten het menu tonen dat in de desktopconsole is ingesteld",
+  "officialWelcomeOnFirstContact": "Welkom bij eerste contact",
+  "officialWelcomeMessage": "Welkomstbericht",
+  "officialHumanSupport": "Overdragen aan menselijke medewerkers",
+  "officialReceptionModeHint": "Nieuwe of heropende ontvangsten gebruiken de geselecteerde modus. Actieve gesprekken behouden hun huidige modus.",
+  "officialReceptionMode": "Ontvangstmodus servicemedewerkers",
+  "officialReceptionInOfficial": "In het gesprek met het officiële account",
+  "officialReceptionLegacy": "Aparte medewerkerschat (oude modus)",
+  "officialServiceNotice": "Ontvangstmelding",
+  "officialServiceNoticeText": "Tekst van ontvangstmelding",
+  "officialAutoHandoff": "Automatisch overdragen aan medewerker",
+  "officialAutoHandoffHint": "Een medewerker toewijzen wanneer een klant het officiële account een bericht stuurt",
+  "officialForwardCustomerText": "Klantbericht doorsturen",
+  "officialForwardCustomerTextHint": "Het klantbericht na overdracht doorgeven aan de toegewezen medewerker",
+  "officialSyncAgentReplies": "Antwoorden van medewerkers naar officieel account synchroniseren",
+  "officialSyncAgentRepliesHint": "In de oude modus antwoorden van medewerkers doorgeven aan het officiële gesprek",
+  "officialHandoffCooldown": "Wachttijd tussen overdrachtsmeldingen",
+  "officialAssignedNotice": "Bericht voor toegewezen medewerker",
+  "officialQueuedNotice": "Wachtrijbericht",
+  "officialDesktopManagementHint": "Beheer menustructuur, wachtwoorden en officiële groepen in de desktopconsole.",
+  "officialSaveFailed": "Opslaan mislukt. Probeer het later opnieuw.",
+  "officialCooldownRange": "Bereik: 0–1440 minuten",
+  "officialMenuItems": "Menu-items",
+  "officialMenuVersion": "Menuversie",
+  "officialEnabled": "Ingeschakeld",
+  "officialManageDenied": "Dit account mag geen officiële accounts beheren",
+  "officialSettingsLoadFailed": "Instellingen van officieel account konden niet worden geladen",
+  "officialProfileSaved": "Profiel van officieel account opgeslagen",
+  "officialProfileTitle": "Profiel van officieel account",
+  "officialDisplayName": "Weergavenaam",
+  "officialAvatarUrl": "URL van profielfoto",
+  "officialAvatarLogoFallback": "Laat leeg om het organisatielogo te gebruiken",
+  "officialIdHint": "6–10 cijfers; laat leeg om te ontkoppelen",
+  "officialResetQr": "QR-code opnieuw instellen",
+  "officialResetQrConfirm": "De oude QR-code werkt direct niet meer. Opnieuw instellen?",
+  "officialReset": "Opnieuw instellen",
+  "officialQrNotGenerated": "Er is nog geen QR-code gemaakt",
+  "officialQrLoadFailed": "QR-code kon niet worden geladen. Probeer het opnieuw.",
+  "officialGenerate": "Creëer",
+  "officialMenuCustomerOnly": "Contact met ondersteuning is alleen beschikbaar voor klanten",
+  "officialMenuUpdated": "Het menu is gewijzigd. Probeer het opnieuw.",
+  "officialMenuActionFailed": "Actie mislukt. Controleer uw verbinding en probeer het opnieuw.",
+  "officialMenuLoadFailed": "Servicemenu kon niet worden geladen",
+  "officialMenuRefreshFailed": "Servicemenu kon niet worden vernieuwd",
+  "officialAccountIdValue": "Officieel account {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minuut} other {{count} minuten}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Ondersteunt de tijdelijke aanduidingen {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {{count} keer gebruikt} other {{count} keer gebruikt}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "De naam moet 1–64 tekens bevatten",
+  "officialIdFormatInvalid": "Het officiële accountnummer moet 6–10 cijfers bevatten"
+}

@@ -1,0 +1,53 @@
+{
+  "@@locale": "pl",
+  "notificationTitle": "Powiadomienia",
+  "notificationGlobalMute": "Nie przeszkadzać",
+  "notificationSound": "Dźwięk",
+  "notificationVibration": "Wibracje",
+  "notificationPreview": "Podgląd wiadomości",
+  "notificationDndStart": "Początek trybu Nie przeszkadzać",
+  "notificationDndEnd": "Koniec trybu Nie przeszkadzać",
+  "notificationNewMessageTitle": "Nowa wiadomość StartLink",
+  "notificationOnlineServiceTitle": "Nowa wiadomość obsługi klienta",
+  "notificationNewMessageBody": "Otrzymano nową wiadomość",
+  "notificationImagePreview": "Wysłano obraz",
+  "notificationVideoPreview": "Wysłano wideo",
+  "notificationVoicePreview": "Wysłano wiadomość głosową",
+  "notificationFilePreview": "Wysłano plik",
+  "notificationContactPreview": "Wysłano wizytówkę",
+  "notificationCallLogPreview": "Wysłano zapis połączenia",
+  "notificationLocationPreview": "Udostępniono lokalizację",
+  "notificationLinkPreview": "Udostępniono łącze",
+  "notificationMentionMe": "Wspomniano o tobie: {body}",
+  "notificationMentionMeBy": "{sender} wspomina o tobie: {body}",
+  "notificationMentionAll": "Wspomniano wszystkich: {body}",
+  "notificationMentionAllBy": "{sender} wspomina wszystkich: {body}",
+  "notificationSecurityTitle": "Alert bezpieczeństwa konta",
+  "notificationSecurityBody": "Ustawienia bezpieczeństwa konta StartLink zmieniły się. Sprawdź je teraz.",
+  "notificationFriendAcceptedTitle": "Zaproszenie do znajomych przyjęte",
+  "notificationFriendRejectedTitle": "Zaproszenie do znajomych odrzucone",
+  "notificationFriendAcceptedBody": "Rozmówca przyjął twoje zaproszenie do znajomych",
+  "notificationFriendRejectedBody": "Rozmówca odrzucił twoje zaproszenie do znajomych",
+  "notificationVideoCallTitle": "Zaproszenie do rozmowy wideo",
+  "notificationAudioCallTitle": "Zaproszenie do połączenia głosowego",
+  "notificationVideoCallBody": "{caller} zaprasza cię do połączenia wideo",
+  "notificationAudioCallBody": "{caller} zaprasza cię do połączenia głosowego",
+  "notificationMessageChannelName": "Wiadomości",
+  "notificationMessageChannelDescription": "Wiadomości czatu, zapisy połączeń i alerty systemowe",
+  "notificationCallChannelName": "Połączenia",
+  "notificationCallChannelDescription": "Alerty połączeń głosowych i wideo",
+  "notificationSecurityChannelName": "Bezpieczeństwo konta",
+  "notificationSecurityChannelDescription": "Alerty logowania oraz zmian hasła i numeru telefonu",
+  "notificationUnknownCaller": "Nieznany rozmówca",
+  "notificationBadgeChannelName": "Odznaki wiadomości",
+  "notificationBadgeChannelDescription": "Liczba nieprzeczytanych wiadomości na ikonie aplikacji",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} nieprzeczytana wiadomość} few {{count} nieprzeczytane wiadomości} other {{count} nieprzeczytanych wiadomości}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ nieprzeczytanych wiadomości"
+}

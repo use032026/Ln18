@@ -1,0 +1,57 @@
+{
+  "scope": "L10N-35-B",
+  "status": "passed",
+  "productionFiles": [
+    "packages/im_sdk/lib/core/providers/locale_provider.dart",
+    "packages/im_sdk/lib/sdk/im_sdk_models.dart",
+    "native/ios/Examples/MediaServiceClientPresentationAdapter.m"
+  ],
+  "flutter": {
+    "exitCode": 0,
+    "testCount": 38,
+    "log": "flutter-targeted.log",
+    "initialAttempt": {
+      "exitCode": 1,
+      "nativeHookExitCode": 64,
+      "cause": "Missing project-local sqlite3 hook.dill",
+      "repair": "Recompile missing hook snapshot with fixed Dart; no dependency or lock changes"
+    },
+    "attempts": 2
+  },
+  "referenceAdapter": {
+    "mappingChecks": 47,
+    "result": "passed",
+    "log": "reference-adapter-locale.log",
+    "framework": "Foundation only; extracted actual SDK helper, no host linked"
+  },
+  "analysis": {
+    "exitCode": 0,
+    "errors": 0,
+    "warnings": 0,
+    "log": "dart-analyze.log"
+  },
+  "semantics": {
+    "catalogLocales": 35,
+    "sdkPortuguese": [
+      "pt-BR",
+      "pt-PT"
+    ],
+    "arabicDirectionality": "rtl",
+    "backendTranslationTargets": "unchanged"
+  },
+  "cleanupCandidates": [
+    "packages/im_sdk/build",
+    ".codex-build/sdk-35-locales"
+  ],
+  "retain": [
+    ".work/tests/sdk_35_locales",
+    "logs/sdk-35-locales-20261029",
+    "packages/im_sdk/.dart_tool/hooks_runner"
+  ],
+  "notPerformed": [
+    "real device",
+    "real host integration",
+    "full UI visual/font QA across 35 languages",
+    "new SDK binary or release"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@@locale": "fr",
+  "notificationTitle": "Notifications",
+  "notificationGlobalMute": "Ne pas déranger",
+  "notificationSound": "Son",
+  "notificationVibration": "Vibration",
+  "notificationPreview": "Aperçu des messages",
+  "notificationDndStart": "Début du mode Ne pas déranger",
+  "notificationDndEnd": "Fin du mode Ne pas déranger",
+  "notificationNewMessageTitle": "Nouveau message StartLink",
+  "notificationOnlineServiceTitle": "Nouveau message du service client",
+  "notificationNewMessageBody": "Vous avez reçu un nouveau message",
+  "notificationImagePreview": "A envoyé une image",
+  "notificationVideoPreview": "A envoyé une vidéo",
+  "notificationVoicePreview": "A envoyé un message vocal",
+  "notificationFilePreview": "A envoyé un fichier",
+  "notificationContactPreview": "A envoyé une fiche de contact",
+  "notificationCallLogPreview": "A envoyé un journal d’appel",
+  "notificationLocationPreview": "A partagé une position",
+  "notificationLinkPreview": "A partagé un lien",
+  "notificationMentionMe": "Vous a mentionné : {body}",
+  "notificationMentionMeBy": "{sender} vous a mentionné : {body}",
+  "notificationMentionAll": "A mentionné tout le monde : {body}",
+  "notificationMentionAllBy": "{sender} a mentionné tout le monde : {body}",
+  "notificationSecurityTitle": "Alerte de sécurité du compte",
+  "notificationSecurityBody": "Les réglages de sécurité de votre compte StartLink ont changé. Vérifiez-les maintenant.",
+  "notificationFriendAcceptedTitle": "Demande d’ami acceptée",
+  "notificationFriendRejectedTitle": "Demande d’ami refusée",
+  "notificationFriendAcceptedBody": "L’autre personne a accepté votre demande d’ami",
+  "notificationFriendRejectedBody": "L’autre personne a refusé votre demande d’ami",
+  "notificationVideoCallTitle": "Invitation à un appel vidéo",
+  "notificationAudioCallTitle": "Invitation à un appel vocal",
+  "notificationVideoCallBody": "{caller} vous a invité à un appel vidéo",
+  "notificationAudioCallBody": "{caller} vous a invité à un appel vocal",
+  "notificationMessageChannelName": "Messages",
+  "notificationMessageChannelDescription": "Messages de discussion, journaux d’appels et alertes système",
+  "notificationCallChannelName": "Appels",
+  "notificationCallChannelDescription": "Alertes d’appels vocaux et vidéo",
+  "notificationSecurityChannelName": "Sécurité du compte",
+  "notificationSecurityChannelDescription": "Alertes de connexion et de changement de mot de passe ou de numéro de mobile",
+  "notificationUnknownCaller": "Appelant inconnu",
+  "notificationBadgeChannelName": "Badges de messages",
+  "notificationBadgeChannelDescription": "Nombre de messages non lus sur l’icône de l’application",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} message non lu} other {{count} messages non lus}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ messages non lus"
+}

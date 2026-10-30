@@ -1,0 +1,98 @@
+{
+  "@@locale": "en",
+  "chatGroupMemberCount": "({count})",
+  "@chatGroupMemberCount": {
+    "description": "Group member count in title",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {{count} new message} other {{count} new messages}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatInputHint": "Type a message...",
+  "@chatInputHint": {
+    "description": "chatInputHint"
+  },
+  "chatReadCount": "Read by {count}",
+  "@chatReadCount": {
+    "description": "Chat read count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatRecalledPeer": "{sender} recalled a message",
+  "@chatRecalledPeer": {
+    "description": "Peer recalled message",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReplyTo": "Reply to {sender}",
+  "@chatReplyTo": {
+    "description": "Reply preview sender",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "commonCancel": "Cancel",
+  "@commonCancel": {
+    "description": "Cancel button"
+  },
+  "commonConfirm": "OK",
+  "@commonConfirm": {
+    "description": "Confirm button"
+  },
+  "commonRetry": "Retry",
+  "@commonRetry": {
+    "description": "Retry"
+  },
+  "commonSave": "Save",
+  "@commonSave": {
+    "description": "Save button"
+  },
+  "commonSend": "Send message",
+  "@commonSend": {
+    "description": "Send"
+  },
+  "formatMinutesAgo": "{count, plural, one {{count} minute ago} other {{count} minutes ago}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {
+    "description": "Language"
+  },
+  "settingsSignOutDeviceConfirm": "Sign out “{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Settings title"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "@@locale": "zh",
+  "chatGroupMemberCount": "({count})",
+  "@chatGroupMemberCount": {
+    "description": "Group member count in title",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "有 {count} 条新消息",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatInputHint": "输入消息...",
+  "@chatInputHint": {
+    "description": "chatInputHint"
+  },
+  "chatReadCount": "已读 {count} 人",
+  "@chatReadCount": {
+    "description": "Chat read count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatRecalledPeer": "{sender}撤回了一条消息",
+  "@chatRecalledPeer": {
+    "description": "Peer recalled message",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReplyTo": "回复 {sender}",
+  "@chatReplyTo": {
+    "description": "Reply preview sender",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "commonCancel": "取消",
+  "@commonCancel": {
+    "description": "Cancel button"
+  },
+  "commonConfirm": "确定",
+  "@commonConfirm": {
+    "description": "Confirm button"
+  },
+  "commonRetry": "重试",
+  "@commonRetry": {
+    "description": "Retry"
+  },
+  "commonSave": "保存",
+  "@commonSave": {
+    "description": "Save button"
+  },
+  "commonSend": "发送消息",
+  "@commonSend": {
+    "description": "Send"
+  },
+  "formatMinutesAgo": "{count}分钟前",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsLanguage": "系统语言",
+  "@settingsLanguage": {
+    "description": "Language"
+  },
+  "settingsSignOutDeviceConfirm": "确定要让“{name}”退出登录吗？",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "设置",
+  "@settingsTitle": {
+    "description": "Settings title"
+  }
+}

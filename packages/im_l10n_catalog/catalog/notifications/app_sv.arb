@@ -1,0 +1,53 @@
+{
+  "@@locale": "sv",
+  "notificationTitle": "Aviseringar",
+  "notificationGlobalMute": "Stör ej",
+  "notificationSound": "Ljud",
+  "notificationVibration": "Vibration",
+  "notificationPreview": "Förhandsvisning av meddelanden",
+  "notificationDndStart": "Starttid för Stör ej",
+  "notificationDndEnd": "Sluttid för Stör ej",
+  "notificationNewMessageTitle": "Nytt StartLink-meddelande",
+  "notificationOnlineServiceTitle": "Nytt kundservicemeddelande",
+  "notificationNewMessageBody": "Du har fått ett nytt meddelande",
+  "notificationImagePreview": "Skickade en bild",
+  "notificationVideoPreview": "Skickade en video",
+  "notificationVoicePreview": "Skickade ett röstmeddelande",
+  "notificationFilePreview": "Skickade en fil",
+  "notificationContactPreview": "Skickade ett kontaktkort",
+  "notificationCallLogPreview": "Skickade en samtalspost",
+  "notificationLocationPreview": "Delade en plats",
+  "notificationLinkPreview": "Delade en länk",
+  "notificationMentionMe": "Nämnde dig: {body}",
+  "notificationMentionMeBy": "{sender} nämnde dig: {body}",
+  "notificationMentionAll": "Nämnde alla: {body}",
+  "notificationMentionAllBy": "{sender} nämnde alla: {body}",
+  "notificationSecurityTitle": "Kontosäkerhetsvarning",
+  "notificationSecurityBody": "Säkerhetsinställningarna för ditt StartLink-konto har ändrats. Kontrollera dem nu.",
+  "notificationFriendAcceptedTitle": "Vänförfrågan accepterad",
+  "notificationFriendRejectedTitle": "Vänförfrågan avvisad",
+  "notificationFriendAcceptedBody": "Den andra accepterade din vänförfrågan",
+  "notificationFriendRejectedBody": "Den andra avvisade din vänförfrågan",
+  "notificationVideoCallTitle": "Inbjudan till videosamtal",
+  "notificationAudioCallTitle": "Inbjudan till röstsamtal",
+  "notificationVideoCallBody": "{caller} bjöd in dig till ett videosamtal",
+  "notificationAudioCallBody": "{caller} bjöd in dig till ett röstsamtal",
+  "notificationMessageChannelName": "Meddelanden",
+  "notificationMessageChannelDescription": "Chattmeddelanden, samtalsposter och systemvarningar",
+  "notificationCallChannelName": "Samtal",
+  "notificationCallChannelDescription": "Aviseringar om röst- och videosamtal",
+  "notificationSecurityChannelName": "Kontosäkerhet",
+  "notificationSecurityChannelDescription": "Aviseringar om inloggning samt ändringar av lösenord och mobilnummer",
+  "notificationUnknownCaller": "Okänd uppringare",
+  "notificationBadgeChannelName": "Meddelandemärken",
+  "notificationBadgeChannelDescription": "Antal olästa meddelanden på appikonen",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} oläst meddelande} other {{count} olästa meddelanden}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ olästa meddelanden"
+}

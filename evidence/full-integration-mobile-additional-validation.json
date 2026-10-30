@@ -1,0 +1,79 @@
+[
+  {
+    "step": "format",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "format",
+      "lib/features/settings/presentation/pages/legal_document_page.dart",
+      "lib/features/settings/presentation/pages/auto_translate_page.dart",
+      "lib/core/providers/locale_provider.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 0.35
+  },
+  {
+    "step": "sync-check",
+    "command": [
+      "python3",
+      "tool/sync_l10n.py",
+      "--catalog-root",
+      "/Users/starburst/Desktop/Ln18/packages/im_l10n_catalog",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 1.09
+  },
+  {
+    "step": "equivalence",
+    "command": [
+      "python3",
+      "/Users/starburst/Desktop/Ln18/tool/check_mobile_supplemental_equivalence.py",
+      "--mobile-root",
+      "/Users/starburst/chat-im-cs/lpp/lpp_mobile"
+    ],
+    "exitCode": 0,
+    "seconds": 0.05
+  },
+  {
+    "step": "analyze",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "analyze",
+      "lib/features/settings/presentation/pages/legal_document_page.dart",
+      "lib/features/settings/presentation/pages/auto_translate_page.dart",
+      "lib/core/providers/locale_provider.dart",
+      "lib/generated/l10n/mobile_translation_examples.dart",
+      "lib/generated/l10n/mobile_supported_locales.dart",
+      "lib/generated/l10n/mobile_legal_documents.g.dart"
+    ],
+    "exitCode": 3,
+    "seconds": 1.8
+  },
+  {
+    "step": "guard",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "run",
+      "tool/check_i18n.dart"
+    ],
+    "exitCode": 1,
+    "seconds": 3.71
+  },
+  {
+    "step": "tests",
+    "command": [
+      ".fvm/flutter_sdk/bin/flutter",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "expanded",
+      "test/features/settings/presentation/pages/legal_document_page_test.dart",
+      "test/features/settings/presentation/pages/legal_shell_localization_test.dart",
+      "test/features/settings/presentation/pages/settings_localization_test.dart",
+      "test/features/settings/presentation/providers/auto_translate_provider_test.dart",
+      "test/core/providers/locale_provider_test.dart"
+    ],
+    "exitCode": 1,
+    "seconds": 17.23
+  }
+]

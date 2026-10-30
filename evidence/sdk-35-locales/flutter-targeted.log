@@ -1,0 +1,91 @@
+00:00 +0: loading /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart
+00:00 +0: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: generated locale declarations and public acceptance agree on all 35
+00:00 +1: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: region script and legacy host aliases preserve Portuguese variants
+00:00 +2: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: malformed unsupported and previously invalid Chinese tags remain rejected
+00:00 +3: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: generated Portuguese APIs use Brazilian and European source separately
+00:00 +4: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: the existing backend translation target contract is not broadened
+00:00 +5: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: runtime selection accepts 35 and invalid updates remain atomic
+[TokenRefresh] stopped
+[TokenRefresh] started, interval=45min
+[info] auth.logout_requested: auth.logout_requested {reason: userRequested, scopeFingerprint: 0f5e3bb35dba, activationFingerprint: 23e3e5793125}
+[TokenRefresh] stopped
+[AuthLogout] foreground logout completed in 8ms
+[AuthLogout] background cleanup completed in 9ms
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:00 +6: /Users/starburst/Desktop/IMSDK/.work/tests/sdk_35_locales/sdk_35_locales_test.dart: all 35 SDK surfaces load their locale and Arabic direction is RTL
+[TokenRefresh] stopped
+00:01 +7: loading /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart
+00:01 +7: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: SDK-owned wording survives extraction in all six languages
+00:02 +8: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: unknown SDK errors keep the existing safe localized fallback
+00:02 +9: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: shared ARB aliases still take precedence over SDK source text
+00:02 +10: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: target language names retain device-language and English fallback
+00:02 +11: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: file message resources preserve Simplified Chinese fallback and token
+00:02 +12: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/shared_l10n_resources_test.dart: legal resources preserve platform-specific and translated documents
+00:02 +13: loading /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart
+00:02 +13: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: host configuration boundary requires consent before any runtime can start
+00:02 +14: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: host configuration boundary rejects insecure or credential-bearing API endpoints
+00:02 +15: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: host configuration boundary limits gateway endpoints and local namespace
+00:02 +16: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: host configuration boundary compares all initialization inputs
+00:02 +17: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: credential boundary expiry boundary never accepts expired credentials
+00:02 +18: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: credential boundary requires refresh credential used by existing auth owner
+00:02 +19: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: credential boundary credential diagnostics do not reveal secrets or identity
+00:02 +20: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: credential boundary malformed native expiry fails explicitly
+00:02 +21: /Users/starburst/Desktop/IMSDK/packages/im_sdk/test/sdk/im_sdk_models_test.dart: customer service thread remains distinct from conversation
+00:02 +22: loading /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart
+00:03 +22: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: presentation defaults preserve Chinese locale and follow system theme
+00:03 +23: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: explicit host titles remain user content and omitted titles are defaults
+00:03 +24: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: all six languages and supported region/script aliases normalize
+00:03 +25: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK service defaults localize while identical host titles stay raw
+[info] auth.logout_requested: auth.logout_requested {reason: userRequested}
+[TokenRefresh] stopped
+[AuthLogout] foreground logout completed in 11ms
+[AuthLogout] background cleanup completed in 4ms
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:03 +26: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: runtime presentation update is atomic and keeps account runtime and draft
+[TokenRefresh] stopped
+[TokenRefresh] started, interval=45min
+[info] auth.logout_requested: auth.logout_requested {reason: userRequested, scopeFingerprint: 0f5e3bb35dba, activationFingerprint: 549948ddbe83}
+[TokenRefresh] stopped
+[AuthLogout] foreground logout completed in 4ms
+[AuthLogout] background cleanup completed in 3ms
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:04 +27: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: adjacent updates publish only the latest presentation
+[info] auth.logout_requested: auth.logout_requested {reason: userRequested}
+[TokenRefresh] stopped
+[AuthLogout] foreground logout completed in 0ms
+[AuthLogout] background cleanup completed in 0ms
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:04 +28: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes zh-CN
+[TokenRefresh] stopped
+00:04 +29: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes zh-TW
+[TokenRefresh] stopped
+00:04 +30: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes en
+[TokenRefresh] stopped
+00:04 +31: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes ja
+[TokenRefresh] stopped
+00:04 +32: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes ko
+[TokenRefresh] stopped
+00:04 +33: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: SDK login shell localizes vi
+[TokenRefresh] stopped
+00:04 +34: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: initializing a real client and updating appearance preserves login form and navigator
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:04 +35: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: system locale/brightness follow changes while explicit choices override them
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:04 +36: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: theme and locale updates retain authenticated navigator location
+[TokenRefresh] stopped
+[TokenRefresh] started, interval=45min
+[info] auth.logout_requested: auth.logout_requested {reason: userRequested, scopeFingerprint: 0f5e3bb35dba, activationFingerprint: 57704daf0123}
+[TokenRefresh] stopped
+[AuthLogout] foreground logout completed in 2ms
+[AuthLogout] background cleanup completed in 1ms
+[TokenRefresh] stopped
+[TokenRefresh] stopped
+00:04 +37: /Users/starburst/Desktop/IMSDK/.work/tests/presentation_sync/presentation_sync_test.dart: registration validation and loading accessibility follow SDK locale
+[TokenRefresh] stopped
+00:04 +38: All tests passed!

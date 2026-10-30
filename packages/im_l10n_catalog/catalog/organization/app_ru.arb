@@ -1,0 +1,626 @@
+{
+  "@@locale": "ru",
+  "enterpriseInfoTitle": "Информация о компании",
+  "enterpriseName": "Имя",
+  "enterpriseDescription": "Описание",
+  "enterpriseUpdateSuccess": "Успешно обновлено",
+  "enterpriseUpdateFailed": "Ошибка обновления. Повторите попытку",
+  "enterpriseLeave": "Выйти из компании",
+  "enterpriseLeaveConfirm": "Вы уверены, что хотите выйти из этой компании?",
+  "enterpriseLeaveSuccess": "Вы вышли из компании",
+  "enterpriseLeaveFailed": "Не удалось выйти. Повторите попытку",
+  "enterpriseLeaveOwnerError": "Владелец не может выйти напрямую. Сначала передайте права владельца.",
+  "enterpriseMemberCount": "Участники",
+  "enterpriseCreatedAt": "Создано",
+  "enterpriseCode": "Код компании",
+  "enterpriseInviteMembers": "Пригласить участников",
+  "enterpriseCopyInviteCode": "Копировать код приглашения",
+  "enterpriseInviteCodeCopied": "Код приглашения скопирован",
+  "groupCreateTitle": "Новая группа",
+  "groupNameHint": "Введите название группы",
+  "groupCreateSuccess": "Группа создана",
+  "groupCreateFailed": "Не удалось создать группу",
+  "groupSettings": "Настройки группы",
+  "groupName": "Название группы",
+  "groupAvatar": "Аватар группы",
+  "groupAnnouncement": "Объявление",
+  "groupMembers": "Участники",
+  "groupAddMember": "Добавить участников",
+  "groupRemoveMember": "Удалить участника",
+  "groupRemoveMemberConfirm": "Удалить этого участника?",
+  "groupSetAdmin": "Назначить администратором",
+  "groupRemoveAdmin": "Снять права администратора",
+  "groupTransferOwner": "Передать права владельца",
+  "groupTransferOwnerConfirm": "Передать права владельца группы этому участнику?",
+  "groupTransferOwnerSuccess": "Права владельца переданы",
+  "groupTransferOwnerFailed": "Не удалось передать. Повторите попытку",
+  "groupLeave": "Выйти из группы",
+  "groupLeaveConfirm": "Выйти из этой группы?",
+  "groupLeaveSuccess": "Вы вышли из группы",
+  "groupLeaveFailed": "Не удалось выйти. Повторите попытку",
+  "groupDissolve": "Распустить группу",
+  "groupDissolveConfirm": "Распустить эту группу? Все участники будут удалены.",
+  "groupDissolveSuccess": "Группа распущена",
+  "groupDissolveFailed": "Не удалось распустить. Повторите попытку",
+  "groupQrCode": "QR-код группы",
+  "groupMuteAll": "Запретить писать всем",
+  "groupMuteAllOn": "Включить запрет для всех",
+  "groupMuteAllOff": "Выключить запрет для всех",
+  "groupAllowMemberInvite": "Разрешить участникам приглашать",
+  "groupAllowMemberModifyTitle": "Разрешить участникам менять название группы",
+  "groupAllowMemberAtAll": "Разрешить участникам упоминать @Всех",
+  "groupAllowMemberViewMemberList": "Разрешить участникам видеть список участников",
+  "groupAllowQrCodeJoin": "Разрешить вход по QR-коду",
+  "groupRequireApproval": "Требовать одобрение для вступления",
+  "groupAllowMemberAddFriend": "Разрешить участникам добавлять друг друга",
+  "groupRoleOwner": "Владелец",
+  "groupRoleAdmin": "Администратор",
+  "groupRoleMember": "Участник",
+  "groupNoMembers": "Нет участников",
+  "groupNoAnnouncements": "Нет объявлений",
+  "groupCreateAnnouncement": "Опубликовать объявление",
+  "groupEditAnnouncement": "Изменить объявление",
+  "groupDeleteAnnouncement": "Удалить объявление",
+  "groupDeleteAnnouncementConfirm": "Удалить это объявление?",
+  "groupAnnouncementTitle": "Заголовок",
+  "groupAnnouncementContent": "Содержание",
+  "groupAnnouncementPin": "Закрепить объявление",
+  "groupMemberCount": "Участников: {count}",
+  "groupSelectedCount": "Выбрано: {count}",
+  "groupJoinRequestApprove": "Согласен",
+  "groupJoinRequestReject": "Отклонить",
+  "groupJoinRequests": "Заявки на вступление",
+  "groupNoJoinRequests": "Нет заявок на вступление",
+  "groupReadReceipts": "Отчёты о прочтении",
+  "groupReadCount": "Прочитали: {count}",
+  "groupUnreadCount": "Непрочитанных: {count}",
+  "organizationTitle": "Организация",
+  "organizationEmpty": "Нет информации об отделе",
+  "organizationMembers": "Участники",
+  "organizationDepartment": "Отдел",
+  "organizationPosition": "Должность",
+  "organizationLeader": "Руководитель",
+  "qrCodeTitle": "Мой QR-код",
+  "qrCodeSave": "Сохранить в альбом",
+  "qrCodeShare": "Поделиться",
+  "qrCodeSaveSuccess": "Сохранено в альбом",
+  "qrCodeSaveFailed": "Не удалось сохранить. Повторите попытку",
+  "qrCodeRefresh": "Обновить QR-код",
+  "qrCodeExpired": "Срок QR-кода истёк. Обновите его",
+  "qrCodeScanToAdd": "Отсканируйте, чтобы добавить меня в контакты",
+  "spacePersonal": "Личное",
+  "spaceEnterprise": "Компания",
+  "spaceJoinByCode": "Вступить по коду компании",
+  "spaceJoinByInvite": "Вступить по коду приглашения",
+  "spaceEnterCode": "Введите код компании",
+  "spaceEnterInviteCode": "Введите код приглашения",
+  "spaceSearchEnterprise": "Найти компанию",
+  "spaceJoinRequestSent": "Заявка отправлена, ожидает одобрения",
+  "spaceJoinRequestPending": "Ожидает одобрения",
+  "spaceJoinRequestApproved": "Заявка одобрена",
+  "spaceJoinRequestRejected": "Заявка отклонена",
+  "spaceAlreadyMember": "Вы уже участник",
+  "spaceAutoApproved": "Одобрено автоматически. Добро пожаловать!",
+  "spacePendingApprovalHint": "Регистрация завершена. Заявка на вступление отправлена.",
+  "spaceNoSpaces": "Нет пространств",
+  "spaceInviteExpired": "Срок кода приглашения истёк",
+  "spaceInviteTargetMismatch": "Этот код приглашения предназначен не для вашего аккаунта",
+  "spaceAcceptInviteSuccess": "Вы успешно вступили в компанию",
+  "spaceAcceptInviteFailed": "Не удалось вступить. Повторите попытку",
+  "spaceTenantSelectTitle": "Выберите пространство",
+  "spaceTenantSelectHint": "Выберите пространство для входа",
+  "spaceEnterPersonal": "Войти в личное пространство",
+  "spaceEnterEnterprise": "Войти в пространство компании",
+  "recentContactsTitle": "Недавние",
+  "recentContactsEmpty": "Нет недавних контактов",
+  "inviteFriendsTitle": "Пригласить друзей",
+  "inviteFriendsCopyLink": "Копировать ссылку приглашения",
+  "inviteFriendsLinkCopied": "Ссылка приглашения скопирована",
+  "pendingJoinRequestsTitle": "Новые заявки",
+  "pendingJoinRequestsEmpty": "Нет заявок",
+  "pendingJoinRequestApprove": "Согласен",
+  "pendingJoinRequestReject": "Отклонить",
+  "pendingJoinRequestApproveSuccess": "Одобрено",
+  "pendingJoinRequestRejectSuccess": "Отклонено",
+  "pendingJoinRequestFailed": "Не удалось выполнить действие. Повторите попытку",
+  "groupListTitle": "Группы",
+  "groupListEmpty": "Нет групп",
+  "joinCompanyTitle": "Вступить в компанию",
+  "joinCompanyCodeHint": "Введите код компании",
+  "joinCompanySearchHint": "Поиск по названию компании",
+  "joinCompanyApply": "Подать заявку на вступление",
+  "joinCompanyApplySuccess": "Заявка отправлена",
+  "joinCompanyApplyFailed": "Не удалось подать заявку. Повторите попытку",
+  "joinCompanyAutoApproved": "Одобрено автоматически. Добро пожаловать!",
+  "joinCompanyPending": "Заявка отправлена, ожидает одобрения",
+  "joinCompanyInviteCodeHint": "Введите код приглашения",
+  "joinCompanyAcceptInvite": "Принять приглашение",
+  "joinCompanyNoResults": "Компании не найдены",
+  "joinCompanyMemberCount": "Участников: {count}",
+  "approvalEmpty": "Нет запросов",
+  "approvalApprove": "Согласен",
+  "approvalReject": "Отклонить",
+  "approvalPending": "Ожидает",
+  "approvalApproved": "Одобрено",
+  "approvalRejected": "Отклонено",
+  "approvalExpired": "Истёк",
+  "approvalCancelled": "Отменён",
+  "approvalReplayFailed": "Исходное действие не выполнено. Повторите его.",
+  "requestCancelled": "Запрос отменён",
+  "enterpriseNoPermission": "Нет разрешения",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Настройки информации о компании",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Конфигурация компании",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Официальные аккаунты",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Управление официальными аккаунтами",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Управление участниками",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Пригласить сотрудников",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Участники",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Управление объявлениями",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Рассылка компании",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Одобрения",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Одобрение членства",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Передать права владельца",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "После передачи вы станете администратором. Действие необратимо. Выберите нового владельца в списке участников.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Выберите нового владельца",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Режим назначения оператора",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Автоматическое назначение",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Указанный оператор",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Режим одобрения членства",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ручное одобрение",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Автоматическое одобрение",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Режим дружбы",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Социальный режим",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Режим изоляции",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Доступ посетителей через виджет",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Выключено",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Автоматически назначать доступных операторов по очереди",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Назначать всех клиентов указанному оператору",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Заявки клиентов требуют одобрения администратора",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Автоматически одобрять заявки клиентов",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Клиенты могут добавлять друг друга в друзья",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Клиенты не могут добавлять друг друга в друзья",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Участник",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Поиск участников",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Назначить участником",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Назначить технической поддержкой",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Назначить оператором поддержки",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Подтвердить передачу",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Название компании обязательно",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Введите название компании",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Нет описания",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Логотип компании",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Создание не удалось. Пожалуйста, попробуйте еще раз",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Максимум использований",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Срок действия ордера",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 час",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 часа",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 дня",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 дней",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Создать код приглашения",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Код приглашения",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Все",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Сотрудники",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Поиск сотрудников, ролей или должностей",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Участники компании",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Нет подходящих участников",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Обзор компании",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Управление",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Разрешения роли",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Передача дел при увольнении",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Поиск сотрудников",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Сотрудники компании",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Профиль друга",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Голосовые и видеозвонки",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Добавить в друзья",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Мужской",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Женский",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Нет непрочитанных бесед",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Код приглашения скопирован",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Удалить «{name}» из компании?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Передать права владельца «{name}»? Вы станете администратором. Действие необратимо.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} использование} few {{count} использования} many {{count} использований} other {{count} использования}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Действует {hours} ч · Не более {count} использований",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} непрочитанная беседа} few {{count} непрочитанные беседы} many {{count} непрочитанных бесед} other {{count} непрочитанной беседы}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} непрочитанное сообщение} few {{count} непрочитанных сообщения} many {{count} непрочитанных сообщений} other {{count} непрочитанного сообщения}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID пузыря: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Выйти из компании",
+  "enterpriseLoginBeforeSearch": "Войдите перед поиском организации",
+  "enterpriseSearchFailed": "Ошибка поиска. Повторите попытку.",
+  "enterpriseLoginBeforeJoin": "Войдите перед подачей заявки на вступление в организацию",
+  "enterpriseApplicationPending": "Заявка отправлена. Ожидается одобрение администратора.",
+  "enterpriseLoginBeforeAction": "Войдите, чтобы продолжить",
+  "enterprisePlatformTagline": "Прямое взаимодействие организаций с клиентами",
+  "enterpriseLookupHint": "Введите номер организации, псевдоним или код приглашения",
+  "enterpriseLookup": "Поиск",
+  "enterpriseApplicationNote": "Заметка к заявке (необязательно)",
+  "enterpriseLookupGuide": "Ищите по номеру или псевдониму организации либо вступите по коду приглашения",
+  "enterpriseRecommendationsLoading": "Загрузка рекомендуемых организаций",
+  "enterpriseRecommendationsFailed": "Не удалось загрузить рекомендуемые организации",
+  "enterpriseReload": "Обновить",
+  "enterpriseNoRecommendations": "Нет рекомендаций. Ищите по номеру организации, псевдониму или коду приглашения.",
+  "enterpriseRecommended": "Рекомендуемые организации",
+  "enterpriseJoined": "Вы вступили",
+  "enterpriseRequestsLoadFailed": "Не удалось загрузить заявки",
+  "enterpriseCodeMissing": "Номер организации недоступен",
+  "enterpriseAlias": "Псевдоним организации",
+  "enterpriseCodeLabel": "Номер организации",
+  "enterprisePrivateAliasHint": "Организация не опубликовала сведения. В заявке она будет обозначена этим псевдонимом.",
+  "enterpriseInvitationMismatch": "Этот код приглашения предназначен не вам. Вступление может не удаться.",
+  "enterpriseTechnicalRole": "Техническая поддержка",
+  "enterpriseJoin": "Вступить",
+  "enterpriseCancelApplication": "Отменить",
+  "enterpriseApplication": "Заявка организации",
+  "enterpriseAliasValue": "Псевдоним организации: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Номер организации: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Псевдоним: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Вы вступите с ролью «{role}»",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Этот код приглашения предназначен: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Причина отказа: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Организация {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Все",
+  "enterpriseAudienceAllHint": "Сотрудники и клиенты",
+  "enterpriseAudienceStaffHint": "Только сотрудники организации",
+  "enterpriseAudienceCustomers": "Клиенты организации",
+  "enterpriseAudienceCustomersHint": "Клиенты, вступившие в организацию",
+  "enterpriseOfficialGroups": "Официальные группы",
+  "enterpriseAudienceGroupsHint": "Официальные групповые чаты организации",
+  "enterpriseSendNow": "Отправить сейчас",
+  "enterpriseSendScheduled": "Запланировать отправку",
+  "enterprisePreviewing": "Предпросмотр",
+  "enterprisePreview": "Предпросмотр",
+  "enterpriseSubmitSend": "Отправить на доставку",
+  "enterpriseBroadcastSubmitted": "Рассылка организации отправлена",
+  "enterpriseScheduledUnavailable": "Отложенные рассылки организации недоступны в этой версии",
+  "enterpriseBroadcastFailed": "Ошибка рассылки организации. Повторите попытку позже.",
+  "enterpriseBroadcastGuide": "Рассылки используют официальный аккаунт организации, а действие фиксируется. Результаты доставки доступны после отправки.",
+  "enterpriseSenderIdentity": "Отправитель",
+  "enterpriseSenderAfterPreview": "Подтвердите в предпросмотре",
+  "enterpriseSenderConfirmed": "Подтверждено",
+  "enterpriseDefaultOfficialSender": "Официальный аккаунт организации по умолчанию",
+  "enterpriseOfficialSenderHint": "Получатели видят официальный аккаунт организации",
+  "enterpriseMessageContent": "Текст сообщения",
+  "enterpriseBroadcastContentHint": "Введите текст рассылки от официального аккаунта",
+  "enterpriseInternalNoteHint": "Внутренняя заметка для аудита и последующей работы (необязательно)",
+  "enterpriseSendPreview": "Предпросмотр отправки",
+  "enterpriseExpectedRecipients": "Примерное число получателей",
+  "enterpriseDeliveryMethod": "Способ доставки",
+  "enterpriseTaskStatus": "Статус задания",
+  "enterpriseNoBroadcastHistory": "Рассылок организации пока нет",
+  "enterpriseHistoryUnavailable": "Временно недоступно",
+  "enterpriseBroadcastDenied": "Нет права на рассылки организации",
+  "enterpriseBroadcastRoleHint": "Рассылки организации доступны только администраторам и владельцам.",
+  "enterpriseDefaultApplicationMessage": "Хочу вступить в вашу организацию"
+}

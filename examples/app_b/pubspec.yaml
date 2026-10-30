@@ -1,0 +1,23 @@
+name: im_l10n_app_b
+description: Host example controlling an independently localized SDK widget.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  sdk_ui_demo:
+    path: ../../packages/sdk_ui_demo
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

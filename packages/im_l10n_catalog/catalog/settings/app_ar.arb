@@ -1,0 +1,471 @@
+{
+  "@@locale": "ar",
+  "settingsTitle": "الإعدادات",
+  "settingsSectionEnterprise": "المؤسسة",
+  "settingsSectionAccount": "الحساب",
+  "settingsSectionGeneral": "عام",
+  "settingsSectionFeatures": "الميزات",
+  "settingsSectionAbout": "حول",
+  "settingsEnterpriseInfo": "معلومات المؤسسة",
+  "settingsProfile": "ملفي",
+  "settingsAccountSecurity": "أمان الحساب",
+  "settingsNotification": "الإشعارات",
+  "settingsDisplay": "العرض",
+  "settingsFriendPrivacy": "الخصوصية",
+  "settingsChat": "المحادثة",
+  "settingsChatHistory": "سجل المحادثات",
+  "settingsAbout": "حول StartLink",
+  "settingsLanguage": "اللغة",
+  "settingsTimezone": "المنطقة الزمنية",
+  "settingsAutoTranslate": "الترجمة التلقائية",
+  "settingsNetworkSwitch": "تبديل الخط",
+  "aboutTitle": "حول StartLink",
+  "aboutVersion": "الإصدار",
+  "aboutTerms": "اتفاقية المستخدم",
+  "aboutPrivacy": "سياسة الخصوصية",
+  "aboutOpenSource": "تراخيص المصادر المفتوحة",
+  "aboutCheckUpdate": "البحث عن تحديثات",
+  "aboutLatestVersion": "أنت تستخدم أحدث إصدار",
+  "aboutUpdateAvailable": "الإصدار الجديد متوفر",
+  "aboutUpdateNow": "التحديث الآن",
+  "aboutUpdateLater": "لاحقًا",
+  "networkTitle": "تبديل الخط",
+  "networkAutoSelect": "تلقائي",
+  "networkManual": "يدوي",
+  "timezoneTitle": "المنطقة الزمنية",
+  "timezoneAuto": "اتباع النظام",
+  "displayTitle": "العرض",
+  "displayFontSize": "حجم الخط",
+  "displayChatBackground": "خلفية المحادثة",
+  "displayDarkMode": "المظهر",
+  "displayDarkModeSystem": "اتباع النظام",
+  "displayDarkModeSystemHint": "التبديل تلقائيًا حسب إعداد النظام",
+  "displayDarkModeOff": "فاتح",
+  "displayDarkModeOffHint": "استخدام المظهر الفاتح دائمًا",
+  "displayDarkModeOn": "داكن",
+  "displayDarkModeOnHint": "استخدام المظهر الداكن دائمًا",
+  "accountSecurityTitle": "أمان الحساب",
+  "accountSecurityChangePassword": "تغيير كلمة المرور",
+  "accountSecurityChangeMobile": "تغيير رقم الجوال",
+  "accountSecurityChangeEmail": "تغيير البريد الإلكتروني",
+  "accountSecurityLoggedDevices": "الأجهزة المسجّل دخولها",
+  "accountSecurityDeactivate": "إغلاق الحساب",
+  "accountSecurityDeactivateConfirm": "ستُحذف جميع البيانات نهائيًا بعد 7 أيام. هل تريد إغلاق الحساب؟",
+  "loggedDevicesTitle": "الأجهزة المسجّل دخولها",
+  "loggedDevicesCurrent": "هذا الجهاز",
+  "loggedDevicesRevoke": "تسجيل الخروج",
+  "loggedDevicesRevokeConfirm": "هل تريد تسجيل الخروج من هذا الجهاز؟",
+  "loggedDevicesRevokeSuccess": "تم تسجيل الخروج من الجهاز",
+  "loggedDevicesRevokeFailed": "فشلت العملية، حاول مجددًا",
+  "loggedDevicesLastActive": "آخر نشاط",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "الويب",
+  "loggedDevicesTypeDesktop": "سطح المكتب",
+  "loggedDevicesTypeUnknown": "جهاز غير معروف",
+  "fontSizeTitle": "حجم الخط",
+  "fontSizeSmall": "صغير",
+  "fontSizeNormal": "عادي",
+  "fontSizeLarge": "كبير",
+  "fontSizeExtraLarge": "كبير جدًا",
+  "fontSizePreview": "معاينة",
+  "timezoneNameHawaii": "هاواي",
+  "timezoneNameAlaska": "ألاسكا",
+  "timezoneNamePacificTime": "توقيت المحيط الهادئ",
+  "timezoneNameMountainTime": "التوقيت الجبلي",
+  "timezoneNameCentralTime": "التوقيت المركزي",
+  "timezoneNameEasternTime": "التوقيت الشرقي",
+  "timezoneNameAtlanticTime": "توقيت المحيط الأطلسي",
+  "timezoneNameBrasilia": "برازيليا",
+  "timezoneNameAzores": "الأزور",
+  "timezoneNameLondonDublin": "لندن/دبلن",
+  "timezoneNameBerlinParisRome": "برلين/باريس/روما",
+  "timezoneNameCairoHelsinki": "القاهرة/هلسنكي",
+  "timezoneNameMoscowRiyadh": "موسكو/الرياض",
+  "timezoneNameTehran": "طهران",
+  "timezoneNameDubaiBaku": "دبي/باكو",
+  "timezoneNameKabul": "كابول",
+  "timezoneNameKarachiTashkent": "كراتشي/طشقند",
+  "timezoneNameMumbaiNewDelhi": "مومباي/نيودلهي",
+  "timezoneNameKathmandu": "كاتماندو",
+  "timezoneNameDhakaAlmaty": "دكا/ألماتي",
+  "timezoneNameYangon": "يانغون",
+  "timezoneNameBangkokHanoiJakarta": "بانكوك/هانوي/جاكرتا",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "بكين/شنغهاي/هونغ كونغ/تايبيه",
+  "timezoneNameTokyoSeoul": "طوكيو/سيول",
+  "timezoneNameAdelaide": "أديلايد",
+  "timezoneNameSydneyMelbourne": "سيدني/ملبورن",
+  "timezoneNameSolomonIslands": "جزر سليمان",
+  "timezoneNameAucklandFiji": "أوكلاند/فيجي",
+  "networkSmartSelectBestRoute": "اختيار أفضل مسار بذكاء",
+  "networkTesting": "جارٍ الاختبار...",
+  "networkTestingShort": "جارٍ الاختبار",
+  "networkLatencyMs": "زمن الاستجابة {ms} مللي ثانية",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "وضع الاتصال",
+  "networkDirectMode": "الوضع المباشر",
+  "networkProxyMode": "وضع الوكيل",
+  "networkDirectModeDesc": "الاتصال بالخادم مباشرة",
+  "networkProxyModeDesc": "الاتصال عبر خادم وكيل",
+  "networkDirectRoutes": "المسارات المباشرة",
+  "networkProxyRoutes": "مسارات الوكيل",
+  "networkTestAll": "اختبار الكل",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "عقدة هونغ كونغ",
+  "networkSingaporeNode": "عقدة سنغافورة",
+  "networkJapanNode": "عقدة اليابان",
+  "networkUnitedStatesNode": "عقدة الولايات المتحدة",
+  "networkHint": "نصائح:\n• الوضع المباشر: أسرع ومناسب للاستخدام المحلي\n• وضع الوكيل: أكثر استقرارًا للتواصل عبر الحدود\n• انقر على أيقونة التحديث لاختبار زمن استجابة مسار واحد",
+  "diagnosticsTitle": "التشخيص",
+  "diagnosticsExplanation": "أُخفيت البيانات الحساسة في السجلات، وهي تحتوي على معلومات العمليات والأخطاء لهذا الحساب والمساحة، بالإضافة إلى أحداث بدء التشغيل العامة. ولا تشمل محتوى المحادثات أو بيانات الاعتماد.",
+  "diagnosticsHour": "آخر ساعة",
+  "diagnosticsDay": "آخر 24 ساعة",
+  "diagnosticsWeek": "7 أيام",
+  "diagnosticsEventCount": "الأحداث المتاحة: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "تُحفظ السجلات على هذا الجهاز وتبقى متاحة بعد إعادة التشغيل.",
+  "diagnosticsNotPersistent": "لم تُحفظ بعض السجلات. حدّث لإعادة المحاولة.",
+  "diagnosticsExport": "تصدير ومشاركة",
+  "diagnosticsRefresh": "تحديث",
+  "diagnosticsClear": "مسح سجلات هذه المساحة",
+  "diagnosticsClearConfirm": "هل تريد مسح سجلات التشخيص لهذه المساحة؟ سيُحتفظ بسجل المحادثات.",
+  "diagnosticsShared": "اكتملت مشاركة النظام. تحقق من الملف في التطبيق المستلِم.",
+  "diagnosticsCancelled": "أُلغيت المشاركة. يمكنك التصدير مجددًا.",
+  "diagnosticsUnconfirmed": "تعذّر تأكيد المشاركة. تحقق من التطبيق المستلِم.",
+  "diagnosticsFailed": "فشلت العملية. حاول مجددًا.",
+  "settingsDeleteWarning": "يؤدي حذف حسابك إلى إزالة جميع عضوياتك في المؤسسات. لا يمكن استعادة سجل الرسائل.\n\nلديك فترة انتظار مدتها 7 أيام، ويمكنك تسجيل الدخول مجددًا لإلغاء الحذف.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "متابعة الحذف",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "التأكيد النهائي",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "هل تريد حذف حسابك؟ يصبح الحذف نهائيًا بعد 7 أيام.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "سبب الحذف (اختياري)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "طُلب الحذف. سجّل الدخول خلال 7 أيام لإلغائه.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "تأكيد حذف الحساب",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "تعذّر حذف الحساب. حاول مجددًا.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "لا يستطيع المستخدمون المحظورون مراسلتك أو عرض ملفك الشخصي وتحديثاتك.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "المحادثة",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "اضغط Enter للإرسال",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "فشل التحميل، اضغط لإعادة المحاولة",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "الموافقة على إشعارات الرسائل",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "موافق",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "غير موافق",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "إذن إشعارات النظام",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "تشغيل",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "معطل",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "غير معروف",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "غير مدعوم",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "جارٍ التحقق",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "فشل التحقق",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "المكالمات الواردة بملء الشاشة",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "انقر للتحقق والسماح",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "تنبيهات المكالمات بملء الشاشة مفعّلة",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "اسمح بتنبيهات المكالمات بملء الشاشة في إعدادات النظام.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "جدول عدم الإزعاج",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "غير محدد",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "تفعيل إشعارات الرسائل",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "عند التفعيل، قد تعالج JPush/JCore وخدمات الدفع على الجهاز معلومات الجهاز ومعرّفات الدفع وبيانات التسليم لتنبيهات الرسائل وخدمة العملاء والمكالمات. يمكنك إيقاف الإشعارات في إعدادات النظام.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "لا تزال الإشعارات معطلة. اسمح بإشعارات Weijie في إعدادات النظام.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (ليلًا)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "إيقاف عدم الإزعاج",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "لم يُختبر",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "غير متاح",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "البديل الأساسي",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "المسار غير متاح. احتُفظ بمسارك الحالي.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "المواقع المتاحة",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "تعذّر تحديث المسارات. احتُفظ بمسارك الحالي.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "جارٍ التحديث",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "تحديث المواقع",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "تأتي المسارات من إعدادات رسمية موثّقة. يستعيد بدء التشغيل المسار الأخير ثم يحدّثه من المصادر الحالية والمخزنة مؤقتًا والأولية وS3/R2. يحظى الاختيار اليدوي بالأولوية؛ وعند الفشل يُحتفظ بالمسار الحالي.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "جهاز غير معروف",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "تسجيل الخروج",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "الحالي",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "تعذّر تحميل الأجهزة",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "لا توجد أجهزة مسجّل دخولها",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "معاينة",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "يعرض هذا النص التجريبي حجم الخط. اختر حجمًا يجعل المحادثة مريحة لك.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "جميع الحقوق محفوظة",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "مثال للترجمة",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "الأصل (الإنجليزية)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "اللغة المستهدفة",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "نصائح:\n• تستخدم الترجمة التلقائية الذكاء الاصطناعي\n• الترجمات للمرجعية وقد تحتوي على أخطاء\n• يظهر الأصل والترجمة في المحادثة\n• اضغط مطولًا على الرسالة واختر «عرض الأصل»",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "الخلفية الافتراضية",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "أبيض",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "رمادي فاتح",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "بيج",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "أزرق فاتح",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "أخضر فاتح",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "وردي فاتح",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "بنفسجي فاتح",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "صورة مخصصة",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "خلفية هذه المحادثة",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "خلفية المحادثة",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "تغيير الصورة المخصصة",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "اختيار من الصور",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "تعيين",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "استخدام خلفية المحادثات العامة",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "الترجمة ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "هل تريد تسجيل خروج «{name}»؟",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, zero {لا جلسات} one {جلسة واحدة} two {جلستان} few {{count} جلسات} many {{count} جلسة} other {{count} جلسة}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "آخر نشاط {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "تشخيص المطوّر",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "الشبكة غير متاحة. تحقق من إعدادات الشبكة.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

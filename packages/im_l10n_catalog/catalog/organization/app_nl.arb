@@ -1,0 +1,626 @@
+{
+  "@@locale": "nl",
+  "enterpriseInfoTitle": "Bedrijfsinformatie",
+  "enterpriseName": "Naam",
+  "enterpriseDescription": "Beschrijving",
+  "enterpriseUpdateSuccess": "Succesvol bijgewerkt",
+  "enterpriseUpdateFailed": "Bijwerken mislukt. Probeer het opnieuw.",
+  "enterpriseLeave": "Bedrijf verlaten",
+  "enterpriseLeaveConfirm": "Weet u zeker dat u dit bedrijf wilt verlaten?",
+  "enterpriseLeaveSuccess": "Bedrijf verlaten",
+  "enterpriseLeaveFailed": "Verlaten mislukt. Probeer het opnieuw.",
+  "enterpriseLeaveOwnerError": "De eigenaar kan niet rechtstreeks vertrekken. Draag eerst het eigenaarschap over.",
+  "enterpriseMemberCount": "Leden",
+  "enterpriseCreatedAt": "Aangemaakt",
+  "enterpriseCode": "Bedrijfscode",
+  "enterpriseInviteMembers": "Leden uitnodigen",
+  "enterpriseCopyInviteCode": "Uitnodigingscode kopiëren",
+  "enterpriseInviteCodeCopied": "Uitnodigingscode gekopieerd",
+  "groupCreateTitle": "Nieuwe groep",
+  "groupNameHint": "Voer groepsnaam in",
+  "groupCreateSuccess": "Groep aangemaakt",
+  "groupCreateFailed": "Groep aanmaken mislukt",
+  "groupSettings": "Groepsinstellingen",
+  "groupName": "Groepsnaam",
+  "groupAvatar": "Groepsafbeelding",
+  "groupAnnouncement": "Aankondiging",
+  "groupMembers": "Leden",
+  "groupAddMember": "Leden toevoegen",
+  "groupRemoveMember": "Lid verwijderen",
+  "groupRemoveMemberConfirm": "Dit lid verwijderen?",
+  "groupSetAdmin": "Beheerder maken",
+  "groupRemoveAdmin": "Beheerdersrechten intrekken",
+  "groupTransferOwner": "Eigenaarschap overdragen",
+  "groupTransferOwnerConfirm": "Groepseigenaarschap overdragen aan dit lid?",
+  "groupTransferOwnerSuccess": "Eigenaarschap overgedragen",
+  "groupTransferOwnerFailed": "Overdracht mislukt. Probeer het opnieuw.",
+  "groupLeave": "Groep verlaten",
+  "groupLeaveConfirm": "Deze groep verlaten?",
+  "groupLeaveSuccess": "Groep verlaten",
+  "groupLeaveFailed": "Verlaten mislukt. Probeer het opnieuw.",
+  "groupDissolve": "Groep ontbinden",
+  "groupDissolveConfirm": "Deze groep ontbinden? Alle leden worden verwijderd.",
+  "groupDissolveSuccess": "Groep ontbonden",
+  "groupDissolveFailed": "Ontbinden mislukt. Probeer het opnieuw.",
+  "groupQrCode": "Groeps-QR-code",
+  "groupMuteAll": "Iedereen dempen",
+  "groupMuteAllOn": "Iedereen dempen inschakelen",
+  "groupMuteAllOff": "Iedereen dempen uitschakelen",
+  "groupAllowMemberInvite": "Uitnodigingen door leden toestaan",
+  "groupAllowMemberModifyTitle": "Leden toestaan de groepsnaam te wijzigen",
+  "groupAllowMemberAtAll": "Leden toestaan @Iedereen te vermelden",
+  "groupAllowMemberViewMemberList": "Leden toestaan de ledenlijst te bekijken",
+  "groupAllowQrCodeJoin": "Lid worden via QR-code toestaan",
+  "groupRequireApproval": "Goedkeuring vereisen om lid te worden",
+  "groupAllowMemberAddFriend": "Leden toestaan elkaar als vriend toe te voegen",
+  "groupRoleOwner": "Eigenaar",
+  "groupRoleAdmin": "Beheerder",
+  "groupRoleMember": "Lid",
+  "groupNoMembers": "Geen leden",
+  "groupNoAnnouncements": "Geen aankondigingen",
+  "groupCreateAnnouncement": "Aankondiging plaatsen",
+  "groupEditAnnouncement": "Aankondiging bewerken",
+  "groupDeleteAnnouncement": "Aankondiging verwijderen",
+  "groupDeleteAnnouncementConfirm": "Deze aankondiging verwijderen?",
+  "groupAnnouncementTitle": "Titel",
+  "groupAnnouncementContent": "Inhoud",
+  "groupAnnouncementPin": "Aankondiging vastmaken",
+  "groupMemberCount": "{count} leden",
+  "groupSelectedCount": "{count} geselecteerd",
+  "groupJoinRequestApprove": "Akkoord",
+  "groupJoinRequestReject": "Weigeren",
+  "groupJoinRequests": "Lidmaatschapsaanvragen",
+  "groupNoJoinRequests": "Geen lidmaatschapsaanvragen",
+  "groupReadReceipts": "Leesbevestigingen",
+  "groupReadCount": "{count} gelezen",
+  "groupUnreadCount": "{count} ongelezen",
+  "organizationTitle": "Organisatie",
+  "organizationEmpty": "Geen afdelingsinformatie",
+  "organizationMembers": "Leden",
+  "organizationDepartment": "Afdeling",
+  "organizationPosition": "Functie",
+  "organizationLeader": "Leidinggevende",
+  "qrCodeTitle": "Mijn QR-code",
+  "qrCodeSave": "Opslaan in Album",
+  "qrCodeShare": "Delen",
+  "qrCodeSaveSuccess": "Opgeslagen in album",
+  "qrCodeSaveFailed": "Opslaan mislukt. Probeer het opnieuw.",
+  "qrCodeRefresh": "QR-code vernieuwen",
+  "qrCodeExpired": "QR-code verlopen. Vernieuw deze.",
+  "qrCodeScanToAdd": "Scan om mij als contact toe te voegen",
+  "spacePersonal": "Persoonlijk",
+  "spaceEnterprise": "Bedrijf",
+  "spaceJoinByCode": "Lid worden met bedrijfscode",
+  "spaceJoinByInvite": "Lid worden met uitnodigingscode",
+  "spaceEnterCode": "Voer bedrijfscode in",
+  "spaceEnterInviteCode": "Voer uitnodigingscode in",
+  "spaceSearchEnterprise": "Bedrijf zoeken",
+  "spaceJoinRequestSent": "Aanvraag verzonden, wacht op goedkeuring",
+  "spaceJoinRequestPending": "Goedkeuring in behandeling",
+  "spaceJoinRequestApproved": "Aanvraag goedgekeurd",
+  "spaceJoinRequestRejected": "Aanvraag afgewezen",
+  "spaceAlreadyMember": "U bent al lid",
+  "spaceAutoApproved": "Automatisch goedgekeurd. Welkom!",
+  "spacePendingApprovalHint": "Registratie geslaagd. Uw lidmaatschapsaanvraag is verzonden.",
+  "spaceNoSpaces": "Geen ruimtes",
+  "spaceInviteExpired": "Uitnodigingscode verlopen",
+  "spaceInviteTargetMismatch": "Deze uitnodigingscode is niet voor uw account",
+  "spaceAcceptInviteSuccess": "Succesvol lid geworden van bedrijf",
+  "spaceAcceptInviteFailed": "Lid worden mislukt. Probeer het opnieuw.",
+  "spaceTenantSelectTitle": "Selecteer ruimte",
+  "spaceTenantSelectHint": "Kies een ruimte om te openen",
+  "spaceEnterPersonal": "Persoonlijke ruimte openen",
+  "spaceEnterEnterprise": "Bedrijfsruimte openen",
+  "recentContactsTitle": "Recent",
+  "recentContactsEmpty": "Geen recente contacten",
+  "inviteFriendsTitle": "Vrienden uitnodigen",
+  "inviteFriendsCopyLink": "Uitnodigingslink kopiëren",
+  "inviteFriendsLinkCopied": "Uitnodigingslink gekopieerd",
+  "pendingJoinRequestsTitle": "Nieuwe aanvragen",
+  "pendingJoinRequestsEmpty": "Geen aanvragen",
+  "pendingJoinRequestApprove": "Akkoord",
+  "pendingJoinRequestReject": "Weigeren",
+  "pendingJoinRequestApproveSuccess": "Goedgekeurd",
+  "pendingJoinRequestRejectSuccess": "Afgewezen",
+  "pendingJoinRequestFailed": "Bewerking mislukt. Probeer het opnieuw.",
+  "groupListTitle": "Groepen",
+  "groupListEmpty": "Geen groepen",
+  "joinCompanyTitle": "Lid worden van bedrijf",
+  "joinCompanyCodeHint": "Voer bedrijfscode in",
+  "joinCompanySearchHint": "Zoek bedrijfsnaam",
+  "joinCompanyApply": "Lidmaatschap aanvragen",
+  "joinCompanyApplySuccess": "Aanvraag verzonden",
+  "joinCompanyApplyFailed": "Aanvragen mislukt. Probeer het opnieuw.",
+  "joinCompanyAutoApproved": "Automatisch goedgekeurd. Welkom!",
+  "joinCompanyPending": "Aanvraag verzonden, wacht op goedkeuring",
+  "joinCompanyInviteCodeHint": "Voer uitnodigingscode in",
+  "joinCompanyAcceptInvite": "Uitnodiging accepteren",
+  "joinCompanyNoResults": "Geen bedrijven gevonden",
+  "joinCompanyMemberCount": "{count} leden",
+  "approvalEmpty": "Geen aanvragen",
+  "approvalApprove": "Akkoord",
+  "approvalReject": "Weigeren",
+  "approvalPending": "In behandeling",
+  "approvalApproved": "Goedgekeurd",
+  "approvalRejected": "Afgewezen",
+  "approvalExpired": "Verlopen",
+  "approvalCancelled": "Geannuleerd",
+  "approvalReplayFailed": "De oorspronkelijke actie is mislukt. Probeer deze opnieuw.",
+  "requestCancelled": "Aanvraag geannuleerd",
+  "enterpriseNoPermission": "Geen machtiging",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Instellingen bedrijfsinformatie",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Bedrijfsconfiguratie",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Officiële accounts",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Officiële accounts beheren",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Ledenbeheer",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Medewerkers uitnodigen",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Leden",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Aankondigingen beheren",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Bedrijfsmassabericht",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Goedkeuringen",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Lidmaatschapsgoedkeuringen",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Eigenaarschap overdragen",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Na de overdracht wordt u beheerder. Dit kan niet ongedaan worden gemaakt. Kies de nieuwe eigenaar uit de ledenlijst.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Kies een nieuwe eigenaar",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Toewijzingsmodus servicemedewerkers",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatische toewijzing",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Aangewezen servicemedewerker",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Goedkeuringsmodus voor lidmaatschap",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Handmatige goedkeuring",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatische goedkeuring",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Vriendschapsmodus",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Sociale modus",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Isolatiemodus",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Toegang voor widgetbezoekers",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Uitgeschakeld",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Beschikbare servicemedewerkers automatisch om beurten toewijzen",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Alle klanten aan de aangewezen servicemedewerker toewijzen",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Klantaanvragen vereisen goedkeuring van een beheerder",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Klantaanvragen automatisch goedkeuren",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Klanten kunnen elkaar als vriend toevoegen",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Klanten kunnen elkaar niet als vriend toevoegen",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Lid",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Leden zoeken",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Als lid instellen",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Als technische ondersteuning instellen",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Als servicemedewerker instellen",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Overdracht bevestigen",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Bedrijfsnaam is verplicht",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Voer de bedrijfsnaam in",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Geen beschrijving",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Bedrijfslogo",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Aanmaken mislukt. Probeer het opnieuw.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Maximaal aantal keren te gebruiken",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Geldigheidsduur",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 uur",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 uur",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dagen",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dagen",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Uitnodigingscode maken",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Uitnodigingscode",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Iedereen",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Personeel",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Zoek medewerkers, rollen of functies",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Bedrijfsleden",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Geen overeenkomende leden",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Bedrijfsoverzicht",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Beheren",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Rolmachtigingen",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Overdracht bij vertrek",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Medewerkers zoeken",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Bedrijfsmedewerkers",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Vriendenprofiel",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Spraak- en videogesprek",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Vriend toevoegen",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Man",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Vrouw",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Geen ongelezen gesprekken",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "B",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Uitnodigingscode gekopieerd",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "‘{name}’ uit het bedrijf verwijderen?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Eigenaarschap overdragen aan ‘{name}’? U wordt beheerder. Dit kan niet ongedaan worden gemaakt.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} keer} other {{count} keer}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "{hours} uur geldig · Maximaal {count} keer gebruiken",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} ongelezen gesprek} other {{count} ongelezen gesprekken}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} ongelezen bericht} other {{count} ongelezen berichten}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble-ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Bedrijf verlaten",
+  "enterpriseLoginBeforeSearch": "Meld u aan voordat u een organisatie zoekt",
+  "enterpriseSearchFailed": "Zoeken mislukt. Probeer het opnieuw.",
+  "enterpriseLoginBeforeJoin": "Meld u aan voordat u organisatielidmaatschap aanvraagt",
+  "enterpriseApplicationPending": "Aanvraag verzonden. Wacht op goedkeuring door beheerder.",
+  "enterpriseLoginBeforeAction": "Meld u aan om door te gaan",
+  "enterprisePlatformTagline": "Persoonlijke klantrelaties voor organisaties",
+  "enterpriseLookupHint": "Voer een organisatienummer, alias of uitnodigingscode in",
+  "enterpriseLookup": "Zoeken",
+  "enterpriseApplicationNote": "Aanvraagnotitie (optioneel)",
+  "enterpriseLookupGuide": "Zoek op organisatienummer of alias, of word lid via een uitnodigingscode",
+  "enterpriseRecommendationsLoading": "Aanbevolen organisaties laden",
+  "enterpriseRecommendationsFailed": "Aanbevolen organisaties konden niet worden geladen",
+  "enterpriseReload": "Vernieuwen",
+  "enterpriseNoRecommendations": "Geen aanbevelingen. Zoek met een organisatienummer, alias of uitnodigingscode.",
+  "enterpriseRecommended": "Aanbevolen organisaties",
+  "enterpriseJoined": "Lid geworden",
+  "enterpriseRequestsLoadFailed": "Aanvragen konden niet worden geladen",
+  "enterpriseCodeMissing": "Organisatienummer niet beschikbaar",
+  "enterpriseAlias": "Organisatiealias",
+  "enterpriseCodeLabel": "Organisatienummer",
+  "enterprisePrivateAliasHint": "Deze organisatie heeft geen details gepubliceerd. Uw aanvraag identificeert deze met deze alias.",
+  "enterpriseInvitationMismatch": "Deze uitnodigingscode is niet aan u gericht. Lid worden kan mislukken.",
+  "enterpriseTechnicalRole": "Technische ondersteuning",
+  "enterpriseJoin": "Lid worden",
+  "enterpriseCancelApplication": "Ongedaan maken",
+  "enterpriseApplication": "Organisatieaanvraag",
+  "enterpriseAliasValue": "Organisatiealias: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Organisatienummer: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "U wordt lid als {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Deze uitnodigingscode is gericht aan: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Reden voor afwijzing: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisatie {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Iedereen",
+  "enterpriseAudienceAllHint": "Medewerkers en klanten",
+  "enterpriseAudienceStaffHint": "Alleen organisatiemedewerkers",
+  "enterpriseAudienceCustomers": "Organisatieklanten",
+  "enterpriseAudienceCustomersHint": "Klanten die lid zijn van de organisatie",
+  "enterpriseOfficialGroups": "Officiële groepen",
+  "enterpriseAudienceGroupsHint": "Officiële groepschats van de organisatie",
+  "enterpriseSendNow": "Nu verzenden",
+  "enterpriseSendScheduled": "Verzending plannen",
+  "enterprisePreviewing": "Voorbeeld voorbereiden",
+  "enterprisePreview": "Voorbeeld",
+  "enterpriseSubmitSend": "Indienen voor verzending",
+  "enterpriseBroadcastSubmitted": "Organisatiemassabericht ingediend",
+  "enterpriseScheduledUnavailable": "Geplande organisatiemassaberichten zijn in deze versie niet beschikbaar",
+  "enterpriseBroadcastFailed": "Organisatiemassabericht mislukt. Probeer het later opnieuw.",
+  "enterpriseBroadcastGuide": "Massaberichten gebruiken het officiële organisatieaccount en leggen de handeling vast. Bezorgresultaten zijn na indiening beschikbaar.",
+  "enterpriseSenderIdentity": "Afzenderidentiteit",
+  "enterpriseSenderAfterPreview": "Bevestigen in voorbeeld",
+  "enterpriseSenderConfirmed": "Bevestigd",
+  "enterpriseDefaultOfficialSender": "Standaard officieel organisatieaccount",
+  "enterpriseOfficialSenderHint": "Ontvangers zien de identiteit van het officiële organisatieaccount",
+  "enterpriseMessageContent": "Berichtinhoud",
+  "enterpriseBroadcastContentHint": "Voer het massabericht in dat vanuit het officiële account wordt verzonden",
+  "enterpriseInternalNoteHint": "Interne notitie voor audit en opvolging (optioneel)",
+  "enterpriseSendPreview": "Verzendvoorbeeld",
+  "enterpriseExpectedRecipients": "Geschatte ontvangers",
+  "enterpriseDeliveryMethod": "Bezorgmethode",
+  "enterpriseTaskStatus": "Taakstatus",
+  "enterpriseNoBroadcastHistory": "Nog geen organisatiemassaberichten",
+  "enterpriseHistoryUnavailable": "Tijdelijk niet beschikbaar",
+  "enterpriseBroadcastDenied": "Geen toestemming voor organisatiemassaberichten",
+  "enterpriseBroadcastRoleHint": "Organisatiemassaberichten zijn alleen beschikbaar voor beheerders en eigenaars.",
+  "enterpriseDefaultApplicationMessage": "Ik wil graag lid worden van uw organisatie"
+}

@@ -1,0 +1,431 @@
+{
+  "accessMode": "Access mode",
+  "active": "Active",
+  "allConversations": "All current conversations",
+  "announcementLoadFailed": "Failed to load announcements",
+  "autoAssign": "Automatic assignment",
+  "capabilityNavAria": "Workbench capabilities",
+  "capabilityCount": "capabilities",
+  "currentEnterprise": "Current enterprise",
+  "currentRole": "Current role",
+  "currentState": "Current state",
+  "customerManagement": {
+    "assigned": "Assigned",
+    "emptyText": "This enterprise has no customers.",
+    "emptyTitle": "No customers",
+    "errorTitle": "Customer data failed to load",
+    "loadMore": "Load more customers",
+    "loadingMore": "Loading more...",
+    "loadingText": "Synchronizing the enterprise customer pool.",
+    "loadingTitle": "Loading customers",
+    "openDirectory": "Open full customer directory",
+    "total": "Total customers",
+    "unassigned": "Unassigned"
+  },
+  "dataScope": "Data basis",
+  "dataScopeValue": "No fake data; empty states are shown when no API exists",
+  "detailAria": "Workbench details",
+  "documentCount": "{count} documents",
+  "documentCountEmpty": "Document count --",
+  "emptyAnnouncementsText": "The current enterprise has no published, unexpired announcements.",
+  "emptyAnnouncementsTitle": "No enterprise announcements",
+  "emptyNoEntryText": "The current role has no configured workbench capabilities.",
+  "emptyNoEntryTitle": "No available workbench entries",
+  "emptyQuickRepliesText": "The server returned no available knowledge base or quick reply content.",
+  "emptyQuickRepliesTitle": "No common quick replies",
+  "entry": "Entry",
+  "entryReservedText": "Role-based entry points and permission boundaries are reserved here. Real data will be added after the related page or API is connected.",
+  "entryReservedTitle": "Entry reserved",
+  "group": {
+    "admin": "Admin workbench",
+    "customerService": "Customer service workbench",
+    "owner": "Owner workbench"
+  },
+  "heroSubtitle": "{tenant} · {role} entry. Messages, contacts, and customer service stay independent; this workbench only contains role tasks and management entries.",
+  "heroTitle": "{role} workbench",
+  "knowledgeBase": "Knowledge base",
+  "knowledgeLoadFailed": "Failed to load quick replies",
+  "listSeparator": ", ",
+  "manualAccess": "Manual access",
+  "markRead": "Read",
+  "managementWorkbench": {
+    "title": "Enterprise management workbench",
+    "navigation": "Management workbench navigation",
+    "section": {
+      "customer": "Customer operations",
+      "service": "Service operations",
+      "governance": "Governance",
+      "communication": "Enterprise messages",
+      "enterprise": "Enterprise management"
+    },
+    "capability": {
+      "customer-management": {
+        "title": "Customer management",
+        "description": "Search, inspect, and assign customers"
+      },
+      "service-operations": {
+        "title": "Service operations",
+        "description": "Live service center and team efficiency"
+      },
+      "join-requests": {
+        "title": "Join approvals",
+        "description": "Review customer and employee join requests"
+      },
+      "group-supervision": {
+        "title": "Group supervision",
+        "description": "Inspect enterprise groups and apply freezes"
+      },
+      "conversation-audit": {
+        "title": "Conversation audit",
+        "description": "Search and inspect historical service conversations"
+      },
+      "operation-audit": {
+        "title": "Operation audit",
+        "description": "Inspect enterprise management operations"
+      },
+      "enterprise-communication": {
+        "title": "Enterprise messages",
+        "description": "Enterprise broadcast and announcement reading"
+      },
+      "official-account": {
+        "title": "Official account",
+        "description": "Manage identity, service menu, customer handoff, and official groups"
+      },
+      "enterprise-info": {
+        "title": "Enterprise information",
+        "description": "View enterprise profile information"
+      },
+      "enterprise-features": {
+        "title": "Enterprise configuration",
+        "description": "Configure assignment, approval, and visitor capabilities"
+      },
+      "employee-invitations": {
+        "title": "Invite employees",
+        "description": "Create, copy, and revoke enterprise invitations"
+      },
+      "member-management": {
+        "title": "Member management",
+        "description": "View members, change roles, or remove members"
+      },
+      "ownership-transfer": {
+        "title": "Transfer ownership",
+        "description": "Transfer enterprise ownership to another employee"
+      }
+    }
+  },
+  "management": {
+    "audit": {
+      "empty": "No operation audit records.",
+      "error": "Failed to load operation audit: {error}",
+      "loading": "Loading operation audit...",
+      "readonly": "Read-only audit trail",
+      "unknownAction": "Operation record"
+    },
+    "broadcast": {
+      "auditReason": "Audit note",
+      "auditReasonPlaceholder": "Optional reason for this broadcast",
+      "confirm": "Send this broadcast to {count} recipients in {target}?",
+      "content": "Message",
+      "contentPlaceholder": "Enter the enterprise broadcast message",
+      "emptyTasks": "No broadcast tasks.",
+      "history": "Delivery tasks",
+      "loadingTasks": "Loading broadcast tasks...",
+      "noSamples": "The server returned no recipient samples.",
+      "officialSender": "Official sender",
+      "preview": "Preview",
+      "previewRecipients": "{count} recipients",
+      "previewToConfirm": "Preview to confirm",
+      "previewing": "Previewing...",
+      "retryFailed": "Retry failed",
+      "status": {
+        "0": "Pending",
+        "1": "Delivering",
+        "2": "Completed",
+        "3": "Failed",
+        "4": "Cancelled"
+      },
+      "submit": "Send",
+      "submitting": "Submitting...",
+      "target": {
+        "allMembers": "All members",
+        "customers": "Customers",
+        "officialGroups": "Official groups",
+        "staff": "Employees"
+      },
+      "targetLabel": "Recipients",
+      "taskProgress": "{sent}/{total} sent · {failed} failed"
+    },
+    "conversationAudit": {
+      "description": "Search service history, open complete read-only conversations, and export reports.",
+      "open": "Open conversation audit",
+      "title": "Conversation audit"
+    },
+    "groups": {
+      "actionError": "Failed to update group state: {error}",
+      "count": "{count} groups",
+      "empty": "No groups match the current filter.",
+      "error": "Failed to load groups: {error}",
+      "freeze": "Freeze",
+      "freezeConfirm": "Freeze “{title}”? Members will be unable to continue normal activity.",
+      "frozen": "Frozen",
+      "loading": "Loading enterprise groups...",
+      "members": "{count} members",
+      "noPreview": "No recent message",
+      "search": "Search group, owner, or message",
+      "unfreeze": "Unfreeze"
+    },
+    "join": {
+      "approve": "Approve",
+      "emptyPending": "No pending applications.",
+      "error": "Failed to load join applications: {error}",
+      "loading": "Loading join applications...",
+      "pending": "Pending ({count})",
+      "processed": "Processed ({count})",
+      "reject": "Reject",
+      "reviewError": "Failed to review application: {error}",
+      "status": {
+        "approved": "Approved",
+        "cancelled": "Cancelled",
+        "rejected": "Rejected"
+      }
+    },
+    "settings": {
+      "customerServiceAuto": "Automatic assignment",
+      "customerServiceDesignated": "Designated agent",
+      "customerServiceMode": "Customer service assignment",
+      "enterpriseTools": "Enterprise tools",
+      "error": "Failed to load enterprise settings: {error}",
+      "featureTitle": "Enterprise configuration",
+      "friendIsolation": "Customer isolation",
+      "friendMode": "Friend mode",
+      "friendSocial": "Social",
+      "invite": "Invite employees",
+      "inviteHint": "Create and manage enterprise invitation codes",
+      "joinApprovalMode": "Join approval",
+      "joinAuto": "Automatic approval",
+      "joinManual": "Manual review",
+      "loading": "Loading enterprise settings...",
+      "members": "Member directory",
+      "membersHint": "View members and role identities",
+      "saved": "Settings saved",
+      "tempSessionEnabled": "Widget visitor service",
+      "tempSessionHint": "Allow temporary visitor sessions"
+    }
+  },
+  "myServiceStatus": "My customer service status",
+  "noSummary": "No summary",
+  "notice": {
+    "readFailed": "Failed to report read state: {error}",
+    "readSuccess": "Announcement marked as read"
+  },
+  "openKnowledgeBase": "Open knowledge base",
+  "openOnlineService": "Open customer service",
+  "openShortcut": "Open {title}",
+  "performance": {
+    "avgDuration": "Avg duration",
+    "avgFirstResponse": "Avg first response",
+    "avgRating": "Rating",
+    "channel": {
+      "imDirect": "IM direct",
+      "widget": "Widget visitors"
+    },
+    "channelMeta": "First {first} · Rating {rating}",
+    "emptyDistribution": "No source platform distribution yet.",
+    "emptyText": "The server has not returned team performance statistics yet.",
+    "emptyTitle": "No team statistics",
+    "errorTitle": "Failed to load team performance",
+    "excellentRate": "Quality pass rate",
+    "loadingText": "Syncing admin statistics. Existing workbench data remains visible.",
+    "loadingTitle": "Loading team performance",
+    "retry": "Retry",
+    "sessionsServed": "{count} sessions",
+    "sourcePlatformHint": "Channel distribution groups by sourcePlatform first, and falls back to sourceChannel for legacy data.",
+    "sourcePlatformTitle": "Source platform distribution",
+    "staffRankHint": "Top-level metrics merge Widget temp sessions and IM registered-customer direct chats.",
+    "staffRankTitle": "Agent efficiency ranking",
+    "totalServed": "Served",
+    "totalSessions": "Total sessions"
+  },
+  "performanceLoadFailed": "Failed to load performance data",
+  "priority": {
+    "important": "Important",
+    "normal": "Normal"
+  },
+  "queued": "Queued",
+  "role": {
+    "admin": "Admin",
+    "customer_service": "Customer service",
+    "owner": "Owner"
+  },
+  "roleTitle": {
+    "admin": "Admin workbench",
+    "customer_service": "Customer service workbench",
+    "owner": "Owner workbench"
+  },
+  "roleScope": "Role scope",
+  "shortcut": {
+    "wb-admin-customers": {
+      "description": "Customer statistics, assigned and unassigned customers, paged search, and service assignment.",
+      "title": "Customer management"
+    },
+    "wb-admin-groups": {
+      "description": "Group list, freeze and unfreeze controls, and future governance entry points.",
+      "title": "Group supervision"
+    },
+    "wb-admin-conversation-audit": {
+      "description": "Search and export complete customer-service conversation history.",
+      "title": "Conversation audit"
+    },
+    "wb-admin-join-requests": {
+      "description": "Review customer and employee requests to join the enterprise.",
+      "title": "Join applications"
+    },
+    "wb-admin-service-center": {
+      "description": "Watch all active service conversations, filter by agent or status, and step in when help is needed.",
+      "title": "Live service monitor"
+    },
+    "wb-cs-notices": {
+      "description": "View enterprise notices, policy announcements, and read status.",
+      "title": "Enterprise announcements"
+    },
+    "wb-cs-performance": {
+      "description": "View personal reception volume, average response, and satisfaction summary.",
+      "title": "Performance"
+    },
+    "wb-cs-quick-replies": {
+      "description": "Maintain common replies, knowledge base references, and multilingual scripts.",
+      "title": "Common quick replies"
+    },
+    "wb-owner-broadcast": {
+      "description": "Send enterprise notices from the official account to all users, employees, customers, or official groups.",
+      "title": "Enterprise broadcast"
+    },
+    "wb-owner-enterprise-settings": {
+      "description": "Configure assignment, join approval, friend mode, and visitor service.",
+      "title": "Enterprise settings"
+    },
+    "wb-owner-operation-audit": {
+      "description": "Read the authoritative enterprise operation audit trail.",
+      "title": "Operation audit"
+    }
+  },
+  "monitor": {
+    "activeThreads": "Service conversations",
+    "all": "All",
+    "channel": "Channel",
+    "detailFailed": "Failed to load conversation detail: {error}",
+    "emptyMessages": "No messages to show yet.",
+    "emptyRisk": "No SLA risk.",
+    "emptyStaff": "No agent status.",
+    "emptyThreads": "No service conversations match the current filters.",
+    "filter": {
+      "keyword": "Keyword",
+      "staff": "Agent",
+      "status": "Status",
+      "threadType": "Channel"
+    },
+    "filtersAria": "Live service monitor filters",
+    "kpi": {
+      "active": "Active",
+      "onlineStaff": "Online agents",
+      "queued": "Queued",
+      "queueHint": "Live admin queue",
+      "riskHint": "Needs priority handling",
+      "slaRisk": "SLA risk",
+      "staffHint": "Available agents",
+      "visibleHint": "Visible in current filters"
+    },
+    "kpisAria": "Live service monitor metrics",
+    "keywordPlaceholder": "Customer, conversation, or message",
+    "loadFailed": "Failed to load live monitor: {error}",
+    "loading": "Syncing monitor data...",
+    "loadingDetail": "Syncing conversation content...",
+    "addWatch": "Add",
+    "agent": "Agent",
+    "allStaff": "All agents",
+    "assistThread": "Assist",
+    "backoff": "Paused {seconds}s",
+    "capacityFull": "Wall is full",
+    "chatInfo": "Conversation info",
+    "closeWindow": "Close",
+    "customer": "Customer",
+    "emptySlot": "Empty slot",
+    "expandWindow": "Expand",
+    "lastSynced": "Synced {time}",
+    "layout": "Layout",
+    "jumpThread": "Open",
+    "pinWindow": "Pin side by side",
+    "promoteWindow": "Move to first slot",
+    "realtime": "30s polling",
+    "acceptingQueue": "Accepting queue",
+    "customerLevel": "Customer level",
+    "customerProfile": "Customer profile",
+    "heartbeat": "Heartbeat",
+    "lastOnline": "Last online",
+    "openCustomerProfile": "View customer profile",
+    "openReadonlyDetail": "Open read-only detail",
+    "openStaffProfile": "View agent profile",
+    "removeWindow": "Remove",
+    "replaceMode": "Choose window",
+    "replacePrompt": "Monitor wall is full. Choose a window to replace: {title}",
+    "replaceThisWindow": "Replace here",
+    "resultCount": "{count} items",
+    "selectThread": "Select a service conversation to inspect live detail.",
+    "selectReplaceSlot": "Choose a window to replace",
+    "shrinkWindow": "Shrink",
+    "slaRisk": "SLA risk",
+    "slaRiskFallback": "The server marked this conversation for attention.",
+    "source": "Source",
+    "staffId": "Agent ID",
+    "staffLoadLabel": "Load",
+    "staffLoad": "{active}/{max}",
+    "staffWall": "Agent status wall",
+    "staffProfile": "Agent profile",
+    "statusLabel": "Status",
+    "status": {
+      "active": "Active",
+      "queued": "Queued"
+    },
+    "subtitle": "Admins and owners can filter active service conversations by agent, status, channel, and keyword, then inspect synced detail.",
+    "threadDetail": "Conversation detail",
+    "threadId": "Thread ID",
+    "threadPool": "Conversation pool",
+    "title": "Live service conversation monitor",
+    "unassigned": "Unassigned",
+    "unpinWindow": "Unpin",
+    "updatedAt": "Updated",
+    "wall": "Monitor wall",
+    "watched": "Watching",
+    "windowCount": "{count} windows"
+  },
+  "state": {
+    "available": {
+      "hint": "Can enter or view",
+      "label": "Available"
+    },
+    "no_permission": {
+      "hint": "Unavailable for the current role",
+      "label": "No permission"
+    },
+    "pending_api": {
+      "hint": "Entry reserved, waiting for page or API integration",
+      "label": "Pending API"
+    },
+    "readonly": {
+      "hint": "Read-only view",
+      "label": "Read-only"
+    }
+  },
+  "summary": {
+    "announcements": "Enterprise announcements",
+    "announcementsHint": "Published and unexpired",
+    "currentConversations": "Current conversations",
+    "quickReplies": "Common quick replies",
+    "quickRepliesHint": "Reuses knowledge base and quick reply capabilities",
+    "receptionStatus": "Reception status",
+    "receptionStatusHint": "Entering the workbench does not change status automatically",
+    "threadHint": "Queued {queue} · Active {active}"
+  },
+  "summaryAria": "Workbench summary",
+  "unnamedKnowledgeBase": "Unnamed knowledge base"
+}

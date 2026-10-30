@@ -1,0 +1,97 @@
+{
+  "account": {
+    "accountAndClient": "บัญชีและไคลเอนต์",
+    "createQrFailed": "สร้าง QR code ไม่สำเร็จ: {error}",
+    "entryAria": "{name}, {account}, สถานะ: {status}",
+    "identifyingClient": "กำลังระบุไคลเอนต์",
+    "imStatus": "สถานะ IM",
+    "instance": "อินสแตนซ์ {id}",
+    "inviteQrMessage": "สแกนเพื่อเพิ่มฉัน",
+    "logout": "ออกจากระบบ",
+    "manageDevices": "จัดการอุปกรณ์เข้าสู่ระบบ",
+    "member": "สมาชิก",
+    "myAccount": "บัญชีของฉัน",
+    "myEntrances": "ทางเข้าของฉัน",
+    "noSignature": "ยังไม่มีลายเซ็น",
+    "openClientFailed": "เปิดไคลเอนต์ใหม่ไม่สำเร็จ: {error}",
+    "openNewClient": "เปิดไคลเอนต์ใหม่",
+    "openProfile": "เปิดข้อมูลบัญชี",
+    "openedNewClient": "เปิดไคลเอนต์ PC ใหม่แล้ว",
+    "opening": "กำลังเปิด",
+    "pcUser": "ผู้ใช้ PC",
+    "setImStatus": "ตั้งค่าสถานะ IM เป็น {status}"
+  },
+  "badge": {
+    "friendRequestsSuffix": ", คำขอเป็นเพื่อน {count} รายการ",
+    "remindersSuffix": ", การเตือน {count} รายการ"
+  },
+  "brand": {
+    "about": "เกี่ยวกับ {publicName}",
+    "helpAboutUpdate": "ช่วยเหลือ / เกี่ยวกับ / ตรวจสอบอัปเดต"
+  },
+  "collapse": "ย่อแถบด้านข้าง",
+  "expand": "ขยายแถบด้านข้าง",
+  "navAria": "การนำทางหลัก",
+  "notification": {
+    "newServiceThread": "บทสนทนาบริการลูกค้าใหม่",
+    "queueBody": "มีผู้เยี่ยมชมอยู่ในคิวและรอรับเรื่อง",
+    "queueCountBody": "มีผู้เยี่ยมชมใหม่อยู่ในคิวและรอรับเรื่อง",
+    "queueFromSource": "ผู้เยี่ยมชมจาก {source} อยู่ในคิวและรอรับเรื่อง",
+    "serviceMessageBody": "บทสนทนาบริการลูกค้ามีข้อความใหม่",
+    "serviceMessageTitle": "ข้อความบริการลูกค้าใหม่",
+    "slaBody": "บทสนทนาบริการลูกค้าใกล้หมดเวลา หรือเกินเวลาแล้ว",
+    "slaBodyNamed": "{title} ใกล้หมดเวลา หรือเกินเวลาแล้ว",
+    "slaTitle": "แจ้งเตือน SLA เกินเวลา"
+  },
+  "presence": {
+    "away": "ไม่อยู่",
+    "busy": "ไม่ว่าง",
+    "invisible": "ซ่อนตัว",
+    "online": "ออนไลน์"
+  },
+  "productVersion": "รุ่น Pro · v{version}",
+  "service": {
+    "accessModeAria": "โหมดรับบริการลูกค้า",
+    "autoEnableHint": "คลิกเพื่อเปลี่ยนบริการลูกค้าเป็นออนไลน์และเปิดการมอบหมายอัตโนมัติ",
+    "counterQueue": "คิว",
+    "counterQueueShort": "คิว",
+    "counterReception": "กำลังรับ",
+    "counterReceptionShort": "รับ",
+    "counterUnread": "ยังไม่ได้อ่าน",
+    "counterUnreadShort": "ยัง",
+    "enter": "เข้าสู่บริการลูกค้า",
+    "entryAria": "บริการลูกค้า: {status}",
+    "fullDetail": "รับ {reception} · คิว {queue} · ยังไม่ได้อ่าน {unread}",
+    "metricQueue": "คิว {value}",
+    "metricReception": "รับ {value}",
+    "metricUnread": "ยังไม่ได้อ่าน {value}",
+    "receptionNotSynced": "สถานะรับบริการยังไม่ซิงค์ จึงยังเปลี่ยนโหมดไม่ได้",
+    "receptionStatusAria": "สถานะรับบริการลูกค้า",
+    "status": {
+      "break": "พักชั่วคราว",
+      "busy": "ไม่ว่าง",
+      "offline": "ออฟไลน์",
+      "online": "ออนไลน์"
+    },
+    "statusHint": {
+      "break": "หยุดรับบทสนทนาใหม่ในคิวชั่วคราว",
+      "busy": "ไม่รับอัตโนมัติ แต่ยังจัดการเองได้",
+      "offline": "ไม่เข้าร่วมการรับบริการ",
+      "online": "สามารถรับบทสนทนาในคิวด้วยตนเอง"
+    },
+    "statusAria": "สถานะบริการลูกค้า",
+    "statusUnsynced": "สถานะยังไม่ซิงค์",
+    "syncFailed": "ซิงค์สถานะรับบริการไม่สำเร็จ: {error}",
+    "tooltip": "บริการลูกค้า · {status}"
+  },
+  "space": {
+    "enterprise": "พื้นที่องค์กร",
+    "enterpriseCode": "รหัสองค์กร {code}",
+    "entryAria": "พื้นที่ปัจจุบัน: {name}, {meta}",
+    "pendingSuffix": " · รอดำเนินการ {count} รายการ",
+    "personal": "พื้นที่ส่วนตัว",
+    "personalAccount": "บัญชีส่วนตัว",
+    "tooltip": "พื้นที่ · {name} · {meta}"
+  },
+  "statusCenter": "ศูนย์สถานะ"
+}

@@ -1,0 +1,626 @@
+{
+  "@@locale": "ms",
+  "enterpriseInfoTitle": "Maklumat syarikat",
+  "enterpriseName": "Nama",
+  "enterpriseDescription": "Penerangan",
+  "enterpriseUpdateSuccess": "Kemas kini berjaya",
+  "enterpriseUpdateFailed": "Kemas kini gagal, cuba lagi",
+  "enterpriseLeave": "Keluar daripada syarikat",
+  "enterpriseLeaveConfirm": "Adakah anda pasti mahu keluar daripada syarikat ini?",
+  "enterpriseLeaveSuccess": "Telah keluar daripada syarikat",
+  "enterpriseLeaveFailed": "Gagal keluar, cuba lagi",
+  "enterpriseLeaveOwnerError": "Pemilik tidak boleh terus keluar. Pindahkan pemilikan dahulu.",
+  "enterpriseMemberCount": "Ahli",
+  "enterpriseCreatedAt": "Dicipta",
+  "enterpriseCode": "Kod syarikat",
+  "enterpriseInviteMembers": "Jemput ahli",
+  "enterpriseCopyInviteCode": "Salin kod jemputan",
+  "enterpriseInviteCodeCopied": "Kod jemputan disalin",
+  "groupCreateTitle": "Kumpulan baharu",
+  "groupNameHint": "Masukkan nama kumpulan",
+  "groupCreateSuccess": "Kumpulan dicipta",
+  "groupCreateFailed": "Gagal mencipta kumpulan",
+  "groupSettings": "Tetapan kumpulan",
+  "groupName": "Nama kumpulan",
+  "groupAvatar": "Avatar kumpulan",
+  "groupAnnouncement": "Pengumuman",
+  "groupMembers": "Ahli",
+  "groupAddMember": "Tambah ahli",
+  "groupRemoveMember": "Keluarkan ahli",
+  "groupRemoveMemberConfirm": "Keluarkan ahli ini?",
+  "groupSetAdmin": "Jadikan pentadbir",
+  "groupRemoveAdmin": "Buang pentadbir",
+  "groupTransferOwner": "Pindahkan pemilikan",
+  "groupTransferOwnerConfirm": "Pindahkan pemilikan kumpulan kepada ahli ini?",
+  "groupTransferOwnerSuccess": "Pemilikan dipindahkan",
+  "groupTransferOwnerFailed": "Pemindahan gagal, cuba lagi",
+  "groupLeave": "Keluar daripada kumpulan",
+  "groupLeaveConfirm": "Keluar daripada kumpulan ini?",
+  "groupLeaveSuccess": "Telah keluar daripada kumpulan",
+  "groupLeaveFailed": "Gagal keluar, cuba lagi",
+  "groupDissolve": "Bubarkan kumpulan",
+  "groupDissolveConfirm": "Bubarkan kumpulan ini? Semua ahli akan dikeluarkan.",
+  "groupDissolveSuccess": "Kumpulan dibubarkan",
+  "groupDissolveFailed": "Gagal membubarkan, cuba lagi",
+  "groupQrCode": "Kod QR kumpulan",
+  "groupMuteAll": "Senyapkan semua",
+  "groupMuteAllOn": "Dayakan senyapkan semua",
+  "groupMuteAllOff": "Lumpuhkan senyapkan semua",
+  "groupAllowMemberInvite": "Benarkan ahli menjemput",
+  "groupAllowMemberModifyTitle": "Benarkan ahli menukar nama kumpulan",
+  "groupAllowMemberAtAll": "Benarkan ahli menyebut @Semua",
+  "groupAllowMemberViewMemberList": "Benarkan ahli melihat senarai ahli",
+  "groupAllowQrCodeJoin": "Benarkan penyertaan melalui kod QR",
+  "groupRequireApproval": "Perlukan kelulusan untuk menyertai",
+  "groupAllowMemberAddFriend": "Benarkan ahli menambah satu sama lain",
+  "groupRoleOwner": "Pemilik",
+  "groupRoleAdmin": "Pentadbir",
+  "groupRoleMember": "Ahli",
+  "groupNoMembers": "Tiada ahli",
+  "groupNoAnnouncements": "Tiada pengumuman",
+  "groupCreateAnnouncement": "Siarkan pengumuman",
+  "groupEditAnnouncement": "Sunting pengumuman",
+  "groupDeleteAnnouncement": "Padam pengumuman",
+  "groupDeleteAnnouncementConfirm": "Padam pengumuman ini?",
+  "groupAnnouncementTitle": "Tajuk",
+  "groupAnnouncementContent": "Kandungan",
+  "groupAnnouncementPin": "Pin pengumuman",
+  "groupMemberCount": "{count} ahli",
+  "groupSelectedCount": "{count} dipilih",
+  "groupJoinRequestApprove": "Setuju",
+  "groupJoinRequestReject": "Tolak",
+  "groupJoinRequests": "Permohonan menyertai",
+  "groupNoJoinRequests": "Tiada permohonan menyertai",
+  "groupReadReceipts": "Resit baca",
+  "groupReadCount": "{count} telah membaca",
+  "groupUnreadCount": "{count} belum dibaca",
+  "organizationTitle": "Organisasi",
+  "organizationEmpty": "Tiada maklumat jabatan",
+  "organizationMembers": "Ahli",
+  "organizationDepartment": "Jabatan",
+  "organizationPosition": "Jawatan",
+  "organizationLeader": "Ketua",
+  "qrCodeTitle": "Kod QR saya",
+  "qrCodeSave": "simpan ke album",
+  "qrCodeShare": "Kongsi",
+  "qrCodeSaveSuccess": "berjaya disimpan ke album",
+  "qrCodeSaveFailed": "Gagal menyimpan, cuba lagi",
+  "qrCodeRefresh": "Segarkan kod QR",
+  "qrCodeExpired": "Kod QR tamat tempoh, sila segarkan",
+  "qrCodeScanToAdd": "Imbas untuk menambah saya sebagai kenalan",
+  "spacePersonal": "Peribadi",
+  "spaceEnterprise": "Syarikat",
+  "spaceJoinByCode": "Sertai dengan kod syarikat",
+  "spaceJoinByInvite": "Sertai dengan kod jemputan",
+  "spaceEnterCode": "Masukkan kod syarikat",
+  "spaceEnterInviteCode": "Masukkan kod jemputan",
+  "spaceSearchEnterprise": "Cari syarikat",
+  "spaceJoinRequestSent": "Permohonan dihantar, menunggu kelulusan",
+  "spaceJoinRequestPending": "Menunggu kelulusan",
+  "spaceJoinRequestApproved": "Permohonan diluluskan",
+  "spaceJoinRequestRejected": "Permohonan ditolak",
+  "spaceAlreadyMember": "Anda sudah menjadi ahli",
+  "spaceAutoApproved": "Diluluskan secara automatik. Selamat datang!",
+  "spacePendingApprovalHint": "Pendaftaran berjaya. Permohonan anda untuk menyertai telah dihantar.",
+  "spaceNoSpaces": "Tiada ruang",
+  "spaceInviteExpired": "Kod jemputan tamat tempoh",
+  "spaceInviteTargetMismatch": "Kod jemputan ini bukan untuk akaun anda",
+  "spaceAcceptInviteSuccess": "Berjaya menyertai syarikat",
+  "spaceAcceptInviteFailed": "Gagal menyertai, cuba lagi",
+  "spaceTenantSelectTitle": "Pilih ruang",
+  "spaceTenantSelectHint": "Pilih ruang untuk dimasuki",
+  "spaceEnterPersonal": "Masuk ruang peribadi",
+  "spaceEnterEnterprise": "Masuk ruang syarikat",
+  "recentContactsTitle": "Terkini",
+  "recentContactsEmpty": "Tiada kenalan terkini",
+  "inviteFriendsTitle": "Jemput rakan",
+  "inviteFriendsCopyLink": "Salin pautan jemputan",
+  "inviteFriendsLinkCopied": "Pautan jemputan disalin",
+  "pendingJoinRequestsTitle": "Permohonan baharu",
+  "pendingJoinRequestsEmpty": "Tiada permohonan",
+  "pendingJoinRequestApprove": "Setuju",
+  "pendingJoinRequestReject": "Tolak",
+  "pendingJoinRequestApproveSuccess": "Diluluskan",
+  "pendingJoinRequestRejectSuccess": "Ditolak",
+  "pendingJoinRequestFailed": "Operasi gagal, cuba lagi",
+  "groupListTitle": "Kumpulan",
+  "groupListEmpty": "Tiada kumpulan",
+  "joinCompanyTitle": "Sertai syarikat",
+  "joinCompanyCodeHint": "Masukkan kod syarikat",
+  "joinCompanySearchHint": "Cari nama syarikat",
+  "joinCompanyApply": "Mohon menyertai",
+  "joinCompanyApplySuccess": "Permohonan dihantar",
+  "joinCompanyApplyFailed": "Gagal memohon, cuba lagi",
+  "joinCompanyAutoApproved": "Diluluskan secara automatik. Selamat datang!",
+  "joinCompanyPending": "Permohonan dihantar, menunggu kelulusan",
+  "joinCompanyInviteCodeHint": "Masukkan kod jemputan",
+  "joinCompanyAcceptInvite": "Terima jemputan",
+  "joinCompanyNoResults": "Tiada syarikat ditemui",
+  "joinCompanyMemberCount": "{count} ahli",
+  "approvalEmpty": "Tiada permintaan",
+  "approvalApprove": "Setuju",
+  "approvalReject": "Tolak",
+  "approvalPending": "Menunggu",
+  "approvalApproved": "Diluluskan",
+  "approvalRejected": "Ditolak",
+  "approvalExpired": "Tamat",
+  "approvalCancelled": "Dibatalkan",
+  "approvalReplayFailed": "Tindakan asal gagal. Sila cuba lagi.",
+  "requestCancelled": "Permintaan dibatalkan",
+  "enterpriseNoPermission": "Tiada kebenaran",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Tetapan maklumat syarikat",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Konfigurasi syarikat",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Akaun rasmi",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Urus akaun rasmi",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Pengurusan ahli",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Jemput pekerja",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Ahli",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Pengurusan pengumuman",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Siaran syarikat",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Kelulusan",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Kelulusan keahlian",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Pindahkan pemilikan",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Selepas pemindahan, anda menjadi pentadbir. Tindakan ini tidak dapat dibuat asal. Pilih pemilik baharu daripada senarai ahli.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Pilih pemilik baharu",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Mod penugasan ejen",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Penugasan automatik",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Ejen ditetapkan",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Mod kelulusan keahlian",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Kelulusan manual",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Kelulusan automatik",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Mod rakan",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Mod sosial",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Mod pengasingan",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Akses pelawat widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Dilumpuhkan",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Tugaskan ejen yang tersedia secara bergilir",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Tugaskan semua pelanggan kepada ejen yang ditetapkan",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Permohonan pelanggan memerlukan kelulusan pentadbir",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Luluskan permohonan pelanggan secara automatik",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Pelanggan boleh menambah satu sama lain sebagai rakan",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Pelanggan tidak boleh menambah satu sama lain sebagai rakan",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Ahli",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Cari ahli",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Jadikan ahli",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Jadikan sokongan teknikal",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Jadikan ejen perkhidmatan",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Sahkan pemindahan",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Nama syarikat diperlukan",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Masukkan nama syarikat",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Tiada penerangan",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logo syarikat",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Gagal menjana, sila cuba lagi",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Penggunaan maksimum",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Tempoh sah",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 jam",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 jam",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 hari",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 hari",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Jana kod jemputan",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Kod jemputan",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Semua orang",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Pekerja",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Cari pekerja, peranan atau jawatan",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Ahli syarikat",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Tiada ahli yang sepadan",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Gambaran keseluruhan syarikat",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Mengurus",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Kebenaran peranan",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Serah tugas pekerja keluar",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Cari pekerja",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Pekerja syarikat",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profil rakan",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Panggilan suara dan video",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Tambah rakan",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Lelaki",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Perempuan",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Tiada perbualan belum dibaca",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Kod jemputan disalin",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Keluarkan “{name}” daripada syarikat?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Pindahkan pemilikan kepada “{name}”? Anda akan menjadi pentadbir. Tindakan ini tidak dapat dibuat asal.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} penggunaan} other {{count} penggunaan}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Sah selama {hours} j · Sehingga {count} penggunaan",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} perbualan belum dibaca} other {{count} perbualan belum dibaca}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} mesej belum dibaca} other {{count} mesej belum dibaca}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID gelembung: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Keluar daripada syarikat",
+  "enterpriseLoginBeforeSearch": "Log masuk sebelum mencari organisasi",
+  "enterpriseSearchFailed": "Carian gagal. Sila cuba lagi.",
+  "enterpriseLoginBeforeJoin": "Log masuk sebelum memohon menyertai organisasi",
+  "enterpriseApplicationPending": "Permohonan dihantar. Menunggu kelulusan pentadbir.",
+  "enterpriseLoginBeforeAction": "Log masuk untuk meneruskan",
+  "enterprisePlatformTagline": "Penglibatan pelanggan peribadi untuk organisasi",
+  "enterpriseLookupHint": "Masukkan nombor organisasi, alias atau kod jemputan",
+  "enterpriseLookup": "Cari",
+  "enterpriseApplicationNote": "Nota permohonan (pilihan)",
+  "enterpriseLookupGuide": "Cari menggunakan nombor atau alias organisasi, atau sertai menggunakan kod jemputan",
+  "enterpriseRecommendationsLoading": "Memuatkan organisasi yang disyorkan",
+  "enterpriseRecommendationsFailed": "Tidak dapat memuatkan organisasi yang disyorkan",
+  "enterpriseReload": "Muat semula",
+  "enterpriseNoRecommendations": "Tiada syor. Cari menggunakan nombor organisasi, alias atau kod jemputan.",
+  "enterpriseRecommended": "Organisasi yang disyorkan",
+  "enterpriseJoined": "Telah menyertai",
+  "enterpriseRequestsLoadFailed": "Tidak dapat memuatkan permohonan",
+  "enterpriseCodeMissing": "Nombor organisasi tidak tersedia",
+  "enterpriseAlias": "Alias organisasi",
+  "enterpriseCodeLabel": "Nombor organisasi",
+  "enterprisePrivateAliasHint": "Organisasi ini belum menerbitkan butirannya. Permohonan anda akan mengenal pastinya menggunakan alias ini.",
+  "enterpriseInvitationMismatch": "Kod jemputan ini bukan ditujukan kepada anda. Penyertaan mungkin gagal.",
+  "enterpriseTechnicalRole": "Sokongan teknikal",
+  "enterpriseJoin": "Sertai",
+  "enterpriseCancelApplication": "Buat asal",
+  "enterpriseApplication": "Permohonan organisasi",
+  "enterpriseAliasValue": "Alias organisasi: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Nombor organisasi: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Anda akan menyertai sebagai {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Kod jemputan ini ditujukan kepada: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Sebab penolakan: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisasi {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Semua orang",
+  "enterpriseAudienceAllHint": "Pekerja dan pelanggan",
+  "enterpriseAudienceStaffHint": "Pekerja organisasi sahaja",
+  "enterpriseAudienceCustomers": "Pelanggan organisasi",
+  "enterpriseAudienceCustomersHint": "Pelanggan yang telah menyertai organisasi",
+  "enterpriseOfficialGroups": "Kumpulan rasmi",
+  "enterpriseAudienceGroupsHint": "Sembang kumpulan rasmi organisasi",
+  "enterpriseSendNow": "Hantar sekarang",
+  "enterpriseSendScheduled": "Jadualkan penghantaran",
+  "enterprisePreviewing": "Mempratonton",
+  "enterprisePreview": "Pratonton",
+  "enterpriseSubmitSend": "Serahkan untuk dihantar",
+  "enterpriseBroadcastSubmitted": "Siaran organisasi dihantar",
+  "enterpriseScheduledUnavailable": "Siaran organisasi berjadual tidak tersedia dalam keluaran ini",
+  "enterpriseBroadcastFailed": "Siaran organisasi gagal. Sila cuba lagi nanti.",
+  "enterpriseBroadcastGuide": "Siaran menggunakan akaun rasmi organisasi dan merekodkan operasi. Hasil penghantaran tersedia selepas penyerahan.",
+  "enterpriseSenderIdentity": "Identiti pengirim",
+  "enterpriseSenderAfterPreview": "Sahkan dalam pratonton",
+  "enterpriseSenderConfirmed": "Disahkan",
+  "enterpriseDefaultOfficialSender": "Akaun rasmi organisasi lalai",
+  "enterpriseOfficialSenderHint": "Penerima melihat identiti akaun rasmi organisasi",
+  "enterpriseMessageContent": "Kandungan mesej",
+  "enterpriseBroadcastContentHint": "Masukkan mesej siaran untuk dihantar daripada akaun rasmi",
+  "enterpriseInternalNoteHint": "Nota dalaman untuk audit dan susulan (pilihan)",
+  "enterpriseSendPreview": "Pratonton penghantaran",
+  "enterpriseExpectedRecipients": "Anggaran penerima",
+  "enterpriseDeliveryMethod": "Kaedah penghantaran",
+  "enterpriseTaskStatus": "Status tugas",
+  "enterpriseNoBroadcastHistory": "Belum ada siaran organisasi",
+  "enterpriseHistoryUnavailable": "Tidak tersedia buat sementara waktu",
+  "enterpriseBroadcastDenied": "Tiada kebenaran siaran organisasi",
+  "enterpriseBroadcastRoleHint": "Siaran organisasi hanya tersedia untuk pentadbir dan pemilik.",
+  "enterpriseDefaultApplicationMessage": "Saya ingin menyertai organisasi anda"
+}

@@ -1,0 +1,90 @@
+Could not find a command named "/Users/starburst/Desktop/IMSDK/packages/im_sdk/.dart_tool/hooks_runner/sqlite3/7ad245dadc/hook.dill".
+
+Usage: dart <command|dart-file> [arguments]
+
+Global options:
+-v, --verbose               Show additional command output.
+    --version               Print the Dart SDK version.
+    --enable-analytics      Enable analytics.
+    --disable-analytics     Disable analytics.
+    --suppress-analytics    Disallow analytics for this `dart *` run without changing the analytics configuration.
+-h, --help                  Print this usage information.
+
+Available commands:
+
+Global
+  install     Install or upgrade a Dart CLI tool for global use.
+  installed   List globally installed Dart CLI tools.
+  uninstall   Remove a globally installed Dart CLI tool.
+
+Project
+  build       Build a Dart application including code assets.
+  compile     Compile Dart to various formats.
+  create      Create a new Dart project.
+  pub         Work with packages.
+  run         Run a Dart program from a file or a local package.
+  test        Run tests for a project.
+
+Source code
+  analyze     Analyze Dart code in a directory.
+  doc         Generate API documentation for Dart projects.
+  fix         Apply automated fixes to Dart source code.
+  format      Idiomatically format Dart source code.
+
+Tools
+  devtools    Open DevTools (optionally connecting to an existing application).
+  info        Show diagnostic information about the installed tooling.
+
+Run "dart help <command>" for more information about a command.
+See https://dart.dev/tools/dart-tool for detailed documentation.
+
+  Building assets for package:sqlite3 failed.
+  build.dart returned with exit code: 64.
+  To reproduce run:
+  (cd /Users/starburst/.pub-cache/hosted/pub.dev/sqlite3-3.5.2/; /Users/starburst/fvm/versions/3.41.9/bin/cache/dart-sdk/bin/dart --packages=/Users/starburst/Desktop/IMSDK/packages/im_sdk/.dart_tool/package_config.json /Users/starburst/Desktop/IMSDK/packages/im_sdk/.dart_tool/hooks_runner/sqlite3/7ad245dadc/hook.dill --config=/Users/starburst/Desktop/IMSDK/packages/im_sdk/.dart_tool/hooks_runner/sqlite3/7ad245dadc/input.json )
+  stderr:
+  Could not find a command named "/Users/starburst/Desktop/IMSDK/packages/im_sdk/.dart_tool/hooks_runner/sqlite3/7ad245dadc/hook.dill".
+
+Usage: dart <command|dart-file> [arguments]
+
+Global options:
+-v, --verbose               Show additional command output.
+    --version               Print the Dart SDK version.
+    --enable-analytics      Enable analytics.
+    --disable-analytics     Disable analytics.
+    --suppress-analytics    Disallow analytics for this `dart *` run without changing the analytics configuration.
+-h, --help                  Print this usage information.
+
+Available commands:
+
+Global
+  install     Install or upgrade a Dart CLI tool for global use.
+  installed   List globally installed Dart CLI tools.
+  uninstall   Remove a globally installed Dart CLI tool.
+
+Project
+  build       Build a Dart application including code assets.
+  compile     Compile Dart to various formats.
+  create      Create a new Dart project.
+  pub         Work with packages.
+  run         Run a Dart program from a file or a local package.
+  test        Run tests for a project.
+
+Source code
+  analyze     Analyze Dart code in a directory.
+  doc         Generate API documentation for Dart projects.
+  fix         Apply automated fixes to Dart source code.
+  format      Idiomatically format Dart source code.
+
+Tools
+  devtools    Open DevTools (optionally connecting to an existing application).
+  info        Show diagnostic information about the installed tooling.
+
+Run "dart help <command>" for more information about a command.
+See https://dart.dev/tools/dart-tool for detailed documentation.
+
+  stdout:
+
+
+Hook exited with a reserved exit code: 64. Only 0, 1, 2, and 255 are in use.
+Building native assets failed. See the logs for more details.

@@ -1,0 +1,626 @@
+{
+  "@@locale": "da",
+  "enterpriseInfoTitle": "Virksomhedsoplysninger",
+  "enterpriseName": "Navn",
+  "enterpriseDescription": "Beskrivelse",
+  "enterpriseUpdateSuccess": "Opdateret med succes",
+  "enterpriseUpdateFailed": "Opdatering mislykkedes. Prøv igen.",
+  "enterpriseLeave": "Forlad virksomhed",
+  "enterpriseLeaveConfirm": "Vil du forlade denne virksomhed?",
+  "enterpriseLeaveSuccess": "Virksomhed forladt",
+  "enterpriseLeaveFailed": "Kunne ikke forlade. Prøv igen.",
+  "enterpriseLeaveOwnerError": "Ejeren kan ikke forlade direkte. Overdrag først ejerskabet.",
+  "enterpriseMemberCount": "Medlemmer",
+  "enterpriseCreatedAt": "Oprettet",
+  "enterpriseCode": "Virksomhedskode",
+  "enterpriseInviteMembers": "Invitér medlemmer",
+  "enterpriseCopyInviteCode": "Kopiér invitationskode",
+  "enterpriseInviteCodeCopied": "Invitationskode kopieret",
+  "groupCreateTitle": "Ny gruppe",
+  "groupNameHint": "Indtast gruppenavn",
+  "groupCreateSuccess": "Gruppe oprettet",
+  "groupCreateFailed": "Gruppen kunne ikke oprettes",
+  "groupSettings": "Gruppeindstillinger",
+  "groupName": "Gruppenavn",
+  "groupAvatar": "Gruppebillede",
+  "groupAnnouncement": "Meddelelse",
+  "groupMembers": "Medlemmer",
+  "groupAddMember": "Tilføj medlemmer",
+  "groupRemoveMember": "Fjern medlem",
+  "groupRemoveMemberConfirm": "Fjern dette medlem?",
+  "groupSetAdmin": "Gør til administrator",
+  "groupRemoveAdmin": "Fjern administratorrettigheder",
+  "groupTransferOwner": "Overdrag ejerskab",
+  "groupTransferOwnerConfirm": "Overdrag gruppens ejerskab til dette medlem?",
+  "groupTransferOwnerSuccess": "Ejerskab overdraget",
+  "groupTransferOwnerFailed": "Overdragelse mislykkedes. Prøv igen.",
+  "groupLeave": "Forlad gruppe",
+  "groupLeaveConfirm": "Forlad denne gruppe?",
+  "groupLeaveSuccess": "Gruppe forladt",
+  "groupLeaveFailed": "Kunne ikke forlade. Prøv igen.",
+  "groupDissolve": "Opløs gruppe",
+  "groupDissolveConfirm": "Opløs denne gruppe? Alle medlemmer fjernes.",
+  "groupDissolveSuccess": "Gruppe opløst",
+  "groupDissolveFailed": "Opløsning mislykkedes. Prøv igen.",
+  "groupQrCode": "Gruppens QR-kode",
+  "groupMuteAll": "Begræns skrivning for alle",
+  "groupMuteAllOn": "Aktivér skrivebegrænsning for alle",
+  "groupMuteAllOff": "Ophæv skrivebegrænsning for alle",
+  "groupAllowMemberInvite": "Tillad medlemsinvitationer",
+  "groupAllowMemberModifyTitle": "Tillad medlemmer at ændre gruppenavnet",
+  "groupAllowMemberAtAll": "Tillad medlemmer at omtale @Alle",
+  "groupAllowMemberViewMemberList": "Tillad medlemmer at se medlemslisten",
+  "groupAllowQrCodeJoin": "Tillad deltagelse via QR-kode",
+  "groupRequireApproval": "Kræv godkendelse for deltagelse",
+  "groupAllowMemberAddFriend": "Tillad medlemmer at tilføje hinanden",
+  "groupRoleOwner": "Ejer",
+  "groupRoleAdmin": "Administrator",
+  "groupRoleMember": "Medlem",
+  "groupNoMembers": "Ingen medlemmer",
+  "groupNoAnnouncements": "Ingen meddelelser",
+  "groupCreateAnnouncement": "Opret meddelelse",
+  "groupEditAnnouncement": "Redigér meddelelse",
+  "groupDeleteAnnouncement": "Slet meddelelse",
+  "groupDeleteAnnouncementConfirm": "Slet denne meddelelse?",
+  "groupAnnouncementTitle": "Titel",
+  "groupAnnouncementContent": "Indhold",
+  "groupAnnouncementPin": "Fastgør meddelelse",
+  "groupMemberCount": "{count} medlemmer",
+  "groupSelectedCount": "{count} valgt",
+  "groupJoinRequestApprove": "Accepter",
+  "groupJoinRequestReject": "Afvis",
+  "groupJoinRequests": "Deltagelsesanmodninger",
+  "groupNoJoinRequests": "Ingen deltagelsesanmodninger",
+  "groupReadReceipts": "Læsekvitteringer",
+  "groupReadCount": "{count} læst",
+  "groupUnreadCount": "{count} ulæste",
+  "organizationTitle": "Organisation",
+  "organizationEmpty": "Ingen afdelingsoplysninger",
+  "organizationMembers": "Medlemmer",
+  "organizationDepartment": "Afdeling",
+  "organizationPosition": "Stilling",
+  "organizationLeader": "Leder",
+  "qrCodeTitle": "Min QR-kode",
+  "qrCodeSave": "Gem til album",
+  "qrCodeShare": "Del",
+  "qrCodeSaveSuccess": "Gemt i album",
+  "qrCodeSaveFailed": "Kunne ikke gemme. Prøv igen.",
+  "qrCodeRefresh": "Opdatér QR-kode",
+  "qrCodeExpired": "QR-koden er udløbet. Opdatér den.",
+  "qrCodeScanToAdd": "Scan for at tilføje mig som kontakt",
+  "spacePersonal": "Personligt",
+  "spaceEnterprise": "Virksomhed",
+  "spaceJoinByCode": "Deltag med virksomhedskode",
+  "spaceJoinByInvite": "Deltag med invitationskode",
+  "spaceEnterCode": "Indtast virksomhedskode",
+  "spaceEnterInviteCode": "Indtast invitationskode",
+  "spaceSearchEnterprise": "Søg virksomhed",
+  "spaceJoinRequestSent": "Anmodning indsendt, afventer godkendelse",
+  "spaceJoinRequestPending": "Afventer godkendelse",
+  "spaceJoinRequestApproved": "Anmodning godkendt",
+  "spaceJoinRequestRejected": "Anmodning afvist",
+  "spaceAlreadyMember": "Du er allerede medlem",
+  "spaceAutoApproved": "Automatisk godkendt. Velkommen!",
+  "spacePendingApprovalHint": "Registrering gennemført. Din deltagelsesanmodning er indsendt.",
+  "spaceNoSpaces": "Ingen rum",
+  "spaceInviteExpired": "Invitationskoden er udløbet",
+  "spaceInviteTargetMismatch": "Denne invitationskode er ikke til din konto",
+  "spaceAcceptInviteSuccess": "Du deltager nu i virksomheden",
+  "spaceAcceptInviteFailed": "Kunne ikke deltage. Prøv igen.",
+  "spaceTenantSelectTitle": "Vælg rum",
+  "spaceTenantSelectHint": "Vælg et rum at åbne",
+  "spaceEnterPersonal": "Åbn personligt rum",
+  "spaceEnterEnterprise": "Åbn virksomhedsrum",
+  "recentContactsTitle": "Seneste",
+  "recentContactsEmpty": "Ingen seneste kontakter",
+  "inviteFriendsTitle": "Invitér venner",
+  "inviteFriendsCopyLink": "Kopiér invitationslink",
+  "inviteFriendsLinkCopied": "Invitationslink kopieret",
+  "pendingJoinRequestsTitle": "Nye ansøgninger",
+  "pendingJoinRequestsEmpty": "Ingen ansøgninger",
+  "pendingJoinRequestApprove": "Accepter",
+  "pendingJoinRequestReject": "Afvis",
+  "pendingJoinRequestApproveSuccess": "Godkendt",
+  "pendingJoinRequestRejectSuccess": "Afvist",
+  "pendingJoinRequestFailed": "Handlingen mislykkedes. Prøv igen.",
+  "groupListTitle": "Grupper",
+  "groupListEmpty": "Ingen grupper",
+  "joinCompanyTitle": "Deltag i virksomhed",
+  "joinCompanyCodeHint": "Indtast virksomhedskode",
+  "joinCompanySearchHint": "Søg virksomhedsnavn",
+  "joinCompanyApply": "Ansøg om deltagelse",
+  "joinCompanyApplySuccess": "Ansøgning indsendt",
+  "joinCompanyApplyFailed": "Ansøgning mislykkedes. Prøv igen.",
+  "joinCompanyAutoApproved": "Automatisk godkendt. Velkommen!",
+  "joinCompanyPending": "Ansøgning indsendt, afventer godkendelse",
+  "joinCompanyInviteCodeHint": "Indtast invitationskode",
+  "joinCompanyAcceptInvite": "Acceptér invitation",
+  "joinCompanyNoResults": "Ingen virksomheder fundet",
+  "joinCompanyMemberCount": "{count} medlemmer",
+  "approvalEmpty": "Ingen anmodninger",
+  "approvalApprove": "Accepter",
+  "approvalReject": "Afvis",
+  "approvalPending": "Afventer",
+  "approvalApproved": "Godkendt",
+  "approvalRejected": "Afvist",
+  "approvalExpired": "Udløbet",
+  "approvalCancelled": "Annulleret",
+  "approvalReplayFailed": "Den oprindelige handling mislykkedes. Prøv igen.",
+  "requestCancelled": "Anmodning annulleret",
+  "enterpriseNoPermission": "Ingen tilladelse",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Indstillinger for virksomhedsoplysninger",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Virksomhedskonfiguration",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Officielle konti",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Administrér officielle konti",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Medlemsadministration",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Invitér medarbejdere",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Medlemmer",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Meddelelsesadministration",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Virksomhedsmassebesked",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Godkendelser",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Medlemsgodkendelser",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Overdrag ejerskab",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Efter overdragelsen bliver du administrator. Dette kan ikke fortrydes. Vælg den nye ejer fra medlemslisten.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Vælg en ny ejer",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Tildelingstilstand for medarbejdere",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatisk tildeling",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Udpeget medarbejder",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Godkendelsestilstand for medlemskab",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Manuel godkendelse",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatisk godkendelse",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Vennetilstand",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Social tilstand",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Isolationstilstand",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Adgang for widgetbesøgende",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Deaktiveret",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Tildel tilgængelige medarbejdere automatisk på skift",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Tildel alle kunder til den udpegede medarbejder",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Kundeanmodninger kræver administratorgodkendelse",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Godkend kundeanmodninger automatisk",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Kunder kan tilføje hinanden som venner",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Kunder kan ikke tilføje hinanden som venner",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Medlem",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Søg medlemmer",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Gør til medlem",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Gør til teknisk support",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Gør til servicemedarbejder",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Bekræft overdragelse",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Virksomhedsnavn kræves",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Indtast virksomhedsnavnet",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Ingen beskrivelse",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Virksomhedslogo",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Oprettelse mislykkedes. Prøv venligst igen.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Maksimalt antal anvendelser",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Gældenhed",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 time",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 timer",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dage",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dage",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Opret invitationskode",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Invitationskode",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Alle",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Medarbejdere",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Søg medarbejdere, roller eller stillinger",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Virksomhedsmedlemmer",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Ingen matchende medlemmer",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Virksomhedsoversigt",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Administrer",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Rolletilladelser",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Overdragelse ved fratrædelse",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Søg medarbejdere",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Virksomhedsmedarbejdere",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Venneprofil",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Tale- og videoopkald",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Tilføj ven",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Mand",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Kvinde",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Ingen ulæste samtaler",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "V",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Invitationskode kopieret",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Fjern »{name}« fra virksomheden?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Overdrag ejerskab til »{name}«? Du bliver administrator. Dette kan ikke fortrydes.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} anvendelse} other {{count} anvendelser}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Gyldig i {hours} timer · Højst {count} anvendelser",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} ulæst samtale} other {{count} ulæste samtaler}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} ulæst besked} other {{count} ulæste beskeder}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble-id: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Forlad virksomhed",
+  "enterpriseLoginBeforeSearch": "Log ind, før du søger efter en organisation",
+  "enterpriseSearchFailed": "Søgning mislykkedes. Prøv igen.",
+  "enterpriseLoginBeforeJoin": "Log ind, før du ansøger om at deltage i en organisation",
+  "enterpriseApplicationPending": "Ansøgning indsendt. Afventer administratorgodkendelse.",
+  "enterpriseLoginBeforeAction": "Log ind for at fortsætte",
+  "enterprisePlatformTagline": "Privat kundekontakt for organisationer",
+  "enterpriseLookupHint": "Indtast organisationsnummer, alias eller invitationskode",
+  "enterpriseLookup": "Søg",
+  "enterpriseApplicationNote": "Ansøgningsbemærkning (valgfrit)",
+  "enterpriseLookupGuide": "Søg via organisationsnummer eller alias, eller deltag med invitationskode",
+  "enterpriseRecommendationsLoading": "Indlæser anbefalede organisationer",
+  "enterpriseRecommendationsFailed": "Anbefalede organisationer kunne ikke indlæses",
+  "enterpriseReload": "Genindlæs",
+  "enterpriseNoRecommendations": "Ingen anbefalinger. Søg med organisationsnummer, alias eller invitationskode.",
+  "enterpriseRecommended": "Anbefalede organisationer",
+  "enterpriseJoined": "Deltager",
+  "enterpriseRequestsLoadFailed": "Ansøgninger kunne ikke indlæses",
+  "enterpriseCodeMissing": "Organisationsnummer utilgængeligt",
+  "enterpriseAlias": "Organisationsalias",
+  "enterpriseCodeLabel": "Organisationsnummer",
+  "enterprisePrivateAliasHint": "Organisationen har ikke offentliggjort sine oplysninger. Din ansøgning identificerer den med dette alias.",
+  "enterpriseInvitationMismatch": "Invitationskoden er ikke adresseret til dig. Deltagelse kan mislykkes.",
+  "enterpriseTechnicalRole": "Teknisk support",
+  "enterpriseJoin": "Deltag",
+  "enterpriseCancelApplication": "Fortryd",
+  "enterpriseApplication": "Organisationsansøgning",
+  "enterpriseAliasValue": "Organisationsalias: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Organisationsnummer: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Du deltager som {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Invitationskoden er adresseret til: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Afvisningsårsag: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisation {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "E",
+  "enterpriseAudienceAll": "Alle",
+  "enterpriseAudienceAllHint": "Medarbejdere og kunder",
+  "enterpriseAudienceStaffHint": "Kun organisationsmedarbejdere",
+  "enterpriseAudienceCustomers": "Organisationskunder",
+  "enterpriseAudienceCustomersHint": "Kunder, der deltager i organisationen",
+  "enterpriseOfficialGroups": "Officielle grupper",
+  "enterpriseAudienceGroupsHint": "Organisationens officielle gruppechats",
+  "enterpriseSendNow": "Send nu",
+  "enterpriseSendScheduled": "Planlæg afsendelse",
+  "enterprisePreviewing": "Forhåndsviser",
+  "enterprisePreview": "Forhåndsvisning",
+  "enterpriseSubmitSend": "Indsend til afsendelse",
+  "enterpriseBroadcastSubmitted": "Organisationsmassebesked indsendt",
+  "enterpriseScheduledUnavailable": "Planlagte organisationsmassebeskeder er ikke tilgængelige i denne version",
+  "enterpriseBroadcastFailed": "Organisationsmassebesked mislykkedes. Prøv igen senere.",
+  "enterpriseBroadcastGuide": "Massebeskeder bruger organisationens officielle konto og registrerer handlingen. Leveringsresultater er tilgængelige efter indsendelse.",
+  "enterpriseSenderIdentity": "Afsenderidentitet",
+  "enterpriseSenderAfterPreview": "Bekræft i forhåndsvisningen",
+  "enterpriseSenderConfirmed": "Bekræftet",
+  "enterpriseDefaultOfficialSender": "Organisationens officielle standardkonto",
+  "enterpriseOfficialSenderHint": "Modtagere ser organisationens officielle kontoidentitet",
+  "enterpriseMessageContent": "Beskedindhold",
+  "enterpriseBroadcastContentHint": "Indtast massebeskeden, der skal sendes fra den officielle konto",
+  "enterpriseInternalNoteHint": "Intern note til revision og opfølgning (valgfrit)",
+  "enterpriseSendPreview": "Afsendelsesforhåndsvisning",
+  "enterpriseExpectedRecipients": "Forventede modtagere",
+  "enterpriseDeliveryMethod": "Leveringsmetode",
+  "enterpriseTaskStatus": "Opgavestatus",
+  "enterpriseNoBroadcastHistory": "Ingen organisationsmassebeskeder endnu",
+  "enterpriseHistoryUnavailable": "Midlertidigt utilgængelig",
+  "enterpriseBroadcastDenied": "Ingen tilladelse til organisationsmassebeskeder",
+  "enterpriseBroadcastRoleHint": "Organisationsmassebeskeder er kun tilgængelige for administratorer og ejere.",
+  "enterpriseDefaultApplicationMessage": "Jeg vil gerne deltage i jeres organisation"
+}

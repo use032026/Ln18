@@ -1,0 +1,471 @@
+{
+  "@@locale": "hr",
+  "settingsTitle": "Postavke",
+  "settingsSectionEnterprise": "Tvrtka",
+  "settingsSectionAccount": "Račun",
+  "settingsSectionGeneral": "Općenito",
+  "settingsSectionFeatures": "Funkcije",
+  "settingsSectionAbout": "O aplikaciji",
+  "settingsEnterpriseInfo": "Podaci o tvrtki",
+  "settingsProfile": "Moj profil",
+  "settingsAccountSecurity": "Sigurnost računa",
+  "settingsNotification": "Obavijesti",
+  "settingsDisplay": "Prikaz",
+  "settingsFriendPrivacy": "Privatnost",
+  "settingsChat": "Razgovor",
+  "settingsChatHistory": "Povijest razgovora",
+  "settingsAbout": "O aplikaciji StartLink",
+  "settingsLanguage": "Jezik",
+  "settingsTimezone": "Vremenska zona",
+  "settingsAutoTranslate": "Automatski prijevod",
+  "settingsNetworkSwitch": "Promijeni liniju",
+  "aboutTitle": "O aplikaciji StartLink",
+  "aboutVersion": "Verzija",
+  "aboutTerms": "Korisnički ugovor",
+  "aboutPrivacy": "Politika privatnosti",
+  "aboutOpenSource": "Licence otvorenog koda",
+  "aboutCheckUpdate": "Provjeri ažuriranja",
+  "aboutLatestVersion": "Koristite najnoviju verziju.",
+  "aboutUpdateAvailable": "Dostupna je nova verzija",
+  "aboutUpdateNow": "Ažurirajte sada",
+  "aboutUpdateLater": "Kasnije",
+  "networkTitle": "Promijeni liniju",
+  "networkAutoSelect": "Automatski",
+  "networkManual": "Ručno",
+  "timezoneTitle": "Vremenska zona",
+  "timezoneAuto": "Prati sustav",
+  "displayTitle": "Prikaz",
+  "displayFontSize": "Veličina fonta",
+  "displayChatBackground": "Pozadina razgovora",
+  "displayDarkMode": "Izgled",
+  "displayDarkModeSystem": "Prati sustav",
+  "displayDarkModeSystemHint": "Automatski mijenjaj prema postavkama sustava",
+  "displayDarkModeOff": "Svijetlo",
+  "displayDarkModeOffHint": "Uvijek koristi svijetlu temu",
+  "displayDarkModeOn": "Tamno",
+  "displayDarkModeOnHint": "Uvijek koristi tamnu temu",
+  "accountSecurityTitle": "Sigurnost računa",
+  "accountSecurityChangePassword": "Promijeni lozinku",
+  "accountSecurityChangeMobile": "Promijeni telefon",
+  "accountSecurityChangeEmail": "Promijeni e-poštu",
+  "accountSecurityLoggedDevices": "Prijavljeni uređaji",
+  "accountSecurityDeactivate": "Deaktiviraj račun",
+  "accountSecurityDeactivateConfirm": "Svi će podaci biti trajno izbrisani nakon 7 dana. Deaktivirati račun?",
+  "loggedDevicesTitle": "Prijavljeni uređaji",
+  "loggedDevicesCurrent": "Ovaj uređaj",
+  "loggedDevicesRevoke": "Odjavi se",
+  "loggedDevicesRevokeConfirm": "Odjaviti se s ovog uređaja?",
+  "loggedDevicesRevokeSuccess": "Odjavljeni ste s uređaja",
+  "loggedDevicesRevokeFailed": "Nije uspjelo. Pokušajte ponovno.",
+  "loggedDevicesLastActive": "Posljednja aktivnost",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Računalo",
+  "loggedDevicesTypeUnknown": "Nepoznat uređaj",
+  "fontSizeTitle": "Veličina fonta",
+  "fontSizeSmall": "Malo",
+  "fontSizeNormal": "Standardno",
+  "fontSizeLarge": "Veliki",
+  "fontSizeExtraLarge": "Extra veliki",
+  "fontSizePreview": "Pregled",
+  "timezoneNameHawaii": "Havaji",
+  "timezoneNameAlaska": "Aljaska",
+  "timezoneNamePacificTime": "Pacifičko vrijeme",
+  "timezoneNameMountainTime": "Planinsko vrijeme",
+  "timezoneNameCentralTime": "Središnje vrijeme",
+  "timezoneNameEasternTime": "Istočno vrijeme",
+  "timezoneNameAtlanticTime": "Atlantsko vrijeme",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azori",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Pariz/Rim",
+  "timezoneNameCairoHelsinki": "Kairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskva/Rijad",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karači/Taškent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Katmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almati",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoj/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Šangaj/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokio/Seul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salomonski Otoci",
+  "timezoneNameAucklandFiji": "Auckland/Fidži",
+  "networkSmartSelectBestRoute": "Pametan odabir najbolje veze",
+  "networkTesting": "Testiranje...",
+  "networkTestingShort": "Testiranje",
+  "networkLatencyMs": "Odziv {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Način povezivanja",
+  "networkDirectMode": "Izravno povezivanje",
+  "networkProxyMode": "Povezivanje putem proxyja",
+  "networkDirectModeDesc": "Izravno se povežite s poslužiteljem",
+  "networkProxyModeDesc": "Povežite se putem proxy poslužitelja",
+  "networkDirectRoutes": "Izravne veze",
+  "networkProxyRoutes": "Proxy veze",
+  "networkTestAll": "Testiraj sve",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Čvor u Hong Kongu",
+  "networkSingaporeNode": "Čvor u Singapuru",
+  "networkJapanNode": "Čvor u Japanu",
+  "networkUnitedStatesNode": "Čvor u Sjedinjenim Državama",
+  "networkHint": "Savjeti:\n• Izravno povezivanje: brže i pogodno za domaću upotrebu\n• Proxy povezivanje: stabilnije za međunarodnu komunikaciju\n• Dodirnite ikonu osvježavanja za provjeru odziva pojedine veze",
+  "diagnosticsTitle": "Dijagnostika",
+  "diagnosticsExplanation": "Zapisi su anonimizirani i sadrže podatke o radnjama i pogreškama za ovaj račun i prostor te javne događaje pokretanja. Sadržaj razgovora i vjerodajnice nisu uključeni.",
+  "diagnosticsHour": "Posljednji sat",
+  "diagnosticsDay": "Posljednja 24 sata",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Dostupni događaji: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Zapisi se spremaju na ovom uređaju i dostupni su nakon ponovnog pokretanja.",
+  "diagnosticsNotPersistent": "Neki zapisi nisu spremljeni. Osvježite za ponovni pokušaj.",
+  "diagnosticsExport": "Izvezi i podijeli",
+  "diagnosticsRefresh": "Osvježi",
+  "diagnosticsClear": "Obriši zapise ovog prostora",
+  "diagnosticsClearConfirm": "Obrisati dijagnostičke zapise ovog prostora? Povijest razgovora bit će zadržana.",
+  "diagnosticsShared": "Sustavno dijeljenje je dovršeno. Provjerite datoteku u odredišnoj aplikaciji.",
+  "diagnosticsCancelled": "Dijeljenje je otkazano. Možete ponovno izvesti.",
+  "diagnosticsUnconfirmed": "Dijeljenje nije potvrđeno. Provjerite odredišnu aplikaciju.",
+  "diagnosticsFailed": "Radnja nije uspjela. Pokušajte ponovno.",
+  "settingsDeleteWarning": "Brisanjem računa prestaje vaše članstvo u svim tvrtkama. Povijest poruka nije moguće vratiti.\n\nImate razdoblje čekanja od 7 dana tijekom kojeg se možete ponovno prijaviti i otkazati brisanje.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Nastavi brisanje",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Završna potvrda",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Izbrisati račun? Brisanje postaje trajno nakon 7 dana.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Razlog brisanja (neobvezno)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Zahtjev za brisanje je poslan. Prijavite se u roku od 7 dana za otkazivanje.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Potvrdite brisanje računa",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Brisanje računa nije uspjelo. Pokušajte ponovno.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Blokirani korisnici ne mogu vam slati poruke niti pregledavati vaš profil i objave.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Razgovor",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Pritisnite Enter za slanje",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Učitavanje nije uspjelo, dodirnite za ponovni pokušaj",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Privola za obavijesti o porukama",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Prihvaćeno",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Nije prihvaćeno",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Dopuštenje za obavijesti sustava",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Uključeno",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Onemogućeno",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Nepoznato",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Nije podržano",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Provjera",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Provjera nije uspjela",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Dolazni pozivi preko cijelog zaslona",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Dodirnite za provjeru i dopuštanje",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Obavijesti o pozivima preko cijelog zaslona su uključene",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "U postavkama sustava dopustite obavijesti o pozivima preko cijelog zaslona.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Raspored načina Ne ometaj",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Nije postavljeno",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Uključi obavijesti o porukama",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Kad je uključeno, JPush/JCore i usluge obavijesti uređaja mogu obrađivati podatke o uređaju, identifikatore obavijesti i podatke o dostavi radi obavijesti o porukama, korisničkoj podršci i pozivima. Obavijesti možete isključiti u postavkama sustava.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Obavijesti su i dalje isključene. Dopustite obavijesti aplikacije Weijie u postavkama sustava.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (noć)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Isključi način Ne ometaj",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Nije testirano",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Nedostupno",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Glavna pričuvna veza",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Veza nije dostupna. Zadržana je trenutačna veza.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Dostupna odredišta",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Osvježavanje veza nije uspjelo. Zadržana je trenutačna veza.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Osvježavanje",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Osvježi odredišta",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Veze dolaze iz provjerene službene konfiguracije. Pri pokretanju vraća se posljednja veza, a zatim se osvježava iz trenutačnih, predmemoriranih, početnih i S3/R2 izvora. Ručni odabir ima prednost; pri pogreškama zadržava se trenutačna veza.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Nepoznat uređaj",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Odjavi se",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Trenutačno",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Uređaji nisu učitani",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Nema prijavljenih uređaja",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Pregled",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Ovaj ogledni tekst prikazuje veličinu slova. Odaberite veličinu koja vam olakšava razgovor.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Sva prava pridržana",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Primjer prijevoda",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Izvornik (engleski)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Ciljni jezik",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Savjeti:\n• Automatski prijevod koristi umjetnu inteligenciju\n• Prijevodi služe kao pomoć i mogu sadržavati pogreške\n• U razgovoru su prikazani izvornik i prijevod\n• Dugo pritisnite poruku i odaberite „Prikaži izvornik”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Zadana pozadina",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Bijela",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Svijetlosiva",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Bež",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Svijetloplava",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Svijetlozelena",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Svijetloružičasta",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Svijetloljubičasta",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Prilagođena slika",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Pozadina ovog razgovora",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Pozadina razgovora",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Promijeni prilagođenu sliku",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Odaberi iz fotografija",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Postavi",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Koristi opću pozadinu razgovora",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Prijevod ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Odjaviti „{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sesija} few {{count} sesije} other {{count} sesija}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Posljednja aktivnost {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Dijagnostika za razvojne programere",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Mreža nije dostupna. Provjerite mrežne postavke.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

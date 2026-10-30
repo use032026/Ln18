@@ -1,0 +1,97 @@
+{
+  "account": {
+    "accountAndClient": "帳號與客戶端",
+    "createQrFailed": "生成 QR 碼失敗：{error}",
+    "entryAria": "{name}，{account}，狀態：{status}",
+    "identifyingClient": "正在識別客戶端",
+    "imStatus": "IM 狀態",
+    "instance": "實例 {id}",
+    "inviteQrMessage": "掃碼加我",
+    "logout": "退出登入",
+    "manageDevices": "管理登入裝置",
+    "member": "成員",
+    "myAccount": "我的帳號",
+    "myEntrances": "我的入口",
+    "noSignature": "暫無簽名",
+    "openClientFailed": "打開新客戶端失敗：{error}",
+    "openNewClient": "打開新客戶端",
+    "openProfile": "打開帳號資料",
+    "openedNewClient": "已打開新的 PC 客戶端",
+    "opening": "正在打開",
+    "pcUser": "PC 使用者",
+    "setImStatus": "設定 IM 狀態為{status}"
+  },
+  "badge": {
+    "friendRequestsSuffix": "，{count} 條好友申請",
+    "remindersSuffix": "，{count} 條提醒"
+  },
+  "brand": {
+    "about": "關於{publicName}",
+    "helpAboutUpdate": "幫助 / 關於 / 檢查更新"
+  },
+  "collapse": "收起側邊欄",
+  "expand": "展開側邊欄",
+  "navAria": "主導航",
+  "notification": {
+    "newServiceThread": "新的線上客服會話",
+    "queueBody": "有訪客正在排隊，等待接入",
+    "queueCountBody": "有新的訪客正在排隊，等待接入",
+    "queueFromSource": "來自 {source} 的訪客正在排隊，等待接入",
+    "serviceMessageBody": "線上客服會話有新訊息",
+    "serviceMessageTitle": "線上客服新訊息",
+    "slaBody": "線上客服會話接近超時或已經超時",
+    "slaBodyNamed": "{title} 接近超時或已經超時",
+    "slaTitle": "SLA 超時提醒"
+  },
+  "presence": {
+    "away": "離開",
+    "busy": "忙碌",
+    "invisible": "隱身",
+    "online": "線上"
+  },
+  "productVersion": "專業版 · v{version}",
+  "service": {
+    "accessModeAria": "客服接入模式",
+    "autoEnableHint": "點擊後切換為客服線上，並啟用自動分配。",
+    "counterQueue": "排隊",
+    "counterQueueShort": "排",
+    "counterReception": "接待中",
+    "counterReceptionShort": "接",
+    "counterUnread": "未讀",
+    "counterUnreadShort": "未",
+    "enter": "進入線上客服",
+    "entryAria": "線上客服：{status}",
+    "fullDetail": "接待 {reception} · 排隊 {queue} · 未讀 {unread}",
+    "metricQueue": "排隊 {value}",
+    "metricReception": "接待 {value}",
+    "metricUnread": "未讀 {value}",
+    "receptionNotSynced": "接待狀態未同步，暫不能切換接入模式。",
+    "receptionStatusAria": "客服接待狀態",
+    "status": {
+      "break": "短暫離開",
+      "busy": "客服忙碌",
+      "offline": "客服離線",
+      "online": "客服線上"
+    },
+    "statusHint": {
+      "break": "暫不接收新的排隊會話",
+      "busy": "不自動接入，仍可手動處理",
+      "offline": "不參與接待",
+      "online": "可手動接入排隊會話"
+    },
+    "statusAria": "線上客服狀態",
+    "statusUnsynced": "狀態未同步",
+    "syncFailed": "接待狀態同步失敗：{error}",
+    "tooltip": "線上客服 · {status}"
+  },
+  "space": {
+    "enterprise": "企業空間",
+    "enterpriseCode": "企業碼 {code}",
+    "entryAria": "目前空間：{name}，{meta}",
+    "pendingSuffix": " · {count} 條未處理",
+    "personal": "個人空間",
+    "personalAccount": "個人帳號",
+    "tooltip": "空間 · {name} · {meta}"
+  },
+  "statusCenter": "狀態中心"
+}

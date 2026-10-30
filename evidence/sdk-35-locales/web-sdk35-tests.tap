@@ -1,0 +1,14 @@
+✔ all 35 published locale choices resolve and normalize without collapsing Portuguese variants (1.042166ms)
+✔ host region/script aliases agree with native selection including compact Portuguese and legacy language aliases (0.840959ms)
+✔ every pre-existing Web phrase keeps its exact old six-language value (1.455833ms)
+✔ Arabic/German/Portuguese use the reviewed shared translation rows, not the Chinese source or another locale column (1.985625ms)
+✔ SDK-specific gaps explicitly use English and preserve raw host parameters without executing ARB ICU (0.084667ms)
+✔ system locale priority recognizes new languages and falls back only when no supported choice exists (0.065417ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 86.311542

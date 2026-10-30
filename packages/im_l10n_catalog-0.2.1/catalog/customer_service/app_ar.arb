@@ -1,0 +1,1369 @@
+{
+  "@@locale": "ar",
+  "customerServiceTitle": "مكتب الخدمة",
+  "customerServiceQueue": "في الانتظار",
+  "customerServiceActive": "نشطة",
+  "customerServiceClaim": "قبول",
+  "customerServiceTakeover": "تولّي المحادثة",
+  "customerServiceClose": "إنهاء الخدمة",
+  "customerServiceCloseConfirm": "هل تريد إنهاء جلسة الخدمة هذه؟",
+  "customerServiceNoQueue": "لا توجد جلسات في الانتظار",
+  "customerServiceNoActive": "لا توجد جلسات نشطة",
+  "customerServiceVisitor": "زائر",
+  "customerServiceCustomer": "عميل",
+  "customerServiceAssignedTo": "مُسند إلى",
+  "customerServiceTransferConversation": "نقل المحادثة",
+  "marketingToolbar": "أدوات التسويق",
+  "customerServiceBroadcastDirectTitle": "إرسال جماعي للعملاء",
+  "csAiReplyTitle": "رد الذكاء الاصطناعي",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "رسالة العميل",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "اقتراحات الرد",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "إنشاء اقتراحات للرد",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "إعادة الإنشاء",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "إنشاء اقتراح",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "جارٍ الإدراج…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "إدراج الرد",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "مصادر المعرفة",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "مواد قاعدة المعرفة",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "لا توجد اقتراحات بعد. انقر لإنشاء رد بالذكاء الاصطناعي.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "لا توجد رسالة عميل متاحة لإنشاء رد.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "لا يستطيع هذا الحساب استخدام ذكاء خدمة العملاء الاصطناعي.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "ردود الذكاء الاصطناعي غير مدعومة لهذا النوع من المحادثات.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "محادثة الدعم هذه غير متاحة. حدّث وحاول مجددًا.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "تعذّر إنشاء رد بالذكاء الاصطناعي. حاول مجددًا.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "حُظر المحتوى بواسطة المراجعة.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "انضم إلى المجموعة قبل إرسال رسالة جماعية فيها.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "اختر محادثة مجموعة",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "لا يمكن للإرسال الجماعي لجميع أعضاء المستأجر استهداف محادثة مجموعة.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "لم يُعثر على المجموعة أو المهمة المستهدفة.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "الهدف ليس محادثة مجموعة.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "المجموعة المستهدفة غير متاحة.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "تنسيق الرسالة هذا غير مدعوم.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "لم يُعثر على مستلمين مؤهلين في النطاق المستهدف.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "يتجاوز عدد المستلمين حد الإرسال الجماعي.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "طلبات إرسال جماعي كثيرة جدًا. حاول لاحقًا.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "الإرسال الجماعي للمجموعة لا يدعم إعادة المحاولة لمستلمين منفردين.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "يلزم إذن مسؤول لهذا الإرسال الجماعي.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "خطأ في الخادم",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "فشل الإرسال الجماعي",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "الدعم عبر الإنترنت",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "خدمة العملاء",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "الأداء",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "الاستقبال",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "الوضع",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "القبول اليدوي",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "الإسناد التلقائي",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "تعذّر تغيير وضع القبول. حاول مجددًا.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "تعذّر تغيير الحالة. حاول مجددًا.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "ادخل إلى مساحة مؤسسة أولًا.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "لا يتيح هذا الدور الوصول إلى لوحة العمل.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "لوحة عمل المالك",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "لوحة عمل المسؤول",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "عمليات العملاء",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "جميع العملاء",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "طلبات الانضمام إلى المؤسسة",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "نمو العملاء",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "عمليات الخدمة",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "مركز الدعم",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "كفاءة خدمة الفريق",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "إدارة المخاطر",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "محادثات معرّضة للخطر",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "تدقيق المحادثات",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "تدقيق العمليات",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "عمليات المجموعات",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "الإشراف على المجموعات",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "إرسال جماعي للمؤسسة",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "العرض حسب موظف الخدمة",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "تجاوز وقت الرد",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "لا توجد بيانات عملاء",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "بحث عن عملاء",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "إجمالي العملاء",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "في انتظار الإسناد",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "العملاء غير المسندين",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "لا يوجد عملاء غير مسندين",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "أُضيفوا اليوم",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "إسناد متأخر",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "لا توجد بيانات نمو",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "اليوم",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "هذا الشهر",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "هذا الربع",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "ستة أشهر",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "عملاء جدد",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "عملاء نشطون",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "عملاء غير نشطين",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "خطر فقدان العملاء",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "لا توجد بيانات لمجموعات العملاء",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "بحث في مجموعات العملاء",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "لا توجد بيانات لكفاءة الخدمة",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "متوسط الرد",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "المحادثات المعالجة",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "مراقبة مجموعات الخدمة",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "لا توجد بيانات لمجموعات الخدمة",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "ابحث عن عملاء أو مجموعات خدمة",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "إدارة محادثات الدعم",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "لا توجد محادثات",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "ابحث عن عملاء أو زوار أو محادثات",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "لا توجد محادثات معرّضة للخطر",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "ابحث عن عملاء أو موظفي خدمة أو محادثات",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "لا توجد سجلات محادثات",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "لا توجد سجلات تدقيق",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "ابحث عن منفذي عمليات أو عملاء",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "لا توجد بيانات لخدمة الموظفين",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "بحث عن موظفي خدمة",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "لا توجد محادثات تجاوزت الوقت",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "ابحث عن عملاء أو محادثات",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "حالة موظف الخدمة",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "لا توجد بيانات لحالة موظفي الخدمة",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "لا توجد بيانات لموظفي الخدمة",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "العملاء غير المسندين غير متاحين مؤقتًا.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "في انتظار موظف خدمة",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "إسناد",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "تفاصيل العميل",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "تعذّر تحميل موظفي الخدمة المتاحين.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "أُسند تلقائيًا حسب القواعد",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "عُيّن موظف الخدمة",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "تعذّر تعيين موظف خدمة.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "تعيين موظف خدمة",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "الإسناد تلقائيًا حسب القواعد",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "تختار الخدمة موظفًا مناسبًا.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "لا يوجد موظفو خدمة متاحون للإسناد.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "حالة موظف الخدمة غير متاحة مؤقتًا.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "تدقيق المحادثات غير متاح بعد.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "المحادثات المعرّضة للخطر غير متاحة بعد.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "تفاصيل تجاوز وقت الرد غير متاحة بعد.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "تدقيق العمليات غير متاح مؤقتًا.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "سجل العملية",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "محادثات العملاء",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "في الانتظار",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "موظفو الاستقبال",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "نظرة عامة على مركز الدعم",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "المراقبة المباشرة",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "تعذّر تحميل المراقبة المباشرة.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "مراقبة محادثات الدعم المباشرة",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "جارٍ مزامنة موظفي الخدمة",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "التصفية حسب موظف الخدمة",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "جميع موظفي الخدمة",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "جاري",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "جميع الحالات",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "جميع القنوات",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "استفسارات الزوار",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "دعم المراسلة الفورية",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "لا توجد محادثات دعم نشطة تطابق هذه المرشحات.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "قيد المراقبة",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "مراقبة",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "اختر محادثات أعلاه لمراقبتها جنبًا إلى جنب.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "تعذّرت مزامنة التفاصيل. حدّث بعد قليل.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "لا توجد رسائل للمعاينة",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[مكالمة]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "لا توجد محادثات عملاء",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "لا توجد محادثات دعم عبر الإنترنت",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "المحادثات الحالية",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "الأشخاص في الانتظار",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "موظفو الخدمة المشغولون",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "موظفو الخدمة المتاحون",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "نظرة عامة على الدعم عبر الإنترنت",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "الزوار في الانتظار",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "الزوار قيد الخدمة",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "محادثات العملاء المعلقة",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "محادثات العملاء النشطة",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "إجمالي المنتظرين",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "النسبة من إجمالي الانتظار",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "النسبة من الخدمة النشطة",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "متوسط الانتظار",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "الدعم عبر الإنترنت في الانتظار",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "الدعم عبر الإنترنت النشط",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "أداء موظفي الخدمة غير متاح مؤقتًا.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "تمت خدمتهم",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "متوسط أول رد",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "متوسط المدة",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "متوسط التقييم",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "أول رد",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "المدة",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "التقييم",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "نسبة النجاح",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "حوكمة المحادثات",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "تجميد المحادثة",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "إلغاء تجميد المحادثة",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "تفاصيل المحادثة",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "معرّف المحادثة",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "جُمّدت المحادثة",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "أُلغي تجميد المحادثة",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "سبب التجميد (اختياري)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "سبب إلغاء التجميد (اختياري)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "تأكيد التجميد",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "تأكيد إلغاء التجميد",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "الردود المتكررة",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "قوالب الرد",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "تعذّر تحميل الردود.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "اسحب لأسفل للتحديث وحاول مجددًا.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "لا توجد ردود سريعة",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "ستظهر الردود هنا عند تفعيل المكتبة.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "لا توجد ردود مطابقة",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "جرّب كلمة بحث أخرى",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "البحث في الردود",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "رد بلا عنوان",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "لا يتيح هذا الدور إرسال رسائل جماعية.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "الإرسال الجماعي متاح لموظفي الخدمة فقط.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "جارٍ إرسال المهمة…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "جارٍ إعداد المعاينة…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "معاينة وإرسال",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "الرسائل الجماعية",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "تعذّر تحميل محادثات المجموعات.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "حاول بعد قليل، أو تحقق من قائمة المحادثات في هذه المساحة.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "النطاق المستهدف",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "جميع أعضاء المستأجر",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "إرسال رسائل منفردة إلى الأعضاء المؤهلين في هذه المؤسسة.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "لا توجد محادثات مجموعات متاحة.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "لا توجد محادثات مجموعات مطابقة",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "تدعم الرسائل المباشرة للأعضاء والإرسال الجماعي للمجموعات المجموعات التي انضم إليها هذا الحساب فقط.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "جرّب كلمة بحث أخرى.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "اختر محادثة مجموعة",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "أدخل محتوى الرسالة الجماعية",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "انتهت جلستك. سجّل الدخول مجددًا.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "تأكيد الإرسال الجماعي",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "تُرسل الرسائل باسم موظف الخدمة الحالي، وتُسلّم بشكل غير متزامن بعد الإرسال. لا يمكن سحب الرسائل المرسلة.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "إرسال المهمة",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "مراسلة أعضاء المؤسسة بشكل فردي",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "مراسلة أعضاء المجموعة بشكل خاص",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "إرسال رسالة مباشرة منفصلة إلى كل عضو في المجموعة.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "إرسال جماعي داخل المجموعة",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "إرسال رسالة مباشرة داخل محادثة المجموعة.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "إرسال جماعي للعملاء والمجموعات",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "أدخل نص الرسالة الجماعية",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "البحث في محادثات المجموعات",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "لا يلزم اختيار مجموعة لجميع أعضاء المستأجر.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "مسح اختيار المجموعة",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "نتائج المعاينة",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "جارٍ إعادة المحاولة",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "إعادة المحاولة للمستلمين الذين فشل الإرسال إليهم",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "محادثة مجموعة بلا اسم",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "لا توجد محادثات مطابقة",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "لا يوجد سجل محادثات",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "لا توجد محادثات في الانتظار",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "لا توجد محادثات نشطة",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "لا توجد محادثات VIP",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "تولّي بشري",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "متابعة المحادثة",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "عرض",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "تعذّر قبول المحادثة. حاول مجددًا.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "تعذّر تولّي المحادثة. حاول مجددًا.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "انتهت المحادثة",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "إغلاق المحادثة",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "يحتفظ الإغلاق بسجل المحادثة. وقد تُدرج المحادثة في الانتظار أو يُعاد إسنادها حسب سياسة الخدمة.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "أُغلقت المحادثة",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "تعذّر إغلاق المحادثة. حاول مجددًا.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "البحث في المحادثات",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "الاستقبال الحالي",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "سجل المحادثات",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "جارٍ مزامنة المحادثة. حدّث بعد قليل.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "محادثة منقولة",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "إغلاق الإشعار",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "تمت خدمتهم اليوم",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "متوسط المعالجة",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "الرضا",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "المحادثات التي تجاوزت الوقت",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "في الانتظار · بانتظار الإسناد التلقائي",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "في الانتظار · بانتظار القبول",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "الانتظار --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "الانتظار المتوقع --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "وي شات",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "الويب",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "التطبيق الخاص",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "لوحة عمل الدعم ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "تغيّر إلى {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "مخصص {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "معرّف Weijie: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, zero {لا جلسات} one {جلسة واحدة} two {جلستان} few {{count} جلسات} many {{count} جلسة} other {{count} جلسة}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · الجلسات: {count} · أول رد: {response} · التقييم: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "قيد الخدمة {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "أُرسل الطلب الجماعي. المستلمون: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, zero {لم يُعد أي مستلم إلى الانتظار} one {أُعيد مستلم واحد فشل الإرسال إليه إلى الانتظار} two {أُعيد مستلمان فشل الإرسال إليهما إلى الانتظار} few {أُعيد {count} مستلمين فشل الإرسال إليهم إلى الانتظار} many {أُعيد {count} مستلمًا فشل الإرسال إليهم إلى الانتظار} other {أُعيد {count} مستلم فشل الإرسال إليهم إلى الانتظار}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "الطريقة: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "محادثة المجموعة: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "المستلمون المتوقعون: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "عينة: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "المهمة: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "تم التسليم {sent}/{total}، فشل {failed}، تم التجاوز {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, zero {لا أعضاء} one {عضو واحد} two {عضوان} few {{count} أعضاء} many {{count} عضوًا} other {{count} عضو}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "الموقع في الانتظار: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, zero {الانتظار المتوقع: 0 دقيقة} one {الانتظار المتوقع: دقيقة واحدة} two {الانتظار المتوقع: دقيقتان} few {الانتظار المتوقع: {count} دقائق} many {الانتظار المتوقع: {count} دقيقة} other {الانتظار المتوقع: {count} دقيقة}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, zero {الانتظار المتوقع: 0 ثانية} one {الانتظار المتوقع: ثانية واحدة} two {الانتظار المتوقع: ثانيتان} few {الانتظار المتوقع: {count} ثوانٍ} many {الانتظار المتوقع: {count} ثانية} other {الانتظار المتوقع: {count} ثانية}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "موظف الخدمة: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "المصدر: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "في الانتظار #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "الانتظار {count} د",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "الانتظار {count} ث",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "نُقلت المحادثة إليك",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "نُقلت محادثة دعم إليك. افتح لوحة العمل لمعاينة سجلها.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "نُقلت محادثة دعم إليك. ملاحظة: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "في انتظار التسليم",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "جارٍ التسليم",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "تم",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "فشل",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "عميل مسجّل",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "قناة غير معروفة",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "عميل غير معروف",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "سجل محادثة منقولة",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "أُغلقت في {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "آخر نشاط {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "البرنامج المصغر",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

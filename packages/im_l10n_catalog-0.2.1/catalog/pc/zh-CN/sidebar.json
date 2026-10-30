@@ -1,0 +1,97 @@
+{
+  "account": {
+    "accountAndClient": "账号与客户端",
+    "createQrFailed": "生成二维码失败：{error}",
+    "entryAria": "{name}，{account}，状态：{status}",
+    "identifyingClient": "正在识别客户端",
+    "imStatus": "IM 状态",
+    "instance": "实例 {id}",
+    "inviteQrMessage": "扫码加我",
+    "logout": "退出登录",
+    "manageDevices": "管理登录设备",
+    "member": "成员",
+    "myAccount": "我的账号",
+    "myEntrances": "我的入口",
+    "noSignature": "暂无签名",
+    "openClientFailed": "打开新客户端失败：{error}",
+    "openNewClient": "打开新客户端",
+    "openProfile": "打开账号资料",
+    "openedNewClient": "已打开新的 PC 客户端",
+    "opening": "正在打开",
+    "pcUser": "PC 用户",
+    "setImStatus": "设置 IM 状态为{status}"
+  },
+  "badge": {
+    "friendRequestsSuffix": "，{count} 条好友申请",
+    "remindersSuffix": "，{count} 条提醒"
+  },
+  "brand": {
+    "about": "关于{publicName}",
+    "helpAboutUpdate": "帮助 / 关于 / 检查更新"
+  },
+  "collapse": "收起侧边栏",
+  "expand": "展开侧边栏",
+  "navAria": "主导航",
+  "notification": {
+    "newServiceThread": "新的在线客服会话",
+    "queueBody": "有访客正在排队，等待接入",
+    "queueCountBody": "有新的访客正在排队，等待接入",
+    "queueFromSource": "来自 {source} 的访客正在排队，等待接入",
+    "serviceMessageBody": "在线客服会话有新消息",
+    "serviceMessageTitle": "在线客服新消息",
+    "slaBody": "在线客服会话接近超时或已经超时",
+    "slaBodyNamed": "{title} 接近超时或已经超时",
+    "slaTitle": "SLA 超时提醒"
+  },
+  "presence": {
+    "away": "离开",
+    "busy": "忙碌",
+    "invisible": "隐身",
+    "online": "在线"
+  },
+  "productVersion": "专业版 · v{version}",
+  "service": {
+    "accessModeAria": "客服接入模式",
+    "autoEnableHint": "点击后切换为客服在线，并启用自动分配。",
+    "counterQueue": "排队",
+    "counterQueueShort": "排",
+    "counterReception": "接待中",
+    "counterReceptionShort": "接",
+    "counterUnread": "未读",
+    "counterUnreadShort": "未",
+    "enter": "进入在线客服",
+    "entryAria": "在线客服：{status}",
+    "fullDetail": "接待 {reception} · 排队 {queue} · 未读 {unread}",
+    "metricQueue": "排队 {value}",
+    "metricReception": "接待 {value}",
+    "metricUnread": "未读 {value}",
+    "receptionNotSynced": "接待状态未同步，暂不能切换接入模式。",
+    "receptionStatusAria": "客服接待状态",
+    "status": {
+      "break": "短暂离开",
+      "busy": "客服忙碌",
+      "offline": "客服离线",
+      "online": "客服在线"
+    },
+    "statusHint": {
+      "break": "暂不接收新的排队会话",
+      "busy": "不自动接入，仍可手动处理",
+      "offline": "不参与接待",
+      "online": "可手动接入排队会话"
+    },
+    "statusAria": "在线客服状态",
+    "statusUnsynced": "状态未同步",
+    "syncFailed": "接待状态同步失败：{error}",
+    "tooltip": "在线客服 · {status}"
+  },
+  "space": {
+    "enterprise": "企业空间",
+    "enterpriseCode": "企业码 {code}",
+    "entryAria": "当前空间：{name}，{meta}",
+    "pendingSuffix": " · {count} 条未处理",
+    "personal": "个人空间",
+    "personalAccount": "个人账号",
+    "tooltip": "空间 · {name} · {meta}"
+  },
+  "statusCenter": "状态中心"
+}

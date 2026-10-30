@@ -1,0 +1,626 @@
+{
+  "@@locale": "ko",
+  "enterpriseInfoTitle": "기업 정보",
+  "enterpriseName": "기업명",
+  "enterpriseDescription": "기업 소개",
+  "enterpriseUpdateSuccess": "업데이트되었습니다",
+  "enterpriseUpdateFailed": "업데이트에 실패했습니다. 다시 시도해 주십시오",
+  "enterpriseLeave": "기업 탈퇴",
+  "enterpriseLeaveConfirm": "이 기업을 탈퇴하시겠습니까?",
+  "enterpriseLeaveSuccess": "기업을 탈퇴했습니다",
+  "enterpriseLeaveFailed": "탈퇴에 실패했습니다. 다시 시도해 주십시오",
+  "enterpriseLeaveOwnerError": "소유자는 직접 탈퇴할 수 없습니다. 먼저 소유자 권한을 양도해 주십시오.",
+  "enterpriseMemberCount": "멤버 수",
+  "enterpriseCreatedAt": "생성일",
+  "enterpriseCode": "기업 코드",
+  "enterpriseInviteMembers": "멤버 초대",
+  "enterpriseCopyInviteCode": "초대 코드 복사",
+  "enterpriseInviteCodeCopied": "초대 코드가 복사되었습니다",
+  "groupCreateTitle": "그룹 만들기",
+  "groupNameHint": "그룹 이름을 입력해 주십시오",
+  "groupCreateSuccess": "그룹이 만들어졌습니다",
+  "groupCreateFailed": "그룹 만들기에 실패했습니다",
+  "groupSettings": "그룹 설정",
+  "groupName": "그룹 이름",
+  "groupAvatar": "그룹 아이콘",
+  "groupAnnouncement": "공지사항",
+  "groupMembers": "멤버",
+  "groupAddMember": "멤버 추가",
+  "groupRemoveMember": "멤버 제거",
+  "groupRemoveMemberConfirm": "이 멤버를 제거하시겠습니까?",
+  "groupSetAdmin": "관리자로 설정",
+  "groupRemoveAdmin": "관리자 해제",
+  "groupTransferOwner": "소유자 양도",
+  "groupTransferOwnerConfirm": "이 멤버에게 소유자를 양도하시겠습니까?",
+  "groupTransferOwnerSuccess": "소유자가 양도되었습니다",
+  "groupTransferOwnerFailed": "양도에 실패했습니다. 다시 시도해 주십시오",
+  "groupLeave": "그룹 나가기",
+  "groupLeaveConfirm": "이 그룹을 나가시겠습니까?",
+  "groupLeaveSuccess": "그룹을 나갔습니다",
+  "groupLeaveFailed": "나가기에 실패했습니다. 다시 시도해 주십시오",
+  "groupDissolve": "그룹 해산",
+  "groupDissolveConfirm": "이 그룹을 해산하시겠습니까? 모든 멤버가 제거됩니다.",
+  "groupDissolveSuccess": "그룹이 해산되었습니다",
+  "groupDissolveFailed": "해산에 실패했습니다. 다시 시도해 주십시오",
+  "groupQrCode": "그룹 QR 코드",
+  "groupMuteAll": "전체 음소거",
+  "groupMuteAllOn": "전체 음소거 켜기",
+  "groupMuteAllOff": "전체 음소거 끄기",
+  "groupAllowMemberInvite": "멤버 초대 허용",
+  "groupAllowMemberModifyTitle": "멤버의 그룹 이름 변경 허용",
+  "groupAllowMemberAtAll": "멤버의 @전체 허용",
+  "groupAllowMemberViewMemberList": "멤버 목록 보기 허용",
+  "groupAllowQrCodeJoin": "QR 코드 참가 허용",
+  "groupRequireApproval": "참가 시 승인 필요",
+  "groupAllowMemberAddFriend": "멤버 간 친구 추가 허용",
+  "groupRoleOwner": "소유자",
+  "groupRoleAdmin": "관리자",
+  "groupRoleMember": "멤버",
+  "groupNoMembers": "멤버가 없습니다",
+  "groupNoAnnouncements": "공지사항이 없습니다",
+  "groupCreateAnnouncement": "공지 게시",
+  "groupEditAnnouncement": "공지 편집",
+  "groupDeleteAnnouncement": "공지 삭제",
+  "groupDeleteAnnouncementConfirm": "이 공지를 삭제하시겠습니까?",
+  "groupAnnouncementTitle": "제목",
+  "groupAnnouncementContent": "내용",
+  "groupAnnouncementPin": "공지 고정",
+  "groupMemberCount": "{count}명",
+  "groupSelectedCount": "{count}명 선택됨",
+  "groupJoinRequestApprove": "승인",
+  "groupJoinRequestReject": "거절",
+  "groupJoinRequests": "참가 신청",
+  "groupNoJoinRequests": "참가 신청이 없습니다",
+  "groupReadReceipts": "읽음 확인",
+  "groupReadCount": "{count}명 읽음",
+  "groupUnreadCount": "{count}명 읽지 않음",
+  "organizationTitle": "조직도",
+  "organizationEmpty": "부서 정보가 없습니다",
+  "organizationMembers": "멤버",
+  "organizationDepartment": "부서",
+  "organizationPosition": "직책",
+  "organizationLeader": "리더",
+  "qrCodeTitle": "내 QR 코드",
+  "qrCodeSave": "앨범에 저장",
+  "qrCodeShare": "공유",
+  "qrCodeSaveSuccess": "앨범에 저장되었습니다",
+  "qrCodeSaveFailed": "저장에 실패했습니다. 다시 시도해 주십시오",
+  "qrCodeRefresh": "QR 코드 새로고침",
+  "qrCodeExpired": "QR 코드가 만료되었습니다. 새로고침해 주십시오",
+  "qrCodeScanToAdd": "QR 코드를 스캔하여 친구 추가",
+  "spacePersonal": "개인 공간",
+  "spaceEnterprise": "기업 공간",
+  "spaceJoinByCode": "기업 코드로 참가",
+  "spaceJoinByInvite": "초대 코드로 참가",
+  "spaceEnterCode": "기업 코드를 입력해 주십시오",
+  "spaceEnterInviteCode": "초대 코드를 입력해 주십시오",
+  "spaceSearchEnterprise": "기업 검색",
+  "spaceJoinRequestSent": "신청이 제출되었습니다. 승인을 기다려 주십시오",
+  "spaceJoinRequestPending": "승인 대기 중",
+  "spaceJoinRequestApproved": "신청이 승인되었습니다",
+  "spaceJoinRequestRejected": "신청이 거절되었습니다",
+  "spaceAlreadyMember": "이미 멤버입니다",
+  "spaceAutoApproved": "자동 승인되었습니다. 환영합니다!",
+  "spacePendingApprovalHint": "회원가입이 완료되었습니다. 참가 신청이 제출되어 승인 대기 중입니다.",
+  "spaceNoSpaces": "공간이 없습니다",
+  "spaceInviteExpired": "초대 코드가 만료되었습니다",
+  "spaceInviteTargetMismatch": "이 초대 코드는 귀하의 계정에 사용할 수 없습니다",
+  "spaceAcceptInviteSuccess": "기업에 참가했습니다",
+  "spaceAcceptInviteFailed": "참가에 실패했습니다. 다시 시도해 주십시오",
+  "spaceTenantSelectTitle": "공간 선택",
+  "spaceTenantSelectHint": "입장할 공간을 선택해 주십시오",
+  "spaceEnterPersonal": "개인 공간 입장",
+  "spaceEnterEnterprise": "기업 공간 입장",
+  "recentContactsTitle": "최근 연락처",
+  "recentContactsEmpty": "최근 연락처가 없습니다",
+  "inviteFriendsTitle": "친구 초대",
+  "inviteFriendsCopyLink": "초대 링크 복사",
+  "inviteFriendsLinkCopied": "초대 링크가 복사되었습니다",
+  "pendingJoinRequestsTitle": "새 신청",
+  "pendingJoinRequestsEmpty": "신청이 없습니다",
+  "pendingJoinRequestApprove": "승인",
+  "pendingJoinRequestReject": "거절",
+  "pendingJoinRequestApproveSuccess": "승인했습니다",
+  "pendingJoinRequestRejectSuccess": "거절했습니다",
+  "pendingJoinRequestFailed": "작업에 실패했습니다. 다시 시도해 주십시오",
+  "groupListTitle": "그룹 목록",
+  "groupListEmpty": "그룹이 없습니다",
+  "joinCompanyTitle": "기업 참가",
+  "joinCompanyCodeHint": "기업 코드를 입력해 주십시오",
+  "joinCompanySearchHint": "기업명 검색",
+  "joinCompanyApply": "참가 신청",
+  "joinCompanyApplySuccess": "신청이 제출되었습니다",
+  "joinCompanyApplyFailed": "신청에 실패했습니다. 다시 시도해 주십시오",
+  "joinCompanyAutoApproved": "자동 승인되었습니다. 환영합니다!",
+  "joinCompanyPending": "신청이 제출되었습니다. 승인을 기다려 주십시오",
+  "joinCompanyInviteCodeHint": "초대 코드를 입력해 주십시오",
+  "joinCompanyAcceptInvite": "초대 수락",
+  "joinCompanyNoResults": "기업을 찾을 수 없습니다",
+  "joinCompanyMemberCount": "{count}명",
+  "approvalEmpty": "요청이 없습니다",
+  "approvalApprove": "승인",
+  "approvalReject": "거절",
+  "approvalPending": "대기 중",
+  "approvalApproved": "승인됨",
+  "approvalRejected": "거절됨",
+  "approvalExpired": "만료됨",
+  "approvalCancelled": "취소됨",
+  "approvalReplayFailed": "원래 작업을 실행하지 못했습니다. 다시 시도하세요.",
+  "requestCancelled": "요청이 취소되었습니다",
+  "enterpriseNoPermission": "권한 없음",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "기업 정보 설정",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "기업 구성",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "공식 계정",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "공식 계정 관리",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "멤버 관리",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "직원 초대",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "멤버 목록",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "공지 관리",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "기업 일괄 전송",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "승인",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "가입 신청 승인",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "소유권 이전",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "이전 후에는 관리자가 되며 취소할 수 없습니다. 멤버 목록에서 새 소유자를 선택하세요.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "새 소유자 선택",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "상담원 배정 방식",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "자동 배정",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "지정 상담원",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "가입 승인 방식",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "수동 승인",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "자동 승인",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "친구 모드",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "소셜 모드",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "격리 모드",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "위젯 방문자 기능",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "꺼짐",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "대기 중인 상담원에게 순서대로 자동 배정",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "모든 고객을 지정 상담원에게 배정",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "고객 신청에 관리자 승인 필요",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "고객 신청 자동 승인",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "고객끼리 서로 친구 추가 가능",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "고객끼리 친구 추가 금지",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "일반 멤버",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "멤버 검색",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "일반 멤버로 지정",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "기술 지원으로 지정",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "상담원으로 지정",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "이전 확인",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "기업 이름을 입력해 주세요",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "기업 이름 입력",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "소개 없음",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "기업 로고",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "생성하지 못했습니다. 다시 시도해 주세요.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "최대 사용 횟수",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "유효 기간",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1시간",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24시간",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3일",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7일",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "초대 코드 생성",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "초대 코드",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "전체",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "직원",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "직원 / 역할 / 직책 검색",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "기업 멤버",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "일치하는 멤버 없음",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "기업 개요",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "관리",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "역할 권한",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "퇴사 인수인계",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "직원 검색",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "기업 직원",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "친구 프로필",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "음성 및 영상 통화",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "친구 추가",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "남성",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "여성",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "읽지 않은 대화 없음",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "기",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "초대 코드를 복사했습니다",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "“{name}” 님을 기업에서 제외하시겠습니까?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "“{name}” 님에게 소유권을 이전하시겠습니까? 이후 관리자가 되며 취소할 수 없습니다.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count}회",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "유효 기간 {hours}시간 · 최대 {count}회 사용",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "읽지 않은 대화 {count}개",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "읽지 않은 메시지 {count}개",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} {count}명",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "기업에서 나가기",
+  "enterpriseLoginBeforeSearch": "조직을 검색하려면 먼저 로그인해 주세요",
+  "enterpriseSearchFailed": "검색하지 못했습니다. 다시 시도해 주세요.",
+  "enterpriseLoginBeforeJoin": "조직 참여를 신청하려면 먼저 로그인해 주세요",
+  "enterpriseApplicationPending": "신청을 제출했습니다. 관리자 승인을 기다리는 중입니다.",
+  "enterpriseLoginBeforeAction": "계속하려면 먼저 로그인해 주세요",
+  "enterprisePlatformTagline": "조직을 위한 프라이빗 고객 소통 플랫폼",
+  "enterpriseLookupHint": "조직 번호, 별칭 또는 초대 코드 입력",
+  "enterpriseLookup": "검색",
+  "enterpriseApplicationNote": "신청 메시지(선택)",
+  "enterpriseLookupGuide": "조직 번호나 별칭으로 검색하거나 초대 코드로 참여할 수 있습니다",
+  "enterpriseRecommendationsLoading": "추천 조직 불러오는 중",
+  "enterpriseRecommendationsFailed": "추천 조직을 불러오지 못했습니다",
+  "enterpriseReload": "다시 불러오기",
+  "enterpriseNoRecommendations": "추천 조직이 없습니다. 조직 번호, 별칭 또는 초대 코드로 검색해 주세요.",
+  "enterpriseRecommended": "추천 조직",
+  "enterpriseJoined": "참여 중",
+  "enterpriseRequestsLoadFailed": "신청 기록을 불러오지 못했습니다",
+  "enterpriseCodeMissing": "조직 번호를 사용할 수 없습니다",
+  "enterpriseAlias": "조직 별칭",
+  "enterpriseCodeLabel": "조직 번호",
+  "enterprisePrivateAliasHint": "이 조직의 정보는 공개되지 않았습니다. 신청 시 이 별칭으로 대상 조직을 확인합니다.",
+  "enterpriseInvitationMismatch": "이 초대 코드는 본인에게 발급되지 않아 참여에 실패할 수 있습니다",
+  "enterpriseTechnicalRole": "기술 지원",
+  "enterpriseJoin": "참여",
+  "enterpriseCancelApplication": "신청 취소",
+  "enterpriseApplication": "조직 신청",
+  "enterpriseAliasValue": "조직 별칭: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "조직 번호: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "별칭: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "{role} 역할로 참여합니다",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "이 초대 코드의 대상: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "거절 사유: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "조직 {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "별",
+  "enterpriseCompanyInitial": "기",
+  "enterpriseAudienceAll": "전체 인원",
+  "enterpriseAudienceAllHint": "직원 및 고객",
+  "enterpriseAudienceStaffHint": "조직 직원만",
+  "enterpriseAudienceCustomers": "조직 고객",
+  "enterpriseAudienceCustomersHint": "조직에 참여한 고객",
+  "enterpriseOfficialGroups": "공식 그룹",
+  "enterpriseAudienceGroupsHint": "조직 공식 그룹 채팅",
+  "enterpriseSendNow": "지금 전송",
+  "enterpriseSendScheduled": "예약 전송",
+  "enterprisePreviewing": "미리 보는 중",
+  "enterprisePreview": "미리 보기",
+  "enterpriseSubmitSend": "전송 제출",
+  "enterpriseBroadcastSubmitted": "조직 일괄 전송 작업을 제출했습니다",
+  "enterpriseScheduledUnavailable": "이 버전에서는 조직 일괄 예약 전송을 사용할 수 없습니다",
+  "enterpriseBroadcastFailed": "조직 일괄 전송에 실패했습니다. 잠시 후 다시 시도해 주세요.",
+  "enterpriseBroadcastGuide": "조직의 공식 계정으로 일괄 전송하며 작업이 기록됩니다. 제출 후 전달 결과를 확인할 수 있습니다.",
+  "enterpriseSenderIdentity": "발신자 신원",
+  "enterpriseSenderAfterPreview": "미리 보기 후 확인",
+  "enterpriseSenderConfirmed": "확인됨",
+  "enterpriseDefaultOfficialSender": "조직 기본 공식 계정",
+  "enterpriseOfficialSenderHint": "수신자에게는 조직 공식 계정의 신원이 표시됩니다",
+  "enterpriseMessageContent": "메시지 내용",
+  "enterpriseBroadcastContentHint": "공식 계정으로 일괄 전송할 메시지를 입력하세요",
+  "enterpriseInternalNoteHint": "감사 및 추적을 위한 내부 메모(선택)",
+  "enterpriseSendPreview": "전송 미리 보기",
+  "enterpriseExpectedRecipients": "예상 수신자 수",
+  "enterpriseDeliveryMethod": "전송 방식",
+  "enterpriseTaskStatus": "작업 상태",
+  "enterpriseNoBroadcastHistory": "아직 조직 일괄 전송 기록이 없습니다",
+  "enterpriseHistoryUnavailable": "일시적으로 사용할 수 없습니다",
+  "enterpriseBroadcastDenied": "조직 일괄 전송 권한이 없습니다",
+  "enterpriseBroadcastRoleHint": "조직 일괄 전송은 관리자와 소유자만 사용할 수 있습니다.",
+  "enterpriseDefaultApplicationMessage": "귀 조직에 참여하고 싶습니다"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "step": "sync-check",
+    "command": [
+      "python3",
+      "tool/sync_l10n.py",
+      "--catalog-root",
+      "/Users/starburst/Desktop/Ln18/packages/im_l10n_catalog",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 1.02
+  },
+  {
+    "step": "analyze",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "analyze",
+      "lib/features/chat/presentation/models/translation_language_options.dart",
+      "lib/generated/l10n/translation_language_names.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 1.13
+  },
+  {
+    "step": "guard",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "run",
+      "tool/check_i18n.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 4.33
+  },
+  {
+    "step": "tests",
+    "command": [
+      ".fvm/flutter_sdk/bin/flutter",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "expanded",
+      "test/architecture/i18n_contract_test.dart",
+      "test/app/app_localization_test.dart",
+      "test/core/providers/locale_provider_test.dart",
+      "test/features/chat/presentation/models/translation_language_options_test.dart",
+      "test/core/permissions/ios_localization_configuration_test.dart",
+      "test/core/localization/app_formatters_test.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 12.16
+  }
+]

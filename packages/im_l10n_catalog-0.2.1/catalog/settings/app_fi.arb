@@ -1,0 +1,471 @@
+{
+  "@@locale": "fi",
+  "settingsTitle": "Asetukset",
+  "settingsSectionEnterprise": "Yritys",
+  "settingsSectionAccount": "Tili",
+  "settingsSectionGeneral": "Yleiset",
+  "settingsSectionFeatures": "Toiminnot",
+  "settingsSectionAbout": "Tietoja",
+  "settingsEnterpriseInfo": "Yrityksen tiedot",
+  "settingsProfile": "Oma profiili",
+  "settingsAccountSecurity": "Tilin turvallisuus",
+  "settingsNotification": "Ilmoitukset",
+  "settingsDisplay": "Näyttö",
+  "settingsFriendPrivacy": "Tietosuoja",
+  "settingsChat": "Keskustelu",
+  "settingsChatHistory": "Keskusteluhistoria",
+  "settingsAbout": "Tietoja StartLinkistä",
+  "settingsLanguage": "Kieli",
+  "settingsTimezone": "Aikavyöhyke",
+  "settingsAutoTranslate": "Automaattinen käännös",
+  "settingsNetworkSwitch": "Vaihda linjaa",
+  "aboutTitle": "Tietoja StartLinkistä",
+  "aboutVersion": "Versio",
+  "aboutTerms": "Käyttäjäsopimus",
+  "aboutPrivacy": "Tietosuojakäytäntö",
+  "aboutOpenSource": "Avoimen lähdekoodin lisenssit",
+  "aboutCheckUpdate": "Tarkista päivitykset",
+  "aboutLatestVersion": "Olet viimeisimmällä versiolla",
+  "aboutUpdateAvailable": "Uusi versio saatavilla",
+  "aboutUpdateNow": "Päivitä nyt",
+  "aboutUpdateLater": "Myöhemmin",
+  "networkTitle": "Vaihda linjaa",
+  "networkAutoSelect": "Automaattinen",
+  "networkManual": "Manuaalinen",
+  "timezoneTitle": "Aikavyöhyke",
+  "timezoneAuto": "Järjestelmän mukaan",
+  "displayTitle": "Näyttö",
+  "displayFontSize": "Fontin koko",
+  "displayChatBackground": "Keskustelun tausta",
+  "displayDarkMode": "Ulkoasu",
+  "displayDarkModeSystem": "Järjestelmän mukaan",
+  "displayDarkModeSystemHint": "Vaihda automaattisesti järjestelmäasetuksen mukaan",
+  "displayDarkModeOff": "Vaalea",
+  "displayDarkModeOffHint": "Käytä aina vaaleaa teemaa",
+  "displayDarkModeOn": "Tumma",
+  "displayDarkModeOnHint": "Käytä aina tummaa teemaa",
+  "accountSecurityTitle": "Tilin turvallisuus",
+  "accountSecurityChangePassword": "Vaihda salasana",
+  "accountSecurityChangeMobile": "Vaihda puhelinnumero",
+  "accountSecurityChangeEmail": "Vaihda sähköposti",
+  "accountSecurityLoggedDevices": "Kirjautuneet laitteet",
+  "accountSecurityDeactivate": "Poista tili käytöstä",
+  "accountSecurityDeactivateConfirm": "Kaikki tiedot poistetaan pysyvästi 7 päivän kuluttua. Poistetaanko tili käytöstä?",
+  "loggedDevicesTitle": "Kirjautuneet laitteet",
+  "loggedDevicesCurrent": "Tämä laite",
+  "loggedDevicesRevoke": "Kirjaudu ulos",
+  "loggedDevicesRevokeConfirm": "Kirjaudutaanko ulos tästä laitteesta?",
+  "loggedDevicesRevokeSuccess": "Kirjauduttu ulos laitteesta",
+  "loggedDevicesRevokeFailed": "Epäonnistui. Yritä uudelleen.",
+  "loggedDevicesLastActive": "Viimeksi aktiivinen",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Verkko",
+  "loggedDevicesTypeDesktop": "Tietokone",
+  "loggedDevicesTypeUnknown": "Tuntematon laite",
+  "fontSizeTitle": "Fontin koko",
+  "fontSizeSmall": "Pieni",
+  "fontSizeNormal": "Normaali",
+  "fontSizeLarge": "Suuri",
+  "fontSizeExtraLarge": "Erittäin suuri",
+  "fontSizePreview": "Esikatselu",
+  "timezoneNameHawaii": "Havaiji",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Tyynenmeren aika",
+  "timezoneNameMountainTime": "Vuoristoaika",
+  "timezoneNameCentralTime": "Keskinen aika",
+  "timezoneNameEasternTime": "Itäinen aika",
+  "timezoneNameAtlanticTime": "Atlantin aika",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azorit",
+  "timezoneNameLondonDublin": "Lontoo/Dublin",
+  "timezoneNameBerlinParisRome": "Berliini/Pariisi/Rooma",
+  "timezoneNameCairoHelsinki": "Kairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskova/Riad",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Taškent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Shanghai/Hongkong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokio/Soul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salomonsaaret",
+  "timezoneNameAucklandFiji": "Auckland/Fidži",
+  "networkSmartSelectBestRoute": "Valitse paras reitti älykkäästi",
+  "networkTesting": "Testataan...",
+  "networkTestingShort": "Testataan",
+  "networkLatencyMs": "Viive {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Yhteystila",
+  "networkDirectMode": "Suora tila",
+  "networkProxyMode": "Välityspalvelintila",
+  "networkDirectModeDesc": "Yhdistä suoraan palvelimeen",
+  "networkProxyModeDesc": "Yhdistä välityspalvelimen kautta",
+  "networkDirectRoutes": "Suorat reitit",
+  "networkProxyRoutes": "Välityspalvelinreitit",
+  "networkTestAll": "Testaa kaikki",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hongkongin solmu",
+  "networkSingaporeNode": "Singaporen solmu",
+  "networkJapanNode": "Japanin solmu",
+  "networkUnitedStatesNode": "Yhdysvaltojen solmu",
+  "networkHint": "Vinkkejä:\n• Suora tila: nopeampi ja sopii kotimaan käyttöön\n• Välityspalvelintila: vakaampi kansainvälisessä viestinnässä\n• Napauta päivityskuvaketta testataksesi yksittäisen reitin viiveen",
+  "diagnosticsTitle": "Diagnostiikka",
+  "diagnosticsExplanation": "Lokit on anonymisoitu, ja ne sisältävät tämän tilin ja tilan toiminta- ja virhetietoja sekä julkisia käynnistystapahtumia. Keskustelusisältö ja kirjautumistiedot eivät sisälly niihin.",
+  "diagnosticsHour": "Viimeinen tunti",
+  "diagnosticsDay": "Viimeiset 24 tuntia",
+  "diagnosticsWeek": "7 pv",
+  "diagnosticsEventCount": "Saatavilla olevat tapahtumat: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Lokit tallennetaan tähän laitteeseen, ja ne ovat saatavilla uudelleenkäynnistyksen jälkeen.",
+  "diagnosticsNotPersistent": "Joitakin lokeja ei tallennettu. Yritä uudelleen päivittämällä.",
+  "diagnosticsExport": "Vie ja jaa",
+  "diagnosticsRefresh": "Päivitä",
+  "diagnosticsClear": "Tyhjennä tämän tilan lokit",
+  "diagnosticsClearConfirm": "Tyhjennetäänkö tämän tilan diagnostiikkalokit? Keskusteluhistoria säilytetään.",
+  "diagnosticsShared": "Järjestelmäjako valmis. Tarkista tiedosto vastaanottavassa sovelluksessa.",
+  "diagnosticsCancelled": "Jakaminen peruutettu. Voit viedä uudelleen.",
+  "diagnosticsUnconfirmed": "Jakamista ei voitu vahvistaa. Tarkista vastaanottava sovellus.",
+  "diagnosticsFailed": "Toiminto epäonnistui. Yritä uudelleen.",
+  "settingsDeleteWarning": "Tilin poistaminen päättää kaikki yritysjäsenyydet. Viestihistoriaa ei voi palauttaa.\n\nSinulla on 7 päivän harkinta-aika, jonka aikana voit kirjautua uudelleen ja peruuttaa poistamisen.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Jatka poistamista",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Lopullinen vahvistus",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Poistetaanko tilisi? Poisto muuttuu pysyväksi 7 päivän kuluttua.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Poiston syy (valinnainen)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Poistoa pyydetty. Peruuta kirjautumalla 7 päivän kuluessa.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Vahvista tilin poisto",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Tilin poistaminen epäonnistui. Yritä uudelleen.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Estetyt käyttäjät eivät voi lähettää sinulle viestejä eivätkä nähdä profiiliasi tai päivityksiäsi.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Keskustelu",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Lähetä Enterillä",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Lataus epäonnistui, yritä uudelleen napauttamalla",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Suostumus viesti-ilmoituksiin",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Hyväksytty",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Ei hyväksytty",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Järjestelmän ilmoituslupa",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Päällä",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Pois käytöstä",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Tuntematon",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Ei tuettu",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Tarkistetaan",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Tarkistus epäonnistui",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Saapuvat puhelut koko näytöllä",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Tarkista ja salli napauttamalla",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Koko näytön puheluhälytykset käytössä",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Salli koko näytön puheluhälytykset järjestelmäasetuksissa.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Älä häiritse -aikataulu",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Ei asetettu",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Ota viesti-ilmoitukset käyttöön",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Kun ilmoitukset ovat käytössä, JPush/JCore ja laitteen ilmoituspalvelut voivat käsitellä laitetietoja, ilmoitustunnisteita ja toimitustietoja viesti-, asiakaspalvelu- ja puheluhälytyksiä varten. Voit poistaa ilmoitukset käytöstä järjestelmäasetuksissa.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Ilmoitukset ovat edelleen pois käytöstä. Salli Weijien ilmoitukset järjestelmäasetuksissa.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22.00–08.00 (yö)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Poista Älä häiritse käytöstä",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Ei testattu",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Ei saatavilla",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Ensisijainen varareitti",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Reitti ei ole käytettävissä. Nykyinen reitti säilytettiin.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Saatavilla olevat yhteyspisteet",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Reittien päivitys epäonnistui. Nykyinen reitti säilytettiin.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Päivitetään",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Päivitä yhteyspisteet",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Reitit tulevat vahvistetusta virallisesta määrityksestä. Käynnistys palauttaa viimeisen reitin ja päivittää sen sitten nykyisistä, välimuistissa olevista, alkuperäisistä ja S3/R2-lähteistä. Manuaalinen valinta on etusijalla. Virhetilanteessa nykyinen reitti säilyy.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Tuntematon laite",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Kirjaudu ulos",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Nykyinen",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Laitteiden lataaminen epäonnistui",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Ei kirjautuneita laitteita",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Esikatselu",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Tämä malliteksti näyttää fonttikoon. Valitse koko, jolla keskustelu on sinulle miellyttävää.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Kaikki oikeudet pidätetään",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Käännösesimerkki",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Alkuperäinen (englanti)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Kohdekieli",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Vinkkejä:\n• Automaattinen käännös käyttää tekoälyä\n• Käännökset ovat suuntaa antavia ja voivat sisältää virheitä\n• Sekä alkuperäinen että käännös näkyvät keskustelussa\n• Paina viestiä pitkään ja valitse ”Näytä alkuperäinen”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Oletustausta",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Valkoinen",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Vaaleanharmaa",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Vaaleansininen",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Vaaleanvihreä",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Vaaleanpunainen",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Vaaleanvioletti",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Oma kuva",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Tämän keskustelun tausta",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Keskustelun tausta",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Vaihda oma kuva",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Valitse kuvista",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Aseta",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Käytä yleistä keskustelutaustaa",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Käännös ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Kirjataanko ”{name}” ulos?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} istunto} other {{count} istuntoa}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Viimeksi aktiivinen {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Kehittäjän diagnostiikka",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Verkko ei ole käytettävissä. Tarkista verkkoasetukset.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

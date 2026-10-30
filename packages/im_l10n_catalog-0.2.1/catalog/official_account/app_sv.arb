@@ -1,0 +1,112 @@
+{
+  "@@locale": "sv",
+  "officialAccountBadge": "Officiell",
+  "officialAccountOpenConversation": "Öppna konversation",
+  "officialAccountJoinHint": "När du lägger till detta konto går du med i företaget som kund. Vängodkännande krävs inte.",
+  "officialAccountJoinDisabled": "Detta företag tar inte emot nya kunder. Kontakta support.",
+  "officialAccountRemoved": "Du har tagits bort från företaget. Be företaget bjuda in dig igen.",
+  "officialAccountBanned": "Ditt konto har inaktiverats i detta företag.",
+  "officialAccountUnavailable": "Detta officiella konto är inte tillgängligt för närvarande.",
+  "officialAccountJoinBindingDisabled": "Det är inte tillåtet att gå med i ett företag i detta läge.",
+  "officialAccountPlatformRequired": "Använd ett plattformskonto för att lägga till detta officiella konto.",
+  "officialAccountOpenFailed": "Konversationen kunde inte öppnas. Försök igen.",
+  "officialAccountAccountChanged": "Kontot eller utrymmet har ändrats. Öppna igen.",
+  "officialAccountDirectoryUnavailable": "Företagskatalogen är inte uppdaterad. Försök strax igen.",
+  "officialAccountInboxSyncFailed": "Synkroniseringen av det officiella kontot misslyckades. Lokalt innehåll är fortfarande tillgängligt.",
+  "officialAccountInboxSyncing": "Synkroniserar officiella kontomeddelanden",
+  "officialIdentityQr": "Officiell kontoprofil och QR-kod",
+  "officialIdentityHint": "Hantera den officiella identitet som dina kunder ser",
+  "officialEditProfile": "Redigera profil",
+  "officialSetIdentityHint": "Ange officiellt kontonummer, namn och profilbild",
+  "officialQrTitle": "Officiellt kontos QR-kod",
+  "officialViewReset": "Visa eller återställ",
+  "officialAutoJoin": "Gå automatiskt med i organisationen när du lägger till dess officiella konto",
+  "officialAutoJoinHint": "Kunder går automatiskt med i organisationens kundutrymme när de lägger till dess officiella konto",
+  "officialConversationFeatures": "Konversationsfunktioner",
+  "officialConversationSettingsHint": "Ändringar påverkar omedelbart kundernas officiella konversationer",
+  "officialServiceMenu": "Servicemeny",
+  "officialServiceMenuHint": "Visa kunderna menyn som konfigurerats i datorkonsolen",
+  "officialWelcomeOnFirstContact": "Välkomst vid första kontakt",
+  "officialWelcomeMessage": "Välkomstmeddelande",
+  "officialHumanSupport": "Överföring till mänskliga handläggare",
+  "officialReceptionModeHint": "Nya eller återöppnade mottagningar använder det valda läget. Aktiva konversationer behåller sitt nuvarande läge.",
+  "officialReceptionMode": "Handläggarens mottagningsläge",
+  "officialReceptionInOfficial": "I konversationen med det officiella kontot",
+  "officialReceptionLegacy": "Separat handläggarchatt (äldre läge)",
+  "officialServiceNotice": "Mottagningsmeddelande",
+  "officialServiceNoticeText": "Text för mottagningsmeddelande",
+  "officialAutoHandoff": "Automatisk överföring till handläggare",
+  "officialAutoHandoffHint": "Tilldela en handläggare när en kund skriver till det officiella kontot",
+  "officialForwardCustomerText": "Vidarebefordra kundens meddelande",
+  "officialForwardCustomerTextHint": "Skicka kundens meddelande vidare till den tilldelade handläggaren efter överföringen",
+  "officialSyncAgentReplies": "Synkronisera handläggarsvar till det officiella kontot",
+  "officialSyncAgentRepliesHint": "Skicka handläggarsvar tillbaka till den officiella konversationen i äldre läge",
+  "officialHandoffCooldown": "Intervall mellan överföringsaviseringar",
+  "officialAssignedNotice": "Meddelande om tilldelad handläggare",
+  "officialQueuedNotice": "Kömeddelande",
+  "officialDesktopManagementHint": "Hantera menystruktur, lösenord och officiella grupper i datorkonsolen.",
+  "officialSaveFailed": "Kunde inte spara. Försök igen senare.",
+  "officialCooldownRange": "Intervall: 0–1440 minuter",
+  "officialMenuItems": "Menyalternativ",
+  "officialMenuVersion": "Menyversion",
+  "officialEnabled": "Aktiverat",
+  "officialManageDenied": "Detta konto kan inte hantera officiella konton",
+  "officialSettingsLoadFailed": "Inställningar för officiellt konto kunde inte läsas in",
+  "officialProfileSaved": "Officiell kontoprofil sparad",
+  "officialProfileTitle": "Officiell kontoprofil",
+  "officialDisplayName": "Visningsnamn",
+  "officialAvatarUrl": "Profilbildens URL",
+  "officialAvatarLogoFallback": "Lämna tomt för att använda organisationens logotyp",
+  "officialIdHint": "6–10 siffror; lämna tomt för att koppla bort",
+  "officialResetQr": "Återställ QR-kod",
+  "officialResetQrConfirm": "Den gamla QR-koden slutar fungera omedelbart. Återställa?",
+  "officialReset": "Återställ",
+  "officialQrNotGenerated": "Ingen QR-kod har skapats",
+  "officialQrLoadFailed": "QR-koden kunde inte läsas in. Försök igen.",
+  "officialGenerate": "Skapa",
+  "officialMenuCustomerOnly": "Kontakt med support är endast tillgänglig för kunder",
+  "officialMenuUpdated": "Menyn har ändrats. Försök igen.",
+  "officialMenuActionFailed": "Åtgärden misslyckades. Kontrollera anslutningen och försök igen.",
+  "officialMenuLoadFailed": "Servicemenyn kunde inte läsas in",
+  "officialMenuRefreshFailed": "Servicemenyn kunde inte uppdateras",
+  "officialAccountIdValue": "Officiellt konto {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minut} other {{count} minuter}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Stöder platshållarna {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Använt {count} gång} other {Använt {count} gånger}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Namnet måste innehålla 1–64 tecken",
+  "officialIdFormatInvalid": "Officiellt kontonummer måste vara 6–10 siffror"
+}

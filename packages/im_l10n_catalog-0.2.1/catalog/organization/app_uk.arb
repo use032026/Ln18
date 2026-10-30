@@ -1,0 +1,626 @@
+{
+  "@@locale": "uk",
+  "enterpriseInfoTitle": "Інформація про компанію",
+  "enterpriseName": "Ім’я",
+  "enterpriseDescription": "Опис",
+  "enterpriseUpdateSuccess": "Успішно оновлено",
+  "enterpriseUpdateFailed": "Помилка оновлення. Спробуйте ще раз",
+  "enterpriseLeave": "Вийти з компанії",
+  "enterpriseLeaveConfirm": "Справді бажаєте вийти з цієї компанії?",
+  "enterpriseLeaveSuccess": "Ви вийшли з компанії",
+  "enterpriseLeaveFailed": "Не вдалося вийти. Спробуйте ще раз",
+  "enterpriseLeaveOwnerError": "Власник не може вийти безпосередньо. Спочатку передайте права власника.",
+  "enterpriseMemberCount": "Учасники",
+  "enterpriseCreatedAt": "Створено",
+  "enterpriseCode": "Код компанії",
+  "enterpriseInviteMembers": "Запросити учасників",
+  "enterpriseCopyInviteCode": "Копіювати код запрошення",
+  "enterpriseInviteCodeCopied": "Код запрошення скопійовано",
+  "groupCreateTitle": "Нова група",
+  "groupNameHint": "Введіть назву групи",
+  "groupCreateSuccess": "Групу створено",
+  "groupCreateFailed": "Не вдалося створити групу",
+  "groupSettings": "Налаштування групи",
+  "groupName": "Назва групи",
+  "groupAvatar": "Аватар групи",
+  "groupAnnouncement": "Оголошення",
+  "groupMembers": "Учасники",
+  "groupAddMember": "Додати учасників",
+  "groupRemoveMember": "Видалити учасника",
+  "groupRemoveMemberConfirm": "Видалити цього учасника?",
+  "groupSetAdmin": "Призначити адміністратором",
+  "groupRemoveAdmin": "Зняти права адміністратора",
+  "groupTransferOwner": "Передати права власника",
+  "groupTransferOwnerConfirm": "Передати права власника групи цьому учаснику?",
+  "groupTransferOwnerSuccess": "Права власника передано",
+  "groupTransferOwnerFailed": "Не вдалося передати. Спробуйте ще раз",
+  "groupLeave": "Вийти з групи",
+  "groupLeaveConfirm": "Вийти з цієї групи?",
+  "groupLeaveSuccess": "Ви вийшли з групи",
+  "groupLeaveFailed": "Не вдалося вийти. Спробуйте ще раз",
+  "groupDissolve": "Розпустити групу",
+  "groupDissolveConfirm": "Розпустити цю групу? Усіх учасників буде видалено.",
+  "groupDissolveSuccess": "Групу розпущено",
+  "groupDissolveFailed": "Не вдалося розпустити. Спробуйте ще раз",
+  "groupQrCode": "QR-код групи",
+  "groupMuteAll": "Заборонити писати всім",
+  "groupMuteAllOn": "Увімкнути заборону для всіх",
+  "groupMuteAllOff": "Вимкнути заборону для всіх",
+  "groupAllowMemberInvite": "Дозволити учасникам запрошувати",
+  "groupAllowMemberModifyTitle": "Дозволити учасникам змінювати назву групи",
+  "groupAllowMemberAtAll": "Дозволити учасникам згадувати @Всіх",
+  "groupAllowMemberViewMemberList": "Дозволити учасникам бачити список учасників",
+  "groupAllowQrCodeJoin": "Дозволити вступ за QR-кодом",
+  "groupRequireApproval": "Вимагати схвалення для вступу",
+  "groupAllowMemberAddFriend": "Дозволити учасникам додавати одне одного",
+  "groupRoleOwner": "Власник",
+  "groupRoleAdmin": "Адміністратор",
+  "groupRoleMember": "Учасник",
+  "groupNoMembers": "Немає учасників",
+  "groupNoAnnouncements": "Немає оголошень",
+  "groupCreateAnnouncement": "Опублікувати оголошення",
+  "groupEditAnnouncement": "Редагувати оголошення",
+  "groupDeleteAnnouncement": "Видалити оголошення",
+  "groupDeleteAnnouncementConfirm": "Видалити це оголошення?",
+  "groupAnnouncementTitle": "Заголовок",
+  "groupAnnouncementContent": "Вміст",
+  "groupAnnouncementPin": "Закріпити оголошення",
+  "groupMemberCount": "Учасників: {count}",
+  "groupSelectedCount": "Вибрано: {count}",
+  "groupJoinRequestApprove": "Погодитися",
+  "groupJoinRequestReject": "Відхилити",
+  "groupJoinRequests": "Заявки на вступ",
+  "groupNoJoinRequests": "Немає заявок на вступ",
+  "groupReadReceipts": "Звіти про прочитання",
+  "groupReadCount": "Прочитали: {count}",
+  "groupUnreadCount": "Непрочитаних: {count}",
+  "organizationTitle": "Організація",
+  "organizationEmpty": "Немає інформації про відділ",
+  "organizationMembers": "Учасники",
+  "organizationDepartment": "Відділ",
+  "organizationPosition": "Посада",
+  "organizationLeader": "Керівник",
+  "qrCodeTitle": "Мій QR-код",
+  "qrCodeSave": "Зберегти в альбом",
+  "qrCodeShare": "Поділитися",
+  "qrCodeSaveSuccess": "Збережено в альбомі",
+  "qrCodeSaveFailed": "Не вдалося зберегти. Спробуйте ще раз",
+  "qrCodeRefresh": "Оновити QR-код",
+  "qrCodeExpired": "Строк QR-коду минув. Оновіть його",
+  "qrCodeScanToAdd": "Скануйте, щоб додати мене до контактів",
+  "spacePersonal": "Особистий",
+  "spaceEnterprise": "Компанія",
+  "spaceJoinByCode": "Вступити за кодом компанії",
+  "spaceJoinByInvite": "Вступити за кодом запрошення",
+  "spaceEnterCode": "Введіть код компанії",
+  "spaceEnterInviteCode": "Введіть код запрошення",
+  "spaceSearchEnterprise": "Знайти компанію",
+  "spaceJoinRequestSent": "Заявку надіслано, очікує схвалення",
+  "spaceJoinRequestPending": "Очікує схвалення",
+  "spaceJoinRequestApproved": "Заявку схвалено",
+  "spaceJoinRequestRejected": "Заявку відхилено",
+  "spaceAlreadyMember": "Ви вже учасник",
+  "spaceAutoApproved": "Схвалено автоматично. Вітаємо!",
+  "spacePendingApprovalHint": "Реєстрацію завершено. Заявку на вступ надіслано.",
+  "spaceNoSpaces": "Немає просторів",
+  "spaceInviteExpired": "Строк коду запрошення минув",
+  "spaceInviteTargetMismatch": "Цей код запрошення призначено не для вашого облікового запису",
+  "spaceAcceptInviteSuccess": "Ви успішно вступили до компанії",
+  "spaceAcceptInviteFailed": "Не вдалося вступити. Спробуйте ще раз",
+  "spaceTenantSelectTitle": "Виберіть простір",
+  "spaceTenantSelectHint": "Виберіть простір для входу",
+  "spaceEnterPersonal": "Увійти до особистого простору",
+  "spaceEnterEnterprise": "Увійти до простору компанії",
+  "recentContactsTitle": "Нещодавні",
+  "recentContactsEmpty": "Немає нещодавніх контактів",
+  "inviteFriendsTitle": "Запросити друзів",
+  "inviteFriendsCopyLink": "Копіювати посилання запрошення",
+  "inviteFriendsLinkCopied": "Посилання запрошення скопійовано",
+  "pendingJoinRequestsTitle": "Нові заявки",
+  "pendingJoinRequestsEmpty": "Немає заявок",
+  "pendingJoinRequestApprove": "Погодитися",
+  "pendingJoinRequestReject": "Відхилити",
+  "pendingJoinRequestApproveSuccess": "Схвалено",
+  "pendingJoinRequestRejectSuccess": "Відхилено",
+  "pendingJoinRequestFailed": "Не вдалося виконати дію. Спробуйте ще раз",
+  "groupListTitle": "Групи",
+  "groupListEmpty": "Немає груп",
+  "joinCompanyTitle": "Вступити до компанії",
+  "joinCompanyCodeHint": "Введіть код компанії",
+  "joinCompanySearchHint": "Пошук за назвою компанії",
+  "joinCompanyApply": "Подати заявку на вступ",
+  "joinCompanyApplySuccess": "Заявку надіслано",
+  "joinCompanyApplyFailed": "Не вдалося подати заявку. Спробуйте ще раз",
+  "joinCompanyAutoApproved": "Схвалено автоматично. Вітаємо!",
+  "joinCompanyPending": "Заявку надіслано, очікує схвалення",
+  "joinCompanyInviteCodeHint": "Введіть код запрошення",
+  "joinCompanyAcceptInvite": "Прийняти запрошення",
+  "joinCompanyNoResults": "Компаній не знайдено",
+  "joinCompanyMemberCount": "Учасників: {count}",
+  "approvalEmpty": "Немає запитів",
+  "approvalApprove": "Погодитися",
+  "approvalReject": "Відхилити",
+  "approvalPending": "Очікує",
+  "approvalApproved": "Схвалено",
+  "approvalRejected": "відхилено",
+  "approvalExpired": "просрочений",
+  "approvalCancelled": "Скасовано",
+  "approvalReplayFailed": "Початкову дію не виконано. Повторіть її.",
+  "requestCancelled": "Запит скасовано",
+  "enterpriseNoPermission": "Немає дозволу",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Налаштування інформації про компанію",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Конфігурація компанії",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Офіційні облікові записи",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Керування офіційними обліковими записами",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Керування учасниками",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Запросити працівників",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Учасники",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Керування оголошеннями",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Розсилка компанії",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Схвалення",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Схвалення членства",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Передати права власника",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Після передачі ви станете адміністратором. Дія незворотна. Виберіть нового власника зі списку учасників.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Виберіть нового власника",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Режим призначення оператора",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Автоматичне призначення",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Вказаний оператор",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Режим схвалення членства",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ручне схвалення",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Автоматичне схвалення",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Режим дружби",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Соціальний режим",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Режим ізоляції",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Доступ відвідувачів через віджет",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Вимкнено",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Автоматично призначати доступних операторів по черзі",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Призначати всіх клієнтів вказаному оператору",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Заявки клієнтів потребують схвалення адміністратора",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Автоматично схвалювати заявки клієнтів",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Клієнти можуть додавати одне одного в друзі",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Клієнти не можуть додавати одне одного в друзі",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Учасник",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Пошук учасників",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Призначити учасником",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Призначити технічною підтримкою",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Призначити оператором підтримки",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Підтвердити передачу",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Назва компанії обов’язкова",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Введіть назву компанії",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Немає опису",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Логотип компанії",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Створення не вдалося. Будь ласка, спробуйте ще раз.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Максимум використань",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Час дії",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 година",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 години",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 дні",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 днів",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Створити код запрошення",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Код запрошення",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Усі",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Працівники",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Пошук працівників, ролей або посад",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Учасники компанії",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Немає відповідних учасників",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Огляд компанії",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Управління",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Дозволи ролі",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Передача справ під час звільнення",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Пошук працівників",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Працівники компанії",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Профіль друга",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Голосові та відеодзвінки",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Додати в друзі",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Чоловіча",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Жіноча",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Немає непрочитаних розмов",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Код запрошення скопійовано",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Видалити «{name}» з компанії?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Передати права власника «{name}»? Ви станете адміністратором. Дія незворотна.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} використання} few {{count} використання} many {{count} використань} other {{count} використання}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Діє {hours} год · Не більше {count} використань",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} непрочитана розмова} few {{count} непрочитані розмови} many {{count} непрочитаних розмов} other {{count} непрочитаної розмови}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} непрочитане повідомлення} few {{count} непрочитані повідомлення} many {{count} непрочитаних повідомлень} other {{count} непрочитаного повідомлення}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID бульбашки: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Вийти з компанії",
+  "enterpriseLoginBeforeSearch": "Увійдіть перед пошуком організації",
+  "enterpriseSearchFailed": "Помилка пошуку. Спробуйте ще раз.",
+  "enterpriseLoginBeforeJoin": "Увійдіть перед поданням заявки на вступ до організації",
+  "enterpriseApplicationPending": "Заявку надіслано. Очікується схвалення адміністратора.",
+  "enterpriseLoginBeforeAction": "Увійдіть, щоб продовжити",
+  "enterprisePlatformTagline": "Пряма взаємодія організацій із клієнтами",
+  "enterpriseLookupHint": "Введіть номер організації, псевдонім або код запрошення",
+  "enterpriseLookup": "Пошук",
+  "enterpriseApplicationNote": "Нотатка до заявки (необов’язково)",
+  "enterpriseLookupGuide": "Шукайте за номером або псевдонімом організації чи вступіть за кодом запрошення",
+  "enterpriseRecommendationsLoading": "Завантаження рекомендованих організацій",
+  "enterpriseRecommendationsFailed": "Не вдалося завантажити рекомендовані організації",
+  "enterpriseReload": "Перезавантажити",
+  "enterpriseNoRecommendations": "Немає рекомендацій. Шукайте за номером організації, псевдонімом або кодом запрошення.",
+  "enterpriseRecommended": "Рекомендовані організації",
+  "enterpriseJoined": "Ви вступили",
+  "enterpriseRequestsLoadFailed": "Не вдалося завантажити заявки",
+  "enterpriseCodeMissing": "Номер організації недоступний",
+  "enterpriseAlias": "Псевдонім організації",
+  "enterpriseCodeLabel": "Номер організації",
+  "enterprisePrivateAliasHint": "Організація не опублікувала відомості. У заявці її буде позначено цим псевдонімом.",
+  "enterpriseInvitationMismatch": "Цей код запрошення призначений не вам. Вступ може не вдатися.",
+  "enterpriseTechnicalRole": "Технічна підтримка",
+  "enterpriseJoin": "Вступити",
+  "enterpriseCancelApplication": "Скасувати дію",
+  "enterpriseApplication": "Заявка організації",
+  "enterpriseAliasValue": "Псевдонім організації: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Номер організації: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Псевдонім: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Ви вступите з роллю «{role}»",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Цей код запрошення призначено: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Причина відмови: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Організація {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Усі",
+  "enterpriseAudienceAllHint": "Працівники та клієнти",
+  "enterpriseAudienceStaffHint": "Лише працівники організації",
+  "enterpriseAudienceCustomers": "Клієнти організації",
+  "enterpriseAudienceCustomersHint": "Клієнти, що вступили до організації",
+  "enterpriseOfficialGroups": "Офіційні групи",
+  "enterpriseAudienceGroupsHint": "Офіційні групові чати організації",
+  "enterpriseSendNow": "Надіслати зараз",
+  "enterpriseSendScheduled": "Запланувати надсилання",
+  "enterprisePreviewing": "Попередній перегляд",
+  "enterprisePreview": "Перегляд",
+  "enterpriseSubmitSend": "Надіслати на доставлення",
+  "enterpriseBroadcastSubmitted": "Розсилку організації надіслано",
+  "enterpriseScheduledUnavailable": "Відкладені розсилки організації недоступні в цій версії",
+  "enterpriseBroadcastFailed": "Помилка розсилки організації. Спробуйте пізніше.",
+  "enterpriseBroadcastGuide": "Розсилки використовують офіційний обліковий запис організації, а дія фіксується. Результати доставлення доступні після надсилання.",
+  "enterpriseSenderIdentity": "Відправник",
+  "enterpriseSenderAfterPreview": "Підтвердьте в попередньому перегляді",
+  "enterpriseSenderConfirmed": "Підтверджено",
+  "enterpriseDefaultOfficialSender": "Типовий офіційний обліковий запис організації",
+  "enterpriseOfficialSenderHint": "Одержувачі бачать офіційний обліковий запис організації",
+  "enterpriseMessageContent": "Текст повідомлення",
+  "enterpriseBroadcastContentHint": "Введіть текст розсилки від офіційного облікового запису",
+  "enterpriseInternalNoteHint": "Внутрішня нотатка для аудиту й подальшої роботи (необов’язково)",
+  "enterpriseSendPreview": "Перегляд надсилання",
+  "enterpriseExpectedRecipients": "Приблизна кількість одержувачів",
+  "enterpriseDeliveryMethod": "Спосіб доставлення",
+  "enterpriseTaskStatus": "Статус завдання",
+  "enterpriseNoBroadcastHistory": "Розсилок організації поки немає",
+  "enterpriseHistoryUnavailable": "Тимчасово недоступно",
+  "enterpriseBroadcastDenied": "Немає права на розсилки організації",
+  "enterpriseBroadcastRoleHint": "Розсилки організації доступні лише адміністраторам і власникам.",
+  "enterpriseDefaultApplicationMessage": "Хочу вступити до вашої організації"
+}

@@ -1,0 +1,112 @@
+{
+  "@@locale": "zh",
+  "officialAccountBadge": "官方",
+  "officialAccountOpenConversation": "进入会话",
+  "officialAccountJoinHint": "添加后将以客户身份加入该企业，无需好友验证。",
+  "officialAccountJoinDisabled": "该企业暂未开放添加，请联系客服",
+  "officialAccountRemoved": "你已被该企业移除，需要企业重新邀请",
+  "officialAccountBanned": "你的账号在该企业已被停用",
+  "officialAccountUnavailable": "该官方号暂不可用",
+  "officialAccountJoinBindingDisabled": "当前模式不允许加入企业",
+  "officialAccountPlatformRequired": "请使用平台账号添加该官方号",
+  "officialAccountOpenFailed": "打开会话失败，请重试",
+  "officialAccountAccountChanged": "账号或空间已切换，请重新打开",
+  "officialAccountDirectoryUnavailable": "企业目录暂未更新，请稍后重试",
+  "officialAccountInboxSyncFailed": "官方号消息同步失败，已保留本地内容",
+  "officialAccountInboxSyncing": "正在同步官方号消息",
+  "officialIdentityQr": "官方号资料与二维码",
+  "officialIdentityHint": "维护客户看到的官方身份",
+  "officialEditProfile": "编辑资料",
+  "officialSetIdentityHint": "设置官方号、名称及头像",
+  "officialQrTitle": "官方号二维码",
+  "officialViewReset": "查看或重置",
+  "officialAutoJoin": "加官方号自动加入企业",
+  "officialAutoJoinHint": "客户添加官方号时自动加入企业客户空间",
+  "officialConversationFeatures": "会话能力",
+  "officialConversationSettingsHint": "设置会立即影响客户侧官方会话",
+  "officialServiceMenu": "服务菜单",
+  "officialServiceMenuHint": "向客户展示已在 PC 管理端配置的菜单",
+  "officialWelcomeOnFirstContact": "首次欢迎语",
+  "officialWelcomeMessage": "欢迎语",
+  "officialHumanSupport": "人工客服引流",
+  "officialReceptionModeHint": "新建或重新开启的接待采用所选模式，进行中的会话保持原模式",
+  "officialReceptionMode": "人工接待模式",
+  "officialReceptionInOfficial": "官方号会话内接待",
+  "officialReceptionLegacy": "坐席独立私聊（旧模式）",
+  "officialServiceNotice": "接待服务提示",
+  "officialServiceNoticeText": "接待服务提示语",
+  "officialAutoHandoff": "自动转人工",
+  "officialAutoHandoffHint": "客户在官方会话发消息时触发坐席分配",
+  "officialForwardCustomerText": "转发客户原话",
+  "officialForwardCustomerTextHint": "转接后把客户消息同步给坐席",
+  "officialSyncAgentReplies": "坐席回复同步官方号",
+  "officialSyncAgentRepliesHint": "旧模式下将坐席回复同步回官方会话",
+  "officialHandoffCooldown": "引流提示冷却",
+  "officialAssignedNotice": "已分配提示语",
+  "officialQueuedNotice": "排队提示语",
+  "officialDesktopManagementHint": "菜单结构、密码和官方群管理请在 PC 工作台完成。",
+  "officialSaveFailed": "保存失败，请稍后重试",
+  "officialCooldownRange": "范围 0–1440 分钟",
+  "officialMenuItems": "菜单项",
+  "officialMenuVersion": "菜单版本",
+  "officialEnabled": "启用",
+  "officialManageDenied": "当前账号没有官方账号管理权限",
+  "officialSettingsLoadFailed": "官方账号配置加载失败",
+  "officialProfileSaved": "官方号资料已保存",
+  "officialProfileTitle": "官方号资料",
+  "officialDisplayName": "显示名称",
+  "officialAvatarUrl": "头像链接",
+  "officialAvatarLogoFallback": "留空恢复企业 Logo",
+  "officialIdHint": "6–10 位数字；留空解除绑定",
+  "officialResetQr": "重置二维码",
+  "officialResetQrConfirm": "旧二维码将立即失效，确定重置？",
+  "officialReset": "重置",
+  "officialQrNotGenerated": "尚未生成二维码",
+  "officialQrLoadFailed": "二维码加载失败，请重试",
+  "officialGenerate": "生成",
+  "officialMenuCustomerOnly": "联系客服仅对客户开放",
+  "officialMenuUpdated": "菜单已更新，请重试",
+  "officialMenuActionFailed": "操作失败，请检查网络后重试",
+  "officialMenuLoadFailed": "服务菜单加载失败",
+  "officialMenuRefreshFailed": "服务菜单刷新失败",
+  "officialAccountIdValue": "官方号 {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count} 分钟",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "支持 {staff}、{tenant}、{customer} 占位符",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "已使用 {count} 次",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "名称须为 1–64 个字符",
+  "officialIdFormatInvalid": "官方号须为 6–10 位数字"
+}

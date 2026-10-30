@@ -1,0 +1,221 @@
+{
+  "@@locale": "zh",
+  "appRuntimeLoadFailed": "账号数据加载失败",
+  "@appRuntimeLoadFailed": {
+    "description": "Account runtime load failure"
+  },
+  "privacyConsentTitle": "服务协议与隐私政策",
+  "@privacyConsentTitle": {
+    "description": "Privacy consent title"
+  },
+  "privacyConsentBodyAndroid": "欢迎使用{brand}。为向您提供账号登录、即时通讯、企业协作、在线客服、消息提醒和安全保障等服务，我们需要按照用户协议和隐私政策处理必要信息。\n\n在您点击同意前，我们不会读取剪切板信息，不会初始化极光及手机厂商推送 SDK，也不会通过这些 SDK 获取 Android ID、OAID、安装应用列表、MAC 地址等信息。若您暂不同意，我们会保存该选择；您仍可继续阅读协议，并可稍后重新选择。\n\n您同意后，为完成消息、客服和来电提醒，极光 JPush/JCore 及手机厂商推送服务可能处理设备型号、Android 版本、应用包名与版本、网络类型、IP 地址、Android ID、OAID、推送 Registration ID、厂商推送 Token 以及通知送达和点击信息。我们已关闭智能推送、安装应用列表、MAC、IMEI、IMSI、Wi-Fi 列表、自动唤醒和关联启动等非必要能力。\n\n剪切板仅在您主动使用复制或粘贴功能时调用；相机、麦克风和通知等系统权限仅在您主动使用相关功能时申请。拒绝单项权限只影响对应功能。请阅读下方完整协议后，自主选择是否同意。",
+  "@privacyConsentBodyAndroid": {
+    "description": "Android pre-consent data processing disclosure",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyConsentBodyIos": "欢迎使用{brand}。为向您提供账号登录、即时通讯、企业协作、在线客服、消息提醒和安全保障等服务，我们需要按照用户协议和隐私政策处理必要信息。\n\n在您点击同意前，我们不会读取剪切板信息，不会初始化极光 JPush/JCore 或注册 Apple 推送通知服务（APNs），也不会获取极光 Registration ID、APNs 设备令牌等推送标识。若您暂不同意，我们会保存该选择；您仍可继续阅读协议，并可稍后重新选择。\n\n您同意后，为完成消息、客服和来电提醒，我们可能处理 iPhone 型号、iOS 版本、应用包名与版本、网络类型、IP 地址、IDFV、极光 Registration ID、APNs 设备令牌以及通知送达和点击信息。极光 JPush/JCore 用于连接推送服务；Apple APNs 处理 App 标识、设备令牌和通知负载以完成系统推送。当前 iOS 版不接入广告服务，不获取 IDFA。\n\n剪切板仅在您主动使用复制或粘贴功能时调用；相机、麦克风和通知等系统权限仅在您主动使用相关功能时申请。拒绝单项权限只影响对应功能。请阅读下方完整协议后，自主选择是否同意。",
+  "@privacyConsentBodyIos": {
+    "description": "iOS pre-consent data processing disclosure",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyConsentTermsLink": "《用户协议》",
+  "@privacyConsentTermsLink": {
+    "description": "Terms link"
+  },
+  "privacyConsentConjunction": "和",
+  "@privacyConsentConjunction": {
+    "description": "Terms and privacy conjunction"
+  },
+  "privacyConsentPrivacyLink": "《隐私政策》",
+  "@privacyConsentPrivacyLink": {
+    "description": "Privacy policy link"
+  },
+  "privacyConsentDecline": "不同意",
+  "@privacyConsentDecline": {
+    "description": "Decline privacy consent"
+  },
+  "privacyConsentDeclinedExit": "您未同意服务协议和隐私政策，应用即将退出",
+  "@privacyConsentDeclinedExit": {
+    "description": "Android notice shown before exiting after privacy consent is declined"
+  },
+  "privacyConsentAccept": "同意",
+  "@privacyConsentAccept": {
+    "description": "Accept privacy consent"
+  },
+  "privacyConsentRuntimeFailure": "启动失败，请检查网络后重试",
+  "@privacyConsentRuntimeFailure": {
+    "description": "Authorized runtime startup failure"
+  },
+  "privacyConsentSaveFailure": "未能保存选择，请重试",
+  "@privacyConsentSaveFailure": {
+    "description": "Consent choice persistence failure"
+  },
+  "appUpdateRequiredTitle": "必须更新后继续使用",
+  "@appUpdateRequiredTitle": {
+    "description": "Required update title"
+  },
+  "appUpdateOptionalTitle": "发现新版本",
+  "@appUpdateOptionalTitle": {
+    "description": "Optional update title"
+  },
+  "appUpdateVersionAvailable": "{brand} {version} 已可更新",
+  "@appUpdateVersionAvailable": {
+    "description": "Available app version",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateLater": "稍后",
+  "@appUpdateLater": {
+    "description": "Dismiss optional update"
+  },
+  "appUpdateNow": "立即更新",
+  "@appUpdateNow": {
+    "description": "Start app update"
+  },
+  "appUpdateProcessing": "处理中...",
+  "@appUpdateProcessing": {
+    "description": "App update processing"
+  },
+  "appUpdateInvalidUrl": "更新地址无效，请稍后重试",
+  "@appUpdateInvalidUrl": {
+    "description": "Invalid update URL"
+  },
+  "appUpdateOpenUrlFailed": "无法打开更新链接，请稍后重试",
+  "@appUpdateOpenUrlFailed": {
+    "description": "Open update URL failure"
+  },
+  "appUpdateDownloadInterrupted": "下载中断，请检查网络后重试",
+  "@appUpdateDownloadInterrupted": {
+    "description": "Interrupted update download"
+  },
+  "appUpdatePackageVerificationFailed": "安装包校验失败，请重新下载",
+  "@appUpdatePackageVerificationFailed": {
+    "description": "Update package verification failure"
+  },
+  "appUpdatePermissionDenied": "请在系统设置中允许{brand}安装更新",
+  "@appUpdatePermissionDenied": {
+    "description": "Install permission denied",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenInstallerFailed": "无法打开系统安装器，请检查安装权限",
+  "@appUpdateOpenInstallerFailed": {
+    "description": "Open system installer failure"
+  },
+  "appUpdateGenericFailure": "更新失败，请检查网络后重试",
+  "@appUpdateGenericFailure": {
+    "description": "Generic update failure"
+  },
+  "appUpdateUnavailable": "新版本暂不可下载，请稍后再试",
+  "@appUpdateUnavailable": {
+    "description": "Update package unavailable"
+  },
+  "appUpdateCheckFailed": "检查更新失败，请稍后重试",
+  "@appUpdateCheckFailed": {
+    "description": "Update check failure"
+  },
+  "appUpdateChecking": "检查中",
+  "@appUpdateChecking": {
+    "description": "Checking for updates"
+  },
+  "privacySettingsTitle": "朋友权限",
+  "@privacySettingsTitle": {
+    "description": "Privacy settings title"
+  },
+  "privacySearchableByMobile": "允许通过手机号搜索",
+  "@privacySearchableByMobile": {
+    "description": "Searchable by mobile"
+  },
+  "privacySearchableByLppId": "允许通过微界号搜索",
+  "@privacySearchableByLppId": {
+    "description": "Searchable by lpp id"
+  },
+  "privacyAllowFriendRequest": "加我为好友",
+  "@privacyAllowFriendRequest": {
+    "description": "Allow friend request"
+  },
+  "privacyProfileVisibility": "个人资料可见性",
+  "@privacyProfileVisibility": {
+    "description": "Profile visibility"
+  },
+  "privacyEveryone": "所有人",
+  "@privacyEveryone": {
+    "description": "Everyone"
+  },
+  "privacyFriendsOfFriends": "有共同好友的人",
+  "@privacyFriendsOfFriends": {
+    "description": "Friends of friends"
+  },
+  "privacyNobody": "不允许",
+  "@privacyNobody": {
+    "description": "Nobody"
+  },
+  "privacyFriendsOnly": "仅好友",
+  "@privacyFriendsOnly": {
+    "description": "Friends only"
+  },
+  "privacySaveSuccess": "设置已保存",
+  "@privacySaveSuccess": {
+    "description": "Privacy save success"
+  },
+  "privacySaveFailed": "保存失败，请重试",
+  "@privacySaveFailed": {
+    "description": "Privacy save failed"
+  },
+  "termsTitle": "用户协议",
+  "@termsTitle": {
+    "description": "Terms title"
+  },
+  "privacyPolicyTitle": "隐私政策",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy title"
+  },
+  "permissionGroupManageDenied": "仅群主/管理员可修改群管理设置",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "仅群主/管理员可修改群名称",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "该群已关闭群成员互加好友",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "当前企业已开启客户隔离，暂不支持添加客户好友",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "查看官网最新版本",
+  "legalOfficialOpenFailed": "官网页面暂时无法打开，当前显示本地备份版本",
+  "legalLocalChineseNotice": "本地协议备份以简体中文提供。",
+  "legalPlatformDocumentTitle": "{title}（{platform}）",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

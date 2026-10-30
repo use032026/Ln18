@@ -1,0 +1,471 @@
+{
+  "@@locale": "uk",
+  "settingsTitle": "Налаштування",
+  "settingsSectionEnterprise": "Компанія",
+  "settingsSectionAccount": "Обліковий запис",
+  "settingsSectionGeneral": "Основні",
+  "settingsSectionFeatures": "Можливості",
+  "settingsSectionAbout": "Про додаток",
+  "settingsEnterpriseInfo": "Інформація про компанію",
+  "settingsProfile": "Мій профіль",
+  "settingsAccountSecurity": "Безпека облікового запису",
+  "settingsNotification": "Сповіщення",
+  "settingsDisplay": "Відображення",
+  "settingsFriendPrivacy": "Конфіденційність",
+  "settingsChat": "Чат",
+  "settingsChatHistory": "Історія чату",
+  "settingsAbout": "Про StartLink",
+  "settingsLanguage": "Мова",
+  "settingsTimezone": "Часовий пояс",
+  "settingsAutoTranslate": "Автопереклад",
+  "settingsNetworkSwitch": "Змінити лінію",
+  "aboutTitle": "Про StartLink",
+  "aboutVersion": "Версія",
+  "aboutTerms": "Угода користувача",
+  "aboutPrivacy": "Політика конфіденційності",
+  "aboutOpenSource": "Ліцензії відкритого ПЗ",
+  "aboutCheckUpdate": "Перевірити оновлення",
+  "aboutLatestVersion": "Ви використовуєте останню версію",
+  "aboutUpdateAvailable": "Доступна нова версія",
+  "aboutUpdateNow": "Оновити зараз",
+  "aboutUpdateLater": "Пізніше",
+  "networkTitle": "Змінити лінію",
+  "networkAutoSelect": "Авто",
+  "networkManual": "Вручну",
+  "timezoneTitle": "Часовий пояс",
+  "timezoneAuto": "Як у системі",
+  "displayTitle": "Відображення",
+  "displayFontSize": "Розмір шрифту",
+  "displayChatBackground": "Тло чату",
+  "displayDarkMode": "Оформлення",
+  "displayDarkModeSystem": "Як у системі",
+  "displayDarkModeSystemHint": "Автоматично змінювати за налаштуваннями системи",
+  "displayDarkModeOff": "Світла",
+  "displayDarkModeOffHint": "Завжди використовувати світлу тему",
+  "displayDarkModeOn": "Темна",
+  "displayDarkModeOnHint": "Завжди використовувати темну тему",
+  "accountSecurityTitle": "Безпека облікового запису",
+  "accountSecurityChangePassword": "Змінити пароль",
+  "accountSecurityChangeMobile": "Змінити номер телефону",
+  "accountSecurityChangeEmail": "Змінити email",
+  "accountSecurityLoggedDevices": "Пристрої з виконаним входом",
+  "accountSecurityDeactivate": "Видалити обліковий запис",
+  "accountSecurityDeactivateConfirm": "Усі дані буде безповоротно видалено через 7 днів. Видалити обліковий запис?",
+  "loggedDevicesTitle": "Пристрої з виконаним входом",
+  "loggedDevicesCurrent": "Цей пристрій",
+  "loggedDevicesRevoke": "Вийти",
+  "loggedDevicesRevokeConfirm": "Вийти на цьому пристрої?",
+  "loggedDevicesRevokeSuccess": "Виконано вихід на пристрої",
+  "loggedDevicesRevokeFailed": "Не вдалося. Спробуйте ще раз",
+  "loggedDevicesLastActive": "Остання активність",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Веб",
+  "loggedDevicesTypeDesktop": "Комп’ютер",
+  "loggedDevicesTypeUnknown": "Невідомий пристрій",
+  "fontSizeTitle": "Розмір шрифту",
+  "fontSizeSmall": "Малий",
+  "fontSizeNormal": "Стандартний",
+  "fontSizeLarge": "Великий",
+  "fontSizeExtraLarge": "Надвеликий",
+  "fontSizePreview": "Перегляд",
+  "timezoneNameHawaii": "Гаваї",
+  "timezoneNameAlaska": "Аляска",
+  "timezoneNamePacificTime": "Тихоокеанський час",
+  "timezoneNameMountainTime": "Гірський час",
+  "timezoneNameCentralTime": "Центральний час",
+  "timezoneNameEasternTime": "Східний час",
+  "timezoneNameAtlanticTime": "Атлантичний час",
+  "timezoneNameBrasilia": "Бразиліа",
+  "timezoneNameAzores": "Азорські острови",
+  "timezoneNameLondonDublin": "Лондон/Дублін",
+  "timezoneNameBerlinParisRome": "Берлін/Париж/Рим",
+  "timezoneNameCairoHelsinki": "Каїр/Гельсінкі",
+  "timezoneNameMoscowRiyadh": "Москва/Ер-Ріяд",
+  "timezoneNameTehran": "Тегеран",
+  "timezoneNameDubaiBaku": "Дубай/Баку",
+  "timezoneNameKabul": "Кабул",
+  "timezoneNameKarachiTashkent": "Карачі/Ташкент",
+  "timezoneNameMumbaiNewDelhi": "Мумбаї/Нью-Делі",
+  "timezoneNameKathmandu": "Катманду",
+  "timezoneNameDhakaAlmaty": "Дакка/Алмати",
+  "timezoneNameYangon": "Янгон",
+  "timezoneNameBangkokHanoiJakarta": "Бангкок/Ханой/Джакарта",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Пекін/Шанхай/Гонконг/Тайбей",
+  "timezoneNameTokyoSeoul": "Токіо/Сеул",
+  "timezoneNameAdelaide": "Аделаїда",
+  "timezoneNameSydneyMelbourne": "Сідней/Мельбурн",
+  "timezoneNameSolomonIslands": "Соломонові Острови",
+  "timezoneNameAucklandFiji": "Окленд/Фіджі",
+  "networkSmartSelectBestRoute": "Розумний вибір найкращого маршруту",
+  "networkTesting": "Перевірка...",
+  "networkTestingShort": "Перевірка",
+  "networkLatencyMs": "Затримка {ms} мс",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Режим підключення",
+  "networkDirectMode": "Прямий режим",
+  "networkProxyMode": "Через проксі",
+  "networkDirectModeDesc": "Пряме підключення до сервера",
+  "networkProxyModeDesc": "Підключення через проксі-сервер",
+  "networkDirectRoutes": "Прямі маршрути",
+  "networkProxyRoutes": "Проксі-маршрути",
+  "networkTestAll": "Перевірити всі",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Вузол у Гонконгу",
+  "networkSingaporeNode": "Вузол у Сінгапурі",
+  "networkJapanNode": "Вузол у Японії",
+  "networkUnitedStatesNode": "Вузол у США",
+  "networkHint": "Поради:\n• Прямий режим швидший і підходить для використання всередині країни\n• Проксі-режим стабільніший для міжнародного зв’язку\n• Натисніть значок оновлення, щоб перевірити затримку окремого маршруту",
+  "diagnosticsTitle": "Діагностика",
+  "diagnosticsExplanation": "Журнали очищено від чутливих даних; вони містять відомості про операції та помилки цього облікового запису й простору, а також спільні події запуску. Вміст чатів і облікові дані не додаються.",
+  "diagnosticsHour": "За останню годину",
+  "diagnosticsDay": "За останні 24 години",
+  "diagnosticsWeek": "7 дн.",
+  "diagnosticsEventCount": "Доступно подій: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Журнали зберігаються на цьому пристрої та доступні після перезапуску.",
+  "diagnosticsNotPersistent": "Деякі записи не збережено. Оновіть для повторної спроби.",
+  "diagnosticsExport": "Експортувати й поділитися",
+  "diagnosticsRefresh": "Оновити",
+  "diagnosticsClear": "Очистити журнали цього простору",
+  "diagnosticsClearConfirm": "Очистити діагностичні журнали цього простору? Історія чатів збережеться.",
+  "diagnosticsShared": "Системне поширення завершено. Перевірте файл у застосунку-одержувачі.",
+  "diagnosticsCancelled": "Поширення скасовано. Можна експортувати знову.",
+  "diagnosticsUnconfirmed": "Не вдалося підтвердити поширення. Перевірте застосунок-одержувач.",
+  "diagnosticsFailed": "Не вдалося виконати дію. Спробуйте ще раз.",
+  "settingsDeleteWarning": "Видалення облікового запису скасує членство в усіх компаніях. Відновити історію повідомлень буде неможливо.\n\nПротягом 7-денного періоду очікування можна ввійти знову та скасувати видалення.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Продовжити видалення",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Остаточне підтвердження",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Видалити обліковий запис? Через 7 днів видалення стане незворотним.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Причина видалення (необов’язково)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Видалення запитано. Увійдіть протягом 7 днів, щоб скасувати.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Підтвердити видалення облікового запису",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Не вдалося видалити обліковий запис. Спробуйте ще раз.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Заблоковані користувачі не можуть писати вам, переглядати ваш профіль та оновлення.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Чат",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Натисніть Enter для надсилання",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Не вдалося завантажити, торкніться, щоб повторити",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Згода на сповіщення про повідомлення",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Згоду надано",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Згоду не надано",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Системний дозвіл сповіщень",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Увімкнено",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Вимкнено",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Невідомо",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Не підтримується",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Перевірка",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Перевірка не вдалася",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Повноекранні вхідні дзвінки",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Натисніть, щоб перевірити й дозволити",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Повноекранні сповіщення про дзвінки ввімкнено",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Дозвольте повноекранні сповіщення про дзвінки в налаштуваннях системи.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Розклад режиму «Не турбувати»",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Не задано",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Увімкнути сповіщення про повідомлення",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Після ввімкнення JPush/JCore і push-сервіси пристрою можуть обробляти інформацію про пристрій, push-ідентифікатори та дані доставлення для сповіщень про повідомлення, підтримку й дзвінки. Сповіщення можна вимкнути в налаштуваннях системи.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Сповіщення й далі вимкнено. Дозвольте сповіщення Weijie в налаштуваннях системи.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (ніч)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Вимкнути режим «Не турбувати»",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Не перевірено",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Недоступно",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Основний резервний",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Маршрут недоступний. Поточний маршрут збережено.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Доступні сайти",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Не вдалося оновити маршрути. Поточний маршрут збережено.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Оновлення",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Оновити сайти",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Маршрути надходять із перевіреної офіційної конфігурації. Під час запуску відновлюється останній маршрут, потім він оновлюється з поточного, кешованого, початкового та S3/R2-джерел. Ручний вибір має пріоритет; у разі помилки поточний маршрут зберігається.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Невідомий пристрій",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Вийти",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Поточний",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Не вдалося завантажити пристрої",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Немає пристроїв із виконаним входом",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Перегляд",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Цей приклад показує розмір шрифту. Виберіть розмір, зручний для спілкування.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Усі права захищено",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Приклад перекладу",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Оригінал (англійська)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Мова перекладу",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Поради:\n• Автопереклад використовує ШІ\n• Переклади наведено для довідки й можуть містити помилки\n• У чаті показано оригінал і переклад\n• Утримуйте повідомлення та виберіть «Показати оригінал»",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Типове тло",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Білий",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Світло-сірий",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Бежевий",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Світло-синій",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Світло-зелений",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Світло-рожевий",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Світло-фіолетовий",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Власне зображення",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Тло цього чату",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Тло чату",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Змінити власне зображення",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Вибрати з фото",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Установити",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Використовувати спільне тло чатів",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Переклад ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Виконати вихід для «{name}»?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} сеанс} few {{count} сеанси} many {{count} сеансів} other {{count} сеансу}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Остання активність {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Діагностика розробника",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Мережа недоступна. Перевірте мережеві налаштування.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

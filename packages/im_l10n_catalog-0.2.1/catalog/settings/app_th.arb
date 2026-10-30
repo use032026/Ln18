@@ -1,0 +1,471 @@
+{
+  "@@locale": "th",
+  "settingsTitle": "การตั้งค่า",
+  "settingsSectionEnterprise": "องค์กร",
+  "settingsSectionAccount": "บัญชี",
+  "settingsSectionGeneral": "ทั่วไป",
+  "settingsSectionFeatures": "ฟีเจอร์",
+  "settingsSectionAbout": "เกี่ยวกับ",
+  "settingsEnterpriseInfo": "ข้อมูลองค์กร",
+  "settingsProfile": "โปรไฟล์ของฉัน",
+  "settingsAccountSecurity": "ความปลอดภัยของบัญชี",
+  "settingsNotification": "การแจ้งเตือน",
+  "settingsDisplay": "การแสดงผล",
+  "settingsFriendPrivacy": "ความเป็นส่วนตัว",
+  "settingsChat": "แชท",
+  "settingsChatHistory": "ประวัติแชท",
+  "settingsAbout": "เกี่ยวกับ StartLink",
+  "settingsLanguage": "ภาษา",
+  "settingsTimezone": "เขตเวลา",
+  "settingsAutoTranslate": "แปลอัตโนมัติ",
+  "settingsNetworkSwitch": "สลับสาย",
+  "aboutTitle": "เกี่ยวกับ StartLink",
+  "aboutVersion": "เวอร์ชัน",
+  "aboutTerms": "ข้อตกลงผู้ใช้",
+  "aboutPrivacy": "นโยบายความเป็นส่วนตัว",
+  "aboutOpenSource": "ใบอนุญาตโอเพนซอร์ส",
+  "aboutCheckUpdate": "ตรวจสอบอัปเดต",
+  "aboutLatestVersion": "คุณกำลังใช้เวอร์ชันล่าสุด",
+  "aboutUpdateAvailable": "มีเวอร์ชันใหม่พร้อมใช้งาน",
+  "aboutUpdateNow": "อัปเดตเดี๋ยวนี้",
+  "aboutUpdateLater": "ภายหลัง",
+  "networkTitle": "สลับสาย",
+  "networkAutoSelect": "อัตโนมัติ",
+  "networkManual": "กำหนดเอง",
+  "timezoneTitle": "เขตเวลา",
+  "timezoneAuto": "ตามระบบ",
+  "displayTitle": "การแสดงผล",
+  "displayFontSize": "ขนาดตัวอักษร",
+  "displayChatBackground": "พื้นหลังแชท",
+  "displayDarkMode": "รูปลักษณ์",
+  "displayDarkModeSystem": "ตามระบบ",
+  "displayDarkModeSystemHint": "สลับอัตโนมัติตามการตั้งค่าระบบ",
+  "displayDarkModeOff": "สว่าง",
+  "displayDarkModeOffHint": "ใช้ธีมสว่างเสมอ",
+  "displayDarkModeOn": "มืด",
+  "displayDarkModeOnHint": "ใช้ธีมมืดเสมอ",
+  "accountSecurityTitle": "ความปลอดภัยของบัญชี",
+  "accountSecurityChangePassword": "เปลี่ยนรหัสผ่าน",
+  "accountSecurityChangeMobile": "เปลี่ยนหมายเลขโทรศัพท์",
+  "accountSecurityChangeEmail": "เปลี่ยนอีเมล",
+  "accountSecurityLoggedDevices": "อุปกรณ์ที่เข้าสู่ระบบ",
+  "accountSecurityDeactivate": "ปิดบัญชี",
+  "accountSecurityDeactivateConfirm": "ข้อมูลทั้งหมดจะถูกลบถาวรหลัง 7 วัน ต้องการปิดบัญชีหรือไม่?",
+  "loggedDevicesTitle": "อุปกรณ์ที่เข้าสู่ระบบ",
+  "loggedDevicesCurrent": "อุปกรณ์นี้",
+  "loggedDevicesRevoke": "ออกจากระบบ",
+  "loggedDevicesRevokeConfirm": "ออกจากระบบในอุปกรณ์นี้หรือไม่?",
+  "loggedDevicesRevokeSuccess": "ออกจากระบบในอุปกรณ์แล้ว",
+  "loggedDevicesRevokeFailed": "ไม่สำเร็จ โปรดลองอีกครั้ง",
+  "loggedDevicesLastActive": "ใช้งานล่าสุด",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "เว็บ",
+  "loggedDevicesTypeDesktop": "เดสก์ท็อป",
+  "loggedDevicesTypeUnknown": "อุปกรณ์ไม่ทราบชื่อ",
+  "fontSizeTitle": "ขนาดตัวอักษร",
+  "fontSizeSmall": "เล็ก",
+  "fontSizeNormal": "ปกติ",
+  "fontSizeLarge": "ใหญ่",
+  "fontSizeExtraLarge": "ใหญ่พิเศษ",
+  "fontSizePreview": "ตัวอย่าง",
+  "timezoneNameHawaii": "ฮาวาย",
+  "timezoneNameAlaska": "อะแลสกา",
+  "timezoneNamePacificTime": "เวลาแปซิฟิก",
+  "timezoneNameMountainTime": "เวลาเขตภูเขา",
+  "timezoneNameCentralTime": "เวลาภาคกลาง",
+  "timezoneNameEasternTime": "เวลาฝั่งตะวันออก",
+  "timezoneNameAtlanticTime": "เวลาแอตแลนติก",
+  "timezoneNameBrasilia": "บราซิเลีย",
+  "timezoneNameAzores": "อะซอเรส",
+  "timezoneNameLondonDublin": "ลอนดอน/ดับลิน",
+  "timezoneNameBerlinParisRome": "เบอร์ลิน/ปารีส/โรม",
+  "timezoneNameCairoHelsinki": "ไคโร/เฮลซิงกิ",
+  "timezoneNameMoscowRiyadh": "มอสโก/ริยาด",
+  "timezoneNameTehran": "เตหะราน",
+  "timezoneNameDubaiBaku": "ดูไบ/บากู",
+  "timezoneNameKabul": "คาบูล",
+  "timezoneNameKarachiTashkent": "การาจี/ทาชเคนต์",
+  "timezoneNameMumbaiNewDelhi": "มุมไบ/นิวเดลี",
+  "timezoneNameKathmandu": "กาฐมาณฑุ",
+  "timezoneNameDhakaAlmaty": "ธากา/อัลมาตี",
+  "timezoneNameYangon": "ย่างกุ้ง",
+  "timezoneNameBangkokHanoiJakarta": "กรุงเทพฯ/ฮานอย/จาการ์ตา",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "ปักกิ่ง/เซี่ยงไฮ้/ฮ่องกง/ไทเป",
+  "timezoneNameTokyoSeoul": "โตเกียว/โซล",
+  "timezoneNameAdelaide": "แอดิเลด",
+  "timezoneNameSydneyMelbourne": "ซิดนีย์/เมลเบิร์น",
+  "timezoneNameSolomonIslands": "หมู่เกาะโซโลมอน",
+  "timezoneNameAucklandFiji": "โอ๊คแลนด์/ฟิจิ",
+  "networkSmartSelectBestRoute": "เลือกเส้นทางที่ดีที่สุดอย่างชาญฉลาด",
+  "networkTesting": "กำลังทดสอบ...",
+  "networkTestingShort": "กำลังทดสอบ",
+  "networkLatencyMs": "ความหน่วง {ms} มิลลิวินาที",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "โหมดการเชื่อมต่อ",
+  "networkDirectMode": "โหมดตรง",
+  "networkProxyMode": "โหมดพร็อกซี",
+  "networkDirectModeDesc": "เชื่อมต่อเซิร์ฟเวอร์โดยตรง",
+  "networkProxyModeDesc": "เชื่อมต่อผ่านเซิร์ฟเวอร์พร็อกซี",
+  "networkDirectRoutes": "เส้นทางตรง",
+  "networkProxyRoutes": "เส้นทางพร็อกซี",
+  "networkTestAll": "ทดสอบทั้งหมด",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "โหนดฮ่องกง",
+  "networkSingaporeNode": "โหนดสิงคโปร์",
+  "networkJapanNode": "โหนดญี่ปุ่น",
+  "networkUnitedStatesNode": "โหนดสหรัฐอเมริกา",
+  "networkHint": "คำแนะนำ:\n• โหมดตรง: เร็วกว่า เหมาะกับการใช้งานภายในประเทศ\n• โหมดพร็อกซี: เสถียรกว่าสำหรับการสื่อสารข้ามประเทศ\n• แตะไอคอนรีเฟรชเพื่อทดสอบความหน่วงของเส้นทางเดียว",
+  "diagnosticsTitle": "การวินิจฉัย",
+  "diagnosticsExplanation": "บันทึกถูกปกปิดข้อมูลอ่อนไหว และมีข้อมูลการดำเนินการกับข้อผิดพลาดของบัญชีและพื้นที่นี้ รวมถึงเหตุการณ์เริ่มต้นทั่วไป ไม่รวมเนื้อหาแชทและข้อมูลรับรอง",
+  "diagnosticsHour": "ชั่วโมงที่ผ่านมา",
+  "diagnosticsDay": "24 ชั่วโมงที่ผ่านมา",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "เหตุการณ์ที่มี: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "บันทึกถูกเก็บไว้ในอุปกรณ์นี้และยังใช้ได้หลังเริ่มใหม่",
+  "diagnosticsNotPersistent": "บันทึกบางส่วนยังไม่ถูกเก็บ โปรดรีเฟรชเพื่อลองอีกครั้ง",
+  "diagnosticsExport": "ส่งออกและแชร์",
+  "diagnosticsRefresh": "รีเฟรช",
+  "diagnosticsClear": "ล้างบันทึกของพื้นที่นี้",
+  "diagnosticsClearConfirm": "ล้างบันทึกวินิจฉัยของพื้นที่นี้หรือไม่? ประวัติแชทจะยังอยู่",
+  "diagnosticsShared": "แชร์ผ่านระบบเสร็จแล้ว โปรดตรวจสอบไฟล์ในแอปผู้รับ",
+  "diagnosticsCancelled": "ยกเลิกการแชร์แล้ว คุณส่งออกใหม่ได้",
+  "diagnosticsUnconfirmed": "ยืนยันการแชร์ไม่ได้ โปรดตรวจสอบแอปผู้รับ",
+  "diagnosticsFailed": "ดำเนินการไม่สำเร็จ โปรดลองอีกครั้ง",
+  "settingsDeleteWarning": "การลบบัญชีจะยกเลิกการเป็นสมาชิกองค์กรทั้งหมด และกู้คืนประวัติข้อความไม่ได้\n\nคุณมีช่วงรอ 7 วัน และสามารถเข้าสู่ระบบใหม่เพื่อยกเลิกการลบ",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "ดำเนินการลบต่อ",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "ยืนยันครั้งสุดท้าย",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "ลบบัญชีของคุณหรือไม่? จะมีผลถาวรหลัง 7 วัน",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "เหตุผลในการลบ (ไม่บังคับ)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "ส่งคำขอลบแล้ว เข้าสู่ระบบภายใน 7 วันเพื่อยกเลิก",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "การยืนยันการลบบัญชีผู้ใช้",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "ลบบัญชีไม่ได้ ลองอีกครั้ง",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "ผู้ใช้ที่ถูกบล็อกจะส่งข้อความถึงคุณหรือดูโปรไฟล์และการอัปเดตของคุณไม่ได้",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "แชท",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "กด Enter เพื่อส่ง",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "โหลดไม่สำเร็จ แตะเพื่อลองใหม่",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "ความยินยอมแจ้งเตือนข้อความ",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "ยินยอมแล้ว",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "ยังไม่ยินยอม",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "สิทธิ์แจ้งเตือนระบบ",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "เปิด",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "ปิดใช้งาน",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "ไม่ทราบ",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "ไม่รองรับ",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "กำลังตรวจสอบ",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "ตรวจสอบไม่สำเร็จ",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "สายเรียกเข้าแบบเต็มหน้าจอ",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "แตะเพื่อตรวจสอบและอนุญาต",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "เปิดแจ้งเตือนสายเต็มหน้าจอแล้ว",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "อนุญาตการแจ้งเตือนสายเต็มหน้าจอในการตั้งค่าระบบ",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "ตารางเวลาห้ามรบกวน",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "ยังไม่ได้ตั้งค่า",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "เปิดการแจ้งเตือนข้อความ",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "เมื่อเปิดใช้งาน JPush/JCore และบริการพุชของอุปกรณ์อาจประมวลผลข้อมูลอุปกรณ์ ตัวระบุพุช และข้อมูลการส่ง เพื่อแจ้งเตือนข้อความ บริการลูกค้า และสายโทร คุณปิดการแจ้งเตือนได้ในการตั้งค่าระบบ",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "การแจ้งเตือนยังปิดอยู่ โปรดอนุญาตการแจ้งเตือน Weijie ในการตั้งค่าระบบ",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (กลางคืน)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "ปิดห้ามรบกวน",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "ยังไม่ได้ทดสอบ",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "ไม่พร้อมใช้งาน",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "เส้นทางสำรองหลัก",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "เส้นทางไม่พร้อมใช้งาน ยังคงใช้เส้นทางปัจจุบัน",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "เว็บไซต์ที่พร้อมใช้งาน",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "รีเฟรชเส้นทางไม่ได้ ยังคงใช้เส้นทางปัจจุบัน",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "กำลังรีเฟรช",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "รีเฟรชเว็บไซต์",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "เส้นทางมาจากการตั้งค่าทางการที่ตรวจสอบแล้ว เมื่อเริ่มต้นจะคืนค่าเส้นทางล่าสุดก่อนรีเฟรชจากแหล่งปัจจุบัน แคช แหล่งเริ่มต้น และ S3/R2 การเลือกเองมีลำดับสูงกว่า หากล้มเหลวจะคงเส้นทางปัจจุบัน",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "อุปกรณ์ไม่ทราบชื่อ",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "ออกจากระบบ",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "ปัจจุบัน",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "โหลดอุปกรณ์ไม่ได้",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "ไม่มีอุปกรณ์ที่เข้าสู่ระบบ",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "ตัวอย่าง",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "ข้อความตัวอย่างนี้แสดงขนาดตัวอักษร เลือกขนาดที่แชทได้สบาย",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "สงวนลิขสิทธิ์",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "ตัวอย่างการแปล",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "ต้นฉบับ (ภาษาอังกฤษ)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "ภาษาเป้าหมาย",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "คำแนะนำ:\n• การแปลอัตโนมัติใช้ AI\n• คำแปลมีไว้เพื่ออ้างอิงและอาจมีข้อผิดพลาด\n• แสดงทั้งต้นฉบับและคำแปลในแชท\n• กดข้อความค้างแล้วเลือก “แสดงต้นฉบับ”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "พื้นหลังเริ่มต้น",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "ขาว",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "เทาอ่อน",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "เบจ",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "ฟ้าอ่อน",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "เขียวอ่อน",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "ชมพูอ่อน",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "ม่วงอ่อน",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "รูปกำหนดเอง",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "พื้นหลังของแชทนี้",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "พื้นหลังแชท",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "เปลี่ยนรูปกำหนดเอง",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "เลือกจากรูปภาพ",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "ตั้งค่า",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "ใช้พื้นหลังแชทส่วนกลาง",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "คำแปล ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "ออกจากระบบ “{name}” หรือไม่?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} เซสชัน} other {{count} เซสชัน}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "ใช้งานล่าสุด {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "การวินิจฉัยสำหรับนักพัฒนา",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "เครือข่ายไม่พร้อมใช้งาน ตรวจสอบการตั้งค่าเครือข่าย",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

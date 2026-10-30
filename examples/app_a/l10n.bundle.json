@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.3.0",
+  "locales": [
+    "en"
+  ],
+  "templateLocale": "en",
+  "modules": [
+    "common",
+    "auth",
+    "chat",
+    "settings"
+  ],
+  "excludeKeys": [],
+  "overridesDir": "l10n_overrides",
+  "outputDir": "lib/l10n",
+  "outputClass": "AppALocalizations",
+  "includeKeys": [
+    "authHintEmail",
+    "authHintPassword",
+    "authLoginButton",
+    "authLoginTitle",
+    "chatGroupMemberCount",
+    "chatHomeNewMessages",
+    "chatInputHint",
+    "chatReadCount",
+    "chatRecalledPeer",
+    "chatReplyTo",
+    "commonCancel",
+    "commonConfirm",
+    "commonDelete",
+    "commonRetry",
+    "commonSave",
+    "commonSend",
+    "formatMinutesAgo",
+    "settingsLanguage",
+    "settingsSignOutDeviceConfirm",
+    "settingsTitle"
+  ]
+}

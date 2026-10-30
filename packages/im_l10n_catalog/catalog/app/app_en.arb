@@ -1,0 +1,75 @@
+{
+  "@@locale": "en",
+  "appRuntimeLoadFailed": "Account data failed to load",
+  "privacyConsentTitle": "Terms of Service and Privacy Policy",
+  "privacyConsentBodyAndroid": "Welcome to {brand}. To provide account sign-in, instant messaging, enterprise collaboration, online customer service, message notifications, and security protection, we need to process necessary information under the Terms of Service and Privacy Policy.\n\nBefore you tap Agree, we will not read clipboard information, initialize JPush/JCore or device-vendor push SDKs, or use those SDKs to access Android ID, OAID, installed-app lists, MAC addresses, or similar information. If you decline for now, we will save that choice; you can continue reading the documents and choose again later.\n\nAfter you agree, to deliver message, customer-service, and incoming-call notifications, JPush/JCore and device-vendor push services may process device model, Android version, app package and version, network type, IP address, Android ID, OAID, push Registration ID, vendor push token, and notification delivery/click data. We have disabled nonessential capabilities including smart push, installed-app lists, MAC, IMEI, IMSI, Wi-Fi lists, auto wake-up, and linked startup.\n\nThe clipboard is accessed only when you actively use copy or paste. Camera, microphone, notification, and other system permissions are requested only when you actively use the corresponding feature. Denying one permission affects only that feature. Please review the full documents below and choose whether to agree.",
+  "privacyConsentBodyIos": "Welcome to {brand}. To provide account sign-in, instant messaging, enterprise collaboration, online customer service, message notifications, and security protection, we need to process necessary information under the Terms of Service and Privacy Policy.\n\nBefore you tap Agree, we will not read clipboard information, initialize JPush/JCore, register with Apple Push Notification service (APNs), or obtain push identifiers such as the JPush Registration ID or APNs device token. If you decline for now, we will save that choice; you can continue reading the documents and choose again later.\n\nAfter you agree, to deliver message, customer-service, and incoming-call notifications, we may process iPhone model, iOS version, app package and version, network type, IP address, IDFV, JPush Registration ID, APNs device token, and notification delivery/click data. JPush/JCore connects to the push service; Apple APNs processes the app identifier, device token, and notification payload to deliver system notifications. The current iOS app does not use advertising services or obtain IDFA.\n\nThe clipboard is accessed only when you actively use copy or paste. Camera, microphone, notification, and other system permissions are requested only when you actively use the corresponding feature. Denying one permission affects only that feature. Please review the full documents below and choose whether to agree.",
+  "privacyConsentTermsLink": "Terms of Service",
+  "privacyConsentConjunction": "and",
+  "privacyConsentPrivacyLink": "Privacy Policy",
+  "privacyConsentDecline": "Decline",
+  "privacyConsentDeclinedExit": "You did not agree to the Terms of Service and Privacy Policy. The app will now close.",
+  "privacyConsentAccept": "Agree",
+  "privacyConsentRuntimeFailure": "Startup failed. Check your network and retry.",
+  "privacyConsentSaveFailure": "Could not save your choice. Please retry.",
+  "appUpdateRequiredTitle": "Update required to continue",
+  "appUpdateOptionalTitle": "New version available",
+  "appUpdateVersionAvailable": "{brand} {version} is available",
+  "appUpdateLater": "Later",
+  "appUpdateNow": "Update now",
+  "appUpdateProcessing": "Processing...",
+  "appUpdateInvalidUrl": "The update address is invalid. Please retry later.",
+  "appUpdateOpenUrlFailed": "Could not open the update link. Please retry later.",
+  "appUpdateDownloadInterrupted": "Download interrupted. Check your network and retry.",
+  "appUpdatePackageVerificationFailed": "Package verification failed. Download it again.",
+  "appUpdatePermissionDenied": "Allow {brand} to install updates in system settings.",
+  "appUpdateOpenInstallerFailed": "Could not open the system installer. Check install permissions.",
+  "appUpdateGenericFailure": "Update failed. Check your network and retry.",
+  "appUpdateUnavailable": "The new version is not available for download yet. Please try later.",
+  "appUpdateCheckFailed": "Could not check for updates. Please retry later.",
+  "appUpdateChecking": "Checking",
+  "privacySettingsTitle": "Privacy",
+  "privacySearchableByMobile": "Allow search by phone number",
+  "privacySearchableByLppId": "Allow search by StartLink ID",
+  "privacyAllowFriendRequest": "Allow friend requests",
+  "privacyProfileVisibility": "Profile Visibility",
+  "privacyEveryone": "Everyone",
+  "privacyFriendsOfFriends": "Friends of friends",
+  "privacyNobody": "Nobody",
+  "privacyFriendsOnly": "Friends only",
+  "privacySaveSuccess": "Settings saved",
+  "privacySaveFailed": "Failed to save, please try again",
+  "termsTitle": "Terms of Service",
+  "privacyPolicyTitle": "Privacy Policy",
+  "permissionGroupManageDenied": "Only the group owner or admins can change group settings.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Only the group owner or admins can change the group name.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "This group does not allow members to add one another as friends.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "Customer isolation is enabled for this organization. You cannot add customers as friends.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "View the latest version on the website",
+  "legalOfficialOpenFailed": "Could not open the website. The local backup is displayed.",
+  "legalLocalChineseNotice": "The local legal document backup is provided in Simplified Chinese.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

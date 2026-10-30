@@ -1,0 +1,53 @@
+[
+  {
+    "step": "gen-l10n",
+    "command": [
+      ".fvm/flutter_sdk/bin/flutter",
+      "gen-l10n"
+    ],
+    "exitCode": 0,
+    "seconds": 1.85
+  },
+  {
+    "step": "analyze",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "analyze",
+      "lib/features/settings/presentation/pages/legal_document_page.dart",
+      "lib/features/settings/presentation/pages/auto_translate_page.dart",
+      "lib/core/providers/locale_provider.dart",
+      "lib/generated/l10n/mobile_translation_examples.dart",
+      "lib/generated/l10n/mobile_supported_locales.dart",
+      "lib/generated/l10n/mobile_legal_documents.g.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 2.04
+  },
+  {
+    "step": "guard",
+    "command": [
+      ".fvm/flutter_sdk/bin/dart",
+      "run",
+      "tool/check_i18n.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 3.77
+  },
+  {
+    "step": "tests",
+    "command": [
+      ".fvm/flutter_sdk/bin/flutter",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "expanded",
+      "test/features/settings/presentation/pages/legal_document_page_test.dart",
+      "test/features/settings/presentation/pages/legal_shell_localization_test.dart",
+      "test/features/settings/presentation/pages/settings_localization_test.dart",
+      "test/features/settings/presentation/providers/auto_translate_provider_test.dart",
+      "test/core/providers/locale_provider_test.dart"
+    ],
+    "exitCode": 0,
+    "seconds": 6.73
+  }
+]

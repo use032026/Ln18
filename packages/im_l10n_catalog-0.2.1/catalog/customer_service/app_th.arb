@@ -1,0 +1,1369 @@
+{
+  "@@locale": "th",
+  "customerServiceTitle": "ศูนย์บริการ",
+  "customerServiceQueue": "อยู่ในคิว",
+  "customerServiceActive": "กำลังให้บริการ",
+  "customerServiceClaim": "ยอมรับ",
+  "customerServiceTakeover": "รับช่วงต่อ",
+  "customerServiceClose": "สิ้นสุดบริการ",
+  "customerServiceCloseConfirm": "สิ้นสุดเซสชันบริการนี้หรือไม่?",
+  "customerServiceNoQueue": "ไม่มีเซสชันในคิว",
+  "customerServiceNoActive": "ไม่มีเซสชันที่กำลังให้บริการ",
+  "customerServiceVisitor": "ผู้เยี่ยมชม",
+  "customerServiceCustomer": "ลูกค้า",
+  "customerServiceAssignedTo": "มอบหมายให้",
+  "customerServiceTransferConversation": "โอนแชท",
+  "marketingToolbar": "เครื่องมือการตลาด",
+  "customerServiceBroadcastDirectTitle": "ส่งข้อความกลุ่มถึงลูกค้า",
+  "csAiReplyTitle": "คำตอบ AI",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "ข้อความลูกค้า",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "คำตอบแนะนำ",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "สร้างคำตอบแนะนำ",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "สร้างใหม่",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "สร้างคำแนะนำ",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "กำลังแทรก…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "แทรกคำตอบ",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "แหล่งความรู้",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "ข้อมูลฐานความรู้",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "ยังไม่มีคำแนะนำ แตะเพื่อสร้างคำตอบ AI",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "ไม่มีข้อความลูกค้าสำหรับสร้างคำตอบ",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "บัญชีนี้ใช้ AI บริการลูกค้าไม่ได้",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "การสนทนาประเภทนี้ไม่รองรับคำตอบ AI",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "การสนทนาฝ่ายสนับสนุนนี้ไม่พร้อมใช้งาน รีเฟรชแล้วลองอีกครั้ง",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "สร้างคำตอบ AI ไม่ได้ ลองอีกครั้ง",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "เนื้อหาถูกปิดกั้นโดยการตรวจสอบ",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "เข้าร่วมกลุ่มก่อนส่งข้อความกลุ่ม",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "เลือกแชทกลุ่ม",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "การส่งข้อความถึงผู้เช่าทั้งหมดกำหนดเป้าหมายเป็นแชทกลุ่มไม่ได้",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "ไม่พบกลุ่มเป้าหมายหรืองาน",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "เป้าหมายไม่ใช่แชทกลุ่ม",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "กลุ่มเป้าหมายไม่พร้อมใช้งาน",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "ไม่รองรับรูปแบบข้อความนี้",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "ไม่พบผู้รับที่มีสิทธิ์ในขอบเขตเป้าหมาย",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "จำนวนผู้รับเกินขีดจำกัดการส่งข้อความกลุ่ม",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "คำขอส่งข้อความกลุ่มมากเกินไป ลองภายหลัง",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "การส่งข้อความกลุ่มไม่รองรับการลองใหม่แยกรายผู้รับ",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "ต้องมีสิทธิ์ผู้ดูแลสำหรับการส่งข้อความกลุ่มนี้",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "เซิร์ฟเวอร์ผิดพลาด",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "ส่งข้อความกลุ่มไม่สำเร็จ",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "ฝ่ายสนับสนุนออนไลน์",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "บริการลูกค้า",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "ประสิทธิภาพ",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "การรับบริการ",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "โหมด",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "รับด้วยตนเอง",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "มอบหมายอัตโนมัติ",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "เปลี่ยนโหมดรับไม่ได้ ลองอีกครั้ง",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "เปลี่ยนสถานะไม่ได้ ลองอีกครั้ง",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "เข้าสู่พื้นที่องค์กรก่อน",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "บทบาทนี้เข้าถึงพื้นที่ทำงานไม่ได้",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "พื้นที่ทำงานเจ้าของ",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "พื้นที่ทำงานผู้ดูแล",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "จัดการลูกค้า",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "ลูกค้าทั้งหมด",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "คำขอเข้าร่วมองค์กร",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "การเติบโตของลูกค้า",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "ดำเนินงานบริการ",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "ศูนย์สนับสนุน",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "ประสิทธิภาพบริการของทีม",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "จัดการความเสี่ยง",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "การสนทนาที่มีความเสี่ยง",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "ตรวจสอบการสนทนา",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "ตรวจสอบการดำเนินการ",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "ดำเนินงานกลุ่ม",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "กำกับดูแลกลุ่ม",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "ข้อความกลุ่มขององค์กร",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "ดูตามเจ้าหน้าที่",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "เกินเวลาตอบกลับ",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "ไม่มีข้อมูลลูกค้า",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "ค้นหาลูกค้า",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "ลูกค้าทั้งหมด",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "รอมอบหมาย",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "ลูกค้าที่ยังไม่มอบหมาย",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "ไม่มีลูกค้าที่ยังไม่มอบหมาย",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "เพิ่มวันนี้",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "มอบหมายล่าช้า",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "ไม่มีข้อมูลการเติบโต",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "วันนี้",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "เดือนนี้",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "ไตรมาสนี้",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "หกเดือน",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "ลูกค้าใหม่",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "ลูกค้าที่ใช้งาน",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "ลูกค้าที่ไม่ใช้งาน",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "ความเสี่ยงสูญเสียลูกค้า",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "ไม่มีข้อมูลกลุ่มลูกค้า",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "ค้นหากลุ่มลูกค้า",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "ไม่มีข้อมูลประสิทธิภาพบริการ",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "เวลาตอบเฉลี่ย",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "การสนทนาที่จัดการแล้ว",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "ติดตามกลุ่มบริการ",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "ไม่มีข้อมูลกลุ่มบริการ",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "ค้นหาลูกค้าหรือกลุ่มบริการ",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "จัดการการสนทนาฝ่ายสนับสนุน",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "ไม่มีการสนทนา",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "ค้นหาลูกค้า ผู้เยี่ยมชม หรือการสนทนา",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "ไม่มีการสนทนาที่มีความเสี่ยง",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "ค้นหาลูกค้า เจ้าหน้าที่ หรือการสนทนา",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "ไม่มีบันทึกการสนทนา",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "ไม่มีบันทึกตรวจสอบ",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "ค้นหาผู้ดำเนินการหรือลูกค้า",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "ไม่มีข้อมูลบริการของเจ้าหน้าที่",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "ค้นหาเจ้าหน้าที่",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "ไม่มีการสนทนาเกินเวลา",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "ค้นหาลูกค้าหรือการสนทนา",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "สถานะเจ้าหน้าที่",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "ไม่มีข้อมูลสถานะเจ้าหน้าที่",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "ไม่มีข้อมูลเจ้าหน้าที่",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "ลูกค้าที่ยังไม่มอบหมายไม่พร้อมใช้งานชั่วคราว",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "รอเจ้าหน้าที่",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "มอบหมาย",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "รายละเอียดลูกค้า",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "โหลดเจ้าหน้าที่ที่ว่างไม่ได้",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "มอบหมายอัตโนมัติตามกฎ",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "มอบหมายเจ้าหน้าที่แล้ว",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "มอบหมายเจ้าหน้าที่ไม่ได้",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "มอบหมายเจ้าหน้าที่",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "มอบหมายอัตโนมัติตามกฎ",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "ระบบจะเลือกเจ้าหน้าที่ที่เหมาะสม",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "ไม่มีเจ้าหน้าที่ที่พร้อมรับมอบหมาย",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "สถานะเจ้าหน้าที่ไม่พร้อมใช้งานชั่วคราว",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "ยังไม่พร้อมตรวจสอบการสนทนา",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "การสนทนาที่มีความเสี่ยงยังไม่พร้อมใช้งาน",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "รายละเอียดการเกินเวลาตอบกลับยังไม่พร้อมใช้งาน",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "การตรวจสอบการดำเนินการไม่พร้อมใช้งานชั่วคราว",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "บันทึกการดำเนินการ",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "การสนทนาลูกค้า",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "อยู่ในคิว",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "เจ้าหน้าที่รับบริการ",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "ภาพรวมศูนย์สนับสนุน",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "ติดตามแบบเรียลไทม์",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "โหลดการติดตามแบบเรียลไทม์ไม่ได้",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "ติดตามการสนทนาฝ่ายสนับสนุนสด",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "กำลังซิงค์เจ้าหน้าที่",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "กรองตามเจ้าหน้าที่",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "เจ้าหน้าที่ทั้งหมด",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "กำลังดำเนินการ",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "ทุกสถานะ",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "ทุกช่องทาง",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "คำถามผู้เยี่ยมชม",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "สนับสนุน IM",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "ไม่มีการสนทนาฝ่ายสนับสนุนที่กำลังใช้งานตรงกับตัวกรองนี้",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "กำลังติดตาม",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "ติดตาม",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "เลือกการสนทนาด้านบนเพื่อติดตามเคียงข้างกัน",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "ซิงค์รายละเอียดไม่ได้ รีเฟรชอีกสักครู่",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "ไม่มีข้อความให้ดูตัวอย่าง",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[การโทร]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "ไม่มีการสนทนาลูกค้า",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "ไม่มีการสนทนาฝ่ายสนับสนุนออนไลน์",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "การสนทนาปัจจุบัน",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "ผู้รอในคิว",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "เจ้าหน้าที่ที่ไม่ว่าง",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "เจ้าหน้าที่ที่ว่าง",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "ภาพรวมฝ่ายสนับสนุนออนไลน์",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "ผู้เยี่ยมชมในคิว",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "ผู้เยี่ยมชมที่กำลังรับบริการ",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "การสนทนาลูกค้าที่รอ",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "การสนทนาลูกค้าที่กำลังดำเนินการ",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "จำนวนในคิวทั้งหมด",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "สัดส่วนของคิวทั้งหมด",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "สัดส่วนของบริการที่กำลังดำเนินการ",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "เวลารอเฉลี่ย",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "ฝ่ายสนับสนุนออนไลน์ในคิว",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "ฝ่ายสนับสนุนออนไลน์ที่กำลังให้บริการ",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "ข้อมูลผลงานเจ้าหน้าที่ไม่พร้อมใช้งานชั่วคราว",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "ให้บริการแล้ว",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "เวลาตอบครั้งแรกเฉลี่ย",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "ระยะเวลาเฉลี่ย",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "คะแนนเฉลี่ย",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "ตอบครั้งแรก",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "ระยะเวลา",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "คะแนน",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "อัตราผ่าน",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "กำกับดูแลการสนทนา",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "ระงับการสนทนา",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "ยกเลิกระงับการสนทนา",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "รายละเอียดการสนทนา",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "รหัสการสนทนา",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "ระงับการสนทนาแล้ว",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "ยกเลิกระงับการสนทนาแล้ว",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "เหตุผลที่ระงับ (ไม่บังคับ)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "เหตุผลที่ยกเลิกระงับ (ไม่บังคับ)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "ยืนยันระงับ",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "ยืนยันยกเลิกระงับ",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "คำตอบที่ใช้บ่อย",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "แม่แบบคำตอบ",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "โหลดคำตอบไม่ได้",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "ดึงลงเพื่อรีเฟรชแล้วลองอีกครั้ง",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "ไม่มีคำตอบด่วน",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "คำตอบจะแสดงที่นี่เมื่อเปิดคลังคำตอบ",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "ไม่มีคำตอบที่ตรงกัน",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "ลองคำค้นอื่น",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "ค้นหาคำตอบ",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "คำตอบไม่มีชื่อ",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "บทบาทนี้ส่งข้อความกลุ่มไม่ได้",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "การส่งข้อความกลุ่มใช้ได้เฉพาะเจ้าหน้าที่",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "กำลังส่งงาน…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "กำลังเตรียมตัวอย่าง…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "ดูตัวอย่างและส่ง",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "ข้อความกลุ่ม",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "โหลดแชทกลุ่มไม่ได้",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "ลองอีกสักครู่หรือตรวจสอบรายการสนทนาในพื้นที่นี้",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "ขอบเขตเป้าหมาย",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "สมาชิกผู้เช่าทั้งหมด",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "ส่งข้อความแยกรายบุคคลให้สมาชิกที่มีสิทธิ์ในองค์กรนี้",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "ไม่มีแชทกลุ่มที่พร้อมใช้งาน",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "ไม่มีแชทกลุ่มที่ตรงกัน",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "การส่งข้อความส่วนตัวถึงสมาชิกและการส่งข้อความในกลุ่มรองรับเฉพาะกลุ่มที่บัญชีนี้เข้าร่วม",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "ลองคำค้นอื่น",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "เลือกแชทกลุ่ม",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "ป้อนเนื้อหาข้อความกลุ่ม",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "เซสชันหมดอายุ เข้าสู่ระบบใหม่",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "ยืนยันส่งข้อความกลุ่ม",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "ข้อความจะส่งในนามเจ้าหน้าที่ปัจจุบันและทยอยจัดส่งหลังส่งงานแล้ว เรียกคืนข้อความที่ส่งแล้วไม่ได้",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "ส่งงาน",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "ส่งข้อความแยกให้สมาชิกองค์กร",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "ส่งข้อความส่วนตัวให้สมาชิกกลุ่ม",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "ส่งข้อความส่วนตัวแยกให้สมาชิกแต่ละคนในกลุ่ม",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "ส่งข้อความในกลุ่ม",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "ส่งข้อความตรงในแชทกลุ่ม",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "ส่งข้อความกลุ่มถึงลูกค้าและกลุ่ม",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "ป้อนข้อความที่จะส่งกลุ่ม",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "ค้นหาแชทกลุ่ม",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "ไม่ต้องเลือกกลุ่มเมื่อส่งให้สมาชิกผู้เช่าทั้งหมด",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "ล้างกลุ่มที่เลือก",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "ผลตัวอย่าง",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "กำลังลองใหม่",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "ลองใหม่สำหรับผู้รับที่ล้มเหลว",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "แชทกลุ่มไม่มีชื่อ",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "ไม่มีการสนทนาที่ตรงกัน",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "ไม่มีประวัติการสนทนา",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "ไม่มีการสนทนาในคิว",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "ไม่มีการสนทนาที่กำลังดำเนินการ",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "ไม่มีการสนทนา VIP",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "เจ้าหน้าที่รับช่วงต่อ",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "สนทนาต่อ",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "ดู",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "รับการสนทนาไม่ได้ ลองอีกครั้ง",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "รับช่วงต่อไม่ได้ ลองอีกครั้ง",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "สิ้นสุดการสนทนา",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "ปิดการสนทนา",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "การปิดจะเก็บประวัติแชทไว้ การสนทนาอาจเข้าคิวหรือได้รับมอบหมายใหม่ตามนโยบายบริการ",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "ปิดการสนทนาแล้ว",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "ปิดการสนทนาไม่ได้ ลองอีกครั้ง",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "ค้นหาการสนทนา",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "การรับบริการปัจจุบัน",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "ประวัติการสนทนา",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "กำลังซิงค์การสนทนา รีเฟรชอีกสักครู่",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "การสนทนาที่โอนมา",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "ปิดการแจ้งเตือน",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "ให้บริการวันนี้",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "เวลาจัดการเฉลี่ย",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "ความพึงพอใจ",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "การสนทนาเกินเวลา",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "อยู่ในคิว · รอมอบหมายอัตโนมัติ",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "อยู่ในคิว · รอรับ",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "รอ --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "เวลารอประมาณ --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "วีแชท",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "เว็บ",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "แอปของตัวเอง",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "พื้นที่ทำงานฝ่ายสนับสนุน ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "เปลี่ยนเป็น {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "กำหนดเอง {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} เซสชัน} other {{count} เซสชัน}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · เซสชัน: {count} · ตอบครั้งแรก: {response} · คะแนน: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "ให้บริการ {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "ส่งงานข้อความกลุ่มแล้ว ผู้รับ: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {นำผู้รับที่ล้มเหลว {count} รายกลับเข้าคิวแล้ว} other {นำผู้รับที่ล้มเหลว {count} รายกลับเข้าคิวแล้ว}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "วิธี: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "แชทกลุ่ม: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "ผู้รับโดยประมาณ: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "ตัวอย่าง: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "งาน: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "ส่งแล้ว {sent}/{total} ล้มเหลว {failed} ข้าม {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {สมาชิก {count} คน} other {สมาชิก {count} คน}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "ตำแหน่งในคิว: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {รอประมาณ {count} นาที} other {รอประมาณ {count} นาที}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {รอประมาณ {count} วินาที} other {รอประมาณ {count} วินาที}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "เจ้าหน้าที่: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "ที่มา: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "คิว #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "รอ {count} นาที",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "รอ {count} วินาที",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "โอนการสนทนามาให้คุณ",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "มีการโอนการสนทนาฝ่ายสนับสนุนมาให้คุณ เปิดพื้นที่ทำงานเพื่อดูประวัติ",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "มีการโอนการสนทนาฝ่ายสนับสนุนมาให้คุณ หมายเหตุ: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "รอจัดส่ง",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "กำลังจัดส่ง",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "เสร็จสิ้น",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "ล้มเหลว",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "ลูกค้าที่ลงทะเบียน",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "ช่องทางไม่ทราบชื่อ",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "ลูกค้าไม่ทราบชื่อ",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "ประวัติการสนทนาที่โอนมา",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "ปิดเมื่อ {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "ใช้งานล่าสุด {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "มินิโปรแกรม",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "@@locale": "ro",
+  "settingsTitle": "Setări",
+  "settingsSectionEnterprise": "Companie",
+  "settingsSectionAccount": "Cont",
+  "settingsSectionGeneral": "General",
+  "settingsSectionFeatures": "Funcții",
+  "settingsSectionAbout": "Despre",
+  "settingsEnterpriseInfo": "Informațiile companiei",
+  "settingsProfile": "Profilul meu",
+  "settingsAccountSecurity": "Securitatea contului",
+  "settingsNotification": "Notificări",
+  "settingsDisplay": "Afișare",
+  "settingsFriendPrivacy": "Confidențialitate",
+  "settingsChat": "Conversație",
+  "settingsChatHistory": "Istoricul conversațiilor",
+  "settingsAbout": "Despre StartLink",
+  "settingsLanguage": "Limbă",
+  "settingsTimezone": "Fus orar",
+  "settingsAutoTranslate": "Traducere automată",
+  "settingsNetworkSwitch": "Schimbă linia",
+  "aboutTitle": "Despre StartLink",
+  "aboutVersion": "Versiune",
+  "aboutTerms": "Acordul Utilizatorului",
+  "aboutPrivacy": "Politica de Confidențialitate",
+  "aboutOpenSource": "Licențe cu sursă deschisă",
+  "aboutCheckUpdate": "Caută actualizări",
+  "aboutLatestVersion": "Utilizați cea mai recentă versiune.",
+  "aboutUpdateAvailable": "Versiune nouă disponibilă",
+  "aboutUpdateNow": "Actualizați acum",
+  "aboutUpdateLater": "Mai târziu",
+  "networkTitle": "Schimbă linia",
+  "networkAutoSelect": "Automat",
+  "networkManual": "Manual",
+  "timezoneTitle": "Fus orar",
+  "timezoneAuto": "Urmează sistemul",
+  "displayTitle": "Afișare",
+  "displayFontSize": "Dimensiunea fontului",
+  "displayChatBackground": "Fundalul conversației",
+  "displayDarkMode": "Aspect",
+  "displayDarkModeSystem": "Urmează sistemul",
+  "displayDarkModeSystemHint": "Schimbă automat în funcție de setarea sistemului",
+  "displayDarkModeOff": "Luminos",
+  "displayDarkModeOffHint": "Folosește întotdeauna tema luminoasă",
+  "displayDarkModeOn": "Întunecat",
+  "displayDarkModeOnHint": "Folosește întotdeauna tema întunecată",
+  "accountSecurityTitle": "Securitatea contului",
+  "accountSecurityChangePassword": "Schimbă parola",
+  "accountSecurityChangeMobile": "Schimbă numărul de telefon",
+  "accountSecurityChangeEmail": "Schimbă e-mailul",
+  "accountSecurityLoggedDevices": "Dispozitive autentificate",
+  "accountSecurityDeactivate": "Dezactivează contul",
+  "accountSecurityDeactivateConfirm": "Toate datele vor fi șterse definitiv după 7 zile. Dezactivați?",
+  "loggedDevicesTitle": "Dispozitive autentificate",
+  "loggedDevicesCurrent": "Acest dispozitiv",
+  "loggedDevicesRevoke": "Deconectare",
+  "loggedDevicesRevokeConfirm": "Vă deconectați de pe acest dispozitiv?",
+  "loggedDevicesRevokeSuccess": "Deconectat de pe dispozitiv",
+  "loggedDevicesRevokeFailed": "A eșuat. Încercați din nou.",
+  "loggedDevicesLastActive": "Ultima activitate",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Calculator",
+  "loggedDevicesTypeUnknown": "Dispozitiv necunoscut",
+  "fontSizeTitle": "Dimensiunea fontului",
+  "fontSizeSmall": "Mic",
+  "fontSizeNormal": "Standard",
+  "fontSizeLarge": "Mare",
+  "fontSizeExtraLarge": "Extra mare",
+  "fontSizePreview": "Previzualizare",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Ora Pacificului",
+  "timezoneNameMountainTime": "Ora Munților",
+  "timezoneNameCentralTime": "Ora Centrală",
+  "timezoneNameEasternTime": "Ora de Est",
+  "timezoneNameAtlanticTime": "Ora Atlanticului",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azore",
+  "timezoneNameLondonDublin": "Londra/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Roma",
+  "timezoneNameCairoHelsinki": "Cairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscova/Riad",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tașkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almatî",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Beijing/Shanghai/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Insulele Solomon",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Selectează inteligent cea mai bună rută",
+  "networkTesting": "Se testează...",
+  "networkTestingShort": "Testare",
+  "networkLatencyMs": "Latență {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Mod de conectare",
+  "networkDirectMode": "Mod direct",
+  "networkProxyMode": "Mod proxy",
+  "networkDirectModeDesc": "Conectare directă la server",
+  "networkProxyModeDesc": "Conectare printr-un server proxy",
+  "networkDirectRoutes": "Rute directe",
+  "networkProxyRoutes": "Rute proxy",
+  "networkTestAll": "Testează tot",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Nod Hong Kong",
+  "networkSingaporeNode": "Nod Singapore",
+  "networkJapanNode": "Nod Japonia",
+  "networkUnitedStatesNode": "Nod Statele Unite",
+  "networkHint": "Sfaturi:\n• Mod direct: mai rapid și potrivit pentru utilizarea internă\n• Mod proxy: mai stabil pentru comunicarea internațională\n• Atingeți pictograma de reîmprospătare pentru a testa latența unei singure rute",
+  "diagnosticsTitle": "Diagnosticare",
+  "diagnosticsExplanation": "Jurnalele sunt anonimizate și conțin informații operaționale și erori pentru acest cont și spațiu, plus evenimente publice de pornire. Conținutul conversațiilor și datele de autentificare sunt excluse.",
+  "diagnosticsHour": "Ultima oră",
+  "diagnosticsDay": "Ultimele 24 de ore",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Evenimente disponibile: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Jurnalele sunt salvate pe acest dispozitiv și rămân disponibile după repornire.",
+  "diagnosticsNotPersistent": "Unele jurnale nu au fost salvate. Reîmprospătați pentru a reîncerca.",
+  "diagnosticsExport": "Exportă și distribuie",
+  "diagnosticsRefresh": "Reîmprospătare",
+  "diagnosticsClear": "Șterge jurnalele acestui spațiu",
+  "diagnosticsClearConfirm": "Ștergeți jurnalele de diagnosticare ale acestui spațiu? Istoricul conversațiilor va fi păstrat.",
+  "diagnosticsShared": "Distribuirea prin sistem s-a încheiat. Verificați fișierul în aplicația destinatară.",
+  "diagnosticsCancelled": "Distribuire anulată. Puteți exporta din nou.",
+  "diagnosticsUnconfirmed": "Distribuirea nu a putut fi confirmată. Verificați aplicația destinatară.",
+  "diagnosticsFailed": "Operațiunea a eșuat. Încercați din nou.",
+  "settingsDeleteWarning": "Ștergerea contului elimină toate apartenențele la companii. Istoricul mesajelor nu poate fi recuperat.\n\nAveți o perioadă de așteptare de 7 zile în care vă puteți autentifica din nou pentru a anula ștergerea.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Continuă ștergerea",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Confirmare finală",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Ștergeți contul? Ștergerea devine definitivă după 7 zile.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Motivul ștergerii (opțional)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Ștergere solicitată. Autentificați-vă în 7 zile pentru anulare.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Confirmați ștergerea contului",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Contul nu a putut fi șters. Încercați din nou.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Utilizatorii blocați nu vă pot trimite mesaje și nu vă pot vedea profilul sau actualizările.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Conversație",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Apăsați Enter pentru trimitere",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Încărcare eșuată, atingeți pentru a reîncerca",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Consimțământ pentru notificările despre mesaje",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Acceptat",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Neacceptat",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Permisiunea sistemului pentru notificări",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Activat",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Dezactivat",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Necunoscut",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Neacceptat de sistem",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Se verifică",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Verificarea a eșuat",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Apeluri primite pe tot ecranul",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Atingeți pentru a verifica și permite",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Alertele de apel pe tot ecranul sunt activate",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Permiteți alertele de apel pe tot ecranul în setările sistemului.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Programul Nu deranja",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Nesetat",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Activează notificările despre mesaje",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Când sunt activate, JPush/JCore și serviciile de notificări ale dispozitivului pot prelucra informații despre dispozitiv, identificatori de notificări și date de livrare pentru alerte despre mesaje, asistență și apeluri. Puteți dezactiva notificările în setările sistemului.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Notificările sunt încă dezactivate. Permiteți notificările Weijie în setările sistemului.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (noaptea)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Dezactivează Nu deranja",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Netestat",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Indisponibil",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Rută principală de rezervă",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Rută indisponibilă. Ruta actuală a fost păstrată.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Puncte disponibile",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Rutele nu au putut fi actualizate. Ruta actuală a fost păstrată.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Se reîmprospătează",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Reîmprospătează punctele",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Rutele provin din configurația oficială verificată. La pornire se restabilește ultima rută, apoi se actualizează din sursele actuale, memorate, inițiale și S3/R2. Selecția manuală are prioritate; în caz de eroare se păstrează ruta actuală.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Dispozitiv necunoscut",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Deconectare",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Curent",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Dispozitivele nu au putut fi încărcate",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Niciun dispozitiv autentificat",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Previzualizare",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Acest text demonstrativ previzualizează mărimea fontului. Alegeți o mărime care face conversațiile confortabile.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Toate drepturile rezervate",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Exemplu de traducere",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (engleză)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Limba țintă",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Sfaturi:\n• Traducerea automată folosește inteligență artificială\n• Traducerile sunt orientative și pot conține erori\n• Originalul și traducerea apar în conversație\n• Țineți apăsat mesajul și alegeți „Vezi originalul”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Fundal implicit",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Alb",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Gri deschis",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Bej",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Albastru deschis",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Verde deschis",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Roz deschis",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Mov deschis",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Imagine personalizată",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Fundalul acestei conversații",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Fundalul conversației",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Schimbă imaginea personalizată",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Alege din fotografii",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Setează",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Folosește fundalul general al conversațiilor",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Traducere ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Deconectați „{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sesiune} few {{count} sesiuni} other {{count} de sesiuni}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Ultima activitate {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Diagnosticare pentru dezvoltatori",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Rețea indisponibilă. Verificați setările de rețea.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

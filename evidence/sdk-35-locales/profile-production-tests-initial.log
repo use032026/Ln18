@@ -1,0 +1,76 @@
+00:00 +0: loading test/sdk_production_profile_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: production SDK profile retains the immutable six-language contract
+00:00 +1: new locale metadata retains exactly the selected shared source entries
+00:00 +2: production generation preserves 35 by 1040 values, order and metadata
+00:00 +3: all production messages agree on ICU parameters and typed metadata
+00:00 +3 -1: all production messages agree on ICU parameters and typed metadata [E]
+  Expected: [
+              'navWorkbench',
+              'navBadgeOverflow',
+              'appRuntimeLoadFailed',
+              'startupFailureTitle',
+              'startupFailureMessage',
+              'privacyConsentTitle',
+              'privacyConsentBodyAndroid',
+              'privacyConsentBodyIos',
+              'privacyConsentTermsLink',
+              'privacyConsentConjunction',
+              'privacyConsentPrivacyLink',
+              'privacyConsentDecline',
+              'privacyConsentDeclinedExit',
+              'privacyConsentAccept',
+              'privacyConsentRuntimeFailure',
+              'privacyConsentSaveFailure',
+              'appUpdateRequiredTitle',
+              'appUpdateOptionalTitle',
+              'appUpdateVersionAvailable',
+              'appUpdateLater',
+              'appUpdateNow',
+              'appUpdateProcessing',
+              'appUpdateInvalidUrl',
+              'appUpdateOpenUrlFailed',
+              ...
+            ]
+    Actual: [
+              'aboutCheckUpdate',
+              'aboutLatestVersion',
+              'aboutOpenSource',
+              'aboutPrivacy',
+              'aboutTerms',
+              'aboutTitle',
+              'aboutUpdateAvailable',
+              'aboutUpdateLater',
+              'aboutUpdateNow',
+              'aboutVersion',
+              'accountSecurityChangeEmail',
+              'accountSecurityChangeMobile',
+              'accountSecurityChangePassword',
+              'accountSecurityDeactivate',
+              'accountSecurityDeactivateConfirm',
+              'accountSecurityLoggedDevices',
+              'accountSecurityTitle',
+              'addFriendButton',
+              'addFriendCannotAddSelf',
+              'addFriendLppIdLabel',
+              'addFriendMessageHint',
+              'addFriendSearchHint',
+              'addFriendSendRequest',
+              'addFriendTitle',
+              ...
+            ]
+     Which: at location [0] is 'aboutCheckUpdate' instead of 'navWorkbench'
+  
+  package:matcher                              expect
+  test/sdk_production_profile_test.dart 187:5  main.<fn>
+  
+00:00 +3 -1: strict validation rejects a new language placeholder or type drift
+00:01 +4 -1: production check is repeatable and detects drift without rewriting it
+00:01 +5 -1: (tearDownAll)
+00:01 +5 -1: Some tests failed.
+
+Failing tests:
+  test/sdk_production_profile_test.dart: all production messages agree on ICU parameters and typed metadata
+
+Consider enabling the flag chain-stack-traces to receive more detailed exceptions.
+For example, 'dart test --chain-stack-traces'.

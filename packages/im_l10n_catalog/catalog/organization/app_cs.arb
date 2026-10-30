@@ -1,0 +1,626 @@
+{
+  "@@locale": "cs",
+  "enterpriseInfoTitle": "Údaje firmy",
+  "enterpriseName": "Jméno",
+  "enterpriseDescription": "Popis",
+  "enterpriseUpdateSuccess": "Úspěšně aktualizováno",
+  "enterpriseUpdateFailed": "Aktualizace se nezdařila. Zkuste to znovu.",
+  "enterpriseLeave": "Opustit firmu",
+  "enterpriseLeaveConfirm": "Opravdu chcete opustit tuto firmu?",
+  "enterpriseLeaveSuccess": "Opustili jste firmu",
+  "enterpriseLeaveFailed": "Opuštění se nezdařilo. Zkuste to znovu.",
+  "enterpriseLeaveOwnerError": "Vlastník nemůže firmu přímo opustit. Nejprve převeďte vlastnictví.",
+  "enterpriseMemberCount": "Členové",
+  "enterpriseCreatedAt": "Vytvořeno",
+  "enterpriseCode": "Kód firmy",
+  "enterpriseInviteMembers": "Pozvat členy",
+  "enterpriseCopyInviteCode": "Zkopírovat kód pozvánky",
+  "enterpriseInviteCodeCopied": "Kód pozvánky zkopírován",
+  "groupCreateTitle": "Nová skupina",
+  "groupNameHint": "Zadejte název skupiny",
+  "groupCreateSuccess": "Skupina vytvořena",
+  "groupCreateFailed": "Vytvoření skupiny se nezdařilo",
+  "groupSettings": "Nastavení skupiny",
+  "groupName": "Název skupiny",
+  "groupAvatar": "Obrázek skupiny",
+  "groupAnnouncement": "Oznámení",
+  "groupMembers": "Členové",
+  "groupAddMember": "Přidat členy",
+  "groupRemoveMember": "Odebrat člena",
+  "groupRemoveMemberConfirm": "Odebrat tohoto člena?",
+  "groupSetAdmin": "Jmenovat správcem",
+  "groupRemoveAdmin": "Odebrat oprávnění správce",
+  "groupTransferOwner": "Převést vlastnictví",
+  "groupTransferOwnerConfirm": "Převést vlastnictví skupiny tomuto členovi?",
+  "groupTransferOwnerSuccess": "Vlastnictví převedeno",
+  "groupTransferOwnerFailed": "Převod se nezdařil. Zkuste to znovu.",
+  "groupLeave": "Opustit skupinu",
+  "groupLeaveConfirm": "Opustit tuto skupinu?",
+  "groupLeaveSuccess": "Opustili jste skupinu",
+  "groupLeaveFailed": "Opuštění se nezdařilo. Zkuste to znovu.",
+  "groupDissolve": "Rozpustit skupinu",
+  "groupDissolveConfirm": "Rozpustit tuto skupinu? Všichni členové budou odebráni.",
+  "groupDissolveSuccess": "Skupina rozpuštěna",
+  "groupDissolveFailed": "Rozpuštění se nezdařilo. Zkuste to znovu.",
+  "groupQrCode": "QR kód skupiny",
+  "groupMuteAll": "Ztlumit všechny",
+  "groupMuteAllOn": "Zapnout ztlumení všech",
+  "groupMuteAllOff": "Vypnout ztlumení všech",
+  "groupAllowMemberInvite": "Povolit členům zvát další",
+  "groupAllowMemberModifyTitle": "Povolit členům měnit název skupiny",
+  "groupAllowMemberAtAll": "Povolit členům zmínit všechny",
+  "groupAllowMemberViewMemberList": "Povolit členům zobrazit seznam členů",
+  "groupAllowQrCodeJoin": "Povolit připojení QR kódem",
+  "groupRequireApproval": "Vyžadovat schválení připojení",
+  "groupAllowMemberAddFriend": "Povolit členům vzájemné přidávání",
+  "groupRoleOwner": "Vlastník",
+  "groupRoleAdmin": "Správce",
+  "groupRoleMember": "Člen",
+  "groupNoMembers": "Žádní členové",
+  "groupNoAnnouncements": "Žádná oznámení",
+  "groupCreateAnnouncement": "Zveřejnit oznámení",
+  "groupEditAnnouncement": "Upravit oznámení",
+  "groupDeleteAnnouncement": "Smazat oznámení",
+  "groupDeleteAnnouncementConfirm": "Smazat toto oznámení?",
+  "groupAnnouncementTitle": "Název",
+  "groupAnnouncementContent": "Obsah",
+  "groupAnnouncementPin": "Připnout oznámení",
+  "groupMemberCount": "{count} členů",
+  "groupSelectedCount": "Vybráno: {count}",
+  "groupJoinRequestApprove": "Souhlasím",
+  "groupJoinRequestReject": "Odmítnout",
+  "groupJoinRequests": "Žádosti o připojení",
+  "groupNoJoinRequests": "Žádné žádosti o připojení",
+  "groupReadReceipts": "Potvrzení o přečtení",
+  "groupReadCount": "Přečteno: {count}",
+  "groupUnreadCount": "{count} nepřečtených",
+  "organizationTitle": "Organizace",
+  "organizationEmpty": "Žádné údaje o oddělení",
+  "organizationMembers": "Členové",
+  "organizationDepartment": "Oddělení",
+  "organizationPosition": "Pozice",
+  "organizationLeader": "Vedoucí",
+  "qrCodeTitle": "Můj QR kód",
+  "qrCodeSave": "Uložit do alba",
+  "qrCodeShare": "Sdílet",
+  "qrCodeSaveSuccess": "Uloženo do alba",
+  "qrCodeSaveFailed": "Uložení se nezdařilo. Zkuste to znovu.",
+  "qrCodeRefresh": "Obnovit QR kód",
+  "qrCodeExpired": "QR kód vypršel. Obnovte jej.",
+  "qrCodeScanToAdd": "Naskenujte pro přidání do kontaktů",
+  "spacePersonal": "Osobní",
+  "spaceEnterprise": "Firma",
+  "spaceJoinByCode": "Připojit se kódem firmy",
+  "spaceJoinByInvite": "Připojit se kódem pozvánky",
+  "spaceEnterCode": "Zadejte kód firmy",
+  "spaceEnterInviteCode": "Zadejte kód pozvánky",
+  "spaceSearchEnterprise": "Hledat firmu",
+  "spaceJoinRequestSent": "Žádost odeslána, čeká na schválení",
+  "spaceJoinRequestPending": "Čeká na schválení",
+  "spaceJoinRequestApproved": "Žádost schválena",
+  "spaceJoinRequestRejected": "Žádost zamítnuta",
+  "spaceAlreadyMember": "Již jste členem",
+  "spaceAutoApproved": "Automaticky schváleno. Vítejte!",
+  "spacePendingApprovalHint": "Registrace byla úspěšná. Vaše žádost o připojení byla odeslána.",
+  "spaceNoSpaces": "Žádné prostory",
+  "spaceInviteExpired": "Kód pozvánky vypršel",
+  "spaceInviteTargetMismatch": "Tento kód pozvánky není pro váš účet",
+  "spaceAcceptInviteSuccess": "Úspěšně jste se připojili k firmě",
+  "spaceAcceptInviteFailed": "Připojení se nezdařilo. Zkuste to znovu.",
+  "spaceTenantSelectTitle": "Vyberte prostor",
+  "spaceTenantSelectHint": "Vyberte prostor, do kterého chcete vstoupit",
+  "spaceEnterPersonal": "Vstoupit do osobního prostoru",
+  "spaceEnterEnterprise": "Vstoupit do firemního prostoru",
+  "recentContactsTitle": "Nedávné",
+  "recentContactsEmpty": "Žádné nedávné kontakty",
+  "inviteFriendsTitle": "Pozvat přátele",
+  "inviteFriendsCopyLink": "Zkopírovat odkaz pozvánky",
+  "inviteFriendsLinkCopied": "Odkaz pozvánky zkopírován",
+  "pendingJoinRequestsTitle": "Nové žádosti",
+  "pendingJoinRequestsEmpty": "Žádné žádosti",
+  "pendingJoinRequestApprove": "Souhlasím",
+  "pendingJoinRequestReject": "Odmítnout",
+  "pendingJoinRequestApproveSuccess": "Schváleno",
+  "pendingJoinRequestRejectSuccess": "Zamítnuto",
+  "pendingJoinRequestFailed": "Akce se nezdařila. Zkuste to znovu.",
+  "groupListTitle": "Skupiny",
+  "groupListEmpty": "Žádné skupiny",
+  "joinCompanyTitle": "Připojit se k firmě",
+  "joinCompanyCodeHint": "Zadejte kód firmy",
+  "joinCompanySearchHint": "Hledat název firmy",
+  "joinCompanyApply": "Požádat o připojení",
+  "joinCompanyApplySuccess": "Žádost odeslána",
+  "joinCompanyApplyFailed": "Podání žádosti se nezdařilo. Zkuste to znovu.",
+  "joinCompanyAutoApproved": "Automaticky schváleno. Vítejte!",
+  "joinCompanyPending": "Žádost odeslána, čeká na schválení",
+  "joinCompanyInviteCodeHint": "Zadejte kód pozvánky",
+  "joinCompanyAcceptInvite": "Přijmout pozvánku",
+  "joinCompanyNoResults": "Žádné firmy nenalezeny",
+  "joinCompanyMemberCount": "{count} členů",
+  "approvalEmpty": "Žádné žádosti",
+  "approvalApprove": "Souhlasím",
+  "approvalReject": "Odmítnout",
+  "approvalPending": "Čeká",
+  "approvalApproved": "Schváleno",
+  "approvalRejected": "Odmítnuto",
+  "approvalExpired": "Expirovaná",
+  "approvalCancelled": "Zrušeno",
+  "approvalReplayFailed": "Původní akce se nezdařila. Zkuste ji znovu.",
+  "requestCancelled": "Žádost zrušena",
+  "enterpriseNoPermission": "Bez oprávnění",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Nastavení údajů firmy",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Konfigurace firmy",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Oficiální účty",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Spravovat oficiální účty",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Správa členů",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Pozvat zaměstnance",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Členové",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Správa oznámení",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Firemní hromadné zprávy",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Schvalování",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Schvalování členství",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Převést vlastnictví",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Po převodu se stanete správcem. Tuto akci nelze vrátit zpět. Vyberte nového vlastníka ze seznamu členů.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Vyberte nového vlastníka",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Režim přidělování operátorů",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatické přidělování",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Určený operátor",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Režim schvalování členství",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ruční schvalování",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatické schvalování",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Režim přátelství",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Sociální režim",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Režim izolace",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Přístup návštěvníků přes widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Zakázáno",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Automaticky přidělovat dostupné operátory postupně",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Přidělit všechny zákazníky určenému operátorovi",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Žádosti zákazníků vyžadují schválení správce",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Automaticky schvalovat žádosti zákazníků",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Zákazníci se mohou vzájemně přidávat do přátel",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Zákazníci se nemohou vzájemně přidávat do přátel",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Člen",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Hledat členy",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Nastavit jako člena",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Nastavit jako technickou podporu",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Nastavit jako operátora podpory",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Potvrdit převod",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Název firmy je povinný",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Zadejte název firmy",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Bez popisu",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logo firmy",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Vytvoření se nezdařilo. Zkuste to prosím znovu.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Maximální počet použití",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Platnost příkazu",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 hodina",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 hodin",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dny",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dní",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Vytvořit kód pozvánky",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Kód pozvánky",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Všichni",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Zaměstnanci",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Hledat zaměstnance, role nebo pozice",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Členové firmy",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Žádní odpovídající členové",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Přehled firmy",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Spravovat",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Oprávnění rolí",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Předání při odchodu",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Hledat zaměstnance",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Zaměstnanci firmy",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profil přítele",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Hlasový hovor a videohovor",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Přidat přítele",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Muž",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Žena",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Žádné nepřečtené konverzace",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "F",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Kód pozvánky zkopírován",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Odebrat „{name}” z firmy?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Převést vlastnictví na „{name}”? Stanete se správcem. Tuto akci nelze vrátit zpět.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} použití} few {{count} použití} other {{count} použití}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Platí {hours} h · Nejvýše {count} použití",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} nepřečtená konverzace} few {{count} nepřečtené konverzace} other {{count} nepřečtených konverzací}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} nepřečtená zpráva} few {{count} nepřečtené zprávy} other {{count} nepřečtených zpráv}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID bubliny: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Opustit firmu",
+  "enterpriseLoginBeforeSearch": "Před hledáním organizace se přihlaste",
+  "enterpriseSearchFailed": "Hledání se nezdařilo. Zkuste to znovu.",
+  "enterpriseLoginBeforeJoin": "Před podáním žádosti o připojení k organizaci se přihlaste",
+  "enterpriseApplicationPending": "Žádost odeslána. Čeká na schválení správce.",
+  "enterpriseLoginBeforeAction": "Pro pokračování se přihlaste",
+  "enterprisePlatformTagline": "Soukromá komunikace se zákazníky pro organizace",
+  "enterpriseLookupHint": "Zadejte číslo organizace, alias nebo kód pozvánky",
+  "enterpriseLookup": "Hledat",
+  "enterpriseApplicationNote": "Poznámka k žádosti (nepovinné)",
+  "enterpriseLookupGuide": "Hledejte podle čísla organizace nebo aliasu, případně se připojte kódem pozvánky",
+  "enterpriseRecommendationsLoading": "Načítání doporučených organizací",
+  "enterpriseRecommendationsFailed": "Doporučené organizace se nepodařilo načíst",
+  "enterpriseReload": "Obnovit",
+  "enterpriseNoRecommendations": "Žádná doporučení. Hledejte podle čísla organizace, aliasu nebo kódu pozvánky.",
+  "enterpriseRecommended": "Doporučené organizace",
+  "enterpriseJoined": "Připojeno",
+  "enterpriseRequestsLoadFailed": "Žádosti se nepodařilo načíst",
+  "enterpriseCodeMissing": "Číslo organizace není dostupné",
+  "enterpriseAlias": "Alias organizace",
+  "enterpriseCodeLabel": "Číslo organizace",
+  "enterprisePrivateAliasHint": "Tato organizace nezveřejnila své údaje. Vaše žádost ji určí pomocí tohoto aliasu.",
+  "enterpriseInvitationMismatch": "Tato pozvánka není určena vám. Připojení se nemusí zdařit.",
+  "enterpriseTechnicalRole": "Technická podpora",
+  "enterpriseJoin": "Připojit se",
+  "enterpriseCancelApplication": "Zpět",
+  "enterpriseApplication": "Žádost organizaci",
+  "enterpriseAliasValue": "Alias organizace: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Číslo organizace: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Připojíte se jako {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Tento kód pozvánky je určen pro: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Důvod zamítnutí: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organizace {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Všichni",
+  "enterpriseAudienceAllHint": "Zaměstnanci a zákazníci",
+  "enterpriseAudienceStaffHint": "Pouze zaměstnanci organizace",
+  "enterpriseAudienceCustomers": "Zákazníci organizace",
+  "enterpriseAudienceCustomersHint": "Zákazníci, kteří se připojili k organizaci",
+  "enterpriseOfficialGroups": "Oficiální skupiny",
+  "enterpriseAudienceGroupsHint": "Oficiální skupinové chaty organizace",
+  "enterpriseSendNow": "Odeslat nyní",
+  "enterpriseSendScheduled": "Naplánovat odeslání",
+  "enterprisePreviewing": "Zobrazování náhledu",
+  "enterprisePreview": "Náhled",
+  "enterpriseSubmitSend": "Zadat k odeslání",
+  "enterpriseBroadcastSubmitted": "Hromadná zpráva organizace zadána",
+  "enterpriseScheduledUnavailable": "Naplánované hromadné zprávy organizace nejsou v této verzi dostupné",
+  "enterpriseBroadcastFailed": "Hromadné odeslání organizace se nezdařilo. Zkuste to později.",
+  "enterpriseBroadcastGuide": "Hromadné zprávy používají oficiální účet organizace a zaznamenávají operaci. Výsledky doručení jsou dostupné po zadání.",
+  "enterpriseSenderIdentity": "Identita odesílatele",
+  "enterpriseSenderAfterPreview": "Potvrdit v náhledu",
+  "enterpriseSenderConfirmed": "Potvrzeno",
+  "enterpriseDefaultOfficialSender": "Výchozí oficiální účet organizace",
+  "enterpriseOfficialSenderHint": "Příjemci vidí identitu oficiálního účtu organizace",
+  "enterpriseMessageContent": "Obsah zprávy",
+  "enterpriseBroadcastContentHint": "Zadejte hromadnou zprávu k odeslání z oficiálního účtu",
+  "enterpriseInternalNoteHint": "Interní poznámka pro audit a následnou kontrolu (nepovinné)",
+  "enterpriseSendPreview": "Náhled odeslání",
+  "enterpriseExpectedRecipients": "Odhad příjemců",
+  "enterpriseDeliveryMethod": "Způsob doručení",
+  "enterpriseTaskStatus": "Stav úkolu",
+  "enterpriseNoBroadcastHistory": "Zatím žádné hromadné zprávy organizace",
+  "enterpriseHistoryUnavailable": "Dočasně nedostupné",
+  "enterpriseBroadcastDenied": "Bez oprávnění k hromadným zprávám organizace",
+  "enterpriseBroadcastRoleHint": "Hromadné zprávy organizace jsou dostupné pouze správcům a vlastníkům.",
+  "enterpriseDefaultApplicationMessage": "Chci se připojit k vaší organizaci"
+}

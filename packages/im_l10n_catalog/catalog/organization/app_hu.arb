@@ -1,0 +1,626 @@
+{
+  "@@locale": "hu",
+  "enterpriseInfoTitle": "Vállalati adatok",
+  "enterpriseName": "Név",
+  "enterpriseDescription": "Leírás",
+  "enterpriseUpdateSuccess": "Sikeresen frissítve",
+  "enterpriseUpdateFailed": "A frissítés sikertelen. Próbálja újra.",
+  "enterpriseLeave": "Kilépés a vállalatból",
+  "enterpriseLeaveConfirm": "Biztosan kilép ebből a vállalatból?",
+  "enterpriseLeaveSuccess": "Kilépett a vállalatból",
+  "enterpriseLeaveFailed": "A kilépés sikertelen. Próbálja újra.",
+  "enterpriseLeaveOwnerError": "A tulajdonos nem léphet ki közvetlenül. Először adja át a tulajdonjogot.",
+  "enterpriseMemberCount": "Tagok",
+  "enterpriseCreatedAt": "Létrehozva",
+  "enterpriseCode": "Vállalati kód",
+  "enterpriseInviteMembers": "Tagok meghívása",
+  "enterpriseCopyInviteCode": "Meghívókód másolása",
+  "enterpriseInviteCodeCopied": "Meghívókód másolva",
+  "groupCreateTitle": "Új csoport",
+  "groupNameHint": "Adja meg a csoport nevét",
+  "groupCreateSuccess": "Csoport létrehozva",
+  "groupCreateFailed": "A csoport létrehozása sikertelen",
+  "groupSettings": "Csoportbeállítások",
+  "groupName": "Csoport neve",
+  "groupAvatar": "Csoportképe",
+  "groupAnnouncement": "Közlemény",
+  "groupMembers": "Tagok",
+  "groupAddMember": "Tagok hozzáadása",
+  "groupRemoveMember": "Tag eltávolítása",
+  "groupRemoveMemberConfirm": "Eltávolítja ezt a tagot?",
+  "groupSetAdmin": "Kinevezés rendszergazdának",
+  "groupRemoveAdmin": "Rendszergazdai jog visszavonása",
+  "groupTransferOwner": "Tulajdonjog átadása",
+  "groupTransferOwnerConfirm": "Átadja a csoport tulajdonjogát ennek a tagnak?",
+  "groupTransferOwnerSuccess": "Tulajdonjog átadva",
+  "groupTransferOwnerFailed": "Az átadás sikertelen. Próbálja újra.",
+  "groupLeave": "Kilépés a csoportból",
+  "groupLeaveConfirm": "Kilép ebből a csoportból?",
+  "groupLeaveSuccess": "Kilépett a csoportból",
+  "groupLeaveFailed": "A kilépés sikertelen. Próbálja újra.",
+  "groupDissolve": "Csoport feloszlatása",
+  "groupDissolveConfirm": "Feloszlatja ezt a csoportot? Minden tag eltávolításra kerül.",
+  "groupDissolveSuccess": "Csoport feloszlatva",
+  "groupDissolveFailed": "A feloszlatás sikertelen. Próbálja újra.",
+  "groupQrCode": "Csoport QR-kódja",
+  "groupMuteAll": "Mindenki némítása",
+  "groupMuteAllOn": "Mindenki némításának bekapcsolása",
+  "groupMuteAllOff": "Mindenki némításának kikapcsolása",
+  "groupAllowMemberInvite": "Tagok meghívásának engedélyezése",
+  "groupAllowMemberModifyTitle": "A tagok módosíthatják a csoport nevét",
+  "groupAllowMemberAtAll": "A tagok mindenkit megemlíthetnek",
+  "groupAllowMemberViewMemberList": "A tagok láthatják a taglistát",
+  "groupAllowQrCodeJoin": "Csatlakozás engedélyezése QR-kóddal",
+  "groupRequireApproval": "Csatlakozási jóváhagyás megkövetelése",
+  "groupAllowMemberAddFriend": "A tagok hozzáadhatják egymást",
+  "groupRoleOwner": "Tulajdonos",
+  "groupRoleAdmin": "Rendszergazda",
+  "groupRoleMember": "Tag",
+  "groupNoMembers": "Nincsenek tagok",
+  "groupNoAnnouncements": "Nincsenek közlemények",
+  "groupCreateAnnouncement": "Közlemény közzététele",
+  "groupEditAnnouncement": "Közlemény szerkesztése",
+  "groupDeleteAnnouncement": "Közlemény törlése",
+  "groupDeleteAnnouncementConfirm": "Törli ezt a közleményt?",
+  "groupAnnouncementTitle": "Cím",
+  "groupAnnouncementContent": "Tartalom",
+  "groupAnnouncementPin": "Közlemény rögzítése",
+  "groupMemberCount": "{count} tag",
+  "groupSelectedCount": "{count} kiválasztva",
+  "groupJoinRequestApprove": "Elfogadom",
+  "groupJoinRequestReject": "Elutasítás",
+  "groupJoinRequests": "Csatlakozási kérelmek",
+  "groupNoJoinRequests": "Nincsenek csatlakozási kérelmek",
+  "groupReadReceipts": "Olvasási visszaigazolások",
+  "groupReadCount": "{count} elolvasta",
+  "groupUnreadCount": "{count} olvasatlan",
+  "organizationTitle": "Szervezet",
+  "organizationEmpty": "Nincsenek részlegadatok",
+  "organizationMembers": "Tagok",
+  "organizationDepartment": "Részleg",
+  "organizationPosition": "Beosztás",
+  "organizationLeader": "Vezető",
+  "qrCodeTitle": "Saját QR-kód",
+  "qrCodeSave": "Mentés albumba",
+  "qrCodeShare": "Megosztás",
+  "qrCodeSaveSuccess": "Mentve az albumba",
+  "qrCodeSaveFailed": "A mentés sikertelen. Próbálja újra.",
+  "qrCodeRefresh": "QR-kód frissítése",
+  "qrCodeExpired": "A QR-kód lejárt. Frissítse.",
+  "qrCodeScanToAdd": "Olvassa be a névjegyként hozzáadáshoz",
+  "spacePersonal": "Személyes",
+  "spaceEnterprise": "Vállalat",
+  "spaceJoinByCode": "Csatlakozás vállalati kóddal",
+  "spaceJoinByInvite": "Csatlakozás meghívókóddal",
+  "spaceEnterCode": "Adja meg a vállalati kódot",
+  "spaceEnterInviteCode": "Adja meg a meghívókódot",
+  "spaceSearchEnterprise": "Vállalat keresése",
+  "spaceJoinRequestSent": "Kérelem elküldve, jóváhagyásra vár",
+  "spaceJoinRequestPending": "Jóváhagyásra vár",
+  "spaceJoinRequestApproved": "Kérelem jóváhagyva",
+  "spaceJoinRequestRejected": "Kérelem elutasítva",
+  "spaceAlreadyMember": "Ön már tag",
+  "spaceAutoApproved": "Automatikusan jóváhagyva. Üdvözöljük!",
+  "spacePendingApprovalHint": "Sikeres regisztráció. Csatlakozási kérelme elküldve.",
+  "spaceNoSpaces": "Nincsenek terek",
+  "spaceInviteExpired": "A meghívókód lejárt",
+  "spaceInviteTargetMismatch": "Ez a meghívókód nem az Ön fiókjának szól",
+  "spaceAcceptInviteSuccess": "Sikeresen csatlakozott a vállalathoz",
+  "spaceAcceptInviteFailed": "A csatlakozás sikertelen. Próbálja újra.",
+  "spaceTenantSelectTitle": "Tér kiválasztása",
+  "spaceTenantSelectHint": "Válasszon teret a belépéshez",
+  "spaceEnterPersonal": "Belépés a személyes térbe",
+  "spaceEnterEnterprise": "Belépés a vállalati térbe",
+  "recentContactsTitle": "Legutóbbiak",
+  "recentContactsEmpty": "Nincsenek legutóbbi névjegyek",
+  "inviteFriendsTitle": "Barátok meghívása",
+  "inviteFriendsCopyLink": "Meghívóhivatkozás másolása",
+  "inviteFriendsLinkCopied": "Meghívóhivatkozás másolva",
+  "pendingJoinRequestsTitle": "Új kérelmek",
+  "pendingJoinRequestsEmpty": "Nincsenek kérelmek",
+  "pendingJoinRequestApprove": "Elfogadom",
+  "pendingJoinRequestReject": "Elutasítás",
+  "pendingJoinRequestApproveSuccess": "Jóváhagyva",
+  "pendingJoinRequestRejectSuccess": "Elutasítva",
+  "pendingJoinRequestFailed": "A művelet sikertelen. Próbálja újra.",
+  "groupListTitle": "Csoportok",
+  "groupListEmpty": "Nincsenek csoportok",
+  "joinCompanyTitle": "Csatlakozás vállalathoz",
+  "joinCompanyCodeHint": "Adja meg a vállalati kódot",
+  "joinCompanySearchHint": "Vállalat nevének keresése",
+  "joinCompanyApply": "Csatlakozás kérelmezése",
+  "joinCompanyApplySuccess": "Kérelem elküldve",
+  "joinCompanyApplyFailed": "A kérelem sikertelen. Próbálja újra.",
+  "joinCompanyAutoApproved": "Automatikusan jóváhagyva. Üdvözöljük!",
+  "joinCompanyPending": "Kérelem elküldve, jóváhagyásra vár",
+  "joinCompanyInviteCodeHint": "Adja meg a meghívókódot",
+  "joinCompanyAcceptInvite": "Meghívó elfogadása",
+  "joinCompanyNoResults": "Nem található vállalat",
+  "joinCompanyMemberCount": "{count} tag",
+  "approvalEmpty": "Nincsenek kérések",
+  "approvalApprove": "Elfogadom",
+  "approvalReject": "Elutasítás",
+  "approvalPending": "Függőben",
+  "approvalApproved": "Jóváhagyva",
+  "approvalRejected": "Elutasítva",
+  "approvalExpired": "Lejárt",
+  "approvalCancelled": "Megszakítva",
+  "approvalReplayFailed": "Az eredeti művelet sikertelen. Próbálja újra.",
+  "requestCancelled": "Kérés visszavonva",
+  "enterpriseNoPermission": "Nincs engedély",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Vállalati adatok beállításai",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Vállalati konfiguráció",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Hivatalos fiókok",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Hivatalos fiókok kezelése",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Tagok kezelése",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Munkatársak meghívása",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Tagok",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Közlemények kezelése",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Vállalati tömeges üzenet",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Jóváhagyások",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Tagsági jóváhagyások",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Tulajdonjog átadása",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Az átadás után rendszergazda lesz. Ez nem vonható vissza. Válassza ki az új tulajdonost a taglistából.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Válasszon új tulajdonost",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Ügyintéző-kijelölési mód",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatikus kijelölés",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Kijelölt ügyintéző",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Tagságjóváhagyási mód",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Kézi jóváhagyás",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatikus jóváhagyás",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Baráti mód",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Közösségi mód",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Elkülönített mód",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Látogatói hozzáférés widgeten keresztül",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Letiltva",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Elérhető ügyintézők automatikus kijelölése körforgásban",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Minden ügyfél hozzárendelése a kijelölt ügyintézőhöz",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Az ügyfélkérelmek rendszergazdai jóváhagyást igényelnek",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Ügyfélkérelmek automatikus jóváhagyása",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Az ügyfelek hozzáadhatják egymást barátként",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Az ügyfelek nem adhatják hozzá egymást barátként",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Tag",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Tagok keresése",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Beállítás tagként",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Beállítás műszaki támogatóként",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Beállítás ügyfélszolgálati ügyintézőként",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Átadás megerősítése",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "A vállalat neve kötelező",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Adja meg a vállalat nevét",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Nincs leírás",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Vállalati logó",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Létrehozás sikertelen. Kérjük, próbálja újra",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Használatok maximális száma",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Érvényességi idő",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 óra",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 óra",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 nap",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 nap",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Meghívókód létrehozása",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Meghívókód",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Mindenki",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Munkatársak",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Munkatársak, szerepkörök vagy beosztások keresése",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Vállalati tagok",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Nincs megfelelő tag",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Vállalati áttekintés",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Kezelés",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Szerepkörök jogosultságai",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Átadás kilépéskor",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Munkatársak keresése",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Vállalati munkatársak",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Barát profilja",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Hang- és videóhívás",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Barát hozzáadása",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Férfi",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Nő",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Nincs olvasatlan beszélgetés",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "V",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Meghívókód másolva",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Eltávolítja „{name}” felhasználót a vállalatból?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Átadja a tulajdonjogot neki: „{name}”? Ön rendszergazda lesz. Ez nem vonható vissza.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} használat} other {{count} használat}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Érvényes {hours} óráig · Legfeljebb {count} használat",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} olvasatlan beszélgetés} other {{count} olvasatlan beszélgetés}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} olvasatlan üzenet} other {{count} olvasatlan üzenet}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Buborékazonosító: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Kilépés a vállalatból",
+  "enterpriseLoginBeforeSearch": "Szervezet keresése előtt jelentkezzen be",
+  "enterpriseSearchFailed": "A keresés sikertelen. Próbálja újra.",
+  "enterpriseLoginBeforeJoin": "Szervezeti csatlakozás kérelmezése előtt jelentkezzen be",
+  "enterpriseApplicationPending": "Kérelem elküldve. Rendszergazdai jóváhagyásra vár.",
+  "enterpriseLoginBeforeAction": "A folytatáshoz jelentkezzen be",
+  "enterprisePlatformTagline": "Privát ügyfélkapcsolatok szervezeteknek",
+  "enterpriseLookupHint": "Adja meg a szervezet számát, aliasát vagy meghívókódját",
+  "enterpriseLookup": "Keresés",
+  "enterpriseApplicationNote": "Kérelem megjegyzése (opcionális)",
+  "enterpriseLookupGuide": "Keressen szervezetszám vagy alias alapján, vagy csatlakozzon meghívókóddal",
+  "enterpriseRecommendationsLoading": "Ajánlott szervezetek betöltése",
+  "enterpriseRecommendationsFailed": "Nem sikerült betölteni az ajánlott szervezeteket",
+  "enterpriseReload": "Újratöltés",
+  "enterpriseNoRecommendations": "Nincsenek ajánlások. Keressen szervezetszám, alias vagy meghívókód alapján.",
+  "enterpriseRecommended": "Ajánlott szervezetek",
+  "enterpriseJoined": "Csatlakozva",
+  "enterpriseRequestsLoadFailed": "Nem sikerült betölteni a kérelmeket",
+  "enterpriseCodeMissing": "A szervezet száma nem elérhető",
+  "enterpriseAlias": "Szervezet aliasa",
+  "enterpriseCodeLabel": "Szervezet száma",
+  "enterprisePrivateAliasHint": "Ez a szervezet nem tette közzé adatait. Kérelme ezen alias alapján azonosítja majd.",
+  "enterpriseInvitationMismatch": "Ez a meghívókód nem Önnek szól. A csatlakozás sikertelen lehet.",
+  "enterpriseTechnicalRole": "Műszaki támogatás",
+  "enterpriseJoin": "Csatlakozás",
+  "enterpriseCancelApplication": "Visszavonás",
+  "enterpriseApplication": "Szervezeti kérelem",
+  "enterpriseAliasValue": "Szervezet aliasa: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Szervezet száma: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Ezzel a szerepkörrel csatlakozik: {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "A meghívókód címzettje: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Elutasítás oka: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Szervezet {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "R",
+  "enterpriseCompanyInitial": "T",
+  "enterpriseAudienceAll": "Mindenki",
+  "enterpriseAudienceAllHint": "Munkatársak és ügyfelek",
+  "enterpriseAudienceStaffHint": "Csak a szervezet munkatársai",
+  "enterpriseAudienceCustomers": "Szervezeti ügyfelek",
+  "enterpriseAudienceCustomersHint": "A szervezethez csatlakozott ügyfelek",
+  "enterpriseOfficialGroups": "Hivatalos csoportok",
+  "enterpriseAudienceGroupsHint": "Hivatalos szervezeti csoportbeszélgetések",
+  "enterpriseSendNow": "Küldés most",
+  "enterpriseSendScheduled": "Küldés ütemezése",
+  "enterprisePreviewing": "Előnézet folyamatban",
+  "enterprisePreview": "Előnézet",
+  "enterpriseSubmitSend": "Beküldés küldésre",
+  "enterpriseBroadcastSubmitted": "Szervezeti tömeges küldés beküldve",
+  "enterpriseScheduledUnavailable": "Az ütemezett szervezeti tömeges küldés ebben a kiadásban nem elérhető",
+  "enterpriseBroadcastFailed": "A szervezeti tömeges küldés sikertelen. Próbálja később újra.",
+  "enterpriseBroadcastGuide": "A tömeges üzenetek a szervezet hivatalos fiókjából érkeznek, és a művelet naplózásra kerül. A kézbesítési eredmények a beküldés után láthatók.",
+  "enterpriseSenderIdentity": "Feladó személyazonossága",
+  "enterpriseSenderAfterPreview": "Megerősítés az előnézetben",
+  "enterpriseSenderConfirmed": "Megerősítve",
+  "enterpriseDefaultOfficialSender": "Szervezet alapértelmezett hivatalos fiókja",
+  "enterpriseOfficialSenderHint": "A címzettek a szervezet hivatalos fiókjának személyazonosságát látják",
+  "enterpriseMessageContent": "Üzenet tartalma",
+  "enterpriseBroadcastContentHint": "Írja be a hivatalos fiókból küldendő tömeges üzenetet",
+  "enterpriseInternalNoteHint": "Belső megjegyzés ellenőrzéshez és követéshez (opcionális)",
+  "enterpriseSendPreview": "Küldési előnézet",
+  "enterpriseExpectedRecipients": "Becsült címzettek",
+  "enterpriseDeliveryMethod": "Kézbesítési mód",
+  "enterpriseTaskStatus": "Feladat állapota",
+  "enterpriseNoBroadcastHistory": "Még nincs szervezeti tömeges küldés",
+  "enterpriseHistoryUnavailable": "Átmenetileg nem elérhető",
+  "enterpriseBroadcastDenied": "Nincs szervezeti tömeges küldési engedély",
+  "enterpriseBroadcastRoleHint": "A szervezeti tömeges üzenetek csak rendszergazdáknak és tulajdonosoknak elérhetők.",
+  "enterpriseDefaultApplicationMessage": "Szeretnék csatlakozni a szervezetükhöz"
+}

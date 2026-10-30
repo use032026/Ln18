@@ -1,0 +1,75 @@
+{
+  "@@locale": "it",
+  "appRuntimeLoadFailed": "Impossibile caricare i dati dell’account",
+  "privacyConsentTitle": "Termini di servizio e Informativa sulla privacy",
+  "privacyConsentBodyAndroid": "Benvenuto in {brand}. Per offrire accesso all’account, messaggistica istantanea, collaborazione aziendale, assistenza clienti online, notifiche e protezione della sicurezza, dobbiamo trattare le informazioni necessarie secondo i Termini di servizio e l’Informativa sulla privacy.\n\nPrima che tocchi «Accetta», non leggiamo gli appunti, non inizializziamo JPush/JCore né gli SDK di notifiche dei produttori e non li usiamo per accedere ad Android ID, OAID, elenchi di app installate, indirizzi MAC o informazioni simili. Se rifiuti per ora, salviamo la tua scelta; puoi continuare a leggere i documenti e decidere nuovamente in seguito.\n\nDopo il consenso, per recapitare notifiche di messaggi, assistenza clienti e chiamate in arrivo, JPush/JCore e i servizi di notifiche dei produttori possono trattare modello del dispositivo, versione Android, pacchetto e versione dell’app, tipo di rete, indirizzo IP, Android ID, OAID, ID di registrazione push, token push del produttore e dati di consegna e clic delle notifiche. Abbiamo disattivato le funzioni non essenziali, tra cui notifiche intelligenti, elenchi di app installate, MAC, IMEI, IMSI, elenchi Wi-Fi, riattivazione automatica e avvio collegato.\n\nGli appunti sono consultati solo quando copi o incolli attivamente. Le autorizzazioni per fotocamera, microfono, notifiche e altre funzioni di sistema sono richieste solo quando usi la relativa funzione. Il rifiuto di una autorizzazione influisce solo su quella funzione. Leggi i documenti completi qui sotto e scegli se accettare.",
+  "privacyConsentBodyIos": "Benvenuto in {brand}. Per offrire accesso all’account, messaggistica istantanea, collaborazione aziendale, assistenza clienti online, notifiche e protezione della sicurezza, dobbiamo trattare le informazioni necessarie secondo i Termini di servizio e l’Informativa sulla privacy.\n\nPrima che tocchi «Accetta», non leggiamo gli appunti, non inizializziamo JPush/JCore, non ci registriamo al servizio Apple Push Notification (APNs) e non otteniamo identificativi push come l’ID di registrazione JPush o il token del dispositivo APNs. Se rifiuti per ora, salviamo la tua scelta; puoi continuare a leggere i documenti e decidere nuovamente in seguito.\n\nDopo il consenso, per recapitare notifiche di messaggi, assistenza clienti e chiamate in arrivo, possiamo trattare modello di iPhone, versione iOS, pacchetto e versione dell’app, tipo di rete, indirizzo IP, IDFV, ID di registrazione JPush, token del dispositivo APNs e dati di consegna e clic delle notifiche. JPush/JCore si collega al servizio push; Apple APNs tratta l’identificativo dell’app, il token del dispositivo e il contenuto delle notifiche per recapitare le notifiche di sistema. L’app iOS attuale non utilizza servizi pubblicitari e non ottiene IDFA.\n\nGli appunti sono consultati solo quando copi o incolli attivamente. Le autorizzazioni per fotocamera, microfono, notifiche e altre funzioni di sistema sono richieste solo quando usi la relativa funzione. Il rifiuto di una autorizzazione influisce solo su quella funzione. Leggi i documenti completi qui sotto e scegli se accettare.",
+  "privacyConsentTermsLink": "Condizioni d'Uso",
+  "privacyConsentConjunction": "e",
+  "privacyConsentPrivacyLink": "Informativa sulla Privacy",
+  "privacyConsentDecline": "Non accetto",
+  "privacyConsentDeclinedExit": "Non hai accettato i Termini di servizio e l’Informativa sulla privacy. L’app verrà chiusa.",
+  "privacyConsentAccept": "Accetto",
+  "privacyConsentRuntimeFailure": "Avvio non riuscito. Controlla la connessione e riprova.",
+  "privacyConsentSaveFailure": "Impossibile salvare la scelta. Riprova.",
+  "appUpdateRequiredTitle": "Aggiornamento necessario per continuare",
+  "appUpdateOptionalTitle": "Nuova versione disponibile",
+  "appUpdateVersionAvailable": "{brand} {version} è disponibile",
+  "appUpdateLater": "Più tardi",
+  "appUpdateNow": "Aggiorna ora",
+  "appUpdateProcessing": "Elaborazione…",
+  "appUpdateInvalidUrl": "L’indirizzo di aggiornamento non è valido. Riprova più tardi.",
+  "appUpdateOpenUrlFailed": "Impossibile aprire il collegamento di aggiornamento. Riprova più tardi.",
+  "appUpdateDownloadInterrupted": "Download interrotto. Controlla la connessione e riprova.",
+  "appUpdatePackageVerificationFailed": "Verifica del pacchetto non riuscita. Scaricalo di nuovo.",
+  "appUpdatePermissionDenied": "Consenti a {brand} di installare aggiornamenti nelle impostazioni di sistema.",
+  "appUpdateOpenInstallerFailed": "Impossibile aprire il programma di installazione. Controlla le autorizzazioni di installazione.",
+  "appUpdateGenericFailure": "Aggiornamento non riuscito. Controlla la connessione e riprova.",
+  "appUpdateUnavailable": "La nuova versione non è ancora disponibile per il download. Riprova più tardi.",
+  "appUpdateCheckFailed": "Impossibile cercare aggiornamenti. Riprova più tardi.",
+  "appUpdateChecking": "Verifica in corso",
+  "privacySettingsTitle": "Privacy",
+  "privacySearchableByMobile": "Consenti ricerca tramite numero di telefono",
+  "privacySearchableByLppId": "Consenti ricerca tramite ID StartLink",
+  "privacyAllowFriendRequest": "Consenti richieste di amicizia",
+  "privacyProfileVisibility": "Visibilità del profilo",
+  "privacyEveryone": "Tutti",
+  "privacyFriendsOfFriends": "Amici di amici",
+  "privacyNobody": "Nessuno",
+  "privacyFriendsOnly": "Solo amici",
+  "privacySaveSuccess": "Impostazioni salvate",
+  "privacySaveFailed": "Salvataggio non riuscito. Riprova.",
+  "termsTitle": "Termini di servizio",
+  "privacyPolicyTitle": "Informativa sulla privacy",
+  "permissionGroupManageDenied": "Solo il proprietario del gruppo o gli amministratori possono modificare le impostazioni del gruppo.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Solo il proprietario del gruppo o gli amministratori possono modificare il nome del gruppo.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "Questo gruppo non consente ai membri di aggiungersi come amici.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "L’isolamento dei clienti è attivo per questa organizzazione. Non puoi aggiungere clienti come amici.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Visualizza l’ultima versione sul sito",
+  "legalOfficialOpenFailed": "Impossibile aprire il sito. Viene mostrata la copia locale.",
+  "legalLocalChineseNotice": "La copia locale del documento legale è disponibile in cinese semplificato.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

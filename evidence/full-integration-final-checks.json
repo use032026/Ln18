@@ -1,0 +1,76 @@
+[
+  {
+    "step": "all-consumers-check",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/sync_all.py",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 1.34
+  },
+  {
+    "step": "mobile-equivalence",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/check_mobile_supplemental_equivalence.py",
+      "--mobile-root",
+      "/Users/starburst/chat-im-cs/lpp/lpp_mobile"
+    ],
+    "exitCode": 0,
+    "seconds": 0.04
+  },
+  {
+    "step": "sdk-equivalence",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/audit_sdk_supplemental.py"
+    ],
+    "exitCode": 0,
+    "seconds": 0.04
+  },
+  {
+    "step": "pc-equivalence",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/check_pc_equivalence.py",
+      "--pc-root",
+      "/Users/starburst/chat-im-cs/lpp/lpp_pc_client"
+    ],
+    "exitCode": 0,
+    "seconds": 0.32
+  },
+  {
+    "step": "demo-and-arb-equivalence",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/audit_demo.py"
+    ],
+    "exitCode": 0,
+    "seconds": 0.1
+  },
+  {
+    "step": "chat-diff-whitespace",
+    "command": [
+      "git",
+      "-C",
+      "/Users/starburst/chat-im-cs",
+      "diff",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.12
+  },
+  {
+    "step": "sdk-diff-whitespace",
+    "command": [
+      "git",
+      "-C",
+      "/Users/starburst/Desktop/IMSDK",
+      "diff",
+      "--check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.02
+  }
+]

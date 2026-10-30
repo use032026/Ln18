@@ -1,0 +1,1950 @@
+{
+  "@@locale": "th",
+  "homeTitle": "ข้อความ",
+  "homeGatewayConnectingTitle": "กำลังเชื่อมต่อ",
+  "homePersonalSpace": "ส่วนตัว",
+  "homeOfficialService": "บริการอย่างเป็นทางการ",
+  "homeSwitchSpace": "สลับพื้นที่",
+  "homeSpaceSubtitle": "ส่วนตัว · องค์กร",
+  "homeJoinEnterprise": "เข้าร่วมองค์กร",
+  "homeCreateGroup": "กลุ่มใหม่",
+  "homeAddFriend": "เพิ่มผู้ติดต่อ",
+  "homeScan": "สแกน",
+  "homeJoinNewSpace": "เข้าร่วมพื้นที่ใหม่",
+  "homeSearchConversation": "ค้นหา",
+  "homeNoMessages": "ไม่มีข้อความ",
+  "homeDeleteConversation": "ลบแชท",
+  "homeDeleteConversationConfirm": "ลบแชทนี้หรือไม่? ประวัติแชทจะถูกล้าง",
+  "homePersonalNote": "ฉัน (บันทึกส่วนตัว)",
+  "homeWorkNote": "ฉัน (บันทึกงาน)",
+  "homeConversationCount": "แชท {count} รายการ",
+  "homeUnreadCount": "ยังไม่อ่าน {count} รายการ",
+  "chatInputHint": "พิมพ์ข้อความ...",
+  "chatVoiceHint": "กดค้างเพื่อพูด",
+  "chatVoiceRelease": "ปล่อยเพื่อส่ง",
+  "chatVoiceCancel": "เลื่อนขึ้นเพื่อยกเลิก",
+  "chatMenuCopy": "คัดลอก",
+  "chatMenuForward": "ส่งต่อ",
+  "chatMenuRecall": "เรียกคืน",
+  "chatMenuDelete": "ลบ",
+  "chatMenuFavorite": "บันทึก",
+  "chatMenuReply": "ตอบกลับ",
+  "chatMenuMultiSelect": "เลือก",
+  "chatMenuTranslate": "แปล",
+  "chatMenuVoiceToText": "แปลงเป็นข้อความ",
+  "chatMenuTextToSpeech": "อ่านออกเสียง",
+  "chatStatusRecalled": "เรียกคืนข้อความแล้ว",
+  "chatRecallSuccess": "เรียกคืนแล้ว",
+  "chatRecallFailed": "เรียกคืนไม่สำเร็จ",
+  "chatRecallTimeout": "เรียกคืนข้อความที่เกิน 2 นาทีไม่ได้",
+  "chatTranslateFailed": "แปลไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatTranslateNotConfigured": "บริการแปลไม่พร้อมใช้งาน",
+  "chatVoiceToTextFailed": "แปลงไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatTextToSpeechFailed": "อ่านออกเสียงไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatVoiceToText": "แปลง",
+  "chatForwardSuccess": "ส่งต่อแล้ว",
+  "chatForwardFailed": "ส่งต่อไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatNoConversations": "ไม่มีแชทสำหรับส่งต่อ",
+  "chatSendFailed": "ส่งไม่สำเร็จ",
+  "chatResend": "ส่งอีกครั้ง",
+  "chatNotFriend": "ไม่อยู่ในรายชื่อผู้ติดต่อ",
+  "chatNotFriendHint": "คุณยังไม่ได้เป็นผู้ติดต่อกัน ส่งข้อความไม่ได้",
+  "chatMutedHint": "สมาชิกทุกคนถูกปิดสิทธิ์ส่งข้อความ",
+  "chatFileUploadFailed": "อัปโหลดไฟล์ไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatFileStatusNotDownloaded": "ยังไม่ได้ดาวน์โหลด",
+  "chatFileStatusDownloaded": "ดาวน์โหลดแล้ว",
+  "chatFileStatusUploading": "กำลังอัปโหลด",
+  "chatFileStatusUploadFailed": "อัปโหลดล้มเหลว",
+  "chatCardSendFailed": "ส่งบัตรผู้ติดต่อไม่สำเร็จ",
+  "chatFavoriteSuccess": "บันทึกแล้ว",
+  "chatFavoriteFailed": "เพิ่มในรายการโปรดไม่สำเร็จ",
+  "chatLoadFailed": "ไม่สามารถโหลดได้",
+  "chatImageMessage": "[รูปภาพ]",
+  "chatVoiceMessage": "[ข้อความเสียง]",
+  "chatVideoMessage": "[วิดีโอ]",
+  "chatFileMessage": "[ไฟล์]",
+  "chatLocationMessage": "[ตำแหน่ง]",
+  "chatContactCardMessage": "[ผู้ติดต่อ]",
+  "chatCallLogMessage": "[การโทร]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "อ่านแล้ว {count} คน",
+  "chatUnread": "ยังไม่อ่าน",
+  "chatRecalledSelf": "คุณเรียกคืนข้อความ",
+  "chatRecalledPeer": "{sender} เรียกคืนข้อความ",
+  "chatTranslationPrefix": "คำแปล: {translation}",
+  "chatMessageDeleted": "ลบข้อความแล้ว",
+  "chatPeer": "อื่นๆ",
+  "chatSelf": "ฉัน",
+  "chatGenericMessage": "[ข้อความ]",
+  "chatVoiceHideText": "ซ่อนข้อความ",
+  "chatVoiceShowText": "แปลงเป็นข้อความ",
+  "chatFileDefaultName": "ไฟล์",
+  "chatContactDefaultName": "ผู้ติดต่อ",
+  "chatContactCardTitle": "บัตรผู้ติดต่อ",
+  "chatCallMissed": "ไม่ได้รับสาย",
+  "chatCallCancelled": "ยกเลิกแล้ว",
+  "chatCallRejected": "ปฏิเสธแล้ว",
+  "chatCallDisconnected": "การเชื่อมต่อขาดหาย",
+  "chatCallEnded": "สิ้นสุดการโทร",
+  "chatCallFailed": "โทรไม่สำเร็จ",
+  "chatCallDuration": "ระยะเวลา {duration}",
+  "chatVideoCallTitle": "วิดีโอคอล",
+  "chatVoiceCallTitle": "โทรด้วยเสียง",
+  "chatToolPhotos": "รูปภาพ",
+  "chatToolCamera": "กล้อง",
+  "chatToolFile": "ไฟล์",
+  "chatToolLocation": "ตำแหน่ง",
+  "chatToolContactCard": "ผู้ติดต่อ",
+  "chatToolVoiceCall": "โทรด้วยเสียง",
+  "chatToolVideoCall": "วิดีโอคอล",
+  "chatToolFavorites": "รายการโปรด",
+  "chatToolTranslate": "แปล",
+  "chatTranslationChooseLanguage": "เลือกภาษาที่จะแปล",
+  "chatTranslationEnterText": "ป้อนข้อความก่อน",
+  "chatTranslationMentionsUnsupported": "ไม่รองรับการแปลข้อความที่มีการกล่าวถึง",
+  "chatTranslationScheduledUnsupported": "แปลไม่ได้ขณะแก้ไขข้อความที่ตั้งเวลาส่ง",
+  "chatTranslationFailed": "แปลไม่สำเร็จ ลองอีกครั้ง",
+  "chatTranslationEmpty": "ไม่ได้รับคำแปล ลองอีกครั้ง",
+  "chatTranslationTranslating": "กำลังแปล…",
+  "chatTranslationSend": "ส่งคำแปล",
+  "chatTranslationSending": "กำลังส่ง…",
+  "chatTranslationExpand": "แสดงเพิ่มเติม",
+  "chatTranslationCollapse": "แสดงน้อยลง",
+  "chatFileTooLarge": "ไฟล์เกินขนาดที่กำหนด (100 MB)",
+  "chatInputMutedAdminOnly": "มีเพียงเจ้าของหรือสมาชิกที่เลือกไว้เท่านั้นที่ส่งข้อความได้",
+  "chatImageUploadUnsupported": "อัปโหลดรูปภาพไม่สำเร็จ เซิร์ฟเวอร์ยังไม่รองรับ",
+  "chatFavoriteLongPressHint": "กดข้อความค้างเพื่อเพิ่มในรายการโปรด",
+  "chatSelectedCount": "เลือกแล้ว {count} รายการ",
+  "chatLocationSheetTitle": "ส่งตำแหน่ง",
+  "chatLocationNameLabel": "ชื่อสถานที่",
+  "chatLocationNameHint": "เช่น สำนักงาน ที่อยู่ลูกค้า",
+  "chatLocationAddressLabel": "ที่อยู่",
+  "chatLocationOptionalHint": "ไม่บังคับ",
+  "chatLocationLatitudeLabel": "ละติจูด",
+  "chatLocationLatitudeHint": "-90 ถึง 90",
+  "chatLocationLongitudeLabel": "ลองจิจูด",
+  "chatLocationLongitudeHint": "-180 ถึง 180",
+  "chatLocationValidationRequired": "ป้อน {label}",
+  "chatLocationValidationRange": "{label} อยู่นอกช่วงที่กำหนด",
+  "chatLocationDefaultTitle": "ตำแหน่ง",
+  "chatMutedFullNotice": "กลุ่มนี้ปิดสิทธิ์ส่งข้อความ มีเพียงเจ้าของหรือสมาชิกที่เลือกไว้เท่านั้นที่ส่งได้",
+  "chatNotFriendSendBlocked": "คุณไม่ได้เป็นเพื่อนกันแล้วและส่งข้อความไม่ได้",
+  "chatPersonalNotesTitle": "บันทึกส่วนตัว",
+  "chatWorkNotesTitle": "บันทึกงาน",
+  "chatPersonalNotesDescription": "จดความคิดส่วนตัวและบันทึกข้อมูลสำคัญไว้ที่นี่\nซิงค์ระหว่างอุปกรณ์เพื่อเข้าถึงได้ทุกเมื่อ",
+  "chatWorkNotesDescription": "จดงานและเก็บเอกสารการทำงานไว้ที่นี่\nพื้นที่ของทีมแยกจากกันและปลอดภัย",
+  "chatNoMessages": "ไม่มีข้อความ",
+  "chatReplyTo": "ตอบกลับ {sender}",
+  "chatFeatureComingSoon": "{feature} เร็วๆ นี้",
+  "chatForwardSelectTitle": "เลือกแชท",
+  "chatContactSelectTitle": "เลือกผู้ติดต่อ",
+  "chatNoContacts": "ไม่มีผู้ติดต่อ",
+  "autoTranslateTitle": "แปลอัตโนมัติ",
+  "autoTranslateEnabled": "เปิดแปลอัตโนมัติ",
+  "autoTranslateLanguage": "ภาษาเป้าหมาย",
+  "chatSettingsTitle": "แชท",
+  "chatHistoryTitle": "ประวัติแชท",
+  "chatHistoryClear": "ล้างประวัติทั้งหมด",
+  "chatHistoryClearConfirm": "ล้างประวัติแชททั้งหมดหรือไม่? การดำเนินการนี้ย้อนกลับไม่ได้",
+  "chatHistoryClearSuccess": "ล้างประวัติแชทแล้ว",
+  "chatBackgroundTitle": "พื้นหลังแชท",
+  "chatBackgroundDefault": "ค่าเริ่มต้น",
+  "chatBackgroundCustom": "กำหนดเอง",
+  "chatBackgroundReset": "คืนค่าเริ่มต้น",
+  "imageViewerTitle": "รูปภาพ",
+  "imageViewerSave": "บันทึกไปยังอัลบั้ม",
+  "imageViewerSaveSuccess": "บันทึกลงอัลบั้มเรียบร้อยแล้ว",
+  "imageViewerSaveFailed": "บันทึกไม่สำเร็จ โปรดลองอีกครั้ง",
+  "chatOfficialAccountReadOnlyHint": "บัญชีนี้ส่งการอัปเดตเท่านั้น โปรดติดต่อบัญชีบริการเพื่อขอความช่วยเหลือ",
+  "mediaSavedToLocalFile": "บันทึกเป็นไฟล์ในเครื่องแล้ว",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "วันนี้",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "เมื่อวาน",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "สัปดาห์นี้",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, one {{count} นาทีที่แล้ว} other {{count} นาทีที่แล้ว}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, one {{count} ชั่วโมงที่แล้ว} other {{count} ชั่วโมงที่แล้ว}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, one {{count} วันที่แล้ว} other {{count} วันที่แล้ว}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} วินาที",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} นาที",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "พรุ่งนี้",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "แปลงเสียงเป็นข้อความ",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "การรู้จำอาจไม่แม่นยำ โปรดตรวจสอบข้อความก่อนส่ง",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "ข้อความที่รู้จำได้…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "ความมั่นใจในการรู้จำ:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "เปิดลิงก์ {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "กำลังสร้างตัวอย่างลิงก์",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "เปิดลิงก์นี้ไม่ได้",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "ทำเครื่องหมายว่าอ่านแล้ว",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "ทำเครื่องหมายว่ายังไม่อ่าน",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "เปิดการแจ้งเตือน",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "ต้องมีสิทธิ์ใช้ไมโครโฟน",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "เริ่มบันทึกไม่ได้",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "กำลังบันทึก…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "เสียงบันทึกสั้นเกินไป",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "กำลังบันทึก {count, plural, one {{count} วินาที} other {{count} วินาที}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "เลื่อนมาที่นี่เพื่อถอดเสียง",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "ปล่อยเพื่อยกเลิก",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "ปล่อยเพื่อแก้ไขข้อความ",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "กำลังถอดเสียง…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "ไม่พบเสียงพูดที่รู้จำได้",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "ส่งเสียงบันทึกต้นฉบับ",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "กำลังส่ง",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "ค้นหาองค์กร ป้อนรหัส หรือดูคำขอของคุณ",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "ดูคิวรอและการสนทนาของคุณ",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "บัตรสินค้า",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "คูปองโปรโมชั่น",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "แบบสำรวจ",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "เครื่องมือการตลาดเพิ่มเติม",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "ใช้บ่อย",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "หน้ายิ้ม",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "ท่าทาง",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "สัตว์",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "อาหาร",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "กิจกรรม",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "ท่องเที่ยว",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "สิ่งของ",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "แตะเพื่อถ่ายรูป กดค้างเพื่อบันทึกวิดีโอ",
+  "chatCameraReleaseToSend": "ปล่อยเพื่อส่ง",
+  "chatCameraStartFailed": "เริ่มกล้องไม่ได้ ตรวจสอบสิทธิ์แล้วลองอีกครั้ง",
+  "chatCameraUnavailable": "กล้องไม่พร้อมใช้งาน",
+  "chatDetails": "รายละเอียดแชท",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "ค้นหาประวัติแชท",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "ข้อความตั้งเวลาส่ง",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "ตั้งพื้นหลังแชท",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "จัดการกลุ่ม",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "ผู้ดูแลกลุ่ม",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "สมาชิกที่ถูกปิดสิทธิ์ส่งข้อความ",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "กลุ่มนี้ปิดการเชิญสมาชิก",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "เฉพาะเจ้าของหรือผู้ดูแลกลุ่มเท่านั้นที่เพิ่มสมาชิกได้",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "เวอร์ชันนี้ยังสร้างกลุ่มไม่ได้",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, one {เพิ่มสมาชิกแล้ว {count} คน} other {เพิ่มสมาชิกแล้ว {count} คน}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "ชื่อกลุ่ม (ไม่บังคับ)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "กลุ่มใหม่",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "สร้างกลุ่มใหม่",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "สร้างกลุ่มใกล้เคียง",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "เสร็จ ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "ลบ ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "เฉพาะเจ้าของกลุ่ม ผู้ดูแลกลุ่ม หรือผู้ดูแลองค์กรเท่านั้นที่ดูผู้ดูแลกลุ่มได้",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "ผู้ดูแลช่วยจัดการกลุ่ม รวมถึงโพสต์ประกาศและนำสมาชิกออก",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "เฉพาะเจ้าของกลุ่มเท่านั้นที่แต่งตั้งผู้ดูแล โอนความเป็นเจ้าของ หรือยุบกลุ่มได้",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, one {คุณแต่งตั้งผู้ดูแลได้สูงสุด {count} คน} other {คุณแต่งตั้งผู้ดูแลได้สูงสุด {count} คน}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "ยกเลิกผู้ดูแล",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "ยกเลิกสิทธิ์ผู้ดูแลของ {name} หรือไม่?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "เฉพาะเจ้าของหรือผู้ดูแลกลุ่มเท่านั้นที่ดูคำขอเข้าร่วมได้",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "อนุมัติคำขอเข้าร่วมแล้ว",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "ปฏิเสธคำขอเข้าร่วมแล้ว",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "คำขอนี้ได้รับการดำเนินการแล้ว",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "ปฏิเสธคำขอเข้าร่วม",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "เหตุผลที่ปฏิเสธ (ไม่บังคับ)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "เหตุผลที่ปฏิเสธ: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "อนุญาตให้สมาชิกเข้าร่วมด้วยคิวอาร์โค้ด",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "เมื่อเปิดใช้งาน ต้องอนุมัติคำขอเข้าร่วม",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "เมื่อปิด เฉพาะเจ้าของและผู้ดูแลเท่านั้นที่เปลี่ยนชื่อกลุ่มได้",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "อนุญาตให้สมาชิกทั่วไปเพิ่มสมาชิกใหม่",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "อนุญาตให้สมาชิกทั่วไปกล่าวถึงทุกคน",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "เมื่อปิด สมาชิกกลุ่มเพิ่มกันเป็นเพื่อนไม่ได้",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "เมื่อปิด สมาชิกทั่วไปจะดูรายชื่อสมาชิกไม่ได้",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "ยุบกลุ่มนี้หรือไม่? สมาชิกทุกคนจะได้รับแจ้ง การดำเนินการนี้ย้อนกลับไม่ได้",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "ลบและออก",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "เจ้าของหรือผู้ดูแลปิดการเข้าถึงรายชื่อสมาชิกสำหรับสมาชิกทั่วไป",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "แสดงชื่อเล่นสมาชิก",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "ซิงค์รายละเอียดกลุ่มไม่ได้ กำลังแสดงข้อมูลแชทในเครื่อง",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "โหลดข้อมูลกลุ่มไม่ได้",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "เลือกสมาชิก",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "เลือกสมาชิกกลุ่ม",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "เฉพาะเจ้าของกลุ่มเท่านั้นที่แต่งตั้งผู้ดูแลได้",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "ไม่มีสมาชิกที่เพิ่มได้",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "เลือกเจ้าของกลุ่มใหม่",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "เฉพาะเจ้าของกลุ่มเท่านั้นที่โอนความเป็นเจ้าของได้",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "ไม่มีสมาชิกอื่น",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "โอนความเป็นเจ้าของให้ {name} หรือไม่? คุณจะเป็นสมาชิกทั่วไป",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "ยืนยันการโอน",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "มีเพียงคุณที่เห็นหมายเหตุกลุ่มนี้",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "ชื่อกลุ่ม: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "ใช้ชื่อนี้",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "ยังไม่มีใครอ่าน",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "ทุกคนอ่านแล้ว",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "ข้อมูลแชท",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "ข้อมูลแชท ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "อ่านแล้ว",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "ส่งคำขอเป็นเพื่อนแล้ว รอการยอมรับ",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "ดู",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "รอการยอมรับ",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "ตรวจสอบคำขอ",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "เพื่อน",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "พนักงาน",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "อ่านไฟล์ไม่ได้ ดาวน์โหลดลงอุปกรณ์นี้แล้วลองอีกครั้ง",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "ส่งรูปภาพและวิดีโอจากรูปภาพ",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "ระบุประเภทไฟล์ไม่ได้",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "ประเภทไฟล์ไม่ตรงกับนามสกุล",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": "ยังไม่รองรับไฟล์ .{extension}",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "ยังไม่รองรับประเภทไฟล์นี้",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "เลือกเวลา",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "เลือกผู้ที่จะกล่าวถึง",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@ทุกคน",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "แจ้งสมาชิกทุกคนในกลุ่ม",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "ไม่มีสมาชิกที่กล่าวถึงได้",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "ไม่มีสมาชิกที่ตรงกัน",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "คำตอบด่วน",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "คำตอบ AI",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "คำตอบด่วน",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "โหลดคำตอบด่วนไม่ได้",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "โปรดลองภายหลัง",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "ไม่มีคำตอบด่วน",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "คำตอบด่วนจะแสดงที่นี่เมื่อเปิดคลังคำตอบ",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "ไม่มีคำตอบด่วนที่ตรงกัน",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "ลองคำค้นอื่น",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "ค้นหาคำตอบด่วน",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "คำตอบด่วนไม่มีชื่อ",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "ส่งข้อความกลุ่ม",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "ป้อนข้อความกลุ่ม",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "เลือกผู้รับ",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "เลือกผู้รับที่ถูกต้อง",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, one {ส่งให้ผู้รับ {count} รายแล้ว} other {ส่งให้ผู้รับ {count} รายแล้ว}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "สำเร็จ: {success} ล้มเหลว: {failed}",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "ลองรายการที่ล้มเหลวใหม่ ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "เลือกผู้รับเพื่อส่ง",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, one {ส่งให้ผู้รับ {count} ราย} other {ส่งให้ผู้รับ {count} ราย}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "โหลดเพื่อนหรือกลุ่มไม่ได้ โปรดลองภายหลัง",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "ไม่มีผู้รับที่พร้อมใช้งาน",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "ไม่มีผู้รับที่ตรงกัน",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "เพิ่มเพื่อนหรือเข้าร่วมกลุ่มเพื่อส่งข้อความกลุ่ม",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "ค้นหาเพื่อนหรือกลุ่ม",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "ป้อนข้อความที่จะส่งกลุ่ม",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "เลือกเพื่อนหรือกลุ่ม",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, one {เลือกผู้รับแล้ว {count} ราย} other {เลือกผู้รับแล้ว {count} ราย}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "กลุ่มไม่มีชื่อ",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "เพื่อนไม่มีชื่อ",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "ส่งแล้ว",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "บทบาทปัจจุบันส่งข้อความกลุ่มไม่ได้",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "ฉ้อโกงหรือหลอกลวง",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "ละเมิดสิทธิ์",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "เนื้อหาที่เป็นอันตราย",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "คุกคาม",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "เผยแพร่ข่าวลือ",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "ส่งข้อร้องเรียนไม่ได้ โปรดลองอีกครั้ง",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "ส่งข้อร้องเรียนแล้ว",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "ขอบคุณสำหรับข้อเสนอแนะ เราจะตรวจสอบข้อร้องเรียนเรื่อง {reason} โดยเร็วที่สุด",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "รหัสข้อร้องเรียน: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "เจ้าหน้าที่อื่นกำลังจัดการการสนทนานี้ คุณตอบไม่ได้แล้ว",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "ประวัติยังอยู่ บริการจะดำเนินต่อเมื่อลูกค้าสนทนาต่อ",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "ปิดโดยผู้เยี่ยมชม",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "ปิดโดยเจ้าหน้าที่",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "ปิดเพราะหมดเวลา",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "ปิดโดยระบบ",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "เก็บถาวรแล้ว",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "โอนให้เจ้าหน้าที่อื่น",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "สิ้นสุดแล้ว",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "ตามส่วนกลาง (เปิด)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "ตามส่วนกลาง (ปิด)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "การสนทนานี้ (เปิด)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "การสนทนานี้ (ปิด)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "ข้อความตั้งเวลาถูกส่งแล้วหรือยกเลิกไม่ได้",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "ยกเลิกไม่ได้ โปรดลองภายหลัง",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "พื้นที่จัดเก็บข้อมูล",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "สถิติพื้นที่เก็บข้อมูลไม่พร้อมใช้งาน",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "สำรองและคืนค่า",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "สำรองประวัติแชท",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "คืนค่าประวัติแชท",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "นำเข้าและส่งออก",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "ส่งออกประวัติแชท",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "นำเข้าประวัติแชท",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "ยังไม่พร้อมใช้งาน",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "เผยแพร่",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "หัวข้อประกาศ (ไม่บังคับ)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "ลบไม่ได้ โปรดลองอีกครั้ง",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "บันทึกไม่ได้ โปรดลองอีกครั้ง",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "ปิดสิทธิ์ส่งข้อความของสมาชิกแล้ว",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "คืนสิทธิ์ส่งข้อความของสมาชิกแล้ว",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "เฉพาะเจ้าของกลุ่ม ผู้ดูแลกลุ่ม หรือผู้ดูแลองค์กรเท่านั้นที่ปิดสิทธิ์ส่งข้อความของสมาชิกได้",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "ไม่มีสมาชิกทั่วไปที่ปิดสิทธิ์ได้",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "ค้นหาสมาชิก",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "ล้างการค้นหา",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "ไม่มีสมาชิกที่ตรงกัน",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "ไม่มีผลลัพธ์สำหรับ “{query}”",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "การปิดสิทธิ์จำกัดเฉพาะสมาชิกทั่วไป กำหนดระยะเวลาเป็นนาที 0 หมายถึงไม่มีกำหนด เหตุผลจะถูกส่งไปยังเซิร์ฟเวอร์",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "จนถึง {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "เหตุผล: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "ปิดสิทธิ์ส่งข้อความของสมาชิก",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "คืนสิทธิ์ส่งข้อความของสมาชิก",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "ตั้งค่าการปิดสิทธิ์",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "ป้อนจำนวนเต็มตั้งแต่ 0 ขึ้นไป",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "สมาชิกนี้จะถูกปิดสิทธิ์ส่งข้อความ",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "ปิดสิทธิ์ {name}",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "ระยะเวลาปิดสิทธิ์ (นาที)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "ป้อน 0 เพื่อปิดสิทธิ์ไม่มีกำหนด",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "เหตุผลที่ปิดสิทธิ์",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "ไม่บังคับ สำหรับอ้างอิงภายหลัง",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "ยืนยันปิดสิทธิ์",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "ถูกปิดสิทธิ์",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "ไม่ถูกปิดสิทธิ์",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "ยังไม่ซิงค์สถานะ",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "คิวอาร์โค้ดไม่พร้อมใช้งาน",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "คัดลอกเนื้อหา",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "เจ้าของหรือผู้ดูแลปิดการสร้างคิวอาร์โค้ดสำหรับสมาชิกทั่วไป",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "กำลังสร้างคิวอาร์โค้ดกลุ่ม",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "สร้างคิวอาร์โค้ดกลุ่มไม่ได้ รีเฟรชแล้วลองอีกครั้ง",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "สแกนคิวอาร์โค้ดด้านบนเพื่อขอเข้าร่วมกลุ่ม",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "สแกนคิวอาร์โค้ดด้านบนเพื่อเข้าร่วมกลุ่ม",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "ใช้ได้ถึง {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "โหลดคิวอาร์โค้ดกลุ่มไม่ได้",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "รายละเอียดการอ่าน",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "โหลดรูปต้นฉบับไม่ได้ แตะเพื่อลองอีกครั้ง",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@ฉัน]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@ทุกคน]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "คุณถูกกล่าวถึง",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "ทุกคนถูกกล่าวถึง",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "รับการสนทนานี้ก่อน",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "รับช่วงต่อการสนทนานี้ก่อน",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "การสนทนานี้อ่านได้อย่างเดียว ใช้การดำเนินการนี้ไม่ได้",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "บทบาทปัจจุบันทำการดำเนินการบริการนี้ไม่ได้",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "การสนทนานี้ไม่พร้อมใช้งานชั่วคราว",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "การดำเนินการนี้ใช้ไม่ได้ในสถานะปัจจุบัน",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "การสนทนาดำเนินต่อแล้ว คุณช่วยเหลือลูกค้าต่อได้",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "เจ้าหน้าที่อื่นกำลังจัดการการสนทนานี้",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "ลูกค้ายังไม่ได้สนทนาต่อ",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "รับช่วงต่อการสนทนาแล้ว",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "รับช่วงต่อไม่ได้ โปรดลองอีกครั้ง",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "รับการสนทนาแล้ว",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "รับไม่ได้ โปรดลองอีกครั้ง",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "การปิดจะเก็บประวัติแชทไว้ กฎเซิร์ฟเวอร์อาจนำการสนทนากลับเข้าคิวหรือมอบหมายใหม่",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "ปิดการสนทนาแล้ว",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "ปิดไม่ได้ โปรดลองอีกครั้ง",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "โอนการสนทนานี้ไม่ได้ในขณะนี้",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "ไม่มีเจ้าหน้าที่ที่พร้อมรับโอน",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "โอนการสนทนาแล้ว",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "โอนไม่ได้ โปรดลองอีกครั้ง",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "การสนทนาลูกค้า",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "บันทึกไปยังอัลบั้ม",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "ไม่มีข้อความของอีกฝ่ายที่แปลได้",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "ตามการตั้งค่าส่วนกลาง",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "การตั้งค่าส่วนกลางเปิดอยู่",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "การตั้งค่าส่วนกลางปิดอยู่",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "เปิดสำหรับการสนทนานี้",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "แปลอัตโนมัติเฉพาะข้อความของอีกฝ่ายที่มองเห็น",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "ปิดสำหรับการสนทนานี้",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "ไม่แปลการสนทนานี้แม้การตั้งค่าส่วนกลางเปิดอยู่",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "แปลข้อความที่มองเห็น",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "เลือกเวลาอย่างน้อยหนึ่งนาทีจากตอนนี้",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "ตั้งเวลาส่งข้อความล่วงหน้าได้สูงสุด 14 วัน",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "ตั้งเวลาส่งไม่ได้",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "ส่งเนื้อหานี้ไม่ได้เพราะละเมิดกฎ",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "บัญชีนี้ถูกปิดสิทธิ์และส่งข้อความไม่ได้ในขณะนี้",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "ส่งข้อความกลุ่มไม่ได้ โปรดลองภายหลัง (INVALID_OPERATION)",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "ส่งไม่สำเร็จ: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "เมนูนี้ไม่พร้อมใช้งานชั่วคราว",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "กำลังเตรียมการสนทนาฝ่ายสนับสนุน โปรดลองอีกสักครู่",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "คุณอยู่ในคิว เจ้าหน้าที่ที่ว่างจะติดต่อคุณ",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI กำลังจัดการการสนทนานี้",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "คุณกำลังจัดการการสนทนานี้",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} กำลังจัดการการสนทนานี้",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "AI ตอบข้อความลูกค้า · ที่มา: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "เจ้าหน้าที่กำลังจัดการการสนทนานี้ · ที่มา: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "โปรไฟล์ลูกค้าไม่พร้อมใช้งานชั่วคราว",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "เพิ่มหมายเหตุ (ไม่บังคับ)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "ยืนยันการโอน",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "ลูกค้ากำลังพิมพ์: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "โหมดดูอย่างเดียว คุณส่งข้อความไม่ได้",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "รับการสนทนาเพื่อตอบ",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "รับการสนทนาก่อนตอบ",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "รับช่วงต่อการสนทนาก่อนตอบ",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "โปรไฟล์ลูกค้า",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "ชื่อ",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "ระดับ",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "ความเสี่ยง",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "ภาษา",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "ที่มา",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "เจ้าหน้าที่ที่มอบหมาย",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "ภาพรวมบัญชี",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "ยอดคงเหลือบัญชี",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "ยอดฝากทั้งหมด",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "เงินฝากสุทธิ",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "สถานะบัญชี",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "วันที่ลงทะเบียน",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "ภาพรวมประวัติการซื้อขาย",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "คำสั่งทั้งหมด",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "ผลิตภัณฑ์ที่ซื้อขาย",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "อัตราชนะ",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "เวลาซื้อขายล่าสุด",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "โปรไฟล์ผู้เยี่ยมชม",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "รหัสผู้เยี่ยมชม",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "ประวัติการสนทนา",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "หน้าต้นทาง",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "รายละเอียดบัญชี การซื้อขาย และตั๋วบริการจะพร้อมหลังลูกค้าลงทะเบียนและเชื่อมโยงบัญชี",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "ยืนยันแล้ว",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "ยังไม่อนุมัติ",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "ต่ำ",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "ปานกลาง",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "สูง",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "กำลังให้บริการ",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "ปิดใช้งาน",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "ถูกระงับ",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "แท็ก",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "ตั๋วฝ่ายสนับสนุน",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "ไม่มีตั๋วฝ่ายสนับสนุน",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "กำลังดำเนินการ",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "รอดำเนินการ",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "ปิดแล้ว",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "ข้อมูลคำสั่งชั่วคราว",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "ไม่มีคำสั่งชั่วคราว",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "คำสั่ง",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "หมายเลขคำสั่ง",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "ทิศทาง",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "ลอต",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "ราคาเปิด",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "กำไร/ขาดทุนลอยตัว",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "เวลาเปิดสถานะ",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "ซื้อ",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "ขาย",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "มีตำแหน่งเปิดอยู่",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "คำสั่งรอดำเนินการ",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "ปิดแล้ว",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "ยังไม่มอบหมาย",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "บัญชีทางการ",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "ประเภท",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "รายละเอียดรายการโปรด",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "เนื้อหารายการโปรด",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(ไม่มีเนื้อหา)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "บันทึกเมื่อ {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "ค้นหาประวัติแชท",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "วันที่",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "รูปภาพและวิดีโอ",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "ค้นหาเนื้อหาที่ระบุ",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "ข้อความเสียง {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[ข้อความระบบ]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[ลิงก์]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[ข้อความ]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[ข้อความจัดรูปแบบ]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "ข้อความตั้งเวลาต้องไม่ว่าง",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "อัปเดตไม่ได้ โปรดลองภายหลัง",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "โหลดข้อความตั้งเวลาส่งไม่ได้",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "ไม่มีข้อความตั้งเวลาส่ง",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "จัดการข้อความที่ตั้งเวลาจากช่องเขียนข้อความได้ที่นี่",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "รอส่ง",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "กำลังจัดส่ง",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "สถานะ {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "แก้ไขข้อความตั้งเวลาส่ง",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "เนื้อหาข้อความ",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "เวลาส่ง",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "แก้ไข",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "ตั้งเวลาสำหรับ {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "ข้อความจะส่งเมื่อ {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "กำลังแก้ไขข้อความตั้งเวลา · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "ลบข้อความตั้งเวลาส่ง",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, one {การสนทนายังไม่อ่าน {count} รายการ} other {การสนทนายังไม่อ่าน {count} รายการ}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "ไม่มีการสนทนาที่ยังไม่อ่าน",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, one {ข้อความยังไม่อ่าน {count} ข้อความ} other {ข้อความยังไม่อ่าน {count} ข้อความ}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {ข้อความใหม่ {count} ข้อความ} other {ข้อความใหม่ {count} ข้อความ}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "ไม่มีการสนทนาที่ตรงกัน",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "ไม่มีการสนทนา",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "ไม่มีการสนทนาเพิ่มเติม",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "O",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "เชื่อมต่อ",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "สมาชิกทั่วไปกล่าวถึงทุกคนในกลุ่มนี้ไม่ได้",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "รีเฟรชสถานะ",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "กดค้างเพื่อพูด",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "ปล่อยเพื่อส่ง",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "นำสมาชิกออกแล้ว",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

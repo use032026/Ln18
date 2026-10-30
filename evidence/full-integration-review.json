@@ -1,0 +1,17 @@
+{
+  "verdict": "passed",
+  "remainingBlockingFindings": [],
+  "resolvedFindings": [
+    "read-only check no longer bootstraps pub dependencies",
+    "mobile/SDK platform legal copy extracted with control flow preserved",
+    "mobile/SDK/PC language self-names extracted",
+    "PC target-language display names extracted"
+  ],
+  "reviewEvidence": [
+    "41 complete ARB objects and metadata match baseline",
+    "2250/1040 original public AppLocalizations signatures preserved",
+    "PC arrays, locale and module order, fallback exports preserved",
+    "supplemental data re-parsed from original HEAD and deep-compared"
+  ],
+  "reviewMethod": "independent agents; reviewers did not modify reviewed output"
+}

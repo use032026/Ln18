@@ -1,0 +1,57 @@
+{
+  "before": {
+    "packages/im_sdk/build": {
+      "bytes": 2004067,
+      "classification": "pre-existing native_assets dependency outputs"
+    },
+    "web/dist": {
+      "bytes": 525813,
+      "classification": "pre-existing Web build output"
+    }
+  },
+  "after": {
+    "packages/im_sdk/build": {
+      "exists": true,
+      "files": 3,
+      "bytes": 2004067
+    },
+    "packages/im_sdk/.dart_tool/flutter_build": {
+      "exists": false,
+      "files": 0,
+      "bytes": 0
+    },
+    "packages/im_sdk/build/test_cache": {
+      "exists": false,
+      "files": 0,
+      "bytes": 0
+    },
+    "packages/im_sdk/build/unit_test_assets": {
+      "exists": false,
+      "files": 0,
+      "bytes": 0
+    },
+    "packages/im_sdk/.dart_tool/hooks_runner/objective_c/7ad245dadc": {
+      "exists": true,
+      "files": 8,
+      "bytes": 10673961
+    },
+    "packages/im_sdk/.dart_tool/hooks_runner/sqlite3/7ad245dadc": {
+      "exists": true,
+      "files": 5,
+      "bytes": 4679
+    },
+    "web/dist": {
+      "exists": true,
+      "files": 12,
+      "bytes": 525915
+    }
+  },
+  "openHandles": [],
+  "deleteCandidates": [],
+  "retainedReasons": {
+    "packages/im_sdk/build": "Only pre-existing native dependency outputs (.dylib) are present; no completed test/kernel intermediate tree was created.",
+    "packages/im_sdk/.dart_tool/hooks_runner": "Two missing-hook snapshot diagnostics are preserved. The objective_c snapshot was restored from the pinned dependency to locate the second sqlite3 failure. Do not remove the whole shared project hook/dependency state.",
+    "web/dist": "Rebuilt, verified Web SDK output is retained for source/bundle review; not a temporary test cache."
+  },
+  "processes": "No SDK build/test process was left running by this agent. A/B preview servers were not touched."
+}

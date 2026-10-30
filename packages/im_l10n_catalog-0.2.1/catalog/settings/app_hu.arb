@@ -1,0 +1,471 @@
+{
+  "@@locale": "hu",
+  "settingsTitle": "Beállítások",
+  "settingsSectionEnterprise": "Vállalat",
+  "settingsSectionAccount": "Fiók",
+  "settingsSectionGeneral": "Általános",
+  "settingsSectionFeatures": "Funkciók",
+  "settingsSectionAbout": "Névjegy",
+  "settingsEnterpriseInfo": "Vállalati adatok",
+  "settingsProfile": "Profilom",
+  "settingsAccountSecurity": "Fiókbiztonság",
+  "settingsNotification": "Értesítések",
+  "settingsDisplay": "Megjelenítés",
+  "settingsFriendPrivacy": "Adatvédelem",
+  "settingsChat": "Beszélgetés",
+  "settingsChatHistory": "Beszélgetési előzmények",
+  "settingsAbout": "A StartLink névjegye",
+  "settingsLanguage": "Nyelv",
+  "settingsTimezone": "Időzóna",
+  "settingsAutoTranslate": "Automatikus fordítás",
+  "settingsNetworkSwitch": "Vonal váltása",
+  "aboutTitle": "A StartLink névjegye",
+  "aboutVersion": "Verzió",
+  "aboutTerms": "Felhasználási feltételek",
+  "aboutPrivacy": "Adatvédelmi szabályzat",
+  "aboutOpenSource": "Nyílt forráskódú licencek",
+  "aboutCheckUpdate": "Frissítések keresése",
+  "aboutLatestVersion": "A legújabb verziót használja.",
+  "aboutUpdateAvailable": "Új verzió elérhető",
+  "aboutUpdateNow": "Frissítés most",
+  "aboutUpdateLater": "Később",
+  "networkTitle": "Vonal váltása",
+  "networkAutoSelect": "Automatikus",
+  "networkManual": "Kézi",
+  "timezoneTitle": "Időzóna",
+  "timezoneAuto": "Rendszer követése",
+  "displayTitle": "Megjelenítés",
+  "displayFontSize": "Betűméret",
+  "displayChatBackground": "Beszélgetés háttere",
+  "displayDarkMode": "Megjelenés",
+  "displayDarkModeSystem": "Rendszer követése",
+  "displayDarkModeSystemHint": "Automatikus váltás a rendszerbeállítás szerint",
+  "displayDarkModeOff": "Világos",
+  "displayDarkModeOffHint": "Mindig világos téma használata",
+  "displayDarkModeOn": "Sötét",
+  "displayDarkModeOnHint": "Mindig sötét téma használata",
+  "accountSecurityTitle": "Fiókbiztonság",
+  "accountSecurityChangePassword": "Jelszó módosítása",
+  "accountSecurityChangeMobile": "Telefonszám módosítása",
+  "accountSecurityChangeEmail": "E-mail módosítása",
+  "accountSecurityLoggedDevices": "Bejelentkezett eszközök",
+  "accountSecurityDeactivate": "Fiók megszüntetése",
+  "accountSecurityDeactivateConfirm": "Minden adat véglegesen törlődik 7 nap múlva. Megszünteti?",
+  "loggedDevicesTitle": "Bejelentkezett eszközök",
+  "loggedDevicesCurrent": "Ez az eszköz",
+  "loggedDevicesRevoke": "Kijelentkezés",
+  "loggedDevicesRevokeConfirm": "Kijelentkezik erről az eszközről?",
+  "loggedDevicesRevokeSuccess": "Kijelentkezett az eszközről",
+  "loggedDevicesRevokeFailed": "Sikertelen. Próbálja újra.",
+  "loggedDevicesLastActive": "Utolsó aktivitás",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Számítógép",
+  "loggedDevicesTypeUnknown": "Ismeretlen eszköz",
+  "fontSizeTitle": "Betűméret",
+  "fontSizeSmall": "Kicsi",
+  "fontSizeNormal": "Normál",
+  "fontSizeLarge": "Nagy",
+  "fontSizeExtraLarge": "Extránagy",
+  "fontSizePreview": "Előnézet",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaszka",
+  "timezoneNamePacificTime": "Csendes-óceáni idő",
+  "timezoneNameMountainTime": "Hegyvidéki idő",
+  "timezoneNameCentralTime": "Középső idő",
+  "timezoneNameEasternTime": "Keleti idő",
+  "timezoneNameAtlanticTime": "Atlanti idő",
+  "timezoneNameBrasilia": "Brazíliaváros",
+  "timezoneNameAzores": "Azori-szigetek",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Párizs/Róma",
+  "timezoneNameCairoHelsinki": "Kairó/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moszkva/Rijád",
+  "timezoneNameTehran": "Teherán",
+  "timezoneNameDubaiBaku": "Dubaj/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karacsi/Taskent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/Újdelhi",
+  "timezoneNameKathmandu": "Katmandu",
+  "timezoneNameDhakaAlmaty": "Dakka/Almati",
+  "timezoneNameYangon": "Rangun",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Sanghaj/Hongkong/Tajpej",
+  "timezoneNameTokyoSeoul": "Tokió/Szöul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salamon-szigetek",
+  "timezoneNameAucklandFiji": "Auckland/Fidzsi",
+  "networkSmartSelectBestRoute": "Legjobb útvonal intelligens kiválasztása",
+  "networkTesting": "Tesztelés...",
+  "networkTestingShort": "Tesztelés",
+  "networkLatencyMs": "Késleltetés: {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Kapcsolódási mód",
+  "networkDirectMode": "Közvetlen mód",
+  "networkProxyMode": "Proxymód",
+  "networkDirectModeDesc": "Közvetlen kapcsolódás a kiszolgálóhoz",
+  "networkProxyModeDesc": "Kapcsolódás proxykiszolgálón keresztül",
+  "networkDirectRoutes": "Közvetlen útvonalak",
+  "networkProxyRoutes": "Proxyútvonalak",
+  "networkTestAll": "Összes tesztelése",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hongkongi csomópont",
+  "networkSingaporeNode": "Szingapúri csomópont",
+  "networkJapanNode": "Japán csomópont",
+  "networkUnitedStatesNode": "Egyesült államokbeli csomópont",
+  "networkHint": "Tippek:\n• Közvetlen mód: gyorsabb, belföldi használatra alkalmas\n• Proxymód: stabilabb nemzetközi kommunikációhoz\n• Egy útvonal késleltetésének teszteléséhez koppintson a frissítés ikonra",
+  "diagnosticsTitle": "Diagnosztika",
+  "diagnosticsExplanation": "A naplók anonimizáltak, és e fiók és tér működési és hibaadatait, valamint nyilvános indítási eseményeket tartalmaznak. A beszélgetések tartalma és a hitelesítő adatok nem szerepelnek bennük.",
+  "diagnosticsHour": "Utolsó óra",
+  "diagnosticsDay": "Utolsó 24 óra",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Elérhető események: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "A naplók ezen az eszközön tárolódnak, és újraindítás után is elérhetők.",
+  "diagnosticsNotPersistent": "Néhány napló nem lett mentve. Frissítsen az újrapróbálkozáshoz.",
+  "diagnosticsExport": "Exportálás és megosztás",
+  "diagnosticsRefresh": "Frissítés",
+  "diagnosticsClear": "A tér naplóinak törlése",
+  "diagnosticsClearConfirm": "Törli e tér diagnosztikai naplóit? A beszélgetési előzmények megmaradnak.",
+  "diagnosticsShared": "A rendszermegosztás befejeződött. Ellenőrizze a fájlt a fogadó alkalmazásban.",
+  "diagnosticsCancelled": "A megosztás megszakítva. Újra exportálhat.",
+  "diagnosticsUnconfirmed": "A megosztás nem volt megerősíthető. Ellenőrizze a fogadó alkalmazást.",
+  "diagnosticsFailed": "A művelet sikertelen. Próbálja újra.",
+  "settingsDeleteWarning": "Fiókja törlésével megszűnik minden vállalati tagsága. Az üzenetelőzmények nem állíthatók helyre.\n\nA 7 napos várakozási idő alatt újra bejelentkezhet a törlés visszavonásához.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Törlés folytatása",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Végső megerősítés",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Törli a fiókját? A törlés 7 nap után véglegessé válik.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Törlés oka (opcionális)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Törlés kérve. A visszavonáshoz jelentkezzen be 7 napon belül.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Fiók törlésének megerősítése",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Nem sikerült törölni a fiókot. Próbálja újra.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "A letiltott felhasználók nem küldhetnek Önnek üzenetet, és nem láthatják profilját és frissítéseit.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Beszélgetés",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Küldés Enterrel",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Betöltés sikertelen, koppintson az újrapróbáláshoz",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Hozzájárulás üzenetértesítésekhez",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Hozzájárult",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Nem járult hozzá",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Rendszerértesítési engedély",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Be",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Letiltva",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Ismeretlen",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Nem támogatott",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Ellenőrzés",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Az ellenőrzés sikertelen",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Teljes képernyős bejövő hívások",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Koppintson az ellenőrzéshez és engedélyezéshez",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Teljes képernyős hívásriasztások bekapcsolva",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Engedélyezze a teljes képernyős hívásriasztásokat a rendszerbeállításokban.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Ne zavarjanak ütemezése",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Nincs beállítva",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Üzenetértesítések bekapcsolása",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Bekapcsoláskor a JPush/JCore és az eszköz értesítési szolgáltatásai eszközadatokat, értesítési azonosítókat és kézbesítési adatokat kezelhetnek az üzenet-, ügyfélszolgálati és hívásriasztásokhoz. Az értesítéseket a rendszerbeállításokban kikapcsolhatja.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Az értesítések továbbra is kikapcsoltak. Engedélyezze a Weijie értesítéseit a rendszerbeállításokban.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (éjszaka)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Ne zavarjanak kikapcsolása",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Nincs tesztelve",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Nem elérhető",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Elsődleges tartalék útvonal",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Az útvonal nem elérhető. A jelenlegi útvonal megmaradt.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Elérhető helyek",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Nem sikerült frissíteni az útvonalakat. A jelenlegi útvonal megmaradt.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Frissítés",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Helyek frissítése",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Az útvonalak ellenőrzött hivatalos konfigurációból származnak. Indításkor az utolsó útvonal áll helyre, majd a jelenlegi, gyorsítótárazott, kezdeti és S3/R2-források alapján frissül. A kézi választás elsőbbséget élvez; hiba esetén a jelenlegi útvonal marad meg.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Ismeretlen eszköz",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Kijelentkezés",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Jelenlegi",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Nem sikerült betölteni az eszközöket",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Nincsenek bejelentkezett eszközök",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Előnézet",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Ez a mintaszöveg a betűméretet mutatja. Válasszon olyan méretet, amely kényelmessé teszi a beszélgetést.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Minden jog fenntartva",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Fordítási példa",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Eredeti (angol)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Célnyelv",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tippek:\n• Az automatikus fordítás mesterséges intelligenciát használ\n• A fordítások tájékoztató jellegűek, hibákat tartalmazhatnak\n• Az eredeti és a fordítás is látható a beszélgetésben\n• Tartsa nyomva az üzenetet, majd válassza az „Eredeti megtekintése” lehetőséget",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Alapértelmezett háttér",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Fehér",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Világosszürke",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Bézs",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Világoskék",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Világoszöld",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Világosrózsaszín",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Világoslila",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Egyéni kép",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "E beszélgetés háttere",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Beszélgetés háttere",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Egyéni kép módosítása",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Kiválasztás a fotók közül",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Beállítás",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Általános beszélgetésháttér használata",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Fordítás ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Kijelentkezteti: „{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} munkamenet} other {{count} munkamenet}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Utolsó aktivitás: {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Fejlesztői diagnosztika",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "A hálózat nem elérhető. Ellenőrizze a hálózati beállításokat.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

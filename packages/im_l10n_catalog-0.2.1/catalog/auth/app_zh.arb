@@ -1,0 +1,541 @@
+{
+  "@@locale": "zh",
+  "authLoginTitle": "登录微界",
+  "@authLoginTitle": {
+    "description": "Login page title"
+  },
+  "authTabMobile": "手机号",
+  "@authTabMobile": {
+    "description": "Login tab: mobile"
+  },
+  "authTabEmail": "邮箱",
+  "@authTabEmail": {
+    "description": "Login tab: email"
+  },
+  "authTabLoginName": "微界号",
+  "@authTabLoginName": {
+    "description": "Login tab: lpp id"
+  },
+  "authHintMobile": "请输入手机号",
+  "@authHintMobile": {
+    "description": "Mobile hint"
+  },
+  "authHintEmail": "请输入邮箱",
+  "@authHintEmail": {
+    "description": "Email hint"
+  },
+  "authHintPassword": "请输入密码",
+  "@authHintPassword": {
+    "description": "Password hint"
+  },
+  "authHintCode": "请输入验证码",
+  "@authHintCode": {
+    "description": "Code hint"
+  },
+  "authHintLoginName": "请输入微界号（lpp_xxxxxxxx）",
+  "@authHintLoginName": {
+    "description": "Login name hint"
+  },
+  "authLoginButton": "登录",
+  "@authLoginButton": {
+    "description": "Login button"
+  },
+  "authGetCode": "获取验证码",
+  "@authGetCode": {
+    "description": "Get verification code"
+  },
+  "authResendCode": "{seconds}s 后重发",
+  "@authResendCode": {
+    "description": "Resend code countdown",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authUsePassword": "使用密码登录",
+  "@authUsePassword": {
+    "description": "Use password login"
+  },
+  "authUseCode": "使用验证码登录",
+  "@authUseCode": {
+    "description": "Use code login"
+  },
+  "authAgreementPrefix": "我已阅读并同意",
+  "@authAgreementPrefix": {
+    "description": "Agreement prefix"
+  },
+  "authAgreementAnd": "和",
+  "@authAgreementAnd": {
+    "description": "Agreement and"
+  },
+  "authTermsLink": "《用户协议》",
+  "@authTermsLink": {
+    "description": "Terms link"
+  },
+  "authPrivacyLink": "《隐私政策》",
+  "@authPrivacyLink": {
+    "description": "Privacy link"
+  },
+  "authCaptchaTitle": "安全验证",
+  "@authCaptchaTitle": {
+    "description": "Captcha title"
+  },
+  "authCaptchaHint": "请输入答案",
+  "@authCaptchaHint": {
+    "description": "Captcha hint"
+  },
+  "authCaptchaFailed": "获取验证码失败，请重试",
+  "@authCaptchaFailed": {
+    "description": "Captcha failed"
+  },
+  "authErrorEmptyCode": "请输入验证码",
+  "@authErrorEmptyCode": {
+    "description": "Empty code error"
+  },
+  "authErrorEmptyPassword": "请输入密码",
+  "@authErrorEmptyPassword": {
+    "description": "Empty password error"
+  },
+  "authErrorEmptyLoginName": "请输入微界号",
+  "@authErrorEmptyLoginName": {
+    "description": "Empty login name error"
+  },
+  "authErrorWrongCredentials": "账号或密码错误",
+  "@authErrorWrongCredentials": {
+    "description": "Wrong credentials"
+  },
+  "authDeactivatingTitle": "账号注销中",
+  "@authDeactivatingTitle": {
+    "description": "Deactivating title"
+  },
+  "authDeactivatingContent": "您的账号正处于注销冷静期（7天内）。\n\n如需撤销注销，请点击「撤销注销」；否则点击「继续使用」进入应用。",
+  "@authDeactivatingContent": {
+    "description": "Deactivating content"
+  },
+  "authContinueUse": "继续使用",
+  "@authContinueUse": {
+    "description": "Continue use"
+  },
+  "authCancelDeactivation": "撤销注销",
+  "@authCancelDeactivation": {
+    "description": "Cancel deactivation"
+  },
+  "authDeactivationCancelled": "注销已撤销，账号恢复正常",
+  "@authDeactivationCancelled": {
+    "description": "Deactivation cancelled"
+  },
+  "authDeactivationCancelFailed": "撤销失败，请重试",
+  "@authDeactivationCancelFailed": {
+    "description": "Deactivation cancel failed"
+  },
+  "authLogout": "退出登录",
+  "@authLogout": {
+    "description": "Logout"
+  },
+  "authLogoutConfirm": "确定要退出登录吗？",
+  "@authLogoutConfirm": {
+    "description": "Logout confirm"
+  },
+  "authSendingCode": "发送中...",
+  "@authSendingCode": {
+    "description": "Sending code"
+  },
+  "authCodeSent": "验证码已发送",
+  "@authCodeSent": {
+    "description": "Code sent"
+  },
+  "authLoginFailed": "登录失败，请重试",
+  "@authLoginFailed": {
+    "description": "Login failed"
+  },
+  "authRegisterFailed": "注册失败，请重试",
+  "@authRegisterFailed": {
+    "description": "Register failed"
+  },
+  "authEnterpriseCode": "企业码",
+  "@authEnterpriseCode": {
+    "description": "Enterprise code"
+  },
+  "authEnterpriseCodeHint": "请输入企业码",
+  "@authEnterpriseCodeHint": {
+    "description": "Enterprise code hint"
+  },
+  "authPendingApproval": "注册成功，加入企业申请已提交，等待审批",
+  "@authPendingApproval": {
+    "description": "Pending approval"
+  },
+  "authNoAccount": "没有账号？",
+  "@authNoAccount": {
+    "description": "Login registration prompt"
+  },
+  "authRegisterNow": "立即注册",
+  "@authRegisterNow": {
+    "description": "Open registration"
+  },
+  "authCountryPickerTitle": "选择国家/地区",
+  "@authCountryPickerTitle": {
+    "description": "Country picker title"
+  },
+  "authCountrySearchHint": "搜索国家/地区",
+  "@authCountrySearchHint": {
+    "description": "Country picker search hint"
+  },
+  "authCountryChinaMainland": "中国大陆",
+  "@authCountryChinaMainland": {
+    "description": "Country name"
+  },
+  "authCountryHongKong": "中国香港",
+  "@authCountryHongKong": {
+    "description": "Country name"
+  },
+  "authCountryMacau": "中国澳门",
+  "@authCountryMacau": {
+    "description": "Country name"
+  },
+  "authCountryTaiwan": "中国台湾",
+  "@authCountryTaiwan": {
+    "description": "Country name"
+  },
+  "authCountryUnitedStates": "美国",
+  "@authCountryUnitedStates": {
+    "description": "Country name"
+  },
+  "authCountryUnitedKingdom": "英国",
+  "@authCountryUnitedKingdom": {
+    "description": "Country name"
+  },
+  "authCountryJapan": "日本",
+  "@authCountryJapan": {
+    "description": "Country name"
+  },
+  "authCountrySouthKorea": "韩国",
+  "@authCountrySouthKorea": {
+    "description": "Country name"
+  },
+  "authCountrySingapore": "新加坡",
+  "@authCountrySingapore": {
+    "description": "Country name"
+  },
+  "authCountryMalaysia": "马来西亚",
+  "@authCountryMalaysia": {
+    "description": "Country name"
+  },
+  "authCountryAustralia": "澳大利亚",
+  "@authCountryAustralia": {
+    "description": "Country name"
+  },
+  "authCountryCanada": "加拿大",
+  "@authCountryCanada": {
+    "description": "Country name"
+  },
+  "authCountryGermany": "德国",
+  "@authCountryGermany": {
+    "description": "Country name"
+  },
+  "authCountryFrance": "法国",
+  "@authCountryFrance": {
+    "description": "Country name"
+  },
+  "authCountryIndia": "印度",
+  "@authCountryIndia": {
+    "description": "Country name"
+  },
+  "authCountryThailand": "泰国",
+  "@authCountryThailand": {
+    "description": "Country name"
+  },
+  "authCountryVietnam": "越南",
+  "@authCountryVietnam": {
+    "description": "Country name"
+  },
+  "authCountryIndonesia": "印度尼西亚",
+  "@authCountryIndonesia": {
+    "description": "Country name"
+  },
+  "authCountryPhilippines": "菲律宾",
+  "@authCountryPhilippines": {
+    "description": "Country name"
+  },
+  "authQuickLoginTitle": "快速登录",
+  "@authQuickLoginTitle": {
+    "description": "Developer quick login title"
+  },
+  "authQuickLoginSummary": "mouse-corp 测试账号 {count} 个，统一密码 123123123",
+  "@authQuickLoginSummary": {
+    "description": "Developer quick login summary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "authQuickLoginProgress": "正在登录，请稍候",
+  "@authQuickLoginProgress": {
+    "description": "Quick login progress"
+  },
+  "authRoleOwner": "所有者",
+  "@authRoleOwner": {
+    "description": "Owner role"
+  },
+  "authRoleAdministrator": "管理员",
+  "@authRoleAdministrator": {
+    "description": "Administrator role"
+  },
+  "authRoleCustomerService": "客服",
+  "@authRoleCustomerService": {
+    "description": "Customer service role"
+  },
+  "authRoleTechnicalSupport": "技术支持",
+  "@authRoleTechnicalSupport": {
+    "description": "Technical support role"
+  },
+  "authRoleEmployee": "普通员工",
+  "@authRoleEmployee": {
+    "description": "Employee role"
+  },
+  "authRoleMember": "成员",
+  "@authRoleMember": {
+    "description": "Member role"
+  },
+  "authRoleEnterpriseCustomer": "企业空户",
+  "@authRoleEnterpriseCustomer": {
+    "description": "Enterprise customer account role"
+  },
+  "authUnavailablePrefix": "不可用 · ",
+  "@authUnavailablePrefix": {
+    "description": "Unavailable account prefix"
+  },
+  "authUnassignedService": "未分配客服",
+  "@authUnassignedService": {
+    "description": "No assigned service staff"
+  },
+  "authAssignedService": "归属{staff}",
+  "@authAssignedService": {
+    "description": "Assigned service staff",
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      }
+    }
+  },
+  "authCustomerIdentity": "客户 · {assignment}",
+  "@authCustomerIdentity": {
+    "description": "Quick account customer identity",
+    "placeholders": {
+      "assignment": {
+        "type": "String"
+      }
+    }
+  },
+  "authEmployeeIdentity": "员工 · {tenant}",
+  "@authEmployeeIdentity": {
+    "description": "Quick account employee identity",
+    "placeholders": {
+      "tenant": {
+        "type": "String"
+      }
+    }
+  },
+  "authUserCount": "{count} 个用户",
+  "@authUserCount": {
+    "description": "User count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "authMetaPhone": "电话",
+  "@authMetaPhone": {
+    "description": "Phone metadata label"
+  },
+  "authMetaIdentity": "身份",
+  "@authMetaIdentity": {
+    "description": "Identity metadata label"
+  },
+  "authRegisterTitle": "注册",
+  "@authRegisterTitle": {
+    "description": "Registration page title"
+  },
+  "authNickname": "昵称",
+  "@authNickname": {
+    "description": "Nickname label"
+  },
+  "authNicknameHint": "设置昵称",
+  "@authNicknameHint": {
+    "description": "Nickname hint"
+  },
+  "authPassword": "密码",
+  "@authPassword": {
+    "description": "Password label"
+  },
+  "authPasswordSetHint": "设置密码（至少6位）",
+  "@authPasswordSetHint": {
+    "description": "Password setup hint"
+  },
+  "authConfirmPassword": "确认密码",
+  "@authConfirmPassword": {
+    "description": "Confirm password label"
+  },
+  "authConfirmPasswordHint": "再次输入密码",
+  "@authConfirmPasswordHint": {
+    "description": "Confirm password hint"
+  },
+  "authVerificationCode": "验证码",
+  "@authVerificationCode": {
+    "description": "Verification code label"
+  },
+  "authRegisterAndLogin": "注册并登录",
+  "@authRegisterAndLogin": {
+    "description": "Register and login button"
+  },
+  "authHaveAccount": "已有账户？",
+  "@authHaveAccount": {
+    "description": "Existing account prompt"
+  },
+  "authGoLogin": "去登录",
+  "@authGoLogin": {
+    "description": "Return to login"
+  },
+  "authEmailVerificationUnavailable": "邮箱验证码服务暂不可用，请改用手机号注册",
+  "@authEmailVerificationUnavailable": {
+    "description": "Email verification unavailable"
+  },
+  "authSmsVerificationUnavailable": "短信验证码服务暂不可用，请改用邮箱注册",
+  "@authSmsVerificationUnavailable": {
+    "description": "SMS verification unavailable"
+  },
+  "authSendFailed": "发送失败，请重试",
+  "@authSendFailed": {
+    "description": "Verification send failed"
+  },
+  "authErrorEmptyNickname": "请输入昵称",
+  "@authErrorEmptyNickname": {
+    "description": "Empty nickname error"
+  },
+  "authErrorInvalidMobile": "手机号格式不正确",
+  "@authErrorInvalidMobile": {
+    "description": "Invalid mobile error"
+  },
+  "authErrorInvalidEmail": "邮箱格式不正确",
+  "@authErrorInvalidEmail": {
+    "description": "Invalid email error"
+  },
+  "authErrorPasswordTooShort": "密码至少6位",
+  "@authErrorPasswordTooShort": {
+    "description": "Short password error"
+  },
+  "authErrorPasswordMismatch": "两次密码不一致",
+  "@authErrorPasswordMismatch": {
+    "description": "Password mismatch error"
+  },
+  "authErrorVerificationRequired": "请先获取并填写验证码",
+  "@authErrorVerificationRequired": {
+    "description": "Verification required error"
+  },
+  "authRegisterErrorTitle": "注册失败",
+  "@authRegisterErrorTitle": {
+    "description": "Registration error title"
+  },
+  "authGotIt": "知道了",
+  "@authGotIt": {
+    "description": "Dismiss registration error"
+  },
+  "authJoinCredentialHint": "请输入企业码或邀请码",
+  "@authJoinCredentialHint": {
+    "description": "Tenant or invitation code hint"
+  },
+  "authTenantNotFound": "未找到企业「{code}」，请确认企业码是否正确",
+  "@authTenantNotFound": {
+    "description": "Tenant code not found",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "authTenantSearchFailed": "搜索失败，请重试",
+  "@authTenantSearchFailed": {
+    "description": "Tenant search failed"
+  },
+  "authInvitationInvalid": "邀请码无效，请确认后重试",
+  "@authInvitationInvalid": {
+    "description": "Invitation invalid"
+  },
+  "authCollapseJoin": "收起加入信息",
+  "@authCollapseJoin": {
+    "description": "Collapse join section"
+  },
+  "authExpandJoin": "加入企业？输入企业码或邀请码（可选）",
+  "@authExpandJoin": {
+    "description": "Expand optional join section"
+  },
+  "authInvitationValid": "邀请码有效：{name}",
+  "@authInvitationValid": {
+    "description": "Invitation preview success",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "authEnterpriseCodeValid": "企业码：{name}",
+  "@authEnterpriseCodeValid": {
+    "description": "Enterprise-code preview label",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "authTenantFound": "找到企业：{name}",
+  "@authTenantFound": {
+    "description": "Tenant preview success",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "authJoinNotFound": "企业码或邀请码不存在",
+  "@authJoinNotFound": {
+    "description": "Join credential not found"
+  },
+  "authJoinHelp": "输入企业提供的企业码或邀请码，可在注册后加入对应企业",
+  "@authJoinHelp": {
+    "description": "Join credential help"
+  },
+  "authSelectOrganization": "选择组织",
+  "@authSelectOrganization": {
+    "description": "Tenant selection title"
+  },
+  "authNoOrganization": "暂无可用组织",
+  "@authNoOrganization": {
+    "description": "No organization"
+  },
+  "authNoOrganizationHint": "请联系管理员邀请您加入组织",
+  "@authNoOrganizationHint": {
+    "description": "No organization guidance"
+  },
+  "authPersonalSpace": "个人空间",
+  "@authPersonalSpace": {
+    "description": "Personal space entry"
+  },
+  "authPersonalSpaceSubtitle": "好友聊天、个人收藏",
+  "@authPersonalSpaceSubtitle": {
+    "description": "Personal space description"
+  },
+  "authSpaceIdentityValidationFailed": "空间身份校验失败，请重试",
+  "@authSpaceIdentityValidationFailed": {
+    "description": "Space identity validation failure"
+  },
+  "authPersonalSpaceRestoreFailed": "个人空间恢复失败，请重试",
+  "@authPersonalSpaceRestoreFailed": {
+    "description": "Personal space restore failure"
+  },
+  "authJoinEnterpriseFailed": "加入企业失败，请稍后重试",
+  "@authJoinEnterpriseFailed": {
+    "description": "Join enterprise failure"
+  }
+}

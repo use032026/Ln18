@@ -1,0 +1,52 @@
+[
+  {
+    "step": "dictionary-equivalence",
+    "command": [
+      "python3",
+      "/Users/starburst/Desktop/Ln18/tool/check_pc_equivalence.py",
+      "--pc-root",
+      "/Users/starburst/chat-im-cs/lpp/lpp_pc_client"
+    ],
+    "exitCode": 0,
+    "seconds": 0.35,
+    "log": "evidence/full-integration-pc-display-dictionary-equivalence.log"
+  },
+  {
+    "step": "typecheck",
+    "command": [
+      "npm",
+      "run",
+      "typecheck"
+    ],
+    "exitCode": 0,
+    "seconds": 6.57,
+    "log": "evidence/full-integration-pc-display-typecheck.log"
+  },
+  {
+    "step": "boundaries",
+    "command": [
+      "node",
+      "scripts/check-i18n-boundaries.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.07,
+    "log": "evidence/full-integration-pc-display-boundaries.log"
+  },
+  {
+    "step": "tests",
+    "command": [
+      "npx",
+      "vitest",
+      "--configLoader",
+      "runner",
+      "run",
+      "tests/unit/i18n.spec.ts",
+      "tests/unit/auto-translate-model.spec.ts",
+      "--pool=forks",
+      "--maxWorkers=1"
+    ],
+    "exitCode": 0,
+    "seconds": 1.11,
+    "log": "evidence/full-integration-pc-display-tests.log"
+  }
+]

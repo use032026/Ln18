@@ -1,0 +1,64 @@
+{
+  "generatedBy": "im_l10n_catalog",
+  "schemaVersion": 1,
+  "catalogPackage": "im_l10n_catalog",
+  "catalogVersion": "0.3.0",
+  "locales": [
+    "en",
+    "zh"
+  ],
+  "templateLocale": "en",
+  "modules": [
+    "common",
+    "chat",
+    "settings"
+  ],
+  "keys": [
+    "chatGroupMemberCount",
+    "chatHomeNewMessages",
+    "chatInputHint",
+    "chatReadCount",
+    "chatRecalledPeer",
+    "chatReplyTo",
+    "commonCancel",
+    "commonConfirm",
+    "commonRetry",
+    "commonSave",
+    "commonSend",
+    "formatMinutesAgo",
+    "settingsLanguage",
+    "settingsSignOutDeviceConfirm",
+    "settingsTitle"
+  ],
+  "excludeKeys": [
+    "commonDelete"
+  ],
+  "includeKeys": [
+    "chatGroupMemberCount",
+    "chatHomeNewMessages",
+    "chatInputHint",
+    "chatReadCount",
+    "chatRecalledPeer",
+    "chatReplyTo",
+    "commonCancel",
+    "commonConfirm",
+    "commonRetry",
+    "commonSave",
+    "commonSend",
+    "formatMinutesAgo",
+    "settingsLanguage",
+    "settingsSignOutDeviceConfirm",
+    "settingsTitle"
+  ],
+  "overrides": {
+    "en": [
+      "commonSend"
+    ],
+    "zh": [
+      "commonSend"
+    ]
+  },
+  "outputDir": "lib/l10n",
+  "outputClass": "SdkLocalizations",
+  "bundleSha256": "1b167d64bdb31ed9fdd4505eab9e3d1e821356da700b6ea6e51ccfd449a1ad58"
+}

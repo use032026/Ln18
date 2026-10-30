@@ -1,0 +1,24 @@
+name: sdk_ui_demo
+description: SDK-owned translation example with its own MaterialApp locale scope.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  im_l10n_catalog:
+    path: ../im_l10n_catalog
+
+flutter:
+  generate: true
+  uses-material-design: true

@@ -1,0 +1,17 @@
+{
+  "verdict": "passed",
+  "reviewers": [
+    "native_host_review",
+    "web_auth_review"
+  ],
+  "findingsClosed": [
+    "Web compact Portuguese aliases matched Dart",
+    "Resource receipts include index/profile/all shared ARBs",
+    "SDK native example documentation updated to35"
+  ],
+  "knownLimits": [
+    "Existing legal document translations/fallback unchanged",
+    "SDK/Web exclusive missing translations use English",
+    "No physical device, real host/backend or new native binaries/release"
+  ]
+}

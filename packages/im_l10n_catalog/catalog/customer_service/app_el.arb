@@ -1,0 +1,1369 @@
+{
+  "@@locale": "el",
+  "customerServiceTitle": "Γραφείο εξυπηρέτησης",
+  "customerServiceQueue": "Σε αναμονή",
+  "customerServiceActive": "Ενεργές",
+  "customerServiceClaim": "Αποδοχή",
+  "customerServiceTakeover": "Ανάληψη",
+  "customerServiceClose": "Τερματισμός εξυπηρέτησης",
+  "customerServiceCloseConfirm": "Τερματισμός αυτής της συνεδρίας εξυπηρέτησης;",
+  "customerServiceNoQueue": "Δεν υπάρχουν συνεδρίες σε αναμονή",
+  "customerServiceNoActive": "Δεν υπάρχουν ενεργές συνεδρίες",
+  "customerServiceVisitor": "Επισκέπτης",
+  "customerServiceCustomer": "Πελάτης",
+  "customerServiceAssignedTo": "Ανατέθηκε σε",
+  "customerServiceTransferConversation": "Μεταβίβαση συνομιλίας",
+  "marketingToolbar": "Εργαλεία μάρκετινγκ",
+  "customerServiceBroadcastDirectTitle": "Μαζική αποστολή σε πελάτες",
+  "csAiReplyTitle": "Απάντηση AI",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "Μήνυμα πελάτη",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "Προτάσεις απάντησης",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "Δημιουργία προτάσεων απάντησης",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "Επαναδημιουργήστε",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "Δημιουργία πρότασης",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "Εισαγωγή…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "Εισαγωγή απάντησης",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "Πηγές γνώσης",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "Υλικό βάσης γνώσεων",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "Δεν υπάρχουν ακόμη προτάσεις. Πατήστε για απάντηση AI.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "Δεν υπάρχει μήνυμα πελάτη για δημιουργία απάντησης.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "Αυτός ο λογαριασμός δεν μπορεί να χρησιμοποιήσει AI εξυπηρέτησης.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "Οι απαντήσεις AI δεν υποστηρίζονται σε αυτόν τον τύπο συνομιλίας.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "Αυτή η συνομιλία υποστήριξης δεν είναι διαθέσιμη. Ανανεώστε και δοκιμάστε ξανά.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "Δεν δημιουργήθηκε απάντηση AI. Δοκιμάστε ξανά.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "Το περιεχόμενο αποκλείστηκε από τον έλεγχο.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "Συμμετάσχετε στην ομάδα πριν στείλετε μαζικό μήνυμα ομάδας.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "Επιλέξτε ομαδική συνομιλία",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "Μια αποστολή σε όλο τον μισθωτή δεν μπορεί να στοχεύει ομαδική συνομιλία.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "Η ομάδα ή η εργασία προορισμού δεν βρέθηκε.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "Ο προορισμός δεν είναι ομαδική συνομιλία.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "Η ομάδα προορισμού δεν είναι διαθέσιμη.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "Αυτή η μορφή μηνύματος δεν υποστηρίζεται.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "Δεν βρέθηκαν επιλέξιμοι παραλήπτες στο πεδίο προορισμού.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "Το πλήθος παραληπτών υπερβαίνει το όριο μαζικής αποστολής.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "Πάρα πολλά αιτήματα μαζικής αποστολής. Δοκιμάστε αργότερα.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "Οι μαζικές αποστολές ομάδας δεν υποστηρίζουν επανάληψη για μεμονωμένους παραλήπτες.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "Απαιτείται δικαίωμα διαχειριστή για αυτή την αποστολή.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "Σφάλμα διακομιστή",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "Αποτυχία μαζικής αποστολής",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "Ηλεκτρονική υποστήριξη",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "Εξυπηρέτηση πελατών",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "Απόδοση",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "Υποδοχή",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "Λειτουργία",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "Χειροκίνητη αποδοχή",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "Αυτόματη ανάθεση",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "Δεν άλλαξε ο τρόπος αποδοχής. Δοκιμάστε ξανά.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "Δεν άλλαξε η κατάσταση. Δοκιμάστε ξανά.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "Μπείτε πρώτα σε εταιρικό χώρο.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "Αυτός ο ρόλος δεν έχει πρόσβαση στον χώρο εργασίας.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "Χώρος εργασίας ιδιοκτήτη",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "Χώρος εργασίας διαχειριστή",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "Λειτουργίες πελατών",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "Όλοι οι πελάτες",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "Αιτήματα συμμετοχής σε εταιρεία",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "Αύξηση πελατών",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "Λειτουργίες εξυπηρέτησης",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "Κέντρο υποστήριξης",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "Αποδοτικότητα εξυπηρέτησης ομάδας",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "Διαχείριση κινδύνου",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "Συνομιλίες σε κίνδυνο",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "Έλεγχος συνομιλιών",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "Έλεγχος ενεργειών",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "Λειτουργίες ομάδων",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "Εποπτεία ομάδων",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "Εταιρική μαζική αποστολή",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "Προβολή ανά εκπρόσωπο",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "Υπέρβαση χρόνου απάντησης",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "Δεν υπάρχουν δεδομένα πελατών",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "Αναζήτηση πελατών",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "Σύνολο πελατών",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "Αναμονή ανάθεσης",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "Μη ανατεθειμένοι πελάτες",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "Δεν υπάρχουν μη ανατεθειμένοι πελάτες",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "Προστέθηκαν σήμερα",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "Καθυστερημένη ανάθεση",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "Δεν υπάρχουν δεδομένα αύξησης",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "Η ίδια ημέρα",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "Αυτόν τον μήνα",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "Αυτό το τρίμηνο",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "Έξι μήνες",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "Νέοι πελάτες",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "Ενεργοί πελάτες",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "Ανενεργοί πελάτες",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "Κίνδυνος αποχώρησης",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "Δεν υπάρχουν δεδομένα ομάδων πελατών",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "Αναζήτηση ομάδων πελατών",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "Δεν υπάρχουν δεδομένα αποδοτικότητας εξυπηρέτησης",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "Μέση απόκριση",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "Διεκπεραιωμένες συνομιλίες",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "Παρακολούθηση ομάδων εξυπηρέτησης",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "Δεν υπάρχουν δεδομένα ομάδων εξυπηρέτησης",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "Αναζήτηση πελατών ή ομάδων εξυπηρέτησης",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "Διαχείριση συνομιλιών υποστήριξης",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "Δεν υπάρχουν συνομιλίες",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "Αναζήτηση πελατών, επισκεπτών ή συνομιλιών",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "Δεν υπάρχουν συνομιλίες σε κίνδυνο",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "Αναζήτηση πελατών, εκπροσώπων ή συνομιλιών",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "Δεν υπάρχουν εγγραφές συνομιλιών",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "Δεν υπάρχουν εγγραφές ελέγχου",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "Αναζήτηση χειριστών ή πελατών",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "Δεν υπάρχουν δεδομένα εξυπηρέτησης εκπροσώπων",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "Αναζήτηση εκπροσώπων",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "Δεν υπάρχουν συνομιλίες με υπέρβαση χρόνου",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "Αναζήτηση πελατών ή συνομιλιών",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "Κατάσταση εκπροσώπου",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "Δεν υπάρχουν δεδομένα κατάστασης εκπροσώπων",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "Δεν υπάρχουν δεδομένα εκπροσώπων",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "Οι μη ανατεθειμένοι πελάτες δεν είναι προσωρινά διαθέσιμοι.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "Αναμονή εκπροσώπου",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "Ανάθεση",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "Στοιχεία πελάτη",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "Δεν φορτώθηκαν διαθέσιμοι εκπρόσωποι.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "Ανατέθηκε αυτόματα βάσει κανόνων",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "Ανατέθηκε εκπρόσωπος",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "Δεν ανατέθηκε εκπρόσωπος.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "Ανάθεση εκπροσώπου",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "Αυτόματη ανάθεση βάσει κανόνων",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "Η υπηρεσία επιλέγει κατάλληλο εκπρόσωπο.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "Δεν υπάρχουν διαθέσιμοι εκπρόσωποι για ανάθεση.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "Η κατάσταση εκπροσώπου δεν είναι προσωρινά διαθέσιμη.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "Ο έλεγχος συνομιλιών δεν είναι ακόμη διαθέσιμος.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "Οι συνομιλίες σε κίνδυνο δεν είναι ακόμη διαθέσιμες.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "Τα στοιχεία υπέρβασης χρόνου απάντησης δεν είναι ακόμη διαθέσιμα.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "Ο έλεγχος ενεργειών δεν είναι προσωρινά διαθέσιμος.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "Εγγραφή ενέργειας",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "Συνομιλίες πελατών",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "Σε αναμονή",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "Προσωπικό υποδοχής",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "Επισκόπηση κέντρου υποστήριξης",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "Ζωντανή παρακολούθηση",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "Δεν φορτώθηκε η ζωντανή παρακολούθηση.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "Παρακολούθηση ζωντανών συνομιλιών υποστήριξης",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "Συγχρονισμός εκπροσώπων",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "Φιλτράρισμα ανά εκπρόσωπο",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "Όλοι οι εκπρόσωποι",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "Σε εξέλιξη",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "Όλες οι καταστάσεις",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "Όλα τα κανάλια",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "Ερωτήματα επισκεπτών",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "Υποστήριξη IM",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "Καμία ενεργή συνομιλία υποστήριξης δεν ταιριάζει με αυτά τα φίλτρα.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "Παρακολούθηση",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "Παρακολούθηση",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "Επιλέξτε συνομιλίες παραπάνω για παράλληλη παρακολούθηση.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "Δεν συγχρονίστηκαν τα στοιχεία. Ανανεώστε σε λίγο.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "Δεν υπάρχουν μηνύματα για προεπισκόπηση",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[Κλήση]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "Δεν υπάρχουν συνομιλίες πελατών",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "Δεν υπάρχουν συνομιλίες ηλεκτρονικής υποστήριξης",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "Τρέχουσες συνομιλίες",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "Άτομα στην ουρά",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "Απασχολημένοι εκπρόσωποι",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "Διαθέσιμοι εκπρόσωποι",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "Επισκόπηση ηλεκτρονικής υποστήριξης",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "Επισκέπτες στην ουρά",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "Επισκέπτες που εξυπηρετούνται",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "Εκκρεμείς συνομιλίες πελατών",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "Ενεργές συνομιλίες πελατών",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "Σύνολο στην ουρά",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "Μερίδιο συνολικής ουράς",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "Μερίδιο ενεργής εξυπηρέτησης",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "Μέση αναμονή",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "Ηλεκτρονική υποστήριξη σε αναμονή",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "Ενεργή ηλεκτρονική υποστήριξη",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "Η απόδοση εκπροσώπων δεν είναι προσωρινά διαθέσιμη.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "Εξυπηρετήθηκαν",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "Μέση πρώτη απόκριση",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "Μέση διάρκεια",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "Μέση αξιολόγηση",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "Πρώτη απόκριση",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "Διάρκεια",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "Αξιολόγηση",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "Ποσοστό επιτυχίας",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "Διακυβέρνηση συνομιλιών",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "Πάγωμα συνομιλίας",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "Άρση παγώματος συνομιλίας",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "Λεπτομέρειες συνομιλίας",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "ID συνομιλίας",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "Η συνομιλία πάγωσε",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "Το πάγωμα συνομιλίας άρθηκε",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "Λόγος παγώματος (προαιρετικό)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "Λόγος άρσης παγώματος (προαιρετικό)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "Επιβεβαίωση παγώματος",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "Επιβεβαίωση άρσης παγώματος",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "Συχνές απαντήσεις",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "Πρότυπα απαντήσεων",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "Δεν φορτώθηκαν οι απαντήσεις.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "Τραβήξτε προς τα κάτω για ανανέωση και δοκιμάστε ξανά.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "Δεν υπάρχουν γρήγορες απαντήσεις",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "Οι απαντήσεις θα εμφανιστούν εδώ όταν ενεργοποιηθεί η βιβλιοθήκη.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "Δεν υπάρχουν αντίστοιχες απαντήσεις",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "Δοκιμάστε άλλη λέξη-κλειδί",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "Αναζήτηση απαντήσεων",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "Απάντηση χωρίς τίτλο",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "Αυτός ο ρόλος δεν μπορεί να στέλνει μαζικά μηνύματα.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "Η μαζική αποστολή είναι διαθέσιμη μόνο σε εκπροσώπους.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "Υποβολή εργασίας…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "Προετοιμασία προεπισκόπησης…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "Προεπισκόπηση και υποβολή",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "Μαζικά μηνύματα",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "Δεν φορτώθηκαν οι ομαδικές συνομιλίες.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "Δοκιμάστε σε λίγο ή ελέγξτε τη λίστα συνομιλιών αυτού του χώρου.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "Πεδίο προορισμού",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "Όλα τα μέλη μισθωτή",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "Αποστολή ξεχωριστών μηνυμάτων σε επιλέξιμα μέλη αυτής της εταιρείας.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "Δεν υπάρχουν διαθέσιμες ομαδικές συνομιλίες.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "Δεν υπάρχουν αντίστοιχες ομαδικές συνομιλίες",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "Τα προσωπικά μηνύματα σε μέλη και οι ομαδικές αποστολές υποστηρίζουν μόνο ομάδες στις οποίες συμμετέχει ο λογαριασμός.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "Δοκιμάστε άλλη λέξη-κλειδί.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "Επιλέξτε ομαδική συνομιλία",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "Εισαγάγετε περιεχόμενο μαζικής αποστολής",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "Η συνεδρία σας έληξε. Συνδεθείτε ξανά.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "Επιβεβαίωση μαζικής αποστολής",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "Τα μηνύματα αποστέλλονται ως ο τρέχων εκπρόσωπος και παραδίδονται ασύγχρονα μετά την υποβολή. Τα σταλμένα μηνύματα δεν ανακαλούνται.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "Υποβολή εργασίας",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "Μηνύματα σε κάθε μέλος εταιρείας",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "Ιδιωτικά μηνύματα σε μέλη ομάδας",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "Στείλτε ξεχωριστό άμεσο μήνυμα σε κάθε μέλος ομάδας.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "Μαζική αποστολή στην ομάδα",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "Στείλτε μήνυμα απευθείας σε ομαδική συνομιλία.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "Μαζικές αποστολές σε πελάτες και ομάδες",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "Εισαγάγετε κείμενο μαζικής αποστολής",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "Αναζήτηση ομαδικών συνομιλιών",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "Δεν απαιτείται επιλογή ομάδας για όλα τα μέλη μισθωτή.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "Εκκαθάριση επιλογής ομάδας",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "Αποτελέσματα προεπισκόπησης",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "Νέα προσπάθεια",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "Επανάληψη για αποτυχημένους παραλήπτες",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "Ομαδική συνομιλία χωρίς όνομα",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "Δεν υπάρχουν αντίστοιχες συνομιλίες",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "Δεν υπάρχει ιστορικό συνομιλιών",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "Δεν υπάρχουν συνομιλίες στην ουρά",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "Δεν υπάρχουν ενεργές συνομιλίες",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "Δεν υπάρχουν συνομιλίες VIP",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "Ανάληψη από άνθρωπο",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "Συνέχιση συνομιλίας",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "Προβολή",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "Δεν έγινε αποδοχή συνομιλίας. Δοκιμάστε ξανά.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "Δεν έγινε ανάληψη. Δοκιμάστε ξανά.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "Η συνομιλία τελείωσε",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "Κλείσιμο συνομιλίας",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "Το κλείσιμο διατηρεί το ιστορικό. Η συνομιλία μπορεί να μπει ξανά στην ουρά ή να ανατεθεί βάσει πολιτικής εξυπηρέτησης.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "Η συνομιλία έκλεισε",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "Δεν έκλεισε η συνομιλία. Δοκιμάστε ξανά.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "Αναζήτηση συνομιλιών",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "Τρέχουσα υποδοχή",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "Ιστορικό συνομιλιών",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "Η συνομιλία συγχρονίζεται. Ανανεώστε σε λίγο.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "Μεταβιβασμένη συνομιλία",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "Απόρριψη ειδοποίησης",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "Εξυπηρετήθηκαν σήμερα",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "Μέσος χειρισμός",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "Ικανοποίηση",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "Συνομιλίες με υπέρβαση χρόνου",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "Στην ουρά · Αναμονή αυτόματης ανάθεσης",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "Στην ουρά · Αναμονή αποδοχής",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "Αναμονή --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "Εκτιμώμενη αναμονή --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "WeChat",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "Ιστός",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "Δική μας εφαρμογή",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "Χώρος υποστήριξης ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "Άλλαξε σε {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "Προσαρμοσμένο {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} συνεδρία} other {{count} συνεδρίες}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · Συνεδρίες: {count} · Πρώτη απόκριση: {response} · Αξιολόγηση: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "Εξυπηρετούνται {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "Η μαζική αποστολή υποβλήθηκε. Παραλήπτες: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {{count} αποτυχημένος παραλήπτης μπήκε ξανά στην ουρά} other {{count} αποτυχημένοι παραλήπτες μπήκαν ξανά στην ουρά}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "Τρόπος: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "Ομαδική συνομιλία: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "Εκτιμώμενοι παραλήπτες: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "Δείγμα: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "Εργασία: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "Παραδόθηκαν {sent}/{total}, απέτυχαν {failed}, παραλείφθηκαν {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {{count} μέλος} other {{count} μέλη}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "Θέση ουράς: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {Εκτιμώμενη αναμονή: {count} λεπτό} other {Εκτιμώμενη αναμονή: {count} λεπτά}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {Εκτιμώμενη αναμονή: {count} δευτερόλεπτο} other {Εκτιμώμενη αναμονή: {count} δευτερόλεπτα}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "Εκπρόσωπος: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "Πηγή: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "Στην ουρά #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "Αναμονή {count} λεπτ.",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "Αναμονή {count} δευτ.",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "Η συνομιλία μεταβιβάστηκε σε εσάς",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "Μια συνομιλία υποστήριξης μεταβιβάστηκε σε εσάς. Ανοίξτε τον χώρο εργασίας για προεπισκόπηση ιστορικού.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "Μια συνομιλία υποστήριξης μεταβιβάστηκε σε εσάς. Σημείωση: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "Αναμονή παράδοσης",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "Παράδοση",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "Ολοκληρώθηκε",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "Απέτυχε",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "Εγγεγραμμένος πελάτης",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "Άγνωστο κανάλι",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "Άγνωστος πελάτης",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "Ιστορικό μεταβιβασμένης συνομιλίας",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "Έκλεισε στις {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "Τελευταία δραστηριότητα {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "Μίνι Πρόγραμμα",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "sourceOwner": "chat-im-cs/lpp/lpp_mobile",
+  "nativeNames": {
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文",
+    "en": "English",
+    "ja": "日本語",
+    "ko": "한국어",
+    "vi": "Tiếng Việt",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "localizedNames": {
+    "zh": {
+      "zh-CN": "简体中文",
+      "zh-TW": "繁体中文",
+      "en": "英语",
+      "ja": "日语",
+      "ko": "韩语",
+      "vi": "越南语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "de": "德语",
+      "ru": "俄语",
+      "ar": "阿拉伯语"
+    },
+    "zh-Hant": {
+      "zh-CN": "簡體中文",
+      "zh-TW": "繁體中文",
+      "en": "英語",
+      "ja": "日語",
+      "ko": "韓語",
+      "vi": "越南語",
+      "es": "西班牙語",
+      "fr": "法語",
+      "de": "德語",
+      "ru": "俄語",
+      "ar": "阿拉伯語"
+    },
+    "en": {
+      "zh-CN": "Simplified Chinese",
+      "zh-TW": "Traditional Chinese",
+      "en": "English",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "vi": "Vietnamese",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian",
+      "ar": "Arabic"
+    },
+    "ja": {
+      "zh-CN": "簡体字中国語",
+      "zh-TW": "繁体字中国語",
+      "en": "英語",
+      "ja": "日本語",
+      "ko": "韓国語",
+      "vi": "ベトナム語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "de": "ドイツ語",
+      "ru": "ロシア語",
+      "ar": "アラビア語"
+    },
+    "ko": {
+      "zh-CN": "중국어 간체",
+      "zh-TW": "중국어 번체",
+      "en": "영어",
+      "ja": "일본어",
+      "ko": "한국어",
+      "vi": "베트남어",
+      "es": "스페인어",
+      "fr": "프랑스어",
+      "de": "독일어",
+      "ru": "러시아어",
+      "ar": "아랍어"
+    },
+    "vi": {
+      "zh-CN": "Tiếng Trung Giản thể",
+      "zh-TW": "Tiếng Trung Phồn thể",
+      "en": "Tiếng Anh",
+      "ja": "Tiếng Nhật",
+      "ko": "Tiếng Hàn",
+      "vi": "Tiếng Việt",
+      "es": "Tiếng Tây Ban Nha",
+      "fr": "Tiếng Pháp",
+      "de": "Tiếng Đức",
+      "ru": "Tiếng Nga",
+      "ar": "Tiếng Ả Rập"
+    },
+    "es": {
+      "zh-CN": "chino simplificado",
+      "zh-TW": "chino tradicional",
+      "en": "inglés",
+      "ja": "japonés",
+      "ko": "coreano",
+      "vi": "vietnamita",
+      "es": "español",
+      "fr": "francés",
+      "de": "alemán",
+      "ru": "ruso",
+      "ar": "árabe"
+    },
+    "fr": {
+      "zh-CN": "chinois simplifié",
+      "zh-TW": "chinois traditionnel",
+      "en": "anglais",
+      "ja": "japonais",
+      "ko": "coréen",
+      "vi": "vietnamien",
+      "es": "espagnol",
+      "fr": "français",
+      "de": "allemand",
+      "ru": "russe",
+      "ar": "arabe"
+    },
+    "de": {
+      "zh-CN": "Vereinfachtes Chinesisch",
+      "zh-TW": "Traditionelles Chinesisch",
+      "en": "Englisch",
+      "ja": "Japanisch",
+      "ko": "Koreanisch",
+      "vi": "Vietnamesisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch",
+      "ru": "Russisch",
+      "ar": "Arabisch"
+    },
+    "ru": {
+      "zh-CN": "упрощённый китайский",
+      "zh-TW": "традиционный китайский",
+      "en": "английский",
+      "ja": "японский",
+      "ko": "корейский",
+      "vi": "вьетнамский",
+      "es": "испанский",
+      "fr": "французский",
+      "de": "немецкий",
+      "ru": "русский",
+      "ar": "арабский"
+    },
+    "ar": {
+      "zh-CN": "الصينية المبسطة",
+      "zh-TW": "الصينية التقليدية",
+      "en": "الإنجليزية",
+      "ja": "اليابانية",
+      "ko": "الكورية",
+      "vi": "الفيتنامية",
+      "es": "الإسبانية",
+      "fr": "الفرنسية",
+      "de": "الألمانية",
+      "ru": "الروسية",
+      "ar": "العربية"
+    },
+    "bg": {
+      "zh-CN": "опростен китайски",
+      "zh-TW": "традиционен китайски",
+      "en": "английски",
+      "ja": "японски",
+      "ko": "корейски",
+      "vi": "виетнамски",
+      "es": "испански",
+      "fr": "френски",
+      "de": "немски",
+      "ru": "руски",
+      "ar": "арабски"
+    },
+    "cs": {
+      "zh-CN": "zjednodušená čínština",
+      "zh-TW": "tradiční čínština",
+      "en": "angličtina",
+      "ja": "japonština",
+      "ko": "korejština",
+      "vi": "vietnamština",
+      "es": "španělština",
+      "fr": "francouzština",
+      "de": "němčina",
+      "ru": "ruština",
+      "ar": "arabština"
+    },
+    "da": {
+      "zh-CN": "forenklet kinesisk",
+      "zh-TW": "traditionelt kinesisk",
+      "en": "engelsk",
+      "ja": "japansk",
+      "ko": "koreansk",
+      "vi": "vietnamesisk",
+      "es": "spansk",
+      "fr": "fransk",
+      "de": "tysk",
+      "ru": "russisk",
+      "ar": "arabisk"
+    },
+    "el": {
+      "zh-CN": "απλοποιημένα κινεζικά",
+      "zh-TW": "παραδοσιακά κινεζικά",
+      "en": "αγγλικά",
+      "ja": "ιαπωνικά",
+      "ko": "κορεατικά",
+      "vi": "βιετναμικά",
+      "es": "ισπανικά",
+      "fr": "γαλλικά",
+      "de": "γερμανικά",
+      "ru": "ρωσικά",
+      "ar": "αραβικά"
+    },
+    "fi": {
+      "zh-CN": "yksinkertaistettu kiina",
+      "zh-TW": "perinteinen kiina",
+      "en": "englanti",
+      "ja": "japani",
+      "ko": "korea",
+      "vi": "vietnam",
+      "es": "espanja",
+      "fr": "ranska",
+      "de": "saksa",
+      "ru": "venäjä",
+      "ar": "arabia"
+    },
+    "fil": {
+      "zh-CN": "Pinasimpleng Tsino",
+      "zh-TW": "Tradisyonal na Tsino",
+      "en": "Ingles",
+      "ja": "Hapon",
+      "ko": "Koreano",
+      "vi": "Vietnamese",
+      "es": "Espanyol",
+      "fr": "Pranses",
+      "de": "Aleman",
+      "ru": "Ruso",
+      "ar": "Arabe"
+    },
+    "hi": {
+      "zh-CN": "सरलीकृत चीनी",
+      "zh-TW": "पारंपरिक चीनी",
+      "en": "अंग्रेज़ी",
+      "ja": "जापानी",
+      "ko": "कोरियाई",
+      "vi": "वियतनामी",
+      "es": "स्पैनिश",
+      "fr": "फ़्रेंच",
+      "de": "जर्मन",
+      "ru": "रूसी",
+      "ar": "अरबी"
+    },
+    "hr": {
+      "zh-CN": "pojednostavljeni kineski",
+      "zh-TW": "tradicionalni kineski",
+      "en": "engleski",
+      "ja": "japanski",
+      "ko": "korejski",
+      "vi": "vijetnamski",
+      "es": "španjolski",
+      "fr": "francuski",
+      "de": "njemački",
+      "ru": "ruski",
+      "ar": "arapski"
+    },
+    "hu": {
+      "zh-CN": "egyszerűsített kínai",
+      "zh-TW": "hagyományos kínai",
+      "en": "angol",
+      "ja": "japán",
+      "ko": "koreai",
+      "vi": "vietnámi",
+      "es": "spanyol",
+      "fr": "francia",
+      "de": "német",
+      "ru": "orosz",
+      "ar": "arab"
+    },
+    "id": {
+      "zh-CN": "Tionghoa Sederhana",
+      "zh-TW": "Tionghoa Tradisional",
+      "en": "Inggris",
+      "ja": "Jepang",
+      "ko": "Korea",
+      "vi": "Vietnam",
+      "es": "Spanyol",
+      "fr": "Prancis",
+      "de": "Jerman",
+      "ru": "Rusia",
+      "ar": "Arab"
+    },
+    "it": {
+      "zh-CN": "cinese semplificato",
+      "zh-TW": "cinese tradizionale",
+      "en": "inglese",
+      "ja": "giapponese",
+      "ko": "coreano",
+      "vi": "vietnamita",
+      "es": "spagnolo",
+      "fr": "francese",
+      "de": "tedesco",
+      "ru": "russo",
+      "ar": "arabo"
+    },
+    "ms": {
+      "zh-CN": "Cina Ringkas",
+      "zh-TW": "Cina Tradisional",
+      "en": "Inggeris",
+      "ja": "Jepun",
+      "ko": "Korea",
+      "vi": "Vietnam",
+      "es": "Sepanyol",
+      "fr": "Perancis",
+      "de": "Jerman",
+      "ru": "Rusia",
+      "ar": "Arab"
+    },
+    "nb": {
+      "zh-CN": "forenklet kinesisk",
+      "zh-TW": "tradisjonell kinesisk",
+      "en": "engelsk",
+      "ja": "japansk",
+      "ko": "koreansk",
+      "vi": "vietnamesisk",
+      "es": "spansk",
+      "fr": "fransk",
+      "de": "tysk",
+      "ru": "russisk",
+      "ar": "arabisk"
+    },
+    "nl": {
+      "zh-CN": "vereenvoudigd Chinees",
+      "zh-TW": "traditioneel Chinees",
+      "en": "Engels",
+      "ja": "Japans",
+      "ko": "Koreaans",
+      "vi": "Vietnamees",
+      "es": "Spaans",
+      "fr": "Frans",
+      "de": "Duits",
+      "ru": "Russisch",
+      "ar": "Arabisch"
+    },
+    "pl": {
+      "zh-CN": "chiński uproszczony",
+      "zh-TW": "chiński tradycyjny",
+      "en": "angielski",
+      "ja": "japoński",
+      "ko": "koreański",
+      "vi": "wietnamski",
+      "es": "hiszpański",
+      "fr": "francuski",
+      "de": "niemiecki",
+      "ru": "rosyjski",
+      "ar": "arabski"
+    },
+    "pt": {
+      "zh-CN": "chinês simplificado",
+      "zh-TW": "chinês tradicional",
+      "en": "inglês",
+      "ja": "japonês",
+      "ko": "coreano",
+      "vi": "vietnamita",
+      "es": "espanhol",
+      "fr": "francês",
+      "de": "alemão",
+      "ru": "russo",
+      "ar": "árabe"
+    },
+    "ro": {
+      "zh-CN": "chineză simplificată",
+      "zh-TW": "chineză tradițională",
+      "en": "engleză",
+      "ja": "japoneză",
+      "ko": "coreeană",
+      "vi": "vietnameză",
+      "es": "spaniolă",
+      "fr": "franceză",
+      "de": "germană",
+      "ru": "rusă",
+      "ar": "arabă"
+    },
+    "si": {
+      "zh-CN": "සරල චීන",
+      "zh-TW": "සාම්ප්‍රදායික චීන",
+      "en": "ඉංග්‍රීසි",
+      "ja": "ජපන්",
+      "ko": "කොරියානු",
+      "vi": "වියට්නාම",
+      "es": "ස්පාඤ්ඤ",
+      "fr": "ප්‍රංශ",
+      "de": "ජර්මන්",
+      "ru": "රුසියානු",
+      "ar": "අරාබි"
+    },
+    "sk": {
+      "zh-CN": "zjednodušená čínština",
+      "zh-TW": "tradičná čínština",
+      "en": "angličtina",
+      "ja": "japončina",
+      "ko": "kórejčina",
+      "vi": "vietnamčina",
+      "es": "španielčina",
+      "fr": "francúzština",
+      "de": "nemčina",
+      "ru": "ruština",
+      "ar": "arabčina"
+    },
+    "sv": {
+      "zh-CN": "förenklad kinesiska",
+      "zh-TW": "traditionell kinesiska",
+      "en": "engelska",
+      "ja": "japanska",
+      "ko": "koreanska",
+      "vi": "vietnamesiska",
+      "es": "spanska",
+      "fr": "franska",
+      "de": "tyska",
+      "ru": "ryska",
+      "ar": "arabiska"
+    },
+    "th": {
+      "zh-CN": "ภาษาจีนตัวย่อ",
+      "zh-TW": "ภาษาจีนตัวเต็ม",
+      "en": "ภาษาอังกฤษ",
+      "ja": "ภาษาญี่ปุ่น",
+      "ko": "ภาษาเกาหลี",
+      "vi": "ภาษาเวียดนาม",
+      "es": "ภาษาสเปน",
+      "fr": "ภาษาฝรั่งเศส",
+      "de": "ภาษาเยอรมัน",
+      "ru": "ภาษารัสเซีย",
+      "ar": "ภาษาอาหรับ"
+    },
+    "tr": {
+      "zh-CN": "Basitleştirilmiş Çince",
+      "zh-TW": "Geleneksel Çince",
+      "en": "İngilizce",
+      "ja": "Japonca",
+      "ko": "Korece",
+      "vi": "Vietnamca",
+      "es": "İspanyolca",
+      "fr": "Fransızca",
+      "de": "Almanca",
+      "ru": "Rusça",
+      "ar": "Arapça"
+    },
+    "uk": {
+      "zh-CN": "спрощена китайська",
+      "zh-TW": "традиційна китайська",
+      "en": "англійська",
+      "ja": "японська",
+      "ko": "корейська",
+      "vi": "в’єтнамська",
+      "es": "іспанська",
+      "fr": "французька",
+      "de": "німецька",
+      "ru": "російська",
+      "ar": "арабська"
+    }
+  },
+  "nativeResources": [
+    {
+      "path": "ios/Runner/ar.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"يُستخدم الوصول إلى مكتبة الصور لاختيار الصورة الشخصية والصور ومقاطع الفيديو وصور التحقق من الهوية.\";\n\"NSCameraUsageDescription\" = \"يُستخدم الوصول إلى الكاميرا لمسح رموز QR والتقاط الصور ومقاطع الفيديو وصور التحقق من الهوية وإجراء مكالمات الفيديو.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"يُستخدم الوصول إلى مكتبة الصور لحفظ الصور ومقاطع الفيديو في مكتبة الصور لديك.\";\n\"NSMicrophoneUsageDescription\" = \"يُستخدم الوصول إلى الميكروفون لإرسال الرسائل الصوتية وإجراء المكالمات الصوتية أو مكالمات الفيديو وتسجيل مقاطع الفيديو.\";\n\"NSSpeechRecognitionUsageDescription\" = \"يُستخدم التعرف على الكلام لتحويل الكلام إلى نص.\";\n",
+      "sha256": "dd54d330e720f223958925a6ddb45bb6ffe079811f75e963eca4b8d88e20b9bb"
+    },
+    {
+      "path": "ios/Runner/bg.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Достъпът до снимките се използва за избор на аватари, изображения, видеоклипове и снимки за проверка на самоличността.\";\n\"NSCameraUsageDescription\" = \"Достъпът до камерата се използва за сканиране на QR кодове, заснемане на снимки и видеоклипове, снимки за проверка на самоличността и видеоразговори.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Достъпът до снимките се използва за запазване на изображения и видеоклипове във вашата фотобиблиотека.\";\n\"NSMicrophoneUsageDescription\" = \"Достъпът до микрофона се използва за изпращане на гласови съобщения, гласови и видеоразговори и запис на видеоклипове.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Разпознаването на реч се използва за преобразуване на реч в текст.\";\n",
+      "sha256": "224271171090b4ed525162f44f3d65bf0fb4c9ad00c89ad8e45d47af583fc534"
+    },
+    {
+      "path": "ios/Runner/cs.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Přístup k fotografiím slouží k výběru profilových fotek, obrázků, videí a fotografií pro ověření totožnosti.\";\n\"NSCameraUsageDescription\" = \"Přístup k fotoaparátu slouží ke skenování QR kódů, pořizování fotek a videí, fotografování dokladů pro ověření totožnosti a videohovorům.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Přístup k fotografiím slouží k ukládání obrázků a videí do vaší knihovny fotografií.\";\n\"NSMicrophoneUsageDescription\" = \"Přístup k mikrofonu slouží k odesílání hlasových zpráv, hlasovým hovorům a videohovorům a nahrávání videí.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Rozpoznávání řeči slouží k převodu řeči na text.\";\n",
+      "sha256": "2da4bf32bc65d08da189e9372be4b374e511e3fcf56b520619106cd892914594"
+    },
+    {
+      "path": "ios/Runner/da.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Adgang til fotobiblioteket bruges til at vælge profilbilleder, billeder, videoer og fotos til identitetsbekræftelse.\";\n\"NSCameraUsageDescription\" = \"Kameraet bruges til at scanne QR-koder, tage billeder og videoer, fotografere identitetsdokumenter og foretage videoopkald.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Adgang til fotobiblioteket bruges til at gemme billeder og videoer i dit fotobibliotek.\";\n\"NSMicrophoneUsageDescription\" = \"Mikrofonen bruges til at sende talebeskeder, foretage tale- eller videoopkald og optage videoer.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Talegenkendelse bruges til at omdanne tale til tekst.\";\n",
+      "sha256": "e334abbf801d00b7dbde522bb7ddbc8d8d07d46845b302b8cfdb5b30914c9b06"
+    },
+    {
+      "path": "ios/Runner/de.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Der Zugriff auf Fotos wird verwendet, um Profilbilder, Bilder, Videos und Fotos für die Identitätsprüfung auszuwählen.\";\n\"NSCameraUsageDescription\" = \"Die Kamera wird zum Scannen von QR-Codes, Aufnehmen von Fotos und Videos, Fotografieren von Identitätsdokumenten und für Videoanrufe verwendet.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Der Zugriff auf Fotos wird verwendet, um Bilder und Videos in Ihrer Fotomediathek zu speichern.\";\n\"NSMicrophoneUsageDescription\" = \"Das Mikrofon wird zum Senden von Sprachnachrichten, für Sprach- und Videoanrufe sowie zum Aufnehmen von Videos verwendet.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Die Spracherkennung wird verwendet, um Sprache in Text umzuwandeln.\";\n",
+      "sha256": "5fb7578e6f2b41606e386775dde1550ecdb84e08cac0ddbc43e2a1415673e829"
+    },
+    {
+      "path": "ios/Runner/el.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Η πρόσβαση στις φωτογραφίες χρησιμοποιείται για την επιλογή εικόνων προφίλ, εικόνων, βίντεο και φωτογραφιών επαλήθευσης ταυτότητας.\";\n\"NSCameraUsageDescription\" = \"Η πρόσβαση στην κάμερα χρησιμοποιείται για σάρωση κωδικών QR, λήψη φωτογραφιών και βίντεο, λήψη φωτογραφιών επαλήθευσης ταυτότητας και βιντεοκλήσεις.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Η πρόσβαση στις φωτογραφίες χρησιμοποιείται για την αποθήκευση εικόνων και βίντεο στη βιβλιοθήκη φωτογραφιών σας.\";\n\"NSMicrophoneUsageDescription\" = \"Η πρόσβαση στο μικρόφωνο χρησιμοποιείται για αποστολή φωνητικών μηνυμάτων, φωνητικές κλήσεις ή βιντεοκλήσεις και εγγραφή βίντεο.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Η αναγνώριση ομιλίας χρησιμοποιείται για τη μετατροπή της ομιλίας σε κείμενο.\";\n",
+      "sha256": "589015778b039cd17928ceaa20bf918e2988da34faa1468f3ae781a35c229ec9"
+    },
+    {
+      "path": "ios/Runner/en.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Photo library access is used to select avatars, images, videos, and identity verification photos.\";\n\"NSCameraUsageDescription\" = \"Camera access is used to scan QR codes, take photos and videos, capture identity verification photos, and make video calls.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Photo library access is used to save images and videos to your photo library.\";\n\"NSMicrophoneUsageDescription\" = \"Microphone access is used to send voice messages, make voice or video calls, and record videos.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Speech recognition is used to convert speech into text.\";\n",
+      "sha256": "f93eceb638a3543dbb5df3431e4c764a5f45f9de117c05c903deb103925d5192"
+    },
+    {
+      "path": "ios/Runner/es.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"El acceso a la fototeca se utiliza para seleccionar avatares, imágenes, vídeos y fotos de verificación de identidad.\";\n\"NSCameraUsageDescription\" = \"El acceso a la cámara se utiliza para escanear códigos QR, hacer fotos y vídeos, tomar fotos de verificación de identidad y realizar videollamadas.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"El acceso a la fototeca se utiliza para guardar imágenes y vídeos en ella.\";\n\"NSMicrophoneUsageDescription\" = \"El acceso al micrófono se utiliza para enviar mensajes de voz, realizar llamadas de voz o vídeo y grabar vídeos.\";\n\"NSSpeechRecognitionUsageDescription\" = \"El reconocimiento de voz se utiliza para convertir la voz en texto.\";\n",
+      "sha256": "45685353fd86362ff2197f318e2339ffef01227bf6f5639fd685615b19ded262"
+    },
+    {
+      "path": "ios/Runner/fi.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Kuvakirjaston käyttöoikeutta tarvitaan profiilikuvien, kuvien, videoiden ja henkilöllisyyden vahvistamiseen käytettävien kuvien valintaan.\";\n\"NSCameraUsageDescription\" = \"Kameran käyttöoikeutta tarvitaan QR-koodien skannaamiseen, kuvien ja videoiden ottamiseen, henkilöllisyyden vahvistamiseen käytettävien kuvien ottamiseen ja videopuheluihin.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Kuvakirjaston käyttöoikeutta tarvitaan kuvien ja videoiden tallentamiseen kuvakirjastoosi.\";\n\"NSMicrophoneUsageDescription\" = \"Mikrofonin käyttöoikeutta tarvitaan ääniviestien lähettämiseen, ääni- ja videopuheluihin sekä videoiden tallentamiseen.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Puheentunnistusta käytetään puheen muuntamiseen tekstiksi.\";\n",
+      "sha256": "79a22bf993f6c0536d30b0ad277b850277dd9eacf80cd105cbff6d421ce98402"
+    },
+    {
+      "path": "ios/Runner/fil.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Ginagamit ang access sa photo library para pumili ng avatar, mga larawan, video, at mga larawan para sa pag-verify ng pagkakakilanlan.\";\n\"NSCameraUsageDescription\" = \"Ginagamit ang camera para mag-scan ng mga QR code, kumuha ng mga larawan at video, kumuha ng mga larawan para sa pag-verify ng pagkakakilanlan, at magsagawa ng mga video call.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Ginagamit ang access sa photo library para mag-save ng mga larawan at video sa iyong photo library.\";\n\"NSMicrophoneUsageDescription\" = \"Ginagamit ang mikropono para magpadala ng mga voice message, magsagawa ng mga voice o video call, at mag-record ng mga video.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Ginagamit ang pagkilala sa pagsasalita para gawing teksto ang sinasabi.\";\n",
+      "sha256": "9a23e6614692209c86c09e58ae3c10463f40f3e0519ad9f44483a787b0bc1236"
+    },
+    {
+      "path": "ios/Runner/fr.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"L’accès aux photos permet de sélectionner des photos de profil, des images, des vidéos et des photos de vérification d’identité.\";\n\"NSCameraUsageDescription\" = \"La caméra permet de scanner des codes QR, de prendre des photos et vidéos, de photographier les documents d’identité et de passer des appels vidéo.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"L’accès aux photos permet d’enregistrer des images et des vidéos dans votre photothèque.\";\n\"NSMicrophoneUsageDescription\" = \"Le microphone permet d’envoyer des messages vocaux, de passer des appels vocaux ou vidéo et d’enregistrer des vidéos.\";\n\"NSSpeechRecognitionUsageDescription\" = \"La reconnaissance vocale permet de convertir la parole en texte.\";\n",
+      "sha256": "4e5c53dd962e2b4cbe56261c2c9f2ab3300945613665e787b760f56c452cd3f9"
+    },
+    {
+      "path": "ios/Runner/hi.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"फ़ोटो लाइब्रेरी का ऐक्सेस अवतार, तस्वीरें, वीडियो और पहचान सत्यापन की तस्वीरें चुनने के लिए इस्तेमाल किया जाता है।\";\n\"NSCameraUsageDescription\" = \"कैमरे का ऐक्सेस QR कोड स्कैन करने, तस्वीरें और वीडियो लेने, पहचान सत्यापन की तस्वीरें लेने और वीडियो कॉल करने के लिए इस्तेमाल किया जाता है।\";\n\"NSPhotoLibraryAddUsageDescription\" = \"फ़ोटो लाइब्रेरी का ऐक्सेस तस्वीरों और वीडियो को आपकी फ़ोटो लाइब्रेरी में सेव करने के लिए इस्तेमाल किया जाता है।\";\n\"NSMicrophoneUsageDescription\" = \"माइक्रोफ़ोन का ऐक्सेस वॉइस मैसेज भेजने, वॉइस या वीडियो कॉल करने और वीडियो रिकॉर्ड करने के लिए इस्तेमाल किया जाता है।\";\n\"NSSpeechRecognitionUsageDescription\" = \"बोली को टेक्स्ट में बदलने के लिए वाक् पहचान का इस्तेमाल किया जाता है।\";\n",
+      "sha256": "1662e733dc770464cf014f127343ebfda8f9b96a2bf0d70cab9027186e3282b8"
+    },
+    {
+      "path": "ios/Runner/hr.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Pristup fotografijama koristi se za odabir profilnih slika, slika, videozapisa i fotografija za provjeru identiteta.\";\n\"NSCameraUsageDescription\" = \"Pristup kameri koristi se za skeniranje QR kodova, snimanje fotografija i videozapisa, fotografiranje dokumenata za provjeru identiteta i videopozive.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Pristup fotografijama koristi se za spremanje slika i videozapisa u vašu zbirku fotografija.\";\n\"NSMicrophoneUsageDescription\" = \"Pristup mikrofonu koristi se za slanje glasovnih poruka, glasovne i videopozive te snimanje videozapisa.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Prepoznavanje govora koristi se za pretvaranje govora u tekst.\";\n",
+      "sha256": "32118137400c19f16ebcb6e8cd26e4a874683b386e13eb200918bf1c5f3d4098"
+    },
+    {
+      "path": "ios/Runner/hu.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"A fotókönyvtárhoz való hozzáférés profilképek, képek, videók és személyazonosság-ellenőrzéshez szükséges fényképek kiválasztására szolgál.\";\n\"NSCameraUsageDescription\" = \"A kamerához való hozzáférés QR-kódok beolvasására, fényképek és videók készítésére, személyazonosság-ellenőrzéshez szükséges fényképek készítésére és videóhívásokra szolgál.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"A fotókönyvtárhoz való hozzáférés képek és videók fotókönyvtárba mentésére szolgál.\";\n\"NSMicrophoneUsageDescription\" = \"A mikrofonhoz való hozzáférés hangüzenetek küldésére, hang- és videóhívásokra, valamint videók rögzítésére szolgál.\";\n\"NSSpeechRecognitionUsageDescription\" = \"A beszédfelismerés a beszéd szöveggé alakítására szolgál.\";\n",
+      "sha256": "9fdead01f94ef9a8210c2768a9ae77afeec1d9a97ad87a8a86435d28860b3bfb"
+    },
+    {
+      "path": "ios/Runner/id.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Akses perpustakaan foto digunakan untuk memilih avatar, gambar, video, dan foto verifikasi identitas.\";\n\"NSCameraUsageDescription\" = \"Akses kamera digunakan untuk memindai kode QR, mengambil foto dan video, memotret dokumen verifikasi identitas, dan melakukan panggilan video.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Akses perpustakaan foto digunakan untuk menyimpan gambar dan video ke perpustakaan foto Anda.\";\n\"NSMicrophoneUsageDescription\" = \"Akses mikrofon digunakan untuk mengirim pesan suara, melakukan panggilan suara atau video, dan merekam video.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Pengenalan ucapan digunakan untuk mengubah ucapan menjadi teks.\";\n",
+      "sha256": "af8d8159fef918e5afbef350f1a424391309edde62be19d33ad9a86376379733"
+    },
+    {
+      "path": "ios/Runner/it.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"L’accesso alle foto viene usato per selezionare immagini del profilo, immagini, video e foto per la verifica dell’identità.\";\n\"NSCameraUsageDescription\" = \"La fotocamera viene usata per scansionare codici QR, scattare foto e video, fotografare i documenti di identità e fare videochiamate.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"L’accesso alle foto viene usato per salvare immagini e video nella tua libreria fotografica.\";\n\"NSMicrophoneUsageDescription\" = \"Il microfono viene usato per inviare messaggi vocali, fare chiamate vocali o video e registrare video.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Il riconoscimento vocale viene usato per convertire la voce in testo.\";\n",
+      "sha256": "2111e1c6aeb1a8a9112a5c95e88f2a9b26bf15a85c983e499ebb7c2d5c35f286"
+    },
+    {
+      "path": "ios/Runner/ja.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"プロフィール画像、画像、動画、本人確認用の写真を選択するため、写真ライブラリへのアクセスが必要です。\";\n\"NSCameraUsageDescription\" = \"QRコードの読み取り、写真や動画（本人確認用の写真を含む）の撮影、ビデオ通話のため、カメラへのアクセスが必要です。\";\n\"NSPhotoLibraryAddUsageDescription\" = \"画像や動画を写真ライブラリに保存するため、アクセスが必要です。\";\n\"NSMicrophoneUsageDescription\" = \"音声メッセージの送信、音声通話やビデオ通話、動画の録画のため、マイクへのアクセスが必要です。\";\n\"NSSpeechRecognitionUsageDescription\" = \"音声をテキストに変換するため、音声認識を使用します。\";\n",
+      "sha256": "a691d3e9a74259a6d3ada8d4c3953511dcd925e8da1cf3282d100b40f1750f6b"
+    },
+    {
+      "path": "ios/Runner/ko.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"프로필 사진, 이미지, 동영상 및 본인 인증용 사진을 선택하려면 사진 보관함 접근이 필요합니다.\";\n\"NSCameraUsageDescription\" = \"QR 코드 스캔, 사진 및 동영상 촬영(본인 인증용 사진 포함), 영상 통화를 위해 카메라 접근이 필요합니다.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"이미지와 동영상을 사진 보관함에 저장하려면 접근이 필요합니다.\";\n\"NSMicrophoneUsageDescription\" = \"음성 메시지 전송, 음성 또는 영상 통화, 동영상 녹화를 위해 마이크 접근이 필요합니다.\";\n\"NSSpeechRecognitionUsageDescription\" = \"음성을 텍스트로 변환하기 위해 음성 인식을 사용합니다.\";\n",
+      "sha256": "869ee2a0142b50f92b67ab95bf1cf1a7c68596fd86a07df2e9437912de28a2e0"
+    },
+    {
+      "path": "ios/Runner/ms.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Akses pustaka foto digunakan untuk memilih avatar, imej, video dan foto pengesahan identiti.\";\n\"NSCameraUsageDescription\" = \"Akses kamera digunakan untuk mengimbas kod QR, mengambil foto dan video, merakam foto pengesahan identiti serta membuat panggilan video.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Akses pustaka foto digunakan untuk menyimpan imej dan video ke pustaka foto anda.\";\n\"NSMicrophoneUsageDescription\" = \"Akses mikrofon digunakan untuk menghantar mesej suara, membuat panggilan suara atau video serta merakam video.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Pengecaman pertuturan digunakan untuk menukar pertuturan kepada teks.\";\n",
+      "sha256": "d7317b6ffd8ff81e39f3b68f6c86230feff7f724c292802c11415316abc3a628"
+    },
+    {
+      "path": "ios/Runner/nb.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Tilgang til bildebiblioteket brukes til å velge profilbilder, bilder, videoer og bilder til identitetsbekreftelse.\";\n\"NSCameraUsageDescription\" = \"Kameraet brukes til å skanne QR-koder, ta bilder og videoer, fotografere identitetsdokumenter og foreta videosamtaler.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Tilgang til bildebiblioteket brukes til å lagre bilder og videoer i bildebiblioteket ditt.\";\n\"NSMicrophoneUsageDescription\" = \"Mikrofonen brukes til å sende talemeldinger, foreta tale- eller videosamtaler og ta opp videoer.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Talegjenkjenning brukes til å gjøre tale om til tekst.\";\n",
+      "sha256": "032199f2791841dc7cca50215d7b6a964bdebde244f307817eee9830f9d662f1"
+    },
+    {
+      "path": "ios/Runner/nl.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Toegang tot de fotobibliotheek wordt gebruikt om profielfoto’s, afbeeldingen, video’s en foto’s voor identiteitsverificatie te selecteren.\";\n\"NSCameraUsageDescription\" = \"De camera wordt gebruikt om QR-codes te scannen, foto’s en video’s te maken, identiteitsdocumenten te fotograferen en videogesprekken te voeren.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Toegang tot de fotobibliotheek wordt gebruikt om afbeeldingen en video’s in uw fotobibliotheek op te slaan.\";\n\"NSMicrophoneUsageDescription\" = \"De microfoon wordt gebruikt om spraakberichten te versturen, spraak- of videogesprekken te voeren en video’s op te nemen.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Spraakherkenning wordt gebruikt om spraak in tekst om te zetten.\";\n",
+      "sha256": "5bf5134f3557f1051005c96b6f2d4f5f2f86facf734dc022ba2c5c4e69fc7d0e"
+    },
+    {
+      "path": "ios/Runner/pl.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Dostęp do biblioteki zdjęć służy do wybierania awatarów, obrazów, filmów i zdjęć do weryfikacji tożsamości.\";\n\"NSCameraUsageDescription\" = \"Dostęp do aparatu służy do skanowania kodów QR, robienia zdjęć i filmów, fotografowania dokumentów do weryfikacji tożsamości oraz prowadzenia rozmów wideo.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Dostęp do biblioteki zdjęć służy do zapisywania obrazów i filmów w bibliotece zdjęć.\";\n\"NSMicrophoneUsageDescription\" = \"Dostęp do mikrofonu służy do wysyłania wiadomości głosowych, prowadzenia rozmów głosowych i wideo oraz nagrywania filmów.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Rozpoznawanie mowy służy do przekształcania mowy w tekst.\";\n",
+      "sha256": "9a19daf815a4db8496d2b65b855d8aa8f670236b477ba1b5955afac43fb57060"
+    },
+    {
+      "path": "ios/Runner/pt-BR.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"O acesso às fotos é usado para selecionar fotos de perfil, imagens, vídeos e fotos para verificação de identidade.\";\n\"NSCameraUsageDescription\" = \"A câmera é usada para ler códigos QR, tirar fotos, gravar vídeos, fotografar documentos de identidade e fazer videochamadas.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"O acesso às fotos é usado para salvar imagens e vídeos na sua biblioteca de fotos.\";\n\"NSMicrophoneUsageDescription\" = \"O microfone é usado para enviar mensagens de voz, fazer chamadas de voz ou vídeo e gravar vídeos.\";\n\"NSSpeechRecognitionUsageDescription\" = \"O reconhecimento de fala é usado para converter fala em texto.\";\n",
+      "sha256": "fa1fbaa24e04817b8a2edf9265d6526e6a9a506904d790a1a0af1dc40fd6b11e"
+    },
+    {
+      "path": "ios/Runner/pt-PT.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"O acesso às fotografias é utilizado para selecionar fotografias de perfil, imagens, vídeos e fotografias para verificação de identidade.\";\n\"NSCameraUsageDescription\" = \"A câmara é utilizada para ler códigos QR, tirar fotografias, gravar vídeos, fotografar documentos de identificação e efetuar videochamadas.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"O acesso às fotografias é utilizado para guardar imagens e vídeos na sua fototeca.\";\n\"NSMicrophoneUsageDescription\" = \"O microfone é utilizado para enviar mensagens de voz, efetuar chamadas de voz ou vídeo e gravar vídeos.\";\n\"NSSpeechRecognitionUsageDescription\" = \"O reconhecimento de voz é utilizado para converter voz em texto.\";\n",
+      "sha256": "4eb85cd2c821594085d81d1465fbb030d4a40dfc75d0d1a387011d6004fcfb7c"
+    },
+    {
+      "path": "ios/Runner/ro.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Accesul la biblioteca foto este utilizat pentru selectarea avatarurilor, imaginilor, videoclipurilor și fotografiilor pentru verificarea identității.\";\n\"NSCameraUsageDescription\" = \"Accesul la cameră este utilizat pentru scanarea codurilor QR, realizarea de fotografii și videoclipuri, fotografierea documentelor pentru verificarea identității și apeluri video.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Accesul la biblioteca foto este utilizat pentru salvarea imaginilor și videoclipurilor în biblioteca foto.\";\n\"NSMicrophoneUsageDescription\" = \"Accesul la microfon este utilizat pentru trimiterea mesajelor vocale, apeluri vocale sau video și înregistrarea videoclipurilor.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Recunoașterea vocală este utilizată pentru conversia vorbirii în text.\";\n",
+      "sha256": "1edc585fd019d77c468f606fbf8ccb5c019e16b13537e472809af922fa51d831"
+    },
+    {
+      "path": "ios/Runner/ru.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Доступ к медиатеке нужен для выбора аватара, изображений, видео и фотографий для подтверждения личности.\";\n\"NSCameraUsageDescription\" = \"Доступ к камере нужен для сканирования QR-кодов, съёмки фото и видео, фотографирования документов для подтверждения личности и видеозвонков.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Доступ к медиатеке нужен для сохранения изображений и видео в вашу медиатеку.\";\n\"NSMicrophoneUsageDescription\" = \"Доступ к микрофону нужен для отправки голосовых сообщений, голосовых и видеозвонков и записи видео.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Распознавание речи используется для преобразования речи в текст.\";\n",
+      "sha256": "9dc4883dbfcb9d39e5e2e341ab679a88483e4ceee9a67277d74cbdbff9a77e1f"
+    },
+    {
+      "path": "ios/Runner/si.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"අවතාර, රූප, වීඩියෝ සහ අනන්‍යතාව තහවුරු කිරීමේ ඡායාරූප තේරීමට ඡායාරූප පුස්තකාල ප්‍රවේශය භාවිත කරයි.\";\n\"NSCameraUsageDescription\" = \"QR කේත ස්කෑන් කිරීමට, ඡායාරූප සහ වීඩියෝ ගැනීමට, අනන්‍යතාව තහවුරු කිරීමේ ඡායාරූප ගැනීමට සහ වීඩියෝ ඇමතුම් කිරීමට කැමරා ප්‍රවේශය භාවිත කරයි.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"ඔබගේ ඡායාරූප පුස්තකාලයට රූප සහ වීඩියෝ සුරැකීමට ඡායාරූප පුස්තකාල ප්‍රවේශය භාවිත කරයි.\";\n\"NSMicrophoneUsageDescription\" = \"හඬ පණිවිඩ යැවීමට, හඬ හෝ වීඩියෝ ඇමතුම් කිරීමට සහ වීඩියෝ පටිගත කිරීමට මයික්‍රෆෝන ප්‍රවේශය භාවිත කරයි.\";\n\"NSSpeechRecognitionUsageDescription\" = \"කථනය පෙළ බවට පරිවර්තනය කිරීමට කථන හඳුනාගැනීම භාවිත කරයි.\";\n",
+      "sha256": "da4c00e46db494fb5f75b7506b7711bfae2b334e9863b3dad58a65ae9c66faaa"
+    },
+    {
+      "path": "ios/Runner/sk.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Prístup ku knižnici fotografií slúži na výber profilových obrázkov, obrázkov, videí a fotografií na overenie totožnosti.\";\n\"NSCameraUsageDescription\" = \"Prístup ku kamere slúži na skenovanie QR kódov, snímanie fotografií a videí, fotografovanie dokladov na overenie totožnosti a videohovory.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Prístup ku knižnici fotografií slúži na ukladanie obrázkov a videí do knižnice fotografií.\";\n\"NSMicrophoneUsageDescription\" = \"Prístup k mikrofónu slúži na odosielanie hlasových správ, hlasové hovory a videohovory a nahrávanie videí.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Rozpoznávanie reči slúži na prevod reči na text.\";\n",
+      "sha256": "caf6cde20566494724fa1e6d9ef8a4cfed9e1de7b7d63358a4154cd68a1c5246"
+    },
+    {
+      "path": "ios/Runner/sv.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Åtkomst till bildbiblioteket används för att välja profilbilder, bilder, videor och foton för identitetsverifiering.\";\n\"NSCameraUsageDescription\" = \"Kameran används för att skanna QR-koder, ta foton och videor, fotografera identitetshandlingar och ringa videosamtal.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Åtkomst till bildbiblioteket används för att spara bilder och videor i ditt bildbibliotek.\";\n\"NSMicrophoneUsageDescription\" = \"Mikrofonen används för att skicka röstmeddelanden, ringa röst- eller videosamtal och spela in videor.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Taligenkänning används för att omvandla tal till text.\";\n",
+      "sha256": "ef718e9a4a90d145dd69c8ea63b5ff53faa7c75db37b81967f8e42a76ede0b81"
+    },
+    {
+      "path": "ios/Runner/th.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"ใช้สิทธิ์เข้าถึงคลังรูปภาพเพื่อเลือกรูปประจำตัว รูปภาพ วิดีโอ และรูปถ่ายสำหรับยืนยันตัวตน\";\n\"NSCameraUsageDescription\" = \"ใช้สิทธิ์เข้าถึงกล้องเพื่อสแกนคิวอาร์โค้ด ถ่ายภาพและวิดีโอ ถ่ายรูปสำหรับยืนยันตัวตน และโทรวิดีโอ\";\n\"NSPhotoLibraryAddUsageDescription\" = \"ใช้สิทธิ์เข้าถึงคลังรูปภาพเพื่อบันทึกรูปภาพและวิดีโอลงในคลังรูปภาพของคุณ\";\n\"NSMicrophoneUsageDescription\" = \"ใช้สิทธิ์เข้าถึงไมโครโฟนเพื่อส่งข้อความเสียง โทรด้วยเสียงหรือวิดีโอ และบันทึกวิดีโอ\";\n\"NSSpeechRecognitionUsageDescription\" = \"ใช้การรู้จำเสียงพูดเพื่อแปลงเสียงพูดเป็นข้อความ\";\n",
+      "sha256": "b838f6dd79c4b97a2ca6cbad64fc8f5c738943240a62ada22f0507d3b0e7e366"
+    },
+    {
+      "path": "ios/Runner/tr.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Fotoğraf arşivi erişimi; profil fotoğrafı, görsel, video ve kimlik doğrulama fotoğrafları seçmek için kullanılır.\";\n\"NSCameraUsageDescription\" = \"Kamera erişimi; QR kodlarını taramak, fotoğraf ve video çekmek, kimlik doğrulama fotoğrafları çekmek ve görüntülü arama yapmak için kullanılır.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Fotoğraf arşivi erişimi, görselleri ve videoları fotoğraf arşivinize kaydetmek için kullanılır.\";\n\"NSMicrophoneUsageDescription\" = \"Mikrofon erişimi; sesli mesaj göndermek, sesli veya görüntülü arama yapmak ve video kaydetmek için kullanılır.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Konuşma tanıma, konuşmayı metne dönüştürmek için kullanılır.\";\n",
+      "sha256": "d6946a14bcd73ac4f42a0e87e5655035a2bf8c1bcf9d739484abaaaf1ca4a7a7"
+    },
+    {
+      "path": "ios/Runner/uk.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Доступ до медіатеки потрібен для вибору аватара, зображень, відео та фотографій для підтвердження особи.\";\n\"NSCameraUsageDescription\" = \"Доступ до камери потрібен для сканування QR-кодів, знімання фото й відео, фотографування документів для підтвердження особи та відеодзвінків.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Доступ до медіатеки потрібен для збереження зображень і відео у вашій медіатеці.\";\n\"NSMicrophoneUsageDescription\" = \"Доступ до мікрофона потрібен для надсилання голосових повідомлень, голосових і відеодзвінків та записування відео.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Розпізнавання мовлення використовується для перетворення мовлення на текст.\";\n",
+      "sha256": "0971c22f482c57df1c9b2c433cd6e9014c0c5483624a92d131f9152d66e332fa"
+    },
+    {
+      "path": "ios/Runner/vi.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"Cần quyền truy cập thư viện ảnh để chọn ảnh đại diện, hình ảnh, video và ảnh xác minh danh tính.\";\n\"NSCameraUsageDescription\" = \"Cần quyền truy cập camera để quét mã QR, chụp ảnh và quay video (bao gồm ảnh xác minh danh tính), cũng như thực hiện cuộc gọi video.\";\n\"NSPhotoLibraryAddUsageDescription\" = \"Cần quyền truy cập để lưu hình ảnh và video vào thư viện ảnh.\";\n\"NSMicrophoneUsageDescription\" = \"Cần quyền truy cập micrô để gửi tin nhắn thoại, thực hiện cuộc gọi thoại hoặc video và quay video.\";\n\"NSSpeechRecognitionUsageDescription\" = \"Sử dụng tính năng nhận dạng giọng nói để chuyển lời nói thành văn bản.\";\n",
+      "sha256": "3a24217b5358907b91263050155ad1fe3acffb8f11a7ef445a44858c56d03307"
+    },
+    {
+      "path": "ios/Runner/zh-Hans.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"需要访问相册以选择头像、图片、视频和实名认证照片\";\n\"NSCameraUsageDescription\" = \"需要访问相机以扫码、拍摄照片和视频（含实名认证照片），以及进行视频通话\";\n\"NSPhotoLibraryAddUsageDescription\" = \"需要保存图片和视频到相册\";\n\"NSMicrophoneUsageDescription\" = \"需要访问麦克风以发送语音消息、进行语音或视频通话及拍摄视频\";\n\"NSSpeechRecognitionUsageDescription\" = \"需要使用语音识别以将语音转换为文字\";\n",
+      "sha256": "4b854c303040b7930eb8113b13f2174a905533b545ddccf51edf2326338a7042"
+    },
+    {
+      "path": "ios/Runner/zh-Hant.lproj/InfoPlist.strings",
+      "content": "\"NSPhotoLibraryUsageDescription\" = \"需要取用相片圖庫以選擇頭像、圖片、影片和實名認證照片\";\n\"NSCameraUsageDescription\" = \"需要取用相機以掃描 QR 碼、拍攝照片和影片（含實名認證照片），以及進行視訊通話\";\n\"NSPhotoLibraryAddUsageDescription\" = \"需要將圖片和影片儲存至相片圖庫\";\n\"NSMicrophoneUsageDescription\" = \"需要取用麥克風以傳送語音訊息、進行語音或視訊通話及拍攝影片\";\n\"NSSpeechRecognitionUsageDescription\" = \"需要使用語音辨識以將語音轉換為文字\";\n",
+      "sha256": "c84aa6bd99db1be850c985fa061aa35c9c27a6abce85c176f3d3d20695be7cc7"
+    },
+    {
+      "path": "android/app/src/main/res/values/strings.xml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_name\">微界</string>\n    <string name=\"default_notification_channel_id\">lpp_messages</string>\n</resources>\n",
+      "sha256": "eb38b7299d27162cf4d34fc6ab9d07fc4d36b655e8d33dc4add038e55d02f500"
+    }
+  ]
+}

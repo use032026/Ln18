@@ -1,0 +1,626 @@
+{
+  "@@locale": "tr",
+  "enterpriseInfoTitle": "Kurum bilgileri",
+  "enterpriseName": "Ad",
+  "enterpriseDescription": "Açıklama",
+  "enterpriseUpdateSuccess": "Başarıyla Güncellendi",
+  "enterpriseUpdateFailed": "Güncelleme başarısız, tekrar deneyin",
+  "enterpriseLeave": "Kurumdan ayrıl",
+  "enterpriseLeaveConfirm": "Bu kurumdan ayrılmak istediğinizden emin misiniz?",
+  "enterpriseLeaveSuccess": "Kurumdan ayrıldınız",
+  "enterpriseLeaveFailed": "Ayrılınamadı, tekrar deneyin",
+  "enterpriseLeaveOwnerError": "Sahip doğrudan ayrılamaz. Önce sahipliği devredin.",
+  "enterpriseMemberCount": "Üyeler",
+  "enterpriseCreatedAt": "Oluşturulma",
+  "enterpriseCode": "Kurum kodu",
+  "enterpriseInviteMembers": "Üye davet et",
+  "enterpriseCopyInviteCode": "Davet kodunu kopyala",
+  "enterpriseInviteCodeCopied": "Davet kodu kopyalandı",
+  "groupCreateTitle": "Yeni grup",
+  "groupNameHint": "Grup adını girin",
+  "groupCreateSuccess": "Grup oluşturuldu",
+  "groupCreateFailed": "Grup oluşturulamadı",
+  "groupSettings": "Grup ayarları",
+  "groupName": "Grup adı",
+  "groupAvatar": "Grup avatarı",
+  "groupAnnouncement": "Duyuru",
+  "groupMembers": "Üyeler",
+  "groupAddMember": "Üye ekle",
+  "groupRemoveMember": "Üyeyi çıkar",
+  "groupRemoveMemberConfirm": "Bu üye çıkarılsın mı?",
+  "groupSetAdmin": "Yönetici yap",
+  "groupRemoveAdmin": "Yöneticilikten çıkar",
+  "groupTransferOwner": "Sahipliği devret",
+  "groupTransferOwnerConfirm": "Grup sahipliği bu üyeye devredilsin mi?",
+  "groupTransferOwnerSuccess": "Sahiplik devredildi",
+  "groupTransferOwnerFailed": "Devir başarısız, tekrar deneyin",
+  "groupLeave": "Gruptan ayrıl",
+  "groupLeaveConfirm": "Bu gruptan ayrılınsın mı?",
+  "groupLeaveSuccess": "Gruptan ayrıldınız",
+  "groupLeaveFailed": "Ayrılınamadı, tekrar deneyin",
+  "groupDissolve": "Grubu dağıt",
+  "groupDissolveConfirm": "Bu grup dağıtılsın mı? Tüm üyeler çıkarılacak.",
+  "groupDissolveSuccess": "Grup dağıtıldı",
+  "groupDissolveFailed": "Dağıtılamadı, tekrar deneyin",
+  "groupQrCode": "Grup QR kodu",
+  "groupMuteAll": "Tümünü sustur",
+  "groupMuteAllOn": "Tümünü susturmayı aç",
+  "groupMuteAllOff": "Tümünü susturmayı kapat",
+  "groupAllowMemberInvite": "Üyelerin davet etmesine izin ver",
+  "groupAllowMemberModifyTitle": "Üyelerin grup adını değiştirmesine izin ver",
+  "groupAllowMemberAtAll": "Üyelerin @Herkes etiketini kullanmasına izin ver",
+  "groupAllowMemberViewMemberList": "Üyelerin üye listesini görmesine izin ver",
+  "groupAllowQrCodeJoin": "QR koduyla katılmaya izin ver",
+  "groupRequireApproval": "Katılım için onay iste",
+  "groupAllowMemberAddFriend": "Üyelerin birbirini eklemesine izin ver",
+  "groupRoleOwner": "Sahip",
+  "groupRoleAdmin": "Yönetici",
+  "groupRoleMember": "Üye",
+  "groupNoMembers": "Üye yok",
+  "groupNoAnnouncements": "Duyuru yok",
+  "groupCreateAnnouncement": "Duyuru yayımla",
+  "groupEditAnnouncement": "Duyuruyu düzenle",
+  "groupDeleteAnnouncement": "Duyuruyu sil",
+  "groupDeleteAnnouncementConfirm": "Bu duyuru silinsin mi?",
+  "groupAnnouncementTitle": "Başlık",
+  "groupAnnouncementContent": "İçerik",
+  "groupAnnouncementPin": "Duyuruyu sabitle",
+  "groupMemberCount": "{count} üye",
+  "groupSelectedCount": "{count} seçildi",
+  "groupJoinRequestApprove": "Kabul Ediyorum",
+  "groupJoinRequestReject": "Reddet",
+  "groupJoinRequests": "Katılma talepleri",
+  "groupNoJoinRequests": "Katılma talebi yok",
+  "groupReadReceipts": "Okundu bilgisi",
+  "groupReadCount": "{count} okudu",
+  "groupUnreadCount": "{count} okunmamış",
+  "organizationTitle": "Kuruluş",
+  "organizationEmpty": "Bölüm bilgisi yok",
+  "organizationMembers": "Üyeler",
+  "organizationDepartment": "Bölüm",
+  "organizationPosition": "Pozisyon",
+  "organizationLeader": "Lider",
+  "qrCodeTitle": "QR kodum",
+  "qrCodeSave": "Albüme Kaydet",
+  "qrCodeShare": "Paylaş",
+  "qrCodeSaveSuccess": "Albüme kaydedildi",
+  "qrCodeSaveFailed": "Kaydedilemedi, tekrar deneyin",
+  "qrCodeRefresh": "QR kodunu yenile",
+  "qrCodeExpired": "QR kodunun süresi doldu, yenileyin",
+  "qrCodeScanToAdd": "Beni kişilerinize eklemek için tarayın",
+  "spacePersonal": "Kişisel",
+  "spaceEnterprise": "Kurum",
+  "spaceJoinByCode": "Kurum koduyla katıl",
+  "spaceJoinByInvite": "Davet koduyla katıl",
+  "spaceEnterCode": "Kurum kodunu girin",
+  "spaceEnterInviteCode": "Davet kodunu girin",
+  "spaceSearchEnterprise": "Kurum ara",
+  "spaceJoinRequestSent": "Talep gönderildi, onay bekleniyor",
+  "spaceJoinRequestPending": "Onay bekleniyor",
+  "spaceJoinRequestApproved": "Talep onaylandı",
+  "spaceJoinRequestRejected": "Talep reddedildi",
+  "spaceAlreadyMember": "Zaten üyesiniz",
+  "spaceAutoApproved": "Otomatik onaylandı. Hoş geldiniz!",
+  "spacePendingApprovalHint": "Kayıt başarılı. Katılma talebiniz gönderildi.",
+  "spaceNoSpaces": "Alan yok",
+  "spaceInviteExpired": "Davet kodunun süresi doldu",
+  "spaceInviteTargetMismatch": "Bu davet kodu hesabınız için değil",
+  "spaceAcceptInviteSuccess": "Kuruma başarıyla katıldınız",
+  "spaceAcceptInviteFailed": "Katılınamadı, tekrar deneyin",
+  "spaceTenantSelectTitle": "Alan seçin",
+  "spaceTenantSelectHint": "Girmek istediğiniz alanı seçin",
+  "spaceEnterPersonal": "Kişisel alana gir",
+  "spaceEnterEnterprise": "Kurum alanına gir",
+  "recentContactsTitle": "Son kullanılanlar",
+  "recentContactsEmpty": "Son kullanılan kişi yok",
+  "inviteFriendsTitle": "Arkadaş davet et",
+  "inviteFriendsCopyLink": "Davet bağlantısını kopyala",
+  "inviteFriendsLinkCopied": "Davet bağlantısı kopyalandı",
+  "pendingJoinRequestsTitle": "Yeni başvurular",
+  "pendingJoinRequestsEmpty": "Başvuru yok",
+  "pendingJoinRequestApprove": "Kabul Ediyorum",
+  "pendingJoinRequestReject": "Reddet",
+  "pendingJoinRequestApproveSuccess": "Onaylandı",
+  "pendingJoinRequestRejectSuccess": "Reddedildi",
+  "pendingJoinRequestFailed": "İşlem başarısız, tekrar deneyin",
+  "groupListTitle": "Gruplar",
+  "groupListEmpty": "Grup yok",
+  "joinCompanyTitle": "Kuruma katıl",
+  "joinCompanyCodeHint": "Kurum kodunu girin",
+  "joinCompanySearchHint": "Kurum adı ara",
+  "joinCompanyApply": "Katılmak için başvur",
+  "joinCompanyApplySuccess": "Başvuru gönderildi",
+  "joinCompanyApplyFailed": "Başvurulamadı, tekrar deneyin",
+  "joinCompanyAutoApproved": "Otomatik onaylandı. Hoş geldiniz!",
+  "joinCompanyPending": "Başvuru gönderildi, onay bekleniyor",
+  "joinCompanyInviteCodeHint": "Davet kodunu girin",
+  "joinCompanyAcceptInvite": "Daveti kabul et",
+  "joinCompanyNoResults": "Kurum bulunamadı",
+  "joinCompanyMemberCount": "{count} üye",
+  "approvalEmpty": "Talep yok",
+  "approvalApprove": "Kabul Ediyorum",
+  "approvalReject": "Reddet",
+  "approvalPending": "Bekliyor",
+  "approvalApproved": "Onaylandı",
+  "approvalRejected": "Reddedildi",
+  "approvalExpired": "Süresi Doldu",
+  "approvalCancelled": "İptal edildi",
+  "approvalReplayFailed": "Asıl işlem başarısız oldu. Lütfen yeniden deneyin.",
+  "requestCancelled": "Talep iptal edildi",
+  "enterpriseNoPermission": "İzin yok",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Kurum bilgi ayarları",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Kurum yapılandırması",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Resmî hesaplar",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Resmî hesapları yönet",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Üye yönetimi",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Personel davet et",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Üyeler",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Duyuru yönetimi",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Kurum toplu mesajı",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Onaylar",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Üyelik onayları",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Sahipliği devret",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Devirden sonra yönetici olursunuz. Bu işlem geri alınamaz. Üye listesinden yeni sahibi seçin.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Yeni sahip seçin",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Temsilci atama modu",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Otomatik atama",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Belirlenen temsilci",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Üyelik onay modu",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Manuel onay",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Otomatik onay",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Arkadaş modu",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Sosyal mod",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Yalıtım modu",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Widget ziyaretçi erişimi",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Devre dışı",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Uygun temsilcileri sırayla otomatik ata",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Tüm müşterileri belirlenen temsilciye ata",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Müşteri talepleri yönetici onayı gerektirir",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Müşteri taleplerini otomatik onayla",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Müşteriler birbirini arkadaş olarak ekleyebilir",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Müşteriler birbirini arkadaş olarak ekleyemez",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Üye",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Üyelerde ara",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Üye yap",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Teknik destek yap",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Hizmet temsilcisi yap",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Devri onayla",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Kurum adı gerekli",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Kurum adını girin",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Açıklama yok",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Kurum logosu",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Oluşturma başarısız oldu. Lütfen tekrar deneyin.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Azami kullanım",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Emir Geçerlilik Süresi",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 saat",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 saat",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 gün",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 gün",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Davet kodu oluştur",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Davet kodu",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Herkes",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Personel",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Personel, rol veya pozisyon ara",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Kurum üyeleri",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Eşleşen üye yok",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Kurum özeti",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Yönet",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Rol izinleri",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "İşten ayrılma devri",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Personel ara",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Kurum personeli",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Arkadaş profili",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Sesli ve görüntülü arama",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Arkadaş ekle",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Erkek",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Kadın",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Okunmamış görüşme yok",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Davet kodu kopyalandı",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "“{name}” kurumdan çıkarılsın mı?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Sahiplik “{name}” kişisine devredilsin mi? Yönetici olacaksınız. Bu işlem geri alınamaz.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} kullanım} other {{count} kullanım}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "{hours} saat geçerli · En fazla {count} kullanım",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} okunmamış görüşme} other {{count} okunmamış görüşme}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} okunmamış mesaj} other {{count} okunmamış mesaj}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Balon kimliği: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Kurumdan ayrıl",
+  "enterpriseLoginBeforeSearch": "Kuruluş aramadan önce giriş yapın",
+  "enterpriseSearchFailed": "Arama başarısız. Tekrar deneyin.",
+  "enterpriseLoginBeforeJoin": "Kuruluşa katılma başvurusu yapmadan önce giriş yapın",
+  "enterpriseApplicationPending": "Başvuru gönderildi. Yönetici onayı bekleniyor.",
+  "enterpriseLoginBeforeAction": "Devam etmek için giriş yapın",
+  "enterprisePlatformTagline": "Kuruluşlar için özel müşteri etkileşimi",
+  "enterpriseLookupHint": "Kuruluş numarası, kısa adı veya davet kodunu girin",
+  "enterpriseLookup": "Ara",
+  "enterpriseApplicationNote": "Başvuru notu (isteğe bağlı)",
+  "enterpriseLookupGuide": "Kuruluş numarası veya kısa adıyla arayın ya da davet koduyla katılın",
+  "enterpriseRecommendationsLoading": "Önerilen kuruluşlar yükleniyor",
+  "enterpriseRecommendationsFailed": "Önerilen kuruluşlar yüklenemedi",
+  "enterpriseReload": "Yenile",
+  "enterpriseNoRecommendations": "Öneri yok. Kuruluş numarası, kısa adı veya davet koduyla arayın.",
+  "enterpriseRecommended": "Önerilen kuruluşlar",
+  "enterpriseJoined": "Katıldınız",
+  "enterpriseRequestsLoadFailed": "Başvurular yüklenemedi",
+  "enterpriseCodeMissing": "Kuruluş numarası kullanılamıyor",
+  "enterpriseAlias": "Kuruluş kısa adı",
+  "enterpriseCodeLabel": "Kuruluş numarası",
+  "enterprisePrivateAliasHint": "Bu kuruluş ayrıntılarını yayımlamadı. Başvurunuz kuruluşu bu kısa adla tanımlar.",
+  "enterpriseInvitationMismatch": "Bu davet kodu size yönelik değil. Katılım başarısız olabilir.",
+  "enterpriseTechnicalRole": "Teknik destek",
+  "enterpriseJoin": "Katıl",
+  "enterpriseCancelApplication": "Geri al",
+  "enterpriseApplication": "Kuruluş başvurusu",
+  "enterpriseAliasValue": "Kuruluş kısa adı: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Kuruluş numarası: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Kısa ad: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "{role} olarak katılacaksınız",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Bu davet kodunun hedefi: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Ret nedeni: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Kuruluş {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Herkes",
+  "enterpriseAudienceAllHint": "Çalışanlar ve müşteriler",
+  "enterpriseAudienceStaffHint": "Yalnızca kuruluş çalışanları",
+  "enterpriseAudienceCustomers": "Kuruluş müşterileri",
+  "enterpriseAudienceCustomersHint": "Kuruluşa katılan müşteriler",
+  "enterpriseOfficialGroups": "Resmî gruplar",
+  "enterpriseAudienceGroupsHint": "Resmî kuruluş grup sohbetleri",
+  "enterpriseSendNow": "Şimdi gönder",
+  "enterpriseSendScheduled": "Gönderimi zamanla",
+  "enterprisePreviewing": "Önizleniyor",
+  "enterprisePreview": "Önizle",
+  "enterpriseSubmitSend": "Gönderim için ilet",
+  "enterpriseBroadcastSubmitted": "Kuruluş toplu mesajı gönderildi",
+  "enterpriseScheduledUnavailable": "Bu sürümde zamanlanmış kuruluş toplu mesajları kullanılamıyor",
+  "enterpriseBroadcastFailed": "Kuruluş toplu mesajı başarısız. Daha sonra tekrar deneyin.",
+  "enterpriseBroadcastGuide": "Toplu mesajlar kuruluşun resmî hesabını kullanır ve işlem kaydedilir. Gönderimden sonra teslimat sonuçları görülebilir.",
+  "enterpriseSenderIdentity": "Gönderen kimliği",
+  "enterpriseSenderAfterPreview": "Önizlemede onaylayın",
+  "enterpriseSenderConfirmed": "Onaylandı",
+  "enterpriseDefaultOfficialSender": "Varsayılan kuruluş resmî hesabı",
+  "enterpriseOfficialSenderHint": "Alıcılar kuruluşun resmî hesap kimliğini görür",
+  "enterpriseMessageContent": "Mesaj içeriği",
+  "enterpriseBroadcastContentHint": "Resmî hesaptan gönderilecek toplu mesajı girin",
+  "enterpriseInternalNoteHint": "Denetim ve takip için iç not (isteğe bağlı)",
+  "enterpriseSendPreview": "Gönderim önizlemesi",
+  "enterpriseExpectedRecipients": "Tahmini alıcılar",
+  "enterpriseDeliveryMethod": "Teslimat yöntemi",
+  "enterpriseTaskStatus": "Görev durumu",
+  "enterpriseNoBroadcastHistory": "Henüz kuruluş toplu mesajı yok",
+  "enterpriseHistoryUnavailable": "Geçici olarak kullanılamıyor",
+  "enterpriseBroadcastDenied": "Kuruluş toplu mesajı izni yok",
+  "enterpriseBroadcastRoleHint": "Kuruluş toplu mesajları yalnızca yönetici ve sahipler içindir.",
+  "enterpriseDefaultApplicationMessage": "Kuruluşunuza katılmak istiyorum"
+}

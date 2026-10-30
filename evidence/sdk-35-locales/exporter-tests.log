@@ -1,0 +1,13 @@
+test_check_never_bootstraps_missing_dependencies (test_sync.SyncContractTest) ... ok
+test_export_check_and_detect_unmanaged_change_without_rewriting (test_sync.SyncContractTest) ... ok
+test_removed_output_requires_explicit_migration (test_sync.SyncContractTest) ... ok
+test_unsafe_output_and_symlink_are_rejected (test_sync.SyncContractTest) ... ok
+test_version_drift_is_rejected_before_writing (test_sync.SyncContractTest) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
+Generated pc: 1 resource files, catalog 0.2.0.
+Verified pc: 1 resource files, catalog 0.2.0.
+Generated pc: 1 resource files, catalog 0.2.0.

@@ -1,0 +1,72 @@
+{
+  "catalogVersion": "0.2.0",
+  "status": "integrated",
+  "consumerResourceCounts": {
+    "chatMobile": {
+      "locales": 35,
+      "keysPerLocale": 2250,
+      "supplementalOutputs": 40
+    },
+    "chatPc": {
+      "locales": 6,
+      "leafKeysPerLocale": 2973,
+      "modules": 32,
+      "supplementalDisplayNames": 17,
+      "resourceOutputs": 8
+    },
+    "imSdk": {
+      "locales": 6,
+      "keysPerLocale": 1040,
+      "preservedOverrideValues": 30,
+      "webMessages": 146,
+      "sdkChromeMessages": 77
+    }
+  },
+  "equivalence": {
+    "arbObjectsAndMetadata": 41,
+    "appLocalizationApiSignaturesPreserved": true,
+    "mobileNativeResourcesByteIdentical": 36,
+    "pcObjectsArraysAndFallbackPreserved": true,
+    "supplementalValuesAndControlFlowPreserved": true
+  },
+  "validation": {
+    "publicDartTests": 17,
+    "exporterSafetyTests": 5,
+    "demoWidgetTests": 5,
+    "mobileInitialFocusedTests": 106,
+    "mobileAdditionalFocusedTests": 45,
+    "pcInitialFocusedTests": 12,
+    "pcAdditionalFocusedTests": 11,
+    "testCountsOverlap": true,
+    "sdkWebTests": 54,
+    "allConsumerReadOnlyChecks": "passed",
+    "independentReviews": "passed",
+    "sdkFlutterTests": "not executed: two native hook preparation failures (objective_c then sqlite3); tests never loaded"
+  },
+  "cleanup": {
+    "removedBytes": 373272576,
+    "reports": [
+      "full-integration-mobile-cleanup-apply.json",
+      "full-integration-mobile-additional-cleanup-apply.json",
+      "full-integration-ln18-cleanup-apply.json"
+    ],
+    "preserved": [
+      "all source and generated resources",
+      "user dirty changes and staging",
+      "dependencies and other tasks existing build scenes",
+      "SDK native hook diagnostics and verified Web distribution",
+      "running A/B deliverables and servers"
+    ]
+  },
+  "committed": false,
+  "pushed": false,
+  "remotePublished": false,
+  "archive": {
+    "version": "0.2.0",
+    "file": "deliverables/im_l10n_catalog-0.2.0.zip",
+    "bytes": 2674863,
+    "files": 750,
+    "sha256": "ecb49d7f97751887197730245c7c222a0ca48b97bee19e702e5802f16063df3f",
+    "remotePublished": false
+  }
+}

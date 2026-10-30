@@ -1,0 +1,626 @@
+{
+  "@@locale": "sv",
+  "enterpriseInfoTitle": "Företagsinformation",
+  "enterpriseName": "Namn",
+  "enterpriseDescription": "Beskrivning",
+  "enterpriseUpdateSuccess": "Uppdatering lyckades",
+  "enterpriseUpdateFailed": "Uppdateringen misslyckades. Försök igen.",
+  "enterpriseLeave": "Lämna företag",
+  "enterpriseLeaveConfirm": "Vill du lämna detta företag?",
+  "enterpriseLeaveSuccess": "Företag lämnat",
+  "enterpriseLeaveFailed": "Kunde inte lämna. Försök igen.",
+  "enterpriseLeaveOwnerError": "Ägaren kan inte lämna direkt. Överför ägarskapet först.",
+  "enterpriseMemberCount": "Medlemmar",
+  "enterpriseCreatedAt": "Skapat",
+  "enterpriseCode": "Företagskod",
+  "enterpriseInviteMembers": "Bjud in medlemmar",
+  "enterpriseCopyInviteCode": "Kopiera inbjudningskod",
+  "enterpriseInviteCodeCopied": "Inbjudningskod kopierad",
+  "groupCreateTitle": "Ny grupp",
+  "groupNameHint": "Ange gruppnamn",
+  "groupCreateSuccess": "Grupp skapad",
+  "groupCreateFailed": "Kunde inte skapa gruppen",
+  "groupSettings": "Gruppinställningar",
+  "groupName": "Gruppnamn",
+  "groupAvatar": "Gruppbild",
+  "groupAnnouncement": "Anslag",
+  "groupMembers": "Medlemmar",
+  "groupAddMember": "Lägg till medlemmar",
+  "groupRemoveMember": "Ta bort medlem",
+  "groupRemoveMemberConfirm": "Ta bort den här medlemmen?",
+  "groupSetAdmin": "Gör till administratör",
+  "groupRemoveAdmin": "Ta bort administratörsrättigheter",
+  "groupTransferOwner": "Överför ägarskap",
+  "groupTransferOwnerConfirm": "Överföra gruppens ägarskap till den här medlemmen?",
+  "groupTransferOwnerSuccess": "Ägarskap överfört",
+  "groupTransferOwnerFailed": "Överföringen misslyckades. Försök igen.",
+  "groupLeave": "Lämna grupp",
+  "groupLeaveConfirm": "Lämna den här gruppen?",
+  "groupLeaveSuccess": "Gruppen lämnad",
+  "groupLeaveFailed": "Kunde inte lämna. Försök igen.",
+  "groupDissolve": "Upplös grupp",
+  "groupDissolveConfirm": "Upplösa den här gruppen? Alla medlemmar tas bort.",
+  "groupDissolveSuccess": "Gruppen upplöst",
+  "groupDissolveFailed": "Upplösningen misslyckades. Försök igen.",
+  "groupQrCode": "Gruppens QR-kod",
+  "groupMuteAll": "Tysta alla",
+  "groupMuteAllOn": "Aktivera tystning av alla",
+  "groupMuteAllOff": "Inaktivera tystning av alla",
+  "groupAllowMemberInvite": "Tillåt medlemsinbjudningar",
+  "groupAllowMemberModifyTitle": "Tillåt medlemmar att ändra gruppnamnet",
+  "groupAllowMemberAtAll": "Tillåt medlemmar att nämna @Alla",
+  "groupAllowMemberViewMemberList": "Tillåt medlemmar att se medlemslistan",
+  "groupAllowQrCodeJoin": "Tillåt anslutning via QR-kod",
+  "groupRequireApproval": "Kräv godkännande för anslutning",
+  "groupAllowMemberAddFriend": "Tillåt medlemmar att lägga till varandra",
+  "groupRoleOwner": "Ägare",
+  "groupRoleAdmin": "Administratör",
+  "groupRoleMember": "Medlem",
+  "groupNoMembers": "Inga medlemmar",
+  "groupNoAnnouncements": "Inga anslag",
+  "groupCreateAnnouncement": "Publicera anslag",
+  "groupEditAnnouncement": "Redigera anslag",
+  "groupDeleteAnnouncement": "Radera anslag",
+  "groupDeleteAnnouncementConfirm": "Radera detta anslag?",
+  "groupAnnouncementTitle": "Titel",
+  "groupAnnouncementContent": "Innehåll",
+  "groupAnnouncementPin": "Fäst anslag",
+  "groupMemberCount": "{count} medlemmar",
+  "groupSelectedCount": "{count} valda",
+  "groupJoinRequestApprove": "Godkänn",
+  "groupJoinRequestReject": "Neka",
+  "groupJoinRequests": "Anslutningsförfrågningar",
+  "groupNoJoinRequests": "Inga anslutningsförfrågningar",
+  "groupReadReceipts": "Läskvitton",
+  "groupReadCount": "{count} lästa",
+  "groupUnreadCount": "{count} olästa",
+  "organizationTitle": "Organisation",
+  "organizationEmpty": "Ingen avdelningsinformation",
+  "organizationMembers": "Medlemmar",
+  "organizationDepartment": "Avdelning",
+  "organizationPosition": "Befattning",
+  "organizationLeader": "Chef",
+  "qrCodeTitle": "Min QR-kod",
+  "qrCodeSave": "Spara till Album",
+  "qrCodeShare": "Dela",
+  "qrCodeSaveSuccess": "Sparad i album",
+  "qrCodeSaveFailed": "Kunde inte spara. Försök igen.",
+  "qrCodeRefresh": "Uppdatera QR-kod",
+  "qrCodeExpired": "QR-koden har gått ut. Uppdatera den.",
+  "qrCodeScanToAdd": "Skanna för att lägga till mig som kontakt",
+  "spacePersonal": "Personligt",
+  "spaceEnterprise": "Företag",
+  "spaceJoinByCode": "Gå med via företagskod",
+  "spaceJoinByInvite": "Gå med via inbjudningskod",
+  "spaceEnterCode": "Ange företagskod",
+  "spaceEnterInviteCode": "Ange inbjudningskod",
+  "spaceSearchEnterprise": "Sök företag",
+  "spaceJoinRequestSent": "Förfrågan inskickad, väntar på godkännande",
+  "spaceJoinRequestPending": "Väntar på godkännande",
+  "spaceJoinRequestApproved": "Förfrågan godkänd",
+  "spaceJoinRequestRejected": "Förfrågan avvisad",
+  "spaceAlreadyMember": "Du är redan medlem",
+  "spaceAutoApproved": "Automatiskt godkänd. Välkommen!",
+  "spacePendingApprovalHint": "Registreringen lyckades. Din ansökan om att gå med har skickats in.",
+  "spaceNoSpaces": "Inga utrymmen",
+  "spaceInviteExpired": "Inbjudningskoden har gått ut",
+  "spaceInviteTargetMismatch": "Den här inbjudningskoden är inte för ditt konto",
+  "spaceAcceptInviteSuccess": "Du har gått med i företaget",
+  "spaceAcceptInviteFailed": "Kunde inte gå med. Försök igen.",
+  "spaceTenantSelectTitle": "Välj utrymme",
+  "spaceTenantSelectHint": "Välj ett utrymme att öppna",
+  "spaceEnterPersonal": "Öppna personligt utrymme",
+  "spaceEnterEnterprise": "Öppna företagsutrymme",
+  "recentContactsTitle": "Senaste",
+  "recentContactsEmpty": "Inga senaste kontakter",
+  "inviteFriendsTitle": "Bjud in vänner",
+  "inviteFriendsCopyLink": "Kopiera inbjudningslänk",
+  "inviteFriendsLinkCopied": "Inbjudningslänk kopierad",
+  "pendingJoinRequestsTitle": "Nya ansökningar",
+  "pendingJoinRequestsEmpty": "Inga ansökningar",
+  "pendingJoinRequestApprove": "Godkänn",
+  "pendingJoinRequestReject": "Neka",
+  "pendingJoinRequestApproveSuccess": "Godkänd",
+  "pendingJoinRequestRejectSuccess": "Avvisad",
+  "pendingJoinRequestFailed": "Åtgärden misslyckades. Försök igen.",
+  "groupListTitle": "Grupper",
+  "groupListEmpty": "Inga grupper",
+  "joinCompanyTitle": "Gå med i företag",
+  "joinCompanyCodeHint": "Ange företagskod",
+  "joinCompanySearchHint": "Sök företagsnamn",
+  "joinCompanyApply": "Ansök om att gå med",
+  "joinCompanyApplySuccess": "Ansökan inskickad",
+  "joinCompanyApplyFailed": "Ansökan misslyckades. Försök igen.",
+  "joinCompanyAutoApproved": "Automatiskt godkänd. Välkommen!",
+  "joinCompanyPending": "Ansökan inskickad, väntar på godkännande",
+  "joinCompanyInviteCodeHint": "Ange inbjudningskod",
+  "joinCompanyAcceptInvite": "Acceptera inbjudan",
+  "joinCompanyNoResults": "Inga företag hittades",
+  "joinCompanyMemberCount": "{count} medlemmar",
+  "approvalEmpty": "Inga förfrågningar",
+  "approvalApprove": "Godkänn",
+  "approvalReject": "Neka",
+  "approvalPending": "Väntar",
+  "approvalApproved": "Godkänd",
+  "approvalRejected": "Avvisad",
+  "approvalExpired": "Utgången",
+  "approvalCancelled": "Avbrutet",
+  "approvalReplayFailed": "Den ursprungliga åtgärden misslyckades. Försök igen.",
+  "requestCancelled": "Förfrågan avbruten",
+  "enterpriseNoPermission": "Ingen behörighet",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Inställningar för företagsinformation",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Företagskonfiguration",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Officiella konton",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Hantera officiella konton",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Medlemshantering",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Bjud in anställda",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Medlemmar",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Anslagshantering",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Företagsutskick",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Godkännanden",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Medlemsgodkännanden",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Överför ägarskap",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Efter överföringen blir du administratör. Detta kan inte ångras. Välj den nya ägaren från medlemslistan.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Välj en ny ägare",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Tilldelningsläge för handläggare",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatisk tilldelning",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Utsedd handläggare",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Godkännandeläge för medlemskap",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Manuellt godkännande",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatiskt godkännande",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Vänläge",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Socialt läge",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Isoleringsläge",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Åtkomst för widgetbesökare",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Inaktiverat",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Tilldela tillgängliga handläggare automatiskt i turordning",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Tilldela alla kunder till den utsedda handläggaren",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Kundförfrågningar kräver administratörsgodkännande",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Godkänn kundförfrågningar automatiskt",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Kunder kan lägga till varandra som vänner",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Kunder kan inte lägga till varandra som vänner",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Medlem",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Sök medlemmar",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Gör till medlem",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Gör till teknisk support",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Gör till servicehandläggare",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Bekräfta överföring",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Företagsnamn krävs",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Ange företagsnamnet",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Ingen beskrivning",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Företagslogotyp",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Det gick inte att skapa. Försök igen.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Maximalt antal användningar",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Giltighetstid",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 timme",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 timmar",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dagar",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dagar",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Skapa inbjudningskod",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Inbjudningskod",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Alla",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Personal",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Sök anställda, roller eller befattningar",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Företagsmedlemmar",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Inga matchande medlemmar",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Företagsöversikt",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Hantera",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Rollbehörigheter",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Överlämning vid avslut",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Sök anställda",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Företagsanställda",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Vänprofil",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Röst- och videosamtal",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Lägg till vän",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Man",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Kvinna",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Inga olästa konversationer",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "F",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Inbjudningskod kopierad",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Ta bort ”{name}” från företaget?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Överföra ägarskapet till ”{name}”? Du blir administratör. Detta kan inte ångras.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} användning} other {{count} användningar}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Giltig i {hours} h · Högst {count} användningar",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} oläst konversation} other {{count} olästa konversationer}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} oläst meddelande} other {{count} olästa meddelanden}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble-ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Lämna företag",
+  "enterpriseLoginBeforeSearch": "Logga in innan du söker efter en organisation",
+  "enterpriseSearchFailed": "Sökningen misslyckades. Försök igen.",
+  "enterpriseLoginBeforeJoin": "Logga in innan du ansöker om att gå med i en organisation",
+  "enterpriseApplicationPending": "Ansökan inskickad. Väntar på administratörsgodkännande.",
+  "enterpriseLoginBeforeAction": "Logga in för att fortsätta",
+  "enterprisePlatformTagline": "Privata kundrelationer för organisationer",
+  "enterpriseLookupHint": "Ange organisationsnummer, alias eller inbjudningskod",
+  "enterpriseLookup": "Sök",
+  "enterpriseApplicationNote": "Ansökningsanteckning (valfritt)",
+  "enterpriseLookupGuide": "Sök via organisationsnummer eller alias, eller gå med med inbjudningskod",
+  "enterpriseRecommendationsLoading": "Läser in rekommenderade organisationer",
+  "enterpriseRecommendationsFailed": "Rekommenderade organisationer kunde inte läsas in",
+  "enterpriseReload": "Ladda om",
+  "enterpriseNoRecommendations": "Inga rekommendationer. Sök med organisationsnummer, alias eller inbjudningskod.",
+  "enterpriseRecommended": "Rekommenderade organisationer",
+  "enterpriseJoined": "Ansluten",
+  "enterpriseRequestsLoadFailed": "Ansökningar kunde inte läsas in",
+  "enterpriseCodeMissing": "Organisationsnummer otillgängligt",
+  "enterpriseAlias": "Organisationsalias",
+  "enterpriseCodeLabel": "Organisationsnummer",
+  "enterprisePrivateAliasHint": "Organisationen har inte publicerat sina uppgifter. Din ansökan identifierar den med detta alias.",
+  "enterpriseInvitationMismatch": "Inbjudningskoden är inte adresserad till dig. Anslutningen kan misslyckas.",
+  "enterpriseTechnicalRole": "Teknisk support",
+  "enterpriseJoin": "Gå med",
+  "enterpriseCancelApplication": "Ångra",
+  "enterpriseApplication": "Organisationsansökan",
+  "enterpriseAliasValue": "Organisationsalias: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Organisationsnummer: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Du går med som {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Inbjudningskoden är adresserad till: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Avslagsorsak: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisation {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "Ä",
+  "enterpriseAudienceAll": "Alla",
+  "enterpriseAudienceAllHint": "Anställda och kunder",
+  "enterpriseAudienceStaffHint": "Endast organisationsanställda",
+  "enterpriseAudienceCustomers": "Organisationskunder",
+  "enterpriseAudienceCustomersHint": "Kunder som har gått med i organisationen",
+  "enterpriseOfficialGroups": "Officiella grupper",
+  "enterpriseAudienceGroupsHint": "Organisationens officiella gruppchattar",
+  "enterpriseSendNow": "Skicka nu",
+  "enterpriseSendScheduled": "Schemalägg sändning",
+  "enterprisePreviewing": "Förhandsvisar",
+  "enterprisePreview": "Förhandsvisning",
+  "enterpriseSubmitSend": "Skicka in för sändning",
+  "enterpriseBroadcastSubmitted": "Organisationsutskick inskickat",
+  "enterpriseScheduledUnavailable": "Schemalagda organisationsutskick är inte tillgängliga i denna version",
+  "enterpriseBroadcastFailed": "Organisationsutskicket misslyckades. Försök igen senare.",
+  "enterpriseBroadcastGuide": "Utskick använder organisationens officiella konto och registrerar åtgärden. Leveransresultat är tillgängliga efter inskickning.",
+  "enterpriseSenderIdentity": "Avsändaridentitet",
+  "enterpriseSenderAfterPreview": "Bekräfta i förhandsvisningen",
+  "enterpriseSenderConfirmed": "Bekräftat",
+  "enterpriseDefaultOfficialSender": "Organisationens officiella standardkonto",
+  "enterpriseOfficialSenderHint": "Mottagare ser organisationens officiella kontoidentitet",
+  "enterpriseMessageContent": "Meddelandeinnehåll",
+  "enterpriseBroadcastContentHint": "Ange utskicket som ska skickas från det officiella kontot",
+  "enterpriseInternalNoteHint": "Intern anteckning för granskning och uppföljning (valfritt)",
+  "enterpriseSendPreview": "Sändningsförhandsvisning",
+  "enterpriseExpectedRecipients": "Beräknade mottagare",
+  "enterpriseDeliveryMethod": "Leveransmetod",
+  "enterpriseTaskStatus": "Uppgiftsstatus",
+  "enterpriseNoBroadcastHistory": "Inga organisationsutskick ännu",
+  "enterpriseHistoryUnavailable": "Tillfälligt otillgänglig",
+  "enterpriseBroadcastDenied": "Ingen behörighet för organisationsutskick",
+  "enterpriseBroadcastRoleHint": "Organisationsutskick är endast tillgängliga för administratörer och ägare.",
+  "enterpriseDefaultApplicationMessage": "Jag vill gå med i er organisation"
+}

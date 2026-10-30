@@ -1,0 +1,830 @@
+00:00 +0: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart
+test/features/settings/presentation/pages/legal_document_page_test.dart:6:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/legal_document_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/privacy_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/terms_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+test/features/settings/presentation/pages/legal_document_page_test.dart:146:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:147:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:163:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:164:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:183:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:184:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:202:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:203:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:221:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:222:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:240:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_document_page_test.dart:241:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:218:25: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          content: Text(AppLocalizations.of(context).legalOfficialOpenFailed)),
+                        ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:238:31: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  label: Text(AppLocalizations.of(context).legalOpenOfficial),
+                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:244:20: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+              Text(AppLocalizations.of(context).legalLocalChineseNotice),
+                   ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/privacy_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'PrivacyPage'.
+ - 'PrivacyPage' is from 'package:lpp_mobile/features/settings/presentation/pages/privacy_page.dart' ('lib/features/settings/presentation/pages/privacy_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/privacy_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'PrivacyPage'.
+ - 'PrivacyPage' is from 'package:lpp_mobile/features/settings/presentation/pages/privacy_page.dart' ('lib/features/settings/presentation/pages/privacy_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        AppLocalizations.of(context).privacyPolicyTitle,
+        ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/terms_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+ - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/terms_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+ - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        AppLocalizations.of(context).termsTitle,
+        ^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart [E]
+  Failed to load "/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart":
+  Compilation failed for testPath=/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart: test/features/settings/presentation/pages/legal_document_page_test.dart:6:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/legal_document_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/privacy_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/terms_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:146:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:147:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:163:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:164:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:183:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:184:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:202:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:203:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:221:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:222:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:240:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_document_page_test.dart:241:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:218:25: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+            content: Text(AppLocalizations.of(context).legalOfficialOpenFailed)),
+                          ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:238:31: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                    label: Text(AppLocalizations.of(context).legalOpenOfficial),
+                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:244:20: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                Text(AppLocalizations.of(context).legalLocalChineseNotice),
+                     ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/privacy_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'PrivacyPage'.
+   - 'PrivacyPage' is from 'package:lpp_mobile/features/settings/presentation/pages/privacy_page.dart' ('lib/features/settings/presentation/pages/privacy_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/privacy_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'PrivacyPage'.
+   - 'PrivacyPage' is from 'package:lpp_mobile/features/settings/presentation/pages/privacy_page.dart' ('lib/features/settings/presentation/pages/privacy_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          AppLocalizations.of(context).privacyPolicyTitle,
+          ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/terms_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+   - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/terms_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+   - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          AppLocalizations.of(context).termsTitle,
+          ^^^^^^^^^^^^^^^^
+  .
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+test/features/settings/presentation/pages/legal_shell_localization_test.dart:5:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/legal_document_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/terms_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+test/features/settings/presentation/pages/legal_shell_localization_test.dart:12:20: Error: Method not found: 'lookupAppLocalizations'.
+      final l10n = lookupAppLocalizations(locale);
+                   ^^^^^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_shell_localization_test.dart:16:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/legal_shell_localization_test.dart:17:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:218:25: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          content: Text(AppLocalizations.of(context).legalOfficialOpenFailed)),
+                        ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:238:31: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  label: Text(AppLocalizations.of(context).legalOpenOfficial),
+                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/legal_document_page.dart:244:20: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+ - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+              Text(AppLocalizations.of(context).legalLocalChineseNotice),
+                   ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/terms_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+ - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/terms_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+ - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        AppLocalizations.of(context).termsTitle,
+        ^^^^^^^^^^^^^^^^
+00:00 +0 -2: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_shell_localization_test.dart [E]
+  Failed to load "/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_shell_localization_test.dart":
+  Compilation failed for testPath=/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_shell_localization_test.dart: test/features/settings/presentation/pages/legal_shell_localization_test.dart:5:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/legal_document_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/terms_page.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  test/features/settings/presentation/pages/legal_shell_localization_test.dart:12:20: Error: Method not found: 'lookupAppLocalizations'.
+        final l10n = lookupAppLocalizations(locale);
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_shell_localization_test.dart:16:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/legal_shell_localization_test.dart:17:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:218:25: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+            content: Text(AppLocalizations.of(context).legalOfficialOpenFailed)),
+                          ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:238:31: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                    label: Text(AppLocalizations.of(context).legalOpenOfficial),
+                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/legal_document_page.dart:244:20: Error: The getter 'AppLocalizations' isn't defined for the type 'LegalDocumentScaffold'.
+   - 'LegalDocumentScaffold' is from 'package:lpp_mobile/features/settings/presentation/pages/legal_document_page.dart' ('lib/features/settings/presentation/pages/legal_document_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                Text(AppLocalizations.of(context).legalLocalChineseNotice),
+                     ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/terms_page.dart:15:23: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+   - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        localizedTitle: AppLocalizations.of(context).legalPlatformDocumentTitle(
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/terms_page.dart:16:9: Error: The getter 'AppLocalizations' isn't defined for the type 'TermsPage'.
+   - 'TermsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/terms_page.dart' ('lib/features/settings/presentation/pages/terms_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          AppLocalizations.of(context).termsTitle,
+          ^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -2: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+test/features/settings/presentation/pages/settings_localization_test.dart:7:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/account_settings_page.dart:11:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/font_size_page.dart:5:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/utils/settings_i18n.dart:1:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/core/localization/app_error_localizer.dart:3:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/auth/presentation/widgets/password_settings_page.dart:9:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/core/localization/notification_text_resolver.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/app_update/presentation/app_update_provider.dart:15:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/settings/presentation/pages/font_size_page.dart:98:23: Error: Type 'AppLocalizations' not found.
+String _fontSizeLabel(AppLocalizations l10n, String key) {
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:3:31: Error: Type 'AppLocalizations' not found.
+String localizedTimezoneLabel(AppLocalizations l10n, double offset) {
+                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:48:34: Error: Type 'AppLocalizations' not found.
+String localizedNetworkModeLabel(AppLocalizations l10n, String mode) {
+                                 ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:52:35: Error: Type 'AppLocalizations' not found.
+String localizedNetworkRouteLabel(AppLocalizations l10n, String route) {
+                                  ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:74:3: Error: Type 'AppLocalizations' not found.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+lib/core/localization/app_error_localizer.dart:7:49: Error: Type 'AppLocalizations' not found.
+  static String messageForObject(Object? error, AppLocalizations l10n,
+                                                ^^^^^^^^^^^^^^^^
+lib/core/localization/app_error_localizer.dart:18:41: Error: Type 'AppLocalizations' not found.
+  static String message(AppError error, AppLocalizations l10n,
+                                        ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:73:38: Error: Type 'AppLocalizations' not found.
+  Future<void> _sendVerificationCode(AppLocalizations l10n) async {
+                                     ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:116:24: Error: Type 'AppLocalizations' not found.
+  Future<void> _submit(AppLocalizations l10n) async {
+                       ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:170:38: Error: Type 'AppLocalizations' not found.
+  String _errorMessage(Object error, AppLocalizations l10n) {
+                                     ^^^^^^^^^^^^^^^^
+lib/core/localization/notification_text_resolver.dart:27:9: Error: Type 'AppLocalizations' not found.
+  final AppLocalizations _l10n;
+        ^^^^^^^^^^^^^^^^
+lib/features/app_update/presentation/app_update_provider.dart:168:3: Error: Type 'AppLocalizations' not found.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:27:20: Error: Method not found: 'lookupAppLocalizations'.
+      final l10n = lookupAppLocalizations(locale);
+                   ^^^^^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:31:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:32:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:54:20: Error: Method not found: 'lookupAppLocalizations'.
+      final l10n = lookupAppLocalizations(locale);
+                   ^^^^^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:58:27: Error: Undefined name 'AppLocalizations'.
+        supportedLocales: AppLocalizations.supportedLocales,
+                          ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:59:33: Error: Undefined name 'AppLocalizations'.
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/pages/settings_localization_test.dart:71:20: Error: Method not found: 'lookupAppLocalizations'.
+      final l10n = lookupAppLocalizations(locale);
+                   ^^^^^^^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:18:18: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+    final l10n = AppLocalizations.of(context);
+                 ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:58:22: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        title:  Text(AppLocalizations.of(ctx).accountSecurityDeactivate,
+                     ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:64:11: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          AppLocalizations.of(context).settingsDeleteWarning,
+          ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:74:15: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+              AppLocalizations.of(context).commonCancel,
+              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:86:23: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                 Text(AppLocalizations.of(context).settingsContinueDeletion, style: TextStyle(color: Color(0xFFEF4444))),
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:102:22: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+        title:  Text(AppLocalizations.of(ctx).settingsFinalConfirmation),
+                     ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:106:19: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+             Text(AppLocalizations.of(context).settingsDeleteFinalPrompt),
+                  ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:112:28: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                labelText: AppLocalizations.of(context).authVerificationCode,
+                           ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:120:28: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                labelText: AppLocalizations.of(context).settingsDeletionReasonOptional,
+                           ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:130:15: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+              AppLocalizations.of(context).commonCancel,
+              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:174:23: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                 Text(AppLocalizations.of(context).settingsConfirmDeletion, style: TextStyle(color: Color(0xFFEF4444))),
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:141:43: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                   SnackBar(content: Text(AppLocalizations.of(context).authHintCode)),
+                                          ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:158:47: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                       SnackBar(content: Text(AppLocalizations.of(context).settingsDeletionSubmitted)));
+                                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/account_settings_page.dart:169:63: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+ - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                          Text(AppErrorLocalizer.message(err, AppLocalizations.of(context), preserveBusinessDetail: true))));
+                                                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/font_size_page.dart:23:18: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+ - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+    final l10n = AppLocalizations.of(context);
+                 ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/font_size_page.dart:38:22: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+ - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                Text(AppLocalizations.of(context).settingsFontPreview,
+                     ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/font_size_page.dart:44:19: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+ - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  AppLocalizations.of(context).settingsFontPreviewText,
+                  ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/pages/font_size_page.dart:98:23: Error: 'AppLocalizations' isn't a type.
+String _fontSizeLabel(AppLocalizations l10n, String key) {
+                      ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:3:31: Error: 'AppLocalizations' isn't a type.
+String localizedTimezoneLabel(AppLocalizations l10n, double offset) {
+                              ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:48:34: Error: 'AppLocalizations' isn't a type.
+String localizedNetworkModeLabel(AppLocalizations l10n, String mode) {
+                                 ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:52:35: Error: 'AppLocalizations' isn't a type.
+String localizedNetworkRouteLabel(AppLocalizations l10n, String route) {
+                                  ^^^^^^^^^^^^^^^^
+lib/features/settings/presentation/utils/settings_i18n.dart:74:3: Error: 'AppLocalizations' isn't a type.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+lib/core/localization/app_error_localizer.dart:7:49: Error: 'AppLocalizations' isn't a type.
+  static String messageForObject(Object? error, AppLocalizations l10n,
+                                                ^^^^^^^^^^^^^^^^
+lib/core/localization/app_error_localizer.dart:18:41: Error: 'AppLocalizations' isn't a type.
+  static String message(AppError error, AppLocalizations l10n,
+                                        ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:73:38: Error: 'AppLocalizations' isn't a type.
+  Future<void> _sendVerificationCode(AppLocalizations l10n) async {
+                                     ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:116:24: Error: 'AppLocalizations' isn't a type.
+  Future<void> _submit(AppLocalizations l10n) async {
+                       ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:170:38: Error: 'AppLocalizations' isn't a type.
+  String _errorMessage(Object error, AppLocalizations l10n) {
+                                     ^^^^^^^^^^^^^^^^
+lib/features/auth/presentation/widgets/password_settings_page.dart:193:18: Error: The getter 'AppLocalizations' isn't defined for the type '_PasswordSettingsPageState'.
+ - '_PasswordSettingsPageState' is from 'package:lpp_mobile/features/auth/presentation/widgets/password_settings_page.dart' ('lib/features/auth/presentation/widgets/password_settings_page.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+    final l10n = AppLocalizations.of(context);
+                 ^^^^^^^^^^^^^^^^
+lib/core/localization/notification_text_resolver.dart:10:9: Error: The method 'lookupAppLocalizations' isn't defined for the type 'NotificationTextResolver'.
+ - 'NotificationTextResolver' is from 'package:lpp_mobile/core/localization/notification_text_resolver.dart' ('lib/core/localization/notification_text_resolver.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'lookupAppLocalizations'.
+        lookupAppLocalizations(supportedLocaleOrFallback(locale)));
+        ^^^^^^^^^^^^^^^^^^^^^^
+lib/core/localization/notification_text_resolver.dart:27:9: Error: 'AppLocalizations' isn't a type.
+  final AppLocalizations _l10n;
+        ^^^^^^^^^^^^^^^^
+lib/features/app_update/presentation/app_update_provider.dart:168:3: Error: 'AppLocalizations' isn't a type.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+00:00 +0 -3: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/settings_localization_test.dart [E]
+  Failed to load "/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/settings_localization_test.dart":
+  Compilation failed for testPath=/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/settings_localization_test.dart: test/features/settings/presentation/pages/settings_localization_test.dart:7:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/account_settings_page.dart:11:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/font_size_page.dart:5:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/utils/settings_i18n.dart:1:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/core/localization/app_error_localizer.dart:3:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:9:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/core/localization/notification_text_resolver.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/app_update/presentation/app_update_provider.dart:15:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/settings/presentation/pages/font_size_page.dart:98:23: Error: Type 'AppLocalizations' not found.
+  String _fontSizeLabel(AppLocalizations l10n, String key) {
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:3:31: Error: Type 'AppLocalizations' not found.
+  String localizedTimezoneLabel(AppLocalizations l10n, double offset) {
+                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:48:34: Error: Type 'AppLocalizations' not found.
+  String localizedNetworkModeLabel(AppLocalizations l10n, String mode) {
+                                   ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:52:35: Error: Type 'AppLocalizations' not found.
+  String localizedNetworkRouteLabel(AppLocalizations l10n, String route) {
+                                    ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:74:3: Error: Type 'AppLocalizations' not found.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  lib/core/localization/app_error_localizer.dart:7:49: Error: Type 'AppLocalizations' not found.
+    static String messageForObject(Object? error, AppLocalizations l10n,
+                                                  ^^^^^^^^^^^^^^^^
+  lib/core/localization/app_error_localizer.dart:18:41: Error: Type 'AppLocalizations' not found.
+    static String message(AppError error, AppLocalizations l10n,
+                                          ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:73:38: Error: Type 'AppLocalizations' not found.
+    Future<void> _sendVerificationCode(AppLocalizations l10n) async {
+                                       ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:116:24: Error: Type 'AppLocalizations' not found.
+    Future<void> _submit(AppLocalizations l10n) async {
+                         ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:170:38: Error: Type 'AppLocalizations' not found.
+    String _errorMessage(Object error, AppLocalizations l10n) {
+                                       ^^^^^^^^^^^^^^^^
+  lib/core/localization/notification_text_resolver.dart:27:9: Error: Type 'AppLocalizations' not found.
+    final AppLocalizations _l10n;
+          ^^^^^^^^^^^^^^^^
+  lib/features/app_update/presentation/app_update_provider.dart:168:3: Error: Type 'AppLocalizations' not found.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:27:20: Error: Method not found: 'lookupAppLocalizations'.
+        final l10n = lookupAppLocalizations(locale);
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:31:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:32:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:54:20: Error: Method not found: 'lookupAppLocalizations'.
+        final l10n = lookupAppLocalizations(locale);
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:58:27: Error: Undefined name 'AppLocalizations'.
+          supportedLocales: AppLocalizations.supportedLocales,
+                            ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:59:33: Error: Undefined name 'AppLocalizations'.
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+                                  ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/pages/settings_localization_test.dart:71:20: Error: Method not found: 'lookupAppLocalizations'.
+        final l10n = lookupAppLocalizations(locale);
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:18:18: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      final l10n = AppLocalizations.of(context);
+                   ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:58:22: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          title:  Text(AppLocalizations.of(ctx).accountSecurityDeactivate,
+                       ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:64:11: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+            AppLocalizations.of(context).settingsDeleteWarning,
+            ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:74:15: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                AppLocalizations.of(context).commonCancel,
+                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:86:23: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                   Text(AppLocalizations.of(context).settingsContinueDeletion, style: TextStyle(color: Color(0xFFEF4444))),
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:102:22: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+          title:  Text(AppLocalizations.of(ctx).settingsFinalConfirmation),
+                       ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:106:19: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+               Text(AppLocalizations.of(context).settingsDeleteFinalPrompt),
+                    ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:112:28: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  labelText: AppLocalizations.of(context).authVerificationCode,
+                             ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:120:28: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  labelText: AppLocalizations.of(context).settingsDeletionReasonOptional,
+                             ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:130:15: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                AppLocalizations.of(context).commonCancel,
+                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:174:23: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                   Text(AppLocalizations.of(context).settingsConfirmDeletion, style: TextStyle(color: Color(0xFFEF4444))),
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:141:43: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                     SnackBar(content: Text(AppLocalizations.of(context).authHintCode)),
+                                            ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:158:47: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                         SnackBar(content: Text(AppLocalizations.of(context).settingsDeletionSubmitted)));
+                                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/account_settings_page.dart:169:63: Error: The getter 'AppLocalizations' isn't defined for the type 'AccountSettingsPage'.
+   - 'AccountSettingsPage' is from 'package:lpp_mobile/features/settings/presentation/pages/account_settings_page.dart' ('lib/features/settings/presentation/pages/account_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                            Text(AppErrorLocalizer.message(err, AppLocalizations.of(context), preserveBusinessDetail: true))));
+                                                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/font_size_page.dart:23:18: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+   - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      final l10n = AppLocalizations.of(context);
+                   ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/font_size_page.dart:38:22: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+   - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                  Text(AppLocalizations.of(context).settingsFontPreview,
+                       ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/font_size_page.dart:44:19: Error: The getter 'AppLocalizations' isn't defined for the type 'FontSizePage'.
+   - 'FontSizePage' is from 'package:lpp_mobile/features/settings/presentation/pages/font_size_page.dart' ('lib/features/settings/presentation/pages/font_size_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+                    AppLocalizations.of(context).settingsFontPreviewText,
+                    ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/pages/font_size_page.dart:98:23: Error: 'AppLocalizations' isn't a type.
+  String _fontSizeLabel(AppLocalizations l10n, String key) {
+                        ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:3:31: Error: 'AppLocalizations' isn't a type.
+  String localizedTimezoneLabel(AppLocalizations l10n, double offset) {
+                                ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:48:34: Error: 'AppLocalizations' isn't a type.
+  String localizedNetworkModeLabel(AppLocalizations l10n, String mode) {
+                                   ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:52:35: Error: 'AppLocalizations' isn't a type.
+  String localizedNetworkRouteLabel(AppLocalizations l10n, String route) {
+                                    ^^^^^^^^^^^^^^^^
+  lib/features/settings/presentation/utils/settings_i18n.dart:74:3: Error: 'AppLocalizations' isn't a type.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  lib/core/localization/app_error_localizer.dart:7:49: Error: 'AppLocalizations' isn't a type.
+    static String messageForObject(Object? error, AppLocalizations l10n,
+                                                  ^^^^^^^^^^^^^^^^
+  lib/core/localization/app_error_localizer.dart:18:41: Error: 'AppLocalizations' isn't a type.
+    static String message(AppError error, AppLocalizations l10n,
+                                          ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:73:38: Error: 'AppLocalizations' isn't a type.
+    Future<void> _sendVerificationCode(AppLocalizations l10n) async {
+                                       ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:116:24: Error: 'AppLocalizations' isn't a type.
+    Future<void> _submit(AppLocalizations l10n) async {
+                         ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:170:38: Error: 'AppLocalizations' isn't a type.
+    String _errorMessage(Object error, AppLocalizations l10n) {
+                                       ^^^^^^^^^^^^^^^^
+  lib/features/auth/presentation/widgets/password_settings_page.dart:193:18: Error: The getter 'AppLocalizations' isn't defined for the type '_PasswordSettingsPageState'.
+   - '_PasswordSettingsPageState' is from 'package:lpp_mobile/features/auth/presentation/widgets/password_settings_page.dart' ('lib/features/auth/presentation/widgets/password_settings_page.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppLocalizations'.
+      final l10n = AppLocalizations.of(context);
+                   ^^^^^^^^^^^^^^^^
+  lib/core/localization/notification_text_resolver.dart:10:9: Error: The method 'lookupAppLocalizations' isn't defined for the type 'NotificationTextResolver'.
+   - 'NotificationTextResolver' is from 'package:lpp_mobile/core/localization/notification_text_resolver.dart' ('lib/core/localization/notification_text_resolver.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'lookupAppLocalizations'.
+          lookupAppLocalizations(supportedLocaleOrFallback(locale)));
+          ^^^^^^^^^^^^^^^^^^^^^^
+  lib/core/localization/notification_text_resolver.dart:27:9: Error: 'AppLocalizations' isn't a type.
+    final AppLocalizations _l10n;
+          ^^^^^^^^^^^^^^^^
+  lib/features/app_update/presentation/app_update_provider.dart:168:3: Error: 'AppLocalizations' isn't a type.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -3: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+test/features/settings/presentation/providers/auto_translate_provider_test.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations_zh.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations_zh.dart';
+       ^
+lib/features/chat/presentation/models/auto_translate_localization.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+import 'package:lpp_mobile/l10n/app_localizations.dart';
+       ^
+lib/features/chat/presentation/models/auto_translate_localization.dart:5:3: Error: Type 'AppLocalizations' not found.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+test/features/settings/presentation/providers/auto_translate_provider_test.dart:15:37: Error: Method not found: 'AppLocalizationsZh'.
+    expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '跟随全局（已关闭）');
+                                    ^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/providers/auto_translate_provider_test.dart:26:37: Error: Method not found: 'AppLocalizationsZh'.
+    expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '跟随全局（已开启）');
+                                    ^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/providers/auto_translate_provider_test.dart:37:37: Error: Method not found: 'AppLocalizationsZh'.
+    expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '本会话（已开启）');
+                                    ^^^^^^^^^^^^^^^^^^
+test/features/settings/presentation/providers/auto_translate_provider_test.dart:48:37: Error: Method not found: 'AppLocalizationsZh'.
+    expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '本会话（已关闭）');
+                                    ^^^^^^^^^^^^^^^^^^
+lib/features/chat/presentation/models/auto_translate_localization.dart:5:3: Error: 'AppLocalizations' isn't a type.
+  AppLocalizations l10n,
+  ^^^^^^^^^^^^^^^^
+00:00 +0 -4: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/providers/auto_translate_provider_test.dart [E]
+  Failed to load "/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/providers/auto_translate_provider_test.dart":
+  Compilation failed for testPath=/Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/providers/auto_translate_provider_test.dart: test/features/settings/presentation/providers/auto_translate_provider_test.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations_zh.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations_zh.dart';
+         ^
+  lib/features/chat/presentation/models/auto_translate_localization.dart:2:8: Error: Error when reading 'lib/l10n/app_localizations.dart': No such file or directory
+  import 'package:lpp_mobile/l10n/app_localizations.dart';
+         ^
+  lib/features/chat/presentation/models/auto_translate_localization.dart:5:3: Error: Type 'AppLocalizations' not found.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/providers/auto_translate_provider_test.dart:15:37: Error: Method not found: 'AppLocalizationsZh'.
+      expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '跟随全局（已关闭）');
+                                      ^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/providers/auto_translate_provider_test.dart:26:37: Error: Method not found: 'AppLocalizationsZh'.
+      expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '跟随全局（已开启）');
+                                      ^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/providers/auto_translate_provider_test.dart:37:37: Error: Method not found: 'AppLocalizationsZh'.
+      expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '本会话（已开启）');
+                                      ^^^^^^^^^^^^^^^^^^
+  test/features/settings/presentation/providers/auto_translate_provider_test.dart:48:37: Error: Method not found: 'AppLocalizationsZh'.
+      expect(autoTranslateStatusLabel(AppLocalizationsZh(), setting), '本会话（已关闭）');
+                                      ^^^^^^^^^^^^^^^^^^
+  lib/features/chat/presentation/models/auto_translate_localization.dart:5:3: Error: 'AppLocalizations' isn't a type.
+    AppLocalizations l10n,
+    ^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -4: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/features/settings/presentation/pages/legal_document_page_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 939:11    DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 733:19                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 726:19                      _CustomZone.run
+  dart:async/zone.dart 625:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 666:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 194:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: restores a supported saved locale before consulting the platform
+00:00 +1 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: uses a supported platform locale when no locale was saved
+00:00 +2 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: falls back to simplified Chinese for an unsupported platform locale
+00:00 +3 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: ignores a malformed or unsupported saved locale
+00:00 +4 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: maps a Hant platform locale to Traditional Chinese
+00:00 +5 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: setLocale persists the normalized supported locale
+00:00 +6 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: setLocale falls back before persisting an unsupported locale
+00:00 +7 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: registers the same 35 language variants as MediaServiceClient
+00:00 +8 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: persists and restores every supported language without changing keys
+00:00 +9 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: uses every supported system language when no setting was saved
+00:00 +10 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: normalizes system and saved regional tags and language aliases
+00:00 +11 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: ignores malformed tags and preserves the unsupported-language fallback
+00:00 +12 -4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: UI language expansion does not expand chat translation targets
+00:00 +13 -4: Some tests failed.

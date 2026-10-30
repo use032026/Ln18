@@ -1,0 +1,75 @@
+{
+  "@@locale": "ru",
+  "appRuntimeLoadFailed": "Не удалось загрузить данные аккаунта",
+  "privacyConsentTitle": "Условия использования и Политика конфиденциальности",
+  "privacyConsentBodyAndroid": "Добро пожаловать в {brand}. Для входа в аккаунт, обмена сообщениями, корпоративного взаимодействия, онлайн-поддержки, уведомлений и защиты безопасности нам необходимо обрабатывать нужную информацию в соответствии с Условиями использования и Политикой конфиденциальности.\n\nДо нажатия «Принимаю» мы не читаем буфер обмена, не инициализируем JPush/JCore или SDK push-уведомлений производителей устройств и не используем эти SDK для доступа к Android ID, OAID, списку установленных приложений, MAC-адресам и подобным данным. Если вы пока откажетесь, мы сохраним этот выбор; вы сможете продолжить чтение документов и изменить решение позже.\n\nПосле согласия для доставки уведомлений о сообщениях, поддержке и входящих звонках JPush/JCore и push-сервисы производителей устройств могут обрабатывать модель устройства, версию Android, имя пакета и версию приложения, тип сети, IP-адрес, Android ID, OAID, Registration ID, push-токен производителя, данные доставки уведомлений и нажатий на них. Мы отключили необязательные возможности: умные push-уведомления, список установленных приложений, MAC, IMEI, IMSI, списки Wi-Fi, автоматическое пробуждение и связанный запуск.\n\nБуфер обмена доступен только при использовании копирования или вставки. Разрешения на камеру, микрофон, уведомления и другие системные функции запрашиваются только при использовании соответствующей функции. Отказ в одном разрешении затронет только связанную с ним функцию. Ознакомьтесь с полными документами ниже и решите, согласны ли вы.",
+  "privacyConsentBodyIos": "Добро пожаловать в {brand}. Для входа в аккаунт, обмена сообщениями, корпоративного взаимодействия, онлайн-поддержки, уведомлений и защиты безопасности нам необходимо обрабатывать нужную информацию в соответствии с Условиями использования и Политикой конфиденциальности.\n\nДо нажатия «Принимаю» мы не читаем буфер обмена, не инициализируем JPush/JCore, не регистрируемся в Apple Push Notification service (APNs) и не получаем push-идентификаторы, например JPush Registration ID или токен устройства APNs. Если вы пока откажетесь, мы сохраним этот выбор; вы сможете продолжить чтение документов и изменить решение позже.\n\nПосле согласия для доставки уведомлений о сообщениях, поддержке и входящих звонках мы можем обрабатывать модель iPhone, версию iOS, имя пакета и версию приложения, тип сети, IP-адрес, IDFV, JPush Registration ID, токен устройства APNs, данные доставки уведомлений и нажатий на них. JPush/JCore подключается к push-сервису; Apple APNs обрабатывает идентификатор приложения, токен устройства и содержимое уведомления для доставки системных уведомлений. Текущая версия приложения для iOS не использует рекламные сервисы и не получает IDFA.\n\nБуфер обмена доступен только при использовании копирования или вставки. Разрешения на камеру, микрофон, уведомления и другие системные функции запрашиваются только при использовании соответствующей функции. Отказ в одном разрешении затронет только связанную с ним функцию. Ознакомьтесь с полными документами ниже и решите, согласны ли вы.",
+  "privacyConsentTermsLink": "Пользовательское соглашение",
+  "privacyConsentConjunction": "и",
+  "privacyConsentPrivacyLink": "Политика конфиденциальности",
+  "privacyConsentDecline": "Не согласен",
+  "privacyConsentDeclinedExit": "Вы не приняли Условия использования и Политику конфиденциальности. Приложение закроется.",
+  "privacyConsentAccept": "Согласен",
+  "privacyConsentRuntimeFailure": "Ошибка запуска. Проверьте сеть и повторите попытку.",
+  "privacyConsentSaveFailure": "Не удалось сохранить выбор. Повторите попытку.",
+  "appUpdateRequiredTitle": "Обновите приложение, чтобы продолжить",
+  "appUpdateOptionalTitle": "Доступна новая версия",
+  "appUpdateVersionAvailable": "Доступна версия {brand} {version}",
+  "appUpdateLater": "Позже",
+  "appUpdateNow": "Обновить сейчас",
+  "appUpdateProcessing": "Обработка...",
+  "appUpdateInvalidUrl": "Недействительный адрес обновления. Повторите попытку позже.",
+  "appUpdateOpenUrlFailed": "Не удалось открыть ссылку обновления. Повторите попытку позже.",
+  "appUpdateDownloadInterrupted": "Загрузка прервана. Проверьте сеть и повторите попытку.",
+  "appUpdatePackageVerificationFailed": "Проверка пакета не пройдена. Загрузите его ещё раз.",
+  "appUpdatePermissionDenied": "Разрешите {brand} устанавливать обновления в системных настройках.",
+  "appUpdateOpenInstallerFailed": "Не удалось открыть системный установщик. Проверьте разрешения на установку.",
+  "appUpdateGenericFailure": "Ошибка обновления. Проверьте сеть и повторите попытку.",
+  "appUpdateUnavailable": "Новая версия пока недоступна для загрузки. Повторите попытку позже.",
+  "appUpdateCheckFailed": "Не удалось проверить обновления. Повторите попытку позже.",
+  "appUpdateChecking": "Проверка",
+  "privacySettingsTitle": "Конфиденциальность",
+  "privacySearchableByMobile": "Разрешить поиск по номеру телефона",
+  "privacySearchableByLppId": "Разрешить поиск по StartLink ID",
+  "privacyAllowFriendRequest": "Разрешить запросы в друзья",
+  "privacyProfileVisibility": "Видимость профиля",
+  "privacyEveryone": "Все",
+  "privacyFriendsOfFriends": "Друзья друзей",
+  "privacyNobody": "Никто",
+  "privacyFriendsOnly": "Только друзья",
+  "privacySaveSuccess": "Настройки сохранены",
+  "privacySaveFailed": "Не удалось сохранить. Повторите попытку",
+  "termsTitle": "Пользовательское соглашение",
+  "privacyPolicyTitle": "Политика конфиденциальности",
+  "permissionGroupManageDenied": "Только владелец и администраторы могут менять настройки группы.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Только владелец и администраторы могут менять название группы.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "В этой группе участники не могут добавлять друг друга в друзья.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "В организации включена изоляция клиентов. Нельзя добавлять клиентов в друзья.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Открыть последнюю версию на сайте",
+  "legalOfficialOpenFailed": "Не удалось открыть сайт. Показана локальная копия.",
+  "legalLocalChineseNotice": "Локальная резервная копия юридического документа доступна на упрощённом китайском.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

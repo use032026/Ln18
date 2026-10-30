@@ -1,0 +1,75 @@
+{
+  "@@locale": "fr",
+  "appRuntimeLoadFailed": "Impossible de charger les données du compte",
+  "privacyConsentTitle": "Conditions d'utilisation et Politique de confidentialité",
+  "privacyConsentBodyAndroid": "Bienvenue sur {brand}. Pour proposer la connexion au compte, la messagerie instantanée, la collaboration en entreprise, le service client en ligne, les notifications et la protection de la sécurité, nous devons traiter les informations nécessaires conformément aux Conditions d’utilisation et à la Politique de confidentialité.\n\nAvant que vous touchiez « Accepter », nous ne lisons pas le presse-papiers, n’initialisons ni JPush/JCore ni les SDK de notifications des fabricants et ne les utilisons pas pour accéder à Android ID, OAID, à la liste des applications installées, aux adresses MAC ou à des informations similaires. Si vous refusez pour le moment, nous enregistrons votre choix ; vous pouvez poursuivre la lecture des documents et décider à nouveau plus tard.\n\nAprès votre accord, pour transmettre les notifications de messages, de service client et d’appels entrants, JPush/JCore et les services de notifications des fabricants peuvent traiter le modèle de l’appareil, la version Android, le package et la version de l’application, le type de réseau, l’adresse IP, Android ID, OAID, l’identifiant d’inscription aux notifications, le jeton du fabricant et les données de remise et de clic sur les notifications. Nous avons désactivé les fonctions non essentielles : notifications intelligentes, liste des applications installées, MAC, IMEI, IMSI, listes Wi-Fi, réveil automatique et démarrage lié.\n\nLe presse-papiers n’est consulté que lorsque vous copiez ou collez vous-même. Les autorisations de caméra, de microphone, de notifications et les autres autorisations système ne sont demandées que lorsque vous utilisez la fonction correspondante. Le refus d’une autorisation affecte uniquement cette fonction. Veuillez lire les documents complets ci-dessous et choisir si vous acceptez.",
+  "privacyConsentBodyIos": "Bienvenue sur {brand}. Pour proposer la connexion au compte, la messagerie instantanée, la collaboration en entreprise, le service client en ligne, les notifications et la protection de la sécurité, nous devons traiter les informations nécessaires conformément aux Conditions d’utilisation et à la Politique de confidentialité.\n\nAvant que vous touchiez « Accepter », nous ne lisons pas le presse-papiers, n’initialisons pas JPush/JCore, ne nous inscrivons pas auprès du service Apple Push Notification (APNs) et n’obtenons aucun identifiant de notifications tel que l’identifiant d’inscription JPush ou le jeton d’appareil APNs. Si vous refusez pour le moment, nous enregistrons votre choix ; vous pouvez poursuivre la lecture des documents et décider à nouveau plus tard.\n\nAprès votre accord, pour transmettre les notifications de messages, de service client et d’appels entrants, nous pouvons traiter le modèle d’iPhone, la version iOS, le package et la version de l’application, le type de réseau, l’adresse IP, IDFV, l’identifiant d’inscription JPush, le jeton d’appareil APNs et les données de remise et de clic sur les notifications. JPush/JCore se connecte au service de notifications ; Apple APNs traite l’identifiant de l’application, le jeton d’appareil et le contenu des notifications pour remettre les notifications système. L’application iOS actuelle n’utilise aucun service publicitaire et n’obtient pas d’IDFA.\n\nLe presse-papiers n’est consulté que lorsque vous copiez ou collez vous-même. Les autorisations de caméra, de microphone, de notifications et les autres autorisations système ne sont demandées que lorsque vous utilisez la fonction correspondante. Le refus d’une autorisation affecte uniquement cette fonction. Veuillez lire les documents complets ci-dessous et choisir si vous acceptez.",
+  "privacyConsentTermsLink": "Conditions d'utilisation",
+  "privacyConsentConjunction": "et",
+  "privacyConsentPrivacyLink": "Politique de confidentialité",
+  "privacyConsentDecline": "Refuser",
+  "privacyConsentDeclinedExit": "Vous n’avez pas accepté les Conditions d’utilisation et la Politique de confidentialité. L’application va se fermer.",
+  "privacyConsentAccept": "Accepter",
+  "privacyConsentRuntimeFailure": "Échec du démarrage. Vérifiez votre connexion et réessayez.",
+  "privacyConsentSaveFailure": "Impossible d’enregistrer votre choix. Veuillez réessayer.",
+  "appUpdateRequiredTitle": "Mise à jour requise pour continuer",
+  "appUpdateOptionalTitle": "Nouvelle version disponible",
+  "appUpdateVersionAvailable": "{brand} {version} est disponible",
+  "appUpdateLater": "Plus tard",
+  "appUpdateNow": "Mettre à jour maintenant",
+  "appUpdateProcessing": "Traitement en cours…",
+  "appUpdateInvalidUrl": "L’adresse de mise à jour n’est pas valide. Réessayez plus tard.",
+  "appUpdateOpenUrlFailed": "Impossible d’ouvrir le lien de mise à jour. Réessayez plus tard.",
+  "appUpdateDownloadInterrupted": "Téléchargement interrompu. Vérifiez votre connexion et réessayez.",
+  "appUpdatePackageVerificationFailed": "Échec de la vérification du package. Téléchargez-le à nouveau.",
+  "appUpdatePermissionDenied": "Autorisez {brand} à installer des mises à jour dans les réglages système.",
+  "appUpdateOpenInstallerFailed": "Impossible d’ouvrir le programme d’installation. Vérifiez les autorisations d’installation.",
+  "appUpdateGenericFailure": "Échec de la mise à jour. Vérifiez votre connexion et réessayez.",
+  "appUpdateUnavailable": "La nouvelle version n’est pas encore disponible au téléchargement. Réessayez plus tard.",
+  "appUpdateCheckFailed": "Impossible de rechercher des mises à jour. Réessayez plus tard.",
+  "appUpdateChecking": "Vérification en cours",
+  "privacySettingsTitle": "Confidentialité",
+  "privacySearchableByMobile": "Autoriser la recherche par numéro de téléphone",
+  "privacySearchableByLppId": "Autoriser la recherche par identifiant StartLink",
+  "privacyAllowFriendRequest": "Autoriser les demandes d’ami",
+  "privacyProfileVisibility": "Visibilité du profil",
+  "privacyEveryone": "Tout le monde",
+  "privacyFriendsOfFriends": "Amis d’amis",
+  "privacyNobody": "Personne",
+  "privacyFriendsOnly": "Amis uniquement",
+  "privacySaveSuccess": "Réglages enregistrés",
+  "privacySaveFailed": "Échec de l’enregistrement. Veuillez réessayer.",
+  "termsTitle": "Conditions d'utilisation",
+  "privacyPolicyTitle": "Politique de confidentialité",
+  "permissionGroupManageDenied": "Seuls le propriétaire du groupe ou les administrateurs peuvent modifier les réglages du groupe.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Seuls le propriétaire du groupe ou les administrateurs peuvent modifier le nom du groupe.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "Ce groupe n’autorise pas les membres à s’ajouter comme amis.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "L’isolement des clients est activé pour cette organisation. Vous ne pouvez pas ajouter de clients comme amis.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Consulter la dernière version sur le site",
+  "legalOfficialOpenFailed": "Impossible d’ouvrir le site. La copie locale est affichée.",
+  "legalLocalChineseNotice": "La copie locale du document juridique est fournie en chinois simplifié.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

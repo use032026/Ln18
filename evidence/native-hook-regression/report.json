@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "catalogVersion": "0.3.0",
+  "sdkLanguageCount": 35,
+  "flutterVersion": "3.41.9",
+  "rootCause": "hooks_runner accepted dependency summaries even when their compiled hook.dill snapshot was absent",
+  "repair": "Invalidated only the objective_c/sqlite3 project-local compile summaries; pinned Flutter rebuilt the official snapshots and corresponding metadata",
+  "tests": {
+    "exitCode": 0,
+    "seconds": 13.48,
+    "testResults": {
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "done": [
+      {
+        "success": true,
+        "type": "done",
+        "time": 9086
+      }
+    ]
+  },
+  "warmCache": {
+    "command": [
+      "/Users/starburst/fvm/versions/3.41.9/bin/flutter",
+      "test",
+      "--no-pub",
+      "--reporter",
+      "json",
+      "--plain-name",
+      "shared localization delegate loads all 35 selected locales",
+      "test/sdk/shared_l10n_resources_test.dart"
+    ],
+    "exitCode": 0,
+    "passed": 1,
+    "failed": 0,
+    "compiledSnapshotsReused": {
+      "objective_c": true,
+      "sqlite3": true
+    }
+  },
+  "generationCheck": "passed: 35 locales and 1040 keys; four SDK resource outputs",
+  "sdkIndependence": "passed after concurrent version/assets update",
+  "independentReview": "passed; 20 real cases, loading events excluded; both snapshots/native dylibs exist; warm reuse confirmed",
+  "sourceChanges": [
+    "Added three focused regression tests to shared_l10n_resources_test.dart",
+    "Updated Ln18 README validation status"
+  ],
+  "sourcePreservation": "All original lib/ARB, pubspec.lock and package_config hashes unchanged. A concurrent pubspec version/assets update was observed and preserved; not reverted.",
+  "cleanup": {
+    "removedBytes": 95199232,
+    "verification": {
+      "protectedFilesChecked": 656,
+      "changedDuringCleanup": [],
+      "stagingStateSameAtCleanup": true,
+      "kept": [
+        "repaired hook.dill and corresponding compiler metadata",
+        "existing native_assets and flutter_build",
+        "parallel iOS framework build and SDK version/assets updates"
+      ]
+    }
+  },
+  "limits": "Focused Flutter tests and cache reuse only; not full SDK, physical-device, release or all-page acceptance",
+  "committed": false,
+  "pushed": false
+}

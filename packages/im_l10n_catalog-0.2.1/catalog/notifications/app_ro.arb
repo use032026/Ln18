@@ -1,0 +1,53 @@
+{
+  "@@locale": "ro",
+  "notificationTitle": "Notificări",
+  "notificationGlobalMute": "Nu deranja",
+  "notificationSound": "Sunet",
+  "notificationVibration": "Vibrație",
+  "notificationPreview": "Previzualizarea mesajelor",
+  "notificationDndStart": "Ora de început pentru Nu deranja",
+  "notificationDndEnd": "Ora de sfârșit pentru Nu deranja",
+  "notificationNewMessageTitle": "Mesaj nou StartLink",
+  "notificationOnlineServiceTitle": "Mesaj nou de asistență clienți",
+  "notificationNewMessageBody": "Ați primit un mesaj nou",
+  "notificationImagePreview": "A trimis o imagine",
+  "notificationVideoPreview": "A trimis un videoclip",
+  "notificationVoicePreview": "A trimis un mesaj vocal",
+  "notificationFilePreview": "A trimis un fișier",
+  "notificationContactPreview": "A trimis o carte de contact",
+  "notificationCallLogPreview": "A trimis un istoric de apel",
+  "notificationLocationPreview": "A partajat o locație",
+  "notificationLinkPreview": "A partajat un link",
+  "notificationMentionMe": "V-a menționat: {body}",
+  "notificationMentionMeBy": "{sender} v-a menționat: {body}",
+  "notificationMentionAll": "A menționat pe toată lumea: {body}",
+  "notificationMentionAllBy": "{sender} a menționat pe toată lumea: {body}",
+  "notificationSecurityTitle": "Alertă de securitate a contului",
+  "notificationSecurityBody": "Setările de securitate ale contului StartLink s-au schimbat. Verificați-le acum.",
+  "notificationFriendAcceptedTitle": "Cerere de prietenie acceptată",
+  "notificationFriendRejectedTitle": "Cerere de prietenie refuzată",
+  "notificationFriendAcceptedBody": "Interlocutorul a acceptat cererea dvs. de prietenie",
+  "notificationFriendRejectedBody": "Interlocutorul a refuzat cererea dvs. de prietenie",
+  "notificationVideoCallTitle": "Invitație la apel video",
+  "notificationAudioCallTitle": "Invitație la apel vocal",
+  "notificationVideoCallBody": "{caller} v-a invitat la un apel video",
+  "notificationAudioCallBody": "{caller} v-a invitat la un apel vocal",
+  "notificationMessageChannelName": "Mesaje",
+  "notificationMessageChannelDescription": "Mesaje din conversații, înregistrări de apeluri și alerte de sistem",
+  "notificationCallChannelName": "Apeluri",
+  "notificationCallChannelDescription": "Alerte pentru apeluri vocale și video",
+  "notificationSecurityChannelName": "Securitatea contului",
+  "notificationSecurityChannelDescription": "Alerte despre autentificare și schimbarea parolei sau a numărului de mobil",
+  "notificationUnknownCaller": "Apelant necunoscut",
+  "notificationBadgeChannelName": "Insigne de mesaje",
+  "notificationBadgeChannelDescription": "Numărul mesajelor necitite pe pictograma aplicației",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} mesaj necitit} few {{count} mesaje necitite} other {{count} de mesaje necitite}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ mesaje necitite"
+}

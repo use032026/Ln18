@@ -1,0 +1,626 @@
+{
+  "@@locale": "ar",
+  "enterpriseInfoTitle": "معلومات المؤسسة",
+  "enterpriseName": "الاسم",
+  "enterpriseDescription": "الوصف",
+  "enterpriseUpdateSuccess": "تم التحديث بنجاح",
+  "enterpriseUpdateFailed": "فشل التحديث، حاول مجددًا",
+  "enterpriseLeave": "مغادرة المؤسسة",
+  "enterpriseLeaveConfirm": "هل تريد مغادرة هذه المؤسسة بالتأكيد؟",
+  "enterpriseLeaveSuccess": "غادرت المؤسسة",
+  "enterpriseLeaveFailed": "تعذّرت المغادرة، حاول مجددًا",
+  "enterpriseLeaveOwnerError": "لا يمكن للمالك المغادرة مباشرة. انقل الملكية أولًا.",
+  "enterpriseMemberCount": "الأعضاء",
+  "enterpriseCreatedAt": "تاريخ الإنشاء",
+  "enterpriseCode": "رمز المؤسسة",
+  "enterpriseInviteMembers": "دعوة أعضاء",
+  "enterpriseCopyInviteCode": "نسخ رمز الدعوة",
+  "enterpriseInviteCodeCopied": "نُسخ رمز الدعوة",
+  "groupCreateTitle": "مجموعة جديدة",
+  "groupNameHint": "أدخل اسم المجموعة",
+  "groupCreateSuccess": "أُنشئت المجموعة",
+  "groupCreateFailed": "تعذّر إنشاء المجموعة",
+  "groupSettings": "إعدادات المجموعة",
+  "groupName": "اسم المجموعة",
+  "groupAvatar": "صورة المجموعة",
+  "groupAnnouncement": "إعلان",
+  "groupMembers": "الأعضاء",
+  "groupAddMember": "إضافة أعضاء",
+  "groupRemoveMember": "إزالة عضو",
+  "groupRemoveMemberConfirm": "هل تريد إزالة هذا العضو؟",
+  "groupSetAdmin": "تعيين مسؤول",
+  "groupRemoveAdmin": "إزالة صلاحية المسؤول",
+  "groupTransferOwner": "نقل الملكية",
+  "groupTransferOwnerConfirm": "هل تريد نقل ملكية المجموعة إلى هذا العضو؟",
+  "groupTransferOwnerSuccess": "نُقلت الملكية",
+  "groupTransferOwnerFailed": "فشل النقل، حاول مجددًا",
+  "groupLeave": "مغادرة المجموعة",
+  "groupLeaveConfirm": "هل تريد مغادرة هذه المجموعة؟",
+  "groupLeaveSuccess": "غادرت المجموعة",
+  "groupLeaveFailed": "تعذّرت المغادرة، حاول مجددًا",
+  "groupDissolve": "حل المجموعة",
+  "groupDissolveConfirm": "هل تريد حل هذه المجموعة؟ سيُزال جميع الأعضاء.",
+  "groupDissolveSuccess": "حُلّت المجموعة",
+  "groupDissolveFailed": "تعذّر حل المجموعة، حاول مجددًا",
+  "groupQrCode": "رمز QR للمجموعة",
+  "groupMuteAll": "منع الجميع من الإرسال",
+  "groupMuteAllOn": "تفعيل منع الجميع من الإرسال",
+  "groupMuteAllOff": "إيقاف منع الجميع من الإرسال",
+  "groupAllowMemberInvite": "السماح للأعضاء بالدعوة",
+  "groupAllowMemberModifyTitle": "السماح للأعضاء بتغيير اسم المجموعة",
+  "groupAllowMemberAtAll": "السماح للأعضاء بالإشارة إلى @الجميع",
+  "groupAllowMemberViewMemberList": "السماح للأعضاء بعرض قائمة الأعضاء",
+  "groupAllowQrCodeJoin": "السماح بالانضمام عبر رمز QR",
+  "groupRequireApproval": "اشتراط الموافقة للانضمام",
+  "groupAllowMemberAddFriend": "السماح للأعضاء بإضافة بعضهم",
+  "groupRoleOwner": "المالك",
+  "groupRoleAdmin": "مسؤول",
+  "groupRoleMember": "عضو",
+  "groupNoMembers": "لا يوجد أعضاء",
+  "groupNoAnnouncements": "لا توجد إعلانات",
+  "groupCreateAnnouncement": "نشر إعلان",
+  "groupEditAnnouncement": "تعديل إعلان",
+  "groupDeleteAnnouncement": "حذف إعلان",
+  "groupDeleteAnnouncementConfirm": "هل تريد حذف هذا الإعلان؟",
+  "groupAnnouncementTitle": "العنوان",
+  "groupAnnouncementContent": "المحتوى",
+  "groupAnnouncementPin": "تثبيت الإعلان",
+  "groupMemberCount": "الأعضاء: {count}",
+  "groupSelectedCount": "المحدد: {count}",
+  "groupJoinRequestApprove": "موافق",
+  "groupJoinRequestReject": "رفض",
+  "groupJoinRequests": "طلبات الانضمام",
+  "groupNoJoinRequests": "لا توجد طلبات انضمام",
+  "groupReadReceipts": "إيصالات القراءة",
+  "groupReadCount": "قرأها: {count}",
+  "groupUnreadCount": "غير المقروءة: {count}",
+  "organizationTitle": "المنظمة",
+  "organizationEmpty": "لا توجد معلومات عن القسم",
+  "organizationMembers": "الأعضاء",
+  "organizationDepartment": "القسم",
+  "organizationPosition": "المنصب",
+  "organizationLeader": "المسؤول المباشر",
+  "qrCodeTitle": "رمز QR الخاص بي",
+  "qrCodeSave": "حفظ في الألبوم",
+  "qrCodeShare": "مشاركة",
+  "qrCodeSaveSuccess": "تم الحفظ في الألبوم",
+  "qrCodeSaveFailed": "تعذّر الحفظ، حاول مجددًا",
+  "qrCodeRefresh": "تحديث رمز QR",
+  "qrCodeExpired": "انتهت صلاحية رمز QR، يُرجى تحديثه",
+  "qrCodeScanToAdd": "امسح لإضافتي إلى جهات الاتصال",
+  "spacePersonal": "شخصي",
+  "spaceEnterprise": "المؤسسة",
+  "spaceJoinByCode": "الانضمام برمز المؤسسة",
+  "spaceJoinByInvite": "الانضمام برمز الدعوة",
+  "spaceEnterCode": "أدخل رمز المؤسسة",
+  "spaceEnterInviteCode": "أدخل رمز الدعوة",
+  "spaceSearchEnterprise": "بحث عن مؤسسة",
+  "spaceJoinRequestSent": "أُرسل الطلب، في انتظار الموافقة",
+  "spaceJoinRequestPending": "في انتظار الموافقة",
+  "spaceJoinRequestApproved": "تمت الموافقة على الطلب",
+  "spaceJoinRequestRejected": "رُفض الطلب",
+  "spaceAlreadyMember": "أنت عضو بالفعل",
+  "spaceAutoApproved": "تمت الموافقة تلقائيًا. أهلًا بك!",
+  "spacePendingApprovalHint": "تم التسجيل. أُرسل طلب انضمامك.",
+  "spaceNoSpaces": "لا توجد مساحات",
+  "spaceInviteExpired": "انتهت صلاحية رمز الدعوة",
+  "spaceInviteTargetMismatch": "رمز الدعوة هذا غير مخصص لحسابك",
+  "spaceAcceptInviteSuccess": "تم الانضمام إلى المؤسسة",
+  "spaceAcceptInviteFailed": "تعذّر الانضمام، حاول مجددًا",
+  "spaceTenantSelectTitle": "اختر مساحة",
+  "spaceTenantSelectHint": "اختر مساحة للدخول",
+  "spaceEnterPersonal": "دخول المساحة الشخصية",
+  "spaceEnterEnterprise": "دخول مساحة المؤسسة",
+  "recentContactsTitle": "الأخيرة",
+  "recentContactsEmpty": "لا توجد جهات اتصال حديثة",
+  "inviteFriendsTitle": "دعوة أصدقاء",
+  "inviteFriendsCopyLink": "نسخ رابط الدعوة",
+  "inviteFriendsLinkCopied": "نُسخ رابط الدعوة",
+  "pendingJoinRequestsTitle": "طلبات جديدة",
+  "pendingJoinRequestsEmpty": "لا توجد طلبات",
+  "pendingJoinRequestApprove": "موافق",
+  "pendingJoinRequestReject": "رفض",
+  "pendingJoinRequestApproveSuccess": "تمت الموافقة",
+  "pendingJoinRequestRejectSuccess": "مرفوض",
+  "pendingJoinRequestFailed": "فشلت العملية، حاول مجددًا",
+  "groupListTitle": "المجموعات",
+  "groupListEmpty": "لا توجد مجموعات",
+  "joinCompanyTitle": "الانضمام إلى مؤسسة",
+  "joinCompanyCodeHint": "أدخل رمز المؤسسة",
+  "joinCompanySearchHint": "ابحث باسم المؤسسة",
+  "joinCompanyApply": "طلب الانضمام",
+  "joinCompanyApplySuccess": "أُرسل الطلب",
+  "joinCompanyApplyFailed": "تعذّر تقديم الطلب، حاول مجددًا",
+  "joinCompanyAutoApproved": "تمت الموافقة تلقائيًا. أهلًا بك!",
+  "joinCompanyPending": "أُرسل الطلب، في انتظار الموافقة",
+  "joinCompanyInviteCodeHint": "أدخل رمز الدعوة",
+  "joinCompanyAcceptInvite": "قبول الدعوة",
+  "joinCompanyNoResults": "لم يُعثر على مؤسسات",
+  "joinCompanyMemberCount": "الأعضاء: {count}",
+  "approvalEmpty": "لا توجد طلبات",
+  "approvalApprove": "موافق",
+  "approvalReject": "رفض",
+  "approvalPending": "معلق",
+  "approvalApproved": "تمت الموافقة",
+  "approvalRejected": "مرفوض",
+  "approvalExpired": "منتهي",
+  "approvalCancelled": "ملغاة",
+  "approvalReplayFailed": "فشل الإجراء الأصلي. يُرجى تكراره.",
+  "requestCancelled": "أُلغي الطلب",
+  "enterpriseNoPermission": "لا يوجد إذن",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "إعدادات معلومات المؤسسة",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "إعداد المؤسسة",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "الحسابات الرسمية",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "إدارة الحسابات الرسمية",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "إدارة الأعضاء",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "دعوة موظفين",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "الأعضاء",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "إدارة الإعلانات",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "إرسال جماعي للمؤسسة",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "الموافقات",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "موافقات العضوية",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "نقل الملكية",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "بعد النقل ستصبح مسؤولًا. لا يمكن التراجع عن ذلك. اختر المالك الجديد من قائمة الأعضاء.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "اختر مالكًا جديدًا",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "وضع إسناد موظفي الخدمة",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "الإسناد التلقائي",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "موظف خدمة محدد",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "وضع الموافقة على العضوية",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "الموافقة اليدوية",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "الموافقة التلقائية",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "وضع الأصدقاء",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "الوضع الاجتماعي",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "وضع العزل",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "وصول زوار الودجت",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "معطل",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "إسناد موظفي الخدمة المتاحين تلقائيًا بالتناوب",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "إسناد جميع العملاء إلى موظف الخدمة المحدد",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "تتطلب طلبات العملاء موافقة المسؤول",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "الموافقة على طلبات العملاء تلقائيًا",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "يمكن للعملاء إضافة بعضهم أصدقاء",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "لا يمكن للعملاء إضافة بعضهم أصدقاء",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "عضو",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "بحث عن أعضاء",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "تعيين كعضو",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "تعيين كدعم فني",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "تعيين كموظف خدمة",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "تأكيد النقل",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "اسم المؤسسة مطلوب",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "أدخل اسم المؤسسة",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "لا يوجد وصف",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "شعار المؤسسة",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "فشل الإنشاء. يرجى المحاولة مرة أخرى",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "الحد الأقصى للاستخدام",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "مدة الصلاحية",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "ساعة واحدة",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 ساعة",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 أيام",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 أيام",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "إنشاء رمز دعوة",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "رمز الدعوة",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "الجميع",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "الموظفون",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "ابحث عن موظفين أو أدوار أو مناصب",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "أعضاء المؤسسة",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "لا يوجد أعضاء مطابقون",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "نظرة عامة على المؤسسة",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "إدارة",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "صلاحيات الأدوار",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "تسليم المهام عند المغادرة",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "بحث عن موظفين",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "موظفو المؤسسة",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "ملف الصديق",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "مكالمة صوتية أو فيديو",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "إضافة صديق",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "ذكر",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "أنثى",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "لا توجد محادثات غير مقروءة",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "نُسخ رمز الدعوة",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "هل تريد إزالة «{name}» من المؤسسة؟",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "هل تريد نقل الملكية إلى «{name}»؟ ستصبح مسؤولًا. لا يمكن التراجع عن ذلك.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, zero {لا استخدامات} one {استخدام واحد} two {استخدامان} few {{count} استخدامات} many {{count} استخدامًا} other {{count} استخدام}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "صالح لمدة {hours} س · حتى {count} استخدام",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, zero {لا محادثات غير مقروءة} one {محادثة واحدة غير مقروءة} two {محادثتان غير مقروءتين} few {{count} محادثات غير مقروءة} many {{count} محادثة غير مقروءة} other {{count} محادثة غير مقروءة}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, zero {لا رسائل غير مقروءة} one {رسالة واحدة غير مقروءة} two {رسالتان غير مقروءتين} few {{count} رسائل غير مقروءة} many {{count} رسالة غير مقروءة} other {{count} رسالة غير مقروءة}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "معرّف الفقاعة: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "مغادرة المؤسسة",
+  "enterpriseLoginBeforeSearch": "سجّل الدخول قبل البحث عن منظمة",
+  "enterpriseSearchFailed": "فشل البحث. حاول مجددًا.",
+  "enterpriseLoginBeforeJoin": "سجّل الدخول قبل طلب الانضمام إلى منظمة",
+  "enterpriseApplicationPending": "أُرسل الطلب. في انتظار موافقة المسؤول.",
+  "enterpriseLoginBeforeAction": "سجّل الدخول للمتابعة",
+  "enterprisePlatformTagline": "تواصل خاص مع العملاء للمنظمات",
+  "enterpriseLookupHint": "أدخل رقم المنظمة أو اسمها البديل أو رمز الدعوة",
+  "enterpriseLookup": "بحث",
+  "enterpriseApplicationNote": "ملاحظة الطلب (اختياري)",
+  "enterpriseLookupGuide": "ابحث برقم المنظمة أو اسمها البديل، أو انضم برمز دعوة",
+  "enterpriseRecommendationsLoading": "جارٍ تحميل المنظمات المقترحة",
+  "enterpriseRecommendationsFailed": "تعذّر تحميل المنظمات المقترحة",
+  "enterpriseReload": "إعادة التحميل",
+  "enterpriseNoRecommendations": "لا توجد اقتراحات. ابحث برقم المنظمة أو اسمها البديل أو رمز الدعوة.",
+  "enterpriseRecommended": "المنظمات المقترحة",
+  "enterpriseJoined": "منضم",
+  "enterpriseRequestsLoadFailed": "تعذّر تحميل الطلبات",
+  "enterpriseCodeMissing": "رقم المنظمة غير متاح",
+  "enterpriseAlias": "الاسم البديل للمنظمة",
+  "enterpriseCodeLabel": "رقم المنظمة",
+  "enterprisePrivateAliasHint": "لم تنشر هذه المنظمة تفاصيلها. سيعرّفها طلبك بهذا الاسم البديل.",
+  "enterpriseInvitationMismatch": "رمز الدعوة هذا غير موجّه إليك. قد يفشل الانضمام.",
+  "enterpriseTechnicalRole": "الدعم الفني",
+  "enterpriseJoin": "انضمام",
+  "enterpriseCancelApplication": "تراجع",
+  "enterpriseApplication": "طلب المنظمة",
+  "enterpriseAliasValue": "الاسم البديل للمنظمة: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "رقم المنظمة: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "الاسم البديل: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "ستنضم بصفتك {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "رمز الدعوة هذا موجّه إلى: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "سبب الرفض: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "المنظمة {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "الجميع",
+  "enterpriseAudienceAllHint": "الموظفون والعملاء",
+  "enterpriseAudienceStaffHint": "موظفو المنظمة فقط",
+  "enterpriseAudienceCustomers": "عملاء المنظمة",
+  "enterpriseAudienceCustomersHint": "العملاء الذين انضموا إلى المنظمة",
+  "enterpriseOfficialGroups": "المجموعات الرسمية",
+  "enterpriseAudienceGroupsHint": "محادثات المجموعات الرسمية للمنظمة",
+  "enterpriseSendNow": "إرسال الآن",
+  "enterpriseSendScheduled": "جدولة الإرسال",
+  "enterprisePreviewing": "جارٍ المعاينة",
+  "enterprisePreview": "معاينة",
+  "enterpriseSubmitSend": "تقديم للإرسال",
+  "enterpriseBroadcastSubmitted": "قُدّم الإرسال الجماعي للمنظمة",
+  "enterpriseScheduledUnavailable": "الإرسال الجماعي المجدول للمنظمة غير متاح في هذا الإصدار",
+  "enterpriseBroadcastFailed": "فشل الإرسال الجماعي للمنظمة. حاول لاحقًا.",
+  "enterpriseBroadcastGuide": "يستخدم الإرسال الجماعي حساب المنظمة الرسمي ويُسجّل الإجراء. تتاح نتائج التسليم بعد التقديم.",
+  "enterpriseSenderIdentity": "هوية المرسِل",
+  "enterpriseSenderAfterPreview": "التأكيد في المعاينة",
+  "enterpriseSenderConfirmed": "مؤكد",
+  "enterpriseDefaultOfficialSender": "الحساب الرسمي الافتراضي للمنظمة",
+  "enterpriseOfficialSenderHint": "يرى المستلمون هوية الحساب الرسمي للمنظمة",
+  "enterpriseMessageContent": "محتوى الرسالة",
+  "enterpriseBroadcastContentHint": "أدخل الرسالة الجماعية لإرسالها من الحساب الرسمي",
+  "enterpriseInternalNoteHint": "ملاحظة داخلية للتدقيق والمتابعة (اختياري)",
+  "enterpriseSendPreview": "معاينة الإرسال",
+  "enterpriseExpectedRecipients": "المستلمون المتوقعون",
+  "enterpriseDeliveryMethod": "طريقة التسليم",
+  "enterpriseTaskStatus": "حالة المهمة",
+  "enterpriseNoBroadcastHistory": "لا توجد رسائل جماعية للمنظمة بعد",
+  "enterpriseHistoryUnavailable": "غير متاح مؤقتًا",
+  "enterpriseBroadcastDenied": "لا يوجد إذن للإرسال الجماعي للمنظمة",
+  "enterpriseBroadcastRoleHint": "الإرسال الجماعي للمنظمة متاح للمسؤولين والمالكين فقط.",
+  "enterpriseDefaultApplicationMessage": "أرغب في الانضمام إلى منظمتكم"
+}

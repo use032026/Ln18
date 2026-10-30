@@ -1,0 +1,626 @@
+{
+  "@@locale": "hi",
+  "enterpriseInfoTitle": "कंपनी की जानकारी",
+  "enterpriseName": "नाम",
+  "enterpriseDescription": "विवरण",
+  "enterpriseUpdateSuccess": "सफलतापूर्वक अपडेट किया गया",
+  "enterpriseUpdateFailed": "अपडेट विफल हुआ। फिर कोशिश करें।",
+  "enterpriseLeave": "कंपनी छोड़ें",
+  "enterpriseLeaveConfirm": "क्या आप वाकई यह कंपनी छोड़ना चाहते हैं?",
+  "enterpriseLeaveSuccess": "कंपनी छोड़ दी",
+  "enterpriseLeaveFailed": "छोड़ना विफल हुआ। फिर कोशिश करें।",
+  "enterpriseLeaveOwnerError": "स्वामी सीधे नहीं छोड़ सकता। पहले स्वामित्व सौंपें।",
+  "enterpriseMemberCount": "सदस्य",
+  "enterpriseCreatedAt": "बनाया गया",
+  "enterpriseCode": "कंपनी कोड",
+  "enterpriseInviteMembers": "सदस्य आमंत्रित करें",
+  "enterpriseCopyInviteCode": "आमंत्रण कोड कॉपी करें",
+  "enterpriseInviteCodeCopied": "आमंत्रण कोड कॉपी हो गया",
+  "groupCreateTitle": "नया समूह",
+  "groupNameHint": "समूह का नाम दर्ज करें",
+  "groupCreateSuccess": "समूह बन गया",
+  "groupCreateFailed": "समूह नहीं बन सका",
+  "groupSettings": "समूह सेटिंग",
+  "groupName": "समूह का नाम",
+  "groupAvatar": "समूह चित्र",
+  "groupAnnouncement": "घोषणा",
+  "groupMembers": "सदस्य",
+  "groupAddMember": "सदस्य जोड़ें",
+  "groupRemoveMember": "सदस्य हटाएँ",
+  "groupRemoveMemberConfirm": "इस सदस्य को हटाएँ?",
+  "groupSetAdmin": "व्यवस्थापक बनाएँ",
+  "groupRemoveAdmin": "व्यवस्थापक हटाएँ",
+  "groupTransferOwner": "स्वामित्व सौंपें",
+  "groupTransferOwnerConfirm": "इस सदस्य को समूह का स्वामित्व सौंपें?",
+  "groupTransferOwnerSuccess": "स्वामित्व सौंप दिया गया",
+  "groupTransferOwnerFailed": "सौंपना विफल हुआ। फिर कोशिश करें।",
+  "groupLeave": "समूह छोड़ें",
+  "groupLeaveConfirm": "यह समूह छोड़ें?",
+  "groupLeaveSuccess": "समूह छोड़ दिया",
+  "groupLeaveFailed": "छोड़ना विफल हुआ। फिर कोशिश करें।",
+  "groupDissolve": "समूह भंग करें",
+  "groupDissolveConfirm": "यह समूह भंग करें? सभी सदस्य हट जाएँगे।",
+  "groupDissolveSuccess": "समूह भंग हो गया",
+  "groupDissolveFailed": "भंग करना विफल हुआ। फिर कोशिश करें।",
+  "groupQrCode": "समूह का QR कोड",
+  "groupMuteAll": "सभी को म्यूट करें",
+  "groupMuteAllOn": "सभी को म्यूट करना चालू करें",
+  "groupMuteAllOff": "सभी को म्यूट करना बंद करें",
+  "groupAllowMemberInvite": "सदस्यों को आमंत्रण देने दें",
+  "groupAllowMemberModifyTitle": "सदस्यों को समूह का नाम बदलने दें",
+  "groupAllowMemberAtAll": "सदस्यों को @सभी मेंशन करने दें",
+  "groupAllowMemberViewMemberList": "सदस्यों को सदस्य सूची देखने दें",
+  "groupAllowQrCodeJoin": "QR कोड से शामिल होने दें",
+  "groupRequireApproval": "शामिल होने के लिए अनुमोदन ज़रूरी",
+  "groupAllowMemberAddFriend": "सदस्यों को एक-दूसरे को जोड़ने दें",
+  "groupRoleOwner": "स्वामी",
+  "groupRoleAdmin": "व्यवस्थापक",
+  "groupRoleMember": "सदस्य",
+  "groupNoMembers": "कोई सदस्य नहीं है",
+  "groupNoAnnouncements": "कोई घोषणा नहीं है",
+  "groupCreateAnnouncement": "घोषणा प्रकाशित करें",
+  "groupEditAnnouncement": "घोषणा संपादित करें",
+  "groupDeleteAnnouncement": "घोषणा हटाएँ",
+  "groupDeleteAnnouncementConfirm": "यह घोषणा हटाएँ?",
+  "groupAnnouncementTitle": "शीर्षक",
+  "groupAnnouncementContent": "सामग्री",
+  "groupAnnouncementPin": "घोषणा पिन करें",
+  "groupMemberCount": "{count} सदस्य",
+  "groupSelectedCount": "{count} चुने गए",
+  "groupJoinRequestApprove": "स्वीकार करें",
+  "groupJoinRequestReject": "अस्वीकार करें",
+  "groupJoinRequests": "शामिल होने के अनुरोध",
+  "groupNoJoinRequests": "शामिल होने का कोई अनुरोध नहीं है",
+  "groupReadReceipts": "पढ़ने की पुष्टि",
+  "groupReadCount": "{count} ने पढ़ा",
+  "groupUnreadCount": "{count} अपठित",
+  "organizationTitle": "संगठन",
+  "organizationEmpty": "विभाग की कोई जानकारी नहीं है",
+  "organizationMembers": "सदस्य",
+  "organizationDepartment": "विभाग",
+  "organizationPosition": "पद",
+  "organizationLeader": "प्रमुख",
+  "qrCodeTitle": "मेरा QR कोड",
+  "qrCodeSave": "एल्बम में सहेजें",
+  "qrCodeShare": "साझा करें",
+  "qrCodeSaveSuccess": "एल्बम में सहेजा गया",
+  "qrCodeSaveFailed": "सहेजना विफल हुआ। फिर कोशिश करें।",
+  "qrCodeRefresh": "QR कोड रीफ़्रेश करें",
+  "qrCodeExpired": "QR कोड की अवधि समाप्त है। रीफ़्रेश करें।",
+  "qrCodeScanToAdd": "मुझे संपर्क में जोड़ने के लिए स्कैन करें",
+  "spacePersonal": "निजी",
+  "spaceEnterprise": "कंपनी",
+  "spaceJoinByCode": "कंपनी कोड से शामिल हों",
+  "spaceJoinByInvite": "आमंत्रण कोड से शामिल हों",
+  "spaceEnterCode": "कंपनी कोड दर्ज करें",
+  "spaceEnterInviteCode": "आमंत्रण कोड दर्ज करें",
+  "spaceSearchEnterprise": "कंपनी खोजें",
+  "spaceJoinRequestSent": "अनुरोध भेज दिया गया, अनुमोदन की प्रतीक्षा है",
+  "spaceJoinRequestPending": "अनुमोदन की प्रतीक्षा है",
+  "spaceJoinRequestApproved": "अनुरोध अनुमोदित हुआ",
+  "spaceJoinRequestRejected": "अनुरोध अस्वीकृत हुआ",
+  "spaceAlreadyMember": "आप पहले से सदस्य हैं",
+  "spaceAutoApproved": "अपने-आप अनुमोदित। स्वागत है!",
+  "spacePendingApprovalHint": "पंजीकरण सफल हुआ। शामिल होने का अनुरोध भेज दिया गया है।",
+  "spaceNoSpaces": "कोई स्पेस नहीं है",
+  "spaceInviteExpired": "आमंत्रण कोड की अवधि समाप्त है",
+  "spaceInviteTargetMismatch": "यह आमंत्रण कोड आपके खाते के लिए नहीं है",
+  "spaceAcceptInviteSuccess": "कंपनी में सफलतापूर्वक शामिल हुए",
+  "spaceAcceptInviteFailed": "शामिल होना विफल हुआ। फिर कोशिश करें।",
+  "spaceTenantSelectTitle": "स्पेस चुनें",
+  "spaceTenantSelectHint": "खोलने के लिए स्पेस चुनें",
+  "spaceEnterPersonal": "निजी स्पेस खोलें",
+  "spaceEnterEnterprise": "कंपनी स्पेस खोलें",
+  "recentContactsTitle": "हाल के",
+  "recentContactsEmpty": "हाल में कोई संपर्क नहीं है",
+  "inviteFriendsTitle": "दोस्तों को आमंत्रित करें",
+  "inviteFriendsCopyLink": "आमंत्रण लिंक कॉपी करें",
+  "inviteFriendsLinkCopied": "आमंत्रण लिंक कॉपी हो गया",
+  "pendingJoinRequestsTitle": "नए आवेदन",
+  "pendingJoinRequestsEmpty": "कोई आवेदन नहीं है",
+  "pendingJoinRequestApprove": "स्वीकार करें",
+  "pendingJoinRequestReject": "अस्वीकार करें",
+  "pendingJoinRequestApproveSuccess": "अनुमोदित",
+  "pendingJoinRequestRejectSuccess": "अस्वीकृत",
+  "pendingJoinRequestFailed": "कार्रवाई विफल हुई। फिर कोशिश करें।",
+  "groupListTitle": "समूह",
+  "groupListEmpty": "कोई समूह नहीं है",
+  "joinCompanyTitle": "कंपनी में शामिल हों",
+  "joinCompanyCodeHint": "कंपनी कोड दर्ज करें",
+  "joinCompanySearchHint": "कंपनी का नाम खोजें",
+  "joinCompanyApply": "शामिल होने का आवेदन दें",
+  "joinCompanyApplySuccess": "आवेदन भेज दिया गया",
+  "joinCompanyApplyFailed": "आवेदन विफल हुआ। फिर कोशिश करें।",
+  "joinCompanyAutoApproved": "अपने-आप अनुमोदित। स्वागत है!",
+  "joinCompanyPending": "आवेदन भेज दिया गया, अनुमोदन की प्रतीक्षा है",
+  "joinCompanyInviteCodeHint": "आमंत्रण कोड दर्ज करें",
+  "joinCompanyAcceptInvite": "आमंत्रण स्वीकार करें",
+  "joinCompanyNoResults": "कोई कंपनी नहीं मिली",
+  "joinCompanyMemberCount": "{count} सदस्य",
+  "approvalEmpty": "कोई अनुरोध नहीं है",
+  "approvalApprove": "स्वीकार करें",
+  "approvalReject": "अस्वीकार करें",
+  "approvalPending": "लंबित",
+  "approvalApproved": "अनुमोदित",
+  "approvalRejected": "अस्वीकृत",
+  "approvalExpired": "समाप्त",
+  "approvalCancelled": "रद्द किया गया",
+  "approvalReplayFailed": "मूल कार्रवाई विफल हुई। फिर कोशिश करें।",
+  "requestCancelled": "अनुरोध रद्द हुआ",
+  "enterpriseNoPermission": "अनुमति नहीं है",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "कंपनी जानकारी की सेटिंग",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "कंपनी कॉन्फ़िगरेशन",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "आधिकारिक खाते",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "आधिकारिक खाते प्रबंधित करें",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "सदस्य प्रबंधन",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "कर्मचारी आमंत्रित करें",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "सदस्य",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "घोषणा प्रबंधन",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "कंपनी सामूहिक संदेश",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "अनुमोदन",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "सदस्यता अनुमोदन",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "स्वामित्व सौंपें",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "सौंपने के बाद आप व्यवस्थापक बनेंगे। इसे वापस नहीं किया जा सकता। सदस्य सूची से नया स्वामी चुनें।",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "नया स्वामी चुनें",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "सेवा प्रतिनिधि आवंटन मोड",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "अपने-आप आवंटन",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "निर्धारित सेवा प्रतिनिधि",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "सदस्यता अनुमोदन मोड",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "मैन्युअल अनुमोदन",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "अपने-आप अनुमोदन",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "दोस्ती मोड",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "सामाजिक मोड",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "अलगाव मोड",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "विजेट आगंतुक प्रवेश",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "निष्क्रिय",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "उपलब्ध सेवा प्रतिनिधियों को बारी-बारी से अपने-आप सौंपें",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "सभी ग्राहक निर्धारित सेवा प्रतिनिधि को सौंपें",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "ग्राहक अनुरोधों के लिए व्यवस्थापक अनुमोदन ज़रूरी है",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "ग्राहक अनुरोध अपने-आप अनुमोदित करें",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "ग्राहक एक-दूसरे को दोस्त जोड़ सकते हैं",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "ग्राहक एक-दूसरे को दोस्त नहीं जोड़ सकते",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "सदस्य",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "सदस्य खोजें",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "सदस्य बनाएँ",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "तकनीकी सहायता बनाएँ",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "सेवा प्रतिनिधि बनाएँ",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "सौंपने की पुष्टि करें",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "कंपनी का नाम ज़रूरी है",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "कंपनी का नाम दर्ज करें",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "कोई विवरण नहीं है",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "कंपनी का लोगो",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "बनाने में विफल। कृपया पुनः प्रयास करें।",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "अधिकतम उपयोग",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "वैधता अवधि",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 घंटा",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 घंटे",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 दिन",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 दिन",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "आमंत्रण कोड बनाएँ",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "आमंत्रण कोड",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "सभी",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "कर्मचारी",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "कर्मचारी, भूमिका या पद खोजें",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "कंपनी सदस्य",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "कोई मेल खाता सदस्य नहीं है",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "कंपनी का अवलोकन",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "प्रबंधित करें",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "भूमिका अनुमतियाँ",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "नौकरी छोड़ने पर हस्तांतरण",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "कर्मचारी खोजें",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "कंपनी कर्मचारी",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "दोस्त की प्रोफ़ाइल",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "वॉइस और वीडियो कॉल",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "दोस्त जोड़ें",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "पुरुष",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "महिला",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "कोई अपठित बातचीत नहीं है",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "कं",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "आमंत्रण कोड कॉपी हो गया",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "“{name}” को कंपनी से हटाएँ?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "स्वामित्व “{name}” को सौंपें? आप प्रशासक बन जाएँगे। इसे वापस नहीं किया जा सकता।",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} बार उपयोग} other {{count} बार उपयोग}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "{hours} घंटे तक मान्य · अधिकतम {count} बार उपयोग",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} अपठित बातचीत} other {{count} अपठित बातचीत}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} अपठित संदेश} other {{count} अपठित संदेश}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "कंपनी छोड़ें",
+  "enterpriseLoginBeforeSearch": "संगठन खोजने से पहले साइन इन करें",
+  "enterpriseSearchFailed": "खोज असफल हुई। दोबारा कोशिश करें।",
+  "enterpriseLoginBeforeJoin": "संगठन में शामिल होने का आवेदन करने से पहले साइन इन करें",
+  "enterpriseApplicationPending": "आवेदन सबमिट किया गया। प्रशासक की मंज़ूरी की प्रतीक्षा है।",
+  "enterpriseLoginBeforeAction": "जारी रखने के लिए साइन इन करें",
+  "enterprisePlatformTagline": "संगठनों के लिए निजी ग्राहक संपर्क",
+  "enterpriseLookupHint": "संगठन संख्या, उपनाम या आमंत्रण कोड दर्ज करें",
+  "enterpriseLookup": "खोजें",
+  "enterpriseApplicationNote": "आवेदन के साथ टिप्पणी (वैकल्पिक)",
+  "enterpriseLookupGuide": "संगठन संख्या या उपनाम से खोजें, या आमंत्रण कोड से शामिल हों",
+  "enterpriseRecommendationsLoading": "सुझाए गए संगठन लोड हो रहे हैं",
+  "enterpriseRecommendationsFailed": "सुझाए गए संगठन लोड नहीं किए जा सके",
+  "enterpriseReload": "पुनः लोड करें",
+  "enterpriseNoRecommendations": "कोई सुझाव नहीं। संगठन संख्या, उपनाम या आमंत्रण कोड से खोजें।",
+  "enterpriseRecommended": "सुझाए गए संगठन",
+  "enterpriseJoined": "शामिल हैं",
+  "enterpriseRequestsLoadFailed": "आवेदन लोड नहीं किए जा सके",
+  "enterpriseCodeMissing": "संगठन संख्या उपलब्ध नहीं",
+  "enterpriseAlias": "संगठन का उपनाम",
+  "enterpriseCodeLabel": "संगठन संख्या",
+  "enterprisePrivateAliasHint": "इस संगठन ने अपना विवरण सार्वजनिक नहीं किया है। आपके आवेदन में इसकी पहचान इस उपनाम से होगी।",
+  "enterpriseInvitationMismatch": "यह आमंत्रण कोड आपके लिए नहीं है। शामिल होना असफल हो सकता है।",
+  "enterpriseTechnicalRole": "तकनीकी सहायता",
+  "enterpriseJoin": "शामिल हों",
+  "enterpriseCancelApplication": "पूर्ववत करें",
+  "enterpriseApplication": "संगठन का आवेदन",
+  "enterpriseAliasValue": "संगठन का उपनाम: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "संगठन संख्या: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "उपनाम: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "आप {role} के रूप में शामिल होंगे",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "यह आमंत्रण कोड इनके लिए है: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "अस्वीकृति का कारण: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "संगठन {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "उ",
+  "enterpriseCompanyInitial": "सं",
+  "enterpriseAudienceAll": "सभी",
+  "enterpriseAudienceAllHint": "कर्मचारी और ग्राहक",
+  "enterpriseAudienceStaffHint": "केवल संगठन के कर्मचारी",
+  "enterpriseAudienceCustomers": "संगठन के ग्राहक",
+  "enterpriseAudienceCustomersHint": "संगठन में शामिल ग्राहक",
+  "enterpriseOfficialGroups": "आधिकारिक समूह",
+  "enterpriseAudienceGroupsHint": "संगठन की आधिकारिक समूह चैट",
+  "enterpriseSendNow": "अभी भेजें",
+  "enterpriseSendScheduled": "भेजने का समय तय करें",
+  "enterprisePreviewing": "पूर्वावलोकन दिखाया जा रहा है",
+  "enterprisePreview": "पूर्वावलोकन",
+  "enterpriseSubmitSend": "भेजने के लिए सबमिट करें",
+  "enterpriseBroadcastSubmitted": "संगठन का सामूहिक संदेश सबमिट किया गया",
+  "enterpriseScheduledUnavailable": "इस संस्करण में संगठन के सामूहिक संदेशों का समय तय करना उपलब्ध नहीं है",
+  "enterpriseBroadcastFailed": "संगठन का सामूहिक संदेश भेजना असफल रहा। बाद में दोबारा कोशिश करें।",
+  "enterpriseBroadcastGuide": "सामूहिक संदेश संगठन के आधिकारिक खाते से भेजे जाते हैं और कार्रवाई दर्ज की जाती है। सबमिट करने के बाद पहुँचने के नतीजे उपलब्ध होते हैं।",
+  "enterpriseSenderIdentity": "भेजने वाले की पहचान",
+  "enterpriseSenderAfterPreview": "पूर्वावलोकन में पुष्टि करें",
+  "enterpriseSenderConfirmed": "पुष्टि की गई",
+  "enterpriseDefaultOfficialSender": "संगठन का पहले से तय आधिकारिक खाता",
+  "enterpriseOfficialSenderHint": "प्राप्तकर्ताओं को संगठन के आधिकारिक खाते की पहचान दिखाई देती है",
+  "enterpriseMessageContent": "संदेश की सामग्री",
+  "enterpriseBroadcastContentHint": "आधिकारिक खाते से भेजने के लिए सामूहिक संदेश दर्ज करें",
+  "enterpriseInternalNoteHint": "जाँच और आगे की कार्रवाई के लिए आंतरिक टिप्पणी (वैकल्पिक)",
+  "enterpriseSendPreview": "भेजने का पूर्वावलोकन",
+  "enterpriseExpectedRecipients": "अनुमानित प्राप्तकर्ता",
+  "enterpriseDeliveryMethod": "पहुँचाने का तरीका",
+  "enterpriseTaskStatus": "कार्य की स्थिति",
+  "enterpriseNoBroadcastHistory": "अभी संगठन का कोई सामूहिक संदेश नहीं",
+  "enterpriseHistoryUnavailable": "अभी उपलब्ध नहीं",
+  "enterpriseBroadcastDenied": "संगठन का सामूहिक संदेश भेजने की अनुमति नहीं",
+  "enterpriseBroadcastRoleHint": "संगठन के सामूहिक संदेश केवल प्रशासक और मालिक भेज सकते हैं।",
+  "enterpriseDefaultApplicationMessage": "मैं आपके संगठन में शामिल होना चाहता हूँ"
+}

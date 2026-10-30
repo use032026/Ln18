@@ -1,0 +1,75 @@
+{
+  "@@locale": "es",
+  "appRuntimeLoadFailed": "No se pudieron cargar los datos de la cuenta",
+  "privacyConsentTitle": "Términos de servicio y política de privacidad",
+  "privacyConsentBodyAndroid": "Te damos la bienvenida a {brand}. Para ofrecer inicio de sesión, mensajería instantánea, colaboración empresarial, atención al cliente en línea, notificaciones de mensajes y protección de seguridad, necesitamos tratar la información necesaria conforme a las Condiciones del servicio y la Política de privacidad.\n\nAntes de que pulses Aceptar, no leeremos el portapapeles, no inicializaremos JPush/JCore ni los SDK de notificaciones de los fabricantes, ni los utilizaremos para acceder a Android ID, OAID, listas de aplicaciones instaladas, direcciones MAC ni información similar. Si rechazas por ahora, guardaremos tu elección; podrás seguir leyendo los documentos y decidir más adelante.\n\nTras tu aceptación, para enviar notificaciones de mensajes, atención al cliente y llamadas entrantes, JPush/JCore y los servicios de notificaciones de los fabricantes podrán tratar el modelo del dispositivo, la versión de Android, el paquete y la versión de la aplicación, el tipo de red, la dirección IP, Android ID, OAID, el Registration ID de notificaciones, el token del fabricante y los datos de entrega y pulsación de notificaciones. Hemos desactivado funciones no esenciales como las notificaciones inteligentes, las listas de aplicaciones instaladas, MAC, IMEI, IMSI, las listas de redes Wi-Fi, la activación automática y el inicio vinculado.\n\nSolo se accede al portapapeles cuando utilizas copiar o pegar. Los permisos de cámara, micrófono, notificaciones y otros permisos del sistema solo se solicitan cuando utilizas la función correspondiente. Denegar un permiso solo afecta a esa función. Revisa los documentos completos que aparecen a continuación y decide si aceptas.",
+  "privacyConsentBodyIos": "Te damos la bienvenida a {brand}. Para ofrecer inicio de sesión, mensajería instantánea, colaboración empresarial, atención al cliente en línea, notificaciones de mensajes y protección de seguridad, necesitamos tratar la información necesaria conforme a las Condiciones del servicio y la Política de privacidad.\n\nAntes de que pulses Aceptar, no leeremos el portapapeles, no inicializaremos JPush/JCore, no nos registraremos en el servicio de notificaciones de Apple (APNs) ni obtendremos identificadores como el Registration ID de JPush o el token del dispositivo de APNs. Si rechazas por ahora, guardaremos tu elección; podrás seguir leyendo los documentos y decidir más adelante.\n\nTras tu aceptación, para enviar notificaciones de mensajes, atención al cliente y llamadas entrantes, podremos tratar el modelo de iPhone, la versión de iOS, el paquete y la versión de la aplicación, el tipo de red, la dirección IP, IDFV, el Registration ID de JPush, el token del dispositivo de APNs y los datos de entrega y pulsación de notificaciones. JPush/JCore se conecta al servicio de notificaciones; APNs de Apple trata el identificador de la aplicación, el token del dispositivo y el contenido de la notificación para entregar las notificaciones del sistema. La aplicación iOS actual no utiliza servicios publicitarios ni obtiene IDFA.\n\nSolo se accede al portapapeles cuando utilizas copiar o pegar. Los permisos de cámara, micrófono, notificaciones y otros permisos del sistema solo se solicitan cuando utilizas la función correspondiente. Denegar un permiso solo afecta a esa función. Revisa los documentos completos que aparecen a continuación y decide si aceptas.",
+  "privacyConsentTermsLink": "Acuerdo de usuario",
+  "privacyConsentConjunction": "y",
+  "privacyConsentPrivacyLink": "Política de privacidad",
+  "privacyConsentDecline": "No aceptar",
+  "privacyConsentDeclinedExit": "No has aceptado las Condiciones del servicio y la Política de privacidad. La aplicación se cerrará.",
+  "privacyConsentAccept": "Aceptar",
+  "privacyConsentRuntimeFailure": "Error de inicio. Comprueba la conexión e inténtalo de nuevo.",
+  "privacyConsentSaveFailure": "No se pudo guardar tu elección. Inténtalo de nuevo.",
+  "appUpdateRequiredTitle": "Es necesario actualizar para continuar",
+  "appUpdateOptionalTitle": "Nueva versión disponible",
+  "appUpdateVersionAvailable": "{brand} {version} está disponible",
+  "appUpdateLater": "Más tarde",
+  "appUpdateNow": "Actualizar ahora",
+  "appUpdateProcessing": "Procesando...",
+  "appUpdateInvalidUrl": "La dirección de actualización no es válida. Inténtalo más tarde.",
+  "appUpdateOpenUrlFailed": "No se pudo abrir el enlace de actualización. Inténtalo más tarde.",
+  "appUpdateDownloadInterrupted": "Descarga interrumpida. Comprueba la conexión e inténtalo de nuevo.",
+  "appUpdatePackageVerificationFailed": "No se pudo verificar el paquete. Descárgalo de nuevo.",
+  "appUpdatePermissionDenied": "Permite que {brand} instale actualizaciones en los ajustes del sistema.",
+  "appUpdateOpenInstallerFailed": "No se pudo abrir el instalador del sistema. Comprueba los permisos de instalación.",
+  "appUpdateGenericFailure": "Error de actualización. Comprueba la conexión e inténtalo de nuevo.",
+  "appUpdateUnavailable": "La nueva versión aún no está disponible para descargar. Inténtalo más tarde.",
+  "appUpdateCheckFailed": "No se pudieron buscar actualizaciones. Inténtalo más tarde.",
+  "appUpdateChecking": "Buscando",
+  "privacySettingsTitle": "Privacidad",
+  "privacySearchableByMobile": "Permitir búsquedas por número de teléfono",
+  "privacySearchableByLppId": "Permitir búsquedas por ID de StartLink",
+  "privacyAllowFriendRequest": "Permitir solicitudes de amistad",
+  "privacyProfileVisibility": "Visibilidad del perfil",
+  "privacyEveryone": "Todos",
+  "privacyFriendsOfFriends": "Amigos de amigos",
+  "privacyNobody": "Nadie",
+  "privacyFriendsOnly": "Solo amigos",
+  "privacySaveSuccess": "Ajustes guardados",
+  "privacySaveFailed": "No se pudo guardar. Inténtalo de nuevo",
+  "termsTitle": "Condiciones del servicio",
+  "privacyPolicyTitle": "Política de privacidad",
+  "permissionGroupManageDenied": "Solo el propietario o los administradores pueden cambiar los ajustes del grupo.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Solo el propietario o los administradores pueden cambiar el nombre del grupo.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "Este grupo no permite que sus miembros se añadan como amigos.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "Esta organización tiene activado el aislamiento de clientes. No puedes añadir clientes como amigos.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Ver la última versión en el sitio web",
+  "legalOfficialOpenFailed": "No se pudo abrir el sitio web. Se muestra la copia local.",
+  "legalLocalChineseNotice": "La copia local del documento legal está disponible en chino simplificado.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

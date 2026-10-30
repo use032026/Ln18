@@ -1,0 +1,112 @@
+{
+  "@@locale": "es",
+  "officialAccountBadge": "Oficial",
+  "officialAccountOpenConversation": "Abrir conversación",
+  "officialAccountJoinHint": "Al añadir esta cuenta te unes a la empresa como cliente. No se requiere aprobación de amistad.",
+  "officialAccountJoinDisabled": "Esta empresa no acepta nuevos clientes. Contacta con soporte.",
+  "officialAccountRemoved": "Te han eliminado de esta empresa. Pide que te inviten de nuevo.",
+  "officialAccountBanned": "Tu cuenta está deshabilitada en esta empresa.",
+  "officialAccountUnavailable": "Esta cuenta oficial no está disponible actualmente.",
+  "officialAccountJoinBindingDisabled": "El modo actual no permite unirse a una empresa.",
+  "officialAccountPlatformRequired": "Usa una cuenta de plataforma para añadir esta cuenta oficial.",
+  "officialAccountOpenFailed": "No se pudo abrir la conversación. Inténtalo de nuevo.",
+  "officialAccountAccountChanged": "La cuenta o el espacio ha cambiado. Ábrelo de nuevo.",
+  "officialAccountDirectoryUnavailable": "El directorio empresarial no está actualizado. Inténtalo dentro de un momento.",
+  "officialAccountInboxSyncFailed": "No se pudo sincronizar la cuenta oficial. El contenido local sigue disponible.",
+  "officialAccountInboxSyncing": "Sincronizando mensajes de la cuenta oficial",
+  "officialIdentityQr": "Perfil y código QR de la cuenta oficial",
+  "officialIdentityHint": "Gestiona la identidad oficial que ven tus clientes",
+  "officialEditProfile": "Editar perfil",
+  "officialSetIdentityHint": "Establece el número, nombre y avatar de la cuenta oficial",
+  "officialQrTitle": "Código QR de la cuenta oficial",
+  "officialViewReset": "Ver o restablecer",
+  "officialAutoJoin": "Unirse automáticamente a la organización al añadir su cuenta oficial",
+  "officialAutoJoinHint": "Los clientes se unen automáticamente al espacio de clientes de la organización cuando añaden su cuenta oficial",
+  "officialConversationFeatures": "Funciones de conversación",
+  "officialConversationSettingsHint": "Los cambios afectan inmediatamente a las conversaciones oficiales de los clientes",
+  "officialServiceMenu": "Menú de servicio",
+  "officialServiceMenuHint": "Mostrar a los clientes el menú configurado en la consola de escritorio",
+  "officialWelcomeOnFirstContact": "Bienvenida en el primer contacto",
+  "officialWelcomeMessage": "Mensaje de bienvenida",
+  "officialHumanSupport": "Traspaso a agentes humanos",
+  "officialReceptionModeHint": "Las atenciones nuevas o reabiertas usan el modo seleccionado. Las conversaciones activas conservan su modo actual.",
+  "officialReceptionMode": "Modo de atención de agentes",
+  "officialReceptionInOfficial": "En la conversación de la cuenta oficial",
+  "officialReceptionLegacy": "Chat de agente separado (modo heredado)",
+  "officialServiceNotice": "Aviso de atención",
+  "officialServiceNoticeText": "Texto del aviso de atención",
+  "officialAutoHandoff": "Traspaso automático a agentes",
+  "officialAutoHandoffHint": "Asignar un agente cuando un cliente escriba a la cuenta oficial",
+  "officialForwardCustomerText": "Reenviar el mensaje del cliente",
+  "officialForwardCustomerTextHint": "Transmitir el mensaje del cliente al agente asignado tras el traspaso",
+  "officialSyncAgentReplies": "Sincronizar respuestas del agente con la cuenta oficial",
+  "officialSyncAgentRepliesHint": "Transmitir las respuestas del agente a la conversación oficial en el modo heredado",
+  "officialHandoffCooldown": "Intervalo entre avisos de traspaso",
+  "officialAssignedNotice": "Mensaje de agente asignado",
+  "officialQueuedNotice": "Mensaje de cola",
+  "officialDesktopManagementHint": "Gestiona la estructura del menú, las contraseñas y los grupos oficiales en la consola de escritorio.",
+  "officialSaveFailed": "No se pudo guardar. Inténtalo más tarde.",
+  "officialCooldownRange": "Intervalo: 0–1440 minutos",
+  "officialMenuItems": "Elementos del menú",
+  "officialMenuVersion": "Versión del menú",
+  "officialEnabled": "Activado",
+  "officialManageDenied": "Esta cuenta no puede gestionar cuentas oficiales",
+  "officialSettingsLoadFailed": "No se pudieron cargar los ajustes de la cuenta oficial",
+  "officialProfileSaved": "Perfil de la cuenta oficial guardado",
+  "officialProfileTitle": "Perfil de la cuenta oficial",
+  "officialDisplayName": "Nombre visible",
+  "officialAvatarUrl": "URL del avatar",
+  "officialAvatarLogoFallback": "Déjalo vacío para usar el logotipo de la organización",
+  "officialIdHint": "Entre 6 y 10 dígitos; déjalo vacío para desvincular",
+  "officialResetQr": "Restablecer código QR",
+  "officialResetQrConfirm": "El código QR anterior dejará de funcionar inmediatamente. ¿Restablecerlo?",
+  "officialReset": "Restablecer",
+  "officialQrNotGenerated": "No se ha generado ningún código QR",
+  "officialQrLoadFailed": "No se pudo cargar el código QR. Inténtalo de nuevo.",
+  "officialGenerate": "Crear",
+  "officialMenuCustomerOnly": "Contactar con soporte solo está disponible para clientes",
+  "officialMenuUpdated": "El menú ha cambiado. Inténtalo de nuevo.",
+  "officialMenuActionFailed": "La acción ha fallado. Comprueba la conexión e inténtalo de nuevo.",
+  "officialMenuLoadFailed": "No se pudo cargar el menú de servicio",
+  "officialMenuRefreshFailed": "No se pudo actualizar el menú de servicio",
+  "officialAccountIdValue": "Cuenta oficial {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minuto} other {{count} minutos}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Admite los marcadores {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Usado {count} vez} other {Usado {count} veces}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "El nombre debe tener entre 1 y 64 caracteres",
+  "officialIdFormatInvalid": "El número de cuenta oficial debe tener entre 6 y 10 dígitos"
+}

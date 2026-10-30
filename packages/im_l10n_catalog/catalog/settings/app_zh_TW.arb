@@ -1,0 +1,471 @@
+{
+  "@@locale": "zh_TW",
+  "settingsTitle": "設定",
+  "settingsSectionEnterprise": "企業",
+  "settingsSectionAccount": "帳號",
+  "settingsSectionGeneral": "一般",
+  "settingsSectionFeatures": "功能",
+  "settingsSectionAbout": "關於",
+  "settingsEnterpriseInfo": "企業資訊",
+  "settingsProfile": "個人資料",
+  "settingsAccountSecurity": "帳號安全",
+  "settingsNotification": "通知",
+  "settingsDisplay": "介面與顯示",
+  "settingsFriendPrivacy": "朋友權限",
+  "settingsChat": "聊天",
+  "settingsChatHistory": "聊天記錄管理",
+  "settingsAbout": "關於微界",
+  "settingsLanguage": "系統語言",
+  "settingsTimezone": "時區",
+  "settingsAutoTranslate": "自動翻譯",
+  "settingsNetworkSwitch": "線路切換",
+  "aboutTitle": "關於微界",
+  "aboutVersion": "版本",
+  "aboutTerms": "使用者協議",
+  "aboutPrivacy": "隱私政策",
+  "aboutOpenSource": "開源授權",
+  "aboutCheckUpdate": "檢查更新",
+  "aboutLatestVersion": "已是最新版本",
+  "aboutUpdateAvailable": "發現新版本",
+  "aboutUpdateNow": "立即更新",
+  "aboutUpdateLater": "稍後再說",
+  "networkTitle": "線路切換",
+  "networkAutoSelect": "自動選擇",
+  "networkManual": "手動選擇",
+  "timezoneTitle": "時區",
+  "timezoneAuto": "跟隨系統",
+  "displayTitle": "介面與顯示",
+  "displayFontSize": "字體大小",
+  "displayChatBackground": "聊天背景",
+  "displayDarkMode": "深色模式",
+  "displayDarkModeSystem": "跟隨系統",
+  "displayDarkModeSystemHint": "根據系統設定自動切換",
+  "displayDarkModeOff": "淺色模式",
+  "displayDarkModeOffHint": "始終使用淺色主題",
+  "displayDarkModeOn": "深色模式",
+  "displayDarkModeOnHint": "始終使用深色主題",
+  "accountSecurityTitle": "帳號安全",
+  "accountSecurityChangePassword": "修改密碼",
+  "accountSecurityChangeMobile": "更換手機號",
+  "accountSecurityChangeEmail": "更換電子郵件",
+  "accountSecurityLoggedDevices": "已登入裝置",
+  "accountSecurityDeactivate": "登出帳號",
+  "accountSecurityDeactivateConfirm": "帳號登出後，所有資料將在7天後永久刪除，確定要登出嗎？",
+  "loggedDevicesTitle": "已登入裝置",
+  "loggedDevicesCurrent": "目前裝置",
+  "loggedDevicesRevoke": "登出該裝置",
+  "loggedDevicesRevokeConfirm": "確定要登出該裝置嗎？",
+  "loggedDevicesRevokeSuccess": "已登出該裝置",
+  "loggedDevicesRevokeFailed": "登出失敗，請重試",
+  "loggedDevicesLastActive": "最後活躍",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "網頁端",
+  "loggedDevicesTypeDesktop": "桌面端",
+  "loggedDevicesTypeUnknown": "未知裝置",
+  "fontSizeTitle": "字體大小",
+  "fontSizeSmall": "小",
+  "fontSizeNormal": "標準",
+  "fontSizeLarge": "大",
+  "fontSizeExtraLarge": "超大",
+  "fontSizePreview": "字體預覽",
+  "timezoneNameHawaii": "夏威夷",
+  "timezoneNameAlaska": "阿拉斯加",
+  "timezoneNamePacificTime": "太平洋時間",
+  "timezoneNameMountainTime": "山地時間",
+  "timezoneNameCentralTime": "中部時間",
+  "timezoneNameEasternTime": "東部時間",
+  "timezoneNameAtlanticTime": "大西洋時間",
+  "timezoneNameBrasilia": "巴西利亞",
+  "timezoneNameAzores": "亞速爾群島",
+  "timezoneNameLondonDublin": "倫敦/都柏林",
+  "timezoneNameBerlinParisRome": "柏林/巴黎/羅馬",
+  "timezoneNameCairoHelsinki": "開羅/赫爾辛基",
+  "timezoneNameMoscowRiyadh": "莫斯科/利雅得",
+  "timezoneNameTehran": "德黑蘭",
+  "timezoneNameDubaiBaku": "杜拜/巴庫",
+  "timezoneNameKabul": "喀布爾",
+  "timezoneNameKarachiTashkent": "喀拉蚩/塔什干",
+  "timezoneNameMumbaiNewDelhi": "孟買/新德里",
+  "timezoneNameKathmandu": "加德滿都",
+  "timezoneNameDhakaAlmaty": "達卡/阿拉木圖",
+  "timezoneNameYangon": "仰光",
+  "timezoneNameBangkokHanoiJakarta": "曼谷/河內/雅加達",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "北京/上海/香港/台北",
+  "timezoneNameTokyoSeoul": "東京/首爾",
+  "timezoneNameAdelaide": "阿德萊德",
+  "timezoneNameSydneyMelbourne": "雪梨/墨爾本",
+  "timezoneNameSolomonIslands": "索羅門群島",
+  "timezoneNameAucklandFiji": "奧克蘭/斐濟",
+  "networkSmartSelectBestRoute": "智慧選擇最佳線路",
+  "networkTesting": "測試中...",
+  "networkTestingShort": "測試中",
+  "networkLatencyMs": "延遲 {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "連線模式",
+  "networkDirectMode": "直連模式",
+  "networkProxyMode": "代理模式",
+  "networkDirectModeDesc": "直接連線伺服器",
+  "networkProxyModeDesc": "透過代理伺服器連線",
+  "networkDirectRoutes": "直連線路",
+  "networkProxyRoutes": "代理線路",
+  "networkTestAll": "全部測試",
+  "networkChinaTelecom": "中國電信",
+  "networkChinaUnicom": "中國聯通",
+  "networkChinaMobile": "中國移動",
+  "networkHongKongNode": "香港節點",
+  "networkSingaporeNode": "新加坡節點",
+  "networkJapanNode": "日本節點",
+  "networkUnitedStatesNode": "美國節點",
+  "networkHint": "提示：\n• 直連模式：速度快，適合國內使用\n• 代理模式：穩定性高，適合跨境通訊\n• 點擊重新整理圖示可測試單一線路延遲",
+  "diagnosticsTitle": "問題診斷",
+  "diagnosticsExplanation": "日誌已脫敏，僅包含執行和錯誤資訊。預設匯出目前帳號、目前空間及公共啟動記錄，不包含聊天內容或登入憑證。",
+  "diagnosticsHour": "最近1小時",
+  "diagnosticsDay": "最近24小時",
+  "diagnosticsWeek": "最近7天",
+  "diagnosticsEventCount": "可用記錄：{count}筆",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "日誌已儲存在本機，重新啟動後可繼續匯出。",
+  "diagnosticsNotPersistent": "部分日誌尚未儲存，請稍後重新整理。",
+  "diagnosticsExport": "匯出並分享",
+  "diagnosticsRefresh": "重新整理",
+  "diagnosticsClear": "清除目前空間日誌",
+  "diagnosticsClearConfirm": "清除目前空間的診斷日誌？不會刪除聊天記錄。",
+  "diagnosticsShared": "已完成系統分享操作，請在目標應用確認檔案。",
+  "diagnosticsCancelled": "已取消分享，可再次匯出。",
+  "diagnosticsUnconfirmed": "無法確認分享結果，請在目標應用檢查。",
+  "diagnosticsFailed": "操作失敗，請重試。",
+  "settingsDeleteWarning": "註銷後所有企業空間關係將同步清除，歷史訊息無法復原。\n\n註銷後有 7 天冷靜期，期間可重新登入撤銷註銷。",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "繼續註銷",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "最終確認",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "確定註銷帳號？此操作將於 7 天後永久生效。",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "註銷原因（選填）",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "註銷申請已送出，7 天內可重新登入撤銷",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "確認註銷",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "註銷失敗，請重試",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "將使用者加入黑名單後，對方將無法傳送訊息給你或查看你的個人資訊和動態。",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "聊天",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "按 Enter 傳送訊息",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "載入失敗，點擊重試",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "訊息通知授權",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "已同意",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "未同意",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "系統通知權限",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "已開啟",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "未開啟",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "未知",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "不支援",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "檢查中",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "檢查失敗",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "來電全螢幕提醒",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "點擊檢查並授權",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "來電全螢幕提醒已開啟",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "來電全螢幕提醒未開啟，請在系統設定中允許",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "勿擾時段",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "未設定",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "開啟訊息通知",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "開啟後，極光 JPush/JCore 及手機廠商推播服務可能處理裝置資訊、推播識別碼和通知送達資訊，用於訊息、客服和來電提醒。您仍可在系統設定中關閉通知權限。",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "系統通知仍未開啟，請在手機系統設定中允許微界通知",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00 - 08:00（夜間）",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "關閉勿擾",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "未測試",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "無法使用",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "主站備援",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "線路無法使用，已保留目前線路",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "可切換站點",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "線路重新整理失敗，已保留目前線路",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "重新整理中",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "重新整理站點",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "線路來自已驗證簽章的正式設定。啟動時優先恢復上次線路，再從目前、快取、種子及 S3/R2 來源更新；手動選擇優先，失敗時保留目前線路。",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "未知裝置",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "登出",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "目前",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "裝置清單載入失敗",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "暫無已登入裝置",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "預覽效果",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "這是一段範例文字，用於預覽字體大小效果。您可以選擇適合自己的字體大小，讓聊天更加舒適。",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "保留所有權利",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "翻譯範例",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "原文（英語）",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "目標語言",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "提示：\n• 自動翻譯功能由 AI 提供支援\n• 翻譯結果僅供參考，可能存在誤差\n• 原文和譯文都會顯示在聊天畫面中\n• 可在聊天畫面長按訊息選擇「顯示原文」",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "預設背景",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "純白",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "淺灰",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "米白",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "淺藍",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "淺綠",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "淺粉",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "淺紫",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "自訂圖片",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "目前聊天背景",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "聊天背景",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "更換自訂圖片",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "從相簿選擇圖片",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "已設定",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "使用全域聊天背景",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "譯文（{language}）",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "確定要讓「{name}」登出嗎？",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count} 個工作階段",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "最近上線 {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "開發診斷",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "網路無法使用，請檢查網路設定",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

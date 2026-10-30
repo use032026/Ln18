@@ -1,0 +1,66 @@
+
+> @imsdk/web@0.1.5 test
+> node --test test/*.test.mjs
+
+✔ registration follows server verification settings, sends register codes and preserves captcha (26.047875ms)
+✔ registration never chooses a tenant and auto-authenticates personal even under a fixed enterprise config (1.634ms)
+✔ registration accepts a verified direct personal result without additional space selection (0.503458ms)
+✔ direct enterprise registration uses its actual space and replaces the single active session (1.034584ms)
+✔ default personal selection preserves a resolved enterprise session returned by the backend (0.409792ms)
+✔ explicit enterprise type takes precedence over a legacy UUID personal compatibility marker (0.278ms)
+✔ enterprise registration rejects an explicit profile spaceId belonging to a different space (0.41075ms)
+✔ registration requires a code only when its enabled channel requires one (0.242375ms)
+✔ disabled channels and missing required codes stop registration before creating an account (0.204958ms)
+✔ registration rejects unresolved space and contradictory enterprise markers (0.3945ms)
+✔ registration distinguishes approval and created-account login failure (0.308625ms)
+✔ registration rejects unresolved selected-space results without space identifiers (0.277084ms)
+✔ personal password login rejects explicitly nonpersonal selected-space results without identifiers (0.2835ms)
+✔ registration rejects profile space contradicting the returned authenticated session (0.214334ms)
+✔ registration captcha rejection preserves its actionable code without pretending an account exists (0.150667ms)
+✔ logout during registration prevents stale registration and space responses from authenticating (0.180709ms)
+✔ personal password login recognizes the same mobile and email identities used to register (0.331542ms)
+✔ friend search, request outcomes, incoming actions and new groups use existing server contracts (0.774125ms)
+✔ already-handled friend requests reconcile, invalid actions and self-add are rejected (0.258417ms)
+✔ contacts use server friend identities and display remarks without accepting arbitrary targets (0.175375ms)
+✔ configuration requires consent and HTTPS service endpoints (0.148334ms)
+✔ external authentication validates the bearer against profile/me (0.101833ms)
+✔ external credentials cannot replace the identity accepted by the server (0.627125ms)
+✔ expired external credentials are rejected before network authentication (0.103417ms)
+✔ personal password login selects personal space without querying enterprises (0.217625ms)
+✔ tenant login_name uses the configured tenant and web device type (0.151041ms)
+✔ tenant lpp_id login selects the exact configured tenant (0.178416ms)
+✔ captcha requests expose challenge fields and omit authentication (0.116791ms)
+✔ a 401 refreshes the credential pair and retries the request once (0.33425ms)
+✔ simultaneous 401 responses share one refresh request (4.140292ms)
+✔ network failure during refresh retains the authenticated account (0.269708ms)
+✔ a second 401 does not create a refresh loop (0.258125ms)
+✔ logout invalidates requests started by the previous session (0.230708ms)
+✔ SDK instances keep credentials and logout independent (0.205ms)
+✔ conversation pagination preserves cursor and maps direct/group records (0.321542ms)
+✔ direct and group history use their corresponding routes and sequence cursor (0.434625ms)
+✔ text sends include unique clientMsgId and reconstruct the compact server response (1.018166ms)
+✔ failed non-idempotent message requests are not retried after network loss (0.166625ms)
+✔ brand customer-service uses threadStatus and queued never opens a chat (0.203291ms)
+✔ current-tenant customer-service uses status and requires a real conversation for active state (0.17875ms)
+✔ text messages preserve spaces and line breaks in history and send results (0.743625ms)
+✔ recalled messages hide their original text for both supported recall markers (0.230833ms)
+✔ identity changes clear the prior account and notify while verification is still pending (0.180625ms)
+✔ refresh rejects a credential pair for another identity and retires the account (0.226625ms)
+✔ request timeout has a stable public error and does not expose transport payloads (101.604458ms)
+✔ accepted personal JWT string space_type overrides its tenant placeholder (0.442ms)
+✔ accepted tenant JWT cannot activate credentials that claim personal space (0.18525ms)
+✔ JWT space fallback rejects a subject that differs from the accepted profile (0.16275ms)
+✔ explicit profile space cannot be replaced by a personal JWT claim (0.150709ms)
+✔ personal space normalizes numeric JWT and string DTO space types (0.169ms)
+✔ SDK Web chrome keeps its six-language wording after extraction (0.657292ms)
+✔ Web placeholders preserve host values and missing-token behavior (0.06675ms)
+✔ dictionary membership does not claim user strings or inherited properties (0.048041ms)
+✔ locale aliases and system fallback retain the existing contract (0.53525ms)
+ℹ tests 54
+ℹ suites 0
+ℹ pass 54
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 216.136834

@@ -1,0 +1,53 @@
+{
+  "@@locale": "ar",
+  "notificationTitle": "الإشعارات",
+  "notificationGlobalMute": "عدم الإزعاج",
+  "notificationSound": "صوت",
+  "notificationVibration": "الاهتزاز",
+  "notificationPreview": "معاينة الرسائل",
+  "notificationDndStart": "وقت بدء عدم الإزعاج",
+  "notificationDndEnd": "وقت انتهاء عدم الإزعاج",
+  "notificationNewMessageTitle": "رسالة جديدة من StartLink",
+  "notificationOnlineServiceTitle": "رسالة جديدة من خدمة العملاء",
+  "notificationNewMessageBody": "تلقيت رسالة جديدة",
+  "notificationImagePreview": "أرسل صورة",
+  "notificationVideoPreview": "أرسل فيديو",
+  "notificationVoicePreview": "أرسل رسالة صوتية",
+  "notificationFilePreview": "أرسل ملفًا",
+  "notificationContactPreview": "أرسل بطاقة جهة اتصال",
+  "notificationCallLogPreview": "أرسل سجل مكالمة",
+  "notificationLocationPreview": "شارك موقعًا",
+  "notificationLinkPreview": "شارك رابطًا",
+  "notificationMentionMe": "أشار إليك: {body}",
+  "notificationMentionMeBy": "أشار إليك {sender}: {body}",
+  "notificationMentionAll": "أشار إلى الجميع: {body}",
+  "notificationMentionAllBy": "أشار {sender} إلى الجميع: {body}",
+  "notificationSecurityTitle": "تنبيه أمان الحساب",
+  "notificationSecurityBody": "تغيّرت إعدادات أمان حسابك في StartLink. راجعها الآن.",
+  "notificationFriendAcceptedTitle": "قُبل طلب الصداقة",
+  "notificationFriendRejectedTitle": "رُفض طلب الصداقة",
+  "notificationFriendAcceptedBody": "قبل الطرف الآخر طلب صداقتك",
+  "notificationFriendRejectedBody": "رفض الطرف الآخر طلب صداقتك",
+  "notificationVideoCallTitle": "دعوة إلى مكالمة فيديو",
+  "notificationAudioCallTitle": "دعوة إلى مكالمة صوتية",
+  "notificationVideoCallBody": "دعاك {caller} إلى مكالمة فيديو",
+  "notificationAudioCallBody": "دعاك {caller} إلى مكالمة صوتية",
+  "notificationMessageChannelName": "الرسائل",
+  "notificationMessageChannelDescription": "رسائل المحادثات وسجلات المكالمات وتنبيهات النظام",
+  "notificationCallChannelName": "المكالمات",
+  "notificationCallChannelDescription": "تنبيهات المكالمات الصوتية ومكالمات الفيديو",
+  "notificationSecurityChannelName": "أمان الحساب",
+  "notificationSecurityChannelDescription": "تنبيهات تسجيل الدخول وتغيير كلمة المرور ورقم الهاتف المحمول",
+  "notificationUnknownCaller": "متصل غير معروف",
+  "notificationBadgeChannelName": "شارات الرسائل",
+  "notificationBadgeChannelDescription": "عدد الرسائل غير المقروءة على أيقونة التطبيق",
+  "notificationBadgeUnreadCount": "{count, plural, zero {لا رسائل غير مقروءة} one {رسالة واحدة غير مقروءة} two {رسالتان غير مقروءتين} few {{count} رسائل غير مقروءة} many {{count} رسالة غير مقروءة} other {{count} رسالة غير مقروءة}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "أكثر من 99 رسالة غير مقروءة"
+}

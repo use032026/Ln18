@@ -1,0 +1,41 @@
+{
+  "sdkFlutterVersion": "3.41.9",
+  "supplementalEquivalence": "passed: nine datasets including every legal platform display value, network six-language message and supported-locale label",
+  "dartAnalyze": "passed (all affected sources, generated files, added test source)",
+  "flutterGenL10n": "passed for original six languages and 1040 keys",
+  "syncCheck": "passed",
+  "independence": "passed",
+  "web": {
+    "typecheck": "passed",
+    "build": "passed",
+    "testsPassed": 54,
+    "testsFailed": 0
+  },
+  "flutterWidgetTests": {
+    "status": "not executed: native asset hook preparation failed before loading tests",
+    "attempts": 2,
+    "failures": [
+      "objective_c-9.5.0 cached hook.dill missing",
+      "sqlite3-3.5.2 cached hook.dill missing"
+    ],
+    "repair": "Regenerated only the missing objective_c project-local kernel snapshot using pinned Dart and the unchanged dependency hook source; second failure caused stopping per retry limit.",
+    "logs": [
+      "sdk-supplemental-tests.log",
+      "sdk-supplemental-tests-retry.log",
+      "sdk-native-hook-cache-repair.log"
+    ]
+  },
+  "cleanupScope": "full-integration-sdk-cleanup-scope.json",
+  "checks": [
+    {
+      "step": "sdk-final-sync-check",
+      "exitCode": 0
+    },
+    {
+      "step": "sdk-final-independence",
+      "exitCode": 0
+    }
+  ],
+  "committed": false,
+  "pushed": false
+}

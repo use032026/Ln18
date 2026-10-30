@@ -1,0 +1,626 @@
+{
+  "@@locale": "bg",
+  "enterpriseInfoTitle": "Информация за фирмата",
+  "enterpriseName": "Име",
+  "enterpriseDescription": "Описание",
+  "enterpriseUpdateSuccess": "Успешно актуализирано",
+  "enterpriseUpdateFailed": "Актуализацията е неуспешна. Опитайте отново.",
+  "enterpriseLeave": "Напусни фирмата",
+  "enterpriseLeaveConfirm": "Сигурни ли сте, че искате да напуснете тази фирма?",
+  "enterpriseLeaveSuccess": "Напуснахте фирмата",
+  "enterpriseLeaveFailed": "Напускането е неуспешно. Опитайте отново.",
+  "enterpriseLeaveOwnerError": "Собственикът не може да напусне директно. Първо прехвърлете собствеността.",
+  "enterpriseMemberCount": "Членове",
+  "enterpriseCreatedAt": "Създадено",
+  "enterpriseCode": "Фирмен код",
+  "enterpriseInviteMembers": "Покани членове",
+  "enterpriseCopyInviteCode": "Копирай кода за покана",
+  "enterpriseInviteCodeCopied": "Кодът за покана е копиран",
+  "groupCreateTitle": "Нова група",
+  "groupNameHint": "Въведете име на групата",
+  "groupCreateSuccess": "Групата е създадена",
+  "groupCreateFailed": "Създаването на групата е неуспешно",
+  "groupSettings": "Настройки на групата",
+  "groupName": "Име на групата",
+  "groupAvatar": "Снимка на групата",
+  "groupAnnouncement": "Обявление",
+  "groupMembers": "Членове",
+  "groupAddMember": "Добави членове",
+  "groupRemoveMember": "Премахни член",
+  "groupRemoveMemberConfirm": "Да се премахне ли този член?",
+  "groupSetAdmin": "Назначи за администратор",
+  "groupRemoveAdmin": "Премахни администраторските права",
+  "groupTransferOwner": "Прехвърли собствеността",
+  "groupTransferOwnerConfirm": "Да се прехвърли ли собствеността на групата на този член?",
+  "groupTransferOwnerSuccess": "Собствеността е прехвърлена",
+  "groupTransferOwnerFailed": "Прехвърлянето е неуспешно. Опитайте отново.",
+  "groupLeave": "Напусни групата",
+  "groupLeaveConfirm": "Да се напусне ли тази група?",
+  "groupLeaveSuccess": "Напуснахте групата",
+  "groupLeaveFailed": "Напускането е неуспешно. Опитайте отново.",
+  "groupDissolve": "Разпусни групата",
+  "groupDissolveConfirm": "Да се разпусне ли тази група? Всички членове ще бъдат премахнати.",
+  "groupDissolveSuccess": "Групата е разпусната",
+  "groupDissolveFailed": "Разпускането е неуспешно. Опитайте отново.",
+  "groupQrCode": "QR код на групата",
+  "groupMuteAll": "Заглуши всички",
+  "groupMuteAllOn": "Включи заглушаване на всички",
+  "groupMuteAllOff": "Изключи заглушаване на всички",
+  "groupAllowMemberInvite": "Разреши на членовете да канят други",
+  "groupAllowMemberModifyTitle": "Разреши на членовете да променят името на групата",
+  "groupAllowMemberAtAll": "Разреши на членовете да споменават всички",
+  "groupAllowMemberViewMemberList": "Разреши на членовете да виждат списъка с членове",
+  "groupAllowQrCodeJoin": "Разреши присъединяване чрез QR код",
+  "groupRequireApproval": "Изисквай одобрение за присъединяване",
+  "groupAllowMemberAddFriend": "Разреши на членовете да се добавят взаимно",
+  "groupRoleOwner": "Собственик",
+  "groupRoleAdmin": "Администратор",
+  "groupRoleMember": "Член",
+  "groupNoMembers": "Няма членове",
+  "groupNoAnnouncements": "Няма обявления",
+  "groupCreateAnnouncement": "Публикувай обявление",
+  "groupEditAnnouncement": "Редактирай обявление",
+  "groupDeleteAnnouncement": "Изтрий обявление",
+  "groupDeleteAnnouncementConfirm": "Да се изтрие ли това обявление?",
+  "groupAnnouncementTitle": "Заглавие",
+  "groupAnnouncementContent": "Съдържание",
+  "groupAnnouncementPin": "Закачи обявление",
+  "groupMemberCount": "{count} членове",
+  "groupSelectedCount": "Избрани: {count}",
+  "groupJoinRequestApprove": "Съгласен съм",
+  "groupJoinRequestReject": "Отказ",
+  "groupJoinRequests": "Заявки за присъединяване",
+  "groupNoJoinRequests": "Няма заявки за присъединяване",
+  "groupReadReceipts": "Потвърждения за прочитане",
+  "groupReadCount": "Прочетено: {count}",
+  "groupUnreadCount": "{count} непрочетени",
+  "organizationTitle": "Организация",
+  "organizationEmpty": "Няма информация за отдела",
+  "organizationMembers": "Членове",
+  "organizationDepartment": "Отдел",
+  "organizationPosition": "Длъжност",
+  "organizationLeader": "Ръководител",
+  "qrCodeTitle": "Моят QR код",
+  "qrCodeSave": "Запази в албума",
+  "qrCodeShare": "Сподели",
+  "qrCodeSaveSuccess": "Запазено в албума",
+  "qrCodeSaveFailed": "Запазването е неуспешно. Опитайте отново.",
+  "qrCodeRefresh": "Обнови QR кода",
+  "qrCodeExpired": "QR кодът е изтекъл. Обновете го.",
+  "qrCodeScanToAdd": "Сканирайте, за да ме добавите като контакт",
+  "spacePersonal": "Лично",
+  "spaceEnterprise": "Фирма",
+  "spaceJoinByCode": "Присъедини се с фирмен код",
+  "spaceJoinByInvite": "Присъедини се с код за покана",
+  "spaceEnterCode": "Въведете фирмения код",
+  "spaceEnterInviteCode": "Въведете кода за покана",
+  "spaceSearchEnterprise": "Търси фирма",
+  "spaceJoinRequestSent": "Заявката е изпратена и чака одобрение",
+  "spaceJoinRequestPending": "Чака одобрение",
+  "spaceJoinRequestApproved": "Заявката е одобрена",
+  "spaceJoinRequestRejected": "Заявката е отхвърлена",
+  "spaceAlreadyMember": "Вече сте член",
+  "spaceAutoApproved": "Автоматично одобрение. Добре дошли!",
+  "spacePendingApprovalHint": "Успешна регистрация. Заявката ви за присъединяване е изпратена.",
+  "spaceNoSpaces": "Няма пространства",
+  "spaceInviteExpired": "Кодът за покана е изтекъл",
+  "spaceInviteTargetMismatch": "Този код за покана не е за вашия профил",
+  "spaceAcceptInviteSuccess": "Успешно се присъединихте към фирмата",
+  "spaceAcceptInviteFailed": "Присъединяването е неуспешно. Опитайте отново.",
+  "spaceTenantSelectTitle": "Изберете пространство",
+  "spaceTenantSelectHint": "Изберете пространство, в което да влезете",
+  "spaceEnterPersonal": "Влез в личното пространство",
+  "spaceEnterEnterprise": "Влез във фирменото пространство",
+  "recentContactsTitle": "Скорошни",
+  "recentContactsEmpty": "Няма скорошни контакти",
+  "inviteFriendsTitle": "Покани приятели",
+  "inviteFriendsCopyLink": "Копирай връзката за покана",
+  "inviteFriendsLinkCopied": "Връзката за покана е копирана",
+  "pendingJoinRequestsTitle": "Нови заявления",
+  "pendingJoinRequestsEmpty": "Няма заявления",
+  "pendingJoinRequestApprove": "Съгласен съм",
+  "pendingJoinRequestReject": "Отказ",
+  "pendingJoinRequestApproveSuccess": "Одобрено",
+  "pendingJoinRequestRejectSuccess": "Отхвърлено",
+  "pendingJoinRequestFailed": "Операцията е неуспешна. Опитайте отново.",
+  "groupListTitle": "Групи",
+  "groupListEmpty": "Няма групи",
+  "joinCompanyTitle": "Присъедини се към фирма",
+  "joinCompanyCodeHint": "Въведете фирмения код",
+  "joinCompanySearchHint": "Търси име на фирма",
+  "joinCompanyApply": "Кандидатствай за присъединяване",
+  "joinCompanyApplySuccess": "Заявлението е изпратено",
+  "joinCompanyApplyFailed": "Кандидатстването е неуспешно. Опитайте отново.",
+  "joinCompanyAutoApproved": "Автоматично одобрение. Добре дошли!",
+  "joinCompanyPending": "Заявлението е изпратено и чака одобрение",
+  "joinCompanyInviteCodeHint": "Въведете кода за покана",
+  "joinCompanyAcceptInvite": "Приеми поканата",
+  "joinCompanyNoResults": "Няма намерени фирми",
+  "joinCompanyMemberCount": "{count} членове",
+  "approvalEmpty": "Няма заявки",
+  "approvalApprove": "Съгласен съм",
+  "approvalReject": "Отказ",
+  "approvalPending": "Чакаща",
+  "approvalApproved": "Одобрено",
+  "approvalRejected": "Отказан",
+  "approvalExpired": "Изтекъл",
+  "approvalCancelled": "Отменено",
+  "approvalReplayFailed": "Първоначалното действие е неуспешно. Опитайте отново.",
+  "requestCancelled": "Заявката е отменена",
+  "enterpriseNoPermission": "Няма разрешение",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Настройки на фирмената информация",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Фирмена конфигурация",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Официални профили",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Управление на официалните профили",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Управление на членовете",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Покани служители",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Членове",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Управление на обявите",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Фирмени известия",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Одобрения",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Одобряване на членство",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Прехвърли собствеността",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "След прехвърлянето ставате администратор. Действието е необратимо. Изберете нов собственик от списъка с членове.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Избери нов собственик",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Начин на разпределяне на агенти",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Автоматично разпределяне",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Определен агент",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Начин на одобряване на членство",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ръчно одобряване",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Автоматично одобряване",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Режим на приятелствата",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Социален режим",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Режим на изолация",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Достъп на посетители през уиджета",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Изключено",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Автоматично разпределяне на свободните агенти по ред",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Разпределяне на всички клиенти към определения агент",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Заявките на клиенти изискват одобрение от администратор",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Автоматично одобряване на заявките на клиенти",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Клиентите могат да се добавят като приятели",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Клиентите не могат да се добавят като приятели",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Член",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Търси членове",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Задай като член",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Задай като техническа поддръжка",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Задай като агент за обслужване",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Потвърди прехвърлянето",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Името на фирмата е задължително",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Въведете името на фирмата",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Няма описание",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Фирмено лого",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Създаването не бе успешно. Моля, опитайте отново.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Максимален брой използвания",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Срок на валидност",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 час",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 часа",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 дни",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 дни",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Създай код за покана",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Код за покана",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Всички",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Служители",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Търсене по служители, роли или длъжности",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Членове на фирмата",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Няма съответстващи членове",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Преглед на фирмата",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Управление",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Права по роли",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Предаване при напускане",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Търси служители",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Фирмени служители",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Профил на приятеля",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Гласово и видео повикване",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Добави приятел",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Мъж",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Жена",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Няма непрочетени разговори",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "Ф",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Кодът за покана е копиран",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Да се премахне ли „{name}“ от фирмата?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Да се прехвърли ли собствеността на „{name}“? Ще станете администратор. Това действие е необратимо.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} използване} other {{count} използвания}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Валиден за {hours} ч · До {count} използвания",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} непрочетен разговор} other {{count} непрочетени разговора}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} непрочетено съобщение} other {{count} непрочетени съобщения}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID на балончето: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Напусни фирмата",
+  "enterpriseLoginBeforeSearch": "Влезте в профила си, преди да търсите организация",
+  "enterpriseSearchFailed": "Търсенето е неуспешно. Опитайте отново.",
+  "enterpriseLoginBeforeJoin": "Влезте в профила си, преди да кандидатствате за присъединяване към организация",
+  "enterpriseApplicationPending": "Заявката е изпратена. Изчаква се одобрение от администратор.",
+  "enterpriseLoginBeforeAction": "Влезте, за да продължите",
+  "enterprisePlatformTagline": "Директна комуникация на организации с техните клиенти",
+  "enterpriseLookupHint": "Въведете номер на организация, псевдоним или код за покана",
+  "enterpriseLookup": "Търси",
+  "enterpriseApplicationNote": "Бележка към заявката (по желание)",
+  "enterpriseLookupGuide": "Търсете по номер или псевдоним на организация или се присъединете с код за покана",
+  "enterpriseRecommendationsLoading": "Зареждане на препоръчани организации",
+  "enterpriseRecommendationsFailed": "Препоръчаните организации не можаха да се заредят",
+  "enterpriseReload": "Презареждане",
+  "enterpriseNoRecommendations": "Няма препоръки. Търсете по номер на организация, псевдоним или код за покана.",
+  "enterpriseRecommended": "Препоръчани организации",
+  "enterpriseJoined": "Присъединени",
+  "enterpriseRequestsLoadFailed": "Заявките не можаха да се заредят",
+  "enterpriseCodeMissing": "Номерът на организацията е недостъпен",
+  "enterpriseAlias": "Псевдоним на организацията",
+  "enterpriseCodeLabel": "Номер на организацията",
+  "enterprisePrivateAliasHint": "Тази организация не е публикувала данните си. В заявката ви тя ще бъде посочена с този псевдоним.",
+  "enterpriseInvitationMismatch": "Този код за покана не е предназначен за вас. Присъединяването може да е неуспешно.",
+  "enterpriseTechnicalRole": "Техническа поддръжка",
+  "enterpriseJoin": "Присъедини се",
+  "enterpriseCancelApplication": "Отмяна",
+  "enterpriseApplication": "Заявка до организация",
+  "enterpriseAliasValue": "Псевдоним на организацията: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Номер на организацията: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Псевдоним: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Ще се присъедините като {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Този код за покана е предназначен за: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Причина за отхвърляне: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Организация {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "А",
+  "enterpriseCompanyInitial": "С",
+  "enterpriseAudienceAll": "Всички",
+  "enterpriseAudienceAllHint": "Служители и клиенти",
+  "enterpriseAudienceStaffHint": "Само служители на организацията",
+  "enterpriseAudienceCustomers": "Клиенти на организацията",
+  "enterpriseAudienceCustomersHint": "Клиенти, присъединили се към организацията",
+  "enterpriseOfficialGroups": "Официални групи",
+  "enterpriseAudienceGroupsHint": "Официални групови разговори на организацията",
+  "enterpriseSendNow": "Изпрати сега",
+  "enterpriseSendScheduled": "Планирай изпращане",
+  "enterprisePreviewing": "Преглед",
+  "enterprisePreview": "Предварителен преглед",
+  "enterpriseSubmitSend": "Заяви изпращане",
+  "enterpriseBroadcastSubmitted": "Масовото съобщение на организацията е заявено",
+  "enterpriseScheduledUnavailable": "Планираните масови съобщения на организацията са недостъпни в тази версия",
+  "enterpriseBroadcastFailed": "Масовото изпращане на организацията е неуспешно. Опитайте по-късно.",
+  "enterpriseBroadcastGuide": "Масовите съобщения се изпращат от официалния профил на организацията и действието се записва. Резултатите от доставката са достъпни след подаване.",
+  "enterpriseSenderIdentity": "Самоличност на подателя",
+  "enterpriseSenderAfterPreview": "Потвърди в прегледа",
+  "enterpriseSenderConfirmed": "Потвърдено",
+  "enterpriseDefaultOfficialSender": "Официален профил на организацията по подразбиране",
+  "enterpriseOfficialSenderHint": "Получателите виждат самоличността на официалния профил на организацията",
+  "enterpriseMessageContent": "Съдържание на съобщението",
+  "enterpriseBroadcastContentHint": "Въведете масовото съобщение за изпращане от официалния профил",
+  "enterpriseInternalNoteHint": "Вътрешна бележка за одит и последващи действия (по желание)",
+  "enterpriseSendPreview": "Преглед на изпращането",
+  "enterpriseExpectedRecipients": "Очаквани получатели",
+  "enterpriseDeliveryMethod": "Начин на доставка",
+  "enterpriseTaskStatus": "Състояние на задачата",
+  "enterpriseNoBroadcastHistory": "Все още няма масови съобщения на организацията",
+  "enterpriseHistoryUnavailable": "Временно недостъпно",
+  "enterpriseBroadcastDenied": "Нямате право за масови съобщения на организацията",
+  "enterpriseBroadcastRoleHint": "Масовите съобщения на организацията са достъпни само за администратори и собственици.",
+  "enterpriseDefaultApplicationMessage": "Бих искал да се присъединя към вашата организация"
+}

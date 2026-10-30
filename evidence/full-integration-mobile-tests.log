@@ -1,0 +1,112 @@
+00:00 +0: loading /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart
+00:00 +0: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: (setUpAll)
+00:03 +0: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: accepts matching locale keys, placeholders, and localized source
+00:04 +1: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: checks added languages without a hardcoded six-locale list
+00:04 +2: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a configured language whose resource is missing
+00:04 +3: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects an empty translation
+00:04 +4: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: checks generated implementations for an added language
+00:04 +5: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a locale message with a missing placeholder
+00:04 +6: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects missing placeholder metadata
+00:04 +7: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: accepts matching ICU plural placeholders
+00:04 +8: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: accepts matching ICU select branches with selector whitespace
+00:04 +9: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects mismatched ICU select placeholders
+00:04 +10: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a user-visible literal with its file and line
+00:04 +11: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a multiline English user-visible literal
+00:04 +12: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects an English literal assigned before a visible sink
+00:04 +13: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a triple-quoted visible English literal
+00:04 +14: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a visible label stored by an enum
+00:04 +15: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: allows exact technical pattern literals
+00:04 +16: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: permits a documented literal exception without hiding adjacent copy
+00:04 +17: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: recognizes named wire types, channel methods and payload lookup keys
+00:04 +18: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a fixed formatting locale while allowing a format pattern
+00:04 +19: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: allows format patterns with the active locale
+00:04 +20: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: allows route, lookup, key, log, and wire-token literals
+00:04 +21: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: allows exact parsing, formatting, dial, and switch token literals
+00:04 +22: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects visible copy in generic string transformation arguments
+00:04 +23: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects short CJK copy in string replacement arguments
+00:04 +24: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects visible copy in a generic named argument
+00:04 +25: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects an English label in a generic named status argument
+00:04 +26: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: does not treat a lowercase enum label as a wire value
+00:04 +27: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: technical owners do not hide adjacent or nested visible text
+00:04 +28: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: DTO key lists require lookup use rather than visible projection
+00:04 +29: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: canonical comparisons do not exempt returned visible copy
+00:04 +30: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: legal data and body transforms do not exempt the rendering shell
+00:04 +31: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: language names are bound to the exact native-name resource
+00:04 +32: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: developer account records never expose field contents in audit output
+00:04 +33: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: legacy background labels remain data while new visible copy is audited
+00:04 +34: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: a literal-local reason cannot hide an earlier literal on the same line
+00:04 +35: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects direct raw-error Text and toast sinks
+00:04 +36: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: allows explicit localized errors and original business-detail values
+00:04 +37: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects stale generated declarations
+00:04 +38: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: rejects a missing Traditional Chinese override
+00:04 +39: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/architecture/i18n_contract_test.dart: (tearDownAll)
+00:05 +39: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +40: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +41: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +42: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +43: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +44: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +45: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +46: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +47: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +48: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +49: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +50: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +51: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +52: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +53: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +54: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +55: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +56: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +57: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +58: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +59: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +60: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +61: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +62: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +63: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +64: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +65: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +66: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +67: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +68: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +69: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +70: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +71: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +72: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +73: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +74: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +75: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +76: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +77: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +78: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +79: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: account runtime failure follows the English locale
+00:06 +80: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/permissions/ios_localization_configuration_test.dart: localized camera purposes describe the actual feature uses
+00:06 +81: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/permissions/ios_localization_configuration_test.dart: localized camera purposes describe the actual feature uses
+00:06 +82: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: workbench navigation follows the English locale
+00:06 +83: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: workbench navigation follows the English locale
+00:06 +84: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/app/app_localization_test.dart: workbench navigation follows the English locale
+00:06 +85: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: restores a supported saved locale before consulting the platform
+00:06 +86: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: uses a supported platform locale when no locale was saved
+00:06 +87: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: falls back to simplified Chinese for an unsupported platform locale
+00:06 +88: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: ignores a malformed or unsupported saved locale
+00:06 +89: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: maps a Hant platform locale to Traditional Chinese
+00:06 +90: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: setLocale persists the normalized supported locale
+00:06 +91: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: setLocale falls back before persisting an unsupported locale
+00:06 +92: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: registers the same 35 language variants as MediaServiceClient
+00:06 +93: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: persists and restores every supported language without changing keys
+00:06 +94: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: uses every supported system language when no setting was saved
+00:06 +95: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: normalizes system and saved regional tags and language aliases
+00:06 +96: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: ignores malformed tags and preserves the unsupported-language fallback
+00:06 +97: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/providers/locale_provider_test.dart: UI language expansion does not expand chat translation targets
+00:07 +98: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: (setUpAll)
+00:07 +98: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: six locales format the same instant without changing the timezone
+00:07 +99: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: yesterday and relative plural messages are localized in all six locales
+00:07 +100: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: fractional and negative offsets retain date rollover and calendar match
+00:07 +101: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: keeps the existing midnight and Monday comparison boundaries
+00:07 +102: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: week grouping still precedes year grouping at New Year
+00:07 +103: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: scheduled task labels keep local today and tomorrow boundaries
+00:07 +104: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: numeric locale changes retain precision, rounding and file thresholds
+00:07 +105: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: free precision numbers preserve integer and fractional representations
+00:07 +106: /Users/starburst/chat-im-cs/lpp/lpp_mobile/test/core/localization/app_formatters_test.dart: (tearDownAll)
+00:07 +106: All tests passed!

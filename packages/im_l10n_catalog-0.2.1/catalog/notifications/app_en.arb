@@ -1,0 +1,53 @@
+{
+  "@@locale": "en",
+  "notificationTitle": "Notifications",
+  "notificationGlobalMute": "Do Not Disturb",
+  "notificationSound": "Sound",
+  "notificationVibration": "Vibration",
+  "notificationPreview": "Message Preview",
+  "notificationDndStart": "DND Start Time",
+  "notificationDndEnd": "DND End Time",
+  "notificationNewMessageTitle": "New StartLink message",
+  "notificationOnlineServiceTitle": "New customer service message",
+  "notificationNewMessageBody": "You received a new message",
+  "notificationImagePreview": "Sent an image",
+  "notificationVideoPreview": "Sent a video",
+  "notificationVoicePreview": "Sent a voice message",
+  "notificationFilePreview": "Sent a file",
+  "notificationContactPreview": "Sent a contact card",
+  "notificationCallLogPreview": "Sent a call record",
+  "notificationLocationPreview": "Shared a location",
+  "notificationLinkPreview": "Shared a link",
+  "notificationMentionMe": "Mentioned you: {body}",
+  "notificationMentionMeBy": "{sender} mentioned you: {body}",
+  "notificationMentionAll": "Mentioned everyone: {body}",
+  "notificationMentionAllBy": "{sender} mentioned everyone: {body}",
+  "notificationSecurityTitle": "Account security alert",
+  "notificationSecurityBody": "Your StartLink account security settings changed. Review them now.",
+  "notificationFriendAcceptedTitle": "Friend request accepted",
+  "notificationFriendRejectedTitle": "Friend request declined",
+  "notificationFriendAcceptedBody": "The other person accepted your friend request",
+  "notificationFriendRejectedBody": "The other person declined your friend request",
+  "notificationVideoCallTitle": "Video call invitation",
+  "notificationAudioCallTitle": "Voice call invitation",
+  "notificationVideoCallBody": "{caller} invited you to a video call",
+  "notificationAudioCallBody": "{caller} invited you to a voice call",
+  "notificationMessageChannelName": "Messages",
+  "notificationMessageChannelDescription": "Chat messages, call records, and system alerts",
+  "notificationCallChannelName": "Calls",
+  "notificationCallChannelDescription": "Voice and video call alerts",
+  "notificationSecurityChannelName": "Account security",
+  "notificationSecurityChannelDescription": "Sign-in, password, and mobile number change alerts",
+  "notificationUnknownCaller": "Unknown caller",
+  "notificationBadgeChannelName": "Message badges",
+  "notificationBadgeChannelDescription": "Unread message counts on the app icon",
+  "notificationBadgeUnreadCount": "{count, plural, =1 {1 unread message} other {{count} unread messages}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ unread messages"
+}

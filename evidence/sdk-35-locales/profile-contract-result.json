@@ -1,0 +1,34 @@
+{
+  "catalogVersionAtTest": {
+    "before": "0.3.0",
+    "after": "0.3.0"
+  },
+  "locales": 35,
+  "keysPerLocale": 1040,
+  "localeOrderMatchesIndex": true,
+  "keyOrderUnchanged": true,
+  "oldSixMetadataUnchanged": true,
+  "old30OverridesUnchanged": true,
+  "overrideEntries": 175,
+  "newAuthOverrideFallbacks": {
+    "localeCount": 29,
+    "keysPerLocale": 5,
+    "sourceLocale": "en",
+    "allEqualOriginalSdkEnglish": true
+  },
+  "newMetadataEntries": 58,
+  "archive020Sha256": "ecb49d7f97751887197730245c7c222a0ca48b97bee19e702e5802f16063df3f",
+  "protectedSha256": {
+    "packages/im_l10n_catalog/catalog/profiles/im_sdk.json": "ff05ab72a61dedbea22bf5b9c5e7287ef6acdcba5a81b2a2098d623b7167d768",
+    "packages/im_l10n_catalog/test/sdk_production_profile_test.dart": "53d3d46bc370f4128d6c7ce0502c00fa8caaf17a1dc6be9ad80e595f7aba01b0",
+    "deliverables/im_l10n_catalog-0.2.0.zip": "ecb49d7f97751887197730245c7c222a0ca48b97bee19e702e5802f16063df3f"
+  },
+  "tests": {
+    "newProductionContracts": 7,
+    "existingGeneratorContracts": 17,
+    "passed": 24,
+    "analyze": "No issues found"
+  },
+  "scope": "Only SDK profile and test source changed; temporary consumers inside Ln18. No actual SDK/chat-im-cs writes.",
+  "boundary": "Generator data/placeholder/type validation; not Flutter gen-l10n, runtime or native compilation."
+}

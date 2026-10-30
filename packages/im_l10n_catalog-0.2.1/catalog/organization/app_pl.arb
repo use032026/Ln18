@@ -1,0 +1,626 @@
+{
+  "@@locale": "pl",
+  "enterpriseInfoTitle": "Informacje o firmie",
+  "enterpriseName": "Imię",
+  "enterpriseDescription": "Opis",
+  "enterpriseUpdateSuccess": "Zaktualizowano pomyślnie.",
+  "enterpriseUpdateFailed": "Aktualizacja nie powiodła się. Spróbuj ponownie.",
+  "enterpriseLeave": "Opuść firmę",
+  "enterpriseLeaveConfirm": "Czy na pewno chcesz opuścić tę firmę?",
+  "enterpriseLeaveSuccess": "Opuszczono firmę",
+  "enterpriseLeaveFailed": "Opuszczenie nie powiodło się. Spróbuj ponownie.",
+  "enterpriseLeaveOwnerError": "Właściciel nie może opuścić firmy bezpośrednio. Najpierw przekaż własność.",
+  "enterpriseMemberCount": "Członkowie",
+  "enterpriseCreatedAt": "Utworzono",
+  "enterpriseCode": "Kod firmy",
+  "enterpriseInviteMembers": "Zaproś członków",
+  "enterpriseCopyInviteCode": "Skopiuj kod zaproszenia",
+  "enterpriseInviteCodeCopied": "Kod zaproszenia skopiowany",
+  "groupCreateTitle": "Nowa grupa",
+  "groupNameHint": "Wpisz nazwę grupy",
+  "groupCreateSuccess": "Grupa utworzona",
+  "groupCreateFailed": "Utworzenie grupy nie powiodło się",
+  "groupSettings": "Ustawienia grupy",
+  "groupName": "Nazwa grupy",
+  "groupAvatar": "Obraz grupy",
+  "groupAnnouncement": "Ogłoszenie",
+  "groupMembers": "Członkowie",
+  "groupAddMember": "Dodaj członków",
+  "groupRemoveMember": "Usuń członka",
+  "groupRemoveMemberConfirm": "Usunąć tego członka?",
+  "groupSetAdmin": "Ustaw jako administratora",
+  "groupRemoveAdmin": "Odbierz rolę administratora",
+  "groupTransferOwner": "Przekaż własność",
+  "groupTransferOwnerConfirm": "Przekazać własność grupy temu członkowi?",
+  "groupTransferOwnerSuccess": "Własność przekazana",
+  "groupTransferOwnerFailed": "Przekazanie nie powiodło się. Spróbuj ponownie.",
+  "groupLeave": "Opuść grupę",
+  "groupLeaveConfirm": "Opuścić tę grupę?",
+  "groupLeaveSuccess": "Opuszczono grupę",
+  "groupLeaveFailed": "Opuszczenie nie powiodło się. Spróbuj ponownie.",
+  "groupDissolve": "Rozwiąż grupę",
+  "groupDissolveConfirm": "Rozwiązać tę grupę? Wszyscy członkowie zostaną usunięci.",
+  "groupDissolveSuccess": "Grupa rozwiązana",
+  "groupDissolveFailed": "Rozwiązanie nie powiodło się. Spróbuj ponownie.",
+  "groupQrCode": "Kod QR grupy",
+  "groupMuteAll": "Wycisz wszystkich",
+  "groupMuteAllOn": "Włącz wyciszenie wszystkich",
+  "groupMuteAllOff": "Wyłącz wyciszenie wszystkich",
+  "groupAllowMemberInvite": "Zezwól członkom zapraszać innych",
+  "groupAllowMemberModifyTitle": "Zezwól członkom zmieniać nazwę grupy",
+  "groupAllowMemberAtAll": "Zezwól członkom wspominać wszystkich",
+  "groupAllowMemberViewMemberList": "Zezwól członkom przeglądać listę członków",
+  "groupAllowQrCodeJoin": "Zezwól na dołączanie kodem QR",
+  "groupRequireApproval": "Wymagaj zatwierdzenia dołączenia",
+  "groupAllowMemberAddFriend": "Zezwól członkom dodawać się wzajemnie",
+  "groupRoleOwner": "Właściciel",
+  "groupRoleAdmin": "Administrator",
+  "groupRoleMember": "Członek",
+  "groupNoMembers": "Brak członków",
+  "groupNoAnnouncements": "Brak ogłoszeń",
+  "groupCreateAnnouncement": "Opublikuj ogłoszenie",
+  "groupEditAnnouncement": "Edytuj ogłoszenie",
+  "groupDeleteAnnouncement": "Usuń ogłoszenie",
+  "groupDeleteAnnouncementConfirm": "Usunąć to ogłoszenie?",
+  "groupAnnouncementTitle": "Tytuł",
+  "groupAnnouncementContent": "Treść",
+  "groupAnnouncementPin": "Przypnij ogłoszenie",
+  "groupMemberCount": "{count} członków",
+  "groupSelectedCount": "Wybrano: {count}",
+  "groupJoinRequestApprove": "Zgadzam się",
+  "groupJoinRequestReject": "Odmów",
+  "groupJoinRequests": "Prośby o dołączenie",
+  "groupNoJoinRequests": "Brak próśb o dołączenie",
+  "groupReadReceipts": "Potwierdzenia przeczytania",
+  "groupReadCount": "Przeczytane: {count}",
+  "groupUnreadCount": "{count} nieprzeczytanych",
+  "organizationTitle": "Organizacja",
+  "organizationEmpty": "Brak informacji o dziale",
+  "organizationMembers": "Członkowie",
+  "organizationDepartment": "Dział",
+  "organizationPosition": "Stanowisko",
+  "organizationLeader": "Przełożony",
+  "qrCodeTitle": "Mój kod QR",
+  "qrCodeSave": "Zapisz do albumu",
+  "qrCodeShare": "Udostępnij",
+  "qrCodeSaveSuccess": "Zapisano do albumu",
+  "qrCodeSaveFailed": "Zapisanie nie powiodło się. Spróbuj ponownie.",
+  "qrCodeRefresh": "Odśwież kod QR",
+  "qrCodeExpired": "Kod QR wygasł. Odśwież go.",
+  "qrCodeScanToAdd": "Zeskanuj, aby dodać mnie do kontaktów",
+  "spacePersonal": "Osobiste",
+  "spaceEnterprise": "Firma",
+  "spaceJoinByCode": "Dołącz kodem firmy",
+  "spaceJoinByInvite": "Dołącz kodem zaproszenia",
+  "spaceEnterCode": "Wpisz kod firmy",
+  "spaceEnterInviteCode": "Wpisz kod zaproszenia",
+  "spaceSearchEnterprise": "Szukaj firmy",
+  "spaceJoinRequestSent": "Prośba wysłana, oczekuje na zatwierdzenie",
+  "spaceJoinRequestPending": "Oczekuje na zatwierdzenie",
+  "spaceJoinRequestApproved": "Prośba zatwierdzona",
+  "spaceJoinRequestRejected": "Prośba odrzucona",
+  "spaceAlreadyMember": "Jesteś już członkiem",
+  "spaceAutoApproved": "Zatwierdzono automatycznie. Witaj!",
+  "spacePendingApprovalHint": "Rejestracja zakończona. Prośba o dołączenie została wysłana.",
+  "spaceNoSpaces": "Brak przestrzeni",
+  "spaceInviteExpired": "Kod zaproszenia wygasł",
+  "spaceInviteTargetMismatch": "Ten kod zaproszenia nie jest przeznaczony dla twojego konta",
+  "spaceAcceptInviteSuccess": "Dołączono do firmy",
+  "spaceAcceptInviteFailed": "Dołączenie nie powiodło się. Spróbuj ponownie.",
+  "spaceTenantSelectTitle": "Wybierz przestrzeń",
+  "spaceTenantSelectHint": "Wybierz przestrzeń, do której chcesz wejść",
+  "spaceEnterPersonal": "Wejdź do przestrzeni osobistej",
+  "spaceEnterEnterprise": "Wejdź do przestrzeni firmowej",
+  "recentContactsTitle": "Ostatnie",
+  "recentContactsEmpty": "Brak ostatnich kontaktów",
+  "inviteFriendsTitle": "Zaproś znajomych",
+  "inviteFriendsCopyLink": "Skopiuj łącze zaproszenia",
+  "inviteFriendsLinkCopied": "Łącze zaproszenia skopiowane",
+  "pendingJoinRequestsTitle": "Nowe wnioski",
+  "pendingJoinRequestsEmpty": "Brak wniosków",
+  "pendingJoinRequestApprove": "Zgadzam się",
+  "pendingJoinRequestReject": "Odmów",
+  "pendingJoinRequestApproveSuccess": "Zatwierdzono",
+  "pendingJoinRequestRejectSuccess": "Odrzucono",
+  "pendingJoinRequestFailed": "Operacja nie powiodła się. Spróbuj ponownie.",
+  "groupListTitle": "Grupy",
+  "groupListEmpty": "Brak grup",
+  "joinCompanyTitle": "Dołącz do firmy",
+  "joinCompanyCodeHint": "Wpisz kod firmy",
+  "joinCompanySearchHint": "Szukaj nazwy firmy",
+  "joinCompanyApply": "Poproś o dołączenie",
+  "joinCompanyApplySuccess": "Wniosek wysłany",
+  "joinCompanyApplyFailed": "Wysłanie wniosku nie powiodło się. Spróbuj ponownie.",
+  "joinCompanyAutoApproved": "Zatwierdzono automatycznie. Witaj!",
+  "joinCompanyPending": "Wniosek wysłany, oczekuje na zatwierdzenie",
+  "joinCompanyInviteCodeHint": "Wpisz kod zaproszenia",
+  "joinCompanyAcceptInvite": "Przyjmij zaproszenie",
+  "joinCompanyNoResults": "Nie znaleziono firm",
+  "joinCompanyMemberCount": "{count} członków",
+  "approvalEmpty": "Brak próśb",
+  "approvalApprove": "Zgadzam się",
+  "approvalReject": "Odmów",
+  "approvalPending": "Oczekujące",
+  "approvalApproved": "Zatwierdzono",
+  "approvalRejected": "Odrzucone",
+  "approvalExpired": "Wygasłe",
+  "approvalCancelled": "Anulowane",
+  "approvalReplayFailed": "Pierwotna czynność nie powiodła się. Spróbuj ponownie.",
+  "requestCancelled": "Prośba anulowana",
+  "enterpriseNoPermission": "Brak uprawnień",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Ustawienia informacji o firmie",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Konfiguracja firmy",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Konta oficjalne",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Zarządzaj kontami oficjalnymi",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Zarządzanie członkami",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Zaproś pracowników",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Członkowie",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Zarządzanie ogłoszeniami",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Firmowe wiadomości masowe",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Zatwierdzenia",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Zatwierdzanie członkostwa",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Przekaż własność",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Po przekazaniu zostaniesz administratorem. Tej czynności nie można cofnąć. Wybierz nowego właściciela z listy członków.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Wybierz nowego właściciela",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Tryb przypisywania konsultantów",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatyczne przypisywanie",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Wyznaczony konsultant",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Tryb zatwierdzania członkostwa",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ręczne zatwierdzanie",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatyczne zatwierdzanie",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Tryb znajomości",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Tryb społecznościowy",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Tryb izolacji",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Dostęp gości przez widżet",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Wyłączone",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Automatycznie przypisuj dostępnych konsultantów rotacyjnie",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Przypisz wszystkich klientów do wyznaczonego konsultanta",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Wnioski klientów wymagają zatwierdzenia administratora",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Automatycznie zatwierdzaj wnioski klientów",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Klienci mogą dodawać się wzajemnie do znajomych",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Klienci nie mogą dodawać się wzajemnie do znajomych",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Członek",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Szukaj członków",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Ustaw jako członka",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Ustaw jako pomoc techniczną",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Ustaw jako konsultanta obsługi",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Potwierdź przekazanie",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Nazwa firmy jest wymagana",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Wpisz nazwę firmy",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Brak opisu",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logo firmy",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Nie udało się utworzyć. Spróbuj ponownie",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Maksymalna liczba użyć",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Okres ważności zlecenia",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 godzina",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 godziny",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dni",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dni",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Wygeneruj kod zaproszenia",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Kod zaproszenia",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Wszyscy",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Pracownicy",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Szukaj pracowników, ról lub stanowisk",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Członkowie firmy",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Brak pasujących członków",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Przegląd firmy",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Zarządzaj",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Uprawnienia ról",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Przekazanie przy odejściu",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Szukaj pracowników",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Pracownicy firmy",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profil znajomego",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Połączenie głosowe i wideo",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Dodaj znajomego",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Mężczyzna",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Kobieta",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Brak nieprzeczytanych konwersacji",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "F",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Kod zaproszenia skopiowany",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Usunąć „{name}” z firmy?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Przekazać własność użytkownikowi „{name}”? Zostaniesz administratorem. Tej czynności nie można cofnąć.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} użycie} few {{count} użycia} other {{count} użyć}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Ważne przez {hours} h · Maks. {count} użyć",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} nieprzeczytana konwersacja} few {{count} nieprzeczytane konwersacje} other {{count} nieprzeczytanych konwersacji}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} nieprzeczytana wiadomość} few {{count} nieprzeczytane wiadomości} other {{count} nieprzeczytanych wiadomości}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Identyfikator dymka: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Opuść firmę",
+  "enterpriseLoginBeforeSearch": "Zaloguj się przed wyszukiwaniem organizacji",
+  "enterpriseSearchFailed": "Wyszukiwanie nie powiodło się. Spróbuj ponownie.",
+  "enterpriseLoginBeforeJoin": "Zaloguj się przed złożeniem wniosku o dołączenie do organizacji",
+  "enterpriseApplicationPending": "Wniosek wysłany. Oczekuje na zatwierdzenie administratora.",
+  "enterpriseLoginBeforeAction": "Zaloguj się, aby kontynuować",
+  "enterprisePlatformTagline": "Prywatna komunikacja z klientami dla organizacji",
+  "enterpriseLookupHint": "Wpisz numer organizacji, alias lub kod zaproszenia",
+  "enterpriseLookup": "Szukaj",
+  "enterpriseApplicationNote": "Notatka do wniosku (opcjonalnie)",
+  "enterpriseLookupGuide": "Szukaj według numeru organizacji lub aliasu albo dołącz kodem zaproszenia",
+  "enterpriseRecommendationsLoading": "Wczytywanie polecanych organizacji",
+  "enterpriseRecommendationsFailed": "Nie udało się wczytać polecanych organizacji",
+  "enterpriseReload": "Odśwież",
+  "enterpriseNoRecommendations": "Brak poleceń. Szukaj według numeru organizacji, aliasu lub kodu zaproszenia.",
+  "enterpriseRecommended": "Polecane organizacje",
+  "enterpriseJoined": "Dołączono",
+  "enterpriseRequestsLoadFailed": "Nie udało się wczytać wniosków",
+  "enterpriseCodeMissing": "Numer organizacji niedostępny",
+  "enterpriseAlias": "Alias organizacji",
+  "enterpriseCodeLabel": "Numer organizacji",
+  "enterprisePrivateAliasHint": "Ta organizacja nie opublikowała danych. Twój wniosek rozpozna ją według tego aliasu.",
+  "enterpriseInvitationMismatch": "Ten kod zaproszenia nie jest skierowany do ciebie. Dołączenie może się nie powieść.",
+  "enterpriseTechnicalRole": "Pomoc techniczna",
+  "enterpriseJoin": "Dołącz",
+  "enterpriseCancelApplication": "Cofnij",
+  "enterpriseApplication": "Wniosek do organizacji",
+  "enterpriseAliasValue": "Alias organizacji: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Numer organizacji: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Dołączysz jako {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Ten kod zaproszenia jest skierowany do: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Powód odrzucenia: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organizacja {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Wszyscy",
+  "enterpriseAudienceAllHint": "Pracownicy i klienci",
+  "enterpriseAudienceStaffHint": "Tylko pracownicy organizacji",
+  "enterpriseAudienceCustomers": "Klienci organizacji",
+  "enterpriseAudienceCustomersHint": "Klienci, którzy dołączyli do organizacji",
+  "enterpriseOfficialGroups": "Grupy oficjalne",
+  "enterpriseAudienceGroupsHint": "Oficjalne czaty grupowe organizacji",
+  "enterpriseSendNow": "Wyślij teraz",
+  "enterpriseSendScheduled": "Zaplanuj wysyłkę",
+  "enterprisePreviewing": "Wyświetlanie podglądu",
+  "enterprisePreview": "Podgląd",
+  "enterpriseSubmitSend": "Zleć wysyłkę",
+  "enterpriseBroadcastSubmitted": "Wysyłka masowa organizacji zlecona",
+  "enterpriseScheduledUnavailable": "Zaplanowane wiadomości masowe organizacji są niedostępne w tej wersji",
+  "enterpriseBroadcastFailed": "Wysyłka masowa organizacji nie powiodła się. Spróbuj później.",
+  "enterpriseBroadcastGuide": "Wiadomości masowe są wysyłane z oficjalnego konta organizacji, a czynność jest rejestrowana. Wyniki dostarczenia są dostępne po zleceniu.",
+  "enterpriseSenderIdentity": "Tożsamość nadawcy",
+  "enterpriseSenderAfterPreview": "Potwierdź w podglądzie",
+  "enterpriseSenderConfirmed": "Potwierdzone",
+  "enterpriseDefaultOfficialSender": "Domyślne konto oficjalne organizacji",
+  "enterpriseOfficialSenderHint": "Odbiorcy widzą tożsamość oficjalnego konta organizacji",
+  "enterpriseMessageContent": "Treść wiadomości",
+  "enterpriseBroadcastContentHint": "Wpisz wiadomość masową do wysłania z konta oficjalnego",
+  "enterpriseInternalNoteHint": "Notatka wewnętrzna do audytu i dalszych działań (opcjonalnie)",
+  "enterpriseSendPreview": "Podgląd wysyłki",
+  "enterpriseExpectedRecipients": "Szacowani odbiorcy",
+  "enterpriseDeliveryMethod": "Sposób dostarczenia",
+  "enterpriseTaskStatus": "Status zadania",
+  "enterpriseNoBroadcastHistory": "Brak wiadomości masowych organizacji",
+  "enterpriseHistoryUnavailable": "Tymczasowo niedostępne",
+  "enterpriseBroadcastDenied": "Brak uprawnienia do wysyłki masowej organizacji",
+  "enterpriseBroadcastRoleHint": "Wiadomości masowe organizacji są dostępne tylko dla administratorów i właścicieli.",
+  "enterpriseDefaultApplicationMessage": "Chcę dołączyć do waszej organizacji"
+}

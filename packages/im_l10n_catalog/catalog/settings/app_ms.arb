@@ -1,0 +1,471 @@
+{
+  "@@locale": "ms",
+  "settingsTitle": "Tetapan",
+  "settingsSectionEnterprise": "Syarikat",
+  "settingsSectionAccount": "Akaun",
+  "settingsSectionGeneral": "Umum",
+  "settingsSectionFeatures": "Ciri",
+  "settingsSectionAbout": "Tentang",
+  "settingsEnterpriseInfo": "Maklumat syarikat",
+  "settingsProfile": "Profil",
+  "settingsAccountSecurity": "Keselamatan akaun",
+  "settingsNotification": "Pemberitahuan",
+  "settingsDisplay": "Paparan",
+  "settingsFriendPrivacy": "Privasi",
+  "settingsChat": "Sembang",
+  "settingsChatHistory": "Sejarah sembang",
+  "settingsAbout": "Tentang StartLink",
+  "settingsLanguage": "Bahasa Sistem",
+  "settingsTimezone": "Zon waktu",
+  "settingsAutoTranslate": "Terjemahan automatik",
+  "settingsNetworkSwitch": "Tukar Saluran",
+  "aboutTitle": "Tentang StartLink",
+  "aboutVersion": "Versi",
+  "aboutTerms": "Perjanjian Pengguna",
+  "aboutPrivacy": "Dasar Privasi",
+  "aboutOpenSource": "Lesen sumber terbuka",
+  "aboutCheckUpdate": "Semak kemas kini",
+  "aboutLatestVersion": "Sudah versi terkini",
+  "aboutUpdateAvailable": "Versi baru ditemui",
+  "aboutUpdateNow": "Kemas kini sekarang",
+  "aboutUpdateLater": "Kemudian",
+  "networkTitle": "Tukar Saluran",
+  "networkAutoSelect": "Automatik",
+  "networkManual": "Manual",
+  "timezoneTitle": "Zon waktu",
+  "timezoneAuto": "Ikut sistem",
+  "displayTitle": "Paparan",
+  "displayFontSize": "saiz fon",
+  "displayChatBackground": "Latar sembang",
+  "displayDarkMode": "Rupa",
+  "displayDarkModeSystem": "Ikut sistem",
+  "displayDarkModeSystemHint": "Tukar secara automatik mengikut tetapan sistem",
+  "displayDarkModeOff": "Cerah",
+  "displayDarkModeOffHint": "Sentiasa gunakan tema cerah",
+  "displayDarkModeOn": "Gelap",
+  "displayDarkModeOnHint": "Sentiasa gunakan tema gelap",
+  "accountSecurityTitle": "Keselamatan akaun",
+  "accountSecurityChangePassword": "Ubah kata laluan",
+  "accountSecurityChangeMobile": "Tukar Nombor Telefon",
+  "accountSecurityChangeEmail": "Tukar e-mel",
+  "accountSecurityLoggedDevices": "Peranti yang dilog masuk",
+  "accountSecurityDeactivate": "Tutup akaun",
+  "accountSecurityDeactivateConfirm": "Semua data akan dipadam secara kekal selepas 7 hari. Tutup akaun?",
+  "loggedDevicesTitle": "Peranti yang dilog masuk",
+  "loggedDevicesCurrent": "Peranti ini",
+  "loggedDevicesRevoke": "Log keluar",
+  "loggedDevicesRevokeConfirm": "Log keluar daripada peranti ini?",
+  "loggedDevicesRevokeSuccess": "Telah log keluar daripada peranti",
+  "loggedDevicesRevokeFailed": "Gagal, cuba lagi",
+  "loggedDevicesLastActive": "Kali terakhir aktif",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Desktop",
+  "loggedDevicesTypeUnknown": "Peranti tidak diketahui",
+  "fontSizeTitle": "saiz fon",
+  "fontSizeSmall": "Kecil",
+  "fontSizeNormal": "Standard",
+  "fontSizeLarge": "Besar",
+  "fontSizeExtraLarge": "Sangat Besar",
+  "fontSizePreview": "Pratonton",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Waktu Pasifik",
+  "timezoneNameMountainTime": "Waktu Pergunungan",
+  "timezoneNameCentralTime": "Waktu Tengah",
+  "timezoneNameEasternTime": "Waktu Timur",
+  "timezoneNameAtlanticTime": "Waktu Atlantik",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azores",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rom",
+  "timezoneNameCairoHelsinki": "Kaherah/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscow/Riyadh",
+  "timezoneNameTehran": "Tehran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tashkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Beijing/Shanghai/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Kepulauan Solomon",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Pilih laluan terbaik secara pintar",
+  "networkTesting": "Menguji...",
+  "networkTestingShort": "Menguji",
+  "networkLatencyMs": "Kependaman {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Mod sambungan",
+  "networkDirectMode": "Mod terus",
+  "networkProxyMode": "Mod proksi",
+  "networkDirectModeDesc": "Sambung terus ke pelayan",
+  "networkProxyModeDesc": "Sambung melalui pelayan proksi",
+  "networkDirectRoutes": "Laluan terus",
+  "networkProxyRoutes": "Laluan proksi",
+  "networkTestAll": "Uji semua",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Nod Hong Kong",
+  "networkSingaporeNode": "Nod Singapura",
+  "networkJapanNode": "Nod Jepun",
+  "networkUnitedStatesNode": "Nod Amerika Syarikat",
+  "networkHint": "Petua:\n• Mod terus: lebih pantas dan sesuai untuk kegunaan domestik\n• Mod proksi: lebih stabil untuk komunikasi rentas sempadan\n• Ketik ikon segar semula untuk menguji kependaman satu laluan",
+  "diagnosticsTitle": "Diagnostik",
+  "diagnosticsExplanation": "Log telah disunting untuk privasi dan mengandungi maklumat operasi serta ralat bagi akaun dan ruang ini, bersama peristiwa permulaan awam. Kandungan sembang dan maklumat pengesahan tidak disertakan.",
+  "diagnosticsHour": "Jam terakhir",
+  "diagnosticsDay": "24 jam terakhir",
+  "diagnosticsWeek": "7 hari terakhir",
+  "diagnosticsEventCount": "Peristiwa tersedia: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Log disimpan pada peranti ini dan kekal tersedia selepas dimulakan semula.",
+  "diagnosticsNotPersistent": "Sesetengah log belum disimpan. Segarkan semula untuk mencuba lagi.",
+  "diagnosticsExport": "Eksport dan kongsi",
+  "diagnosticsRefresh": "Muat Semula",
+  "diagnosticsClear": "Padam log ruang ini",
+  "diagnosticsClearConfirm": "Padam log diagnostik untuk ruang ini? Sejarah sembang akan dikekalkan.",
+  "diagnosticsShared": "Perkongsian sistem selesai. Sahkan fail dalam aplikasi penerima.",
+  "diagnosticsCancelled": "Perkongsian dibatalkan. Anda boleh mengeksport semula.",
+  "diagnosticsUnconfirmed": "Perkongsian tidak dapat disahkan. Semak aplikasi penerima.",
+  "diagnosticsFailed": "Operasi gagal. Sila cuba lagi.",
+  "settingsDeleteWarning": "Penutupan akaun anda akan membuang semua keahlian syarikat. Sejarah mesej tidak dapat dipulihkan.\n\nAnda mempunyai tempoh bertenang 7 hari dan boleh log masuk semula untuk membatalkan penutupan.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Teruskan penutupan",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Pengesahan akhir",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Tutup akaun anda? Tindakan ini menjadi kekal selepas 7 hari.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Sebab penutupan (pilihan)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Penutupan dimohon. Log masuk dalam masa 7 hari untuk membatalkan.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Sahkan pembatalan akaun",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Tidak dapat menutup akaun. Cuba lagi.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Pengguna yang disekat tidak boleh menghantar mesej kepada anda atau melihat profil dan kemas kini anda.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Sembang",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Tekan Enter untuk menghantar",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Gagal dimuatkan, ketik untuk cuba lagi",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Persetujuan pemberitahuan mesej",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Bersetuju",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Tidak bersetuju",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Kebenaran pemberitahuan sistem",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Telah Dihidupkan",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Dilumpuhkan",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Tidak Diketahui",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Tidak disokong",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Menyemak",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Semakan gagal",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Panggilan masuk skrin penuh",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Ketik untuk menyemak dan membenarkan",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Amaran panggilan skrin penuh didayakan",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Benarkan amaran panggilan skrin penuh dalam tetapan sistem.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Jadual jangan ganggu",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Belum ditetapkan",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Dayakan pemberitahuan mesej",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Apabila didayakan, JPush/JCore dan perkhidmatan pemberitahuan tolak peranti mungkin memproses maklumat peranti, pengecam pemberitahuan tolak dan maklumat penghantaran untuk amaran mesej, khidmat pelanggan serta panggilan. Anda boleh melumpuhkan pemberitahuan dalam tetapan sistem.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Pemberitahuan masih dilumpuhkan. Benarkan pemberitahuan Weijie dalam tetapan sistem.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (malam)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Matikan jangan ganggu",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Belum diuji",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Tidak tersedia",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Sandaran utama",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Laluan tidak tersedia. Laluan semasa dikekalkan.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Laman tersedia",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Laluan tidak dapat disegarkan semula. Laluan semasa dikekalkan.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Menyegarkan semula",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Segarkan laman",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Laluan berasal daripada konfigurasi rasmi yang disahkan. Semasa permulaan, laluan terakhir dipulihkan sebelum disegarkan daripada sumber semasa, cache, sumber awal serta S3/R2. Pilihan manual diutamakan; kegagalan akan mengekalkan laluan semasa.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Peranti tidak diketahui",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Log keluar",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Semasa",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Tidak dapat memuatkan peranti",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Tiada peranti yang dilog masuk",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Pratonton",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Teks contoh ini mempratonton saiz fon. Pilih saiz yang selesa untuk anda bersembang.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Hak cipta terpelihara",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Contoh terjemahan",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Asal (Bahasa Inggeris)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Bahasa sasaran",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Petua:\n• Terjemahan automatik menggunakan AI\n• Terjemahan adalah untuk rujukan dan mungkin mengandungi ralat\n• Teks asal dan terjemahan dipaparkan dalam sembang\n• Sentuh dan tahan mesej, kemudian pilih “Tunjukkan asal”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Latar lalai",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Putih",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Kelabu muda",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Kuning air",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Biru muda",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Hijau muda",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Merah jambu muda",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Ungu muda",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Imej tersuai",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Latar sembang ini",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Latar sembang",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Tukar imej tersuai",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Pilih daripada foto",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Tetapkan",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Gunakan latar sembang global",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Terjemahan ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Log keluar “{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sesi} other {{count} sesi}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Kali terakhir aktif {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Diagnostik pembangun",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Rangkaian tidak tersedia. Semak tetapan rangkaian anda.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

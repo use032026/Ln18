@@ -1,0 +1,112 @@
+{
+  "@@locale": "hr",
+  "officialAccountBadge": "Službeno",
+  "officialAccountOpenConversation": "Otvori razgovor",
+  "officialAccountJoinHint": "Dodavanjem ovog računa pridružujete se tvrtki kao klijent. Odobrenje prijateljstva nije potrebno.",
+  "officialAccountJoinDisabled": "Ova tvrtka ne prihvaća nove klijente. Kontaktirajte podršku.",
+  "officialAccountRemoved": "Uklonjeni ste iz ove tvrtke. Zatražite novu pozivnicu od tvrtke.",
+  "officialAccountBanned": "Vaš je račun onemogućen u ovoj tvrtki.",
+  "officialAccountUnavailable": "Ovaj službeni račun trenutačno nije dostupan.",
+  "officialAccountJoinBindingDisabled": "Pridruživanje tvrtki nije dopušteno u trenutačnom načinu.",
+  "officialAccountPlatformRequired": "Za dodavanje ovog službenog računa koristite račun platforme.",
+  "officialAccountOpenFailed": "Razgovor nije otvoren. Pokušajte ponovno.",
+  "officialAccountAccountChanged": "Račun ili prostor je promijenjen. Ponovno ga otvorite.",
+  "officialAccountDirectoryUnavailable": "Imenik tvrtki nije ažuran. Pokušajte uskoro ponovno.",
+  "officialAccountInboxSyncFailed": "Sinkronizacija službenog računa nije uspjela. Lokalni sadržaj i dalje je dostupan.",
+  "officialAccountInboxSyncing": "Sinkronizacija poruka službenog računa",
+  "officialIdentityQr": "Profil i QR kod službenog računa",
+  "officialIdentityHint": "Upravljajte službenim identitetom koji vide vaši klijenti",
+  "officialEditProfile": "Uredi profil",
+  "officialSetIdentityHint": "Postavite broj, naziv i sliku službenog računa",
+  "officialQrTitle": "QR kod službenog računa",
+  "officialViewReset": "Prikaži ili ponovno postavi",
+  "officialAutoJoin": "Automatski se pridruži organizaciji dodavanjem njezina službenog računa",
+  "officialAutoJoinHint": "Klijenti se automatski pridružuju klijentskom prostoru organizacije kada dodaju njezin službeni račun",
+  "officialConversationFeatures": "Funkcije razgovora",
+  "officialConversationSettingsHint": "Promjene odmah utječu na službene razgovore klijenata",
+  "officialServiceMenu": "Izbornik usluga",
+  "officialServiceMenuHint": "Prikaži klijentima izbornik postavljen u konzoli za računalo",
+  "officialWelcomeOnFirstContact": "Dobrodošlica pri prvom kontaktu",
+  "officialWelcomeMessage": "Poruka dobrodošlice",
+  "officialHumanSupport": "Preusmjeravanje agentima",
+  "officialReceptionModeHint": "Novi ili ponovno otvoreni prijami koriste odabrani način. Aktivni razgovori zadržavaju trenutačni način.",
+  "officialReceptionMode": "Način prijama agenta",
+  "officialReceptionInOfficial": "U razgovoru službenog računa",
+  "officialReceptionLegacy": "Zaseban razgovor s agentom (stari način)",
+  "officialServiceNotice": "Obavijest o prijamu",
+  "officialServiceNoticeText": "Tekst obavijesti o prijamu",
+  "officialAutoHandoff": "Automatsko preusmjeravanje agentu",
+  "officialAutoHandoffHint": "Dodijeli agenta kad klijent pošalje poruku službenom računu",
+  "officialForwardCustomerText": "Proslijedi poruku klijenta",
+  "officialForwardCustomerTextHint": "Proslijedi poruku klijenta dodijeljenom agentu nakon preusmjeravanja",
+  "officialSyncAgentReplies": "Sinkroniziraj odgovore agenta sa službenim računom",
+  "officialSyncAgentRepliesHint": "Proslijedi odgovore agenta u službeni razgovor u starom načinu",
+  "officialHandoffCooldown": "Razmak obavijesti o preusmjeravanju",
+  "officialAssignedNotice": "Poruka o dodijeljenom agentu",
+  "officialQueuedNotice": "Poruka za red čekanja",
+  "officialDesktopManagementHint": "Strukturom izbornika, lozinkama i službenim grupama upravljajte u konzoli za računalo.",
+  "officialSaveFailed": "Spremanje nije uspjelo. Pokušajte kasnije.",
+  "officialCooldownRange": "Raspon: 0–1440 minuta",
+  "officialMenuItems": "Stavke izbornika",
+  "officialMenuVersion": "Verzija izbornika",
+  "officialEnabled": "Uključeno",
+  "officialManageDenied": "Ovaj račun ne može upravljati službenim računima",
+  "officialSettingsLoadFailed": "Postavke službenog računa nisu učitane",
+  "officialProfileSaved": "Profil službenog računa je spremljen",
+  "officialProfileTitle": "Profil službenog računa",
+  "officialDisplayName": "Prikazani naziv",
+  "officialAvatarUrl": "URL profilne slike",
+  "officialAvatarLogoFallback": "Ostavite prazno za korištenje logotipa organizacije",
+  "officialIdHint": "6–10 znamenki; ostavite prazno za prekid povezivanja",
+  "officialResetQr": "Ponovno postavi QR kod",
+  "officialResetQrConfirm": "Stari QR kod odmah će prestati vrijediti. Ponovno ga postaviti?",
+  "officialReset": "Poništi",
+  "officialQrNotGenerated": "QR kod još nije izrađen",
+  "officialQrLoadFailed": "QR kod nije učitan. Pokušajte ponovno.",
+  "officialGenerate": "Kreiraj",
+  "officialMenuCustomerOnly": "Kontaktiranje podrške dostupno je samo klijentima",
+  "officialMenuUpdated": "Izbornik je promijenjen. Pokušajte ponovno.",
+  "officialMenuActionFailed": "Radnja nije uspjela. Provjerite vezu i pokušajte ponovno.",
+  "officialMenuLoadFailed": "Izbornik usluga nije učitan",
+  "officialMenuRefreshFailed": "Izbornik usluga nije osvježen",
+  "officialAccountIdValue": "Službeni račun {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minuta} few {{count} minute} other {{count} minuta}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Podržava rezervirana mjesta {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Korišteno {count} put} other {Korišteno {count} puta}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Naziv mora imati 1–64 znaka",
+  "officialIdFormatInvalid": "Broj službenog računa mora imati 6–10 znamenki"
+}

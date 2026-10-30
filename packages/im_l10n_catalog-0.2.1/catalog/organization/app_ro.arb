@@ -1,0 +1,626 @@
+{
+  "@@locale": "ro",
+  "enterpriseInfoTitle": "Informațiile companiei",
+  "enterpriseName": "Nume",
+  "enterpriseDescription": "Descriere",
+  "enterpriseUpdateSuccess": "Actualizat cu succes",
+  "enterpriseUpdateFailed": "Actualizarea a eșuat. Încercați din nou.",
+  "enterpriseLeave": "Părăsește compania",
+  "enterpriseLeaveConfirm": "Sigur doriți să părăsiți această companie?",
+  "enterpriseLeaveSuccess": "Ați părăsit compania",
+  "enterpriseLeaveFailed": "Părăsirea a eșuat. Încercați din nou.",
+  "enterpriseLeaveOwnerError": "Proprietarul nu poate părăsi direct compania. Transferați mai întâi proprietatea.",
+  "enterpriseMemberCount": "Membri",
+  "enterpriseCreatedAt": "Creat",
+  "enterpriseCode": "Codul companiei",
+  "enterpriseInviteMembers": "Invită membri",
+  "enterpriseCopyInviteCode": "Copiază codul invitației",
+  "enterpriseInviteCodeCopied": "Codul invitației a fost copiat",
+  "groupCreateTitle": "Grup nou",
+  "groupNameHint": "Introduceți numele grupului",
+  "groupCreateSuccess": "Grup creat",
+  "groupCreateFailed": "Crearea grupului a eșuat",
+  "groupSettings": "Setările grupului",
+  "groupName": "Numele grupului",
+  "groupAvatar": "Avatarul grupului",
+  "groupAnnouncement": "Anunț",
+  "groupMembers": "Membri",
+  "groupAddMember": "Adaugă membri",
+  "groupRemoveMember": "Elimină membrul",
+  "groupRemoveMemberConfirm": "Eliminați acest membru?",
+  "groupSetAdmin": "Numește administrator",
+  "groupRemoveAdmin": "Retrage rolul de administrator",
+  "groupTransferOwner": "Transferă proprietatea",
+  "groupTransferOwnerConfirm": "Transferați proprietatea grupului acestui membru?",
+  "groupTransferOwnerSuccess": "Proprietate transferată",
+  "groupTransferOwnerFailed": "Transferul a eșuat. Încercați din nou.",
+  "groupLeave": "Părăsește grupul",
+  "groupLeaveConfirm": "Părăsiți acest grup?",
+  "groupLeaveSuccess": "Ați părăsit grupul",
+  "groupLeaveFailed": "Părăsirea a eșuat. Încercați din nou.",
+  "groupDissolve": "Dizolvă grupul",
+  "groupDissolveConfirm": "Dizolvați acest grup? Toți membrii vor fi eliminați.",
+  "groupDissolveSuccess": "Grup dizolvat",
+  "groupDissolveFailed": "Dizolvarea a eșuat. Încercați din nou.",
+  "groupQrCode": "Codul QR al grupului",
+  "groupMuteAll": "Restricționează scrierea pentru toți",
+  "groupMuteAllOn": "Activează restricția de scriere pentru toți",
+  "groupMuteAllOff": "Dezactivează restricția de scriere pentru toți",
+  "groupAllowMemberInvite": "Permite membrilor să invite alte persoane",
+  "groupAllowMemberModifyTitle": "Permite membrilor să schimbe numele grupului",
+  "groupAllowMemberAtAll": "Permite membrilor să menționeze pe toată lumea",
+  "groupAllowMemberViewMemberList": "Permite membrilor să vadă lista membrilor",
+  "groupAllowQrCodeJoin": "Permite alăturarea prin cod QR",
+  "groupRequireApproval": "Solicită aprobare pentru alăturare",
+  "groupAllowMemberAddFriend": "Permite membrilor să se adauge reciproc",
+  "groupRoleOwner": "Proprietar",
+  "groupRoleAdmin": "Administrator",
+  "groupRoleMember": "Membru",
+  "groupNoMembers": "Niciun membru",
+  "groupNoAnnouncements": "Niciun anunț",
+  "groupCreateAnnouncement": "Publică anunțul",
+  "groupEditAnnouncement": "Editează anunțul",
+  "groupDeleteAnnouncement": "Șterge anunțul",
+  "groupDeleteAnnouncementConfirm": "Ștergeți acest anunț?",
+  "groupAnnouncementTitle": "Titlu",
+  "groupAnnouncementContent": "Conținut",
+  "groupAnnouncementPin": "Fixează anunțul",
+  "groupMemberCount": "{count} membri",
+  "groupSelectedCount": "{count} selectate",
+  "groupJoinRequestApprove": "Accept",
+  "groupJoinRequestReject": "Refuză",
+  "groupJoinRequests": "Cereri de alăturare",
+  "groupNoJoinRequests": "Nicio cerere de alăturare",
+  "groupReadReceipts": "Confirmări de citire",
+  "groupReadCount": "{count} citite",
+  "groupUnreadCount": "{count} necitite",
+  "organizationTitle": "Organizație",
+  "organizationEmpty": "Nicio informație despre departament",
+  "organizationMembers": "Membri",
+  "organizationDepartment": "Departament",
+  "organizationPosition": "Funcție",
+  "organizationLeader": "Coordonator",
+  "qrCodeTitle": "Codul meu QR",
+  "qrCodeSave": "Salvați în album",
+  "qrCodeShare": "Partajează",
+  "qrCodeSaveSuccess": "Salvat în album",
+  "qrCodeSaveFailed": "Salvarea a eșuat. Încercați din nou.",
+  "qrCodeRefresh": "Reîmprospătează codul QR",
+  "qrCodeExpired": "Codul QR a expirat. Reîmprospătați-l.",
+  "qrCodeScanToAdd": "Scanați pentru a mă adăuga în contacte",
+  "spacePersonal": "Personal",
+  "spaceEnterprise": "Companie",
+  "spaceJoinByCode": "Alătură-te cu codul companiei",
+  "spaceJoinByInvite": "Alătură-te cu codul invitației",
+  "spaceEnterCode": "Introduceți codul companiei",
+  "spaceEnterInviteCode": "Introduceți codul invitației",
+  "spaceSearchEnterprise": "Caută compania",
+  "spaceJoinRequestSent": "Cerere trimisă, în așteptarea aprobării",
+  "spaceJoinRequestPending": "Aprobare în așteptare",
+  "spaceJoinRequestApproved": "Cerere aprobată",
+  "spaceJoinRequestRejected": "Cerere respinsă",
+  "spaceAlreadyMember": "Sunteți deja membru",
+  "spaceAutoApproved": "Aprobat automat. Bun venit!",
+  "spacePendingApprovalHint": "Înregistrare reușită. Cererea de alăturare a fost trimisă.",
+  "spaceNoSpaces": "Niciun spațiu",
+  "spaceInviteExpired": "Codul invitației a expirat",
+  "spaceInviteTargetMismatch": "Acest cod de invitație nu este pentru contul dvs.",
+  "spaceAcceptInviteSuccess": "V-ați alăturat cu succes companiei",
+  "spaceAcceptInviteFailed": "Alăturarea a eșuat. Încercați din nou.",
+  "spaceTenantSelectTitle": "Selectați spațiul",
+  "spaceTenantSelectHint": "Alegeți un spațiu pentru a intra",
+  "spaceEnterPersonal": "Intră în spațiul personal",
+  "spaceEnterEnterprise": "Intră în spațiul companiei",
+  "recentContactsTitle": "Recente",
+  "recentContactsEmpty": "Niciun contact recent",
+  "inviteFriendsTitle": "Invită prieteni",
+  "inviteFriendsCopyLink": "Copiază linkul invitației",
+  "inviteFriendsLinkCopied": "Linkul invitației a fost copiat",
+  "pendingJoinRequestsTitle": "Cereri noi",
+  "pendingJoinRequestsEmpty": "Nicio cerere",
+  "pendingJoinRequestApprove": "Accept",
+  "pendingJoinRequestReject": "Refuză",
+  "pendingJoinRequestApproveSuccess": "Aprobat",
+  "pendingJoinRequestRejectSuccess": "Respins",
+  "pendingJoinRequestFailed": "Operațiunea a eșuat. Încercați din nou.",
+  "groupListTitle": "Grupuri",
+  "groupListEmpty": "Niciun grup",
+  "joinCompanyTitle": "Alătură-te companiei",
+  "joinCompanyCodeHint": "Introduceți codul companiei",
+  "joinCompanySearchHint": "Caută numele companiei",
+  "joinCompanyApply": "Solicită alăturarea",
+  "joinCompanyApplySuccess": "Cerere trimisă",
+  "joinCompanyApplyFailed": "Trimiterea cererii a eșuat. Încercați din nou.",
+  "joinCompanyAutoApproved": "Aprobat automat. Bun venit!",
+  "joinCompanyPending": "Cerere trimisă, în așteptarea aprobării",
+  "joinCompanyInviteCodeHint": "Introduceți codul invitației",
+  "joinCompanyAcceptInvite": "Acceptă invitația",
+  "joinCompanyNoResults": "Nicio companie găsită",
+  "joinCompanyMemberCount": "{count} membri",
+  "approvalEmpty": "Nicio cerere",
+  "approvalApprove": "Accept",
+  "approvalReject": "Refuză",
+  "approvalPending": "În așteptare",
+  "approvalApproved": "Aprobat",
+  "approvalRejected": "Respingat",
+  "approvalExpired": "Expirat",
+  "approvalCancelled": "Anulat",
+  "approvalReplayFailed": "Acțiunea inițială a eșuat. Încercați-o din nou.",
+  "requestCancelled": "Cerere anulată",
+  "enterpriseNoPermission": "Fără permisiune",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Setările informațiilor companiei",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Configurarea companiei",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Conturi oficiale",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Administrează conturile oficiale",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Administrarea membrilor",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Invită angajați",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Membri",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Administrarea anunțurilor",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Mesaje în masă ale companiei",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Aprobări",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Aprobarea apartenenței",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Transferă proprietatea",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "După transfer veți deveni administrator. Această acțiune nu poate fi anulată. Alegeți noul proprietar din lista membrilor.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Alegeți un proprietar nou",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Modul de alocare a agenților",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Alocare automată",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Agent desemnat",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Modul de aprobare a apartenenței",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Aprobare manuală",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Aprobare automată",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Mod de prietenie",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Mod social",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Mod de izolare",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Accesul vizitatorilor prin widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Dezactivat",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Alocă automat agenții disponibili prin rotație",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Alocă toți clienții agentului desemnat",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Cererile clienților necesită aprobarea administratorului",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Aprobă automat cererile clienților",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Clienții se pot adăuga reciproc ca prieteni",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Clienții nu se pot adăuga reciproc ca prieteni",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Membru",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Caută membri",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Setează ca membru",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Setează ca asistență tehnică",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Setează ca agent de asistență",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Confirmă transferul",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Numele companiei este obligatoriu",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Introduceți numele companiei",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Fără descriere",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Sigla companiei",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Crearea a eșuat. Vă rugăm să încercați din nou.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Număr maxim de utilizări",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Perioada de valabilitate",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 oră",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 de ore",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 zile",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 zile",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Generează codul invitației",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Cod de invitație",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Toată lumea",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Personal",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Caută angajați, roluri sau funcții",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Membrii companiei",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Niciun membru corespunzător",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Prezentarea companiei",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Gestionează",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Permisiunile rolurilor",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Predare la plecarea din companie",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Caută angajați",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Angajații companiei",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profilul prietenului",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Apel vocal și video",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Adaugă prieten",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Masculin",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Feminin",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Nicio conversație necitită",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "C",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Codul invitației a fost copiat",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Eliminați „{name}” din companie?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Transferați proprietatea către „{name}”? Veți deveni administrator. Această acțiune nu poate fi anulată.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} utilizare} few {{count} utilizări} other {{count} de utilizări}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Valabil {hours} h · Cel mult {count} utilizări",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} conversație necitită} few {{count} conversații necitite} other {{count} de conversații necitite}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} mesaj necitit} few {{count} mesaje necitite} other {{count} de mesaje necitite}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID balon: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Părăsește compania",
+  "enterpriseLoginBeforeSearch": "Autentificați-vă înainte de a căuta o organizație",
+  "enterpriseSearchFailed": "Căutarea a eșuat. Încercați din nou.",
+  "enterpriseLoginBeforeJoin": "Autentificați-vă înainte de a solicita alăturarea la o organizație",
+  "enterpriseApplicationPending": "Cerere trimisă. Se așteaptă aprobarea administratorului.",
+  "enterpriseLoginBeforeAction": "Autentificați-vă pentru a continua",
+  "enterprisePlatformTagline": "Comunicare privată cu clienții pentru organizații",
+  "enterpriseLookupHint": "Introduceți numărul organizației, aliasul sau codul invitației",
+  "enterpriseLookup": "Caută",
+  "enterpriseApplicationNote": "Notă pentru cerere (opțional)",
+  "enterpriseLookupGuide": "Căutați după numărul organizației sau alias ori alăturați-vă cu un cod de invitație",
+  "enterpriseRecommendationsLoading": "Se încarcă organizațiile recomandate",
+  "enterpriseRecommendationsFailed": "Organizațiile recomandate nu au putut fi încărcate",
+  "enterpriseReload": "Reîncarcă",
+  "enterpriseNoRecommendations": "Nicio recomandare. Căutați folosind numărul organizației, aliasul sau codul invitației.",
+  "enterpriseRecommended": "Organizații recomandate",
+  "enterpriseJoined": "Alăturat",
+  "enterpriseRequestsLoadFailed": "Cererile nu au putut fi încărcate",
+  "enterpriseCodeMissing": "Numărul organizației este indisponibil",
+  "enterpriseAlias": "Aliasul organizației",
+  "enterpriseCodeLabel": "Numărul organizației",
+  "enterprisePrivateAliasHint": "Această organizație nu și-a publicat detaliile. Cererea dvs. o va identifica prin acest alias.",
+  "enterpriseInvitationMismatch": "Acest cod de invitație nu vă este adresat. Alăturarea poate eșua.",
+  "enterpriseTechnicalRole": "Asistență tehnică",
+  "enterpriseJoin": "Alătură-te",
+  "enterpriseCancelApplication": "Anulează acțiunea",
+  "enterpriseApplication": "Cerere către organizație",
+  "enterpriseAliasValue": "Aliasul organizației: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Numărul organizației: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Vă veți alătura ca {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Acest cod de invitație este adresat către: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Motivul respingerii: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organizația {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Toată lumea",
+  "enterpriseAudienceAllHint": "Angajați și clienți",
+  "enterpriseAudienceStaffHint": "Doar angajații organizației",
+  "enterpriseAudienceCustomers": "Clienții organizației",
+  "enterpriseAudienceCustomersHint": "Clienți care s-au alăturat organizației",
+  "enterpriseOfficialGroups": "Grupuri oficiale",
+  "enterpriseAudienceGroupsHint": "Conversații de grup oficiale ale organizației",
+  "enterpriseSendNow": "Trimite acum",
+  "enterpriseSendScheduled": "Programează trimiterea",
+  "enterprisePreviewing": "Se previzualizează",
+  "enterprisePreview": "Previzualizare",
+  "enterpriseSubmitSend": "Depune pentru trimitere",
+  "enterpriseBroadcastSubmitted": "Trimiterea în masă a organizației a fost depusă",
+  "enterpriseScheduledUnavailable": "Mesajele în masă programate ale organizației nu sunt disponibile în această versiune",
+  "enterpriseBroadcastFailed": "Trimiterea în masă a organizației a eșuat. Încercați mai târziu.",
+  "enterpriseBroadcastGuide": "Mesajele în masă folosesc contul oficial al organizației și înregistrează operațiunea. Rezultatele livrării sunt disponibile după depunere.",
+  "enterpriseSenderIdentity": "Identitatea expeditorului",
+  "enterpriseSenderAfterPreview": "Confirmă în previzualizare",
+  "enterpriseSenderConfirmed": "Confirmat",
+  "enterpriseDefaultOfficialSender": "Contul oficial implicit al organizației",
+  "enterpriseOfficialSenderHint": "Destinatarii văd identitatea contului oficial al organizației",
+  "enterpriseMessageContent": "Conținutul mesajului",
+  "enterpriseBroadcastContentHint": "Introduceți mesajul în masă de trimis din contul oficial",
+  "enterpriseInternalNoteHint": "Notă internă pentru audit și urmărire (opțional)",
+  "enterpriseSendPreview": "Previzualizarea trimiterii",
+  "enterpriseExpectedRecipients": "Destinatari estimați",
+  "enterpriseDeliveryMethod": "Metoda de livrare",
+  "enterpriseTaskStatus": "Starea sarcinii",
+  "enterpriseNoBroadcastHistory": "Nicio trimitere în masă a organizației încă",
+  "enterpriseHistoryUnavailable": "Temporar indisponibil",
+  "enterpriseBroadcastDenied": "Fără permisiune de trimitere în masă a organizației",
+  "enterpriseBroadcastRoleHint": "Mesajele în masă ale organizației sunt disponibile doar administratorilor și proprietarilor.",
+  "enterpriseDefaultApplicationMessage": "Aș dori să mă alătur organizației dvs."
+}

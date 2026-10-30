@@ -1,0 +1,112 @@
+{
+  "@@locale": "cs",
+  "officialAccountBadge": "Oficiální",
+  "officialAccountOpenConversation": "Otevřít konverzaci",
+  "officialAccountJoinHint": "Přidáním tohoto účtu se k firmě připojíte jako zákazník. Schválení přátelství není potřeba.",
+  "officialAccountJoinDisabled": "Tato firma nepřijímá nové zákazníky. Kontaktujte podporu.",
+  "officialAccountRemoved": "Byli jste odebráni z této firmy. Požádejte firmu o nové pozvání.",
+  "officialAccountBanned": "Váš účet byl v této firmě deaktivován.",
+  "officialAccountUnavailable": "Tento oficiální účet je nyní nedostupný.",
+  "officialAccountJoinBindingDisabled": "V aktuálním režimu není připojení k firmě povoleno.",
+  "officialAccountPlatformRequired": "Pro přidání tohoto oficiálního účtu použijte účet platformy.",
+  "officialAccountOpenFailed": "Konverzaci se nepodařilo otevřít. Zkuste to znovu.",
+  "officialAccountAccountChanged": "Účet nebo prostor se změnil. Otevřete jej znovu.",
+  "officialAccountDirectoryUnavailable": "Firemní adresář není aktuální. Zkuste to za chvíli.",
+  "officialAccountInboxSyncFailed": "Synchronizace oficiálního účtu se nezdařila. Místní obsah je stále dostupný.",
+  "officialAccountInboxSyncing": "Synchronizace zpráv oficiálního účtu",
+  "officialIdentityQr": "Profil a QR kód oficiálního účtu",
+  "officialIdentityHint": "Spravujte oficiální identitu, kterou vidí vaši zákazníci",
+  "officialEditProfile": "Upravit profil",
+  "officialSetIdentityHint": "Nastavte číslo, název a obrázek oficiálního účtu",
+  "officialQrTitle": "QR kód oficiálního účtu",
+  "officialViewReset": "Zobrazit nebo resetovat",
+  "officialAutoJoin": "Automaticky se připojit k organizaci při přidání jejího oficiálního účtu",
+  "officialAutoJoinHint": "Přidáním oficiálního účtu se zákazníci automaticky připojí k zákaznickému prostoru organizace",
+  "officialConversationFeatures": "Funkce konverzací",
+  "officialConversationSettingsHint": "Změny okamžitě ovlivní oficiální konverzace zákazníků",
+  "officialServiceMenu": "Nabídka služeb",
+  "officialServiceMenuHint": "Zobrazit zákazníkům nabídku nastavenou v počítačové konzoli",
+  "officialWelcomeOnFirstContact": "Uvítání při prvním kontaktu",
+  "officialWelcomeMessage": "Uvítací zpráva",
+  "officialHumanSupport": "Předání živým operátorům",
+  "officialReceptionModeHint": "Nové nebo znovu otevřené příjmy používají vybraný režim. Aktivní konverzace zachovají svůj režim.",
+  "officialReceptionMode": "Režim příjmu operátora",
+  "officialReceptionInOfficial": "V konverzaci oficiálního účtu",
+  "officialReceptionLegacy": "Samostatný chat operátora (starší režim)",
+  "officialServiceNotice": "Oznámení o příjmu",
+  "officialServiceNoticeText": "Text oznámení o příjmu",
+  "officialAutoHandoff": "Automatické předání operátorovi",
+  "officialAutoHandoffHint": "Přidělit operátora při zprávě zákazníka oficiálnímu účtu",
+  "officialForwardCustomerText": "Přeposlat zprávu zákazníka",
+  "officialForwardCustomerTextHint": "Po předání přeposlat zprávu zákazníka přidělenému operátorovi",
+  "officialSyncAgentReplies": "Synchronizovat odpovědi operátora s oficiálním účtem",
+  "officialSyncAgentRepliesHint": "Ve starším režimu předávat odpovědi operátora zpět do oficiální konverzace",
+  "officialHandoffCooldown": "Prodleva oznámení o předání",
+  "officialAssignedNotice": "Zpráva o přidělení operátora",
+  "officialQueuedNotice": "Zpráva o frontě",
+  "officialDesktopManagementHint": "Strukturu nabídky, hesla a oficiální skupiny spravujte v počítačové konzoli.",
+  "officialSaveFailed": "Uložení se nezdařilo. Zkuste to později.",
+  "officialCooldownRange": "Rozsah: 0–1440 minut",
+  "officialMenuItems": "Položky nabídky",
+  "officialMenuVersion": "Verze nabídky",
+  "officialEnabled": "Zapnuto",
+  "officialManageDenied": "Tento účet nemůže spravovat oficiální účty",
+  "officialSettingsLoadFailed": "Nastavení oficiálního účtu se nepodařilo načíst",
+  "officialProfileSaved": "Profil oficiálního účtu uložen",
+  "officialProfileTitle": "Profil oficiálního účtu",
+  "officialDisplayName": "Zobrazovaný název",
+  "officialAvatarUrl": "URL profilového obrázku",
+  "officialAvatarLogoFallback": "Nechte prázdné pro použití loga organizace",
+  "officialIdHint": "6–10 číslic; prázdné pole zruší propojení",
+  "officialResetQr": "Resetovat QR kód",
+  "officialResetQrConfirm": "Starý QR kód okamžitě přestane fungovat. Resetovat?",
+  "officialReset": "Obnovit",
+  "officialQrNotGenerated": "Dosud nebyl vytvořen žádný QR kód",
+  "officialQrLoadFailed": "QR kód se nepodařilo načíst. Zkuste to znovu.",
+  "officialGenerate": "Vytvořit",
+  "officialMenuCustomerOnly": "Kontaktování podpory je dostupné pouze zákazníkům",
+  "officialMenuUpdated": "Nabídka se změnila. Zkuste to znovu.",
+  "officialMenuActionFailed": "Akce se nezdařila. Zkontrolujte připojení a zkuste to znovu.",
+  "officialMenuLoadFailed": "Nabídku služeb se nepodařilo načíst",
+  "officialMenuRefreshFailed": "Nabídku služeb se nepodařilo obnovit",
+  "officialAccountIdValue": "Oficiální účet {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minuta} few {{count} minuty} other {{count} minut}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Podporuje zástupné symboly {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Použito {count}krát} other {Použito {count}krát}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Název musí mít 1–64 znaků",
+  "officialIdFormatInvalid": "Číslo oficiálního účtu musí mít 6–10 číslic"
+}

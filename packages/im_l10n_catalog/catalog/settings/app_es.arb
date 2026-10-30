@@ -1,0 +1,471 @@
+{
+  "@@locale": "es",
+  "settingsTitle": "Configuración",
+  "settingsSectionEnterprise": "Empresa",
+  "settingsSectionAccount": "Cuenta",
+  "settingsSectionGeneral": "General",
+  "settingsSectionFeatures": "Funciones",
+  "settingsSectionAbout": "Acerca de",
+  "settingsEnterpriseInfo": "Información de la empresa",
+  "settingsProfile": "Mi perfil",
+  "settingsAccountSecurity": "Seguridad de la cuenta",
+  "settingsNotification": "Notificaciones",
+  "settingsDisplay": "Pantalla",
+  "settingsFriendPrivacy": "Privacidad",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Historial de chat",
+  "settingsAbout": "Acerca de StartLink",
+  "settingsLanguage": "Idioma",
+  "settingsTimezone": "Zona horaria",
+  "settingsAutoTranslate": "Traducción automática",
+  "settingsNetworkSwitch": "Cambiar línea",
+  "aboutTitle": "Acerca de StartLink",
+  "aboutVersion": "Versión",
+  "aboutTerms": "Condiciones del servicio",
+  "aboutPrivacy": "Política de privacidad",
+  "aboutOpenSource": "Licencias de código abierto",
+  "aboutCheckUpdate": "Buscar actualizaciones",
+  "aboutLatestVersion": "Estás utilizando la última versión",
+  "aboutUpdateAvailable": "Nueva versión disponible",
+  "aboutUpdateNow": "Actualizar ahora",
+  "aboutUpdateLater": "Más tarde",
+  "networkTitle": "Cambiar línea",
+  "networkAutoSelect": "Automático",
+  "networkManual": "Manual",
+  "timezoneTitle": "Zona horaria",
+  "timezoneAuto": "Seguir al sistema",
+  "displayTitle": "Pantalla",
+  "displayFontSize": "Tamaño de fuente",
+  "displayChatBackground": "Fondo del chat",
+  "displayDarkMode": "Apariencia",
+  "displayDarkModeSystem": "Seguir al sistema",
+  "displayDarkModeSystemHint": "Cambiar automáticamente según los ajustes del sistema",
+  "displayDarkModeOff": "Claro",
+  "displayDarkModeOffHint": "Usar siempre el tema claro",
+  "displayDarkModeOn": "Oscuro",
+  "displayDarkModeOnHint": "Usar siempre el tema oscuro",
+  "accountSecurityTitle": "Seguridad de la cuenta",
+  "accountSecurityChangePassword": "Cambiar contraseña",
+  "accountSecurityChangeMobile": "Cambiar número de teléfono",
+  "accountSecurityChangeEmail": "Cambiar correo electrónico",
+  "accountSecurityLoggedDevices": "Dispositivos con sesión iniciada",
+  "accountSecurityDeactivate": "Eliminar cuenta",
+  "accountSecurityDeactivateConfirm": "Todos los datos se eliminarán permanentemente después de 7 días. ¿Eliminar la cuenta?",
+  "loggedDevicesTitle": "Dispositivos con sesión iniciada",
+  "loggedDevicesCurrent": "Este dispositivo",
+  "loggedDevicesRevoke": "Cerrar sesión",
+  "loggedDevicesRevokeConfirm": "¿Cerrar sesión en este dispositivo?",
+  "loggedDevicesRevokeSuccess": "Sesión cerrada en el dispositivo",
+  "loggedDevicesRevokeFailed": "Ha fallado. Inténtalo de nuevo",
+  "loggedDevicesLastActive": "Última actividad",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Escritorio",
+  "loggedDevicesTypeUnknown": "Dispositivo desconocido",
+  "fontSizeTitle": "Tamaño de fuente",
+  "fontSizeSmall": "Pequeño",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Grande",
+  "fontSizeExtraLarge": "Extragrande",
+  "fontSizePreview": "Vista previa",
+  "timezoneNameHawaii": "Hawái",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Hora del Pacífico",
+  "timezoneNameMountainTime": "Hora de la Montaña",
+  "timezoneNameCentralTime": "Hora Central",
+  "timezoneNameEasternTime": "Hora del Este",
+  "timezoneNameAtlanticTime": "Hora del Atlántico",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azores",
+  "timezoneNameLondonDublin": "Londres/Dublín",
+  "timezoneNameBerlinParisRome": "Berlín/París/Roma",
+  "timezoneNameCairoHelsinki": "El Cairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscú/Riad",
+  "timezoneNameTehran": "Teherán",
+  "timezoneNameDubaiBaku": "Dubái/Bakú",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Taskent",
+  "timezoneNameMumbaiNewDelhi": "Bombay/Nueva Delhi",
+  "timezoneNameKathmandu": "Katmandú",
+  "timezoneNameDhakaAlmaty": "Daca/Almatý",
+  "timezoneNameYangon": "Rangún",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanói/Yakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Pekín/Shanghái/Hong Kong/Taipéi",
+  "timezoneNameTokyoSeoul": "Tokio/Seúl",
+  "timezoneNameAdelaide": "Adelaida",
+  "timezoneNameSydneyMelbourne": "Sídney/Melbourne",
+  "timezoneNameSolomonIslands": "Islas Salomón",
+  "timezoneNameAucklandFiji": "Auckland/Fiyi",
+  "networkSmartSelectBestRoute": "Seleccionar la mejor ruta automáticamente",
+  "networkTesting": "Probando...",
+  "networkTestingShort": "Probando",
+  "networkLatencyMs": "Latencia: {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Modo de conexión",
+  "networkDirectMode": "Modo directo",
+  "networkProxyMode": "Modo proxy",
+  "networkDirectModeDesc": "Conectar directamente al servidor",
+  "networkProxyModeDesc": "Conectar a través de un servidor proxy",
+  "networkDirectRoutes": "Rutas directas",
+  "networkProxyRoutes": "Rutas proxy",
+  "networkTestAll": "Probar todas",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Nodo de Hong Kong",
+  "networkSingaporeNode": "Nodo de Singapur",
+  "networkJapanNode": "Nodo de Japón",
+  "networkUnitedStatesNode": "Nodo de Estados Unidos",
+  "networkHint": "Consejos:\n• Modo directo: más rápido y adecuado para uso nacional\n• Modo proxy: más estable para comunicaciones internacionales\n• Pulsa el icono de actualización para probar la latencia de una ruta",
+  "diagnosticsTitle": "Diagnóstico",
+  "diagnosticsExplanation": "Los registros están desensibilizados y contienen información operativa y de errores de esta cuenta y este espacio, además de eventos públicos de inicio. No incluyen contenido de chats ni credenciales.",
+  "diagnosticsHour": "Última hora",
+  "diagnosticsDay": "Últimas 24 horas",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Eventos disponibles: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Los registros se guardan en este dispositivo y siguen disponibles después de reiniciar.",
+  "diagnosticsNotPersistent": "Algunos registros no se han guardado. Actualiza para reintentarlo.",
+  "diagnosticsExport": "Exportar y compartir",
+  "diagnosticsRefresh": "Actualizar",
+  "diagnosticsClear": "Borrar registros de este espacio",
+  "diagnosticsClearConfirm": "¿Borrar los registros de diagnóstico de este espacio? Se conservará el historial de chat.",
+  "diagnosticsShared": "La acción de compartir del sistema ha finalizado. Comprueba el archivo en la aplicación receptora.",
+  "diagnosticsCancelled": "Se canceló el uso compartido. Puedes exportar de nuevo.",
+  "diagnosticsUnconfirmed": "No se pudo confirmar el uso compartido. Comprueba la aplicación receptora.",
+  "diagnosticsFailed": "La operación ha fallado. Inténtalo de nuevo.",
+  "settingsDeleteWarning": "Al eliminar tu cuenta dejarás de pertenecer a todas las empresas. El historial de mensajes no se podrá recuperar.\n\nDispones de un período de espera de 7 días en el que puedes iniciar sesión de nuevo para cancelar la eliminación.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Continuar con la eliminación",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Confirmación final",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "¿Eliminar tu cuenta? La eliminación será definitiva después de 7 días.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Motivo de la eliminación (opcional)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Eliminación solicitada. Inicia sesión en un plazo de 7 días para cancelarla.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Confirmar eliminación de cuenta",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Los usuarios bloqueados no pueden enviarte mensajes ni ver tu perfil o tus novedades.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Pulsa Intro para enviar",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Error al cargar, toque para reintentar",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Consentimiento para notificaciones de mensajes",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Aceptado",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "No aceptado",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Permiso de notificaciones del sistema",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Activado",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Desactivado",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Desconocido",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "No compatible",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Buscando",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "No se pudo comprobar",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Llamadas entrantes a pantalla completa",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Pulsa para comprobar y permitir",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Alertas de llamadas a pantalla completa activadas",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Permite las alertas de llamadas a pantalla completa en los ajustes del sistema.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Horario de No molestar",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Sin configurar",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Activar notificaciones de mensajes",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Al activarlas, JPush/JCore y los servicios de notificaciones del dispositivo podrán tratar información del dispositivo, identificadores de notificaciones e información de entrega para alertas de mensajes, atención al cliente y llamadas. Puedes desactivar las notificaciones en los ajustes del sistema.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Las notificaciones siguen desactivadas. Permite las notificaciones de Weijie en los ajustes del sistema.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (noche)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Desactivar No molestar",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Sin probar",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "No disponible",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Respaldo principal",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Ruta no disponible. Se ha conservado la ruta actual.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Sitios disponibles",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "No se pudieron actualizar las rutas. Se ha conservado la ruta actual.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Actualizando",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Actualizar sitios",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Las rutas proceden de una configuración oficial verificada. Al iniciar se restaura la última ruta y después se actualiza desde las fuentes actuales, la caché, las fuentes iniciales y S3/R2. La selección manual tiene prioridad; si hay errores, se conserva la ruta actual.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Dispositivo desconocido",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Cerrar sesión",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Actual",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "No se pudieron cargar los dispositivos",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Sin dispositivos con sesión iniciada",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Vista previa",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Este texto de ejemplo muestra el tamaño de letra. Elige un tamaño que te resulte cómodo para chatear.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Todos los derechos reservados",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Ejemplo de traducción",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (inglés)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Idioma de destino",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Consejos:\n• La traducción automática utiliza IA\n• Las traducciones son orientativas y pueden contener errores\n• En el chat se muestran tanto el original como la traducción\n• Mantén pulsado un mensaje y elige «Mostrar original»",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Fondo predeterminado",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Blanco",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Gris claro",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Azul claro",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Verde claro",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Rosa claro",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Morado claro",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Imagen personalizada",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Fondo de este chat",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Fondo del chat",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Cambiar imagen personalizada",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Elegir de las fotos",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Establecer",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Usar el fondo global de chat",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Traducción ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "¿Cerrar la sesión de «{name}»?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sesión} other {{count} sesiones}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Última actividad: {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Diagnóstico de desarrollador",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Red no disponible. Comprueba los ajustes de red.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

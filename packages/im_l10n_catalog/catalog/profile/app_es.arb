@@ -1,0 +1,150 @@
+{
+  "@@locale": "es",
+  "myTitle": "Yo",
+  "myEnterpriseInfo": "Información de la empresa",
+  "myEnterpriseManage": "Gestión de la empresa",
+  "myQrCode": "Código QR",
+  "myFavorites": "Favoritos",
+  "myLanguage": "Idioma",
+  "myTimezone": "Zona horaria",
+  "myAutoTranslate": "Traducción automática",
+  "myNetworkSwitch": "Cambiar línea",
+  "mySettings": "Configuración",
+  "myLogout": "Cerrar sesión",
+  "myLogoutConfirm": "¿Quieres cerrar sesión?",
+  "myLeaveEnterprise": "Salir de la empresa",
+  "myLeaveEnterpriseConfirm": "¿Quieres salir de esta empresa? Perderás el acceso a sus datos.",
+  "myLeaveEnterpriseSuccess": "Has salido de la empresa",
+  "myLeaveEnterpriseFailed": "No se pudo salir. Inténtalo de nuevo",
+  "myLppIdCopied": "ID de StartLink copiado",
+  "myLppIdLabel": "ID de StartLink: {lppId}",
+  "myFriendCount": "{count} contactos",
+  "myAutoSelect": "Automático",
+  "myPresenceStatus": "Estado de conexión",
+  "myPresenceStatusTitle": "Establecer estado",
+  "myPresenceOnline": "En línea",
+  "myPresenceBusy": "Ocupado",
+  "myPresenceAway": "Ausente",
+  "myPresenceInvisible": "Invisible",
+  "profileTitle": "Mi perfil",
+  "profileName": "Nombre",
+  "profileGender": "Género",
+  "profileBirthday": "Fecha de nacimiento",
+  "profileRegion": "Región",
+  "profileSignature": "Biografía",
+  "profileSignatureHint": "Cuéntanos algo sobre ti",
+  "profileTapTapText": "Toquecito",
+  "profileTapTapHint": "Texto que se muestra al darte un toque (máx. 20 caracteres)",
+  "profileAccountSection": "Cuenta",
+  "profileBasicSection": "Información básica",
+  "profileLppId": "ID de StartLink",
+  "profileLppIdNotSet": "Sin configurar",
+  "profileMobile": "Teléfono",
+  "profileMobileUnbound": "No vinculado",
+  "profileEmail": "Correo electrónico",
+  "profileEmailUnbound": "No vinculado",
+  "profileQrCode": "Mi código QR",
+  "profileChangePassword": "Cambiar contraseña",
+  "profileGenderMale": "Masculino",
+  "profileGenderFemale": "Femenino",
+  "profileGenderOther": "Otro",
+  "profileGenderUnset": "Sin configurar",
+  "profileSaveFailed": "No se pudo guardar. Inténtalo de nuevo",
+  "profileLppIdTitle": "ID de StartLink",
+  "profileLppIdSetOnce": "El ID de StartLink solo puede cambiarse una vez. Elígelo con cuidado.",
+  "profileLppIdChangeFailed": "No se pudo cambiar (el ID de StartLink solo puede cambiarse una vez)",
+  "profileChangePasswordOld": "Contraseña actual",
+  "profileChangePasswordNew": "Nueva contraseña",
+  "profileChangePasswordConfirm": "Confirmar nueva contraseña",
+  "profileChangePasswordMismatch": "Las contraseñas no coinciden",
+  "profileChangePasswordSuccess": "Contraseña cambiada. Inicia sesión de nuevo.",
+  "profileChangePasswordFailed": "No se pudo cambiar la contraseña. Inténtalo de nuevo",
+  "profilePageTitle": "Información personal",
+  "profilePageSendMessage": "Mensaje",
+  "profilePageAddFriend": "Añadir amigo",
+  "profilePageAlreadyFriend": "Ya sois amigos",
+  "profilePageBlocked": "Bloqueado",
+  "profilePageBlock": "Bloquear",
+  "profilePageUnblock": "Desbloquear",
+  "profilePageHidden": "Este usuario ha ocultado su perfil",
+  "profilePageFriendsOnly": "Este usuario solo muestra su perfil a sus amigos",
+  "profilePageLppId": "ID de StartLink",
+  "profilePageRemarkName": "Observaciones",
+  "profilePageEditRemark": "Editar apodo",
+  "profilePageSaveRemarkSuccess": "Apodo guardado",
+  "profilePageSaveRemarkFailed": "No se pudo guardar. Inténtalo de nuevo",
+  "myCustomersTitle": "Mis clientes",
+  "myCustomersEmpty": "Sin clientes",
+  "profileInviteFriends": "Invita a amigos",
+  "@profileInviteFriends": {
+    "description": "Invite friends"
+  },
+  "profileAddSignature": "Añadir una firma",
+  "@profileAddSignature": {
+    "description": "Add a signature"
+  },
+  "profileSigningOut": "Cerrando sesión. Espera.",
+  "@profileSigningOut": {
+    "description": "Signing out. Please wait."
+  },
+  "profileInfoNotReady": "El perfil aún se está cargando. Inténtalo dentro de un momento.",
+  "@profileInfoNotReady": {
+    "description": "Profile is still loading. Try again shortly."
+  },
+  "profileCannotOpenChat": "No se pudo abrir el chat. Inténtalo de nuevo.",
+  "@profileCannotOpenChat": {
+    "description": "Could not open the chat. Try again."
+  },
+  "profileIdentifierRule": "Entre 6 y 20 letras, números o guiones bajos, empezando por una letra",
+  "@profileIdentifierRule": {
+    "description": "6–20 letters, digits or underscores, starting with a letter"
+  },
+  "profileIdentifierHint": "Entre 6 y 20 caracteres, empezando por una letra",
+  "@profileIdentifierHint": {
+    "description": "6–20 characters, starting with a letter"
+  },
+  "profileFillAllFields": "Completa todos los campos",
+  "@profileFillAllFields": {
+    "description": "Complete all fields"
+  },
+  "profilePasswordTooShort": "La nueva contraseña debe tener al menos 6 caracteres",
+  "@profilePasswordTooShort": {
+    "description": "New password must be at least 6 characters"
+  },
+  "profileEnterValue": "Por favor, introduzca",
+  "@profileEnterValue": {
+    "description": "Enter a value"
+  },
+  "profileAvatarUploadFailed": "No se pudo subir tu avatar. Inténtalo de nuevo.",
+  "@profileAvatarUploadFailed": {
+    "description": "Could not upload your avatar. Try again."
+  },
+  "profileEnterField": "Introduce {label}",
+  "@profileEnterField": {
+    "description": "profileEnterField",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarFailureDetail": "No se pudo subir el avatar: {details}",
+  "@profileAvatarFailureDetail": {
+    "description": "profileAvatarFailureDetail",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarHttpFailure": "No se pudo subir el avatar: el servidor devolvió {statusCode}",
+  "@profileAvatarHttpFailure": {
+    "description": "profileAvatarHttpFailure",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutFailed": "No se pudo cerrar sesión. Inténtalo de nuevo."
+}

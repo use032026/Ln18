@@ -1,0 +1,75 @@
+{
+  "@@locale": "zh_TW",
+  "appRuntimeLoadFailed": "帳號資料載入失敗",
+  "privacyConsentTitle": "服務條款與隱私權政策",
+  "privacyConsentBodyAndroid": "歡迎使用{brand}。為向您提供帳號登入、即時通訊、企業協作、線上客服、訊息提醒與安全保障等服務，我們需要依照使用者協議與隱私權政策處理必要資訊。\n\n在您點選同意前，我們不會讀取剪貼簿資訊，不會初始化極光及手機廠商推播 SDK，也不會透過這些 SDK 取得 Android ID、OAID、已安裝應用程式清單、MAC 位址等資訊。若您暫不同意，我們會儲存該選擇；您仍可繼續閱讀文件，並可稍後重新選擇。\n\n您同意後，為完成訊息、客服及來電提醒，極光 JPush/JCore 與手機廠商推播服務可能處理裝置型號、Android 版本、應用程式套件名稱與版本、網路類型、IP 位址、Android ID、OAID、推播 Registration ID、廠商推播 Token，以及通知送達和點選資訊。我們已關閉智慧推播、已安裝應用程式清單、MAC、IMEI、IMSI、Wi-Fi 清單、自動喚醒及關聯啟動等非必要功能。\n\n剪貼簿只會在您主動使用複製或貼上功能時呼叫；相機、麥克風和通知等系統權限只會在您主動使用相關功能時申請。拒絕單項權限只會影響對應功能。請閱讀下方完整文件後，自主選擇是否同意。",
+  "privacyConsentBodyIos": "歡迎使用{brand}。為向您提供帳號登入、即時通訊、企業協作、線上客服、訊息提醒與安全保障等服務，我們需要依照使用者協議與隱私權政策處理必要資訊。\n\n在您點選同意前，我們不會讀取剪貼簿資訊，不會初始化極光 JPush/JCore 或向 Apple 推播通知服務（APNs）註冊，也不會取得極光 Registration ID、APNs 裝置權杖等推播識別碼。若您暫不同意，我們會儲存該選擇；您仍可繼續閱讀文件，並可稍後重新選擇。\n\n您同意後，為完成訊息、客服及來電提醒，我們可能處理 iPhone 型號、iOS 版本、應用程式套件名稱與版本、網路類型、IP 位址、IDFV、極光 Registration ID、APNs 裝置權杖，以及通知送達和點選資訊。極光 JPush/JCore 用於連接推播服務；Apple APNs 處理 App 識別碼、裝置權杖與通知內容，以完成系統推播。目前 iOS 版本不接入廣告服務，也不取得 IDFA。\n\n剪貼簿只會在您主動使用複製或貼上功能時呼叫；相機、麥克風和通知等系統權限只會在您主動使用相關功能時申請。拒絕單項權限只會影響對應功能。請閱讀下方完整文件後，自主選擇是否同意。",
+  "privacyConsentTermsLink": "《使用者協議》",
+  "privacyConsentConjunction": "和",
+  "privacyConsentPrivacyLink": "《隱私權政策》",
+  "privacyConsentDecline": "不同意",
+  "privacyConsentDeclinedExit": "您未同意服務條款與隱私權政策，應用程式即將退出",
+  "privacyConsentAccept": "同意",
+  "privacyConsentRuntimeFailure": "啟動失敗，請檢查網路後重試",
+  "privacyConsentSaveFailure": "無法儲存選擇，請重試",
+  "appUpdateRequiredTitle": "必須更新後才能繼續使用",
+  "appUpdateOptionalTitle": "發現新版本",
+  "appUpdateVersionAvailable": "{brand} {version} 已可更新",
+  "appUpdateLater": "稍後",
+  "appUpdateNow": "立即更新",
+  "appUpdateProcessing": "處理中...",
+  "appUpdateInvalidUrl": "更新位址無效，請稍後重試",
+  "appUpdateOpenUrlFailed": "無法開啟更新連結，請稍後重試",
+  "appUpdateDownloadInterrupted": "下載中斷，請檢查網路後重試",
+  "appUpdatePackageVerificationFailed": "安裝套件驗證失敗，請重新下載",
+  "appUpdatePermissionDenied": "請在系統設定中允許{brand}安裝更新",
+  "appUpdateOpenInstallerFailed": "無法開啟系統安裝程式，請檢查安裝權限",
+  "appUpdateGenericFailure": "更新失敗，請檢查網路後重試",
+  "appUpdateUnavailable": "新版本暫時無法下載，請稍後再試",
+  "appUpdateCheckFailed": "檢查更新失敗，請稍後重試",
+  "appUpdateChecking": "檢查中",
+  "privacySettingsTitle": "朋友權限",
+  "privacySearchableByMobile": "允許透過手機號搜尋",
+  "privacySearchableByLppId": "允許透過微界號搜尋",
+  "privacyAllowFriendRequest": "加我為好友",
+  "privacyProfileVisibility": "個人資料可見性",
+  "privacyEveryone": "所有人",
+  "privacyFriendsOfFriends": "有共同好友的人",
+  "privacyNobody": "不允許",
+  "privacyFriendsOnly": "僅好友",
+  "privacySaveSuccess": "設定已儲存",
+  "privacySaveFailed": "儲存失敗，請重試",
+  "termsTitle": "使用者協議",
+  "privacyPolicyTitle": "隱私政策",
+  "permissionGroupManageDenied": "僅群主或管理員可修改群組管理設定",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "僅群主或管理員可修改群組名稱",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "此群組已關閉群組成員互加好友",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "目前企業已啟用客戶隔離，暫不支援新增客戶好友",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "查看官網最新版本",
+  "legalOfficialOpenFailed": "暫時無法開啟官網頁面，目前顯示本機備份版本",
+  "legalLocalChineseNotice": "本機協議備份以簡體中文提供。",
+  "legalPlatformDocumentTitle": "{title}（{platform}）",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

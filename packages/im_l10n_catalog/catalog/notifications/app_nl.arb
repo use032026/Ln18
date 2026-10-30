@@ -1,0 +1,53 @@
+{
+  "@@locale": "nl",
+  "notificationTitle": "Meldingen",
+  "notificationGlobalMute": "Niet storen",
+  "notificationSound": "Geluid",
+  "notificationVibration": "Trillen",
+  "notificationPreview": "Berichtvoorbeeld",
+  "notificationDndStart": "Begintijd Niet storen",
+  "notificationDndEnd": "Eindtijd Niet storen",
+  "notificationNewMessageTitle": "Nieuw StartLink-bericht",
+  "notificationOnlineServiceTitle": "Nieuw klantenservicebericht",
+  "notificationNewMessageBody": "U hebt een nieuw bericht ontvangen",
+  "notificationImagePreview": "Heeft een afbeelding verzonden",
+  "notificationVideoPreview": "Heeft een video verzonden",
+  "notificationVoicePreview": "Heeft een spraakbericht verzonden",
+  "notificationFilePreview": "Heeft een bestand verzonden",
+  "notificationContactPreview": "Heeft een contactkaart verzonden",
+  "notificationCallLogPreview": "Heeft een oproepvermelding verzonden",
+  "notificationLocationPreview": "Heeft een locatie gedeeld",
+  "notificationLinkPreview": "Heeft een link gedeeld",
+  "notificationMentionMe": "Heeft u vermeld: {body}",
+  "notificationMentionMeBy": "{sender} heeft u vermeld: {body}",
+  "notificationMentionAll": "Heeft iedereen vermeld: {body}",
+  "notificationMentionAllBy": "{sender} heeft iedereen vermeld: {body}",
+  "notificationSecurityTitle": "Waarschuwing voor accountbeveiliging",
+  "notificationSecurityBody": "De beveiligingsinstellingen van uw StartLink-account zijn gewijzigd. Controleer deze nu.",
+  "notificationFriendAcceptedTitle": "Vriendschapsverzoek geaccepteerd",
+  "notificationFriendRejectedTitle": "Vriendschapsverzoek afgewezen",
+  "notificationFriendAcceptedBody": "De andere persoon heeft uw vriendschapsverzoek geaccepteerd",
+  "notificationFriendRejectedBody": "De andere persoon heeft uw vriendschapsverzoek afgewezen",
+  "notificationVideoCallTitle": "Uitnodiging voor videogesprek",
+  "notificationAudioCallTitle": "Uitnodiging voor spraakgesprek",
+  "notificationVideoCallBody": "{caller} heeft u uitgenodigd voor een videogesprek",
+  "notificationAudioCallBody": "{caller} heeft u uitgenodigd voor een spraakgesprek",
+  "notificationMessageChannelName": "Berichten",
+  "notificationMessageChannelDescription": "Chatberichten, oproepvermeldingen en systeemwaarschuwingen",
+  "notificationCallChannelName": "Oproepen",
+  "notificationCallChannelDescription": "Waarschuwingen voor spraak- en video-oproepen",
+  "notificationSecurityChannelName": "Accountbeveiliging",
+  "notificationSecurityChannelDescription": "Waarschuwingen voor aanmeldingen en wijzigingen van wachtwoord of mobiel nummer",
+  "notificationUnknownCaller": "Onbekende beller",
+  "notificationBadgeChannelName": "Berichtbadges",
+  "notificationBadgeChannelDescription": "Aantal ongelezen berichten op het app-pictogram",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} ongelezen bericht} other {{count} ongelezen berichten}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ ongelezen berichten"
+}

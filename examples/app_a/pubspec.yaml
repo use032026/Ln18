@@ -1,0 +1,24 @@
+name: im_l10n_app_a
+description: English-only client example built from a shared versioned catalog.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  im_l10n_catalog:
+    path: ../../packages/im_l10n_catalog
+
+flutter:
+  generate: true
+  uses-material-design: true

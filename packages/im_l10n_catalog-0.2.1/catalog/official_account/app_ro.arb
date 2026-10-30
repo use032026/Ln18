@@ -1,0 +1,112 @@
+{
+  "@@locale": "ro",
+  "officialAccountBadge": "Oficial",
+  "officialAccountOpenConversation": "Deschide conversația",
+  "officialAccountJoinHint": "Adăugarea acestui cont vă înscrie în companie ca client. Nu este necesară aprobarea prieteniei.",
+  "officialAccountJoinDisabled": "Această companie nu acceptă clienți noi. Contactați asistența.",
+  "officialAccountRemoved": "Ați fost eliminat din această companie. Cereți companiei o nouă invitație.",
+  "officialAccountBanned": "Contul dvs. a fost dezactivat în această companie.",
+  "officialAccountUnavailable": "Acest cont oficial este momentan indisponibil.",
+  "officialAccountJoinBindingDisabled": "Alăturarea la o companie nu este permisă în modul actual.",
+  "officialAccountPlatformRequired": "Folosiți un cont al platformei pentru a adăuga acest cont oficial.",
+  "officialAccountOpenFailed": "Conversația nu a putut fi deschisă. Încercați din nou.",
+  "officialAccountAccountChanged": "Contul sau spațiul s-a schimbat. Deschideți-l din nou.",
+  "officialAccountDirectoryUnavailable": "Directorul companiilor nu este actualizat. Încercați în scurt timp.",
+  "officialAccountInboxSyncFailed": "Sincronizarea contului oficial a eșuat. Conținutul local este încă disponibil.",
+  "officialAccountInboxSyncing": "Se sincronizează mesajele contului oficial",
+  "officialIdentityQr": "Profilul și codul QR ale contului oficial",
+  "officialIdentityHint": "Administrați identitatea oficială pe care o văd clienții",
+  "officialEditProfile": "Editează profilul",
+  "officialSetIdentityHint": "Setați numărul, numele și avatarul contului oficial",
+  "officialQrTitle": "Codul QR al contului oficial",
+  "officialViewReset": "Vezi sau resetează",
+  "officialAutoJoin": "Alăturare automată la organizație la adăugarea contului ei oficial",
+  "officialAutoJoinHint": "Clienții se alătură automat spațiului de clienți al organizației când îi adaugă contul oficial",
+  "officialConversationFeatures": "Funcțiile conversației",
+  "officialConversationSettingsHint": "Modificările afectează imediat conversațiile oficiale ale clienților",
+  "officialServiceMenu": "Meniu de servicii",
+  "officialServiceMenuHint": "Arată clienților meniul configurat în consola pentru calculator",
+  "officialWelcomeOnFirstContact": "Salut la primul contact",
+  "officialWelcomeMessage": "Mesaj de bun venit",
+  "officialHumanSupport": "Transfer către agenți umani",
+  "officialReceptionModeHint": "Preluările noi sau redeschise folosesc modul selectat. Conversațiile active își păstrează modul actual.",
+  "officialReceptionMode": "Modul de preluare al agentului",
+  "officialReceptionInOfficial": "În conversația contului oficial",
+  "officialReceptionLegacy": "Conversație separată cu agentul (mod vechi)",
+  "officialServiceNotice": "Notificare de preluare",
+  "officialServiceNoticeText": "Textul notificării de preluare",
+  "officialAutoHandoff": "Transfer automat către agent",
+  "officialAutoHandoffHint": "Alocă un agent când un client scrie contului oficial",
+  "officialForwardCustomerText": "Redirecționează mesajul clientului",
+  "officialForwardCustomerTextHint": "Transmite mesajul clientului agentului alocat după transfer",
+  "officialSyncAgentReplies": "Sincronizează răspunsurile agentului cu contul oficial",
+  "officialSyncAgentRepliesHint": "Transmite răspunsurile agentului înapoi în conversația oficială în modul vechi",
+  "officialHandoffCooldown": "Intervalul notificărilor de transfer",
+  "officialAssignedNotice": "Mesaj de agent alocat",
+  "officialQueuedNotice": "Mesaj de coadă",
+  "officialDesktopManagementHint": "Administrați structura meniului, parolele și grupurile oficiale în consola pentru calculator.",
+  "officialSaveFailed": "Salvarea a eșuat. Încercați mai târziu.",
+  "officialCooldownRange": "Interval: 0–1440 de minute",
+  "officialMenuItems": "Elemente de meniu",
+  "officialMenuVersion": "Versiunea meniului",
+  "officialEnabled": "Activat",
+  "officialManageDenied": "Acest cont nu poate administra conturi oficiale",
+  "officialSettingsLoadFailed": "Setările contului oficial nu au putut fi încărcate",
+  "officialProfileSaved": "Profilul contului oficial a fost salvat",
+  "officialProfileTitle": "Profilul contului oficial",
+  "officialDisplayName": "Nume afișat",
+  "officialAvatarUrl": "URL-ul avatarului",
+  "officialAvatarLogoFallback": "Lăsați gol pentru a folosi sigla organizației",
+  "officialIdHint": "6–10 cifre; lăsați gol pentru a anula asocierea",
+  "officialResetQr": "Resetează codul QR",
+  "officialResetQrConfirm": "Codul QR vechi va înceta să funcționeze imediat. Îl resetați?",
+  "officialReset": "Resetează",
+  "officialQrNotGenerated": "Nu a fost generat niciun cod QR",
+  "officialQrLoadFailed": "Codul QR nu a putut fi încărcat. Încercați din nou.",
+  "officialGenerate": "Creează",
+  "officialMenuCustomerOnly": "Contactarea asistenței este disponibilă doar clienților",
+  "officialMenuUpdated": "Meniul s-a schimbat. Încercați din nou.",
+  "officialMenuActionFailed": "Acțiunea a eșuat. Verificați conexiunea și încercați din nou.",
+  "officialMenuLoadFailed": "Meniul de servicii nu a putut fi încărcat",
+  "officialMenuRefreshFailed": "Meniul de servicii nu a putut fi reîmprospătat",
+  "officialAccountIdValue": "Cont oficial {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minut} few {{count} minute} other {{count} de minute}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Acceptă substituenții {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Utilizat {count} dată} other {Utilizat de {count} ori}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Numele trebuie să conțină 1–64 de caractere",
+  "officialIdFormatInvalid": "Numărul contului oficial trebuie să aibă 6–10 cifre"
+}

@@ -1,0 +1,626 @@
+{
+  "@@locale": "vi",
+  "enterpriseInfoTitle": "Thông tin doanh nghiệp",
+  "enterpriseName": "Tên doanh nghiệp",
+  "enterpriseDescription": "Mô tả",
+  "enterpriseUpdateSuccess": "Cập nhật thành công",
+  "enterpriseUpdateFailed": "Cập nhật thất bại, vui lòng thử lại",
+  "enterpriseLeave": "Rời doanh nghiệp",
+  "enterpriseLeaveConfirm": "Bạn có chắc muốn rời doanh nghiệp này?",
+  "enterpriseLeaveSuccess": "Đã rời doanh nghiệp",
+  "enterpriseLeaveFailed": "Rời thất bại, vui lòng thử lại",
+  "enterpriseLeaveOwnerError": "Chủ sở hữu không thể rời trực tiếp. Vui lòng chuyển quyền sở hữu trước.",
+  "enterpriseMemberCount": "Số thành viên",
+  "enterpriseCreatedAt": "Ngày tạo",
+  "enterpriseCode": "Mã doanh nghiệp",
+  "enterpriseInviteMembers": "Mời thành viên",
+  "enterpriseCopyInviteCode": "Sao chép mã mời",
+  "enterpriseInviteCodeCopied": "Đã sao chép mã mời",
+  "groupCreateTitle": "Tạo nhóm",
+  "groupNameHint": "Nhập tên nhóm",
+  "groupCreateSuccess": "Tạo nhóm thành công",
+  "groupCreateFailed": "Tạo nhóm thất bại",
+  "groupSettings": "Cài đặt nhóm",
+  "groupName": "Tên nhóm",
+  "groupAvatar": "Ảnh nhóm",
+  "groupAnnouncement": "Thông báo nhóm",
+  "groupMembers": "Thành viên",
+  "groupAddMember": "Thêm thành viên",
+  "groupRemoveMember": "Xóa thành viên",
+  "groupRemoveMemberConfirm": "Xóa thành viên này?",
+  "groupSetAdmin": "Đặt làm quản trị viên",
+  "groupRemoveAdmin": "Xóa quyền quản trị",
+  "groupTransferOwner": "Chuyển quyền sở hữu",
+  "groupTransferOwnerConfirm": "Chuyển quyền sở hữu cho thành viên này?",
+  "groupTransferOwnerSuccess": "Đã chuyển quyền sở hữu",
+  "groupTransferOwnerFailed": "Chuyển thất bại, vui lòng thử lại",
+  "groupLeave": "Rời nhóm",
+  "groupLeaveConfirm": "Rời nhóm này?",
+  "groupLeaveSuccess": "Đã rời nhóm",
+  "groupLeaveFailed": "Rời thất bại, vui lòng thử lại",
+  "groupDissolve": "Giải tán nhóm",
+  "groupDissolveConfirm": "Giải tán nhóm này? Tất cả thành viên sẽ bị xóa.",
+  "groupDissolveSuccess": "Đã giải tán nhóm",
+  "groupDissolveFailed": "Giải tán thất bại, vui lòng thử lại",
+  "groupQrCode": "Mã QR nhóm",
+  "groupMuteAll": "Tắt tiếng tất cả",
+  "groupMuteAllOn": "Bật tắt tiếng tất cả",
+  "groupMuteAllOff": "Tắt tắt tiếng tất cả",
+  "groupAllowMemberInvite": "Cho phép thành viên mời",
+  "groupAllowMemberModifyTitle": "Cho phép thành viên đổi tên nhóm",
+  "groupAllowMemberAtAll": "Cho phép thành viên @tất cả",
+  "groupAllowMemberViewMemberList": "Cho phép xem danh sách thành viên",
+  "groupAllowQrCodeJoin": "Cho phép tham gia bằng mã QR",
+  "groupRequireApproval": "Yêu cầu phê duyệt khi tham gia",
+  "groupAllowMemberAddFriend": "Cho phép thành viên kết bạn với nhau",
+  "groupRoleOwner": "Chủ nhóm",
+  "groupRoleAdmin": "Quản trị viên",
+  "groupRoleMember": "Thành viên",
+  "groupNoMembers": "Không có thành viên",
+  "groupNoAnnouncements": "Không có thông báo",
+  "groupCreateAnnouncement": "Đăng thông báo",
+  "groupEditAnnouncement": "Chỉnh sửa thông báo",
+  "groupDeleteAnnouncement": "Xóa thông báo",
+  "groupDeleteAnnouncementConfirm": "Xóa thông báo này?",
+  "groupAnnouncementTitle": "Tiêu đề",
+  "groupAnnouncementContent": "Nội dung",
+  "groupAnnouncementPin": "Ghim thông báo",
+  "groupMemberCount": "{count} thành viên",
+  "groupSelectedCount": "Đã chọn {count}",
+  "groupJoinRequestApprove": "Chấp nhận",
+  "groupJoinRequestReject": "Từ chối",
+  "groupJoinRequests": "Yêu cầu tham gia",
+  "groupNoJoinRequests": "Không có yêu cầu tham gia",
+  "groupReadReceipts": "Xác nhận đã đọc",
+  "groupReadCount": "{count} đã đọc",
+  "groupUnreadCount": "{count} chưa đọc",
+  "organizationTitle": "Sơ đồ tổ chức",
+  "organizationEmpty": "Không có thông tin phòng ban",
+  "organizationMembers": "Thành viên",
+  "organizationDepartment": "Phòng ban",
+  "organizationPosition": "Chức vụ",
+  "organizationLeader": "Trưởng nhóm",
+  "qrCodeTitle": "Mã QR của tôi",
+  "qrCodeSave": "Lưu vào thư viện",
+  "qrCodeShare": "Chia sẻ",
+  "qrCodeSaveSuccess": "Đã lưu vào thư viện",
+  "qrCodeSaveFailed": "Lưu thất bại, vui lòng thử lại",
+  "qrCodeRefresh": "Làm mới mã QR",
+  "qrCodeExpired": "Mã QR đã hết hạn, vui lòng làm mới",
+  "qrCodeScanToAdd": "Quét mã QR để kết bạn với tôi",
+  "spacePersonal": "Cá nhân",
+  "spaceEnterprise": "Doanh nghiệp",
+  "spaceJoinByCode": "Tham gia bằng mã doanh nghiệp",
+  "spaceJoinByInvite": "Tham gia bằng mã mời",
+  "spaceEnterCode": "Nhập mã doanh nghiệp",
+  "spaceEnterInviteCode": "Nhập mã mời",
+  "spaceSearchEnterprise": "Tìm kiếm doanh nghiệp",
+  "spaceJoinRequestSent": "Yêu cầu đã được gửi, đang chờ phê duyệt",
+  "spaceJoinRequestPending": "Đang chờ phê duyệt",
+  "spaceJoinRequestApproved": "Yêu cầu đã được chấp nhận",
+  "spaceJoinRequestRejected": "Yêu cầu đã bị từ chối",
+  "spaceAlreadyMember": "Bạn đã là thành viên",
+  "spaceAutoApproved": "Đã được tự động chấp nhận. Chào mừng!",
+  "spacePendingApprovalHint": "Đăng ký thành công. Yêu cầu tham gia đã được gửi và đang chờ phê duyệt.",
+  "spaceNoSpaces": "Không có không gian",
+  "spaceInviteExpired": "Mã mời đã hết hạn",
+  "spaceInviteTargetMismatch": "Mã mời này không dành cho tài khoản của bạn",
+  "spaceAcceptInviteSuccess": "Đã tham gia doanh nghiệp thành công",
+  "spaceAcceptInviteFailed": "Tham gia thất bại, vui lòng thử lại",
+  "spaceTenantSelectTitle": "Chọn không gian",
+  "spaceTenantSelectHint": "Chọn không gian để vào",
+  "spaceEnterPersonal": "Vào không gian cá nhân",
+  "spaceEnterEnterprise": "Vào không gian doanh nghiệp",
+  "recentContactsTitle": "Liên hệ gần đây",
+  "recentContactsEmpty": "Không có liên hệ gần đây",
+  "inviteFriendsTitle": "Mời bạn bè",
+  "inviteFriendsCopyLink": "Sao chép link mời",
+  "inviteFriendsLinkCopied": "Đã sao chép link mời",
+  "pendingJoinRequestsTitle": "Yêu cầu mới",
+  "pendingJoinRequestsEmpty": "Không có yêu cầu",
+  "pendingJoinRequestApprove": "Chấp nhận",
+  "pendingJoinRequestReject": "Từ chối",
+  "pendingJoinRequestApproveSuccess": "Đã chấp nhận",
+  "pendingJoinRequestRejectSuccess": "Đã từ chối",
+  "pendingJoinRequestFailed": "Thao tác thất bại, vui lòng thử lại",
+  "groupListTitle": "Danh sách nhóm",
+  "groupListEmpty": "Không có nhóm",
+  "joinCompanyTitle": "Tham gia doanh nghiệp",
+  "joinCompanyCodeHint": "Nhập mã doanh nghiệp",
+  "joinCompanySearchHint": "Tìm kiếm tên doanh nghiệp",
+  "joinCompanyApply": "Gửi yêu cầu tham gia",
+  "joinCompanyApplySuccess": "Đã gửi yêu cầu",
+  "joinCompanyApplyFailed": "Gửi yêu cầu thất bại, vui lòng thử lại",
+  "joinCompanyAutoApproved": "Đã được tự động chấp nhận. Chào mừng!",
+  "joinCompanyPending": "Đã gửi yêu cầu, đang chờ phê duyệt",
+  "joinCompanyInviteCodeHint": "Nhập mã mời",
+  "joinCompanyAcceptInvite": "Chấp nhận lời mời",
+  "joinCompanyNoResults": "Không tìm thấy doanh nghiệp",
+  "joinCompanyMemberCount": "{count} thành viên",
+  "approvalEmpty": "Không có yêu cầu",
+  "approvalApprove": "Đồng ý",
+  "approvalReject": "Từ chối",
+  "approvalPending": "Đang chờ",
+  "approvalApproved": "Đã đồng ý",
+  "approvalRejected": "Đã từ chối",
+  "approvalExpired": "Đã hết hạn",
+  "approvalCancelled": "Đã hủy",
+  "approvalReplayFailed": "Thao tác ban đầu thất bại. Vui lòng thực hiện lại.",
+  "requestCancelled": "Đã hủy yêu cầu",
+  "enterpriseNoPermission": "Không có quyền",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Cài đặt thông tin doanh nghiệp",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Cấu hình doanh nghiệp",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Tài khoản chính thức",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Quản lý tài khoản chính thức",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Quản lý thành viên",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Mời nhân viên",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Danh sách thành viên",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Quản lý thông báo",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Gửi hàng loạt trong doanh nghiệp",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Phê duyệt",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Phê duyệt yêu cầu tham gia",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Chuyển quyền sở hữu",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Sau khi chuyển, bạn sẽ trở thành quản trị viên và không thể hoàn tác. Hãy chọn chủ sở hữu mới từ danh sách thành viên.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Chọn chủ sở hữu mới",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Chế độ phân công nhân viên hỗ trợ",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Phân công tự động",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Chỉ định nhân viên hỗ trợ",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Chế độ phê duyệt tham gia",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Phê duyệt thủ công",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Tự động phê duyệt",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Chế độ bạn bè",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Chế độ giao lưu",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Chế độ cách ly",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Tính năng khách truy cập Widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Đã tắt",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Tự động phân công luân phiên cho nhân viên hỗ trợ đang rảnh",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Phân công tất cả khách hàng cho nhân viên hỗ trợ được chỉ định",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Yêu cầu của khách hàng cần quản trị viên phê duyệt",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Tự động phê duyệt yêu cầu của khách hàng",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Khách hàng có thể kết bạn với nhau",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Khách hàng không được kết bạn với nhau",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Thành viên thông thường",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Tìm thành viên",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Đặt làm thành viên thông thường",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Đặt làm nhân viên hỗ trợ kỹ thuật",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Đặt làm nhân viên hỗ trợ",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Xác nhận chuyển",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Tên doanh nghiệp không được để trống",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Nhập tên doanh nghiệp",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Chưa có giới thiệu",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logo doanh nghiệp",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Không thể tạo. Vui lòng thử lại.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Số lần sử dụng tối đa",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Thời hạn hiệu lực",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 giờ",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 giờ",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 ngày",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 ngày",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Tạo mã mời",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Mã mời",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Tất cả",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Nhân viên",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Tìm nhân viên / vai trò / chức vụ",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Thành viên doanh nghiệp",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Không có thành viên phù hợp",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Tổng quan doanh nghiệp",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Quản lý",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Quyền theo vai trò",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Bàn giao khi nghỉ việc",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Tìm nhân viên",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Nhân viên doanh nghiệp",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Hồ sơ bạn bè",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Gọi thoại và video",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Thêm bạn bè",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Nam",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Nữ",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Không có cuộc trò chuyện chưa đọc",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "DN",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Đã sao chép mã mời",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Xóa “{name}” khỏi doanh nghiệp?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Chuyển quyền sở hữu cho “{name}”? Bạn sẽ trở thành quản trị viên và không thể hoàn tác.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count} lần",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Hiệu lực {hours} giờ · Tối đa {count} lần sử dụng",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count} cuộc trò chuyện chưa đọc",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count} tin nhắn chưa đọc",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count} người",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Rời doanh nghiệp",
+  "enterpriseLoginBeforeSearch": "Vui lòng đăng nhập trước khi tìm tổ chức",
+  "enterpriseSearchFailed": "Tìm kiếm thất bại. Vui lòng thử lại.",
+  "enterpriseLoginBeforeJoin": "Vui lòng đăng nhập trước khi xin tham gia tổ chức",
+  "enterpriseApplicationPending": "Đã gửi yêu cầu. Đang chờ quản trị viên phê duyệt.",
+  "enterpriseLoginBeforeAction": "Vui lòng đăng nhập để tiếp tục",
+  "enterprisePlatformTagline": "Nền tảng tương tác khách hàng riêng cho tổ chức",
+  "enterpriseLookupHint": "Nhập số tổ chức, bí danh hoặc mã mời",
+  "enterpriseLookup": "Tìm kiếm",
+  "enterpriseApplicationNote": "Lời nhắn xin tham gia (không bắt buộc)",
+  "enterpriseLookupGuide": "Tìm bằng số tổ chức hoặc bí danh, hoặc tham gia bằng mã mời",
+  "enterpriseRecommendationsLoading": "Đang tải tổ chức được đề xuất",
+  "enterpriseRecommendationsFailed": "Không thể tải tổ chức được đề xuất",
+  "enterpriseReload": "Tải lại",
+  "enterpriseNoRecommendations": "Chưa có tổ chức được đề xuất. Hãy tìm bằng số tổ chức, bí danh hoặc mã mời.",
+  "enterpriseRecommended": "Tổ chức được đề xuất",
+  "enterpriseJoined": "Đã tham gia",
+  "enterpriseRequestsLoadFailed": "Không thể tải lịch sử yêu cầu",
+  "enterpriseCodeMissing": "Số tổ chức không khả dụng",
+  "enterpriseAlias": "Bí danh tổ chức",
+  "enterpriseCodeLabel": "Số tổ chức",
+  "enterprisePrivateAliasHint": "Tổ chức này chưa công khai thông tin. Yêu cầu sẽ xác định tổ chức bằng bí danh này.",
+  "enterpriseInvitationMismatch": "Mã mời này không dành cho bạn. Bạn có thể không tham gia được.",
+  "enterpriseTechnicalRole": "Hỗ trợ kỹ thuật",
+  "enterpriseJoin": "Tham gia",
+  "enterpriseCancelApplication": "Rút yêu cầu",
+  "enterpriseApplication": "Yêu cầu tham gia tổ chức",
+  "enterpriseAliasValue": "Bí danh tổ chức: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Số tổ chức: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Bí danh: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Bạn sẽ tham gia với vai trò {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Mã mời này dành cho: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Lý do từ chối: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Tổ chức {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "B",
+  "enterpriseCompanyInitial": "T",
+  "enterpriseAudienceAll": "Tất cả mọi người",
+  "enterpriseAudienceAllHint": "Nhân viên và khách hàng",
+  "enterpriseAudienceStaffHint": "Chỉ nhân viên tổ chức",
+  "enterpriseAudienceCustomers": "Khách hàng tổ chức",
+  "enterpriseAudienceCustomersHint": "Khách hàng đã tham gia tổ chức",
+  "enterpriseOfficialGroups": "Nhóm chính thức",
+  "enterpriseAudienceGroupsHint": "Cuộc trò chuyện nhóm chính thức của tổ chức",
+  "enterpriseSendNow": "Gửi ngay",
+  "enterpriseSendScheduled": "Lên lịch gửi",
+  "enterprisePreviewing": "Đang xem trước",
+  "enterprisePreview": "Xem trước",
+  "enterpriseSubmitSend": "Gửi yêu cầu gửi",
+  "enterpriseBroadcastSubmitted": "Đã gửi tác vụ phát tin của tổ chức",
+  "enterpriseScheduledUnavailable": "Phiên bản này chưa hỗ trợ lên lịch phát tin tổ chức",
+  "enterpriseBroadcastFailed": "Phát tin tổ chức thất bại. Vui lòng thử lại sau.",
+  "enterpriseBroadcastGuide": "Tin được phát bằng tài khoản chính thức của tổ chức và thao tác sẽ được ghi lại. Bạn có thể xem kết quả gửi sau khi gửi yêu cầu.",
+  "enterpriseSenderIdentity": "Danh tính người gửi",
+  "enterpriseSenderAfterPreview": "Xác nhận sau khi xem trước",
+  "enterpriseSenderConfirmed": "Đã xác nhận",
+  "enterpriseDefaultOfficialSender": "Tài khoản chính thức mặc định của tổ chức",
+  "enterpriseOfficialSenderHint": "Người nhận sẽ thấy danh tính tài khoản chính thức của tổ chức",
+  "enterpriseMessageContent": "Nội dung tin nhắn",
+  "enterpriseBroadcastContentHint": "Nhập nội dung phát tin sẽ gửi bằng tài khoản chính thức",
+  "enterpriseInternalNoteHint": "Ghi chú nội bộ để kiểm tra và theo dõi (không bắt buộc)",
+  "enterpriseSendPreview": "Xem trước nội dung gửi",
+  "enterpriseExpectedRecipients": "Số người nhận dự kiến",
+  "enterpriseDeliveryMethod": "Phương thức gửi",
+  "enterpriseTaskStatus": "Trạng thái tác vụ",
+  "enterpriseNoBroadcastHistory": "Chưa có lịch sử phát tin tổ chức",
+  "enterpriseHistoryUnavailable": "Tạm thời không khả dụng",
+  "enterpriseBroadcastDenied": "Không có quyền phát tin tổ chức",
+  "enterpriseBroadcastRoleHint": "Chỉ quản trị viên và chủ sở hữu mới có thể phát tin tổ chức.",
+  "enterpriseDefaultApplicationMessage": "Tôi muốn tham gia tổ chức của bạn"
+}

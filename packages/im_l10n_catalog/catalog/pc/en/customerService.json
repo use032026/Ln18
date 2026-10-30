@@ -1,0 +1,348 @@
+{
+  "customer": "Customer",
+  "action": {
+    "claim": "Claim",
+    "closeThread": "Close conversation",
+    "takeover": "Take over"
+  },
+  "transfer": {
+    "confirm": "Transfer",
+    "currentStaff": "Current agent",
+    "detail": "Transfer the current conversation with \"{customer}\" to another agent. The recipient can view the full conversation history.",
+    "empty": "No transferable service members",
+    "loading": "Loading service members...",
+    "open": "Transfer to another agent",
+    "openShort": "Transfer",
+    "assignShort": "Assign",
+    "assign": {
+      "confirm": "Confirm assignment",
+      "detail": "Assign the current conversation with \"{customer}\" to an agent.",
+      "empty": "No assignable agents",
+      "loading": "Loading service members...",
+      "open": "Assign to agent",
+      "reasonLabel": "Assignment note",
+      "reasonPlaceholder": "Example: assign by language, queue ownership, or specialist skill",
+      "searchPlaceholder": "Search agent name or account",
+      "title": "Assign conversation",
+      "transferring": "Assigning..."
+    },
+    "reasonLabel": "Transfer note",
+    "reasonPlaceholder": "Example: customer requests Cantonese support, specialist follow-up needed",
+    "role": {
+      "admin": "Admin",
+      "customer_service": "Agent",
+      "owner": "Owner"
+    },
+    "searchPlaceholder": "Search agent name or account",
+    "selectTarget": "Select the target agent",
+    "title": "Transfer conversation",
+    "transferring": "Transferring...",
+    "unassignedStaff": "Unassigned",
+    "unavailable": "This conversation cannot be transferred yet. Claim or take over it first."
+  },
+  "send": {
+    "localFileExpired": "The local file expired. Select it again.",
+    "selectThread": "Select an online customer service conversation",
+    "sendInterruptedRetry": "Sending was interrupted. Click to retry.",
+    "threadClosedReadonly": "The conversation has ended and is now read-only.",
+    "videoPosterFailed": "Failed to generate video poster"
+  },
+  "contextPanel": {
+    "aiDraft": "AI draft",
+    "collapseCustomer": "Collapse customer info",
+    "dragSort": "Drag to reorder",
+    "emptyText": "Select a queued, active, or history conversation from the pool to view customer details.",
+    "emptyTitle": "No customer selected",
+    "expandCustomer": "Expand customer info",
+    "knowledge": "Knowledge base",
+    "pin": "Pin customer info",
+    "quickReply": "Quick replies",
+    "railAria": "Customer context shortcuts",
+    "selectFirst": "Select a conversation to view customer info",
+    "sessionInfo": "Conversation info",
+    "sessionNotesUnavailable": "Session notes are available only for online service temp sessions.",
+    "sessionSummary": "Conversation summary",
+    "sessionSummaryEmpty": "No conversation summary from the API yet.",
+    "title": "Customer info",
+    "toolsAria": "Customer service tools",
+    "unpin": "Unpin"
+  },
+  "sessionNotes": {
+    "add": "Add",
+    "contentRequired": "Enter a session note",
+    "contentTooLong": "Session notes cannot exceed {max} characters",
+    "count": "{count} notes",
+    "createFailed": "Failed to add note: {error}",
+    "createPinned": "Pin",
+    "created": "Note added",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this session note?",
+    "deleteFailed": "Failed to delete note: {error}",
+    "deleted": "Note deleted",
+    "editorLabel": "Session note content",
+    "empty": "No session notes",
+    "loadFailed": "Failed to load session notes: {error}",
+    "loading": "Loading session notes...",
+    "pin": "Pin",
+    "pinFailed": "Failed to update note pin: {error}",
+    "pinUpdated": "Note pin updated",
+    "placeholder": "Example: VIP customer, cares about refund timing",
+    "title": "Session notes",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time",
+    "unpin": "Unpin"
+  },
+  "transferRemarks": {
+    "closeAria": "Close transfer remarks",
+    "empty": "No transfer remarks",
+    "fromTo": "{from} transferred to {to}",
+    "inlineLabel": "Transfer note: {reason}",
+    "internalOnly": "Visible to agents only. Customers cannot see these notes.",
+    "noReason": "No transfer note",
+    "open": "Transfer remarks",
+    "openShort": "Transfer remarks",
+    "title": "Transfer remarks",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time"
+  },
+  "closeConfirm": {
+    "confirm": "Close conversation",
+    "detail": "After closing, this service conversation will move to history and the input area will become read-only.",
+    "pendingWarning": "{count} messages are still not sent. Handle them before closing if needed.",
+    "risk": "If the visitor contacts again, server rules will queue them again or create a new service thread.",
+    "title": "Close the conversation with \"{customer}\"?"
+  },
+  "header": {
+    "autoTranslateDisabled": "Off for this conversation",
+    "autoTranslateEnabled": "On for this conversation",
+    "autoTranslateGlobalDisabled": "Following global, off",
+    "autoTranslateGlobalEnabled": "Following global, on",
+    "autoTranslateNamed": "Auto translate: {state}",
+    "actionsAria": "Conversation actions",
+    "normalCustomer": "Regular customer",
+    "openCustomerInfo": "Open customer info",
+    "pendingClaim": "Waiting to claim",
+    "pendingTakeover": "Waiting takeover",
+    "readonly": "Read-only",
+    "replyable": "Reply allowed",
+    "slaRisk": "SLA risk",
+    "statusAria": "Customer service conversation status",
+    "unread": "{count} unread",
+    "vipCustomer": "VIP customer"
+  },
+  "reception": {
+    "autoEnableHint": "Click to switch online and enable automatic assignment.",
+    "control": "Reception control",
+    "mode": "Access mode",
+    "queueMode": {
+      "auto": {
+        "description": "The server assigns queued conversations to online agents by rule.",
+        "disabledOffline": "Automatic assignment can only be enabled while online.",
+        "disabledUnsynced": "Reception status is not synced, so automatic assignment cannot be enabled yet.",
+        "label": "Automatic assignment"
+      },
+      "manual": {
+        "description": "Queued conversations stay in the pool until an agent claims them manually.",
+        "label": "Manual access"
+      }
+    },
+    "status": "Reception status",
+    "statusOption": {
+      "break": {
+        "description": "Away from the seat briefly and not receiving new queued conversations.",
+        "label": "Away"
+      },
+      "busy": {
+        "description": "Pause automatic claiming and continue handling current conversations.",
+        "label": "Busy"
+      },
+      "offline": {
+        "description": "Do not participate in reception. Handle or transfer current conversations first.",
+        "label": "Offline"
+      },
+      "online": {
+        "description": "Can claim new conversations and participate in automatic assignment.",
+        "label": "Online"
+      },
+      "unsynced": {
+        "description": "Reception status is syncing. Defaults to busy and does not claim conversations."
+      }
+    },
+    "summary": "{status} · {mode} · {sessions}"
+  },
+  "messageStage": {
+    "aria": "Customer service chat",
+    "customerFallback": "Customer",
+    "customerReadAt": "Customer read {time}",
+    "customerReadTimeUnknown": "Customer read time unknown",
+    "customerUnread": "Customer unread",
+    "read": "Read",
+    "newMessages": "↓ {count} new messages",
+    "typingPreviewEmpty": "The customer is typing...",
+    "typingPreviewLabel": "Customer is typing",
+    "unread": "Unread"
+  },
+  "online": {
+    "accessModeUnsynced": "Access mode not synced",
+    "assistantNeedsWidth": "{pane} needs a wider workspace. Widen the window or collapse the queue first.",
+    "autoAccess": "Auto access",
+    "commandSummary": "Conversations {total} · {mode} · Assigned {capacity}",
+    "commandTitle": "Customer Service Command Center",
+    "dragSort": "Drag to reorder",
+    "expandActiveTitle": "Expand active conversations, currently {count}",
+    "expandQueue": "Expand reception queue",
+    "expandQueuedTitle": "Expand queued conversations, currently {count}",
+    "expandSlaTitle": "Expand SLA risk conversations, currently {count}",
+    "expandUnreadTitle": "Expand unread conversations, currently {count}",
+    "metrics": {
+      "capacity": "Capacity",
+      "assigned": "Assigned",
+      "maxAssignable": "Max assignable",
+      "queued": "Queued",
+      "active": "Active",
+      "unread": "Unread",
+      "sla": "SLA"
+    },
+    "manualAccess": "Manual access",
+    "queueRailAria": "Customer service queue radar",
+    "receptionNotSynced": "Reception status is not synced. Try again later.",
+    "resizeAssistant": "Resize assistant tools",
+    "resizeCustomer": "Resize customer profile",
+    "resizeList": "Resize customer service list",
+    "status": {
+      "online": "Online",
+      "busy": "Busy",
+      "break": "Break",
+      "offline": "Offline",
+      "unsynced": "Not synced"
+    },
+    "unread": "Unread",
+    "unreadHint": "Unread items are expanded. Prioritize conversations with red dots; dedicated unread filtering is pending backend support."
+  },
+  "threadList": {
+    "claim": "Claim",
+    "claiming": "Claiming",
+    "claimTitle": "Manually claim this visitor conversation",
+    "current": "Current",
+    "empty": {
+      "clearSearch": "Clear search",
+      "filteredDescription": "No actionable conversations under this filter. Switch to history or wait for queued visitors.",
+      "filteredTitle": "No conversations in this filter",
+      "historyFilteredDescription": "No history conversations match this filter. Return to current conversations to keep serving visitors.",
+      "historyFilteredTitle": "No history conversations in this filter",
+      "noCurrentDescription": "Queued visitors will enter the pool automatically. You can also switch to history for closed conversations.",
+      "noCurrentTitle": "No current conversations",
+      "noHistoryDescription": "Closed conversations appear in history. For now, watch queued, active, and SLA-risk conversations.",
+      "noHistoryTitle": "No history conversations",
+      "noSlaTitle": "No SLA risk",
+      "queuedDescription": "No visitors are waiting to be claimed. Switch to all or active conversations to continue.",
+      "searchCurrentDescription": "No current conversations match. Clear search or switch to history to continue.",
+      "searchHistoryDescription": "No customer, channel, or message content matches in history. Clear search to continue.",
+      "searchTitle": "No matching conversations",
+      "servingDescription": "No active conversations. Switch to queued visitors or view history.",
+      "slaDescription": "No SLA risk signals found. Return to all conversations and continue by unread or latest message time.",
+      "viewAll": "View all",
+      "viewQueued": "View queued"
+    },
+    "filterAll": "All",
+    "filterAria": "Customer service filters",
+    "filterQueued": "Queued",
+    "filterServing": "Active",
+    "history": "History",
+    "historyStatus": {
+      "closedByVisitor": "Closed by visitor",
+      "closedByStaff": "Closed by agent",
+      "closedTimeout": "Closed by timeout",
+      "closedSystem": "Closed by system",
+      "transferred": "Transferred",
+      "archived": "Archived",
+      "ended": "Ended"
+    },
+    "historyStatusUnread": "Ended · {count} unread",
+    "historyThread": "History conversation",
+    "loadMore": "Load more",
+    "loadFailed": "Failed to load conversations. Try again later.",
+    "loading": "Loading conversations...",
+    "loadingMore": "Loading more...",
+    "modeTabsAria": "Current and history",
+    "noMessage": "No messages",
+    "queueMetaMinutes": "Queue #{position} · Est. wait {minutes} min",
+    "queueMetaSeconds": "Queue #{position} · Est. wait {seconds}s",
+    "queueMetaUnknown": "Queue #{position} · Est. wait --",
+    "queuePosition": "Queue #{position}",
+    "queueWaitMinutes": "Wait {minutes} min",
+    "queueWaitSeconds": "Wait {seconds}s",
+    "queueWaitUnknown": "Wait --",
+    "queueWaiting": "Queued · Waiting to be claimed",
+    "queueWaitingAutomatic": "Queued · Waiting for automatic assignment",
+    "readonly": "Read-only",
+    "searchPlaceholder": "Search customers, channels, or conversation content",
+    "showMore": "Show {count} more conversations",
+    "summary": "Current {current} · Queued {queued} · History {history}",
+    "title": "Conversation Pool",
+    "unknownCustomer": "Unknown customer"
+  },
+  "status": {
+    "aiTransfer": "AI transfer",
+    "closed": "Closed",
+    "queueing": "Customer queued",
+    "serving": "Agent serving",
+    "unknown": "Status pending"
+  },
+  "visitor": "Visitor",
+  "workspace": {
+    "actionFailed": "{action}: {error}",
+    "aiDraftInsertedNotice": "AI reply suggestion inserted. Confirm before sending to the customer.",
+    "closedUnreadNotice": "{count} unread messages before closing",
+    "closing": "Closing...",
+    "composerDisabled": {
+      "automaticAssignment": "Automatic assignment is enabled. You can reply after the system assigns this conversation.",
+      "claim": "This conversation is still queued. Claim it first.",
+      "managementReadonly": "Viewing mode. You cannot reply. The conversation is still active and can be transferred to an agent.",
+      "readonly": "This conversation has ended and cannot be replied to",
+      "transferred": "This conversation has been transferred and cannot be replied to",
+      "takeover": "This conversation is still handled by AI. Take over manually first."
+    },
+    "currentCustomer": "Current customer",
+    "editFailed": "Edit failed",
+    "emptyAiDraft": "This AI reply suggestion has no insertable text.",
+    "emptyAssistantContent": "This assistant content has no insertable text.",
+    "emptyKnowledgeContent": "This knowledge content has no insertable text.",
+    "fileCopied": "File copied.",
+    "imageCopied": "Image copied.",
+    "insertedNotice": "Inserted into the input box. Confirm before sending to the customer.",
+    "mediaNoUrl": "This media message has no actionable URL.",
+    "openFailed": "Open failed",
+    "opened": "Opened.",
+    "openedForEdit": "Opened for editing.",
+    "lookupLoadedRangeOnly": "Only loaded customer service messages can be located right now.",
+    "revealFailed": "Show file location failed",
+    "revealedInFinder": "Shown in Finder.",
+    "revealedInFolder": "Shown in folder.",
+    "saveAsFailed": "Save as failed",
+    "savedAs": "Saved as.",
+    "selectThread": "Select a customer service conversation",
+    "serviceConversation": "Customer service conversation",
+    "threadChangedConfirmAgain": "The current conversation changed. Confirm closing again.",
+    "inline": {
+      "emptyMessages": "No message records yet. View customer details first or wait for the visitor to start a conversation.",
+      "loadFailed": "Conversation load failed: {error}",
+      "loading": "Loading conversation...",
+      "noThread": "Select a queued, active, or history conversation to start handling."
+    },
+    "mode": {
+      "current": "Current reception",
+      "history": "History conversation",
+      "viewing": "Viewing mode"
+    },
+    "reception": {
+      "ai": "Currently handled by AI · From {source} · Take over before replying manually",
+      "automaticAssignment": "Customer is queued · From {source} · Waiting for automatic assignment",
+      "ended": "Conversation ended · {status}",
+      "queued": "Customer is queued · From {source} · Claim before replying manually",
+      "serving": "Conversation claimed · From {source} · Continue the conversation",
+      "viewing": "Viewing mode · {status} · From {source} · Cannot reply"
+    },
+    "unknownSource": "Unknown source"
+  }
+}

@@ -1,0 +1,1950 @@
+{
+  "@@locale": "ar",
+  "homeTitle": "الرسائل",
+  "homeGatewayConnectingTitle": "جارٍ الاتصال",
+  "homePersonalSpace": "شخصي",
+  "homeOfficialService": "الخدمة الرسمية",
+  "homeSwitchSpace": "تبديل المساحة",
+  "homeSpaceSubtitle": "شخصي · مؤسسة",
+  "homeJoinEnterprise": "الانضمام إلى مؤسسة",
+  "homeCreateGroup": "مجموعة جديدة",
+  "homeAddFriend": "إضافة جهة اتصال",
+  "homeScan": "مسح",
+  "homeJoinNewSpace": "الانضمام إلى مساحة جديدة",
+  "homeSearchConversation": "بحث",
+  "homeNoMessages": "لا توجد رسائل",
+  "homeDeleteConversation": "حذف المحادثة",
+  "homeDeleteConversationConfirm": "هل تريد حذف هذه المحادثة؟ سيُمسح سجلها.",
+  "homePersonalNote": "أنا (ملاحظات شخصية)",
+  "homeWorkNote": "أنا (ملاحظات العمل)",
+  "homeConversationCount": "المحادثات: {count}",
+  "homeUnreadCount": "غير المقروءة: {count}",
+  "chatInputHint": "اكتب رسالة...",
+  "chatVoiceHint": "اضغط مطولًا للتحدث",
+  "chatVoiceRelease": "أفلت للإرسال",
+  "chatVoiceCancel": "اسحب لأعلى للإلغاء",
+  "chatMenuCopy": "نسخ",
+  "chatMenuForward": "إعادة توجيه",
+  "chatMenuRecall": "سحب",
+  "chatMenuDelete": "حذف",
+  "chatMenuFavorite": "حفظ",
+  "chatMenuReply": "رد",
+  "chatMenuMultiSelect": "تحديد",
+  "chatMenuTranslate": "ترجمة",
+  "chatMenuVoiceToText": "تحويل إلى نص",
+  "chatMenuTextToSpeech": "قراءة بصوت عالٍ",
+  "chatStatusRecalled": "سُحبت الرسالة",
+  "chatRecallSuccess": "تم السحب",
+  "chatRecallFailed": "تعذّر السحب",
+  "chatRecallTimeout": "لا يمكن سحب الرسائل الأقدم من دقيقتين",
+  "chatTranslateFailed": "فشلت الترجمة، حاول مجددًا",
+  "chatTranslateNotConfigured": "خدمة الترجمة غير متاحة",
+  "chatVoiceToTextFailed": "فشل التحويل، حاول مجددًا",
+  "chatTextToSpeechFailed": "تعذّرت القراءة بصوت عالٍ، حاول مجددًا",
+  "chatVoiceToText": "تحويل",
+  "chatForwardSuccess": "أُعيد التوجيه",
+  "chatForwardFailed": "تعذّرت إعادة التوجيه، حاول مجددًا",
+  "chatNoConversations": "لا توجد محادثات لإعادة التوجيه إليها",
+  "chatSendFailed": "فشل الإرسال",
+  "chatResend": "إعادة إرسال الرمز",
+  "chatNotFriend": "ليست في جهات الاتصال",
+  "chatNotFriendHint": "لستما ضمن جهات اتصال بعضكما بعد. لا يمكن إرسال الرسائل.",
+  "chatMutedHint": "جميع الأعضاء ممنوعون من إرسال الرسائل",
+  "chatFileUploadFailed": "فشل رفع الملف، حاول مجددًا",
+  "chatFileStatusNotDownloaded": "لم يُنزّل",
+  "chatFileStatusDownloaded": "تم التنزيل",
+  "chatFileStatusUploading": "جارٍ الرفع",
+  "chatFileStatusUploadFailed": "فشل التحميل",
+  "chatCardSendFailed": "فشل إرسال بطاقة جهة الاتصال",
+  "chatFavoriteSuccess": "تم الحفظ",
+  "chatFavoriteFailed": "تعذّرت الإضافة إلى المفضلة",
+  "chatLoadFailed": "فشل التحميل",
+  "chatImageMessage": "[صورة]",
+  "chatVoiceMessage": "[رسالة صوتية]",
+  "chatVideoMessage": "[فيديو]",
+  "chatFileMessage": "[ملف]",
+  "chatLocationMessage": "[موقع]",
+  "chatContactCardMessage": "[جهة اتصال]",
+  "chatCallLogMessage": "[مكالمة]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "قرأها: {count}",
+  "chatUnread": "غير مقروءة",
+  "chatRecalledSelf": "سحبتَ رسالة",
+  "chatRecalledPeer": "سحب {sender} رسالة",
+  "chatTranslationPrefix": "الترجمة: {translation}",
+  "chatMessageDeleted": "حُذفت الرسالة",
+  "chatPeer": "أخرى",
+  "chatSelf": "أنا",
+  "chatGenericMessage": "[رسالة]",
+  "chatVoiceHideText": "إخفاء النص",
+  "chatVoiceShowText": "تحويل إلى نص",
+  "chatFileDefaultName": "ملف",
+  "chatContactDefaultName": "جهة اتصال",
+  "chatContactCardTitle": "بطاقة جهة اتصال",
+  "chatCallMissed": "فائتة",
+  "chatCallCancelled": "ملغاة",
+  "chatCallRejected": "مرفوضة",
+  "chatCallDisconnected": "انقطع الاتصال",
+  "chatCallEnded": "انتهت المكالمة",
+  "chatCallFailed": "فشلت المكالمة",
+  "chatCallDuration": "المدة {duration}",
+  "chatVideoCallTitle": "مكالمة فيديو",
+  "chatVoiceCallTitle": "مكالمة صوتية",
+  "chatToolPhotos": "الصور",
+  "chatToolCamera": "الكاميرا",
+  "chatToolFile": "ملف",
+  "chatToolLocation": "الموقع",
+  "chatToolContactCard": "جهة اتصال",
+  "chatToolVoiceCall": "مكالمة صوتية",
+  "chatToolVideoCall": "مكالمة فيديو",
+  "chatToolFavorites": "المفضلة",
+  "chatToolTranslate": "ترجمة",
+  "chatTranslationChooseLanguage": "اختر لغة الترجمة",
+  "chatTranslationEnterText": "أدخل نصًا أولًا",
+  "chatTranslationMentionsUnsupported": "الترجمة غير متاحة للرسائل التي تحتوي على إشارات",
+  "chatTranslationScheduledUnsupported": "الترجمة غير متاحة أثناء تعديل رسالة مجدولة",
+  "chatTranslationFailed": "فشلت الترجمة. حاول مجددًا",
+  "chatTranslationEmpty": "لم تُعد أي ترجمة. حاول مجددًا",
+  "chatTranslationTranslating": "جارٍ الترجمة…",
+  "chatTranslationSend": "إرسال الترجمة",
+  "chatTranslationSending": "جارٍ الإرسال…",
+  "chatTranslationExpand": "عرض المزيد",
+  "chatTranslationCollapse": "عرض أقل",
+  "chatFileTooLarge": "يتجاوز الملف الحد المسموح (100 ميغابايت)",
+  "chatInputMutedAdminOnly": "يمكن للمالك أو الأعضاء المحددين فقط إرسال الرسائل.",
+  "chatImageUploadUnsupported": "فشل رفع الصورة. دعم الخادم غير متاح بعد.",
+  "chatFavoriteLongPressHint": "اضغط مطولًا على رسالة لإضافتها إلى المفضلة",
+  "chatSelectedCount": "المحدد: {count}",
+  "chatLocationSheetTitle": "إرسال موقع",
+  "chatLocationNameLabel": "اسم المكان",
+  "chatLocationNameHint": "مثل المكتب أو عنوان العميل",
+  "chatLocationAddressLabel": "العنوان",
+  "chatLocationOptionalHint": "اختياري",
+  "chatLocationLatitudeLabel": "خط العرض",
+  "chatLocationLatitudeHint": "من -90 إلى 90",
+  "chatLocationLongitudeLabel": "خط الطول",
+  "chatLocationLongitudeHint": "من -180 إلى 180",
+  "chatLocationValidationRequired": "أدخل {label}",
+  "chatLocationValidationRange": "{label} خارج النطاق",
+  "chatLocationDefaultTitle": "الموقع",
+  "chatMutedFullNotice": "هذه المجموعة ممنوعة من إرسال الرسائل. يمكن للمالك أو الأعضاء المحددين فقط إرسالها.",
+  "chatNotFriendSendBlocked": "لم تعودا صديقين ولا يمكنك إرسال الرسائل",
+  "chatPersonalNotesTitle": "ملاحظات شخصية",
+  "chatWorkNotesTitle": "ملاحظات العمل",
+  "chatPersonalNotesDescription": "دوّن أفكارك الشخصية واحفظ المعلومات المهمة هنا\nتُزامن بين الأجهزة للوصول إليها في أي وقت",
+  "chatWorkNotesDescription": "دوّن مهام العمل واحفظ مواده هنا\nتبقى مساحات الفرق منفصلة وآمنة",
+  "chatNoMessages": "لا توجد رسائل",
+  "chatReplyTo": "الرد على {sender}",
+  "chatFeatureComingSoon": "{feature} قريبًا",
+  "chatForwardSelectTitle": "اختر محادثة",
+  "chatContactSelectTitle": "اختر جهة اتصال",
+  "chatNoContacts": "لا توجد جهات اتصال",
+  "autoTranslateTitle": "الترجمة التلقائية",
+  "autoTranslateEnabled": "تفعيل الترجمة التلقائية",
+  "autoTranslateLanguage": "اللغة المستهدفة",
+  "chatSettingsTitle": "المحادثة",
+  "chatHistoryTitle": "سجل المحادثات",
+  "chatHistoryClear": "مسح كل السجل",
+  "chatHistoryClearConfirm": "هل تريد مسح سجل جميع المحادثات؟ لا يمكن التراجع عن ذلك.",
+  "chatHistoryClearSuccess": "مُسح سجل المحادثات",
+  "chatBackgroundTitle": "خلفية المحادثة",
+  "chatBackgroundDefault": "افتراضي",
+  "chatBackgroundCustom": "مخصص",
+  "chatBackgroundReset": "استعادة الإعدادات الافتراضية",
+  "imageViewerTitle": "صورة",
+  "imageViewerSave": "حفظ في الألبوم",
+  "imageViewerSaveSuccess": "تم الحفظ في الألبوم",
+  "imageViewerSaveFailed": "تعذّر الحفظ، حاول مجددًا",
+  "chatOfficialAccountReadOnlyHint": "يرسل هذا الحساب التحديثات فقط. تواصل مع حساب الخدمة للحصول على المساعدة.",
+  "mediaSavedToLocalFile": "حُفظ في ملف محلي",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "اليوم",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "أمس",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "هذا الأسبوع",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, zero {الآن} one {قبل دقيقة} two {قبل دقيقتين} few {قبل {count} دقائق} many {قبل {count} دقيقة} other {قبل {count} دقيقة}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, zero {الآن} one {قبل ساعة} two {قبل ساعتين} few {قبل {count} ساعات} many {قبل {count} ساعة} other {قبل {count} ساعة}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, zero {اليوم} one {قبل يوم} two {قبل يومين} few {قبل {count} أيام} many {قبل {count} يومًا} other {قبل {count} يوم}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} ث",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} د",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "غدًا",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "تحويل الكلام إلى نص",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "قد يكون التعرّف غير دقيق. راجع النص قبل الإرسال.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "النص المتعرّف عليه…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "درجة الثقة بالتعرّف:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "فتح الرابط {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "جارٍ إنشاء معاينة الرابط",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "تعذّر فتح هذا الرابط",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "وضع علامة مقروء",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "وضع علامة غير مقروء",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "تفعيل التنبيهات",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "إذن الميكروفون مطلوب",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "تعذّر بدء التسجيل",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "جارٍ التسجيل…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "التسجيل قصير جدًا",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "جارٍ التسجيل، {count, plural, zero {0 ثانية} one {ثانية واحدة} two {ثانيتان} few {{count} ثوانٍ} many {{count} ثانية} other {{count} ثانية}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "اسحب هنا للتحويل إلى نص",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "أفلت للإلغاء",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "أفلت لتعديل النص",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "جارٍ التحويل إلى نص…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "لم يُتعرّف على أي كلام",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "إرسال التسجيل الأصلي",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "جارٍ الإرسال",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "ابحث عن منظمة أو أدخل رمزها أو اعرض طلباتك",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "اعرض قائمة الانتظار ومحادثاتك",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "بطاقة منتج",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "قسيمة ترويجية",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "استبيان",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "المزيد من أدوات التسويق",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "المتكررة",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "وجوه مبتسمة",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "إيماءات",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "حيوانات",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "طعام",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "أنشطة",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "سفر",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "أشياء",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "انقر لالتقاط صورة. اضغط مطولًا لتسجيل فيديو.",
+  "chatCameraReleaseToSend": "أفلت للإرسال",
+  "chatCameraStartFailed": "تعذّر تشغيل الكاميرا. تحقق من الأذونات وحاول مجددًا.",
+  "chatCameraUnavailable": "الكاميرا غير متاحة",
+  "chatDetails": "تفاصيل المحادثة",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "البحث في سجل المحادثة",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "الرسائل المجدولة",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "تعيين خلفية المحادثة",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "إدارة المجموعة",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "مسؤولو المجموعة",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "الأعضاء الممنوعون من الإرسال",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "دعوات الأعضاء معطلة في هذه المجموعة",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "يمكن لمالك المجموعة أو مسؤوليها فقط إضافة الأعضاء",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "إنشاء المجموعات غير متاح في هذا الإصدار",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, zero {لم يُضف أعضاء} one {أُضيف عضو واحد} two {أُضيف عضوان} few {أُضيف {count} أعضاء} many {أُضيف {count} عضوًا} other {أُضيف {count} عضو}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "اسم المجموعة (اختياري)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "مجموعة جديدة",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "إنشاء مجموعة جديدة",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "إنشاء مجموعة قريبة",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "تم ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "حذف ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "يمكن لمالك المجموعة أو مسؤولي المجموعة أو المنظمة فقط عرض مسؤولي المجموعة",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "يساعد المسؤولون في إدارة المجموعة، بما في ذلك نشر الإعلانات وإزالة الأعضاء.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "يمكن لمالك المجموعة فقط تعيين المسؤولين أو نقل الملكية أو حل المجموعة.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, zero {لا يمكنك تعيين مسؤولين.} one {يمكنك تعيين مسؤول واحد كحد أقصى.} two {يمكنك تعيين مسؤولين اثنين كحد أقصى.} few {يمكنك تعيين {count} مسؤولين كحد أقصى.} many {يمكنك تعيين {count} مسؤولًا كحد أقصى.} other {يمكنك تعيين {count} مسؤول كحد أقصى.}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "إزالة صلاحية المسؤول",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "هل تريد إزالة صلاحيات المسؤول من {name}؟",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "يمكن لمالك المجموعة أو مسؤوليها فقط عرض طلبات الانضمام",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "تمت الموافقة على طلب الانضمام",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "رُفض طلب الانضمام",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "عولج هذا الطلب بالفعل",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "رفض طلب الانضمام",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "سبب الرفض (اختياري)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "سبب الرفض: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "السماح للأعضاء بالانضمام باستخدام رمز QR",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "عند التفعيل، تجب الموافقة على طلبات الانضمام",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "عند التعطيل، يمكن للمالك والمسؤولين فقط تغيير اسم المجموعة",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "السماح للأعضاء العاديين بإضافة أعضاء جدد",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "السماح للأعضاء العاديين بالإشارة إلى الجميع",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "عند التعطيل، لا يمكن لأعضاء المجموعة إضافة بعضهم أصدقاء",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "عند التعطيل، لا يستطيع الأعضاء العاديون عرض قائمة الأعضاء",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "هل تريد حل هذه المجموعة؟ سيُخطر جميع الأعضاء. لا يمكن التراجع عن ذلك.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "حذف ومغادرة",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "عطّل المالك أو المسؤولون وصول الأعضاء العاديين إلى قائمة الأعضاء",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "عرض الأسماء المستعارة للأعضاء",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "تعذّرت مزامنة تفاصيل المجموعة. تُعرض معلومات المحادثة المحلية.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "تعذّر تحميل معلومات المجموعة",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "اختر أعضاء",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "اختر أعضاء المجموعة",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "يمكن لمالك المجموعة فقط تعيين المسؤولين",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "لا يوجد أعضاء متاحون للإضافة",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "اختر مالكًا جديدًا للمجموعة",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "يمكن لمالك المجموعة فقط نقل الملكية",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "لا يوجد أعضاء آخرون",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "هل تريد نقل الملكية إلى {name}؟ ستصبح عضوًا عاديًا.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "تأكيد النقل",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "أنت فقط من يرى ملاحظة المجموعة هذه",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "اسم المجموعة: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "استخدام هذا الاسم",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "لم يقرأها أحد بعد",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "قرأها الجميع",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "معلومات المحادثة",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "معلومات المحادثة ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "مقروءة",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "أُرسل طلب الصداقة. في انتظار القبول.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "عرض",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "في انتظار القبول",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "مراجعة الطلب",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "الأصدقاء",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "موظف",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "تعذّرت قراءة الملف. نزّله على هذا الجهاز وحاول مجددًا",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "إرسال الصور والفيديوهات من الصور",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "تعذّر تحديد نوع الملف",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "لا يطابق نوع الملف امتداده",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": "ملفات .{extension} غير مدعومة بعد",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "نوع الملف هذا غير مدعوم بعد",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "اختر وقتًا",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "اختر الأشخاص للإشارة إليهم",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@الجميع",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "إخطار جميع أعضاء المجموعة",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "لا يوجد أعضاء متاحون للإشارة إليهم",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "لا يوجد أعضاء مطابقون",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "الردود السريعة",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "رد الذكاء الاصطناعي",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "الردود السريعة",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "تعذّر تحميل الردود السريعة",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "يُرجى المحاولة لاحقًا",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "لا توجد ردود سريعة",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "ستظهر الردود السريعة هنا عند تفعيل المكتبة",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "لا توجد ردود سريعة مطابقة",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "جرّب كلمة بحث أخرى",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "البحث في الردود السريعة",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "رد سريع بلا عنوان",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "إرسال جماعي",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "أدخل رسالة جماعية",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "اختر المستلمين",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "اختر مستلمين صالحين",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, zero {لم يُرسل إلى أي مستلم} one {أُرسل إلى مستلم واحد} two {أُرسل إلى مستلمين اثنين} few {أُرسل إلى {count} مستلمين} many {أُرسل إلى {count} مستلمًا} other {أُرسل إلى {count} مستلم}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "نجح: {success}. فشل: {failed}.",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "إعادة المحاولة للفاشلة ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "اختر المستلمين للإرسال",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, zero {لا مستلمين للإرسال} one {الإرسال إلى مستلم واحد} two {الإرسال إلى مستلمين اثنين} few {الإرسال إلى {count} مستلمين} many {الإرسال إلى {count} مستلمًا} other {الإرسال إلى {count} مستلم}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "تعذّر تحميل الأصدقاء أو المجموعات. حاول لاحقًا.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "لا يوجد مستلمون متاحون",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "لا يوجد مستلمون مطابقون",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "أضف أصدقاء أو انضم إلى مجموعات لاستخدام الإرسال الجماعي",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "ابحث عن أصدقاء أو مجموعات",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "أدخل رسالتك الجماعية",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "اختر أصدقاء أو مجموعات",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, zero {لم يُحدد مستلمون} one {حُدد مستلم واحد} two {حُدد مستلمان} few {حُدد {count} مستلمين} many {حُدد {count} مستلمًا} other {حُدد {count} مستلم}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "مجموعة بلا اسم",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "صديق بلا اسم",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "أُرسل",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "لا يتيح دورك الحالي إرسال رسائل جماعية",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "احتيال",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "انتهاك الحقوق",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "محتوى ضار",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "تحرش",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "نشر شائعات",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "تعذّر إرسال شكواك. حاول مجددًا.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "أُرسلت الشكوى",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "شكرًا لملاحظاتك. سنراجع شكواك بشأن {reason} في أقرب وقت.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "معرّف الشكوى: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "يتولى موظف آخر هذه المحادثة. لم يعد بإمكانك الرد.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "يُحتفظ بالسجل. ستُستأنف الخدمة عندما يتابع العميل المحادثة.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "أغلقها الزائر",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "أغلقها موظف الخدمة",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "أُغلقت لانتهاء المهلة",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "أغلقها النظام",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "مؤرشفة",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "نُقلت إلى موظف خدمة آخر",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "منتهية",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "اتباع الإعداد العام (مفعّل)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "اتباع الإعداد العام (متوقف)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "هذه المحادثة (مفعّلة)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "هذه المحادثة (متوقفة)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "أُرسلت الرسالة المجدولة أو لا يمكن إلغاؤها",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "تعذّر الإلغاء. حاول لاحقًا.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "مساحة التخزين",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "إحصاءات التخزين غير متاحة",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "النسخ الاحتياطي والاستعادة",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "نسخ سجل المحادثات احتياطيًا",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "استعادة سجل المحادثات",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "الاستيراد والتصدير",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "تصدير سجل المحادثات",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "استيراد سجل المحادثات",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "غير متاح بعد",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "نشر",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "عنوان الإعلان (اختياري)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "تعذّر الحذف. حاول مجددًا.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "تعذّر الحفظ. حاول مجددًا.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "مُنع العضو من الإرسال",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "رُفع منع العضو من الإرسال",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "يمكن لمالك المجموعة أو مسؤولي المجموعة أو المنظمة فقط منع الأعضاء من الإرسال",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "لا يوجد أعضاء عاديون متاحون للمنع",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "بحث عن أعضاء",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "مسح البحث",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "لا يوجد أعضاء مطابقون",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "لا توجد نتائج عن «{query}»",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "يقيّد المنع الأعضاء العاديين فقط. عيّن المدة بالدقائق؛ 0 يعني مدة غير محددة. يُرسل السبب إلى الخادم.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "حتى {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "السبب: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "منع العضو من الإرسال",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "رفع منع العضو",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "إعدادات المنع",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "أدخل عددًا صحيحًا يساوي 0 أو أكبر",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "سيُمنع هذا العضو من الإرسال",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "منع {name} من الإرسال",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "مدة المنع (بالدقائق)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "أدخل 0 للمنع إلى أجل غير مسمى",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "سبب المنع",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "اختياري، للرجوع إليه لاحقًا",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "تأكيد المنع",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "ممنوع من الإرسال",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "غير ممنوع من الإرسال",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "لم تُزامن الحالة",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "رمز QR غير متاح",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "نسخ المحتوى",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "عطّل المالك أو المسؤولون إنشاء رموز QR للأعضاء العاديين",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "جارٍ إنشاء رمز QR للمجموعة",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "تعذّر إنشاء رمز QR للمجموعة. حدّث وحاول مجددًا.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "امسح رمز QR أعلاه لطلب الانضمام إلى المجموعة",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "امسح رمز QR أعلاه للانضمام إلى المجموعة",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "صالح حتى {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "تعذّر تحميل رمز QR للمجموعة",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "تفاصيل القراءة",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "تعذّر تحميل الصورة الأصلية. انقر لإعادة المحاولة.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@أنا]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@الجميع]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "تمت الإشارة إليك",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "تمت الإشارة إلى الجميع",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "اقبل هذه المحادثة أولًا",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "تولّ هذه المحادثة أولًا",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "هذه المحادثة للقراءة فقط. الإجراء غير متاح.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "لا يتيح دورك الحالي تنفيذ إجراء الدعم هذا",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "هذه المحادثة غير متاحة مؤقتًا",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "هذا الإجراء غير متاح في الحالة الحالية",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "استُؤنفت المحادثة. يمكنك متابعة مساعدة العميل.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "يتولى موظف آخر هذه المحادثة",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "لم يستأنف العميل المحادثة بعد",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "تم تولّي المحادثة",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "تعذّر تولّي المحادثة. حاول مجددًا.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "قُبلت المحادثة",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "تعذّر القبول. حاول مجددًا.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "يحتفظ الإغلاق بسجل المحادثة. قد تعيد قواعد الخادم إدراج المحادثة في الانتظار أو إسنادها.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "أُغلقت المحادثة",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "تعذّر الإغلاق. حاول مجددًا.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "لا يمكن نقل هذه المحادثة الآن",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "لا يوجد موظفو خدمة متاحون للنقل",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "نُقلت المحادثة",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "تعذّر النقل. حاول مجددًا.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "محادثة العميل",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "حفظ في الألبوم",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "لا توجد رسائل متاحة من الطرف الآخر لترجمتها",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "اتباع الإعداد العام",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "الإعداد العام مفعّل",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "الإعداد العام متوقف",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "التفعيل لهذه المحادثة",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "ترجمة رسائل الطرف الآخر الظاهرة فقط تلقائيًا",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "التعطيل لهذه المحادثة",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "عدم ترجمة هذه المحادثة حتى عند تفعيل الإعداد العام",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "ترجمة الرسائل الظاهرة",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "اختر وقتًا بعد دقيقة واحدة على الأقل من الآن",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "يمكن جدولة الرسائل حتى 14 يومًا مقدمًا",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "تعذّر تعيين الإرسال المجدول",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "لا يمكن إرسال هذا المحتوى لمخالفته القواعد",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "هذا الحساب ممنوع من إرسال الرسائل حاليًا",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "تعذّر إرسال رسالة المجموعة. حاول لاحقًا (INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "فشل الإرسال: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "هذه القائمة غير متاحة مؤقتًا",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "جارٍ إعداد محادثة الدعم. حاول بعد قليل.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "أنت في قائمة الانتظار. سيتواصل معك موظف متاح.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "يتولى الذكاء الاصطناعي هذه المحادثة",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "أنت تتولى هذه المحادثة",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "يتولى {name} هذه المحادثة",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "يرد الذكاء الاصطناعي على رسائل العميل · المصدر: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "يتولى موظف خدمة هذه المحادثة · المصدر: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "ملف العميل غير متاح مؤقتًا",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "إضافة ملاحظة (اختياري)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "تأكيد النقل",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "العميل يكتب: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "وضع العرض فقط. لا يمكنك إرسال الرسائل.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "اقبل المحادثة للرد",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "اقبل المحادثة قبل الرد",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "تولّ المحادثة قبل الرد",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "ملف العميل",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "الاسم",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "المستوى",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "المخاطر",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "اللغة",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "المصدر",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "موظف الخدمة المعيّن",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "نظرة عامة على الحساب",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "رصيد الحساب",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "إجمالي الإيداعات",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "الإيداع الصافي",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "حالة الحساب",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "تاريخ التسجيل",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "نظرة عامة على سجل التداول",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "إجمالي الأوامر",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "المنتجات المتداولة",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "نسبة الربح",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "وقت آخر صفقة",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "ملف الزائر",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "معرّف الزائر",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "سجل المحادثات",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "صفحة المصدر",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "تتاح تفاصيل الحساب والتداول والتذاكر بعد أن يسجّل العميل ويربط حسابًا",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "تم التحقق",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "غير معتمد",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "منخفض",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "متوسط",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "عالي",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "نشطة",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "معطل",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "مجمّد",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "الوسوم",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "تذاكر الدعم",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "لا توجد تذاكر دعم",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "قيد المعالجة",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "معلق",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "مغلقة",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "بيانات الأوامر المؤقتة",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "لا توجد أوامر مؤقتة",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "أمر",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "رقم الأمر",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "الاتجاه",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "حجم اللوت",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "سعر الافتتاح",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "الربح/الخسارة العائمة",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "وقت الافتتاح",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "شراء",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "بيع",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "وضعية مفتوحة",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "معلق",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "مغلق",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "غير مسند",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "حساب رسمي",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "النوع",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "تفاصيل العنصر المفضل",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "محتوى العنصر المفضل",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(لا يوجد محتوى)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "حُفظ في {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "البحث في سجل المحادثة",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "تاريخ",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "الصور والفيديوهات",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "البحث عن محتوى محدد",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "رسالة صوتية {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[رسالة نظام]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[رابط]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[نص]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[نص منسق]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "لا يمكن أن تكون الرسالة المجدولة فارغة",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "تعذّر التحديث. حاول لاحقًا.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "تعذّر تحميل الرسائل المجدولة",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "لا توجد رسائل مجدولة",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "يمكن إدارة الرسائل المجدولة من محرر الرسائل هنا.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "في انتظار الإرسال",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "جارٍ التسليم",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "الحالة {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "تعديل الرسالة المجدولة",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "محتوى الرسالة",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "وقت الإرسال",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "تعديل",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "مجدولة في {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "ستُرسل الرسالة في {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "تعديل رسالة مجدولة · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "حذف الرسالة المجدولة",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, zero {لا محادثات غير مقروءة} one {محادثة واحدة غير مقروءة} two {محادثتان غير مقروءتين} few {{count} محادثات غير مقروءة} many {{count} محادثة غير مقروءة} other {{count} محادثة غير مقروءة}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "لا توجد محادثات غير مقروءة",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, zero {لا رسائل غير مقروءة} one {رسالة واحدة غير مقروءة} two {رسالتان غير مقروءتين} few {{count} رسائل غير مقروءة} many {{count} رسالة غير مقروءة} other {{count} رسالة غير مقروءة}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, zero {لا رسائل جديدة} one {رسالة جديدة واحدة} two {رسالتان جديدتان} few {{count} رسائل جديدة} many {{count} رسالة جديدة} other {{count} رسالة جديدة}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "لا توجد محادثات مطابقة",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "لا توجد محادثات",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "لا توجد محادثات أخرى",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "O",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "ربط",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "لا يمكن للأعضاء العاديين الإشارة إلى الجميع في هذه المجموعة",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "تحديث الحالة",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "اضغط مطولًا للتحدث",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "أفلت للإرسال",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "أُزيل العضو",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

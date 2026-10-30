@@ -1,0 +1,75 @@
+{
+  "@@locale": "th",
+  "appRuntimeLoadFailed": "โหลดข้อมูลบัญชีไม่สำเร็จ",
+  "privacyConsentTitle": "ข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว",
+  "privacyConsentBodyAndroid": "ยินดีต้อนรับสู่ {brand} เพื่อให้บริการเข้าสู่ระบบ การส่งข้อความโต้ตอบแบบทันที การทำงานร่วมกันในองค์กร บริการลูกค้าออนไลน์ การแจ้งเตือนข้อความ และการรักษาความปลอดภัย เราจำเป็นต้องประมวลผลข้อมูลที่จำเป็นตามข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว\n\nก่อนที่คุณจะแตะยอมรับ เราจะไม่อ่านคลิปบอร์ด ไม่เริ่มต้น JPush/JCore หรือ SDK การแจ้งเตือนแบบพุชของผู้ผลิตอุปกรณ์ และไม่ใช้ SDK เหล่านี้เข้าถึง Android ID, OAID, รายการแอปที่ติดตั้ง, ที่อยู่ MAC หรือข้อมูลลักษณะเดียวกัน หากคุณยังไม่ยอมรับ เราจะบันทึกตัวเลือกนี้ไว้ คุณยังสามารถอ่านเอกสารต่อและเลือกใหม่ภายหลังได้\n\nหลังจากคุณยอมรับ เพื่อส่งการแจ้งเตือนข้อความ บริการลูกค้า และสายเรียกเข้า JPush/JCore และบริการพุชของผู้ผลิตอุปกรณ์อาจประมวลผลรุ่นอุปกรณ์ เวอร์ชัน Android ชื่อแพ็กเกจและเวอร์ชันแอป ประเภทเครือข่าย ที่อยู่ IP, Android ID, OAID, Registration ID, โทเค็นพุชของผู้ผลิต และข้อมูลการส่งและการกดการแจ้งเตือน เราปิดความสามารถที่ไม่จำเป็นแล้ว ได้แก่ พุชอัจฉริยะ รายการแอปที่ติดตั้ง MAC, IMEI, IMSI, รายการ Wi-Fi การปลุกอัตโนมัติ และการเริ่มต้นแบบเชื่อมโยง\n\nเราจะเข้าถึงคลิปบอร์ดเฉพาะเมื่อคุณใช้การคัดลอกหรือวาง และจะขอสิทธิ์กล้อง ไมโครโฟน การแจ้งเตือน และสิทธิ์ระบบอื่นเฉพาะเมื่อคุณใช้ฟีเจอร์ที่เกี่ยวข้อง การปฏิเสธสิทธิ์ใดจะกระทบเฉพาะฟีเจอร์นั้น โปรดอ่านเอกสารฉบับเต็มด้านล่างแล้วเลือกว่าจะยอมรับหรือไม่",
+  "privacyConsentBodyIos": "ยินดีต้อนรับสู่ {brand} เพื่อให้บริการเข้าสู่ระบบ การส่งข้อความโต้ตอบแบบทันที การทำงานร่วมกันในองค์กร บริการลูกค้าออนไลน์ การแจ้งเตือนข้อความ และการรักษาความปลอดภัย เราจำเป็นต้องประมวลผลข้อมูลที่จำเป็นตามข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว\n\nก่อนที่คุณจะแตะยอมรับ เราจะไม่อ่านคลิปบอร์ด ไม่เริ่มต้น JPush/JCore ไม่ลงทะเบียนกับ Apple Push Notification service (APNs) และไม่รับตัวระบุพุช เช่น JPush Registration ID หรือโทเค็นอุปกรณ์ APNs หากคุณยังไม่ยอมรับ เราจะบันทึกตัวเลือกนี้ไว้ คุณยังสามารถอ่านเอกสารต่อและเลือกใหม่ภายหลังได้\n\nหลังจากคุณยอมรับ เพื่อส่งการแจ้งเตือนข้อความ บริการลูกค้า และสายเรียกเข้า เราอาจประมวลผลรุ่น iPhone เวอร์ชัน iOS ชื่อแพ็กเกจและเวอร์ชันแอป ประเภทเครือข่าย ที่อยู่ IP, IDFV, JPush Registration ID, โทเค็นอุปกรณ์ APNs และข้อมูลการส่งและการกดการแจ้งเตือน JPush/JCore เชื่อมต่อกับบริการพุช ส่วน Apple APNs ประมวลผลตัวระบุแอป โทเค็นอุปกรณ์ และเนื้อหาการแจ้งเตือนเพื่อส่งการแจ้งเตือนของระบบ แอป iOS ปัจจุบันไม่ใช้บริการโฆษณาและไม่รับ IDFA\n\nเราจะเข้าถึงคลิปบอร์ดเฉพาะเมื่อคุณใช้การคัดลอกหรือวาง และจะขอสิทธิ์กล้อง ไมโครโฟน การแจ้งเตือน และสิทธิ์ระบบอื่นเฉพาะเมื่อคุณใช้ฟีเจอร์ที่เกี่ยวข้อง การปฏิเสธสิทธิ์ใดจะกระทบเฉพาะฟีเจอร์นั้น โปรดอ่านเอกสารฉบับเต็มด้านล่างแล้วเลือกว่าจะยอมรับหรือไม่",
+  "privacyConsentTermsLink": "ข้อตกลงการใช้งาน",
+  "privacyConsentConjunction": "และ",
+  "privacyConsentPrivacyLink": "นโยบายความเป็นส่วนตัว",
+  "privacyConsentDecline": "ไม่ตกลง",
+  "privacyConsentDeclinedExit": "คุณไม่ได้ยอมรับข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว แอปจะปิดลง",
+  "privacyConsentAccept": "ตกลง",
+  "privacyConsentRuntimeFailure": "เริ่มต้นไม่สำเร็จ ตรวจสอบเครือข่ายแล้วลองอีกครั้ง",
+  "privacyConsentSaveFailure": "บันทึกตัวเลือกไม่ได้ โปรดลองอีกครั้ง",
+  "appUpdateRequiredTitle": "ต้องอัปเดตเพื่อใช้งานต่อ",
+  "appUpdateOptionalTitle": "มีเวอร์ชันใหม่พร้อมใช้งาน",
+  "appUpdateVersionAvailable": "มี {brand} {version} พร้อมใช้งาน",
+  "appUpdateLater": "ภายหลัง",
+  "appUpdateNow": "อัปเดตเดี๋ยวนี้",
+  "appUpdateProcessing": "กำลังประมวลผล...",
+  "appUpdateInvalidUrl": "ที่อยู่อัปเดตไม่ถูกต้อง โปรดลองภายหลัง",
+  "appUpdateOpenUrlFailed": "เปิดลิงก์อัปเดตไม่ได้ โปรดลองภายหลัง",
+  "appUpdateDownloadInterrupted": "การดาวน์โหลดขัดข้อง ตรวจสอบเครือข่ายแล้วลองอีกครั้ง",
+  "appUpdatePackageVerificationFailed": "ตรวจสอบแพ็กเกจไม่สำเร็จ โปรดดาวน์โหลดใหม่",
+  "appUpdatePermissionDenied": "อนุญาตให้ {brand} ติดตั้งอัปเดตในการตั้งค่าระบบ",
+  "appUpdateOpenInstallerFailed": "เปิดตัวติดตั้งของระบบไม่ได้ ตรวจสอบสิทธิ์การติดตั้ง",
+  "appUpdateGenericFailure": "อัปเดตไม่สำเร็จ ตรวจสอบเครือข่ายแล้วลองอีกครั้ง",
+  "appUpdateUnavailable": "เวอร์ชันใหม่ยังดาวน์โหลดไม่ได้ โปรดลองภายหลัง",
+  "appUpdateCheckFailed": "ตรวจสอบอัปเดตไม่ได้ โปรดลองภายหลัง",
+  "appUpdateChecking": "กำลังตรวจสอบ",
+  "privacySettingsTitle": "ความเป็นส่วนตัว",
+  "privacySearchableByMobile": "อนุญาตให้ค้นหาด้วยหมายเลขโทรศัพท์",
+  "privacySearchableByLppId": "อนุญาตให้ค้นหาด้วย StartLink ID",
+  "privacyAllowFriendRequest": "อนุญาตคำขอเป็นเพื่อน",
+  "privacyProfileVisibility": "การมองเห็นโปรไฟล์",
+  "privacyEveryone": "ทุกคน",
+  "privacyFriendsOfFriends": "เพื่อนของเพื่อน",
+  "privacyNobody": "ไม่มีใคร",
+  "privacyFriendsOnly": "เพื่อนเท่านั้น",
+  "privacySaveSuccess": "บันทึกการตั้งค่าแล้ว",
+  "privacySaveFailed": "บันทึกไม่สำเร็จ โปรดลองอีกครั้ง",
+  "termsTitle": "ข้อตกลงผู้ใช้",
+  "privacyPolicyTitle": "นโยบายความเป็นส่วนตัว",
+  "permissionGroupManageDenied": "มีเพียงเจ้าของหรือผู้ดูแลกลุ่มเท่านั้นที่เปลี่ยนการตั้งค่ากลุ่มได้",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "มีเพียงเจ้าของหรือผู้ดูแลกลุ่มเท่านั้นที่เปลี่ยนชื่อกลุ่มได้",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "กลุ่มนี้ไม่อนุญาตให้สมาชิกเพิ่มกันเป็นเพื่อน",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "องค์กรนี้เปิดการแยกลูกค้าไว้ คุณเพิ่มลูกค้าเป็นเพื่อนไม่ได้",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "ดูเวอร์ชันล่าสุดบนเว็บไซต์",
+  "legalOfficialOpenFailed": "เปิดเว็บไซต์ไม่ได้ กำลังแสดงสำเนาสำรองในเครื่อง",
+  "legalLocalChineseNotice": "สำเนาสำรองเอกสารกฎหมายในเครื่องเป็นภาษาจีนตัวย่อ",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

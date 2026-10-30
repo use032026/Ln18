@@ -1,0 +1,207 @@
+[
+  {
+    "step": "catalog-pub-get",
+    "cwd": "packages/im_l10n_catalog",
+    "command": [
+      "dart",
+      "pub",
+      "get"
+    ],
+    "exitCode": 0,
+    "seconds": 0.79,
+    "log": "evidence/catalog-pub-get.log"
+  },
+  {
+    "step": "a-pub-get",
+    "cwd": "examples/app_a",
+    "command": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "exitCode": 0,
+    "seconds": 1.06,
+    "log": "evidence/a-pub-get.log"
+  },
+  {
+    "step": "a-select",
+    "cwd": "examples/app_a",
+    "command": [
+      "dart",
+      "run",
+      "im_l10n_catalog:generate",
+      "l10n.bundle.json"
+    ],
+    "exitCode": 0,
+    "seconds": 0.62,
+    "log": "evidence/a-select.log"
+  },
+  {
+    "step": "a-gen-l10n",
+    "cwd": "examples/app_a",
+    "command": [
+      "flutter",
+      "gen-l10n"
+    ],
+    "exitCode": 0,
+    "seconds": 0.74,
+    "log": "evidence/a-gen-l10n.log"
+  },
+  {
+    "step": "sdk-pub-get",
+    "cwd": "packages/sdk_ui_demo",
+    "command": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "exitCode": 0,
+    "seconds": 0.79,
+    "log": "evidence/sdk-pub-get.log"
+  },
+  {
+    "step": "sdk-select",
+    "cwd": "packages/sdk_ui_demo",
+    "command": [
+      "dart",
+      "run",
+      "im_l10n_catalog:generate",
+      "l10n.bundle.json"
+    ],
+    "exitCode": 0,
+    "seconds": 0.54,
+    "log": "evidence/sdk-select.log"
+  },
+  {
+    "step": "sdk-gen-l10n",
+    "cwd": "packages/sdk_ui_demo",
+    "command": [
+      "flutter",
+      "gen-l10n"
+    ],
+    "exitCode": 0,
+    "seconds": 0.58,
+    "log": "evidence/sdk-gen-l10n.log"
+  },
+  {
+    "step": "b-pub-get",
+    "cwd": "examples/app_b",
+    "command": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "exitCode": 0,
+    "seconds": 0.35,
+    "log": "evidence/b-pub-get.log"
+  },
+  {
+    "step": "catalog-analyze",
+    "cwd": "packages/im_l10n_catalog",
+    "command": [
+      "dart",
+      "analyze"
+    ],
+    "exitCode": 0,
+    "seconds": 0.83,
+    "log": "evidence/catalog-analyze.log"
+  },
+  {
+    "step": "catalog-tests",
+    "cwd": "packages/im_l10n_catalog",
+    "command": [
+      "dart",
+      "test",
+      "--reporter=expanded"
+    ],
+    "exitCode": 0,
+    "seconds": 0.9,
+    "log": "evidence/catalog-tests.log"
+  },
+  {
+    "step": "a-analyze",
+    "cwd": "examples/app_a",
+    "command": [
+      "flutter",
+      "analyze",
+      "--no-pub"
+    ],
+    "exitCode": 0,
+    "seconds": 1.36,
+    "log": "evidence/a-analyze.log"
+  },
+  {
+    "step": "a-tests",
+    "cwd": "examples/app_a",
+    "command": [
+      "flutter",
+      "test",
+      "--no-pub",
+      "--reporter=expanded"
+    ],
+    "exitCode": 0,
+    "seconds": 4.23,
+    "log": "evidence/a-tests.log"
+  },
+  {
+    "step": "sdk-analyze",
+    "cwd": "packages/sdk_ui_demo",
+    "command": [
+      "flutter",
+      "analyze",
+      "--no-pub"
+    ],
+    "exitCode": 0,
+    "seconds": 0.97,
+    "log": "evidence/sdk-analyze.log"
+  },
+  {
+    "step": "sdk-tests",
+    "cwd": "packages/sdk_ui_demo",
+    "command": [
+      "flutter",
+      "test",
+      "--no-pub",
+      "--reporter=expanded"
+    ],
+    "exitCode": 0,
+    "seconds": 4.46,
+    "log": "evidence/sdk-tests.log"
+  },
+  {
+    "step": "b-analyze",
+    "cwd": "examples/app_b",
+    "command": [
+      "flutter",
+      "analyze",
+      "--no-pub"
+    ],
+    "exitCode": 0,
+    "seconds": 1.7,
+    "log": "evidence/b-analyze.log"
+  },
+  {
+    "step": "b-tests",
+    "cwd": "examples/app_b",
+    "command": [
+      "flutter",
+      "test",
+      "--no-pub",
+      "--reporter=expanded"
+    ],
+    "exitCode": 0,
+    "seconds": 4.81,
+    "log": "evidence/b-tests.log"
+  },
+  {
+    "step": "bundle-audit",
+    "cwd": ".",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tool/audit_demo.py"
+    ],
+    "exitCode": 0,
+    "seconds": 0.14,
+    "log": "evidence/bundle-audit.log"
+  }
+]

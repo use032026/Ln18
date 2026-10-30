@@ -1,0 +1,36 @@
+[
+  {
+    "app": "A",
+    "pid": 57900,
+    "port": 8081,
+    "url": "http://127.0.0.1:8081",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "-u",
+      "-m",
+      "http.server",
+      "8081",
+      "--bind",
+      "127.0.0.1",
+      "--directory",
+      "/Users/starburst/Desktop/Ln18/deliverables/app_a_web"
+    ]
+  },
+  {
+    "app": "B",
+    "pid": 57901,
+    "port": 8082,
+    "url": "http://127.0.0.1:8082",
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "-u",
+      "-m",
+      "http.server",
+      "8082",
+      "--bind",
+      "127.0.0.1",
+      "--directory",
+      "/Users/starburst/Desktop/Ln18/deliverables/app_b_web"
+    ]
+  }
+]

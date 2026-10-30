@@ -1,0 +1,69 @@
+{
+  "generatedBy": "im_l10n_catalog",
+  "schemaVersion": 1,
+  "catalogPackage": "im_l10n_catalog",
+  "catalogVersion": "0.3.0",
+  "locales": [
+    "en"
+  ],
+  "templateLocale": "en",
+  "modules": [
+    "common",
+    "auth",
+    "chat",
+    "settings"
+  ],
+  "keys": [
+    "authHintEmail",
+    "authHintPassword",
+    "authLoginButton",
+    "authLoginTitle",
+    "chatGroupMemberCount",
+    "chatHomeNewMessages",
+    "chatInputHint",
+    "chatReadCount",
+    "chatRecalledPeer",
+    "chatReplyTo",
+    "commonCancel",
+    "commonConfirm",
+    "commonDelete",
+    "commonRetry",
+    "commonSave",
+    "commonSend",
+    "formatMinutesAgo",
+    "settingsLanguage",
+    "settingsSignOutDeviceConfirm",
+    "settingsTitle"
+  ],
+  "excludeKeys": [],
+  "includeKeys": [
+    "authHintEmail",
+    "authHintPassword",
+    "authLoginButton",
+    "authLoginTitle",
+    "chatGroupMemberCount",
+    "chatHomeNewMessages",
+    "chatInputHint",
+    "chatReadCount",
+    "chatRecalledPeer",
+    "chatReplyTo",
+    "commonCancel",
+    "commonConfirm",
+    "commonDelete",
+    "commonRetry",
+    "commonSave",
+    "commonSend",
+    "formatMinutesAgo",
+    "settingsLanguage",
+    "settingsSignOutDeviceConfirm",
+    "settingsTitle"
+  ],
+  "overrides": {
+    "en": [
+      "authLoginTitle"
+    ]
+  },
+  "outputDir": "lib/l10n",
+  "outputClass": "AppALocalizations",
+  "bundleSha256": "b9cbba697c3793953005c148e907b0355957e3b30c52cf8828532f9cd5c5fa15"
+}

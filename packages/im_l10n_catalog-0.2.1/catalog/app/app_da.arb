@@ -1,0 +1,75 @@
+{
+  "@@locale": "da",
+  "appRuntimeLoadFailed": "Kontodata kunne ikke indlæses",
+  "privacyConsentTitle": "Brugervilkår og Fortrolighedspolitik",
+  "privacyConsentBodyAndroid": "Velkommen til {brand}. For at levere kontologin, chatbeskeder, virksomhedssamarbejde, onlinekundeservice, beskednotifikationer og sikkerhedsbeskyttelse skal vi behandle nødvendige oplysninger i henhold til tjenestevilkårene og privatlivspolitikken.\n\nFør du trykker på »Acceptér«, læser vi ikke udklipsholderen, initialiserer ikke JPush/JCore eller enhedsproducenternes push-SDK’er og bruger ikke disse SDK’er til at få adgang til Android ID, OAID, lister over installerede apps, MAC-adresser eller lignende oplysninger. Hvis du foreløbigt afslår, gemmer vi dit valg; du kan fortsætte med at læse dokumenterne og vælge igen senere.\n\nEfter dit samtykke kan JPush/JCore og enhedsproducenternes push-tjenester behandle enhedsmodel, Android-version, apppakke og -version, netværkstype, IP-adresse, Android ID, OAID, push-registrerings-id, producentens push-token samt oplysninger om levering og klik på notifikationer for at levere besked-, kundeservice- og opkaldsnotifikationer. Vi har deaktiveret unødvendige funktioner, herunder intelligent push, lister over installerede apps, MAC, IMEI, IMSI, Wi-Fi-lister, automatisk vækning og tilknyttet opstart.\n\nUdklipsholderen tilgås kun, når du aktivt kopierer eller indsætter. Kamera-, mikrofon-, notifikations- og andre systemtilladelser anmodes kun, når du aktivt bruger den relevante funktion. Afvisning af én tilladelse påvirker kun den funktion. Læs de fulde dokumenter nedenfor, og vælg, om du accepterer.",
+  "privacyConsentBodyIos": "Velkommen til {brand}. For at levere kontologin, chatbeskeder, virksomhedssamarbejde, onlinekundeservice, beskednotifikationer og sikkerhedsbeskyttelse skal vi behandle nødvendige oplysninger i henhold til tjenestevilkårene og privatlivspolitikken.\n\nFør du trykker på »Acceptér«, læser vi ikke udklipsholderen, initialiserer ikke JPush/JCore, registrerer os ikke hos Apple Push Notification service (APNs) og indhenter ikke push-id’er såsom JPush-registrerings-id eller APNs-enhedstoken. Hvis du foreløbigt afslår, gemmer vi dit valg; du kan fortsætte med at læse dokumenterne og vælge igen senere.\n\nEfter dit samtykke kan vi behandle iPhone-model, iOS-version, apppakke og -version, netværkstype, IP-adresse, IDFV, JPush-registrerings-id, APNs-enhedstoken samt oplysninger om levering og klik på notifikationer for at levere besked-, kundeservice- og opkaldsnotifikationer. JPush/JCore opretter forbindelse til push-tjenesten; Apple APNs behandler app-id’et, enhedstokenet og notifikationens indhold for at levere systemnotifikationer. Den nuværende iOS-app bruger ikke reklametjenester og indhenter ikke IDFA.\n\nUdklipsholderen tilgås kun, når du aktivt kopierer eller indsætter. Kamera-, mikrofon-, notifikations- og andre systemtilladelser anmodes kun, når du aktivt bruger den relevante funktion. Afvisning af én tilladelse påvirker kun den funktion. Læs de fulde dokumenter nedenfor, og vælg, om du accepterer.",
+  "privacyConsentTermsLink": "Brugeraftale",
+  "privacyConsentConjunction": "og",
+  "privacyConsentPrivacyLink": "Privatlivspolitik",
+  "privacyConsentDecline": "Afvis",
+  "privacyConsentDeclinedExit": "Du accepterede ikke tjenestevilkårene og privatlivspolitikken. Appen lukkes nu.",
+  "privacyConsentAccept": "Accepter",
+  "privacyConsentRuntimeFailure": "Opstart mislykkedes. Kontrollér netværket, og prøv igen.",
+  "privacyConsentSaveFailure": "Dit valg kunne ikke gemmes. Prøv igen.",
+  "appUpdateRequiredTitle": "Opdatering kræves for at fortsætte",
+  "appUpdateOptionalTitle": "Ny version tilgængelig",
+  "appUpdateVersionAvailable": "{brand} {version} er tilgængelig",
+  "appUpdateLater": "Senere",
+  "appUpdateNow": "Opdater nu",
+  "appUpdateProcessing": "Behandler…",
+  "appUpdateInvalidUrl": "Opdateringsadressen er ugyldig. Prøv igen senere.",
+  "appUpdateOpenUrlFailed": "Opdateringslinket kunne ikke åbnes. Prøv igen senere.",
+  "appUpdateDownloadInterrupted": "Download afbrudt. Kontrollér netværket, og prøv igen.",
+  "appUpdatePackageVerificationFailed": "Pakkekontrol mislykkedes. Download igen.",
+  "appUpdatePermissionDenied": "Tillad, at {brand} installerer opdateringer i systemindstillingerne.",
+  "appUpdateOpenInstallerFailed": "Systemets installationsprogram kunne ikke åbnes. Kontrollér installationstilladelserne.",
+  "appUpdateGenericFailure": "Opdatering mislykkedes. Kontrollér netværket, og prøv igen.",
+  "appUpdateUnavailable": "Den nye version kan ikke downloades endnu. Prøv senere.",
+  "appUpdateCheckFailed": "Kunne ikke søge efter opdateringer. Prøv igen senere.",
+  "appUpdateChecking": "Kontrollerer",
+  "privacySettingsTitle": "Privatliv",
+  "privacySearchableByMobile": "Tillad søgning via telefonnummer",
+  "privacySearchableByLppId": "Tillad søgning via StartLink-id",
+  "privacyAllowFriendRequest": "Tillad venneanmodninger",
+  "privacyProfileVisibility": "Profilsynlighed",
+  "privacyEveryone": "Alle",
+  "privacyFriendsOfFriends": "Venners venner",
+  "privacyNobody": "Ingen",
+  "privacyFriendsOnly": "Kun venner",
+  "privacySaveSuccess": "Indstillinger gemt",
+  "privacySaveFailed": "Kunne ikke gemme. Prøv igen.",
+  "termsTitle": "Brugeraftale",
+  "privacyPolicyTitle": "Privatlivspolitik",
+  "permissionGroupManageDenied": "Kun gruppeejeren eller administratorer kan ændre gruppeindstillinger.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Kun gruppeejeren eller administratorer kan ændre gruppenavnet.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "Denne gruppe tillader ikke, at medlemmer tilføjer hinanden som venner.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "Kundeisolering er aktiveret for organisationen. Du kan ikke tilføje kunder som venner.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Se den seneste version på hjemmesiden",
+  "legalOfficialOpenFailed": "Hjemmesiden kunne ikke åbnes. Den lokale sikkerhedskopi vises.",
+  "legalLocalChineseNotice": "Den lokale kopi af det juridiske dokument er på forenklet kinesisk.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

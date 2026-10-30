@@ -1,0 +1,53 @@
+{
+  "@@locale": "ru",
+  "notificationTitle": "Уведомления",
+  "notificationGlobalMute": "Не беспокоить",
+  "notificationSound": "Звук",
+  "notificationVibration": "Вибрация",
+  "notificationPreview": "Предпросмотр сообщений",
+  "notificationDndStart": "Начало режима «Не беспокоить»",
+  "notificationDndEnd": "Окончание режима «Не беспокоить»",
+  "notificationNewMessageTitle": "Новое сообщение StartLink",
+  "notificationOnlineServiceTitle": "Новое сообщение поддержки",
+  "notificationNewMessageBody": "Вы получили новое сообщение",
+  "notificationImagePreview": "Отправлено изображение",
+  "notificationVideoPreview": "Отправлено видео",
+  "notificationVoicePreview": "Отправлено голосовое сообщение",
+  "notificationFilePreview": "Отправлен файл",
+  "notificationContactPreview": "Отправлена карточка контакта",
+  "notificationCallLogPreview": "Отправлена запись звонка",
+  "notificationLocationPreview": "Отправлено местоположение",
+  "notificationLinkPreview": "Отправлена ссылка",
+  "notificationMentionMe": "Упомянули вас: {body}",
+  "notificationMentionMeBy": "{sender} упоминает вас: {body}",
+  "notificationMentionAll": "Упомянули всех: {body}",
+  "notificationMentionAllBy": "{sender} упоминает всех: {body}",
+  "notificationSecurityTitle": "Предупреждение безопасности аккаунта",
+  "notificationSecurityBody": "Настройки безопасности аккаунта StartLink изменены. Проверьте их сейчас.",
+  "notificationFriendAcceptedTitle": "Запрос в друзья принят",
+  "notificationFriendRejectedTitle": "Запрос в друзья отклонён",
+  "notificationFriendAcceptedBody": "Собеседник принял ваш запрос в друзья",
+  "notificationFriendRejectedBody": "Собеседник отклонил ваш запрос в друзья",
+  "notificationVideoCallTitle": "Приглашение на видеозвонок",
+  "notificationAudioCallTitle": "Приглашение на голосовой звонок",
+  "notificationVideoCallBody": "{caller} приглашает вас на видеозвонок",
+  "notificationAudioCallBody": "{caller} приглашает вас на голосовой звонок",
+  "notificationMessageChannelName": "Сообщения",
+  "notificationMessageChannelDescription": "Сообщения чатов, записи звонков и системные уведомления",
+  "notificationCallChannelName": "Звонки",
+  "notificationCallChannelDescription": "Уведомления о голосовых и видеозвонках",
+  "notificationSecurityChannelName": "Безопасность аккаунта",
+  "notificationSecurityChannelDescription": "Уведомления о входе, смене пароля и номера телефона",
+  "notificationUnknownCaller": "Неизвестный абонент",
+  "notificationBadgeChannelName": "Значки сообщений",
+  "notificationBadgeChannelDescription": "Число непрочитанных сообщений на значке приложения",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} непрочитанное сообщение} few {{count} непрочитанных сообщения} many {{count} непрочитанных сообщений} other {{count} непрочитанного сообщения}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ непрочитанных сообщений"
+}

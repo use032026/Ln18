@@ -1,0 +1,370 @@
+{
+  "@@locale": "ja",
+  "contactsTitle": "連絡先",
+  "contactsSearch": "連絡先を検索",
+  "contactsNewFriends": "新しい友達",
+  "contactsGroups": "グループ",
+  "contactsFavorites": "お気に入り",
+  "contactsRecent": "最近の連絡先",
+  "contactsOrganization": "組織図",
+  "contactsAnnouncement": "お知らせ",
+  "contactsNewApplications": "新しい申請",
+  "contactsCustomerGroups": "顧客グループ",
+  "contactsAllCustomers": "すべての顧客",
+  "contactsMyCustomers": "担当顧客",
+  "contactsViewAll": "すべて見る",
+  "contactsMyContacts": "連絡先",
+  "contactsMyAdvisor": "担当アドバイザー",
+  "contactsNoAdvisor": "担当者が割り当てられていません",
+  "contactsAdvisorLoading": "読み込み中...",
+  "contactsNavigateFailed": "移動に失敗しました。もう一度お試しください",
+  "contactsEmpty": "連絡先がありません",
+  "contactsNoAnnouncement": "お知らせはありません",
+  "contactsOfficialBadge": "公式",
+  "contactsCustomerBadge": "顧客",
+  "contactsEmptyCustomers": "顧客がいません",
+  "friendAddTitle": "友達を追加",
+  "friendSearchHint": "電話番号 / メール / StartLink ID",
+  "friendRequestSent": "友達申請を送りました",
+  "friendRequestFailed": "送信に失敗しました。もう一度お試しください",
+  "friendAlreadyFriend": "すでに友達です",
+  "friendNewFriendsTitle": "新しい友達",
+  "friendNoRequests": "友達申請はありません",
+  "friendAccept": "承認",
+  "friendReject": "拒否",
+  "friendAccepted": "承認しました",
+  "friendRejected": "拒否しました",
+  "friendDeleteConfirm": "この友達を削除しますか？",
+  "friendDeleteSuccess": "友達を削除しました",
+  "friendDeleteFailed": "削除に失敗しました。もう一度お試しください",
+  "friendRemarkName": "ニックネーム",
+  "friendGroupName": "グループ",
+  "friendSendMessage": "メッセージを送る",
+  "friendMatchTypeLppId": "StartLink IDで一致",
+  "friendMatchTypeMobile": "電話番号で一致",
+  "friendMatchTypeEmail": "メールアドレスで一致",
+  "friendSearchEmpty": "ユーザーが見つかりません",
+  "friendAddMessage": "友達申請を送りたいです",
+  "friendBlockConfirm": "このユーザーをブロックしますか？",
+  "friendUnblockConfirm": "ブロックを解除しますか？",
+  "friendBlockSuccess": "ブロックしました",
+  "friendUnblockSuccess": "ブロックを解除しました",
+  "searchTitle": "検索",
+  "searchHint": "電話番号、メール、またはStartLink IDで検索",
+  "searchNoResults": "結果が見つかりません",
+  "searchMessages": "メッセージ",
+  "searchUsers": "ユーザー",
+  "searchFailed": "検索に失敗しました。もう一度お試しください",
+  "scanTitle": "QRコードスキャン",
+  "scanFailed": "認識に失敗しました。もう一度お試しください",
+  "scanInvalidQrCode": "無効なQRコードです",
+  "scanFlashOn": "フラッシュをオン",
+  "scanFlashOff": "フラッシュをオフ",
+  "scanAlbum": "アルバムから選択",
+  "blacklistTitle": "ブロックリスト",
+  "blacklistEmpty": "ブロックしているユーザーはいません",
+  "blacklistRemove": "ブロック解除",
+  "blacklistRemoveConfirm": "このユーザーのブロックを解除しますか？",
+  "addFriendTitle": "友達を追加",
+  "addFriendSearchHint": "電話番号 / メール / StartLink ID",
+  "addFriendLppIdLabel": "StartLink ID: {lppId}",
+  "addFriendButton": "友達追加",
+  "addFriendCannotAddSelf": "自分自身は追加できません",
+  "addFriendUnsupportedUser": "このユーザーは友達追加できません。直接メッセージできます。",
+  "addFriendMessageHint": "メッセージを入力してください",
+  "addFriendSendRequest": "申請を送る",
+  "scanAlreadyGroupMember": "このグループにはすでに参加しています",
+  "scanCameraInitializing": "カメラを起動しています。しばらくしてから再度お試しください。",
+  "scanCameraPermissionRequired": "QRコードを読み取るにはカメラへのアクセスを許可してください",
+  "scanCameraStartFailed": "カメラを起動できません。しばらくしてから再度お試しください。",
+  "scanCameraStarting": "カメラを起動中",
+  "scanCameraUnsupported": "この端末はQRコードの読み取りに対応していません",
+  "scanDesktopAlbumUnsupported": "デスクトップ版では画像からのQRコード読み取りを利用できません",
+  "scanDesktopUnsupported": "デスクトップ版ではQRコードを読み取れません。モバイル版をご利用ください。",
+  "scanEnterGroup": "グループチャットを開く",
+  "scanFallbackFriendName": "友だち",
+  "scanFrameHint": "枠内にQRコードを合わせると自動的に読み取ります",
+  "scanFriendAddUnavailable": "現在、このQRコードで友だちを追加することはできません",
+  "scanFriendAdded": "友だちになりました",
+  "scanFriendBlocked": "このユーザーは現在、友だち申請を受け取れません",
+  "scanFriendIsolation": "現在のスペースではこの友だちを追加できません",
+  "scanFriendQrExhausted": "このQRコードは利用回数の上限に達しました。新しいコードを依頼してください。",
+  "scanFriendQrExpiredPreview": "この友だちQRコードは期限切れか、利用できません",
+  "scanFriendQrRevoked": "このQRコードは無効になりました。新しいコードを依頼してください。",
+  "scanFriendRequestPending": "友だち申請を送信しました。承認をお待ちください。",
+  "scanFriendRequestsDisabled": "このユーザーは友だち申請を受け付けていません",
+  "scanGroupApprovalHint": "このグループへの参加には所有者または管理者の承認が必要です",
+  "scanGroupJoinFailed": "グループへの参加申請を送信できませんでした",
+  "scanGroupJoinPending": "グループへの参加申請を送信しました。承認をお待ちください。",
+  "scanGroupJoinUnavailable": "現在、このQRコードでグループに参加することはできません",
+  "scanGroupJoined": "グループに参加しました",
+  "scanGroupPermissionDenied": "このQRコードでグループに参加する権限がありません",
+  "scanGroupProcessFailed": "グループQRコードを処理できませんでした",
+  "scanGroupQrDisabled": "グループの所有者または管理者がQRコードでの参加を無効にしました",
+  "scanGroupQrExhausted": "このQRコードは利用回数の上限に達しました。グループメンバーに新しいコードを依頼してください。",
+  "scanGroupQrExpired": "このQRコードは期限切れです。グループメンバーに新しいコードを依頼してください。",
+  "scanGroupQrRevoked": "このQRコードは取り消されました。グループメンバーに新しいコードを依頼してください。",
+  "scanGroupQrUnavailable": "このQRコードは無効になりました。グループメンバーに新しいコードを依頼してください。",
+  "scanGroupScannerInvalid": "このアカウントではこのグループに参加できません",
+  "scanImageReadFailed": "画像を読み取れませんでした。再度お試しください。",
+  "scanIncomingFriendRequest": "このユーザーから友だち申請が届いています。先に確認してください。",
+  "scanInvalidGroupQr": "無効なグループQRコードです",
+  "scanInviterDeleted": "このユーザーのアカウントは削除されました",
+  "scanJoinGroup": "グループに参加",
+  "scanJoinGroupConfirmation": "このグループに参加しますか？",
+  "scanMutualFriendsOnly": "このユーザーは共通の友だちがいる人からのみ申請を受け付けています",
+  "scanNoQrFound": "QRコードが見つかりませんでした",
+  "scanOwnQr": "これは自分のQRコードです",
+  "scanPluginUnavailable": "QRコードを読み取れません。アプリを完全に終了して再度お試しください。",
+  "scanProcessFailed": "QRコードを処理できませんでした",
+  "scanQrExpired": "このQRコードは期限切れです",
+  "scanQrUnavailableTitle": "QRコードは無効です",
+  "scanSendFriendConfirmation": "友だち申請を送信しますか？",
+  "scanTorchFailed": "ライトを切り替えられませんでした。しばらくしてから再度お試しください。",
+  "scanTorchUnavailable": "この端末ではライトを利用できません",
+  "scanUnsupportedQr": "このQRコードには対応していません",
+  "contactsRequestsUnavailable": "友だち申請を一時的に利用できません",
+  "contactsTryLater": "しばらくしてから再度お試しください",
+  "contactsQrSource": "QRコード",
+  "contactsRequestStatusInvalid": "無効な状態です",
+  "contactsCustomerTagFilter": "顧客タグで絞り込み",
+  "contactsOverviewTitle": "顧客の概要",
+  "contactsLoaded": "読み込み済み",
+  "contactsAssigned": "割り当て済み",
+  "contactsUnassigned": "未割り当て",
+  "contactsCustomerDataError": "顧客を読み込めません。接続またはログイン状態を確認して再度お試しください。",
+  "contactsTagFilter": "タグで絞り込み",
+  "contactsReassign": "再割り当て",
+  "contactsCustomersLoadFailed": "顧客を読み込めませんでした",
+  "contactsNoAssigned": "割り当て済みの顧客はいません",
+  "contactsNoUnassigned": "未割り当ての顧客はいません",
+  "contactsDirectoryDenied": "現在の役割では顧客一覧にアクセスできません",
+  "contactsApplicationAccessDenied": "新しい申請を確認できるのは組織の管理者または所有者のみです",
+  "contactsApplicationsUnavailable": "参加申請を一時的に読み込めません",
+  "contactsPullToRetry": "読み込めませんでした。下に引いて更新してください。",
+  "contactsApplicationApproved": "申請を承認しました",
+  "contactsApplicantUnavailable": "申請者の情報を一時的に表示できません",
+  "contactsApplicationApprove": "承認",
+  "contactsApplicationAccepted": "承認済み",
+  "contactsFriendRequests": "友だち申請",
+  "contactsRecentActive": "最近のアクティビティ",
+  "contactsRecentActiveUnavailable": "顧客の最近のアクティビティは一時的に利用できません",
+  "contactsMyCustomersRetry": "担当顧客を読み込めません。タップして再試行してください。",
+  "contactsLoadRetry": "連絡先を読み込めません。タップして再試行してください。",
+  "contactsLoadFailed": "連絡先を読み込めませんでした",
+  "contactsNoCustomerYet": "まだ顧客がいません",
+  "contactsInviteCustomerHint": "QRコードまたは組織コードを共有して顧客を招待できます",
+  "contactsShareQr": "自分のQRコードを共有",
+  "contactsScanFriendHint": "QRコードを読み取って友だち申請を送信",
+  "contactsQrToken": "QRコード識別子",
+  "contactsQrUsage": "利用回数",
+  "contactsQrNote": "既定のメッセージ",
+  "contactsCopyQr": "QRコードの内容をコピー",
+  "contactsGeneratingQr": "生成中…",
+  "contactsRegenerateQr": "QRコードを再生成",
+  "contactsQrLoadFailed": "QRコードを読み込めませんでした",
+  "contactsSearchGroups": "グループを検索",
+  "contactsNoMatchingGroups": "一致するグループチャットはありません",
+  "contactsCreateGroupHint": "右上の＋をタップしてグループチャットを作成",
+  "contactsGroupOverview": "グループ監督の概要",
+  "contactsGroupsLabel": "グループ",
+  "contactsCurrentFilter": "現在の絞り込み",
+  "contactsFreeze": "凍結",
+  "contactsRisk": "リスク",
+  "contactsGroupStatisticsUnavailable": "グループ監督の統計は一時的に利用できません",
+  "contactsGroupList": "グループ一覧",
+  "contactsNoGroupData": "グループはありません",
+  "contactsNoMatchingGroupData": "一致するグループはありません",
+  "contactsGroupDataUnavailable": "現在、グループを表示できません。しばらくしてから再度お試しください。",
+  "contactsFrozen": "凍結中",
+  "contactsNormal": "正常",
+  "contactsGroupSupervisionDetail": "グループ監督の詳細",
+  "contactsFreezeStatus": "凍結状態",
+  "contactsRiskStatus": "リスク状態",
+  "contactsGroupId": "グループID",
+  "contactsUnfreeze": "凍結解除",
+  "contactsAdminMuteAll": "グループ全員をミュート",
+  "contactsAdminMembers": "グループメンバーの管理",
+  "contactsForceDissolve": "強制解散",
+  "contactsAdminDissolve": "グループを強制解散",
+  "contactsNoCustomerContacts": "顧客の連絡先はまだありません",
+  "contactsNoMatchingCustomers": "一致する顧客はありません",
+  "contactsCustomerContactsRetry": "顧客の連絡先を読み込めません。タップして再試行してください。",
+  "contactsFriendsOnlySetting": "この設定は友だちにのみ利用できます",
+  "contactsHandleFriendRequest": "友だち申請を確認",
+  "contactsSaved": "保存しました",
+  "contactsPrivateGender": "性別（自分のみ表示）",
+  "contactsTags": "タグ",
+  "contactsMoreInfo": "その他の情報",
+  "contactsMutualGroupsHeading": "共通のグループ",
+  "contactsNone": "なし",
+  "contactsSource": "追加元",
+  "contactsAddedAt": "追加日時",
+  "contactsGroupOpenFailed": "現在、このグループチャットを開けません",
+  "contactsMutualGroups": "共通のグループ",
+  "contactsMutualGroupsSyncing": "共通のグループを同期中",
+  "contactsNoMutualGroups": "共通のグループはありません",
+  "contactsDiscardTitle": "変更を破棄しますか？",
+  "contactsUnsavedChanges": "変更はまだ保存されていません。",
+  "contactsContinueEditing": "編集を続ける",
+  "contactsDiscardChanges": "変更を破棄",
+  "contactsEditRemark": "備考を編集",
+  "contactsAddRemark": "備考を追加",
+  "contactsAddTag": "タグを追加",
+  "contactsAddText": "テキストを追加",
+  "contactsEditTags": "タグを編集",
+  "contactsAddedTags": "追加済みのタグ",
+  "contactsEnterTag": "タグを入力",
+  "contactsProfileLoadFailed": "プロフィールを読み込めません。再度お試しください。",
+  "contactsDeleteFriend": "友だちを削除",
+  "contactsFriendSettings": "友だちの設定",
+  "contactsBlockUser": "ブロック",
+  "contactsDeleting": "削除中…",
+  "contactsReassignHint": "新しい担当者を選択してください。関連するサポート会話も引き継がれます。",
+  "contactsAssignOwnerOnly": "このアカウントでは担当者を割り当てられません。組織の所有者アカウントをご利用ください。",
+  "contactsAssignRetry": "担当者を割り当てられませんでした。しばらくしてから再度お試しください。",
+  "contactsEnterpriseTags": "組織のタグ",
+  "contactsTagsCommaHint": "複数のタグはコンマで区切ってください",
+  "contactsEnterpriseTagsSaved": "組織のタグを保存しました",
+  "contactsTagsSaveFailed": "タグを保存できませんでした。しばらくしてから再度お試しください。",
+  "contactsSharedTagsHint": "顧客の絞り込みに使用し、組織内で共有されます",
+  "contactsOwnerActionsHint": "所有者はこの顧客の担当者を変更できます。サポート会話の記録は一時的に利用できません。",
+  "contactsViewChatInfo": "チャット情報を表示",
+  "contactsCustomerServiceGroups": "この顧客のサポートグループ",
+  "contactsCannotAddFriend": "現在、友だちを追加することはできません",
+  "contactsSaving": "保存中…",
+  "contactsRequestSource": "{source}からの申請",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "友だち申請を送信しました · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "顧客 · {count}件読み込み済み",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "担当者：{agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "お問い合わせ番号：{requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "未処理 ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "処理済み ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "有効期限：{time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / 無制限",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "QRコードを読み取って友だちに追加",
+  "contactsItemCount": "{count}件",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "ニックネーム：{name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "地域：{region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "元のニックネーム：{name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "{name}を友だちから削除しますか？これまでのチャット履歴は残ります。",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "{name}に割り当てました",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "顧客の会話を利用できません",
+  "contactsCustomerChatUnavailable": "現在、この顧客のサポート会話を表示できません。しばらくしてから再度お試しください。"
+}

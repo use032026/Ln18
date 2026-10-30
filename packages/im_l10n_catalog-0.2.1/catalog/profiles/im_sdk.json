@@ -1,0 +1,3868 @@
+{
+  "schemaVersion": 1,
+  "locales": [
+    "zh",
+    "zh_TW",
+    "en",
+    "ja",
+    "ko",
+    "vi"
+  ],
+  "keys": [
+    "navWorkbench",
+    "navBadgeOverflow",
+    "appRuntimeLoadFailed",
+    "startupFailureTitle",
+    "startupFailureMessage",
+    "privacyConsentTitle",
+    "privacyConsentBodyAndroid",
+    "privacyConsentBodyIos",
+    "privacyConsentTermsLink",
+    "privacyConsentConjunction",
+    "privacyConsentPrivacyLink",
+    "privacyConsentDecline",
+    "privacyConsentDeclinedExit",
+    "privacyConsentAccept",
+    "privacyConsentRuntimeFailure",
+    "privacyConsentSaveFailure",
+    "appUpdateRequiredTitle",
+    "appUpdateOptionalTitle",
+    "appUpdateVersionAvailable",
+    "appUpdateLater",
+    "appUpdateNow",
+    "appUpdateProcessing",
+    "appUpdateInvalidUrl",
+    "appUpdateOpenUrlFailed",
+    "appUpdateDownloadInterrupted",
+    "appUpdatePackageVerificationFailed",
+    "appUpdatePermissionDenied",
+    "appUpdateOpenInstallerFailed",
+    "appUpdateGenericFailure",
+    "appUpdateUnavailable",
+    "appUpdateCheckFailed",
+    "appUpdateChecking",
+    "commonConfirm",
+    "commonCancel",
+    "commonSave",
+    "commonEdit",
+    "commonDelete",
+    "commonSearch",
+    "commonLoading",
+    "commonLoadFailed",
+    "commonRetry",
+    "commonEmpty",
+    "commonCopy",
+    "commonForward",
+    "commonFavorite",
+    "commonClose",
+    "commonSend",
+    "commonDone",
+    "commonMore",
+    "commonSettings",
+    "commonCopied",
+    "commonUnknown",
+    "commonNotSet",
+    "commonUnbound",
+    "commonViewAll",
+    "commonSubmit",
+    "commonAdd",
+    "commonRemove",
+    "commonCreate",
+    "commonUpdate",
+    "commonUpload",
+    "commonShare",
+    "commonBlock",
+    "commonUnblock",
+    "commonMute",
+    "commonUnmute",
+    "commonPin",
+    "commonUnpin",
+    "commonMarkRead",
+    "commonMarkUnread",
+    "commonOnline",
+    "commonOffline",
+    "commonOperationFailed",
+    "commonNetworkError",
+    "navMessages",
+    "navContacts",
+    "navMe",
+    "authLoginTitle",
+    "authTabMobile",
+    "authTabEmail",
+    "authTabLoginName",
+    "authHintMobile",
+    "authHintEmail",
+    "authHintPassword",
+    "authHintCode",
+    "authHintLoginName",
+    "authLoginButton",
+    "authGetCode",
+    "authResendCode",
+    "authUsePassword",
+    "authUseCode",
+    "authAgreementPrefix",
+    "authAgreementAnd",
+    "authTermsLink",
+    "authPrivacyLink",
+    "authCaptchaTitle",
+    "authCaptchaHint",
+    "authCaptchaFailed",
+    "authErrorEmptyCode",
+    "authErrorEmptyPassword",
+    "authErrorEmptyLoginName",
+    "authErrorWrongCredentials",
+    "authDeactivatingTitle",
+    "authDeactivatingContent",
+    "authContinueUse",
+    "authCancelDeactivation",
+    "authDeactivationCancelled",
+    "authDeactivationCancelFailed",
+    "authLogout",
+    "authLogoutConfirm",
+    "authSendingCode",
+    "authCodeSent",
+    "authLoginFailed",
+    "authRegisterFailed",
+    "authEnterpriseCode",
+    "authEnterpriseCodeHint",
+    "authPendingApproval",
+    "authNoAccount",
+    "authRegisterNow",
+    "authCountryPickerTitle",
+    "authCountrySearchHint",
+    "authCountryChinaMainland",
+    "authCountryHongKong",
+    "authCountryMacau",
+    "authCountryTaiwan",
+    "authCountryUnitedStates",
+    "authCountryUnitedKingdom",
+    "authCountryJapan",
+    "authCountrySouthKorea",
+    "authCountrySingapore",
+    "authCountryMalaysia",
+    "authCountryAustralia",
+    "authCountryCanada",
+    "authCountryGermany",
+    "authCountryFrance",
+    "authCountryIndia",
+    "authCountryThailand",
+    "authCountryVietnam",
+    "authCountryIndonesia",
+    "authCountryPhilippines",
+    "authQuickLoginTitle",
+    "authQuickLoginSummary",
+    "authQuickLoginProgress",
+    "authRoleOwner",
+    "authRoleAdministrator",
+    "authRoleCustomerService",
+    "authRoleTechnicalSupport",
+    "authRoleEmployee",
+    "authRoleMember",
+    "authRoleEnterpriseCustomer",
+    "authUnavailablePrefix",
+    "authUnassignedService",
+    "authAssignedService",
+    "authCustomerIdentity",
+    "authEmployeeIdentity",
+    "authUserCount",
+    "authMetaPhone",
+    "authMetaIdentity",
+    "authRegisterTitle",
+    "authNickname",
+    "authNicknameHint",
+    "authPassword",
+    "authPasswordSetHint",
+    "authConfirmPassword",
+    "authConfirmPasswordHint",
+    "authVerificationCode",
+    "authRegisterAndLogin",
+    "authHaveAccount",
+    "authGoLogin",
+    "authEmailVerificationUnavailable",
+    "authSmsVerificationUnavailable",
+    "authSendFailed",
+    "authErrorEmptyNickname",
+    "authErrorInvalidMobile",
+    "authErrorInvalidEmail",
+    "authErrorPasswordTooShort",
+    "authErrorPasswordMismatch",
+    "authErrorVerificationRequired",
+    "authRegisterErrorTitle",
+    "authGotIt",
+    "authJoinCredentialHint",
+    "authTenantNotFound",
+    "authTenantSearchFailed",
+    "authInvitationInvalid",
+    "authCollapseJoin",
+    "authExpandJoin",
+    "authInvitationValid",
+    "authTenantFound",
+    "authJoinNotFound",
+    "authJoinHelp",
+    "authSelectOrganization",
+    "authNoOrganization",
+    "authNoOrganizationHint",
+    "authPersonalSpace",
+    "authPersonalSpaceSubtitle",
+    "authSpaceIdentityValidationFailed",
+    "authPersonalSpaceRestoreFailed",
+    "authJoinEnterpriseFailed",
+    "homeTitle",
+    "homeGatewayConnectingTitle",
+    "homePersonalSpace",
+    "homeOfficialService",
+    "homeSwitchSpace",
+    "homeSpaceSubtitle",
+    "homeJoinEnterprise",
+    "homeCreateGroup",
+    "homeAddFriend",
+    "homeScan",
+    "homeJoinNewSpace",
+    "homeSearchConversation",
+    "homeNoMessages",
+    "homeDeleteConversation",
+    "homeDeleteConversationConfirm",
+    "homePersonalNote",
+    "homeWorkNote",
+    "homeConversationCount",
+    "homeUnreadCount",
+    "chatInputHint",
+    "chatVoiceHint",
+    "chatVoiceRelease",
+    "chatVoiceCancel",
+    "chatMenuCopy",
+    "chatMenuForward",
+    "chatMenuRecall",
+    "chatMenuDelete",
+    "chatMenuFavorite",
+    "chatMenuReply",
+    "chatMenuMultiSelect",
+    "chatMenuTranslate",
+    "chatMenuVoiceToText",
+    "chatMenuTextToSpeech",
+    "chatStatusRecalled",
+    "chatRecallSuccess",
+    "chatRecallFailed",
+    "chatRecallTimeout",
+    "chatTranslateFailed",
+    "chatTranslateNotConfigured",
+    "chatVoiceToTextFailed",
+    "chatTextToSpeechFailed",
+    "chatVoiceToText",
+    "chatForwardSuccess",
+    "chatForwardFailed",
+    "chatNoConversations",
+    "chatSendFailed",
+    "chatResend",
+    "chatNotFriend",
+    "chatNotFriendHint",
+    "chatMutedHint",
+    "chatFileUploadFailed",
+    "chatFileStatusNotDownloaded",
+    "chatFileStatusDownloaded",
+    "chatFileStatusUploading",
+    "chatFileStatusUploadFailed",
+    "chatCardSendFailed",
+    "chatFavoriteSuccess",
+    "chatFavoriteFailed",
+    "chatLoadFailed",
+    "chatImageMessage",
+    "chatVoiceMessage",
+    "chatVideoMessage",
+    "chatFileMessage",
+    "chatLocationMessage",
+    "chatContactCardMessage",
+    "chatCallLogMessage",
+    "chatGroupMemberCount",
+    "chatReadCount",
+    "chatUnread",
+    "chatRecalledSelf",
+    "chatRecalledPeer",
+    "chatTranslationPrefix",
+    "chatMessageDeleted",
+    "chatPeer",
+    "chatSelf",
+    "chatGenericMessage",
+    "chatVoiceHideText",
+    "chatVoiceShowText",
+    "chatFileDefaultName",
+    "chatContactDefaultName",
+    "chatContactCardTitle",
+    "chatCallMissed",
+    "chatCallCancelled",
+    "chatCallRejected",
+    "chatCallDisconnected",
+    "chatCallEnded",
+    "chatCallFailed",
+    "chatCallDuration",
+    "chatVideoCallTitle",
+    "chatVoiceCallTitle",
+    "chatToolPhotos",
+    "chatToolCamera",
+    "chatToolFile",
+    "chatToolLocation",
+    "chatToolContactCard",
+    "chatToolVoiceCall",
+    "chatToolVideoCall",
+    "chatToolFavorites",
+    "chatToolTranslate",
+    "chatTranslationChooseLanguage",
+    "chatTranslationEnterText",
+    "chatTranslationMentionsUnsupported",
+    "chatTranslationScheduledUnsupported",
+    "chatTranslationFailed",
+    "chatTranslationEmpty",
+    "chatTranslationTranslating",
+    "chatTranslationSend",
+    "chatTranslationSending",
+    "chatTranslationExpand",
+    "chatTranslationCollapse",
+    "chatFileTooLarge",
+    "chatInputMutedAdminOnly",
+    "chatImageUploadUnsupported",
+    "chatFavoriteLongPressHint",
+    "chatSelectedCount",
+    "chatLocationSheetTitle",
+    "chatLocationNameLabel",
+    "chatLocationNameHint",
+    "chatLocationAddressLabel",
+    "chatLocationOptionalHint",
+    "chatLocationLatitudeLabel",
+    "chatLocationLatitudeHint",
+    "chatLocationLongitudeLabel",
+    "chatLocationLongitudeHint",
+    "chatLocationValidationRequired",
+    "chatLocationValidationRange",
+    "chatLocationDefaultTitle",
+    "chatMutedFullNotice",
+    "chatNotFriendSendBlocked",
+    "chatPersonalNotesTitle",
+    "chatWorkNotesTitle",
+    "chatPersonalNotesDescription",
+    "chatWorkNotesDescription",
+    "chatNoMessages",
+    "chatReplyTo",
+    "chatFeatureComingSoon",
+    "chatForwardSelectTitle",
+    "chatContactSelectTitle",
+    "chatNoContacts",
+    "contactsTitle",
+    "contactsSearch",
+    "contactsNewFriends",
+    "contactsGroups",
+    "contactsFavorites",
+    "contactsRecent",
+    "contactsOrganization",
+    "contactsAnnouncement",
+    "contactsNewApplications",
+    "contactsCustomerGroups",
+    "contactsAllCustomers",
+    "contactsMyCustomers",
+    "contactsViewAll",
+    "contactsMyContacts",
+    "contactsMyAdvisor",
+    "contactsNoAdvisor",
+    "contactsAdvisorLoading",
+    "contactsNavigateFailed",
+    "contactsEmpty",
+    "contactsNoAnnouncement",
+    "contactsOfficialBadge",
+    "contactsCustomerBadge",
+    "contactsEmptyCustomers",
+    "myTitle",
+    "myEnterpriseInfo",
+    "myEnterpriseManage",
+    "myQrCode",
+    "myFavorites",
+    "myLanguage",
+    "myTimezone",
+    "myAutoTranslate",
+    "myNetworkSwitch",
+    "mySettings",
+    "myLogout",
+    "myLogoutConfirm",
+    "myLeaveEnterprise",
+    "myLeaveEnterpriseConfirm",
+    "myLeaveEnterpriseSuccess",
+    "myLeaveEnterpriseFailed",
+    "myLppIdCopied",
+    "myLppIdLabel",
+    "myFriendCount",
+    "myAutoSelect",
+    "myPresenceStatus",
+    "myPresenceStatusTitle",
+    "myPresenceOnline",
+    "myPresenceBusy",
+    "myPresenceAway",
+    "myPresenceInvisible",
+    "profileTitle",
+    "profileName",
+    "profileGender",
+    "profileBirthday",
+    "profileRegion",
+    "profileSignature",
+    "profileSignatureHint",
+    "profileTapTapText",
+    "profileTapTapHint",
+    "profileAccountSection",
+    "profileBasicSection",
+    "profileLppId",
+    "profileLppIdNotSet",
+    "profileMobile",
+    "profileMobileUnbound",
+    "profileEmail",
+    "profileEmailUnbound",
+    "profileQrCode",
+    "profileChangePassword",
+    "profileGenderMale",
+    "profileGenderFemale",
+    "profileGenderOther",
+    "profileGenderUnset",
+    "profileSaveFailed",
+    "profileLppIdTitle",
+    "profileLppIdSetOnce",
+    "profileLppIdChangeFailed",
+    "profileChangePasswordOld",
+    "profileChangePasswordNew",
+    "profileChangePasswordConfirm",
+    "profileChangePasswordMismatch",
+    "profileChangePasswordSuccess",
+    "profileChangePasswordFailed",
+    "settingsTitle",
+    "settingsSectionEnterprise",
+    "settingsSectionAccount",
+    "settingsSectionGeneral",
+    "settingsSectionFeatures",
+    "settingsSectionAbout",
+    "settingsEnterpriseInfo",
+    "settingsProfile",
+    "settingsAccountSecurity",
+    "settingsNotification",
+    "settingsDisplay",
+    "settingsFriendPrivacy",
+    "settingsChat",
+    "settingsChatHistory",
+    "settingsAbout",
+    "settingsLanguage",
+    "settingsTimezone",
+    "settingsAutoTranslate",
+    "settingsNetworkSwitch",
+    "enterpriseInfoTitle",
+    "enterpriseName",
+    "enterpriseDescription",
+    "enterpriseUpdateSuccess",
+    "enterpriseUpdateFailed",
+    "enterpriseLeave",
+    "enterpriseLeaveConfirm",
+    "enterpriseLeaveSuccess",
+    "enterpriseLeaveFailed",
+    "enterpriseLeaveOwnerError",
+    "enterpriseMemberCount",
+    "enterpriseCreatedAt",
+    "enterpriseCode",
+    "enterpriseInviteMembers",
+    "enterpriseCopyInviteCode",
+    "enterpriseInviteCodeCopied",
+    "groupCreateTitle",
+    "groupNameHint",
+    "groupCreateSuccess",
+    "groupCreateFailed",
+    "groupSettings",
+    "groupName",
+    "groupAvatar",
+    "groupAnnouncement",
+    "groupMembers",
+    "groupAddMember",
+    "groupRemoveMember",
+    "groupRemoveMemberConfirm",
+    "groupSetAdmin",
+    "groupRemoveAdmin",
+    "groupTransferOwner",
+    "groupTransferOwnerConfirm",
+    "groupTransferOwnerSuccess",
+    "groupTransferOwnerFailed",
+    "groupLeave",
+    "groupLeaveConfirm",
+    "groupLeaveSuccess",
+    "groupLeaveFailed",
+    "groupDissolve",
+    "groupDissolveConfirm",
+    "groupDissolveSuccess",
+    "groupDissolveFailed",
+    "groupQrCode",
+    "groupMuteAll",
+    "groupMuteAllOn",
+    "groupMuteAllOff",
+    "groupAllowMemberInvite",
+    "groupAllowMemberModifyTitle",
+    "groupAllowMemberAtAll",
+    "groupAllowMemberViewMemberList",
+    "groupAllowQrCodeJoin",
+    "groupRequireApproval",
+    "groupAllowMemberAddFriend",
+    "groupRoleOwner",
+    "groupRoleAdmin",
+    "groupRoleMember",
+    "groupNoMembers",
+    "groupNoAnnouncements",
+    "groupCreateAnnouncement",
+    "groupEditAnnouncement",
+    "groupDeleteAnnouncement",
+    "groupDeleteAnnouncementConfirm",
+    "groupAnnouncementTitle",
+    "groupAnnouncementContent",
+    "groupAnnouncementPin",
+    "groupMemberCount",
+    "groupSelectedCount",
+    "groupJoinRequestApprove",
+    "groupJoinRequestReject",
+    "groupJoinRequests",
+    "groupNoJoinRequests",
+    "groupReadReceipts",
+    "groupReadCount",
+    "groupUnreadCount",
+    "friendAddTitle",
+    "friendSearchHint",
+    "friendRequestSent",
+    "friendRequestFailed",
+    "friendAlreadyFriend",
+    "friendNewFriendsTitle",
+    "friendNoRequests",
+    "friendAccept",
+    "friendReject",
+    "friendAccepted",
+    "friendRejected",
+    "friendDeleteConfirm",
+    "friendDeleteSuccess",
+    "friendDeleteFailed",
+    "friendRemarkName",
+    "friendGroupName",
+    "friendSendMessage",
+    "friendMatchTypeLppId",
+    "friendMatchTypeMobile",
+    "friendMatchTypeEmail",
+    "friendSearchEmpty",
+    "friendAddMessage",
+    "friendBlockConfirm",
+    "friendUnblockConfirm",
+    "friendBlockSuccess",
+    "friendUnblockSuccess",
+    "profilePageTitle",
+    "profilePageSendMessage",
+    "profilePageAddFriend",
+    "profilePageAlreadyFriend",
+    "profilePageBlocked",
+    "profilePageBlock",
+    "profilePageUnblock",
+    "profilePageHidden",
+    "profilePageFriendsOnly",
+    "profilePageLppId",
+    "profilePageRemarkName",
+    "profilePageEditRemark",
+    "profilePageSaveRemarkSuccess",
+    "profilePageSaveRemarkFailed",
+    "searchTitle",
+    "searchHint",
+    "searchNoResults",
+    "searchMessages",
+    "searchUsers",
+    "searchFailed",
+    "scanTitle",
+    "scanFailed",
+    "scanInvalidQrCode",
+    "scanFlashOn",
+    "scanFlashOff",
+    "scanAlbum",
+    "favoritesTitle",
+    "favoritesEmpty",
+    "favoritesAll",
+    "favoritesText",
+    "favoritesImage",
+    "favoritesVideo",
+    "favoritesVoice",
+    "favoritesFile",
+    "favoritesOther",
+    "favoritesDeleteConfirm",
+    "favoritesDeleteSuccess",
+    "favoritesDeleteFailed",
+    "favoritesOriginalRecalled",
+    "favoritesViewOriginal",
+    "favoritesSearchHint",
+    "favoritesNoResults",
+    "noticeTitle",
+    "noticeEmpty",
+    "noticeDetail",
+    "noticePublishedAt",
+    "noticePriorityNormal",
+    "noticePriorityImportant",
+    "noticePriorityUrgent",
+    "organizationTitle",
+    "organizationEmpty",
+    "organizationMembers",
+    "organizationDepartment",
+    "organizationPosition",
+    "organizationLeader",
+    "qrCodeTitle",
+    "qrCodeSave",
+    "qrCodeShare",
+    "qrCodeSaveSuccess",
+    "qrCodeSaveFailed",
+    "qrCodeRefresh",
+    "qrCodeExpired",
+    "qrCodeScanToAdd",
+    "spacePersonal",
+    "spaceEnterprise",
+    "spaceJoinByCode",
+    "spaceJoinByInvite",
+    "spaceEnterCode",
+    "spaceEnterInviteCode",
+    "spaceSearchEnterprise",
+    "spaceJoinRequestSent",
+    "spaceJoinRequestPending",
+    "spaceJoinRequestApproved",
+    "spaceJoinRequestRejected",
+    "spaceAlreadyMember",
+    "spaceAutoApproved",
+    "spacePendingApprovalHint",
+    "spaceNoSpaces",
+    "spaceInviteExpired",
+    "spaceInviteTargetMismatch",
+    "spaceAcceptInviteSuccess",
+    "spaceAcceptInviteFailed",
+    "spaceTenantSelectTitle",
+    "spaceTenantSelectHint",
+    "spaceEnterPersonal",
+    "spaceEnterEnterprise",
+    "aboutTitle",
+    "aboutVersion",
+    "aboutTerms",
+    "aboutPrivacy",
+    "aboutOpenSource",
+    "aboutCheckUpdate",
+    "aboutLatestVersion",
+    "aboutUpdateAvailable",
+    "aboutUpdateNow",
+    "aboutUpdateLater",
+    "notificationTitle",
+    "notificationGlobalMute",
+    "notificationSound",
+    "notificationVibration",
+    "notificationPreview",
+    "notificationDndStart",
+    "notificationDndEnd",
+    "blacklistTitle",
+    "blacklistEmpty",
+    "blacklistRemove",
+    "blacklistRemoveConfirm",
+    "feedbackTitle",
+    "feedbackTypeComplaint",
+    "feedbackTypeSuggestion",
+    "feedbackTypeBug",
+    "feedbackContent",
+    "feedbackContentHint",
+    "feedbackContact",
+    "feedbackSubmit",
+    "feedbackSuccess",
+    "feedbackFailed",
+    "networkTitle",
+    "networkAutoSelect",
+    "networkManual",
+    "timezoneTitle",
+    "timezoneAuto",
+    "autoTranslateTitle",
+    "autoTranslateEnabled",
+    "autoTranslateLanguage",
+    "displayTitle",
+    "displayFontSize",
+    "displayChatBackground",
+    "displayDarkMode",
+    "displayDarkModeSystem",
+    "displayDarkModeSystemHint",
+    "displayDarkModeOff",
+    "displayDarkModeOffHint",
+    "displayDarkModeOn",
+    "displayDarkModeOnHint",
+    "chatSettingsTitle",
+    "chatHistoryTitle",
+    "chatHistoryClear",
+    "chatHistoryClearConfirm",
+    "chatHistoryClearSuccess",
+    "accountSecurityTitle",
+    "accountSecurityChangePassword",
+    "accountSecurityChangeMobile",
+    "accountSecurityChangeEmail",
+    "accountSecurityLoggedDevices",
+    "accountSecurityDeactivate",
+    "accountSecurityDeactivateConfirm",
+    "loggedDevicesTitle",
+    "loggedDevicesCurrent",
+    "loggedDevicesRevoke",
+    "loggedDevicesRevokeConfirm",
+    "loggedDevicesRevokeSuccess",
+    "loggedDevicesRevokeFailed",
+    "loggedDevicesLastActive",
+    "loggedDevicesTypeIos",
+    "loggedDevicesTypeAndroid",
+    "loggedDevicesTypeWeb",
+    "loggedDevicesTypeDesktop",
+    "loggedDevicesTypeUnknown",
+    "privacySettingsTitle",
+    "privacySearchableByMobile",
+    "privacySearchableByLppId",
+    "privacyAllowFriendRequest",
+    "privacyProfileVisibility",
+    "privacyEveryone",
+    "privacyFriendsOfFriends",
+    "privacyNobody",
+    "privacyFriendsOnly",
+    "privacySaveSuccess",
+    "privacySaveFailed",
+    "fontSizeTitle",
+    "fontSizeSmall",
+    "fontSizeNormal",
+    "fontSizeLarge",
+    "fontSizeExtraLarge",
+    "fontSizePreview",
+    "chatBackgroundTitle",
+    "chatBackgroundDefault",
+    "chatBackgroundCustom",
+    "chatBackgroundReset",
+    "termsTitle",
+    "privacyPolicyTitle",
+    "recentContactsTitle",
+    "recentContactsEmpty",
+    "inviteFriendsTitle",
+    "inviteFriendsCopyLink",
+    "inviteFriendsLinkCopied",
+    "imageViewerTitle",
+    "imageViewerSave",
+    "imageViewerSaveSuccess",
+    "imageViewerSaveFailed",
+    "customerServiceTitle",
+    "customerServiceQueue",
+    "customerServiceActive",
+    "customerServiceClaim",
+    "customerServiceTakeover",
+    "customerServiceClose",
+    "customerServiceCloseConfirm",
+    "customerServiceNoQueue",
+    "customerServiceNoActive",
+    "customerServiceVisitor",
+    "customerServiceCustomer",
+    "customerServiceAssignedTo",
+    "customerServiceTransferConversation",
+    "marketingToolbar",
+    "callIncoming",
+    "callOutgoing",
+    "callAccept",
+    "callReject",
+    "callHangup",
+    "callMissed",
+    "callDuration",
+    "callAudio",
+    "callGeneric",
+    "callVideo",
+    "callConnecting",
+    "callRinging",
+    "callEnded",
+    "callFailed",
+    "callRejected",
+    "callTimeout",
+    "callCancelled",
+    "callUnknownPeer",
+    "callVideoInvitation",
+    "callAudioInvitation",
+    "callAnswerAudio",
+    "callAnswerVideo",
+    "callViewProfile",
+    "callOpeningCamera",
+    "callWaitingRemoteVideo",
+    "callCameraOff",
+    "callCameraOn",
+    "callMicrophoneOff",
+    "callMicrophoneOn",
+    "callSpeakerOff",
+    "callSpeakerOn",
+    "callVideoPermissionFailure",
+    "callAudioPermissionFailure",
+    "callIncompleteIncoming",
+    "callInProgress",
+    "callCalling",
+    "callEndedMedia",
+    "callRejectedMedia",
+    "callUnansweredMedia",
+    "callCancelledMedia",
+    "callConnectionLost",
+    "callAdminEnded",
+    "callFailedMedia",
+    "callBusy",
+    "callDurationValue",
+    "callNotConnected",
+    "callDialed",
+    "callAnswered",
+    "callRejectedByPeer",
+    "callRejectedBySelf",
+    "callPeerDidNotAnswer",
+    "callMissedIncoming",
+    "callPeerCancelled",
+    "notificationNewMessageTitle",
+    "notificationOnlineServiceTitle",
+    "notificationNewMessageBody",
+    "notificationImagePreview",
+    "notificationVideoPreview",
+    "notificationVoicePreview",
+    "notificationFilePreview",
+    "notificationContactPreview",
+    "notificationCallLogPreview",
+    "notificationLocationPreview",
+    "notificationLinkPreview",
+    "notificationMentionMe",
+    "notificationMentionMeBy",
+    "notificationMentionAll",
+    "notificationMentionAllBy",
+    "notificationSecurityTitle",
+    "notificationSecurityBody",
+    "notificationFriendAcceptedTitle",
+    "notificationFriendRejectedTitle",
+    "notificationFriendAcceptedBody",
+    "notificationFriendRejectedBody",
+    "notificationVideoCallTitle",
+    "notificationAudioCallTitle",
+    "notificationVideoCallBody",
+    "notificationAudioCallBody",
+    "notificationMessageChannelName",
+    "notificationMessageChannelDescription",
+    "notificationCallChannelName",
+    "notificationCallChannelDescription",
+    "notificationSecurityChannelName",
+    "notificationSecurityChannelDescription",
+    "notificationUnknownCaller",
+    "pendingJoinRequestsTitle",
+    "pendingJoinRequestsEmpty",
+    "pendingJoinRequestApprove",
+    "pendingJoinRequestReject",
+    "pendingJoinRequestApproveSuccess",
+    "pendingJoinRequestRejectSuccess",
+    "pendingJoinRequestFailed",
+    "myCustomersTitle",
+    "myCustomersEmpty",
+    "groupListTitle",
+    "groupListEmpty",
+    "addFriendTitle",
+    "addFriendSearchHint",
+    "addFriendLppIdLabel",
+    "addFriendButton",
+    "addFriendCannotAddSelf",
+    "addFriendUnsupportedUser",
+    "addFriendMessageHint",
+    "addFriendSendRequest",
+    "joinCompanyTitle",
+    "joinCompanyCodeHint",
+    "joinCompanySearchHint",
+    "joinCompanyApply",
+    "joinCompanyApplySuccess",
+    "joinCompanyApplyFailed",
+    "joinCompanyAutoApproved",
+    "joinCompanyPending",
+    "joinCompanyInviteCodeHint",
+    "joinCompanyAcceptInvite",
+    "joinCompanyNoResults",
+    "joinCompanyMemberCount",
+    "timezoneNameHawaii",
+    "timezoneNameAlaska",
+    "timezoneNamePacificTime",
+    "timezoneNameMountainTime",
+    "timezoneNameCentralTime",
+    "timezoneNameEasternTime",
+    "timezoneNameAtlanticTime",
+    "timezoneNameBrasilia",
+    "timezoneNameAzores",
+    "timezoneNameLondonDublin",
+    "timezoneNameBerlinParisRome",
+    "timezoneNameCairoHelsinki",
+    "timezoneNameMoscowRiyadh",
+    "timezoneNameTehran",
+    "timezoneNameDubaiBaku",
+    "timezoneNameKabul",
+    "timezoneNameKarachiTashkent",
+    "timezoneNameMumbaiNewDelhi",
+    "timezoneNameKathmandu",
+    "timezoneNameDhakaAlmaty",
+    "timezoneNameYangon",
+    "timezoneNameBangkokHanoiJakarta",
+    "timezoneNameBeijingShanghaiHongKongTaipei",
+    "timezoneNameTokyoSeoul",
+    "timezoneNameAdelaide",
+    "timezoneNameSydneyMelbourne",
+    "timezoneNameSolomonIslands",
+    "timezoneNameAucklandFiji",
+    "networkSmartSelectBestRoute",
+    "networkTesting",
+    "networkTestingShort",
+    "networkLatencyMs",
+    "networkConnectionMode",
+    "networkDirectMode",
+    "networkProxyMode",
+    "networkDirectModeDesc",
+    "networkProxyModeDesc",
+    "networkDirectRoutes",
+    "networkProxyRoutes",
+    "networkTestAll",
+    "networkChinaTelecom",
+    "networkChinaUnicom",
+    "networkChinaMobile",
+    "networkHongKongNode",
+    "networkSingaporeNode",
+    "networkJapanNode",
+    "networkUnitedStatesNode",
+    "networkHint",
+    "teenModeTitle",
+    "teenModeStatusOn",
+    "teenModeStatusOff",
+    "teenModeStatusLoading",
+    "teenModeUnavailable",
+    "teenModeInvalidResponse",
+    "teenModeEnableDescription",
+    "teenModePasscode",
+    "teenModeCurrentPasscode",
+    "teenModeNewPasscode",
+    "teenModePasscodeHint",
+    "teenModeEnable",
+    "teenModeDisable",
+    "teenModeChangePasscode",
+    "teenModeSource",
+    "teenModeDailyUsage",
+    "teenModeRemaining",
+    "teenModeMinutesUnit",
+    "teenModeUnlimited",
+    "teenModeRequestExtension",
+    "teenModeExtensionSubmitted",
+    "teenModeTimeLimitReached",
+    "teenModeCurfewActive",
+    "teenModeReliefHint",
+    "teenModeRestrictedNotice",
+    "teenModeActionBlocked",
+    "teenModeMyRequests",
+    "guardianCenterTitle",
+    "guardianRelationships",
+    "guardianMinors",
+    "guardianApprovals",
+    "guardianBind",
+    "guardianCreateMinorCode",
+    "guardianCreateGuardianCode",
+    "guardianRelation",
+    "guardianPrimary",
+    "guardianCode",
+    "guardianCodeHint",
+    "guardianCodeCreated",
+    "guardianEmpty",
+    "guardianNoMinors",
+    "guardianUnbind",
+    "guardianExtend",
+    "guardianPolicyTitle",
+    "guardianPolicyLocked",
+    "approvalEmpty",
+    "approvalApprove",
+    "approvalReject",
+    "approvalPending",
+    "approvalApproved",
+    "approvalRejected",
+    "approvalExpired",
+    "approvalCancelled",
+    "approvalReplayFailed",
+    "requestCancelled",
+    "kycTitle",
+    "kycNotRequired",
+    "kycVerified",
+    "kycDeclared",
+    "kycPending",
+    "kycRejected",
+    "kycNone",
+    "kycRealName",
+    "kycIdNumber",
+    "kycIdType",
+    "kycApplicability",
+    "kycCamera",
+    "kycGallery",
+    "kycPhotoLimit",
+    "kycSelectPhoto",
+    "kycPhotoSelected",
+    "kycViewPhoto",
+    "kycReplacePhoto",
+    "kycDisclosure",
+    "kycConsent",
+    "kycConsentRequired",
+    "kycResubmitTitle",
+    "kycResubmitWarning",
+    "kycSubmitting",
+    "kycSubmitFailed",
+    "kycSubmitUnavailable",
+    "kycResubmitNotAllowed",
+    "kycDailyLimit",
+    "kycTypeUnavailable",
+    "kycNameInvalid",
+    "kycNumberRequired",
+    "kycFrontRequired",
+    "kycBackRequired",
+    "kycPhotoTooLarge",
+    "kycAccountChanged",
+    "kycPhotoInvalid",
+    "kycPortraitSide",
+    "kycEmblemSide",
+    "kycPassportDataPage",
+    "kycPassportOtherPage",
+    "kycFront",
+    "kycBack",
+    "kycRequired",
+    "kycGoVerify",
+    "kycStatusUnknown",
+    "kycSuperseded",
+    "kycMediaNotFound",
+    "customerServiceBroadcastDirectTitle",
+    "officialAccountBadge",
+    "officialAccountOpenConversation",
+    "officialAccountJoinHint",
+    "officialAccountJoinDisabled",
+    "officialAccountRemoved",
+    "officialAccountBanned",
+    "officialAccountUnavailable",
+    "officialAccountJoinBindingDisabled",
+    "officialAccountPlatformRequired",
+    "officialAccountOpenFailed",
+    "officialAccountAccountChanged",
+    "officialAccountDirectoryUnavailable",
+    "officialAccountInboxSyncFailed",
+    "officialAccountInboxSyncing",
+    "diagnosticsTitle",
+    "diagnosticsExplanation",
+    "diagnosticsHour",
+    "diagnosticsDay",
+    "diagnosticsWeek",
+    "diagnosticsEventCount",
+    "diagnosticsPersistent",
+    "diagnosticsNotPersistent",
+    "diagnosticsExport",
+    "diagnosticsRefresh",
+    "diagnosticsClear",
+    "diagnosticsClearConfirm",
+    "diagnosticsShared",
+    "diagnosticsCancelled",
+    "diagnosticsUnconfirmed",
+    "diagnosticsFailed"
+  ],
+  "metadata": {
+    "zh": {
+      "@navWorkbench": {
+        "description": "Workbench navigation label"
+      },
+      "@navBadgeOverflow": {
+        "description": "Overflow count shown on navigation badges"
+      },
+      "@appRuntimeLoadFailed": {
+        "description": "Account runtime load failure"
+      },
+      "@startupFailureTitle": {
+        "description": "Startup failure title"
+      },
+      "@startupFailureMessage": {
+        "description": "Startup failure guidance"
+      },
+      "@privacyConsentTitle": {
+        "description": "Privacy consent title"
+      },
+      "@privacyConsentBodyAndroid": {
+        "description": "Android pre-consent data processing disclosure",
+        "placeholders": {
+          "brand": {
+            "type": "String"
+          }
+        }
+      },
+      "@privacyConsentBodyIos": {
+        "description": "iOS pre-consent data processing disclosure",
+        "placeholders": {
+          "brand": {
+            "type": "String"
+          }
+        }
+      },
+      "@privacyConsentTermsLink": {
+        "description": "Terms link"
+      },
+      "@privacyConsentConjunction": {
+        "description": "Terms and privacy conjunction"
+      },
+      "@privacyConsentPrivacyLink": {
+        "description": "Privacy policy link"
+      },
+      "@privacyConsentDecline": {
+        "description": "Decline privacy consent"
+      },
+      "@privacyConsentDeclinedExit": {
+        "description": "Android notice shown before exiting after privacy consent is declined"
+      },
+      "@privacyConsentAccept": {
+        "description": "Accept privacy consent"
+      },
+      "@privacyConsentRuntimeFailure": {
+        "description": "Authorized runtime startup failure"
+      },
+      "@privacyConsentSaveFailure": {
+        "description": "Consent choice persistence failure"
+      },
+      "@appUpdateRequiredTitle": {
+        "description": "Required update title"
+      },
+      "@appUpdateOptionalTitle": {
+        "description": "Optional update title"
+      },
+      "@appUpdateVersionAvailable": {
+        "description": "Available app version",
+        "placeholders": {
+          "brand": {
+            "type": "String"
+          },
+          "version": {
+            "type": "String"
+          }
+        }
+      },
+      "@appUpdateLater": {
+        "description": "Dismiss optional update"
+      },
+      "@appUpdateNow": {
+        "description": "Start app update"
+      },
+      "@appUpdateProcessing": {
+        "description": "App update processing"
+      },
+      "@appUpdateInvalidUrl": {
+        "description": "Invalid update URL"
+      },
+      "@appUpdateOpenUrlFailed": {
+        "description": "Open update URL failure"
+      },
+      "@appUpdateDownloadInterrupted": {
+        "description": "Interrupted update download"
+      },
+      "@appUpdatePackageVerificationFailed": {
+        "description": "Update package verification failure"
+      },
+      "@appUpdatePermissionDenied": {
+        "description": "Install permission denied",
+        "placeholders": {
+          "brand": {
+            "type": "String"
+          }
+        }
+      },
+      "@appUpdateOpenInstallerFailed": {
+        "description": "Open system installer failure"
+      },
+      "@appUpdateGenericFailure": {
+        "description": "Generic update failure"
+      },
+      "@appUpdateUnavailable": {
+        "description": "Update package unavailable"
+      },
+      "@appUpdateCheckFailed": {
+        "description": "Update check failure"
+      },
+      "@appUpdateChecking": {
+        "description": "Checking for updates"
+      },
+      "@commonConfirm": {
+        "description": "Confirm button"
+      },
+      "@commonCancel": {
+        "description": "Cancel button"
+      },
+      "@commonSave": {
+        "description": "Save button"
+      },
+      "@commonEdit": {
+        "description": "Edit button"
+      },
+      "@commonDelete": {
+        "description": "Delete button"
+      },
+      "@commonSearch": {
+        "description": "Search"
+      },
+      "@commonLoading": {
+        "description": "Loading"
+      },
+      "@commonLoadFailed": {
+        "description": "Load failed"
+      },
+      "@commonRetry": {
+        "description": "Retry"
+      },
+      "@commonEmpty": {
+        "description": "Empty state"
+      },
+      "@commonCopy": {
+        "description": "Copy"
+      },
+      "@commonForward": {
+        "description": "Forward"
+      },
+      "@commonFavorite": {
+        "description": "Favorite"
+      },
+      "@commonClose": {
+        "description": "Close"
+      },
+      "@commonSend": {
+        "description": "Send"
+      },
+      "@commonDone": {
+        "description": "Done"
+      },
+      "@commonMore": {
+        "description": "More"
+      },
+      "@commonSettings": {
+        "description": "Settings"
+      },
+      "@commonCopied": {
+        "description": "Copied"
+      },
+      "@commonUnknown": {
+        "description": "Unknown"
+      },
+      "@commonNotSet": {
+        "description": "Not set"
+      },
+      "@commonUnbound": {
+        "description": "Unbound"
+      },
+      "@commonViewAll": {
+        "description": "View all"
+      },
+      "@commonSubmit": {
+        "description": "Submit"
+      },
+      "@commonAdd": {
+        "description": "Add"
+      },
+      "@commonRemove": {
+        "description": "Remove"
+      },
+      "@commonCreate": {
+        "description": "Create"
+      },
+      "@commonUpdate": {
+        "description": "Update"
+      },
+      "@commonUpload": {
+        "description": "Upload"
+      },
+      "@commonShare": {
+        "description": "Share"
+      },
+      "@commonBlock": {
+        "description": "Block"
+      },
+      "@commonUnblock": {
+        "description": "Unblock"
+      },
+      "@commonMute": {
+        "description": "Mute"
+      },
+      "@commonUnmute": {
+        "description": "Unmute"
+      },
+      "@commonPin": {
+        "description": "Pin"
+      },
+      "@commonUnpin": {
+        "description": "Unpin"
+      },
+      "@commonMarkRead": {
+        "description": "Mark as read"
+      },
+      "@commonMarkUnread": {
+        "description": "Mark as unread"
+      },
+      "@commonOnline": {
+        "description": "Online"
+      },
+      "@commonOffline": {
+        "description": "Offline"
+      },
+      "@commonOperationFailed": {
+        "description": "Operation failed"
+      },
+      "@commonNetworkError": {
+        "description": "Network error"
+      },
+      "@navMessages": {
+        "description": "Bottom nav: Messages"
+      },
+      "@navContacts": {
+        "description": "Bottom nav: Contacts"
+      },
+      "@navMe": {
+        "description": "Bottom nav: Me"
+      },
+      "@authLoginTitle": {
+        "description": "Login page title"
+      },
+      "@authTabMobile": {
+        "description": "Login tab: mobile"
+      },
+      "@authTabEmail": {
+        "description": "Login tab: email"
+      },
+      "@authTabLoginName": {
+        "description": "Login tab: lpp id"
+      },
+      "@authHintMobile": {
+        "description": "Mobile hint"
+      },
+      "@authHintEmail": {
+        "description": "Email hint"
+      },
+      "@authHintPassword": {
+        "description": "Password hint"
+      },
+      "@authHintCode": {
+        "description": "Code hint"
+      },
+      "@authHintLoginName": {
+        "description": "Login name hint"
+      },
+      "@authLoginButton": {
+        "description": "Login button"
+      },
+      "@authGetCode": {
+        "description": "Get verification code"
+      },
+      "@authResendCode": {
+        "description": "Resend code countdown",
+        "placeholders": {
+          "seconds": {
+            "type": "int"
+          }
+        }
+      },
+      "@authUsePassword": {
+        "description": "Use password login"
+      },
+      "@authUseCode": {
+        "description": "Use code login"
+      },
+      "@authAgreementPrefix": {
+        "description": "Agreement prefix"
+      },
+      "@authAgreementAnd": {
+        "description": "Agreement and"
+      },
+      "@authTermsLink": {
+        "description": "Terms link"
+      },
+      "@authPrivacyLink": {
+        "description": "Privacy link"
+      },
+      "@authCaptchaTitle": {
+        "description": "Captcha title"
+      },
+      "@authCaptchaHint": {
+        "description": "Captcha hint"
+      },
+      "@authCaptchaFailed": {
+        "description": "Captcha failed"
+      },
+      "@authErrorEmptyCode": {
+        "description": "Empty code error"
+      },
+      "@authErrorEmptyPassword": {
+        "description": "Empty password error"
+      },
+      "@authErrorEmptyLoginName": {
+        "description": "Empty login name error"
+      },
+      "@authErrorWrongCredentials": {
+        "description": "Wrong credentials"
+      },
+      "@authDeactivatingTitle": {
+        "description": "Deactivating title"
+      },
+      "@authDeactivatingContent": {
+        "description": "Deactivating content"
+      },
+      "@authContinueUse": {
+        "description": "Continue use"
+      },
+      "@authCancelDeactivation": {
+        "description": "Cancel deactivation"
+      },
+      "@authDeactivationCancelled": {
+        "description": "Deactivation cancelled"
+      },
+      "@authDeactivationCancelFailed": {
+        "description": "Deactivation cancel failed"
+      },
+      "@authLogout": {
+        "description": "Logout"
+      },
+      "@authLogoutConfirm": {
+        "description": "Logout confirm"
+      },
+      "@authSendingCode": {
+        "description": "Sending code"
+      },
+      "@authCodeSent": {
+        "description": "Code sent"
+      },
+      "@authLoginFailed": {
+        "description": "Login failed"
+      },
+      "@authRegisterFailed": {
+        "description": "Register failed"
+      },
+      "@authEnterpriseCode": {
+        "description": "Enterprise code"
+      },
+      "@authEnterpriseCodeHint": {
+        "description": "Enterprise code hint"
+      },
+      "@authPendingApproval": {
+        "description": "Pending approval"
+      },
+      "@authNoAccount": {
+        "description": "Login registration prompt"
+      },
+      "@authRegisterNow": {
+        "description": "Open registration"
+      },
+      "@authCountryPickerTitle": {
+        "description": "Country picker title"
+      },
+      "@authCountrySearchHint": {
+        "description": "Country picker search hint"
+      },
+      "@authCountryChinaMainland": {
+        "description": "Country name"
+      },
+      "@authCountryHongKong": {
+        "description": "Country name"
+      },
+      "@authCountryMacau": {
+        "description": "Country name"
+      },
+      "@authCountryTaiwan": {
+        "description": "Country name"
+      },
+      "@authCountryUnitedStates": {
+        "description": "Country name"
+      },
+      "@authCountryUnitedKingdom": {
+        "description": "Country name"
+      },
+      "@authCountryJapan": {
+        "description": "Country name"
+      },
+      "@authCountrySouthKorea": {
+        "description": "Country name"
+      },
+      "@authCountrySingapore": {
+        "description": "Country name"
+      },
+      "@authCountryMalaysia": {
+        "description": "Country name"
+      },
+      "@authCountryAustralia": {
+        "description": "Country name"
+      },
+      "@authCountryCanada": {
+        "description": "Country name"
+      },
+      "@authCountryGermany": {
+        "description": "Country name"
+      },
+      "@authCountryFrance": {
+        "description": "Country name"
+      },
+      "@authCountryIndia": {
+        "description": "Country name"
+      },
+      "@authCountryThailand": {
+        "description": "Country name"
+      },
+      "@authCountryVietnam": {
+        "description": "Country name"
+      },
+      "@authCountryIndonesia": {
+        "description": "Country name"
+      },
+      "@authCountryPhilippines": {
+        "description": "Country name"
+      },
+      "@authQuickLoginTitle": {
+        "description": "Developer quick login title"
+      },
+      "@authQuickLoginSummary": {
+        "description": "Developer quick login summary",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@authQuickLoginProgress": {
+        "description": "Quick login progress"
+      },
+      "@authRoleOwner": {
+        "description": "Owner role"
+      },
+      "@authRoleAdministrator": {
+        "description": "Administrator role"
+      },
+      "@authRoleCustomerService": {
+        "description": "Customer service role"
+      },
+      "@authRoleTechnicalSupport": {
+        "description": "Technical support role"
+      },
+      "@authRoleEmployee": {
+        "description": "Employee role"
+      },
+      "@authRoleMember": {
+        "description": "Member role"
+      },
+      "@authRoleEnterpriseCustomer": {
+        "description": "Enterprise customer account role"
+      },
+      "@authUnavailablePrefix": {
+        "description": "Unavailable account prefix"
+      },
+      "@authUnassignedService": {
+        "description": "No assigned service staff"
+      },
+      "@authAssignedService": {
+        "description": "Assigned service staff",
+        "placeholders": {
+          "staff": {
+            "type": "String"
+          }
+        }
+      },
+      "@authCustomerIdentity": {
+        "description": "Quick account customer identity",
+        "placeholders": {
+          "assignment": {
+            "type": "String"
+          }
+        }
+      },
+      "@authEmployeeIdentity": {
+        "description": "Quick account employee identity",
+        "placeholders": {
+          "tenant": {
+            "type": "String"
+          }
+        }
+      },
+      "@authUserCount": {
+        "description": "User count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@authMetaPhone": {
+        "description": "Phone metadata label"
+      },
+      "@authMetaIdentity": {
+        "description": "Identity metadata label"
+      },
+      "@authRegisterTitle": {
+        "description": "Registration page title"
+      },
+      "@authNickname": {
+        "description": "Nickname label"
+      },
+      "@authNicknameHint": {
+        "description": "Nickname hint"
+      },
+      "@authPassword": {
+        "description": "Password label"
+      },
+      "@authPasswordSetHint": {
+        "description": "Password setup hint"
+      },
+      "@authConfirmPassword": {
+        "description": "Confirm password label"
+      },
+      "@authConfirmPasswordHint": {
+        "description": "Confirm password hint"
+      },
+      "@authVerificationCode": {
+        "description": "Verification code label"
+      },
+      "@authRegisterAndLogin": {
+        "description": "Register and login button"
+      },
+      "@authHaveAccount": {
+        "description": "Existing account prompt"
+      },
+      "@authGoLogin": {
+        "description": "Return to login"
+      },
+      "@authEmailVerificationUnavailable": {
+        "description": "Email verification unavailable"
+      },
+      "@authSmsVerificationUnavailable": {
+        "description": "SMS verification unavailable"
+      },
+      "@authSendFailed": {
+        "description": "Verification send failed"
+      },
+      "@authErrorEmptyNickname": {
+        "description": "Empty nickname error"
+      },
+      "@authErrorInvalidMobile": {
+        "description": "Invalid mobile error"
+      },
+      "@authErrorInvalidEmail": {
+        "description": "Invalid email error"
+      },
+      "@authErrorPasswordTooShort": {
+        "description": "Short password error"
+      },
+      "@authErrorPasswordMismatch": {
+        "description": "Password mismatch error"
+      },
+      "@authErrorVerificationRequired": {
+        "description": "Verification required error"
+      },
+      "@authRegisterErrorTitle": {
+        "description": "Registration error title"
+      },
+      "@authGotIt": {
+        "description": "Dismiss registration error"
+      },
+      "@authJoinCredentialHint": {
+        "description": "Tenant or invitation code hint"
+      },
+      "@authTenantNotFound": {
+        "description": "Tenant code not found",
+        "placeholders": {
+          "code": {
+            "type": "String"
+          }
+        }
+      },
+      "@authTenantSearchFailed": {
+        "description": "Tenant search failed"
+      },
+      "@authInvitationInvalid": {
+        "description": "Invitation invalid"
+      },
+      "@authCollapseJoin": {
+        "description": "Collapse join section"
+      },
+      "@authExpandJoin": {
+        "description": "Expand optional join section"
+      },
+      "@authInvitationValid": {
+        "description": "Invitation preview success",
+        "placeholders": {
+          "name": {
+            "type": "String"
+          }
+        }
+      },
+      "@authTenantFound": {
+        "description": "Tenant preview success",
+        "placeholders": {
+          "name": {
+            "type": "String"
+          }
+        }
+      },
+      "@authJoinNotFound": {
+        "description": "Join credential not found"
+      },
+      "@authJoinHelp": {
+        "description": "Join credential help"
+      },
+      "@authSelectOrganization": {
+        "description": "Tenant selection title"
+      },
+      "@authNoOrganization": {
+        "description": "No organization"
+      },
+      "@authNoOrganizationHint": {
+        "description": "No organization guidance"
+      },
+      "@authPersonalSpace": {
+        "description": "Personal space entry"
+      },
+      "@authPersonalSpaceSubtitle": {
+        "description": "Personal space description"
+      },
+      "@authSpaceIdentityValidationFailed": {
+        "description": "Space identity validation failure"
+      },
+      "@authPersonalSpaceRestoreFailed": {
+        "description": "Personal space restore failure"
+      },
+      "@authJoinEnterpriseFailed": {
+        "description": "Join enterprise failure"
+      },
+      "@homeTitle": {
+        "description": "Home page title"
+      },
+      "@homeGatewayConnectingTitle": {
+        "description": "Home title shown while chat gateway is connecting or reconnecting"
+      },
+      "@homePersonalSpace": {
+        "description": "Personal space"
+      },
+      "@homeOfficialService": {
+        "description": "Official service space"
+      },
+      "@homeSwitchSpace": {
+        "description": "Switch space"
+      },
+      "@homeSpaceSubtitle": {
+        "description": "Space subtitle"
+      },
+      "@homeJoinEnterprise": {
+        "description": "Join enterprise"
+      },
+      "@homeCreateGroup": {
+        "description": "Create group"
+      },
+      "@homeAddFriend": {
+        "description": "Add friend"
+      },
+      "@homeScan": {
+        "description": "Scan"
+      },
+      "@homeJoinNewSpace": {
+        "description": "Join new space"
+      },
+      "@homeSearchConversation": {
+        "description": "Search conversation"
+      },
+      "@homeNoMessages": {
+        "description": "No messages"
+      },
+      "@homeDeleteConversation": {
+        "description": "Delete conversation"
+      },
+      "@homeDeleteConversationConfirm": {
+        "description": "Delete conversation confirm"
+      },
+      "@homePersonalNote": {
+        "description": "Personal note"
+      },
+      "@homeWorkNote": {
+        "description": "Work note"
+      },
+      "@homeConversationCount": {
+        "description": "Conversation count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@homeUnreadCount": {
+        "description": "Unread count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@chatInputHint": {
+        "description": "chatInputHint"
+      },
+      "@chatVoiceHint": {
+        "description": "Voice hint"
+      },
+      "@chatVoiceRelease": {
+        "description": "Voice release"
+      },
+      "@chatVoiceCancel": {
+        "description": "Voice cancel"
+      },
+      "@chatMenuCopy": {
+        "description": "Chat menu copy"
+      },
+      "@chatMenuForward": {
+        "description": "Chat menu forward"
+      },
+      "@chatMenuRecall": {
+        "description": "Chat menu recall"
+      },
+      "@chatMenuDelete": {
+        "description": "Chat menu delete"
+      },
+      "@chatMenuFavorite": {
+        "description": "Chat menu favorite"
+      },
+      "@chatMenuReply": {
+        "description": "Chat menu reply"
+      },
+      "@chatMenuMultiSelect": {
+        "description": "Chat menu multi select"
+      },
+      "@chatMenuTranslate": {
+        "description": "Chat menu translate"
+      },
+      "@chatMenuVoiceToText": {
+        "description": "Chat menu voice to text"
+      },
+      "@chatMenuTextToSpeech": {
+        "description": "Chat menu text to speech"
+      },
+      "@chatStatusRecalled": {
+        "description": "Message recalled"
+      },
+      "@chatRecallSuccess": {
+        "description": "Recall success"
+      },
+      "@chatRecallFailed": {
+        "description": "Recall failed"
+      },
+      "@chatRecallTimeout": {
+        "description": "Recall timeout"
+      },
+      "@chatTranslateFailed": {
+        "description": "Translate failed"
+      },
+      "@chatTranslateNotConfigured": {
+        "description": "Translate not configured"
+      },
+      "@chatVoiceToTextFailed": {
+        "description": "Voice to text failed"
+      },
+      "@chatTextToSpeechFailed": {
+        "description": "Text to speech failed"
+      },
+      "@chatForwardSuccess": {
+        "description": "Forward success"
+      },
+      "@chatForwardFailed": {
+        "description": "Forward failed"
+      },
+      "@chatNoConversations": {
+        "description": "No conversations to forward"
+      },
+      "@chatSendFailed": {
+        "description": "Send failed"
+      },
+      "@chatResend": {
+        "description": "Resend"
+      },
+      "@chatNotFriend": {
+        "description": "Not friend"
+      },
+      "@chatNotFriendHint": {
+        "description": "Not friend hint"
+      },
+      "@chatMutedHint": {
+        "description": "Muted hint"
+      },
+      "@chatFileUploadFailed": {
+        "description": "File upload failed"
+      },
+      "@chatFileStatusNotDownloaded": {
+        "description": "File message status when the attachment has not been downloaded"
+      },
+      "@chatFileStatusDownloaded": {
+        "description": "File message status when the attachment is available locally"
+      },
+      "@chatFileStatusUploading": {
+        "description": "File message status while upload is in progress"
+      },
+      "@chatFileStatusUploadFailed": {
+        "description": "File message status when upload failed"
+      },
+      "@chatCardSendFailed": {
+        "description": "Card send failed"
+      },
+      "@chatFavoriteSuccess": {
+        "description": "Favorite success"
+      },
+      "@chatFavoriteFailed": {
+        "description": "Favorite failed"
+      },
+      "@chatLoadFailed": {
+        "description": "Chat load failed"
+      },
+      "@chatImageMessage": {
+        "description": "Image message preview"
+      },
+      "@chatVoiceMessage": {
+        "description": "Voice message preview"
+      },
+      "@chatVideoMessage": {
+        "description": "Video message preview"
+      },
+      "@chatFileMessage": {
+        "description": "File message preview"
+      },
+      "@chatLocationMessage": {
+        "description": "Location message preview"
+      },
+      "@chatContactCardMessage": {
+        "description": "Contact card message preview"
+      },
+      "@chatCallLogMessage": {
+        "description": "Call log message preview"
+      },
+      "@chatGroupMemberCount": {
+        "description": "Group member count in title",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@chatReadCount": {
+        "description": "Chat read count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@chatUnread": {
+        "description": "chatUnread"
+      },
+      "@chatRecalledSelf": {
+        "description": "chatRecalledSelf"
+      },
+      "@chatRecalledPeer": {
+        "description": "Peer recalled message",
+        "placeholders": {
+          "sender": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatTranslationPrefix": {
+        "description": "Translation prefix",
+        "placeholders": {
+          "translation": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatMessageDeleted": {
+        "description": "chatMessageDeleted"
+      },
+      "@chatPeer": {
+        "description": "chatPeer"
+      },
+      "@chatSelf": {
+        "description": "chatSelf"
+      },
+      "@chatGenericMessage": {
+        "description": "chatGenericMessage"
+      },
+      "@chatVoiceHideText": {
+        "description": "chatVoiceHideText"
+      },
+      "@chatVoiceShowText": {
+        "description": "chatVoiceShowText"
+      },
+      "@chatFileDefaultName": {
+        "description": "chatFileDefaultName"
+      },
+      "@chatContactDefaultName": {
+        "description": "chatContactDefaultName"
+      },
+      "@chatContactCardTitle": {
+        "description": "chatContactCardTitle"
+      },
+      "@chatCallMissed": {
+        "description": "chatCallMissed"
+      },
+      "@chatCallCancelled": {
+        "description": "chatCallCancelled"
+      },
+      "@chatCallRejected": {
+        "description": "chatCallRejected"
+      },
+      "@chatCallDisconnected": {
+        "description": "chatCallDisconnected"
+      },
+      "@chatCallEnded": {
+        "description": "chatCallEnded"
+      },
+      "@chatCallFailed": {
+        "description": "chatCallFailed"
+      },
+      "@chatCallDuration": {
+        "description": "Call duration text",
+        "placeholders": {
+          "duration": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatVideoCallTitle": {
+        "description": "chatVideoCallTitle"
+      },
+      "@chatVoiceCallTitle": {
+        "description": "chatVoiceCallTitle"
+      },
+      "@chatToolPhotos": {
+        "description": "chatToolPhotos"
+      },
+      "@chatToolCamera": {
+        "description": "chatToolCamera"
+      },
+      "@chatToolFile": {
+        "description": "chatToolFile"
+      },
+      "@chatToolLocation": {
+        "description": "chatToolLocation"
+      },
+      "@chatToolContactCard": {
+        "description": "chatToolContactCard"
+      },
+      "@chatToolVoiceCall": {
+        "description": "chatToolVoiceCall"
+      },
+      "@chatToolVideoCall": {
+        "description": "chatToolVideoCall"
+      },
+      "@chatToolFavorites": {
+        "description": "chatToolFavorites"
+      },
+      "@chatFileTooLarge": {
+        "description": "chatFileTooLarge"
+      },
+      "@chatInputMutedAdminOnly": {
+        "description": "chatInputMutedAdminOnly"
+      },
+      "@chatImageUploadUnsupported": {
+        "description": "chatImageUploadUnsupported"
+      },
+      "@chatFavoriteLongPressHint": {
+        "description": "chatFavoriteLongPressHint"
+      },
+      "@chatSelectedCount": {
+        "description": "Selected message count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@chatLocationSheetTitle": {
+        "description": "chatLocationSheetTitle"
+      },
+      "@chatLocationNameLabel": {
+        "description": "chatLocationNameLabel"
+      },
+      "@chatLocationNameHint": {
+        "description": "chatLocationNameHint"
+      },
+      "@chatLocationAddressLabel": {
+        "description": "chatLocationAddressLabel"
+      },
+      "@chatLocationOptionalHint": {
+        "description": "chatLocationOptionalHint"
+      },
+      "@chatLocationLatitudeLabel": {
+        "description": "chatLocationLatitudeLabel"
+      },
+      "@chatLocationLatitudeHint": {
+        "description": "chatLocationLatitudeHint"
+      },
+      "@chatLocationLongitudeLabel": {
+        "description": "chatLocationLongitudeLabel"
+      },
+      "@chatLocationLongitudeHint": {
+        "description": "chatLocationLongitudeHint"
+      },
+      "@chatLocationValidationRequired": {
+        "description": "Location coordinate required",
+        "placeholders": {
+          "label": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatLocationValidationRange": {
+        "description": "Location coordinate invalid range",
+        "placeholders": {
+          "label": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatLocationDefaultTitle": {
+        "description": "chatLocationDefaultTitle"
+      },
+      "@chatMutedFullNotice": {
+        "description": "chatMutedFullNotice"
+      },
+      "@chatNotFriendSendBlocked": {
+        "description": "chatNotFriendSendBlocked"
+      },
+      "@chatPersonalNotesTitle": {
+        "description": "chatPersonalNotesTitle"
+      },
+      "@chatWorkNotesTitle": {
+        "description": "chatWorkNotesTitle"
+      },
+      "@chatPersonalNotesDescription": {
+        "description": "chatPersonalNotesDescription"
+      },
+      "@chatWorkNotesDescription": {
+        "description": "chatWorkNotesDescription"
+      },
+      "@chatNoMessages": {
+        "description": "chatNoMessages"
+      },
+      "@chatReplyTo": {
+        "description": "Reply preview sender",
+        "placeholders": {
+          "sender": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatFeatureComingSoon": {
+        "description": "Feature coming soon",
+        "placeholders": {
+          "feature": {
+            "type": "String"
+          }
+        }
+      },
+      "@chatForwardSelectTitle": {
+        "description": "chatForwardSelectTitle"
+      },
+      "@chatContactSelectTitle": {
+        "description": "chatContactSelectTitle"
+      },
+      "@chatNoContacts": {
+        "description": "chatNoContacts"
+      },
+      "@contactsTitle": {
+        "description": "Contacts title"
+      },
+      "@contactsSearch": {
+        "description": "Search contacts"
+      },
+      "@contactsNewFriends": {
+        "description": "New friends"
+      },
+      "@contactsGroups": {
+        "description": "Groups"
+      },
+      "@contactsFavorites": {
+        "description": "Favorites"
+      },
+      "@contactsRecent": {
+        "description": "Recent contacts"
+      },
+      "@contactsOrganization": {
+        "description": "Organization"
+      },
+      "@contactsAnnouncement": {
+        "description": "Announcement"
+      },
+      "@contactsNewApplications": {
+        "description": "New applications"
+      },
+      "@contactsCustomerGroups": {
+        "description": "Customer groups"
+      },
+      "@contactsAllCustomers": {
+        "description": "All customers"
+      },
+      "@contactsMyCustomers": {
+        "description": "My customers"
+      },
+      "@contactsViewAll": {
+        "description": "View all"
+      },
+      "@contactsMyContacts": {
+        "description": "My contacts"
+      },
+      "@contactsMyAdvisor": {
+        "description": "My advisor"
+      },
+      "@contactsNoAdvisor": {
+        "description": "No advisor"
+      },
+      "@contactsAdvisorLoading": {
+        "description": "Advisor loading"
+      },
+      "@contactsNavigateFailed": {
+        "description": "Navigate failed"
+      },
+      "@contactsEmpty": {
+        "description": "No contacts"
+      },
+      "@contactsNoAnnouncement": {
+        "description": "No announcement"
+      },
+      "@contactsOfficialBadge": {
+        "description": "Official badge"
+      },
+      "@contactsCustomerBadge": {
+        "description": "Customer badge"
+      },
+      "@contactsEmptyCustomers": {
+        "description": "No customers"
+      },
+      "@myTitle": {
+        "description": "My page title"
+      },
+      "@myEnterpriseInfo": {
+        "description": "Enterprise info"
+      },
+      "@myEnterpriseManage": {
+        "description": "Enterprise management"
+      },
+      "@myQrCode": {
+        "description": "QR code card"
+      },
+      "@myFavorites": {
+        "description": "Favorites"
+      },
+      "@myLanguage": {
+        "description": "System language"
+      },
+      "@myTimezone": {
+        "description": "Timezone"
+      },
+      "@myAutoTranslate": {
+        "description": "Auto translate"
+      },
+      "@myNetworkSwitch": {
+        "description": "Network switch"
+      },
+      "@mySettings": {
+        "description": "Settings"
+      },
+      "@myLogout": {
+        "description": "Logout"
+      },
+      "@myLogoutConfirm": {
+        "description": "Logout confirm"
+      },
+      "@myLeaveEnterprise": {
+        "description": "Leave enterprise"
+      },
+      "@myLeaveEnterpriseConfirm": {
+        "description": "Leave enterprise confirm"
+      },
+      "@myLeaveEnterpriseSuccess": {
+        "description": "Leave enterprise success"
+      },
+      "@myLeaveEnterpriseFailed": {
+        "description": "Leave enterprise failed"
+      },
+      "@myLppIdCopied": {
+        "description": "StartLink ID copied"
+      },
+      "@myLppIdLabel": {
+        "description": "StartLink ID label",
+        "placeholders": {
+          "lppId": {
+            "type": "String"
+          }
+        }
+      },
+      "@myFriendCount": {
+        "description": "Friend count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@myAutoSelect": {
+        "description": "Auto select"
+      },
+      "@myPresenceStatus": {
+        "description": "Presence status"
+      },
+      "@myPresenceStatusTitle": {
+        "description": "Set presence status title"
+      },
+      "@myPresenceOnline": {
+        "description": "Presence online"
+      },
+      "@myPresenceBusy": {
+        "description": "Presence busy"
+      },
+      "@myPresenceAway": {
+        "description": "Presence away"
+      },
+      "@myPresenceInvisible": {
+        "description": "Presence invisible"
+      },
+      "@profileTitle": {
+        "description": "Profile title"
+      },
+      "@profileName": {
+        "description": "Name field"
+      },
+      "@profileGender": {
+        "description": "Gender field"
+      },
+      "@profileBirthday": {
+        "description": "Birthday field"
+      },
+      "@profileRegion": {
+        "description": "Region field"
+      },
+      "@profileSignature": {
+        "description": "Signature field"
+      },
+      "@profileSignatureHint": {
+        "description": "Signature hint"
+      },
+      "@profileTapTapText": {
+        "description": "Tap tap text field"
+      },
+      "@profileTapTapHint": {
+        "description": "Tap tap hint"
+      },
+      "@profileAccountSection": {
+        "description": "Account section"
+      },
+      "@profileBasicSection": {
+        "description": "Basic info section"
+      },
+      "@profileLppId": {
+        "description": "StartLink ID field"
+      },
+      "@profileLppIdNotSet": {
+        "description": "StartLink ID not set"
+      },
+      "@profileMobile": {
+        "description": "Mobile field"
+      },
+      "@profileMobileUnbound": {
+        "description": "Mobile unbound"
+      },
+      "@profileEmail": {
+        "description": "Email field"
+      },
+      "@profileEmailUnbound": {
+        "description": "Email unbound"
+      },
+      "@profileQrCode": {
+        "description": "My QR code"
+      },
+      "@profileChangePassword": {
+        "description": "Change password"
+      },
+      "@profileGenderMale": {
+        "description": "Male"
+      },
+      "@profileGenderFemale": {
+        "description": "Female"
+      },
+      "@profileGenderOther": {
+        "description": "Other gender"
+      },
+      "@profileGenderUnset": {
+        "description": "Gender unset"
+      },
+      "@profileSaveFailed": {
+        "description": "Save failed"
+      },
+      "@profileLppIdTitle": {
+        "description": "StartLink ID page title"
+      },
+      "@profileLppIdSetOnce": {
+        "description": "StartLink ID set once warning"
+      },
+      "@profileLppIdChangeFailed": {
+        "description": "StartLink ID change failed"
+      },
+      "@profileChangePasswordOld": {
+        "description": "Old password"
+      },
+      "@profileChangePasswordNew": {
+        "description": "New password"
+      },
+      "@profileChangePasswordConfirm": {
+        "description": "Confirm new password"
+      },
+      "@profileChangePasswordMismatch": {
+        "description": "Password mismatch"
+      },
+      "@profileChangePasswordSuccess": {
+        "description": "Password changed"
+      },
+      "@profileChangePasswordFailed": {
+        "description": "Password change failed"
+      },
+      "@settingsTitle": {
+        "description": "Settings title"
+      },
+      "@settingsSectionEnterprise": {
+        "description": "Enterprise section"
+      },
+      "@settingsSectionAccount": {
+        "description": "Account section"
+      },
+      "@settingsSectionGeneral": {
+        "description": "General section"
+      },
+      "@settingsSectionFeatures": {
+        "description": "Features section"
+      },
+      "@settingsSectionAbout": {
+        "description": "About section"
+      },
+      "@settingsEnterpriseInfo": {
+        "description": "Enterprise info"
+      },
+      "@settingsProfile": {
+        "description": "Profile"
+      },
+      "@settingsAccountSecurity": {
+        "description": "Account security"
+      },
+      "@settingsNotification": {
+        "description": "Notification"
+      },
+      "@settingsDisplay": {
+        "description": "Display"
+      },
+      "@settingsFriendPrivacy": {
+        "description": "Friend privacy"
+      },
+      "@settingsChat": {
+        "description": "Chat settings"
+      },
+      "@settingsChatHistory": {
+        "description": "Chat history"
+      },
+      "@settingsAbout": {
+        "description": "About"
+      },
+      "@settingsLanguage": {
+        "description": "Language"
+      },
+      "@settingsTimezone": {
+        "description": "Timezone"
+      },
+      "@settingsAutoTranslate": {
+        "description": "Auto translate"
+      },
+      "@settingsNetworkSwitch": {
+        "description": "Network switch"
+      },
+      "@enterpriseInfoTitle": {
+        "description": "Enterprise info title"
+      },
+      "@enterpriseName": {
+        "description": "Enterprise name"
+      },
+      "@enterpriseDescription": {
+        "description": "Enterprise description"
+      },
+      "@enterpriseUpdateSuccess": {
+        "description": "Update success"
+      },
+      "@enterpriseUpdateFailed": {
+        "description": "Update failed"
+      },
+      "@enterpriseLeave": {
+        "description": "Leave enterprise"
+      },
+      "@enterpriseLeaveConfirm": {
+        "description": "Leave enterprise confirm"
+      },
+      "@enterpriseLeaveSuccess": {
+        "description": "Leave enterprise success"
+      },
+      "@enterpriseLeaveFailed": {
+        "description": "Leave enterprise failed"
+      },
+      "@enterpriseLeaveOwnerError": {
+        "description": "Owner cannot leave"
+      },
+      "@enterpriseMemberCount": {
+        "description": "Member count"
+      },
+      "@enterpriseCreatedAt": {
+        "description": "Created at"
+      },
+      "@enterpriseCode": {
+        "description": "Enterprise code"
+      },
+      "@enterpriseInviteMembers": {
+        "description": "Invite members"
+      },
+      "@enterpriseCopyInviteCode": {
+        "description": "Copy invite code"
+      },
+      "@enterpriseInviteCodeCopied": {
+        "description": "Invite code copied"
+      },
+      "@groupCreateTitle": {
+        "description": "Create group title"
+      },
+      "@groupNameHint": {
+        "description": "Group name hint"
+      },
+      "@groupCreateSuccess": {
+        "description": "Group create success"
+      },
+      "@groupCreateFailed": {
+        "description": "Group create failed"
+      },
+      "@groupSettings": {
+        "description": "Group settings"
+      },
+      "@groupName": {
+        "description": "Group name"
+      },
+      "@groupAvatar": {
+        "description": "Group avatar"
+      },
+      "@groupAnnouncement": {
+        "description": "Group announcement"
+      },
+      "@groupMembers": {
+        "description": "Group members"
+      },
+      "@groupAddMember": {
+        "description": "Add member"
+      },
+      "@groupRemoveMember": {
+        "description": "Remove member"
+      },
+      "@groupRemoveMemberConfirm": {
+        "description": "Remove member confirm"
+      },
+      "@groupSetAdmin": {
+        "description": "Set admin"
+      },
+      "@groupRemoveAdmin": {
+        "description": "Remove admin"
+      },
+      "@groupTransferOwner": {
+        "description": "Transfer owner"
+      },
+      "@groupTransferOwnerConfirm": {
+        "description": "Transfer owner confirm"
+      },
+      "@groupTransferOwnerSuccess": {
+        "description": "Transfer owner success"
+      },
+      "@groupTransferOwnerFailed": {
+        "description": "Transfer owner failed"
+      },
+      "@groupLeave": {
+        "description": "Leave group"
+      },
+      "@groupLeaveConfirm": {
+        "description": "Leave group confirm"
+      },
+      "@groupLeaveSuccess": {
+        "description": "Leave group success"
+      },
+      "@groupLeaveFailed": {
+        "description": "Leave group failed"
+      },
+      "@groupDissolve": {
+        "description": "Dissolve group"
+      },
+      "@groupDissolveConfirm": {
+        "description": "Dissolve group confirm"
+      },
+      "@groupDissolveSuccess": {
+        "description": "Dissolve group success"
+      },
+      "@groupDissolveFailed": {
+        "description": "Dissolve group failed"
+      },
+      "@groupQrCode": {
+        "description": "Group QR code"
+      },
+      "@groupMuteAll": {
+        "description": "Mute all"
+      },
+      "@groupMuteAllOn": {
+        "description": "Mute all on"
+      },
+      "@groupMuteAllOff": {
+        "description": "Mute all off"
+      },
+      "@groupAllowMemberInvite": {
+        "description": "Allow member invite"
+      },
+      "@groupAllowMemberModifyTitle": {
+        "description": "Allow member modify title"
+      },
+      "@groupAllowMemberAtAll": {
+        "description": "Allow member at all"
+      },
+      "@groupAllowMemberViewMemberList": {
+        "description": "Allow member view member list"
+      },
+      "@groupAllowQrCodeJoin": {
+        "description": "Allow QR code join"
+      },
+      "@groupRequireApproval": {
+        "description": "Require approval"
+      },
+      "@groupAllowMemberAddFriend": {
+        "description": "Allow member add friend"
+      },
+      "@groupRoleOwner": {
+        "description": "Group owner"
+      },
+      "@groupRoleAdmin": {
+        "description": "Group admin"
+      },
+      "@groupRoleMember": {
+        "description": "Group member"
+      },
+      "@groupNoMembers": {
+        "description": "No members"
+      },
+      "@groupNoAnnouncements": {
+        "description": "No announcements"
+      },
+      "@groupCreateAnnouncement": {
+        "description": "Create announcement"
+      },
+      "@groupEditAnnouncement": {
+        "description": "Edit announcement"
+      },
+      "@groupDeleteAnnouncement": {
+        "description": "Delete announcement"
+      },
+      "@groupDeleteAnnouncementConfirm": {
+        "description": "Delete announcement confirm"
+      },
+      "@groupAnnouncementTitle": {
+        "description": "Announcement title"
+      },
+      "@groupAnnouncementContent": {
+        "description": "Announcement content"
+      },
+      "@groupAnnouncementPin": {
+        "description": "Pin announcement"
+      },
+      "@groupMemberCount": {
+        "description": "Group member count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@groupSelectedCount": {
+        "description": "Selected count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@groupJoinRequestApprove": {
+        "description": "Approve join request"
+      },
+      "@groupJoinRequestReject": {
+        "description": "Reject join request"
+      },
+      "@groupJoinRequests": {
+        "description": "Join requests"
+      },
+      "@groupNoJoinRequests": {
+        "description": "No join requests"
+      },
+      "@groupReadReceipts": {
+        "description": "Read receipts"
+      },
+      "@groupReadCount": {
+        "description": "Read count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@groupUnreadCount": {
+        "description": "Unread count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@friendAddTitle": {
+        "description": "Add friend title"
+      },
+      "@friendSearchHint": {
+        "description": "Friend search hint"
+      },
+      "@friendRequestSent": {
+        "description": "Friend request sent"
+      },
+      "@friendRequestFailed": {
+        "description": "Friend request failed"
+      },
+      "@friendAlreadyFriend": {
+        "description": "Already friend"
+      },
+      "@friendNewFriendsTitle": {
+        "description": "New friends title"
+      },
+      "@friendNoRequests": {
+        "description": "No friend requests"
+      },
+      "@friendAccept": {
+        "description": "Accept friend request"
+      },
+      "@friendReject": {
+        "description": "Reject friend request"
+      },
+      "@friendAccepted": {
+        "description": "Friend request accepted"
+      },
+      "@friendRejected": {
+        "description": "Friend request rejected"
+      },
+      "@friendDeleteConfirm": {
+        "description": "Delete friend confirm"
+      },
+      "@friendDeleteSuccess": {
+        "description": "Delete friend success"
+      },
+      "@friendDeleteFailed": {
+        "description": "Delete friend failed"
+      },
+      "@friendRemarkName": {
+        "description": "Remark name"
+      },
+      "@friendGroupName": {
+        "description": "Friend group name"
+      },
+      "@friendSendMessage": {
+        "description": "Send message"
+      },
+      "@friendMatchTypeLppId": {
+        "description": "Match by lpp id"
+      },
+      "@friendMatchTypeMobile": {
+        "description": "Match by mobile"
+      },
+      "@friendMatchTypeEmail": {
+        "description": "Match by email"
+      },
+      "@friendSearchEmpty": {
+        "description": "Search empty"
+      },
+      "@friendAddMessage": {
+        "description": "Add friend message"
+      },
+      "@friendBlockConfirm": {
+        "description": "Block confirm"
+      },
+      "@friendUnblockConfirm": {
+        "description": "Unblock confirm"
+      },
+      "@friendBlockSuccess": {
+        "description": "Block success"
+      },
+      "@friendUnblockSuccess": {
+        "description": "Unblock success"
+      },
+      "@profilePageTitle": {
+        "description": "Profile page title"
+      },
+      "@profilePageSendMessage": {
+        "description": "Send message"
+      },
+      "@profilePageAddFriend": {
+        "description": "Add friend"
+      },
+      "@profilePageAlreadyFriend": {
+        "description": "Already friend"
+      },
+      "@profilePageBlocked": {
+        "description": "Blocked"
+      },
+      "@profilePageBlock": {
+        "description": "Block"
+      },
+      "@profilePageUnblock": {
+        "description": "Unblock"
+      },
+      "@profilePageHidden": {
+        "description": "Profile hidden"
+      },
+      "@profilePageFriendsOnly": {
+        "description": "Profile friends only"
+      },
+      "@profilePageLppId": {
+        "description": "StartLink ID"
+      },
+      "@profilePageRemarkName": {
+        "description": "Remark name"
+      },
+      "@profilePageEditRemark": {
+        "description": "Edit remark"
+      },
+      "@profilePageSaveRemarkSuccess": {
+        "description": "Remark saved"
+      },
+      "@profilePageSaveRemarkFailed": {
+        "description": "Save remark failed"
+      },
+      "@searchTitle": {
+        "description": "Search title"
+      },
+      "@searchHint": {
+        "description": "Search hint"
+      },
+      "@searchNoResults": {
+        "description": "No search results"
+      },
+      "@searchMessages": {
+        "description": "Search messages"
+      },
+      "@searchUsers": {
+        "description": "Search users"
+      },
+      "@searchFailed": {
+        "description": "Search failed"
+      },
+      "@scanTitle": {
+        "description": "Scan title"
+      },
+      "@scanFailed": {
+        "description": "Scan failed"
+      },
+      "@scanInvalidQrCode": {
+        "description": "Invalid QR code"
+      },
+      "@scanFlashOn": {
+        "description": "Flash on"
+      },
+      "@scanFlashOff": {
+        "description": "Flash off"
+      },
+      "@scanAlbum": {
+        "description": "Scan from album"
+      },
+      "@favoritesTitle": {
+        "description": "Favorites title"
+      },
+      "@favoritesEmpty": {
+        "description": "No favorites"
+      },
+      "@favoritesAll": {
+        "description": "All favorites"
+      },
+      "@favoritesText": {
+        "description": "Text favorites"
+      },
+      "@favoritesImage": {
+        "description": "Image favorites"
+      },
+      "@favoritesVideo": {
+        "description": "Video favorites"
+      },
+      "@favoritesVoice": {
+        "description": "Voice favorites"
+      },
+      "@favoritesFile": {
+        "description": "File favorites"
+      },
+      "@favoritesOther": {
+        "description": "Other favorites"
+      },
+      "@favoritesDeleteConfirm": {
+        "description": "Delete favorite confirm"
+      },
+      "@favoritesDeleteSuccess": {
+        "description": "Delete favorite success"
+      },
+      "@favoritesDeleteFailed": {
+        "description": "Delete favorite failed"
+      },
+      "@favoritesOriginalRecalled": {
+        "description": "Original recalled"
+      },
+      "@favoritesViewOriginal": {
+        "description": "View original"
+      },
+      "@favoritesSearchHint": {
+        "description": "Search favorites hint"
+      },
+      "@favoritesNoResults": {
+        "description": "No favorites results"
+      },
+      "@noticeTitle": {
+        "description": "Notice title"
+      },
+      "@noticeEmpty": {
+        "description": "No notices"
+      },
+      "@noticeDetail": {
+        "description": "Notice detail"
+      },
+      "@noticePublishedAt": {
+        "description": "Published at"
+      },
+      "@noticePriorityNormal": {
+        "description": "Normal priority"
+      },
+      "@noticePriorityImportant": {
+        "description": "Important priority"
+      },
+      "@noticePriorityUrgent": {
+        "description": "Urgent priority"
+      },
+      "@organizationTitle": {
+        "description": "Organization title"
+      },
+      "@organizationEmpty": {
+        "description": "No organization"
+      },
+      "@organizationMembers": {
+        "description": "Organization members"
+      },
+      "@organizationDepartment": {
+        "description": "Department"
+      },
+      "@organizationPosition": {
+        "description": "Position"
+      },
+      "@organizationLeader": {
+        "description": "Leader"
+      },
+      "@qrCodeTitle": {
+        "description": "QR code title"
+      },
+      "@qrCodeSave": {
+        "description": "Save QR code"
+      },
+      "@qrCodeShare": {
+        "description": "Share QR code"
+      },
+      "@qrCodeSaveSuccess": {
+        "description": "QR code saved"
+      },
+      "@qrCodeSaveFailed": {
+        "description": "QR code save failed"
+      },
+      "@qrCodeRefresh": {
+        "description": "Refresh QR code"
+      },
+      "@qrCodeExpired": {
+        "description": "QR code expired"
+      },
+      "@qrCodeScanToAdd": {
+        "description": "Scan to add friend"
+      },
+      "@spacePersonal": {
+        "description": "Personal space"
+      },
+      "@spaceEnterprise": {
+        "description": "Enterprise space"
+      },
+      "@spaceJoinByCode": {
+        "description": "Join by code"
+      },
+      "@spaceJoinByInvite": {
+        "description": "Join by invite"
+      },
+      "@spaceEnterCode": {
+        "description": "Enter enterprise code"
+      },
+      "@spaceEnterInviteCode": {
+        "description": "Enter invite code"
+      },
+      "@spaceSearchEnterprise": {
+        "description": "Search enterprise"
+      },
+      "@spaceJoinRequestSent": {
+        "description": "Join request sent"
+      },
+      "@spaceJoinRequestPending": {
+        "description": "Join request pending"
+      },
+      "@spaceJoinRequestApproved": {
+        "description": "Join request approved"
+      },
+      "@spaceJoinRequestRejected": {
+        "description": "Join request rejected"
+      },
+      "@spaceAlreadyMember": {
+        "description": "Already member"
+      },
+      "@spaceAutoApproved": {
+        "description": "Auto approved"
+      },
+      "@spacePendingApprovalHint": {
+        "description": "Pending approval hint"
+      },
+      "@spaceNoSpaces": {
+        "description": "No spaces"
+      },
+      "@spaceInviteExpired": {
+        "description": "Invite expired"
+      },
+      "@spaceInviteTargetMismatch": {
+        "description": "Invite target mismatch"
+      },
+      "@spaceAcceptInviteSuccess": {
+        "description": "Accept invite success"
+      },
+      "@spaceAcceptInviteFailed": {
+        "description": "Accept invite failed"
+      },
+      "@spaceTenantSelectTitle": {
+        "description": "Tenant select title"
+      },
+      "@spaceTenantSelectHint": {
+        "description": "Tenant select hint"
+      },
+      "@spaceEnterPersonal": {
+        "description": "Enter personal space"
+      },
+      "@spaceEnterEnterprise": {
+        "description": "Enter enterprise space"
+      },
+      "@aboutTitle": {
+        "description": "About title"
+      },
+      "@aboutVersion": {
+        "description": "Version"
+      },
+      "@aboutTerms": {
+        "description": "Terms"
+      },
+      "@aboutPrivacy": {
+        "description": "Privacy"
+      },
+      "@aboutOpenSource": {
+        "description": "Open source"
+      },
+      "@aboutCheckUpdate": {
+        "description": "Check update"
+      },
+      "@aboutLatestVersion": {
+        "description": "Latest version"
+      },
+      "@aboutUpdateAvailable": {
+        "description": "Update available"
+      },
+      "@aboutUpdateNow": {
+        "description": "Update now"
+      },
+      "@aboutUpdateLater": {
+        "description": "Update later"
+      },
+      "@notificationTitle": {
+        "description": "Notification title"
+      },
+      "@notificationGlobalMute": {
+        "description": "Global mute"
+      },
+      "@notificationSound": {
+        "description": "Sound"
+      },
+      "@notificationVibration": {
+        "description": "Vibration"
+      },
+      "@notificationPreview": {
+        "description": "Notification preview"
+      },
+      "@notificationDndStart": {
+        "description": "DND start"
+      },
+      "@notificationDndEnd": {
+        "description": "DND end"
+      },
+      "@blacklistTitle": {
+        "description": "Blacklist title"
+      },
+      "@blacklistEmpty": {
+        "description": "Blacklist empty"
+      },
+      "@blacklistRemove": {
+        "description": "Remove from blacklist"
+      },
+      "@blacklistRemoveConfirm": {
+        "description": "Remove from blacklist confirm"
+      },
+      "@feedbackTitle": {
+        "description": "Feedback title"
+      },
+      "@feedbackTypeComplaint": {
+        "description": "Complaint"
+      },
+      "@feedbackTypeSuggestion": {
+        "description": "Suggestion"
+      },
+      "@feedbackTypeBug": {
+        "description": "Bug report"
+      },
+      "@feedbackContent": {
+        "description": "Feedback content"
+      },
+      "@feedbackContentHint": {
+        "description": "Feedback content hint"
+      },
+      "@feedbackContact": {
+        "description": "Feedback contact"
+      },
+      "@feedbackSubmit": {
+        "description": "Submit feedback"
+      },
+      "@feedbackSuccess": {
+        "description": "Feedback success"
+      },
+      "@feedbackFailed": {
+        "description": "Feedback failed"
+      },
+      "@networkTitle": {
+        "description": "Network title"
+      },
+      "@networkAutoSelect": {
+        "description": "Auto select"
+      },
+      "@networkManual": {
+        "description": "Manual select"
+      },
+      "@timezoneTitle": {
+        "description": "Timezone title"
+      },
+      "@timezoneAuto": {
+        "description": "Auto timezone"
+      },
+      "@autoTranslateTitle": {
+        "description": "Auto translate title"
+      },
+      "@autoTranslateEnabled": {
+        "description": "Auto translate enabled"
+      },
+      "@autoTranslateLanguage": {
+        "description": "Auto translate language"
+      },
+      "@displayTitle": {
+        "description": "Display title"
+      },
+      "@displayFontSize": {
+        "description": "Font size"
+      },
+      "@displayChatBackground": {
+        "description": "Chat background"
+      },
+      "@displayDarkMode": {
+        "description": "Dark mode"
+      },
+      "@displayDarkModeSystem": {
+        "description": "Dark mode system"
+      },
+      "@displayDarkModeSystemHint": {
+        "description": "Dark mode system hint"
+      },
+      "@displayDarkModeOff": {
+        "description": "Light mode"
+      },
+      "@displayDarkModeOffHint": {
+        "description": "Light mode hint"
+      },
+      "@displayDarkModeOn": {
+        "description": "Dark mode on"
+      },
+      "@displayDarkModeOnHint": {
+        "description": "Dark mode on hint"
+      },
+      "@chatSettingsTitle": {
+        "description": "Chat settings title"
+      },
+      "@chatHistoryTitle": {
+        "description": "Chat history title"
+      },
+      "@chatHistoryClear": {
+        "description": "Clear chat history"
+      },
+      "@chatHistoryClearConfirm": {
+        "description": "Clear chat history confirm"
+      },
+      "@chatHistoryClearSuccess": {
+        "description": "Clear chat history success"
+      },
+      "@accountSecurityTitle": {
+        "description": "Account security title"
+      },
+      "@accountSecurityChangePassword": {
+        "description": "Change password"
+      },
+      "@accountSecurityChangeMobile": {
+        "description": "Change mobile"
+      },
+      "@accountSecurityChangeEmail": {
+        "description": "Change email"
+      },
+      "@accountSecurityLoggedDevices": {
+        "description": "Logged devices"
+      },
+      "@accountSecurityDeactivate": {
+        "description": "Deactivate account"
+      },
+      "@accountSecurityDeactivateConfirm": {
+        "description": "Deactivate confirm"
+      },
+      "@loggedDevicesTitle": {
+        "description": "Logged devices title"
+      },
+      "@loggedDevicesCurrent": {
+        "description": "Current device"
+      },
+      "@loggedDevicesRevoke": {
+        "description": "Revoke device"
+      },
+      "@loggedDevicesRevokeConfirm": {
+        "description": "Revoke device confirm"
+      },
+      "@loggedDevicesRevokeSuccess": {
+        "description": "Revoke device success"
+      },
+      "@loggedDevicesRevokeFailed": {
+        "description": "Revoke device failed"
+      },
+      "@loggedDevicesLastActive": {
+        "description": "Last active"
+      },
+      "@loggedDevicesTypeIos": {
+        "description": "iOS device"
+      },
+      "@loggedDevicesTypeAndroid": {
+        "description": "Android device"
+      },
+      "@loggedDevicesTypeWeb": {
+        "description": "Web device"
+      },
+      "@loggedDevicesTypeDesktop": {
+        "description": "Desktop device"
+      },
+      "@loggedDevicesTypeUnknown": {
+        "description": "Unknown device"
+      },
+      "@privacySettingsTitle": {
+        "description": "Privacy settings title"
+      },
+      "@privacySearchableByMobile": {
+        "description": "Searchable by mobile"
+      },
+      "@privacySearchableByLppId": {
+        "description": "Searchable by lpp id"
+      },
+      "@privacyAllowFriendRequest": {
+        "description": "Allow friend request"
+      },
+      "@privacyProfileVisibility": {
+        "description": "Profile visibility"
+      },
+      "@privacyEveryone": {
+        "description": "Everyone"
+      },
+      "@privacyFriendsOfFriends": {
+        "description": "Friends of friends"
+      },
+      "@privacyNobody": {
+        "description": "Nobody"
+      },
+      "@privacyFriendsOnly": {
+        "description": "Friends only"
+      },
+      "@privacySaveSuccess": {
+        "description": "Privacy save success"
+      },
+      "@privacySaveFailed": {
+        "description": "Privacy save failed"
+      },
+      "@fontSizeTitle": {
+        "description": "Font size title"
+      },
+      "@fontSizeSmall": {
+        "description": "Small font"
+      },
+      "@fontSizeNormal": {
+        "description": "Normal font"
+      },
+      "@fontSizeLarge": {
+        "description": "Large font"
+      },
+      "@fontSizeExtraLarge": {
+        "description": "Extra large font"
+      },
+      "@fontSizePreview": {
+        "description": "Font size preview"
+      },
+      "@chatBackgroundTitle": {
+        "description": "Chat background title"
+      },
+      "@chatBackgroundDefault": {
+        "description": "Default background"
+      },
+      "@chatBackgroundCustom": {
+        "description": "Custom background"
+      },
+      "@chatBackgroundReset": {
+        "description": "Reset background"
+      },
+      "@termsTitle": {
+        "description": "Terms title"
+      },
+      "@privacyPolicyTitle": {
+        "description": "Privacy policy title"
+      },
+      "@recentContactsTitle": {
+        "description": "Recent contacts title"
+      },
+      "@recentContactsEmpty": {
+        "description": "No recent contacts"
+      },
+      "@inviteFriendsTitle": {
+        "description": "Invite friends title"
+      },
+      "@inviteFriendsCopyLink": {
+        "description": "Copy invite link"
+      },
+      "@inviteFriendsLinkCopied": {
+        "description": "Invite link copied"
+      },
+      "@imageViewerTitle": {
+        "description": "Image viewer title"
+      },
+      "@imageViewerSave": {
+        "description": "Save image"
+      },
+      "@imageViewerSaveSuccess": {
+        "description": "Image saved"
+      },
+      "@imageViewerSaveFailed": {
+        "description": "Image save failed"
+      },
+      "@customerServiceTitle": {
+        "description": "Customer service title"
+      },
+      "@customerServiceQueue": {
+        "description": "Queue"
+      },
+      "@customerServiceActive": {
+        "description": "Active"
+      },
+      "@customerServiceClaim": {
+        "description": "Claim"
+      },
+      "@customerServiceTakeover": {
+        "description": "Takeover"
+      },
+      "@customerServiceClose": {
+        "description": "Close service"
+      },
+      "@customerServiceCloseConfirm": {
+        "description": "Close service confirm"
+      },
+      "@customerServiceNoQueue": {
+        "description": "No queue"
+      },
+      "@customerServiceNoActive": {
+        "description": "No active service"
+      },
+      "@customerServiceVisitor": {
+        "description": "Visitor"
+      },
+      "@customerServiceCustomer": {
+        "description": "Customer"
+      },
+      "@customerServiceAssignedTo": {
+        "description": "Assigned to"
+      },
+      "@customerServiceTransferConversation": {
+        "description": "Transfer conversation"
+      },
+      "@marketingToolbar": {
+        "description": "Marketing toolbar"
+      },
+      "@callIncoming": {
+        "description": "Incoming call"
+      },
+      "@callOutgoing": {
+        "description": "Outgoing call"
+      },
+      "@callAccept": {
+        "description": "Accept call"
+      },
+      "@callReject": {
+        "description": "Reject call"
+      },
+      "@callHangup": {
+        "description": "Hangup"
+      },
+      "@callMissed": {
+        "description": "Missed call"
+      },
+      "@callDuration": {
+        "description": "Call duration"
+      },
+      "@callAudio": {
+        "description": "Audio call"
+      },
+      "@callGeneric": {
+        "description": "Generic call label used when media mode is unavailable"
+      },
+      "@callVideo": {
+        "description": "Video call"
+      },
+      "@callConnecting": {
+        "description": "Connecting"
+      },
+      "@callRinging": {
+        "description": "Ringing"
+      },
+      "@callEnded": {
+        "description": "Call ended"
+      },
+      "@callFailed": {
+        "description": "Call failed"
+      },
+      "@callRejected": {
+        "description": "Call rejected"
+      },
+      "@callTimeout": {
+        "description": "Call timeout"
+      },
+      "@callCancelled": {
+        "description": "Call cancelled"
+      },
+      "@callUnknownPeer": {
+        "description": "Unknown call peer"
+      },
+      "@callVideoInvitation": {
+        "description": "Video call invitation"
+      },
+      "@callAudioInvitation": {
+        "description": "Audio call invitation"
+      },
+      "@callAnswerAudio": {
+        "description": "Answer without video"
+      },
+      "@callAnswerVideo": {
+        "description": "Answer with video"
+      },
+      "@callViewProfile": {
+        "description": "View peer profile"
+      },
+      "@callOpeningCamera": {
+        "description": "Opening camera"
+      },
+      "@callWaitingRemoteVideo": {
+        "description": "Waiting for remote video"
+      },
+      "@callCameraOff": {
+        "description": "Camera is off"
+      },
+      "@callCameraOn": {
+        "description": "Camera is on"
+      },
+      "@callMicrophoneOff": {
+        "description": "Microphone is off"
+      },
+      "@callMicrophoneOn": {
+        "description": "Microphone is on"
+      },
+      "@callSpeakerOff": {
+        "description": "Speaker is off"
+      },
+      "@callSpeakerOn": {
+        "description": "Speaker is on"
+      },
+      "@callVideoPermissionFailure": {
+        "description": "Video media permission failure"
+      },
+      "@callAudioPermissionFailure": {
+        "description": "Audio media permission failure"
+      },
+      "@callIncompleteIncoming": {
+        "description": "Incomplete incoming call"
+      },
+      "@callInProgress": {
+        "description": "Call in progress"
+      },
+      "@callCalling": {
+        "description": "Calling status"
+      },
+      "@callEndedMedia": {
+        "description": "Ended call title",
+        "placeholders": {
+          "media": {
+            "type": "String"
+          }
+        }
+      },
+      "@callRejectedMedia": {
+        "description": "Rejected call title",
+        "placeholders": {
+          "media": {
+            "type": "String"
+          }
+        }
+      },
+      "@callUnansweredMedia": {
+        "description": "Unanswered call title",
+        "placeholders": {
+          "media": {
+            "type": "String"
+          }
+        }
+      },
+      "@callCancelledMedia": {
+        "description": "Cancelled call title",
+        "placeholders": {
+          "media": {
+            "type": "String"
+          }
+        }
+      },
+      "@callConnectionLost": {
+        "description": "Call connection lost"
+      },
+      "@callAdminEnded": {
+        "description": "Call ended by administrator"
+      },
+      "@callFailedMedia": {
+        "description": "Failed call title",
+        "placeholders": {
+          "media": {
+            "type": "String"
+          }
+        }
+      },
+      "@callBusy": {
+        "description": "Peer is busy"
+      },
+      "@callDurationValue": {
+        "description": "Call duration value",
+        "placeholders": {
+          "duration": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationMentionMe": {
+        "placeholders": {
+          "body": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationMentionMeBy": {
+        "placeholders": {
+          "sender": {
+            "type": "String"
+          },
+          "body": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationMentionAll": {
+        "placeholders": {
+          "body": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationMentionAllBy": {
+        "placeholders": {
+          "sender": {
+            "type": "String"
+          },
+          "body": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationVideoCallBody": {
+        "placeholders": {
+          "caller": {
+            "type": "String"
+          }
+        }
+      },
+      "@notificationAudioCallBody": {
+        "placeholders": {
+          "caller": {
+            "type": "String"
+          }
+        }
+      },
+      "@callNotConnected": {
+        "description": "Call did not connect"
+      },
+      "@pendingJoinRequestsTitle": {
+        "description": "Pending join requests title"
+      },
+      "@pendingJoinRequestsEmpty": {
+        "description": "No pending requests"
+      },
+      "@pendingJoinRequestApprove": {
+        "description": "Approve request"
+      },
+      "@pendingJoinRequestReject": {
+        "description": "Reject request"
+      },
+      "@pendingJoinRequestApproveSuccess": {
+        "description": "Approve success"
+      },
+      "@pendingJoinRequestRejectSuccess": {
+        "description": "Reject success"
+      },
+      "@pendingJoinRequestFailed": {
+        "description": "Request operation failed"
+      },
+      "@myCustomersTitle": {
+        "description": "My customers title"
+      },
+      "@myCustomersEmpty": {
+        "description": "No customers"
+      },
+      "@groupListTitle": {
+        "description": "Group list title"
+      },
+      "@groupListEmpty": {
+        "description": "No groups"
+      },
+      "@addFriendTitle": {
+        "description": "Add friend page title"
+      },
+      "@addFriendSearchHint": {
+        "description": "Add friend search hint"
+      },
+      "@addFriendLppIdLabel": {
+        "description": "StartLink ID label in search result",
+        "placeholders": {
+          "lppId": {
+            "type": "String"
+          }
+        }
+      },
+      "@addFriendButton": {
+        "description": "Add friend button"
+      },
+      "@addFriendCannotAddSelf": {
+        "description": "Cannot add yourself as a friend"
+      },
+      "@addFriendUnsupportedUser": {
+        "description": "Target user cannot be added as a friend"
+      },
+      "@addFriendMessageHint": {
+        "description": "Add friend message hint"
+      },
+      "@addFriendSendRequest": {
+        "description": "Send friend request"
+      },
+      "@joinCompanyTitle": {
+        "description": "Join company title"
+      },
+      "@joinCompanyCodeHint": {
+        "description": "Join company code hint"
+      },
+      "@joinCompanySearchHint": {
+        "description": "Join company search hint"
+      },
+      "@joinCompanyApply": {
+        "description": "Apply to join"
+      },
+      "@joinCompanyApplySuccess": {
+        "description": "Apply success"
+      },
+      "@joinCompanyApplyFailed": {
+        "description": "Apply failed"
+      },
+      "@joinCompanyAutoApproved": {
+        "description": "Auto approved"
+      },
+      "@joinCompanyPending": {
+        "description": "Join company pending"
+      },
+      "@joinCompanyInviteCodeHint": {
+        "description": "Invite code hint"
+      },
+      "@joinCompanyAcceptInvite": {
+        "description": "Accept invite"
+      },
+      "@joinCompanyNoResults": {
+        "description": "No company results"
+      },
+      "@joinCompanyMemberCount": {
+        "description": "Member count",
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      },
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    },
+    "zh_TW": {
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    },
+    "en": {
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    },
+    "ja": {
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    },
+    "ko": {
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    },
+    "vi": {
+      "@networkLatencyMs": {
+        "description": "Network latency in milliseconds",
+        "placeholders": {
+          "ms": {
+            "type": "int"
+          }
+        }
+      },
+      "@diagnosticsEventCount": {
+        "placeholders": {
+          "count": {
+            "type": "int"
+          }
+        }
+      }
+    }
+  },
+  "overrides": {
+    "zh": {
+      "authQuickLoginSummary": "{count} 个快捷登录账号；凭证由宿主提供。",
+      "authJoinCredentialHint": "请输入邀请码",
+      "authExpandJoin": "加入企业？输入邀请码（可选）",
+      "authJoinNotFound": "邀请码无效或不存在",
+      "authJoinHelp": "输入企业提供的邀请码，可在注册后加入对应企业"
+    },
+    "zh_TW": {
+      "authQuickLoginSummary": "{count} 個快速登入帳號；憑證由宿主提供。",
+      "authJoinCredentialHint": "請輸入邀請碼",
+      "authExpandJoin": "加入企業？輸入邀請碼（選填）",
+      "authJoinNotFound": "邀請碼無效或不存在",
+      "authJoinHelp": "輸入企業提供的邀請碼，可在註冊後加入對應企業"
+    },
+    "en": {
+      "authQuickLoginSummary": "{count} quick-login accounts. Credentials are supplied by the host.",
+      "authJoinCredentialHint": "Enter an invitation code",
+      "authExpandJoin": "Join an enterprise? Enter an invitation code (optional)",
+      "authJoinNotFound": "The invitation code is invalid or does not exist",
+      "authJoinHelp": "Enter an invitation code provided by the enterprise to join after registration."
+    },
+    "ja": {
+      "authQuickLoginSummary": "{count} 件のクイックログインアカウント。認証情報はホストから取得します。",
+      "authJoinCredentialHint": "招待コードを入力",
+      "authExpandJoin": "企業に参加しますか？招待コード（任意）",
+      "authJoinNotFound": "招待コードが無効か、存在しません",
+      "authJoinHelp": "企業から提供された招待コードを入力すると、登録後に参加できます。"
+    },
+    "ko": {
+      "authQuickLoginSummary": "빠른 로그인 계정 {count}개. 인증 정보는 호스트가 제공합니다.",
+      "authJoinCredentialHint": "초대 코드 입력",
+      "authExpandJoin": "기업에 참가하시겠습니까? 초대 코드(선택)",
+      "authJoinNotFound": "초대 코드가 유효하지 않거나 존재하지 않습니다",
+      "authJoinHelp": "기업에서 제공한 초대 코드를 입력하면 가입 후 해당 기업에 참여할 수 있습니다."
+    },
+    "vi": {
+      "authQuickLoginSummary": "{count} tài khoản đăng nhập nhanh. Thông tin xác thực do ứng dụng chủ cung cấp.",
+      "authJoinCredentialHint": "Nhập mã mời",
+      "authExpandJoin": "Tham gia doanh nghiệp? Nhập mã mời (không bắt buộc)",
+      "authJoinNotFound": "Mã mời không hợp lệ hoặc không tồn tại",
+      "authJoinHelp": "Nhập mã mời do doanh nghiệp cung cấp để tham gia sau khi đăng ký."
+    }
+  }
+}

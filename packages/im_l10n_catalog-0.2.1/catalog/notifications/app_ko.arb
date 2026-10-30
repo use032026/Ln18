@@ -1,0 +1,53 @@
+{
+  "@@locale": "ko",
+  "notificationTitle": "알림",
+  "notificationGlobalMute": "방해 금지",
+  "notificationSound": "소리",
+  "notificationVibration": "진동",
+  "notificationPreview": "알림 미리보기",
+  "notificationDndStart": "방해 금지 시작 시간",
+  "notificationDndEnd": "방해 금지 종료 시간",
+  "notificationNewMessageTitle": "새 StartLink 메시지",
+  "notificationOnlineServiceTitle": "고객 서비스 새 메시지",
+  "notificationNewMessageBody": "새 메시지를 받았습니다",
+  "notificationImagePreview": "이미지를 보냈습니다",
+  "notificationVideoPreview": "동영상을 보냈습니다",
+  "notificationVoicePreview": "음성 메시지를 보냈습니다",
+  "notificationFilePreview": "파일을 보냈습니다",
+  "notificationContactPreview": "연락처 카드를 보냈습니다",
+  "notificationCallLogPreview": "통화 기록을 보냈습니다",
+  "notificationLocationPreview": "위치를 공유했습니다",
+  "notificationLinkPreview": "링크를 공유했습니다",
+  "notificationMentionMe": "나를 멘션했습니다: {body}",
+  "notificationMentionMeBy": "{sender}님이 나를 멘션했습니다: {body}",
+  "notificationMentionAll": "모두를 멘션했습니다: {body}",
+  "notificationMentionAllBy": "{sender}님이 모두를 멘션했습니다: {body}",
+  "notificationSecurityTitle": "계정 보안 알림",
+  "notificationSecurityBody": "StartLink 계정 보안 설정이 변경되었습니다. 지금 확인하세요.",
+  "notificationFriendAcceptedTitle": "친구 요청이 수락됨",
+  "notificationFriendRejectedTitle": "친구 요청이 거절됨",
+  "notificationFriendAcceptedBody": "상대방이 친구 요청을 수락했습니다",
+  "notificationFriendRejectedBody": "상대방이 친구 요청을 거절했습니다",
+  "notificationVideoCallTitle": "영상 통화 초대",
+  "notificationAudioCallTitle": "음성 통화 초대",
+  "notificationVideoCallBody": "{caller}님이 영상 통화에 초대했습니다",
+  "notificationAudioCallBody": "{caller}님이 음성 통화에 초대했습니다",
+  "notificationMessageChannelName": "메시지",
+  "notificationMessageChannelDescription": "채팅 메시지, 통화 기록 및 시스템 알림",
+  "notificationCallChannelName": "통화",
+  "notificationCallChannelDescription": "음성 및 영상 통화 알림",
+  "notificationSecurityChannelName": "계정 보안",
+  "notificationSecurityChannelDescription": "로그인, 비밀번호 및 휴대폰 번호 변경 알림",
+  "notificationUnknownCaller": "알 수 없는 발신자",
+  "notificationBadgeChannelName": "메시지 배지",
+  "notificationBadgeChannelDescription": "앱 아이콘에 읽지 않은 메시지 수를 표시합니다",
+  "notificationBadgeUnreadCount": "읽지 않은 메시지 {count}개",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "읽지 않은 메시지 99+개"
+}

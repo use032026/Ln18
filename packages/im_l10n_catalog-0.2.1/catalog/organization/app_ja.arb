@@ -1,0 +1,626 @@
+{
+  "@@locale": "ja",
+  "enterpriseInfoTitle": "企業情報",
+  "enterpriseName": "企業名",
+  "enterpriseDescription": "企業概要",
+  "enterpriseUpdateSuccess": "更新しました",
+  "enterpriseUpdateFailed": "更新に失敗しました。もう一度お試しください",
+  "enterpriseLeave": "企業を退出",
+  "enterpriseLeaveConfirm": "この企業を退出しますか？",
+  "enterpriseLeaveSuccess": "企業を退出しました",
+  "enterpriseLeaveFailed": "退出に失敗しました。もう一度お試しください",
+  "enterpriseLeaveOwnerError": "オーナーは直接退出できません。先にオーナー権限を譲渡してください。",
+  "enterpriseMemberCount": "メンバー数",
+  "enterpriseCreatedAt": "作成日",
+  "enterpriseCode": "企業コード",
+  "enterpriseInviteMembers": "メンバーを招待",
+  "enterpriseCopyInviteCode": "招待コードをコピー",
+  "enterpriseInviteCodeCopied": "招待コードをコピーしました",
+  "groupCreateTitle": "グループを作成",
+  "groupNameHint": "グループ名を入力してください",
+  "groupCreateSuccess": "グループを作成しました",
+  "groupCreateFailed": "グループの作成に失敗しました",
+  "groupSettings": "グループ設定",
+  "groupName": "グループ名",
+  "groupAvatar": "グループアイコン",
+  "groupAnnouncement": "お知らせ",
+  "groupMembers": "メンバー",
+  "groupAddMember": "メンバーを追加",
+  "groupRemoveMember": "メンバーを削除",
+  "groupRemoveMemberConfirm": "このメンバーを削除しますか？",
+  "groupSetAdmin": "管理者に設定",
+  "groupRemoveAdmin": "管理者を解除",
+  "groupTransferOwner": "オーナーを譲渡",
+  "groupTransferOwnerConfirm": "このメンバーにオーナーを譲渡しますか？",
+  "groupTransferOwnerSuccess": "オーナーを譲渡しました",
+  "groupTransferOwnerFailed": "譲渡に失敗しました。もう一度お試しください",
+  "groupLeave": "グループを退出",
+  "groupLeaveConfirm": "このグループを退出しますか？",
+  "groupLeaveSuccess": "グループを退出しました",
+  "groupLeaveFailed": "退出に失敗しました。もう一度お試しください",
+  "groupDissolve": "グループを解散",
+  "groupDissolveConfirm": "このグループを解散しますか？全メンバーが削除されます。",
+  "groupDissolveSuccess": "グループを解散しました",
+  "groupDissolveFailed": "解散に失敗しました。もう一度お試しください",
+  "groupQrCode": "グループQRコード",
+  "groupMuteAll": "全員ミュート",
+  "groupMuteAllOn": "全員ミュートをオン",
+  "groupMuteAllOff": "全員ミュートをオフ",
+  "groupAllowMemberInvite": "メンバーの招待を許可",
+  "groupAllowMemberModifyTitle": "メンバーのグループ名変更を許可",
+  "groupAllowMemberAtAll": "メンバーの@全員を許可",
+  "groupAllowMemberViewMemberList": "メンバーリストの閲覧を許可",
+  "groupAllowQrCodeJoin": "QRコードでの参加を許可",
+  "groupRequireApproval": "参加に承認が必要",
+  "groupAllowMemberAddFriend": "メンバー同士の友達追加を許可",
+  "groupRoleOwner": "オーナー",
+  "groupRoleAdmin": "管理者",
+  "groupRoleMember": "メンバー",
+  "groupNoMembers": "メンバーがいません",
+  "groupNoAnnouncements": "お知らせはありません",
+  "groupCreateAnnouncement": "お知らせを投稿",
+  "groupEditAnnouncement": "お知らせを編集",
+  "groupDeleteAnnouncement": "お知らせを削除",
+  "groupDeleteAnnouncementConfirm": "このお知らせを削除しますか？",
+  "groupAnnouncementTitle": "タイトル",
+  "groupAnnouncementContent": "内容",
+  "groupAnnouncementPin": "お知らせをピン留め",
+  "groupMemberCount": "{count}人",
+  "groupSelectedCount": "{count}人を選択中",
+  "groupJoinRequestApprove": "承認",
+  "groupJoinRequestReject": "拒否",
+  "groupJoinRequests": "参加申請",
+  "groupNoJoinRequests": "参加申請はありません",
+  "groupReadReceipts": "既読確認",
+  "groupReadCount": "{count}人が既読",
+  "groupUnreadCount": "{count}人が未読",
+  "organizationTitle": "組織図",
+  "organizationEmpty": "部門情報がありません",
+  "organizationMembers": "メンバー",
+  "organizationDepartment": "部門",
+  "organizationPosition": "役職",
+  "organizationLeader": "リーダー",
+  "qrCodeTitle": "マイQRコード",
+  "qrCodeSave": "アルバムに保存",
+  "qrCodeShare": "共有",
+  "qrCodeSaveSuccess": "アルバムに保存しました",
+  "qrCodeSaveFailed": "保存に失敗しました。もう一度お試しください",
+  "qrCodeRefresh": "QRコードを更新",
+  "qrCodeExpired": "QRコードの有効期限が切れました。更新してください",
+  "qrCodeScanToAdd": "QRコードをスキャンして友達追加",
+  "spacePersonal": "個人スペース",
+  "spaceEnterprise": "企業スペース",
+  "spaceJoinByCode": "企業コードで参加",
+  "spaceJoinByInvite": "招待コードで参加",
+  "spaceEnterCode": "企業コードを入力してください",
+  "spaceEnterInviteCode": "招待コードを入力してください",
+  "spaceSearchEnterprise": "企業を検索",
+  "spaceJoinRequestSent": "申請を送りました。承認をお待ちください",
+  "spaceJoinRequestPending": "承認待ちです",
+  "spaceJoinRequestApproved": "申請が承認されました",
+  "spaceJoinRequestRejected": "申請が拒否されました",
+  "spaceAlreadyMember": "すでにメンバーです",
+  "spaceAutoApproved": "自動承認されました。ようこそ！",
+  "spacePendingApprovalHint": "登録が完了しました。参加申請が提出され、承認待ちです。",
+  "spaceNoSpaces": "スペースがありません",
+  "spaceInviteExpired": "招待コードの有効期限が切れています",
+  "spaceInviteTargetMismatch": "この招待コードはあなたのアカウントには使用できません",
+  "spaceAcceptInviteSuccess": "企業に参加しました",
+  "spaceAcceptInviteFailed": "参加に失敗しました。もう一度お試しください",
+  "spaceTenantSelectTitle": "スペースを選択",
+  "spaceTenantSelectHint": "入るスペースを選択してください",
+  "spaceEnterPersonal": "個人スペースに入る",
+  "spaceEnterEnterprise": "企業スペースに入る",
+  "recentContactsTitle": "最近の連絡先",
+  "recentContactsEmpty": "最近の連絡先はありません",
+  "inviteFriendsTitle": "友達を招待",
+  "inviteFriendsCopyLink": "招待リンクをコピー",
+  "inviteFriendsLinkCopied": "招待リンクをコピーしました",
+  "pendingJoinRequestsTitle": "新しい申請",
+  "pendingJoinRequestsEmpty": "申請はありません",
+  "pendingJoinRequestApprove": "承認",
+  "pendingJoinRequestReject": "拒否",
+  "pendingJoinRequestApproveSuccess": "承認しました",
+  "pendingJoinRequestRejectSuccess": "拒否しました",
+  "pendingJoinRequestFailed": "操作に失敗しました。もう一度お試しください",
+  "groupListTitle": "グループ一覧",
+  "groupListEmpty": "グループがありません",
+  "joinCompanyTitle": "企業に参加",
+  "joinCompanyCodeHint": "企業コードを入力してください",
+  "joinCompanySearchHint": "企業名を検索",
+  "joinCompanyApply": "参加申請",
+  "joinCompanyApplySuccess": "申請を送りました",
+  "joinCompanyApplyFailed": "申請に失敗しました。もう一度お試しください",
+  "joinCompanyAutoApproved": "自動承認されました。ようこそ！",
+  "joinCompanyPending": "申請を送りました。承認をお待ちください",
+  "joinCompanyInviteCodeHint": "招待コードを入力してください",
+  "joinCompanyAcceptInvite": "招待を承認",
+  "joinCompanyNoResults": "企業が見つかりません",
+  "joinCompanyMemberCount": "{count}名",
+  "approvalEmpty": "申請はありません",
+  "approvalApprove": "承認",
+  "approvalReject": "拒否",
+  "approvalPending": "承認待ち",
+  "approvalApproved": "承認済み",
+  "approvalRejected": "拒否済み",
+  "approvalExpired": "期限切れ",
+  "approvalCancelled": "取り消し済み",
+  "approvalReplayFailed": "元の操作に失敗しました。もう一度実行してください。",
+  "requestCancelled": "申請を取り消しました",
+  "enterpriseNoPermission": "権限がありません",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "企業情報の設定",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "企業設定",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "公式アカウント",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "公式アカウント管理",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "メンバー管理",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "従業員を招待",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "メンバー一覧",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "お知らせ管理",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "企業一斉送信",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "承認",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "参加申請の承認",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "所有権を譲渡",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "譲渡後は管理者となり、取り消しはできません。メンバー一覧から新しい所有者を選択してください。",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "新しい所有者を選択",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "サポート担当の割り当て方式",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "自動割り当て",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "担当者を指定",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "参加承認方式",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "手動承認",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "自動承認",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "友だちモード",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "交流モード",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "分離モード",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Widget訪問者機能",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "無効",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "対応可能な担当者へ順番に自動割り当て",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "すべての顧客を指定担当者へ割り当て",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "顧客の申請には管理者の承認が必要",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "顧客の申請を自動承認",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "顧客同士で友だちを追加できます",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "顧客同士での友だち追加は禁止されています",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "一般メンバー",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "メンバーを検索",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "一般メンバーに設定",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "技術サポートに設定",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "サポート担当に設定",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "譲渡を確定",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "企業名を入力してください",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "企業名を入力",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "紹介はありません",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "企業ロゴ",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "生成できませんでした。再試行してください。",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "使用回数の上限",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "有効期間",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1時間",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24時間",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3日",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7日",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "招待コードを生成",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "招待コード",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "全員",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "従業員",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "従業員・役割・職位を検索",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "企業メンバー",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "一致するメンバーはいません",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "企業概要",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "管理",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "役割と権限",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "退職時の引き継ぎ",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "従業員を検索",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "企業の従業員",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "友だちのプロフィール",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "音声・ビデオ通話",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "友だちを追加",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "男性",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "女性",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "未読の会話はありません",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "企",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "招待コードをコピーしました",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "「{name}」を企業から削除しますか？",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "所有権を「{name}」に譲渡しますか？譲渡後は管理者となり、取り消しはできません。",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count} 回",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "有効期間 {hours} 時間 · 最大 {count} 回",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "未読の会話 {count} 件",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "未読メッセージ {count} 件",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} {count}人",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble ID：{value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "企業を退出",
+  "enterpriseLoginBeforeSearch": "組織を検索するには先にログインしてください",
+  "enterpriseSearchFailed": "検索できませんでした。再度お試しください。",
+  "enterpriseLoginBeforeJoin": "組織への参加を申請するには先にログインしてください",
+  "enterpriseApplicationPending": "申請を送信しました。管理者の承認をお待ちください。",
+  "enterpriseLoginBeforeAction": "続行するにはログインしてください",
+  "enterprisePlatformTagline": "組織向けのプライベートな顧客交流プラットフォーム",
+  "enterpriseLookupHint": "組織番号、別名、または招待コードを入力",
+  "enterpriseLookup": "検索",
+  "enterpriseApplicationNote": "申請メッセージ（任意）",
+  "enterpriseLookupGuide": "組織番号や別名で検索するか、招待コードで参加できます",
+  "enterpriseRecommendationsLoading": "おすすめの組織を読み込み中",
+  "enterpriseRecommendationsFailed": "おすすめの組織を読み込めませんでした",
+  "enterpriseReload": "再読み込み",
+  "enterpriseNoRecommendations": "おすすめの組織はありません。組織番号、別名、または招待コードで検索してください。",
+  "enterpriseRecommended": "おすすめの組織",
+  "enterpriseJoined": "参加済み",
+  "enterpriseRequestsLoadFailed": "申請履歴を読み込めませんでした",
+  "enterpriseCodeMissing": "組織番号を利用できません",
+  "enterpriseAlias": "組織の別名",
+  "enterpriseCodeLabel": "組織番号",
+  "enterprisePrivateAliasHint": "この組織の情報は公開されていません。申請時にこの別名で対象の組織を確認します。",
+  "enterpriseInvitationMismatch": "この招待コードはあなた宛てではないため、参加できない場合があります",
+  "enterpriseTechnicalRole": "テクニカルサポート",
+  "enterpriseJoin": "参加",
+  "enterpriseCancelApplication": "申請を取り消す",
+  "enterpriseApplication": "組織への申請",
+  "enterpriseAliasValue": "組織の別名：{alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "組織番号：{code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "別名：{alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "{role}として参加します",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "この招待コードの宛先：{target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "却下理由：{reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "組織 {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "別",
+  "enterpriseCompanyInitial": "企",
+  "enterpriseAudienceAll": "全員",
+  "enterpriseAudienceAllHint": "従業員と顧客",
+  "enterpriseAudienceStaffHint": "組織の従業員のみ",
+  "enterpriseAudienceCustomers": "組織の顧客",
+  "enterpriseAudienceCustomersHint": "組織に参加済みの顧客",
+  "enterpriseOfficialGroups": "公式グループ",
+  "enterpriseAudienceGroupsHint": "組織の公式グループチャット",
+  "enterpriseSendNow": "今すぐ送信",
+  "enterpriseSendScheduled": "送信予約",
+  "enterprisePreviewing": "プレビュー中",
+  "enterprisePreview": "プレビュー",
+  "enterpriseSubmitSend": "送信を依頼",
+  "enterpriseBroadcastSubmitted": "組織の一斉送信タスクを送信しました",
+  "enterpriseScheduledUnavailable": "このバージョンでは組織の一斉送信予約を利用できません",
+  "enterpriseBroadcastFailed": "組織の一斉送信に失敗しました。しばらくしてから再度お試しください。",
+  "enterpriseBroadcastGuide": "組織の公式アカウントで一斉送信し、操作を記録します。依頼後に配信結果を確認できます。",
+  "enterpriseSenderIdentity": "送信者",
+  "enterpriseSenderAfterPreview": "プレビューで確認",
+  "enterpriseSenderConfirmed": "確認済み",
+  "enterpriseDefaultOfficialSender": "組織の既定の公式アカウント",
+  "enterpriseOfficialSenderHint": "受信者には組織の公式アカウントが表示されます",
+  "enterpriseMessageContent": "メッセージ内容",
+  "enterpriseBroadcastContentHint": "公式アカウントから一斉送信する内容を入力",
+  "enterpriseInternalNoteHint": "監査と確認のための内部メモ（任意）",
+  "enterpriseSendPreview": "送信プレビュー",
+  "enterpriseExpectedRecipients": "推定受信者数",
+  "enterpriseDeliveryMethod": "送信方法",
+  "enterpriseTaskStatus": "タスクの状態",
+  "enterpriseNoBroadcastHistory": "組織の一斉送信履歴はまだありません",
+  "enterpriseHistoryUnavailable": "一時的に利用できません",
+  "enterpriseBroadcastDenied": "組織の一斉送信を行う権限がありません",
+  "enterpriseBroadcastRoleHint": "組織の一斉送信は管理者と所有者のみ利用できます。",
+  "enterpriseDefaultApplicationMessage": "貴組織への参加を希望します"
+}

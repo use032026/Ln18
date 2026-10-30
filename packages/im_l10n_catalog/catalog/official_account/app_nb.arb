@@ -1,0 +1,112 @@
+{
+  "@@locale": "nb",
+  "officialAccountBadge": "Offisiell",
+  "officialAccountOpenConversation": "Åpne samtale",
+  "officialAccountJoinHint": "Når du legger til denne kontoen, blir du med i bedriften som kunde. Vennegodkjenning kreves ikke.",
+  "officialAccountJoinDisabled": "Denne bedriften tar ikke imot nye kunder. Kontakt støtte.",
+  "officialAccountRemoved": "Du er fjernet fra bedriften. Be den invitere deg på nytt.",
+  "officialAccountBanned": "Kontoen din er deaktivert i denne bedriften.",
+  "officialAccountUnavailable": "Denne offisielle kontoen er utilgjengelig akkurat nå.",
+  "officialAccountJoinBindingDisabled": "Det er ikke tillatt å bli med i en bedrift i denne modusen.",
+  "officialAccountPlatformRequired": "Bruk en plattformkonto for å legge til denne offisielle kontoen.",
+  "officialAccountOpenFailed": "Samtalen kunne ikke åpnes. Prøv igjen.",
+  "officialAccountAccountChanged": "Kontoen eller området er endret. Åpne på nytt.",
+  "officialAccountDirectoryUnavailable": "Bedriftskatalogen er ikke oppdatert. Prøv om litt.",
+  "officialAccountInboxSyncFailed": "Synkronisering av offisiell konto mislyktes. Lokalt innhold er fortsatt tilgjengelig.",
+  "officialAccountInboxSyncing": "Synkroniserer meldinger fra offisiell konto",
+  "officialIdentityQr": "Offisiell kontoprofil og QR-kode",
+  "officialIdentityHint": "Administrer den offisielle identiteten kundene dine ser",
+  "officialEditProfile": "Rediger profil",
+  "officialSetIdentityHint": "Angi offisielt kontonummer, navn og profilbilde",
+  "officialQrTitle": "Offisiell kontos QR-kode",
+  "officialViewReset": "Vis eller tilbakestill",
+  "officialAutoJoin": "Bli automatisk med i organisasjonen når du legger til den offisielle kontoen",
+  "officialAutoJoinHint": "Kunder blir automatisk med i organisasjonens kundeområde når de legger til den offisielle kontoen",
+  "officialConversationFeatures": "Samtalefunksjoner",
+  "officialConversationSettingsHint": "Endringer påvirker kundenes offisielle samtaler umiddelbart",
+  "officialServiceMenu": "Tjenestemeny",
+  "officialServiceMenuHint": "Vis kundene menyen som er konfigurert i datamaskinkonsollen",
+  "officialWelcomeOnFirstContact": "Velkomst ved første kontakt",
+  "officialWelcomeMessage": "Velkomstmelding",
+  "officialHumanSupport": "Overføring til menneskelige kundebehandlere",
+  "officialReceptionModeHint": "Nye eller gjenåpnede mottak bruker den valgte modusen. Aktive samtaler beholder den nåværende modusen.",
+  "officialReceptionMode": "Kundebehandlerens mottaksmodus",
+  "officialReceptionInOfficial": "I samtalen med den offisielle kontoen",
+  "officialReceptionLegacy": "Separat kundebehandlerchat (eldre modus)",
+  "officialServiceNotice": "Mottaksmelding",
+  "officialServiceNoticeText": "Tekst for mottaksmelding",
+  "officialAutoHandoff": "Automatisk overføring til kundebehandler",
+  "officialAutoHandoffHint": "Tildel en kundebehandler når en kunde sender melding til den offisielle kontoen",
+  "officialForwardCustomerText": "Videresend kundens melding",
+  "officialForwardCustomerTextHint": "Send kundens melding videre til den tildelte kundebehandleren etter overføringen",
+  "officialSyncAgentReplies": "Synkroniser kundebehandlersvar til den offisielle kontoen",
+  "officialSyncAgentRepliesHint": "Send kundebehandlersvar tilbake til den offisielle samtalen i eldre modus",
+  "officialHandoffCooldown": "Intervall mellom overføringsvarsler",
+  "officialAssignedNotice": "Melding om tildelt kundebehandler",
+  "officialQueuedNotice": "Kømelding",
+  "officialDesktopManagementHint": "Administrer menystruktur, passord og offisielle grupper i datamaskinkonsollen.",
+  "officialSaveFailed": "Kunne ikke lagre. Prøv igjen senere.",
+  "officialCooldownRange": "Område: 0–1440 minutter",
+  "officialMenuItems": "Menyelementer",
+  "officialMenuVersion": "Menyversjon",
+  "officialEnabled": "Aktivert",
+  "officialManageDenied": "Denne kontoen kan ikke administrere offisielle kontoer",
+  "officialSettingsLoadFailed": "Innstillinger for offisiell konto kunne ikke lastes",
+  "officialProfileSaved": "Offisiell kontoprofil lagret",
+  "officialProfileTitle": "Offisiell kontoprofil",
+  "officialDisplayName": "Visningsnavn",
+  "officialAvatarUrl": "Profilbildets URL",
+  "officialAvatarLogoFallback": "La stå tomt for å bruke organisasjonens logo",
+  "officialIdHint": "6–10 sifre; la stå tomt for å fjerne koblingen",
+  "officialResetQr": "Tilbakestill QR-kode",
+  "officialResetQrConfirm": "Den gamle QR-koden slutter å virke umiddelbart. Tilbakestille?",
+  "officialReset": "Nullstill",
+  "officialQrNotGenerated": "Ingen QR-kode er generert",
+  "officialQrLoadFailed": "QR-koden kunne ikke lastes. Prøv igjen.",
+  "officialGenerate": "Generer",
+  "officialMenuCustomerOnly": "Kontakt med støtte er bare tilgjengelig for kunder",
+  "officialMenuUpdated": "Menyen er endret. Prøv igjen.",
+  "officialMenuActionFailed": "Handlingen mislyktes. Kontroller forbindelsen og prøv igjen.",
+  "officialMenuLoadFailed": "Tjenestemenyen kunne ikke lastes",
+  "officialMenuRefreshFailed": "Tjenestemenyen kunne ikke oppdateres",
+  "officialAccountIdValue": "Offisiell konto {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minutt} other {{count} minutter}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Støtter plassholderne {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Brukt {count} gang} other {Brukt {count} ganger}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Navnet må inneholde 1–64 tegn",
+  "officialIdFormatInvalid": "Offisielt kontonummer må være 6–10 sifre"
+}

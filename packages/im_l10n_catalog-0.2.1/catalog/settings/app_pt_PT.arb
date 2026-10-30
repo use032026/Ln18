@@ -1,0 +1,471 @@
+{
+  "@@locale": "pt_PT",
+  "settingsTitle": "Definições",
+  "settingsSectionEnterprise": "Empresa",
+  "settingsSectionAccount": "Conta",
+  "settingsSectionGeneral": "Geral",
+  "settingsSectionFeatures": "Recursos",
+  "settingsSectionAbout": "Sobre",
+  "settingsEnterpriseInfo": "Informações da empresa",
+  "settingsProfile": "Informação do perfil",
+  "settingsAccountSecurity": "Segurança da conta",
+  "settingsNotification": "Notificações",
+  "settingsDisplay": "Exibição",
+  "settingsFriendPrivacy": "Privacidade",
+  "settingsChat": "Conversa",
+  "settingsChatHistory": "Histórico de conversas",
+  "settingsAbout": "Sobre o StartLink",
+  "settingsLanguage": "Idioma do Sistema",
+  "settingsTimezone": "Fuso horário",
+  "settingsAutoTranslate": "Tradução automática",
+  "settingsNetworkSwitch": "Mudar Linha",
+  "aboutTitle": "Sobre o StartLink",
+  "aboutVersion": "Versão",
+  "aboutTerms": "Termos de Serviço",
+  "aboutPrivacy": "Política de Privacidade",
+  "aboutOpenSource": "Licenças de código aberto",
+  "aboutCheckUpdate": "Verificar atualizações",
+  "aboutLatestVersion": "Já é a versão mais recente",
+  "aboutUpdateAvailable": "Nova versão disponível",
+  "aboutUpdateNow": "Atualizar agora",
+  "aboutUpdateLater": "Mais tarde",
+  "networkTitle": "Mudar Linha",
+  "networkAutoSelect": "Automático",
+  "networkManual": "Manual",
+  "timezoneTitle": "Fuso horário",
+  "timezoneAuto": "Seguir o sistema",
+  "displayTitle": "Exibição",
+  "displayFontSize": "Tamanho da Fonte",
+  "displayChatBackground": "Plano de fundo da conversa",
+  "displayDarkMode": "Aparência",
+  "displayDarkModeSystem": "Seguir o sistema",
+  "displayDarkModeSystemHint": "Alternar automaticamente conforme a definição do sistema",
+  "displayDarkModeOff": "Claro",
+  "displayDarkModeOffHint": "Usar sempre o tema claro",
+  "displayDarkModeOn": "Escuro",
+  "displayDarkModeOnHint": "Usar sempre o tema escuro",
+  "accountSecurityTitle": "Segurança da conta",
+  "accountSecurityChangePassword": "Alterar palavra-passe",
+  "accountSecurityChangeMobile": "Alterar número de telemóvel",
+  "accountSecurityChangeEmail": "Alterar e-mail",
+  "accountSecurityLoggedDevices": "Dispositivos ligados",
+  "accountSecurityDeactivate": "Eliminar conta",
+  "accountSecurityDeactivateConfirm": "Todos os dados serão eliminados permanentemente após 7 dias. Eliminar a conta?",
+  "loggedDevicesTitle": "Dispositivos ligados",
+  "loggedDevicesCurrent": "Este dispositivo",
+  "loggedDevicesRevoke": "Sair",
+  "loggedDevicesRevokeConfirm": "Sair deste dispositivo?",
+  "loggedDevicesRevokeSuccess": "Dispositivo desligado",
+  "loggedDevicesRevokeFailed": "Falha. Tente de novo.",
+  "loggedDevicesLastActive": "Última atividade",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Desktop",
+  "loggedDevicesTypeUnknown": "Dispositivo desconhecido",
+  "fontSizeTitle": "Tamanho da Fonte",
+  "fontSizeSmall": "Pequeno",
+  "fontSizeNormal": "Padrão",
+  "fontSizeLarge": "Grande",
+  "fontSizeExtraLarge": "Extra Grande",
+  "fontSizePreview": "Prévia",
+  "timezoneNameHawaii": "Havaí",
+  "timezoneNameAlaska": "Alasca",
+  "timezoneNamePacificTime": "Horário do Pacífico",
+  "timezoneNameMountainTime": "Horário das Montanhas",
+  "timezoneNameCentralTime": "Horário Central",
+  "timezoneNameEasternTime": "Horário do Leste",
+  "timezoneNameAtlanticTime": "Horário do Atlântico",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Açores",
+  "timezoneNameLondonDublin": "Londres/Dublin",
+  "timezoneNameBerlinParisRome": "Berlim/Paris/Roma",
+  "timezoneNameCairoHelsinki": "Cairo/Helsinque",
+  "timezoneNameMoscowRiyadh": "Moscou/Riad",
+  "timezoneNameTehran": "Teerã",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Cabul",
+  "timezoneNameKarachiTashkent": "Carachi/Tashkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/Nova Délhi",
+  "timezoneNameKathmandu": "Catmandu",
+  "timezoneNameDhakaAlmaty": "Daca/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanói/Jacarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Pequim/Xangai/Hong Kong/Taipé",
+  "timezoneNameTokyoSeoul": "Tóquio/Seul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Ilhas Salomão",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Selecionar a melhor rota automaticamente",
+  "networkTesting": "A testar…",
+  "networkTestingShort": "A testar",
+  "networkLatencyMs": "Latência {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Modo de ligação",
+  "networkDirectMode": "Modo direto",
+  "networkProxyMode": "Modo proxy",
+  "networkDirectModeDesc": "Ligar diretamente ao servidor",
+  "networkProxyModeDesc": "Ligar por um servidor proxy",
+  "networkDirectRoutes": "Rotas diretas",
+  "networkProxyRoutes": "Rotas proxy",
+  "networkTestAll": "Testar todas",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Nó de Hong Kong",
+  "networkSingaporeNode": "Nó de Singapura",
+  "networkJapanNode": "Nó do Japão",
+  "networkUnitedStatesNode": "Nó dos Estados Unidos",
+  "networkHint": "Dicas:\n• Modo direto: mais rápido e adequado ao uso nacional\n• Modo proxy: mais estável para comunicação internacional\n• Toque no ícone de atualizar para testar a latência de uma rota",
+  "diagnosticsTitle": "Diagnóstico",
+  "diagnosticsExplanation": "Os registos são expurgados e contêm informações operacionais e de erros desta conta e espaço, além de eventos públicos de arranque. O conteúdo das conversas e as credenciais são excluídos.",
+  "diagnosticsHour": "Última hora",
+  "diagnosticsDay": "Últimas 24 horas",
+  "diagnosticsWeek": "Últimos 7 dias",
+  "diagnosticsEventCount": "Eventos disponíveis: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Os registos são guardados neste dispositivo e continuam disponíveis após reiniciar.",
+  "diagnosticsNotPersistent": "Alguns registos não foram guardados. Atualize para tentar novamente.",
+  "diagnosticsExport": "Exportar e partilhar",
+  "diagnosticsRefresh": "Atualizar",
+  "diagnosticsClear": "Limpar registos deste espaço",
+  "diagnosticsClearConfirm": "Limpar os registos de diagnóstico deste espaço? O histórico de conversas será mantido.",
+  "diagnosticsShared": "Partilha do sistema concluída. Confirme o ficheiro na aplicação destinatária.",
+  "diagnosticsCancelled": "Partilha cancelado. Pode exportar novamente.",
+  "diagnosticsUnconfirmed": "Não foi possível confirmar a partilha. Verifique a aplicação destinatária.",
+  "diagnosticsFailed": "Falha na operação. Tente de novo.",
+  "settingsDeleteWarning": "Eliminar a sua conta remove todas as participações em empresas. O histórico de mensagens não poderá ser recuperado.\n\nTem um período de arrependimento de 7 dias e pode entrar novamente para cancelar a eliminação.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Continuar eliminação",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Confirmação final",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Eliminar a sua conta? A eliminação será permanente após 7 dias.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Motivo da eliminação (opcional)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Eliminação solicitada. Entre em até 7 dias para cancelar.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Confirmar Cancelamento da Conta",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Não foi possível eliminar a conta. Tente de novo.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Utilizadores bloqueados não podem enviar mensagens para si nem ver o seu perfil e atualizações.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Conversa",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Pressionar Enter para enviar",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Falha ao carregar, toque para tentar novamente",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Consentimento para notificações de mensagens",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Concordou",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Não concordou",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Permissão de notificações do sistema",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Ativado",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Desativada",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Desconhecido",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Não compatível",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "A verificar",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Falha na verificação",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Chamadas recebidas em ecrã inteiro",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Toque para verificar e permitir",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Alertas de chamada em ecrã inteiro ativados",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Permita alertas de chamada em ecrã inteiro nas definições do sistema.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Horário do Não perturbe",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Não definido",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Ativar notificações de mensagens",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Quando ativado, o JPush/JCore e os serviços de notificações do dispositivo podem tratar informações do dispositivo, identificadores de notificações e informações de entrega para alertas de mensagens, apoio ao cliente e chamadas. Pode desativar as notificações nas definições do sistema.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "As notificações ainda estão desativadas. Permita as notificações Weijie nas definições do sistema.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (noite)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Desativar Não perturbe",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Não testada",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Indisponível",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Rota de reserva principal",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Rota indisponível. Sua rota atual foi mantida.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Sites disponíveis",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Não foi possível atualizar as rotas. Sua rota atual foi mantida.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "A atualizar",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Atualizar sites",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "As rotas provêm de uma configuração oficial verificada. No arranque, é restaurada a última rota antes da atualização a partir das fontes atuais, em cache, iniciais e S3/R2. A seleção manual tem prioridade; as falhas mantêm a rota atual.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Dispositivo desconhecido",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Sair",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Atual",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Não foi possível carregar os dispositivos",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Nenhum dispositivo ligado",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Prévia",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Este texto mostra a prévia do tamanho da fonte. Escolha um tamanho confortável para conversar.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Todos os direitos reservados",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Exemplo de tradução",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (inglês)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Idioma de destino",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Dicas:\n• A tradução automática usa IA\n• As traduções são apenas para referência e podem conter erros\n• O original e a tradução aparecem na conversa\n• Segure uma mensagem e escolha «Mostrar original»",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Plano de fundo padrão",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Branco",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Cinza claro",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Bege",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Azul claro",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Verde claro",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Rosa claro",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Roxo claro",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Imagem personalizada",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Plano de fundo desta conversa",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Plano de fundo das conversas",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Alterar imagem personalizada",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Escolher das fotografias",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Definir",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Usar plano de fundo global das conversas",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Tradução ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Sair de «{name}»?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sessão} other {{count} sessões}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Última atividade {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Diagnóstico do desenvolvedor",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Rede indisponível. Verifique as definições de rede.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

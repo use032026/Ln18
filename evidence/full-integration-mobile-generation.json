@@ -1,0 +1,22 @@
+[
+  {
+    "step": "sync",
+    "command": [
+      "python3",
+      "tool/sync_l10n.py",
+      "--catalog-root",
+      "/Users/starburst/Desktop/Ln18/packages/im_l10n_catalog"
+    ],
+    "exitCode": 0,
+    "seconds": 1.06
+  },
+  {
+    "step": "gen-l10n",
+    "command": [
+      ".fvm/flutter_sdk/bin/flutter",
+      "gen-l10n"
+    ],
+    "exitCode": 0,
+    "seconds": 1.99
+  }
+]

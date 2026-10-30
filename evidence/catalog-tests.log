@@ -1,0 +1,22 @@
+cwd: packages/im_l10n_catalog
+command: ["dart", "test", "--reporter=expanded"]
+
+00:00 +0: loading test/generator_test.dart
+00:00 +0: test/generator_test.dart: selects language/module/key and preserves typed ICU metadata
+00:00 +1: test/generator_test.dart: reads parameter metadata from default locale when only en is selected
+00:00 +2: test/generator_test.dart: supports a key allowlist within selected modules
+00:00 +3: test/generator_test.dart: regeneration removes old locales and old generated Dart
+00:00 +4: test/generator_test.dart: rejects catalog and pubspec version drift
+00:00 +5: test/generator_test.dart: rejects unknown modules, languages and keys
+00:00 +6: test/generator_test.dart: rejects duplicate keys across modules
+00:00 +7: test/generator_test.dart: rejects duplicate and empty selections
+00:00 +8: test/generator_test.dart: rejects missing selected translation before mutating prior output
+00:00 +9: test/generator_test.dart: rejects override of excluded or misspelled keys
+00:00 +10: test/generator_test.dart: rejects altered message parameters and parameter types
+00:00 +11: test/generator_test.dart: rejects missing default-language parameter metadata
+00:00 +12: test/generator_test.dart: protects hand-written output files, yaml and nested symlinks
+00:00 +13: test/generator_test.dart: rejects traversal and overlap with hand-written overrides
+00:00 +14: test/generator_test.dart: consumer profile preserves its own scope, values and metadata
+00:00 +15: test/generator_test.dart: flat layout retains established consumer import paths
+00:00 +16: test/generator_test.dart: check mode detects stale resources without modifying them
+00:00 +17: All tests passed!
