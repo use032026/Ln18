@@ -1,0 +1,626 @@
+{
+  "@@locale": "el",
+  "enterpriseInfoTitle": "Στοιχεία εταιρείας",
+  "enterpriseName": "Όνομα",
+  "enterpriseDescription": "Περιγραφή",
+  "enterpriseUpdateSuccess": "Ενημερώθηκε επιτυχώς",
+  "enterpriseUpdateFailed": "Αποτυχία ενημέρωσης, δοκιμάστε ξανά",
+  "enterpriseLeave": "Αποχώρηση από εταιρεία",
+  "enterpriseLeaveConfirm": "Θέλετε σίγουρα να αποχωρήσετε από αυτή την εταιρεία;",
+  "enterpriseLeaveSuccess": "Αποχωρήσατε από την εταιρεία",
+  "enterpriseLeaveFailed": "Αποτυχία αποχώρησης, δοκιμάστε ξανά",
+  "enterpriseLeaveOwnerError": "Ο ιδιοκτήτης δεν μπορεί να αποχωρήσει απευθείας. Μεταβιβάστε πρώτα την ιδιοκτησία.",
+  "enterpriseMemberCount": "Μέλη",
+  "enterpriseCreatedAt": "Δημιουργήθηκε",
+  "enterpriseCode": "Κωδικός εταιρείας",
+  "enterpriseInviteMembers": "Πρόσκληση μελών",
+  "enterpriseCopyInviteCode": "Αντιγραφή κωδικού πρόσκλησης",
+  "enterpriseInviteCodeCopied": "Ο κωδικός πρόσκλησης αντιγράφηκε",
+  "groupCreateTitle": "Νέα ομάδα",
+  "groupNameHint": "Εισαγάγετε όνομα ομάδας",
+  "groupCreateSuccess": "Η ομάδα δημιουργήθηκε",
+  "groupCreateFailed": "Αποτυχία δημιουργίας ομάδας",
+  "groupSettings": "Ρυθμίσεις ομάδας",
+  "groupName": "Όνομα ομάδας",
+  "groupAvatar": "Εικόνα ομάδας",
+  "groupAnnouncement": "Ανακοίνωση",
+  "groupMembers": "Μέλη",
+  "groupAddMember": "Προσθήκη μελών",
+  "groupRemoveMember": "Αφαίρεση μέλους",
+  "groupRemoveMemberConfirm": "Αφαίρεση αυτού του μέλους;",
+  "groupSetAdmin": "Ορισμός ως διαχειριστή",
+  "groupRemoveAdmin": "Αφαίρεση διαχειριστή",
+  "groupTransferOwner": "Μεταβίβαση ιδιοκτησίας",
+  "groupTransferOwnerConfirm": "Μεταβίβαση της ιδιοκτησίας ομάδας σε αυτό το μέλος;",
+  "groupTransferOwnerSuccess": "Η ιδιοκτησία μεταβιβάστηκε",
+  "groupTransferOwnerFailed": "Αποτυχία μεταβίβασης, δοκιμάστε ξανά",
+  "groupLeave": "Αποχώρηση από ομάδα",
+  "groupLeaveConfirm": "Αποχώρηση από αυτή την ομάδα;",
+  "groupLeaveSuccess": "Αποχωρήσατε από την ομάδα",
+  "groupLeaveFailed": "Αποτυχία αποχώρησης, δοκιμάστε ξανά",
+  "groupDissolve": "Διάλυση ομάδας",
+  "groupDissolveConfirm": "Διάλυση αυτής της ομάδας; Θα αφαιρεθούν όλα τα μέλη.",
+  "groupDissolveSuccess": "Η ομάδα διαλύθηκε",
+  "groupDissolveFailed": "Αποτυχία διάλυσης, δοκιμάστε ξανά",
+  "groupQrCode": "Κωδικός QR ομάδας",
+  "groupMuteAll": "Απαγόρευση αποστολής σε όλους",
+  "groupMuteAllOn": "Ενεργοποίηση απαγόρευσης για όλους",
+  "groupMuteAllOff": "Απενεργοποίηση απαγόρευσης για όλους",
+  "groupAllowMemberInvite": "Να επιτρέπονται προσκλήσεις από μέλη",
+  "groupAllowMemberModifyTitle": "Να επιτρέπεται στα μέλη αλλαγή ονόματος ομάδας",
+  "groupAllowMemberAtAll": "Να επιτρέπεται στα μέλη αναφορά σε @Όλους",
+  "groupAllowMemberViewMemberList": "Να επιτρέπεται στα μέλη προβολή λίστας μελών",
+  "groupAllowQrCodeJoin": "Να επιτρέπεται συμμετοχή με QR",
+  "groupRequireApproval": "Απαίτηση έγκρισης για συμμετοχή",
+  "groupAllowMemberAddFriend": "Να επιτρέπεται στα μέλη να προσθέτουν το ένα το άλλο",
+  "groupRoleOwner": "Ιδιοκτήτης",
+  "groupRoleAdmin": "Διαχειριστής",
+  "groupRoleMember": "Μέλος",
+  "groupNoMembers": "Δεν υπάρχουν μέλη",
+  "groupNoAnnouncements": "Δεν υπάρχουν ανακοινώσεις",
+  "groupCreateAnnouncement": "Δημοσίευση ανακοίνωσης",
+  "groupEditAnnouncement": "Επεξεργασία ανακοίνωσης",
+  "groupDeleteAnnouncement": "Διαγραφή ανακοίνωσης",
+  "groupDeleteAnnouncementConfirm": "Διαγραφή αυτής της ανακοίνωσης;",
+  "groupAnnouncementTitle": "Τίτλος",
+  "groupAnnouncementContent": "Περιεχόμενο",
+  "groupAnnouncementPin": "Καρφίτσωμα ανακοίνωσης",
+  "groupMemberCount": "{count} μέλη",
+  "groupSelectedCount": "{count} επιλεγμένα",
+  "groupJoinRequestApprove": "Συμφωνώ",
+  "groupJoinRequestReject": "Άρνηση",
+  "groupJoinRequests": "Αιτήματα συμμετοχής",
+  "groupNoJoinRequests": "Δεν υπάρχουν αιτήματα συμμετοχής",
+  "groupReadReceipts": "Αποδείξεις ανάγνωσης",
+  "groupReadCount": "{count} διαβάστηκαν",
+  "groupUnreadCount": "{count} μη αναγνωσμένα",
+  "organizationTitle": "Οργανισμός",
+  "organizationEmpty": "Δεν υπάρχουν στοιχεία τμήματος",
+  "organizationMembers": "Μέλη",
+  "organizationDepartment": "Τμήμα",
+  "organizationPosition": "Θέση",
+  "organizationLeader": "Προϊστάμενος",
+  "qrCodeTitle": "Ο κωδικός QR μου",
+  "qrCodeSave": "Αποθήκευση στο Άλμπουμ",
+  "qrCodeShare": "Κοινοποίηση",
+  "qrCodeSaveSuccess": "Αποθηκεύτηκε στο άλμπουμ",
+  "qrCodeSaveFailed": "Αποτυχία αποθήκευσης, δοκιμάστε ξανά",
+  "qrCodeRefresh": "Ανανέωση κωδικού QR",
+  "qrCodeExpired": "Ο κωδικός QR έληξε, ανανεώστε τον",
+  "qrCodeScanToAdd": "Σαρώστε για να με προσθέσετε ως επαφή",
+  "spacePersonal": "Προσωπικός",
+  "spaceEnterprise": "Εταιρεία",
+  "spaceJoinByCode": "Συμμετοχή με κωδικό εταιρείας",
+  "spaceJoinByInvite": "Συμμετοχή με κωδικό πρόσκλησης",
+  "spaceEnterCode": "Εισαγάγετε κωδικό εταιρείας",
+  "spaceEnterInviteCode": "Εισαγάγετε κωδικό πρόσκλησης",
+  "spaceSearchEnterprise": "Αναζήτηση εταιρείας",
+  "spaceJoinRequestSent": "Το αίτημα υποβλήθηκε, αναμένεται έγκριση",
+  "spaceJoinRequestPending": "Αναμονή έγκρισης",
+  "spaceJoinRequestApproved": "Το αίτημα εγκρίθηκε",
+  "spaceJoinRequestRejected": "Το αίτημα απορρίφθηκε",
+  "spaceAlreadyMember": "Είστε ήδη μέλος",
+  "spaceAutoApproved": "Εγκρίθηκε αυτόματα. Καλώς ήρθατε!",
+  "spacePendingApprovalHint": "Η εγγραφή ολοκληρώθηκε. Το αίτημα συμμετοχής υποβλήθηκε.",
+  "spaceNoSpaces": "Δεν υπάρχουν χώροι",
+  "spaceInviteExpired": "Ο κωδικός πρόσκλησης έληξε",
+  "spaceInviteTargetMismatch": "Αυτός ο κωδικός πρόσκλησης δεν είναι για τον λογαριασμό σας",
+  "spaceAcceptInviteSuccess": "Συμμετείχατε επιτυχώς στην εταιρεία",
+  "spaceAcceptInviteFailed": "Αποτυχία συμμετοχής, δοκιμάστε ξανά",
+  "spaceTenantSelectTitle": "Επιλέξτε χώρο",
+  "spaceTenantSelectHint": "Επιλέξτε χώρο για είσοδο",
+  "spaceEnterPersonal": "Είσοδος σε προσωπικό χώρο",
+  "spaceEnterEnterprise": "Είσοδος σε εταιρικό χώρο",
+  "recentContactsTitle": "Πρόσφατα",
+  "recentContactsEmpty": "Δεν υπάρχουν πρόσφατες επαφές",
+  "inviteFriendsTitle": "Πρόσκληση φίλων",
+  "inviteFriendsCopyLink": "Αντιγραφή συνδέσμου πρόσκλησης",
+  "inviteFriendsLinkCopied": "Ο σύνδεσμος πρόσκλησης αντιγράφηκε",
+  "pendingJoinRequestsTitle": "Νέες αιτήσεις",
+  "pendingJoinRequestsEmpty": "Δεν υπάρχουν αιτήσεις",
+  "pendingJoinRequestApprove": "Συμφωνώ",
+  "pendingJoinRequestReject": "Άρνηση",
+  "pendingJoinRequestApproveSuccess": "Εγκρίθηκε",
+  "pendingJoinRequestRejectSuccess": "Απορρίφθηκε",
+  "pendingJoinRequestFailed": "Η ενέργεια απέτυχε, δοκιμάστε ξανά",
+  "groupListTitle": "Ομάδες",
+  "groupListEmpty": "Δεν υπάρχουν ομάδες",
+  "joinCompanyTitle": "Συμμετοχή σε εταιρεία",
+  "joinCompanyCodeHint": "Εισαγάγετε κωδικό εταιρείας",
+  "joinCompanySearchHint": "Αναζήτηση ονόματος εταιρείας",
+  "joinCompanyApply": "Αίτηση συμμετοχής",
+  "joinCompanyApplySuccess": "Η αίτηση υποβλήθηκε",
+  "joinCompanyApplyFailed": "Αποτυχία αίτησης, δοκιμάστε ξανά",
+  "joinCompanyAutoApproved": "Εγκρίθηκε αυτόματα. Καλώς ήρθατε!",
+  "joinCompanyPending": "Η αίτηση υποβλήθηκε, αναμένεται έγκριση",
+  "joinCompanyInviteCodeHint": "Εισαγάγετε κωδικό πρόσκλησης",
+  "joinCompanyAcceptInvite": "Αποδοχή πρόσκλησης",
+  "joinCompanyNoResults": "Δεν βρέθηκαν εταιρείες",
+  "joinCompanyMemberCount": "{count} μέλη",
+  "approvalEmpty": "Δεν υπάρχουν αιτήματα",
+  "approvalApprove": "Συμφωνώ",
+  "approvalReject": "Άρνηση",
+  "approvalPending": "Σε εκκρεμότητα",
+  "approvalApproved": "Εγκρίθηκε",
+  "approvalRejected": "Απορρίφθηκε",
+  "approvalExpired": "Ληγμένο",
+  "approvalCancelled": "Ακυρώθηκε",
+  "approvalReplayFailed": "Η αρχική ενέργεια απέτυχε. Δοκιμάστε την ξανά.",
+  "requestCancelled": "Το αίτημα ακυρώθηκε",
+  "enterpriseNoPermission": "Δεν υπάρχει δικαίωμα",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Ρυθμίσεις στοιχείων εταιρείας",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Διαμόρφωση εταιρείας",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Επίσημοι λογαριασμοί",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Διαχείριση επίσημων λογαριασμών",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Διαχείριση μελών",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Πρόσκληση προσωπικού",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Μέλη",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Διαχείριση ανακοινώσεων",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Εταιρική μαζική αποστολή",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Εγκρίσεις",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Εγκρίσεις συμμετοχής",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Μεταβίβαση ιδιοκτησίας",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Μετά τη μεταβίβαση θα γίνετε διαχειριστής. Δεν αναιρείται. Επιλέξτε τον νέο ιδιοκτήτη από τη λίστα μελών.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Επιλέξτε νέο ιδιοκτήτη",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Τρόπος ανάθεσης εκπροσώπου",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Αυτόματη ανάθεση",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Καθορισμένος εκπρόσωπος",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Τρόπος έγκρισης συμμετοχής",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Χειροκίνητη έγκριση",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Αυτόματη έγκριση",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Λειτουργία φίλων",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Κοινωνική λειτουργία",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Λειτουργία απομόνωσης",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Πρόσβαση επισκεπτών widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Απενεργοποιημένο",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Αυτόματη κυκλική ανάθεση διαθέσιμων εκπροσώπων",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Ανάθεση όλων των πελατών στον καθορισμένο εκπρόσωπο",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Τα αιτήματα πελατών απαιτούν έγκριση διαχειριστή",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Αυτόματη έγκριση αιτημάτων πελατών",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Οι πελάτες μπορούν να προσθέτουν το ένα το άλλο ως φίλους",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Οι πελάτες δεν μπορούν να προσθέτουν το ένα το άλλο ως φίλους",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Μέλος",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Αναζήτηση μελών",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Ορισμός ως μέλους",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Ορισμός ως τεχνικής υποστήριξης",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Ορισμός ως εκπροσώπου εξυπηρέτησης",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Επιβεβαίωση μεταβίβασης",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Απαιτείται όνομα εταιρείας",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Εισαγάγετε το όνομα εταιρείας",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Δεν υπάρχει περιγραφή",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Λογότυπο εταιρείας",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Η δημιουργία απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Μέγιστες χρήσεις",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Χρόνος Ισχύος",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 ώρα",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 ώρες",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 ημέρες",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 ημέρες",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Δημιουργία κωδικού πρόσκλησης",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Κωδικός πρόσκλησης",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Όλοι",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Προσωπικό",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Αναζήτηση προσωπικού, ρόλων ή θέσεων",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Μέλη εταιρείας",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Δεν υπάρχουν αντίστοιχα μέλη",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Επισκόπηση εταιρείας",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Διαχείριση",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Δικαιώματα ρόλων",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Παράδοση κατά την αποχώρηση",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Αναζήτηση προσωπικού",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Προσωπικό εταιρείας",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Προφίλ φίλου",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Φωνητικές κλήσεις και βιντεοκλήσεις",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Προσθήκη φίλου",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Άνδρας",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Γυναίκα",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Δεν υπάρχουν μη αναγνωσμένες συνομιλίες",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Ο κωδικός πρόσκλησης αντιγράφηκε",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Αφαίρεση του/της «{name}» από την εταιρεία;",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Μεταβίβαση ιδιοκτησίας στον/στην «{name}»; Θα γίνετε διαχειριστής. Δεν αναιρείται.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} χρήση} other {{count} χρήσεις}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Ισχύει για {hours} ώρες · Έως {count} χρήσεις",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} μη αναγνωσμένη συνομιλία} other {{count} μη αναγνωσμένες συνομιλίες}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} μη αναγνωσμένο μήνυμα} other {{count} μη αναγνωσμένα μηνύματα}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID πλαισίου: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Αποχώρηση από εταιρεία",
+  "enterpriseLoginBeforeSearch": "Συνδεθείτε πριν αναζητήσετε οργανισμό",
+  "enterpriseSearchFailed": "Αποτυχία αναζήτησης. Δοκιμάστε ξανά.",
+  "enterpriseLoginBeforeJoin": "Συνδεθείτε πριν υποβάλετε αίτηση συμμετοχής σε οργανισμό",
+  "enterpriseApplicationPending": "Η αίτηση υποβλήθηκε. Αναμένεται έγκριση διαχειριστή.",
+  "enterpriseLoginBeforeAction": "Συνδεθείτε για συνέχεια",
+  "enterprisePlatformTagline": "Ιδιωτική επικοινωνία πελατών για οργανισμούς",
+  "enterpriseLookupHint": "Εισαγάγετε αριθμό οργανισμού, ψευδώνυμο ή κωδικό πρόσκλησης",
+  "enterpriseLookup": "Αναζήτηση",
+  "enterpriseApplicationNote": "Σημείωση αίτησης (προαιρετικό)",
+  "enterpriseLookupGuide": "Αναζητήστε με αριθμό ή ψευδώνυμο οργανισμού ή συμμετάσχετε με κωδικό πρόσκλησης",
+  "enterpriseRecommendationsLoading": "Φόρτωση προτεινόμενων οργανισμών",
+  "enterpriseRecommendationsFailed": "Δεν φορτώθηκαν οι προτεινόμενοι οργανισμοί",
+  "enterpriseReload": "Επαναφόρτωση",
+  "enterpriseNoRecommendations": "Δεν υπάρχουν προτάσεις. Αναζητήστε με αριθμό οργανισμού, ψευδώνυμο ή κωδικό πρόσκλησης.",
+  "enterpriseRecommended": "Προτεινόμενοι οργανισμοί",
+  "enterpriseJoined": "Συμμετέχετε",
+  "enterpriseRequestsLoadFailed": "Δεν φορτώθηκαν οι αιτήσεις",
+  "enterpriseCodeMissing": "Ο αριθμός οργανισμού δεν είναι διαθέσιμος",
+  "enterpriseAlias": "Ψευδώνυμο οργανισμού",
+  "enterpriseCodeLabel": "Αριθμός οργανισμού",
+  "enterprisePrivateAliasHint": "Αυτός ο οργανισμός δεν έχει δημοσιεύσει στοιχεία. Η αίτησή σας θα τον ταυτοποιεί με αυτό το ψευδώνυμο.",
+  "enterpriseInvitationMismatch": "Αυτός ο κωδικός πρόσκλησης δεν απευθύνεται σε εσάς. Η συμμετοχή μπορεί να αποτύχει.",
+  "enterpriseTechnicalRole": "Τεχνική υποστήριξη",
+  "enterpriseJoin": "Συμμετοχή",
+  "enterpriseCancelApplication": "Αναίρεση",
+  "enterpriseApplication": "Αίτηση οργανισμού",
+  "enterpriseAliasValue": "Ψευδώνυμο οργανισμού: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Αριθμός οργανισμού: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Ψευδώνυμο: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Θα συμμετάσχετε ως {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Αυτός ο κωδικός πρόσκλησης απευθύνεται σε: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Λόγος απόρριψης: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Οργανισμός {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Όλοι",
+  "enterpriseAudienceAllHint": "Εργαζόμενοι και πελάτες",
+  "enterpriseAudienceStaffHint": "Μόνο εργαζόμενοι οργανισμού",
+  "enterpriseAudienceCustomers": "Πελάτες οργανισμού",
+  "enterpriseAudienceCustomersHint": "Πελάτες που συμμετέχουν στον οργανισμό",
+  "enterpriseOfficialGroups": "Επίσημες ομάδες",
+  "enterpriseAudienceGroupsHint": "Επίσημες ομαδικές συνομιλίες οργανισμού",
+  "enterpriseSendNow": "Αποστολή τώρα",
+  "enterpriseSendScheduled": "Προγραμματισμός αποστολής",
+  "enterprisePreviewing": "Προεπισκόπηση",
+  "enterprisePreview": "Προεπισκόπηση",
+  "enterpriseSubmitSend": "Υποβολή για αποστολή",
+  "enterpriseBroadcastSubmitted": "Η μαζική αποστολή οργανισμού υποβλήθηκε",
+  "enterpriseScheduledUnavailable": "Οι προγραμματισμένες μαζικές αποστολές οργανισμού δεν διατίθενται σε αυτή την έκδοση",
+  "enterpriseBroadcastFailed": "Αποτυχία μαζικής αποστολής οργανισμού. Δοκιμάστε αργότερα.",
+  "enterpriseBroadcastGuide": "Οι μαζικές αποστολές χρησιμοποιούν τον επίσημο λογαριασμό οργανισμού και καταγράφουν την ενέργεια. Τα αποτελέσματα παράδοσης διατίθενται μετά την υποβολή.",
+  "enterpriseSenderIdentity": "Ταυτότητα αποστολέα",
+  "enterpriseSenderAfterPreview": "Επιβεβαίωση στην προεπισκόπηση",
+  "enterpriseSenderConfirmed": "Επιβεβαιώθηκε",
+  "enterpriseDefaultOfficialSender": "Προεπιλεγμένος επίσημος λογαριασμός οργανισμού",
+  "enterpriseOfficialSenderHint": "Οι παραλήπτες βλέπουν την ταυτότητα του επίσημου λογαριασμού οργανισμού",
+  "enterpriseMessageContent": "Περιεχόμενο μηνύματος",
+  "enterpriseBroadcastContentHint": "Εισαγάγετε το μαζικό μήνυμα για αποστολή από τον επίσημο λογαριασμό",
+  "enterpriseInternalNoteHint": "Εσωτερική σημείωση για έλεγχο και παρακολούθηση (προαιρετικό)",
+  "enterpriseSendPreview": "Προεπισκόπηση αποστολής",
+  "enterpriseExpectedRecipients": "Εκτιμώμενοι παραλήπτες",
+  "enterpriseDeliveryMethod": "Τρόπος παράδοσης",
+  "enterpriseTaskStatus": "Κατάσταση εργασίας",
+  "enterpriseNoBroadcastHistory": "Δεν υπάρχουν ακόμη μαζικές αποστολές οργανισμού",
+  "enterpriseHistoryUnavailable": "Προσωρινά μη διαθέσιμο",
+  "enterpriseBroadcastDenied": "Δεν υπάρχει δικαίωμα μαζικής αποστολής οργανισμού",
+  "enterpriseBroadcastRoleHint": "Οι μαζικές αποστολές οργανισμού είναι διαθέσιμες μόνο σε διαχειριστές και ιδιοκτήτες.",
+  "enterpriseDefaultApplicationMessage": "Θα ήθελα να συμμετάσχω στον οργανισμό σας"
+}

@@ -1,0 +1,112 @@
+{
+  "@@locale": "zh_TW",
+  "officialAccountBadge": "官方",
+  "officialAccountOpenConversation": "進入對話",
+  "officialAccountJoinHint": "加入後將以客戶身分加入該企業，無需好友驗證。",
+  "officialAccountJoinDisabled": "該企業暫未開放加入，請聯絡客服",
+  "officialAccountRemoved": "你已被該企業移除，需要企業重新邀請",
+  "officialAccountBanned": "你的帳號在該企業已被停用",
+  "officialAccountUnavailable": "該官方帳號暫時無法使用",
+  "officialAccountJoinBindingDisabled": "目前模式不允許加入企業",
+  "officialAccountPlatformRequired": "請使用平台帳號加入該官方帳號",
+  "officialAccountOpenFailed": "開啟對話失敗，請重試",
+  "officialAccountAccountChanged": "帳號或空間已切換，請重新開啟",
+  "officialAccountDirectoryUnavailable": "企業目錄尚未更新，請稍後重試",
+  "officialAccountInboxSyncFailed": "官方帳號訊息同步失敗，已保留本機內容",
+  "officialAccountInboxSyncing": "正在同步官方帳號訊息",
+  "officialIdentityQr": "官方帳號資料與QR碼",
+  "officialIdentityHint": "維護客戶看到的官方身分",
+  "officialEditProfile": "編輯資料",
+  "officialSetIdentityHint": "設定官方帳號號碼、名稱與頭像",
+  "officialQrTitle": "官方帳號QR碼",
+  "officialViewReset": "查看或重置",
+  "officialAutoJoin": "加官方帳號時自動加入企業",
+  "officialAutoJoinHint": "客戶新增官方帳號時自動加入企業客戶空間",
+  "officialConversationFeatures": "會話功能",
+  "officialConversationSettingsHint": "設定會立即套用到客戶端官方會話",
+  "officialServiceMenu": "服務選單",
+  "officialServiceMenuHint": "向客戶顯示已在電腦管理端設定的選單",
+  "officialWelcomeOnFirstContact": "首次歡迎語",
+  "officialWelcomeMessage": "歡迎語",
+  "officialHumanSupport": "轉接人工客服",
+  "officialReceptionModeHint": "新建或重新開啟的接待使用所選模式，進行中的會話保留原模式",
+  "officialReceptionMode": "人工接待模式",
+  "officialReceptionInOfficial": "在官方帳號會話內接待",
+  "officialReceptionLegacy": "客服獨立私聊（舊模式）",
+  "officialServiceNotice": "接待服務提示",
+  "officialServiceNoticeText": "接待服務提示語",
+  "officialAutoHandoff": "自動轉接人工",
+  "officialAutoHandoffHint": "客戶在官方會話傳送訊息時，觸發客服指派",
+  "officialForwardCustomerText": "轉發客戶原話",
+  "officialForwardCustomerTextHint": "轉接後將客戶訊息同步給客服",
+  "officialSyncAgentReplies": "將客服回覆同步至官方帳號",
+  "officialSyncAgentRepliesHint": "在舊模式下將客服回覆同步回官方會話",
+  "officialHandoffCooldown": "轉接提示間隔",
+  "officialAssignedNotice": "已指派提示語",
+  "officialQueuedNotice": "排隊提示語",
+  "officialDesktopManagementHint": "選單結構、密碼與官方群組請在電腦工作台管理。",
+  "officialSaveFailed": "儲存失敗，請稍後重試",
+  "officialCooldownRange": "範圍為 0–1440 分鐘",
+  "officialMenuItems": "選單項目",
+  "officialMenuVersion": "選單版本",
+  "officialEnabled": "啟用",
+  "officialManageDenied": "目前帳號沒有官方帳號管理權限",
+  "officialSettingsLoadFailed": "官方帳號設定載入失敗",
+  "officialProfileSaved": "官方帳號資料已儲存",
+  "officialProfileTitle": "官方帳號資料",
+  "officialDisplayName": "顯示名稱",
+  "officialAvatarUrl": "頭像連結",
+  "officialAvatarLogoFallback": "留空即可恢復企業標誌",
+  "officialIdHint": "6–10 位數字；留空可解除綁定",
+  "officialResetQr": "重置QR碼",
+  "officialResetQrConfirm": "舊QR碼將立即失效，確定重置？",
+  "officialReset": "重置",
+  "officialQrNotGenerated": "尚未產生QR碼",
+  "officialQrLoadFailed": "QR碼載入失敗，請重試",
+  "officialGenerate": "產生",
+  "officialMenuCustomerOnly": "聯絡客服僅供客戶使用",
+  "officialMenuUpdated": "選單已更新，請重試",
+  "officialMenuActionFailed": "操作失敗，請檢查網路後重試",
+  "officialMenuLoadFailed": "服務選單載入失敗",
+  "officialMenuRefreshFailed": "服務選單重新整理失敗",
+  "officialAccountIdValue": "官方帳號 {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count} 分鐘",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "支援 {staff}、{tenant}、{customer} 替代標記",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "已使用 {count} 次",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "名稱須為 1–64 個字元",
+  "officialIdFormatInvalid": "官方帳號號碼須為 6–10 位數字"
+}

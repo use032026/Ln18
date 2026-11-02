@@ -1,0 +1,370 @@
+{
+  "@@locale": "uk",
+  "contactsTitle": "Контакти",
+  "contactsSearch": "Пошук контактів",
+  "contactsNewFriends": "Нові друзі",
+  "contactsGroups": "Групи",
+  "contactsFavorites": "Вибране",
+  "contactsRecent": "Нещодавні",
+  "contactsOrganization": "Організація",
+  "contactsAnnouncement": "Оголошення",
+  "contactsNewApplications": "Нові заявки",
+  "contactsCustomerGroups": "Групи клієнтів",
+  "contactsAllCustomers": "Усі клієнти",
+  "contactsMyCustomers": "Мої клієнти",
+  "contactsViewAll": "Показати все",
+  "contactsMyContacts": "Мої контакти",
+  "contactsMyAdvisor": "Мій консультант",
+  "contactsNoAdvisor": "Консультанта ще не призначено",
+  "contactsAdvisorLoading": "Завантаження...",
+  "contactsNavigateFailed": "Не вдалося відкрити сторінку. Спробуйте ще раз",
+  "contactsEmpty": "Немає контактів",
+  "contactsNoAnnouncement": "Немає оголошень",
+  "contactsOfficialBadge": "Офіційний",
+  "contactsCustomerBadge": "Клієнт",
+  "contactsEmptyCustomers": "Немає клієнтів",
+  "friendAddTitle": "Додати контакт",
+  "friendSearchHint": "Телефон / Email / StartLink ID",
+  "friendRequestSent": "Запит у друзі надіслано",
+  "friendRequestFailed": "Не вдалося надіслати. Спробуйте ще раз",
+  "friendAlreadyFriend": "Уже в контактах",
+  "friendNewFriendsTitle": "Нові друзі",
+  "friendNoRequests": "Немає запитів у друзі",
+  "friendAccept": "Прийняти",
+  "friendReject": "Відхилити",
+  "friendAccepted": "Прийнято",
+  "friendRejected": "відхилено",
+  "friendDeleteConfirm": "Видалити цей контакт?",
+  "friendDeleteSuccess": "Контакт видалено",
+  "friendDeleteFailed": "Не вдалося видалити. Спробуйте ще раз",
+  "friendRemarkName": "Псевдонім",
+  "friendGroupName": "Група",
+  "friendSendMessage": "Повідомлення",
+  "friendMatchTypeLppId": "Збіг за StartLink ID",
+  "friendMatchTypeMobile": "Збіг за телефоном",
+  "friendMatchTypeEmail": "Збіг за email",
+  "friendSearchEmpty": "Користувачів не знайдено",
+  "friendAddMessage": "Хочу додати вас до контактів",
+  "friendBlockConfirm": "Заблокувати цього користувача?",
+  "friendUnblockConfirm": "Розблокувати цього користувача?",
+  "friendBlockSuccess": "Заблоковано",
+  "friendUnblockSuccess": "Розблоковано",
+  "searchTitle": "Пошук",
+  "searchHint": "Пошук за телефоном, email або StartLink ID",
+  "searchNoResults": "Нічого не знайдено",
+  "searchMessages": "Повідомлення",
+  "searchUsers": "Користувачі",
+  "searchFailed": "Помилка пошуку. Спробуйте ще раз",
+  "scanTitle": "Сканувати",
+  "scanFailed": "Помилка розпізнавання. Спробуйте ще раз",
+  "scanInvalidQrCode": "Недійсний QR-код",
+  "scanFlashOn": "Увімкнути ліхтарик",
+  "scanFlashOff": "Вимкнути ліхтарик",
+  "scanAlbum": "Вибрати з альбому",
+  "blacklistTitle": "У чорному списку",
+  "blacklistEmpty": "Немає заблокованих користувачів",
+  "blacklistRemove": "Розблокувати",
+  "blacklistRemoveConfirm": "Розблокувати цього користувача?",
+  "addFriendTitle": "Додати контакт",
+  "addFriendSearchHint": "Телефон / Email / StartLink ID",
+  "addFriendLppIdLabel": "StartLink ID: {lppId}",
+  "addFriendButton": "Додати",
+  "addFriendCannotAddSelf": "Не можна додати себе",
+  "addFriendUnsupportedUser": "Цього користувача не можна додати. Ви можете написати йому безпосередньо.",
+  "addFriendMessageHint": "Введіть повідомлення",
+  "addFriendSendRequest": "Надіслати запит",
+  "scanAlreadyGroupMember": "Ви вже в цій групі",
+  "scanCameraInitializing": "Камера запускається. Спробуйте трохи пізніше.",
+  "scanCameraPermissionRequired": "Дозвольте доступ до камери для сканування QR-кодів",
+  "scanCameraStartFailed": "Не вдалося запустити камеру. Спробуйте пізніше.",
+  "scanCameraStarting": "Запуск камери",
+  "scanCameraUnsupported": "Пристрій не підтримує сканування QR-кодів",
+  "scanDesktopAlbumUnsupported": "Читання QR-кодів із зображень недоступне на комп’ютері",
+  "scanDesktopUnsupported": "Сканування QR-кодів недоступне на комп’ютері. Скористайтеся мобільним застосунком.",
+  "scanEnterGroup": "Відкрити груповий чат",
+  "scanFallbackFriendName": "Контакт",
+  "scanFrameHint": "Помістіть QR-код у рамку для автоматичного сканування",
+  "scanFriendAddUnavailable": "Зараз не можна додати цей контакт за допомогою цього QR-коду",
+  "scanFriendAdded": "Тепер ви в контактах одне одного",
+  "scanFriendBlocked": "Ця людина зараз не може прийняти ваш запит у друзі",
+  "scanFriendIsolation": "У поточному просторі не можна додати цей контакт",
+  "scanFriendQrExhausted": "Досягнуто ліміту використання QR-коду. Попросіть новий код.",
+  "scanFriendQrExpiredPreview": "QR-код контакту прострочений або недоступний",
+  "scanFriendQrRevoked": "Цей QR-код більше не дійсний. Попросіть новий код.",
+  "scanFriendRequestPending": "Запит у друзі надіслано. Очікується схвалення.",
+  "scanFriendRequestsDisabled": "Ця людина не приймає запитів у друзі",
+  "scanGroupApprovalHint": "Для вступу до групи потрібне схвалення власника або адміністратора",
+  "scanGroupJoinFailed": "Не вдалося надіслати заявку на вступ до групи",
+  "scanGroupJoinPending": "Заявку на вступ до групи надіслано. Очікується схвалення.",
+  "scanGroupJoinUnavailable": "Зараз не можна вступити до групи за цим QR-кодом",
+  "scanGroupJoined": "Ви вступили до групи",
+  "scanGroupPermissionDenied": "У вас немає дозволу вступити до цієї групи за QR-кодом",
+  "scanGroupProcessFailed": "Не вдалося обробити QR-код групи",
+  "scanGroupQrDisabled": "Власник або адміністратор вимкнув вступ за QR-кодом",
+  "scanGroupQrExhausted": "Досягнуто ліміту використання QR-коду. Попросіть новий код в учасника групи.",
+  "scanGroupQrExpired": "Строк QR-коду минув. Попросіть новий код в учасника групи.",
+  "scanGroupQrRevoked": "QR-код відкликано. Попросіть новий код в учасника групи.",
+  "scanGroupQrUnavailable": "Цей QR-код більше не дійсний. Попросіть новий код в учасника групи.",
+  "scanGroupScannerInvalid": "Цей обліковий запис не може вступити до групи",
+  "scanImageReadFailed": "Не вдалося прочитати зображення. Спробуйте ще раз.",
+  "scanIncomingFriendRequest": "Ця людина вже надіслала вам запит у друзі. Спочатку розгляньте його.",
+  "scanInvalidGroupQr": "Недійсний QR-код групи",
+  "scanInviterDeleted": "Цей обліковий запис користувача видалено",
+  "scanJoinGroup": "Вступити до групи",
+  "scanJoinGroupConfirmation": "Вступити до цієї групи?",
+  "scanMutualFriendsOnly": "Ця людина приймає запити лише від людей зі спільними друзями",
+  "scanNoQrFound": "QR-код не знайдено",
+  "scanOwnQr": "Це ваш власний QR-код",
+  "scanPluginUnavailable": "Сканування недоступне. Повністю закрийте застосунок і спробуйте ще раз.",
+  "scanProcessFailed": "Не вдалося обробити QR-код",
+  "scanQrExpired": "Строк дії QR-коду минув",
+  "scanQrUnavailableTitle": "QR-код більше не дійсний",
+  "scanSendFriendConfirmation": "Надіслати запит у друзі?",
+  "scanTorchFailed": "Не вдалося перемкнути ліхтарик. Спробуйте пізніше.",
+  "scanTorchUnavailable": "На пристрої немає ліхтарика",
+  "scanUnsupportedQr": "Цей QR-код не підтримується",
+  "contactsRequestsUnavailable": "Запити в друзі тимчасово недоступні",
+  "contactsTryLater": "Спробуйте пізніше",
+  "contactsQrSource": "QR-код",
+  "contactsRequestStatusInvalid": "Некоректний статус",
+  "contactsCustomerTagFilter": "Фільтр тегів клієнтів",
+  "contactsOverviewTitle": "Огляд клієнтів",
+  "contactsLoaded": "Завантажено",
+  "contactsAssigned": "Призначено",
+  "contactsUnassigned": "Не призначено",
+  "contactsCustomerDataError": "Не вдалося завантажити клієнтів. Перевірте з’єднання або статус входу та спробуйте ще раз.",
+  "contactsTagFilter": "Фільтр за тегом",
+  "contactsReassign": "Перепризначити",
+  "contactsCustomersLoadFailed": "Не вдалося завантажити клієнтів",
+  "contactsNoAssigned": "Немає призначених клієнтів",
+  "contactsNoUnassigned": "Немає непризначених клієнтів",
+  "contactsDirectoryDenied": "Ваша роль не має доступу до каталогу клієнтів",
+  "contactsApplicationAccessDenied": "Нові заявки можуть бачити лише адміністратори й власники організації",
+  "contactsApplicationsUnavailable": "Заявки на вступ тимчасово недоступні",
+  "contactsPullToRetry": "Не вдалося завантажити. Потягніть униз для оновлення та спробуйте ще раз.",
+  "contactsApplicationApproved": "Заявку схвалено",
+  "contactsApplicantUnavailable": "Дані заявника тимчасово недоступні",
+  "contactsApplicationApprove": "Зараховано",
+  "contactsApplicationAccepted": "Затверджено",
+  "contactsFriendRequests": "Запити в друзі",
+  "contactsRecentActive": "Нещодавно активні",
+  "contactsRecentActiveUnavailable": "Нещодавня активність клієнтів тимчасово недоступна",
+  "contactsMyCustomersRetry": "Не вдалося завантажити ваших клієнтів. Натисніть для повтору.",
+  "contactsLoadRetry": "Не вдалося завантажити контакти. Натисніть для повтору.",
+  "contactsLoadFailed": "Не вдалося завантажити контакти",
+  "contactsNoCustomerYet": "Клієнтів поки немає",
+  "contactsInviteCustomerHint": "Запрошуйте клієнтів, поширюючи QR-код або код організації",
+  "contactsShareQr": "Поділитися моїм QR-кодом",
+  "contactsScanFriendHint": "Скануйте QR-код, щоб надіслати мені запит у друзі",
+  "contactsQrToken": "Ідентифікатор QR-коду",
+  "contactsQrUsage": "Кількість використань",
+  "contactsQrNote": "Типова нотатка",
+  "contactsCopyQr": "Копіювати вміст QR-коду",
+  "contactsGeneratingQr": "Створення відео...",
+  "contactsRegenerateQr": "Створити новий QR-код",
+  "contactsQrLoadFailed": "Не вдалося завантажити QR-код",
+  "contactsSearchGroups": "Пошук груп",
+  "contactsNoMatchingGroups": "Немає відповідних групових чатів",
+  "contactsCreateGroupHint": "Натисніть + праворуч угорі, щоб почати груповий чат",
+  "contactsGroupOverview": "Огляд контролю груп",
+  "contactsGroupsLabel": "Групи",
+  "contactsCurrentFilter": "Поточний фільтр",
+  "contactsFreeze": "Заморозити",
+  "contactsRisk": "Ризик",
+  "contactsGroupStatisticsUnavailable": "Статистика контролю груп тимчасово недоступна",
+  "contactsGroupList": "Список груп",
+  "contactsNoGroupData": "Немає доступних груп",
+  "contactsNoMatchingGroupData": "Немає відповідних груп",
+  "contactsGroupDataUnavailable": "Зараз групи не відображаються. Спробуйте пізніше.",
+  "contactsFrozen": "Заморожено",
+  "contactsNormal": "Активний",
+  "contactsGroupSupervisionDetail": "Відомості контролю групи",
+  "contactsFreezeStatus": "Статус заморожування",
+  "contactsRiskStatus": "Статус ризику",
+  "contactsGroupId": "ID групи",
+  "contactsUnfreeze": "Розморозити",
+  "contactsAdminMuteAll": "Заборонити писати всім учасникам",
+  "contactsAdminMembers": "Керування учасниками групи",
+  "contactsForceDissolve": "Розпустити примусово",
+  "contactsAdminDissolve": "Примусово розпустити групу",
+  "contactsNoCustomerContacts": "Контактів клієнтів поки немає",
+  "contactsNoMatchingCustomers": "Немає відповідних клієнтів",
+  "contactsCustomerContactsRetry": "Не вдалося завантажити контакти клієнтів. Натисніть для повтору.",
+  "contactsFriendsOnlySetting": "Це налаштування доступне лише для друзів",
+  "contactsHandleFriendRequest": "Розглянути запит у друзі",
+  "contactsSaved": "Збережено",
+  "contactsPrivateGender": "Стать (видна лише вам)",
+  "contactsTags": "Теги",
+  "contactsMoreInfo": "Додаткова інформація",
+  "contactsMutualGroupsHeading": "Спільні групи",
+  "contactsNone": "Немає",
+  "contactsSource": "Джерело",
+  "contactsAddedAt": "Додано",
+  "contactsGroupOpenFailed": "Цей груповий чат зараз не можна відкрити",
+  "contactsMutualGroups": "Спільні групи",
+  "contactsMutualGroupsSyncing": "Синхронізація спільних груп",
+  "contactsNoMutualGroups": "Немає спільних груп",
+  "contactsDiscardTitle": "Скасувати зміни?",
+  "contactsUnsavedChanges": "Зміни не збережено.",
+  "contactsContinueEditing": "Продовжити редагування",
+  "contactsDiscardChanges": "Скасувати зміни",
+  "contactsEditRemark": "Змінити нотатку",
+  "contactsAddRemark": "Додати нотатку",
+  "contactsAddTag": "Додати тег",
+  "contactsAddText": "Додати текст",
+  "contactsEditTags": "Змінити теги",
+  "contactsAddedTags": "Додані теги",
+  "contactsEnterTag": "Введіть тег",
+  "contactsProfileLoadFailed": "Не вдалося завантажити профіль. Спробуйте ще раз.",
+  "contactsDeleteFriend": "Видалити друга",
+  "contactsFriendSettings": "Налаштування друга",
+  "contactsBlockUser": "Заблокувати користувача",
+  "contactsDeleting": "Видалення…",
+  "contactsReassignHint": "Виберіть нового оператора. Пов’язані розмови обслуговування також буде передано.",
+  "contactsAssignOwnerOnly": "Цей обліковий запис не може призначати операторів. Використайте обліковий запис власника організації.",
+  "contactsAssignRetry": "Не вдалося призначити оператора. Спробуйте пізніше.",
+  "contactsEnterpriseTags": "Теги організації",
+  "contactsTagsCommaHint": "Розділяйте кілька тегів комами",
+  "contactsEnterpriseTagsSaved": "Теги організації збережено",
+  "contactsTagsSaveFailed": "Не вдалося зберегти теги. Спробуйте пізніше.",
+  "contactsSharedTagsHint": "Використовуються для фільтрації клієнтів і спільні для організації",
+  "contactsOwnerActionsHint": "Власники можуть змінювати оператора цього клієнта. Записи розмов обслуговування тимчасово недоступні.",
+  "contactsViewChatInfo": "Переглянути інформацію про чат",
+  "contactsCustomerServiceGroups": "Групи обслуговування цього клієнта",
+  "contactsCannotAddFriend": "Додавання друзів зараз недоступне",
+  "contactsSaving": "Зберігається..",
+  "contactsRequestSource": "Запит через {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "Ви надіслали запит у друзі · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, one {Завантажено {count} клієнта} few {Завантажено {count} клієнтів} many {Завантажено {count} клієнтів} other {Завантажено {count} клієнта}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Призначений оператор: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Довідковий номер: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "Очікують ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Оброблено ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Діє до {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Без обмежень",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Скануйте, щоб додати мене в друзі",
+  "contactsItemCount": "{count, plural, one {{count} група} few {{count} групи} many {{count} груп} other {{count} групи}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Псевдонім: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Регіон: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Початковий псевдонім: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "Видалити {name} з друзів? Наявна історія чату збережеться.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Призначено: {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Розмови клієнта недоступні",
+  "contactsCustomerChatUnavailable": "Зараз не можна переглянути розмови обслуговування цього клієнта. Спробуйте пізніше."
+}

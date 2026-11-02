@@ -1,0 +1,75 @@
+{
+  "@@locale": "sv",
+  "appRuntimeLoadFailed": "Kontouppgifter kunde inte läsas in",
+  "privacyConsentTitle": "Användarvillkor och integritetspolicy",
+  "privacyConsentBodyAndroid": "Välkommen till {brand}. För att erbjuda kontoinloggning, direktmeddelanden, företagssamarbete, kundservice online, meddelandeaviseringar och säkerhetsskydd behöver vi behandla nödvändig information enligt användarvillkoren och integritetspolicyn.\n\nInnan du trycker på ”Godkänn” läser vi inte urklipp, initierar inte JPush/JCore eller enhetstillverkarnas push-SDK:er och använder inte dessa SDK:er för åtkomst till Android ID, OAID, listor över installerade appar, MAC-adresser eller liknande information. Om du avböjer tills vidare sparar vi ditt val; du kan fortsätta läsa dokumenten och välja igen senare.\n\nEfter ditt samtycke kan JPush/JCore och enhetstillverkarnas push-tjänster behandla enhetsmodell, Android-version, appaket och appversion, nätverkstyp, IP-adress, Android ID, OAID, push-registrerings-ID, tillverkarens push-token samt leverans- och klickuppgifter för aviseringar för att leverera meddelande-, kundservice- och samtalsaviseringar. Vi har inaktiverat onödiga funktioner, inklusive smart push, listor över installerade appar, MAC, IMEI, IMSI, Wi-Fi-listor, automatisk väckning och kopplad start.\n\nUrklipp används endast när du aktivt kopierar eller klistrar in. Kamera-, mikrofon-, aviserings- och andra systembehörigheter begärs endast när du aktivt använder motsvarande funktion. Att neka en behörighet påverkar endast den funktionen. Läs de fullständiga dokumenten nedan och välj om du godkänner.",
+  "privacyConsentBodyIos": "Välkommen till {brand}. För att erbjuda kontoinloggning, direktmeddelanden, företagssamarbete, kundservice online, meddelandeaviseringar och säkerhetsskydd behöver vi behandla nödvändig information enligt användarvillkoren och integritetspolicyn.\n\nInnan du trycker på ”Godkänn” läser vi inte urklipp, initierar inte JPush/JCore, registrerar oss inte hos Apple Push Notification service (APNs) och hämtar inga push-identifierare som JPush-registrerings-ID eller APNs-enhetstoken. Om du avböjer tills vidare sparar vi ditt val; du kan fortsätta läsa dokumenten och välja igen senare.\n\nEfter ditt samtycke kan vi behandla iPhone-modell, iOS-version, appaket och appversion, nätverkstyp, IP-adress, IDFV, JPush-registrerings-ID, APNs-enhetstoken samt leverans- och klickuppgifter för aviseringar för att leverera meddelande-, kundservice- och samtalsaviseringar. JPush/JCore ansluter till push-tjänsten; Apple APNs behandlar appens identifierare, enhetstoken och aviseringsinnehållet för att leverera systemaviseringar. Den nuvarande iOS-appen använder inte reklamtjänster och hämtar inte IDFA.\n\nUrklipp används endast när du aktivt kopierar eller klistrar in. Kamera-, mikrofon-, aviserings- och andra systembehörigheter begärs endast när du aktivt använder motsvarande funktion. Att neka en behörighet påverkar endast den funktionen. Läs de fullständiga dokumenten nedan och välj om du godkänner.",
+  "privacyConsentTermsLink": "Användaravtal",
+  "privacyConsentConjunction": "och",
+  "privacyConsentPrivacyLink": "Integritetspolicy",
+  "privacyConsentDecline": "Avböj",
+  "privacyConsentDeclinedExit": "Du godkände inte användarvillkoren och integritetspolicyn. Appen stängs nu.",
+  "privacyConsentAccept": "Godkänn",
+  "privacyConsentRuntimeFailure": "Starten misslyckades. Kontrollera nätverket och försök igen.",
+  "privacyConsentSaveFailure": "Ditt val kunde inte sparas. Försök igen.",
+  "appUpdateRequiredTitle": "Uppdatering krävs för att fortsätta",
+  "appUpdateOptionalTitle": "Ny version tillgänglig",
+  "appUpdateVersionAvailable": "{brand} {version} är tillgänglig",
+  "appUpdateLater": "Senare",
+  "appUpdateNow": "Uppdatera nu",
+  "appUpdateProcessing": "Bearbetar…",
+  "appUpdateInvalidUrl": "Uppdateringsadressen är ogiltig. Försök igen senare.",
+  "appUpdateOpenUrlFailed": "Uppdateringslänken kunde inte öppnas. Försök igen senare.",
+  "appUpdateDownloadInterrupted": "Nedladdningen avbröts. Kontrollera nätverket och försök igen.",
+  "appUpdatePackageVerificationFailed": "Paketkontrollen misslyckades. Ladda ned igen.",
+  "appUpdatePermissionDenied": "Tillåt att {brand} installerar uppdateringar i systeminställningarna.",
+  "appUpdateOpenInstallerFailed": "Systemets installationsprogram kunde inte öppnas. Kontrollera installationsbehörigheterna.",
+  "appUpdateGenericFailure": "Uppdateringen misslyckades. Kontrollera nätverket och försök igen.",
+  "appUpdateUnavailable": "Den nya versionen kan inte laddas ned ännu. Försök senare.",
+  "appUpdateCheckFailed": "Kunde inte söka efter uppdateringar. Försök igen senare.",
+  "appUpdateChecking": "Kontrollerar",
+  "privacySettingsTitle": "Integritet",
+  "privacySearchableByMobile": "Tillåt sökning via telefonnummer",
+  "privacySearchableByLppId": "Tillåt sökning via StartLink-ID",
+  "privacyAllowFriendRequest": "Tillåt vänförfrågningar",
+  "privacyProfileVisibility": "Profilsynlighet",
+  "privacyEveryone": "Alla",
+  "privacyFriendsOfFriends": "Vänners vänner",
+  "privacyNobody": "Ingen",
+  "privacyFriendsOnly": "Endast vänner",
+  "privacySaveSuccess": "Inställningarna sparade",
+  "privacySaveFailed": "Kunde inte spara. Försök igen.",
+  "termsTitle": "Användaravtal",
+  "privacyPolicyTitle": "Integritetspolicy",
+  "permissionGroupManageDenied": "Endast gruppägaren eller administratörer kan ändra gruppinställningarna.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Endast gruppägaren eller administratörer kan ändra gruppnamnet.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "Den här gruppen tillåter inte att medlemmar lägger till varandra som vänner.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "Kundisolering är aktiverad för organisationen. Du kan inte lägga till kunder som vänner.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Se den senaste versionen på webbplatsen",
+  "legalOfficialOpenFailed": "Webbplatsen kunde inte öppnas. Den lokala säkerhetskopian visas.",
+  "legalLocalChineseNotice": "Den lokala kopian av det juridiska dokumentet finns på förenklad kinesiska.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

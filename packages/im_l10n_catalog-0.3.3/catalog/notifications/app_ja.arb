@@ -1,0 +1,53 @@
+{
+  "@@locale": "ja",
+  "notificationTitle": "通知",
+  "notificationGlobalMute": "おやすみモード",
+  "notificationSound": "サウンド",
+  "notificationVibration": "バイブレーション",
+  "notificationPreview": "通知プレビュー",
+  "notificationDndStart": "おやすみ開始時間",
+  "notificationDndEnd": "おやすみ終了時間",
+  "notificationNewMessageTitle": "StartLinkの新着メッセージ",
+  "notificationOnlineServiceTitle": "カスタマーサービスの新着メッセージ",
+  "notificationNewMessageBody": "新しいメッセージが届きました",
+  "notificationImagePreview": "画像が送信されました",
+  "notificationVideoPreview": "動画が送信されました",
+  "notificationVoicePreview": "音声メッセージが送信されました",
+  "notificationFilePreview": "ファイルが送信されました",
+  "notificationContactPreview": "連絡先カードが送信されました",
+  "notificationCallLogPreview": "通話履歴が送信されました",
+  "notificationLocationPreview": "位置情報が共有されました",
+  "notificationLinkPreview": "リンクが共有されました",
+  "notificationMentionMe": "あなたをメンションしました：{body}",
+  "notificationMentionMeBy": "{sender}があなたをメンションしました：{body}",
+  "notificationMentionAll": "全員をメンションしました：{body}",
+  "notificationMentionAllBy": "{sender}が全員をメンションしました：{body}",
+  "notificationSecurityTitle": "アカウントセキュリティ警告",
+  "notificationSecurityBody": "StartLinkアカウントのセキュリティ設定が変更されました。今すぐ確認してください。",
+  "notificationFriendAcceptedTitle": "友達申請が承認されました",
+  "notificationFriendRejectedTitle": "友達申請が拒否されました",
+  "notificationFriendAcceptedBody": "相手が友達申請を承認しました",
+  "notificationFriendRejectedBody": "相手が友達申請を拒否しました",
+  "notificationVideoCallTitle": "ビデオ通話の招待",
+  "notificationAudioCallTitle": "音声通話の招待",
+  "notificationVideoCallBody": "{caller}からビデオ通話に招待されました",
+  "notificationAudioCallBody": "{caller}から音声通話に招待されました",
+  "notificationMessageChannelName": "メッセージ",
+  "notificationMessageChannelDescription": "チャット、通話履歴、システム通知",
+  "notificationCallChannelName": "通話",
+  "notificationCallChannelDescription": "音声・ビデオ通話の着信通知",
+  "notificationSecurityChannelName": "アカウントセキュリティ",
+  "notificationSecurityChannelDescription": "ログイン、パスワード、携帯電話番号の変更通知",
+  "notificationUnknownCaller": "不明な発信者",
+  "notificationBadgeChannelName": "メッセージバッジ",
+  "notificationBadgeChannelDescription": "ホーム画面のアプリアイコンに未読メッセージ数を表示します",
+  "notificationBadgeUnreadCount": "未読メッセージ{count}件",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "未読メッセージ99+件"
+}

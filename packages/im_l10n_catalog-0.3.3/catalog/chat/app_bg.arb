@@ -1,0 +1,1950 @@
+{
+  "@@locale": "bg",
+  "homeTitle": "Съобщения",
+  "homeGatewayConnectingTitle": "Свързване",
+  "homePersonalSpace": "Лично",
+  "homeOfficialService": "Официално обслужване",
+  "homeSwitchSpace": "Смени пространство",
+  "homeSpaceSubtitle": "Лично · Фирмено",
+  "homeJoinEnterprise": "Присъедини се към фирма",
+  "homeCreateGroup": "Нова група",
+  "homeAddFriend": "Добави контакт",
+  "homeScan": "Сканирай",
+  "homeJoinNewSpace": "Присъедини се към ново пространство",
+  "homeSearchConversation": "Търси",
+  "homeNoMessages": "Няма съобщения",
+  "homeDeleteConversation": "Изтрий разговор",
+  "homeDeleteConversationConfirm": "Да се изтрие ли този разговор? Историята ще бъде изчистена.",
+  "homePersonalNote": "Аз (лични бележки)",
+  "homeWorkNote": "Аз (служебни бележки)",
+  "homeConversationCount": "{count} разговора",
+  "homeUnreadCount": "{count} непрочетени",
+  "chatInputHint": "Напишете съобщение...",
+  "chatVoiceHint": "Задръжте, за да говорите",
+  "chatVoiceRelease": "Отпуснете за изпращане",
+  "chatVoiceCancel": "Плъзнете нагоре за отказ",
+  "chatMenuCopy": "Копиране",
+  "chatMenuForward": "Препрати",
+  "chatMenuRecall": "Оттегли съобщението",
+  "chatMenuDelete": "Изтрий",
+  "chatMenuFavorite": "Запази",
+  "chatMenuReply": "Отговори",
+  "chatMenuMultiSelect": "Избери",
+  "chatMenuTranslate": "Преведи",
+  "chatMenuVoiceToText": "Преобразувай в текст",
+  "chatMenuTextToSpeech": "Прочети на глас",
+  "chatStatusRecalled": "Съобщението е оттеглено",
+  "chatRecallSuccess": "Оттеглено",
+  "chatRecallFailed": "Оттеглянето е неуспешно",
+  "chatRecallTimeout": "Съобщения, по-стари от 2 минути, не могат да се оттеглят",
+  "chatTranslateFailed": "Преводът е неуспешен. Опитайте отново.",
+  "chatTranslateNotConfigured": "Услугата за превод не е достъпна",
+  "chatVoiceToTextFailed": "Преобразуването е неуспешно. Опитайте отново.",
+  "chatTextToSpeechFailed": "Прочитането на глас е неуспешно. Опитайте отново.",
+  "chatVoiceToText": "Преобразувай",
+  "chatForwardSuccess": "Препратено",
+  "chatForwardFailed": "Препращането е неуспешно. Опитайте отново.",
+  "chatNoConversations": "Няма разговори за препращане",
+  "chatSendFailed": "Изпращането е неуспешно",
+  "chatResend": "Изпрати отново",
+  "chatNotFriend": "Не е в списъка с контакти",
+  "chatNotFriendHint": "Все още не сте контакти. Изпращането на съобщения е невъзможно.",
+  "chatMutedHint": "Всички членове са заглушени",
+  "chatFileUploadFailed": "Качването на файла е неуспешно. Опитайте отново.",
+  "chatFileStatusNotDownloaded": "Не е изтеглено",
+  "chatFileStatusDownloaded": "Изтеглено",
+  "chatFileStatusUploading": "Качване",
+  "chatFileStatusUploadFailed": "Неуспешно качване",
+  "chatCardSendFailed": "Изпращането на контактната карта е неуспешно",
+  "chatFavoriteSuccess": "Запазено",
+  "chatFavoriteFailed": "Добавянето в любими е неуспешно",
+  "chatLoadFailed": "Неуспешно зареждане",
+  "chatImageMessage": "[Изображение]",
+  "chatVoiceMessage": "[Гласово съобщение]",
+  "chatVideoMessage": "[Видео]",
+  "chatFileMessage": "[Файл]",
+  "chatLocationMessage": "[Местоположение]",
+  "chatContactCardMessage": "[Контакт]",
+  "chatCallLogMessage": "[Обаждане]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "Прочетено от {count}",
+  "chatUnread": "Непрочетено",
+  "chatRecalledSelf": "Оттеглихте съобщение",
+  "chatRecalledPeer": "{sender} оттегли съобщение",
+  "chatTranslationPrefix": "Превод: {translation}",
+  "chatMessageDeleted": "Съобщението е изтрито",
+  "chatPeer": "Друго",
+  "chatSelf": "Аз",
+  "chatGenericMessage": "[Съобщение]",
+  "chatVoiceHideText": "Скрий текста",
+  "chatVoiceShowText": "Преобразувай в текст",
+  "chatFileDefaultName": "Файл",
+  "chatContactDefaultName": "Контакт",
+  "chatContactCardTitle": "Контактна карта",
+  "chatCallMissed": "Пропуснато",
+  "chatCallCancelled": "Отменено",
+  "chatCallRejected": "Отказано",
+  "chatCallDisconnected": "Връзката е прекъсната",
+  "chatCallEnded": "Разговорът приключи",
+  "chatCallFailed": "Обаждането е неуспешно",
+  "chatCallDuration": "Продължителност {duration}",
+  "chatVideoCallTitle": "Видеоразговор",
+  "chatVoiceCallTitle": "Гласово обаждане",
+  "chatToolPhotos": "Снимки",
+  "chatToolCamera": "Камера",
+  "chatToolFile": "Файл",
+  "chatToolLocation": "Местоположение",
+  "chatToolContactCard": "Контакт",
+  "chatToolVoiceCall": "Гласово обаждане",
+  "chatToolVideoCall": "Видеоразговор",
+  "chatToolFavorites": "Любими",
+  "chatToolTranslate": "Преведи",
+  "chatTranslationChooseLanguage": "Изберете език за превод",
+  "chatTranslationEnterText": "Първо въведете текст",
+  "chatTranslationMentionsUnsupported": "Преводът е недостъпен за съобщения със споменавания",
+  "chatTranslationScheduledUnsupported": "Преводът е недостъпен при редактиране на насрочено съобщение",
+  "chatTranslationFailed": "Преводът е неуспешен. Опитайте отново.",
+  "chatTranslationEmpty": "Не е получен превод. Опитайте отново.",
+  "chatTranslationTranslating": "Превеждане…",
+  "chatTranslationSend": "Изпрати превода",
+  "chatTranslationSending": "Изпращане…",
+  "chatTranslationExpand": "Покажи още",
+  "chatTranslationCollapse": "Покажи по-малко",
+  "chatFileTooLarge": "Файлът надвишава ограничението (100 MB)",
+  "chatInputMutedAdminOnly": "Само собственикът или избраните членове могат да пишат.",
+  "chatImageUploadUnsupported": "Качването на изображението е неуспешно. Сървърът все още не поддържа тази функция.",
+  "chatFavoriteLongPressHint": "Задръжте съобщение, за да го добавите в любими",
+  "chatSelectedCount": "Избрани: {count}",
+  "chatLocationSheetTitle": "Изпрати местоположение",
+  "chatLocationNameLabel": "Име на мястото",
+  "chatLocationNameHint": "напр. офис, адрес на клиент",
+  "chatLocationAddressLabel": "Адрес",
+  "chatLocationOptionalHint": "По избор",
+  "chatLocationLatitudeLabel": "Географска ширина",
+  "chatLocationLatitudeHint": "От -90 до 90",
+  "chatLocationLongitudeLabel": "Географска дължина",
+  "chatLocationLongitudeHint": "От -180 до 180",
+  "chatLocationValidationRequired": "Въведете {label}",
+  "chatLocationValidationRange": "{label} е извън допустимия диапазон",
+  "chatLocationDefaultTitle": "Местоположение",
+  "chatMutedFullNotice": "Тази група е заглушена. Само собственикът или избраните членове могат да пишат.",
+  "chatNotFriendSendBlocked": "Вече не сте приятели и не можете да изпращате съобщения",
+  "chatPersonalNotesTitle": "Лични бележки",
+  "chatWorkNotesTitle": "Служебни бележки",
+  "chatPersonalNotesDescription": "Записвайте лични мисли и важна информация тук\nСинхронизирани между устройствата за достъп по всяко време",
+  "chatWorkNotesDescription": "Записвайте служебни задачи и материали тук\nЕкипните пространства остават отделни и защитени",
+  "chatNoMessages": "Няма съобщения",
+  "chatReplyTo": "Отговори на {sender}",
+  "chatFeatureComingSoon": "Функцията {feature} предстои скоро",
+  "chatForwardSelectTitle": "Изберете разговор",
+  "chatContactSelectTitle": "Изберете контакт",
+  "chatNoContacts": "Няма контакти",
+  "autoTranslateTitle": "Автоматичен превод",
+  "autoTranslateEnabled": "Включи автоматичен превод",
+  "autoTranslateLanguage": "Целеви език",
+  "chatSettingsTitle": "Разговор",
+  "chatHistoryTitle": "История на разговорите",
+  "chatHistoryClear": "Изчисти цялата история",
+  "chatHistoryClearConfirm": "Да се изчисти ли цялата история на разговорите? Това не може да се отмени.",
+  "chatHistoryClearSuccess": "Историята на разговорите е изчистена",
+  "chatBackgroundTitle": "Фон на разговора",
+  "chatBackgroundDefault": "По подразбиране",
+  "chatBackgroundCustom": "Персонализирано",
+  "chatBackgroundReset": "Възстанови стандартните настройки",
+  "imageViewerTitle": "Снимка",
+  "imageViewerSave": "Запази в албума",
+  "imageViewerSaveSuccess": "Запазено в албума",
+  "imageViewerSaveFailed": "Запазването е неуспешно. Опитайте отново.",
+  "chatOfficialAccountReadOnlyHint": "Този профил изпраща само известия. За помощ се свържете с профила за обслужване.",
+  "mediaSavedToLocalFile": "Запазено в локален файл",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "Днес",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "Вчера",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "Тази седмица",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, one {преди {count} минута} other {преди {count} минути}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, one {преди {count} час} other {преди {count} часа}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, one {преди {count} ден} other {преди {count} дни}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} сек",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} мин",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "Утре",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "Преобразуване на реч в текст",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "Разпознаването може да е неточно. Прегледайте текста преди изпращане.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "Разпознат текст…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "Надеждност на разпознаването:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "Отвори връзката {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "Създаване на преглед на връзката",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "Тази връзка не може да се отвори",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "Маркирай като прочетено",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "Маркирай като непрочетено",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "Включи известията",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "Изисква се разрешение за микрофона",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "Записът не може да започне",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "Записване…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "Записът е твърде кратък",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "Записване, {count, plural, one {{count} секунда} other {{count} секунди}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "Плъзнете тук за преобразуване в текст",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "Пуснете за отмяна",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "Пуснете за редактиране на текста",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "Преобразуване в текст…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "Не е разпозната реч",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "Изпрати оригиналния запис",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "Изпращане",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "Потърсете организация, въведете кода ѝ или вижте заявките си",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "Вижте опашката от чакащи и разговорите си",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "Продуктова карта",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "Промоционален купон",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "Анкета",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "Още маркетингови инструменти",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "Често използвани",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "Усмивки",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "Жестове",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "Животни",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "Храна",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "Дейности",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "Пътуване",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "Предмети",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "Докоснете за снимка. Задръжте за видеозапис.",
+  "chatCameraReleaseToSend": "Отпуснете за изпращане",
+  "chatCameraStartFailed": "Камерата не можа да се стартира. Проверете разрешенията и опитайте отново.",
+  "chatCameraUnavailable": "Камерата е недостъпна",
+  "chatDetails": "Подробности за разговора",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "Търси в историята на разговора",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "Планирани съобщения",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "Задай фон на разговора",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "Управление на групата",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "Администратори на групата",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "Заглушени членове",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "Поканите от членове са изключени за тази група",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "Само собственикът и администраторите могат да добавят членове",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "Създаването на групи е недостъпно в тази версия",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, one {Добавен е {count} член} other {Добавени са {count} членове}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "Име на групата (по желание)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "Нова група",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "Създай нова група",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "Създай група наблизо",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "Готово ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "Изтрий ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "Само собственици, администратори на групи или администратори на организацията могат да виждат администраторите на групата",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "Администраторите помагат в управлението на групата, включително публикуване на обяви и премахване на членове.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "Само собственикът може да назначава администратори, да прехвърля собствеността или да разпуска групата.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, one {Можете да назначите до {count} администратор.} other {Можете да назначите до {count} администратори.}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "Премахни администратора",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "Да се отнемат ли администраторските права на {name}?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "Само собственикът и администраторите могат да виждат заявките за присъединяване",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "Заявката за присъединяване е одобрена",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "Заявката за присъединяване е отхвърлена",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "Тази заявка вече е обработена",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "Отхвърли заявката за присъединяване",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "Причина за отхвърляне (по желание)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "Причина за отхвърляне: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "Разреши присъединяването чрез QR код",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "Когато е включено, заявките за присъединяване трябва да бъдат одобрени",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "Когато е изключено, само собственикът и администраторите могат да променят името на групата",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "Разреши на обикновените членове да добавят нови членове",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "Разреши на обикновените членове да споменават всички",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "Когато е изключено, членовете не могат да се добавят като приятели",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "Когато е изключено, обикновените членове не могат да виждат списъка с членове",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "Да се разпусне ли тази група? Всички членове ще бъдат уведомени. Това действие е необратимо.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "Изтрий и напусни",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "Собственикът или администраторите са изключили достъпа на обикновените членове до списъка с членове",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "Показвай прякорите на членовете",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "Данните за групата не могат да се синхронизират. Показва се локалната информация за разговора.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "Информацията за групата не може да се зареди",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "Избери членове",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "Избери членове на групата",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "Само собственикът може да назначава администратори",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "Няма членове за добавяне",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "Избери нов собственик на групата",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "Само собственикът може да прехвърля собствеността",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "Няма други членове",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "Да се прехвърли ли собствеността на {name}? Ще станете обикновен член.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "Потвърди прехвърлянето",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "Само вие виждате тази бележка за групата",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "Име на групата: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "Използвай това име",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "Още никой не е прочел това",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "Всички са прочели това",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "Информация за разговора",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "Информация за разговора ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "Прочетено",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "Поканата за приятелство е изпратена. Изчаква се приемане.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "Преглед",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "Изчаква се приемане",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "Прегледай заявката",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "Приятели",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "Служител",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "Файлът не може да се прочете. Изтеглете го на това устройство и опитайте отново",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "Изпращай изображения и видеа от снимките",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "Типът на файла не може да се определи",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "Типът на файла не съответства на разширението му",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": "Файлове .{extension} все още не се поддържат",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "Този тип файл все още не се поддържа",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "Избери час",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "Избери хора за споменаване",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@Всички",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "Уведоми всички членове на групата",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "Няма членове за споменаване",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "Няма съответстващи членове",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "Бързи отговори",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "Отговор с ИИ",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "Бързи отговори",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "Бързите отговори не могат да се заредят",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "Опитайте по-късно",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "Няма бързи отговори",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "Бързите отговори ще се появят тук, когато библиотеката бъде включена",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "Няма съответстващи бързи отговори",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "Опитайте друга ключова дума",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "Търси бързи отговори",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "Бърз отговор без заглавие",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "Масово изпращане",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "Въведете масово съобщение",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "Избери получатели",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "Изберете валидни получатели",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, one {Изпратено до {count} получател} other {Изпратено до {count} получатели}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "Изпратени: {success}. Неуспешни: {failed}.",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "Повтори неуспешните ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "Изберете получатели за изпращане",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, one {Изпрати до {count} получател} other {Изпрати до {count} получатели}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "Приятелите или групите не могат да се заредят. Опитайте по-късно.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "Няма налични получатели",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "Няма съответстващи получатели",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "Добавете приятели или се присъединете към групи, за да използвате масово изпращане",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "Търси приятели или групи",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "Въведете масовото си съобщение",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "Избери приятели или групи",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, one {Избран е {count} получател} other {Избрани са {count} получатели}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "Група без име",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "Приятел без име",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "Изпратено",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "Текущата ви роля не може да изпраща масови съобщения",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "Измама",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "Нарушаване на права",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "Вредно съдържание",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "Тормоз",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "Разпространяване на слухове",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "Сигналът ви не може да се изпрати. Опитайте отново.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "Сигналът е подаден",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "Благодарим за обратната връзка. Ще разгледаме сигнала ви относно {reason} възможно най-скоро.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "ID на сигнала: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "Друг агент обслужва този разговор. Вече не можете да отговаряте.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "Историята се запазва. Обслужването ще продължи, когато клиентът възобнови разговора.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "Затворен от посетителя",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "Затворен от агента",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "Затворен поради изтекло време",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "Затворен от системата",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "Архивиран",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "Прехвърлен към друг агент",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "Приключил",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "Според общата настройка (включено)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "Според общата настройка (изключено)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "Този разговор (включено)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "Този разговор (изключено)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "Планираното съобщение е изпратено или не може да бъде отменено",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "Не може да се отмени. Опитайте по-късно.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "Хранилище",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "Статистиката за хранилището е недостъпна",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "Архивиране и възстановяване",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "Архивирай историята на разговорите",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "Възстанови историята на разговорите",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "Импортиране и експортиране",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "Експортирай историята на разговорите",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "Импортирай историята на разговорите",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "Все още е недостъпно",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "Публикуване",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "Заглавие на обявата (по желание)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "Не може да се изтрие. Опитайте отново.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "Не може да се запази. Опитайте отново.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "Членът е заглушен",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "Заглушаването на члена е премахнато",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "Само собственици, администратори на групи или администратори на организацията могат да заглушават членове",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "Няма обикновени членове за заглушаване",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "Търси членове",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "Изчисти търсенето",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "Няма съответстващи членове",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "Няма резултати за „{query}“",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "Заглушаването ограничава само обикновените членове. Задайте продължителността в минути; 0 означава безсрочно. Причината се изпраща до сървъра.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "До {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "Причина: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "Заглуши член",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "Премахни заглушаването на член",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "Настройки за заглушаване",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "Въведете цяло число, равно на или по-голямо от 0",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "Този член ще бъде заглушен",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "Заглуши {name}",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "Продължителност на заглушаването (минути)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "Въведете 0 за безсрочно заглушаване",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "Причина за заглушаване",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "По желание, за бъдеща справка",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "Потвърди заглушаването",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "Заглушен",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "Не е заглушен",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "Състоянието не е синхронизирано",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "QR кодът е недостъпен",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "Копирай съдържанието",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "Собственикът или администраторите са изключили създаването на QR кодове от обикновени членове",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "Създаване на QR код на групата",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "QR кодът на групата не може да се създаде. Опреснете и опитайте отново.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "Сканирайте горния QR код, за да заявите присъединяване към групата",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "Сканирайте горния QR код, за да се присъедините към групата",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "Валиден до {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "QR кодът на групата не може да се зареди",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "Подробности за прочитането",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "Оригиналното изображение не може да се зареди. Докоснете за повторен опит.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@мен]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@всички]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "Споменати сте",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "Всички са споменати",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "Първо приемете този разговор",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "Първо поемете този разговор",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "Този разговор е само за четене. Това действие е недостъпно.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "Текущата ви роля не може да изпълни това действие за поддръжка",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "Този разговор временно е недостъпен",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "Това действие е недостъпно в текущото състояние",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "Разговорът е възобновен. Можете да продължите да помагате на клиента.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "Друг агент обслужва този разговор",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "Клиентът не е възобновил разговора",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "Разговорът е поет",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "Не може да се поеме. Опитайте отново.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "Разговорът е приет",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "Не може да се приеме. Опитайте отново.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "При затваряне историята се запазва. Правилата на сървъра може отново да поставят разговора на опашка или да го разпределят.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "Разговорът е затворен",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "Не може да се затвори. Опитайте отново.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "Този разговор в момента не може да бъде прехвърлен",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "Няма агенти за прехвърляне",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "Разговорът е прехвърлен",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "Не може да се прехвърли. Опитайте отново.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "Разговор с клиент",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "Запази в албума",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "Няма съобщения от другия човек за превод",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "Следвай общата настройка",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "Общата настройка е включена",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "Общата настройка е изключена",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "Включи за този разговор",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "Автоматичен превод само на видимите съобщения от другия човек",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "Изключи за този разговор",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "Без превод на този разговор, дори когато общата настройка е включена",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "Преведи видимите съобщения",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "Изберете час поне една минута след текущия",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "Съобщенията могат да се планират до 14 дни напред",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "Планираното изпращане не може да се зададе",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "Това съдържание не може да се изпрати, защото нарушава правилата",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "Този профил е заглушен и в момента не може да изпраща съобщения",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "Груповото съобщение не може да се изпрати. Опитайте по-късно (INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "Изпращането е неуспешно: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "Това меню временно е недостъпно",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "Разговорът за поддръжка се подготвя. Опитайте след малко.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "Вие сте на опашката. Свободен агент ще се свърже с вас.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "ИИ обслужва този разговор",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "Вие обслужвате този разговор",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} обслужва този разговор",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "ИИ отговаря на съобщенията на клиента · Източник: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "Агент обслужва този разговор · Източник: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "Профилът на клиента временно е недостъпен",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "Добавете бележка (по желание)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "Потвърди прехвърлянето",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "Клиентът пише: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "Режим само за преглед. Не можете да изпращате съобщения.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "Приемете разговора, за да отговорите",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "Приемете разговора, преди да отговорите",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "Поемете разговора, преди да отговорите",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "Профил на клиента",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "Име",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "Ниво",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "Риск",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "Език",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "Източник",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "Определен агент",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "Преглед на сметката",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "Салдо по сметката",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "Общо депозити",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "Чист депозит",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "Състояние на сметката",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "Дата на регистрация",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "Преглед на търговската история",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "Общо поръчки",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "Търгувани продукти",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "Процент печеливши сделки",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "Час на последната сделка",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "Профил на посетителя",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "ID на посетителя",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "История на разговорите",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "Изходна страница",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "Данните за сметката, сделките и заявките стават достъпни, след като клиентът се регистрира и свърже сметка",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "Потвърден",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "Не е одобрен",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "Нисък",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "Среден",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "Висок",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "Активно",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "Изключено",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "Замразен",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "Етикети",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "Заявки за поддръжка",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "Няма заявки за поддръжка",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "В обработка",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "Чакаща",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "Затворен",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "Данни за временни поръчки",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "Няма временни поръчки",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "Поръчки",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "Номер на поръчката",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "Посока",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "лот",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "Цена при отваряне",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "Плаваща печалба/загуба",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "Време на отваряне",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "Купи",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "Продай",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "отворена позиция",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "В изчакване",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "Затворени позиции",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "Неразпределен",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "Официален профил",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "Тип",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "Подробности за любимия елемент",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "Съдържание на любимия елемент",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(Няма съдържание)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "Запазено на {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "Търси в историята на разговора",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "Дата",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "Изображения и видеа",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "Търси конкретно съдържание",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "Гласово съобщение {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[Системно съобщение]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[Връзка]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[Текст]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[Форматиран текст]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "Планираното съобщение не може да е празно",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "Не може да се обнови. Опитайте по-късно.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "Планираните съобщения не могат да се заредят",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "Няма планирани съобщения",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "Тук можете да управлявате съобщенията, планирани от полето за писане.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "Изчакване за изпращане",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "Доставяне",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "Състояние {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "Редактирай планираното съобщение",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "Съдържание на съобщението",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "Час на изпращане",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "Редактирай",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "Планирано за {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "Съобщението ще бъде изпратено в {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "Редактиране на планирано съобщение · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "Изтрий планираното съобщение",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, one {{count} непрочетен разговор} other {{count} непрочетени разговора}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "Няма непрочетени разговори",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, one {{count} непрочетено съобщение} other {{count} непрочетени съобщения}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {{count} ново съобщение} other {{count} нови съобщения}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "Няма съответстващи разговори",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "Няма разговори",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "Няма повече разговори",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "С",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "Връзка",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "Обикновените членове не могат да споменават всички в тази група",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "Опресни състоянието",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "Задръжте, за да говорите",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "Отпуснете за изпращане",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "Членът е премахнат",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

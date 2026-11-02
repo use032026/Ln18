@@ -1,0 +1,1950 @@
+{
+  "@@locale": "sv",
+  "homeTitle": "Meddelanden",
+  "homeGatewayConnectingTitle": "Ansluter",
+  "homePersonalSpace": "Personligt",
+  "homeOfficialService": "Officiell service",
+  "homeSwitchSpace": "Byt utrymme",
+  "homeSpaceSubtitle": "Personligt · Företag",
+  "homeJoinEnterprise": "Gå med i företag",
+  "homeCreateGroup": "Ny grupp",
+  "homeAddFriend": "Lägg till kontakt",
+  "homeScan": "Skanna",
+  "homeJoinNewSpace": "Gå med i nytt utrymme",
+  "homeSearchConversation": "Sök",
+  "homeNoMessages": "Inga meddelanden",
+  "homeDeleteConversation": "Radera chatt",
+  "homeDeleteConversationConfirm": "Radera denna chatt? Chatthistoriken rensas.",
+  "homePersonalNote": "Jag (personliga anteckningar)",
+  "homeWorkNote": "Jag (arbetsanteckningar)",
+  "homeConversationCount": "{count} chattar",
+  "homeUnreadCount": "{count} olästa",
+  "chatInputHint": "Skriv ett meddelande…",
+  "chatVoiceHint": "Håll inne för att prata",
+  "chatVoiceRelease": "Släpp för att skicka",
+  "chatVoiceCancel": "Svep uppåt för att avbryta",
+  "chatMenuCopy": "Kopiera",
+  "chatMenuForward": "Vidarebefordra",
+  "chatMenuRecall": "Återkalla",
+  "chatMenuDelete": "Ta bort",
+  "chatMenuFavorite": "Spara",
+  "chatMenuReply": "Svara",
+  "chatMenuMultiSelect": "Välj",
+  "chatMenuTranslate": "Översätt",
+  "chatMenuVoiceToText": "Omvandla till text",
+  "chatMenuTextToSpeech": "Läs upp",
+  "chatStatusRecalled": "Meddelandet återkallat",
+  "chatRecallSuccess": "Återkallat",
+  "chatRecallFailed": "Kunde inte återkalla",
+  "chatRecallTimeout": "Meddelanden äldre än 2 minuter kan inte återkallas",
+  "chatTranslateFailed": "Översättningen misslyckades. Försök igen.",
+  "chatTranslateNotConfigured": "Översättningstjänsten är inte tillgänglig",
+  "chatVoiceToTextFailed": "Omvandlingen misslyckades. Försök igen.",
+  "chatTextToSpeechFailed": "Uppläsningen misslyckades. Försök igen.",
+  "chatVoiceToText": "Omvandla",
+  "chatForwardSuccess": "Vidarebefordrat",
+  "chatForwardFailed": "Vidarebefordran misslyckades. Försök igen.",
+  "chatNoConversations": "Inga chattar att vidarebefordra till",
+  "chatSendFailed": "Kunde inte skicka",
+  "chatResend": "Skicka kod igen",
+  "chatNotFriend": "Inte i kontaktlistan",
+  "chatNotFriendHint": "Ni är inte kontakter ännu. Meddelanden kan inte skickas.",
+  "chatMutedHint": "Alla medlemmar är tystade",
+  "chatFileUploadFailed": "Filuppladdningen misslyckades. Försök igen.",
+  "chatFileStatusNotDownloaded": "Inte nedladdad",
+  "chatFileStatusDownloaded": "Nedladdad",
+  "chatFileStatusUploading": "Laddar upp",
+  "chatFileStatusUploadFailed": "Uppladdning misslyckades",
+  "chatCardSendFailed": "Kunde inte skicka kontaktkort",
+  "chatFavoriteSuccess": "Sparad",
+  "chatFavoriteFailed": "Kunde inte lägga till i favoriter",
+  "chatLoadFailed": "Kunde inte ladda",
+  "chatImageMessage": "[Bild]",
+  "chatVoiceMessage": "[Röstmeddelande]",
+  "chatVideoMessage": "[Video]",
+  "chatFileMessage": "[Fil]",
+  "chatLocationMessage": "[Plats]",
+  "chatContactCardMessage": "[Kontakt]",
+  "chatCallLogMessage": "[Samtal]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "Läst av {count}",
+  "chatUnread": "Oläst",
+  "chatRecalledSelf": "Du återkallade ett meddelande",
+  "chatRecalledPeer": "{sender} återkallade ett meddelande",
+  "chatTranslationPrefix": "Översättning: {translation}",
+  "chatMessageDeleted": "Meddelandet raderat",
+  "chatPeer": "Den andra",
+  "chatSelf": "Jag",
+  "chatGenericMessage": "[Meddelande]",
+  "chatVoiceHideText": "Dölj text",
+  "chatVoiceShowText": "Omvandla till text",
+  "chatFileDefaultName": "Fil",
+  "chatContactDefaultName": "Kontakt",
+  "chatContactCardTitle": "Kontaktkort",
+  "chatCallMissed": "Missat",
+  "chatCallCancelled": "Avbrutet",
+  "chatCallRejected": "Avvisat",
+  "chatCallDisconnected": "Frånkopplat",
+  "chatCallEnded": "Samtalet avslutat",
+  "chatCallFailed": "Samtalet misslyckades",
+  "chatCallDuration": "Längd {duration}",
+  "chatVideoCallTitle": "Videosamtal",
+  "chatVoiceCallTitle": "Röstsamtal",
+  "chatToolPhotos": "Foton",
+  "chatToolCamera": "Kamera",
+  "chatToolFile": "Fil",
+  "chatToolLocation": "Plats",
+  "chatToolContactCard": "Kontakt",
+  "chatToolVoiceCall": "Röstsamtal",
+  "chatToolVideoCall": "Videosamtal",
+  "chatToolFavorites": "Favoriter",
+  "chatToolTranslate": "Översätt",
+  "chatTranslationChooseLanguage": "Välj översättningsspråk",
+  "chatTranslationEnterText": "Ange text först",
+  "chatTranslationMentionsUnsupported": "Översättning är inte tillgänglig för meddelanden med omnämnanden",
+  "chatTranslationScheduledUnsupported": "Översättning är inte tillgänglig när ett schemalagt meddelande redigeras",
+  "chatTranslationFailed": "Översättningen misslyckades. Försök igen.",
+  "chatTranslationEmpty": "Ingen översättning mottagen. Försök igen.",
+  "chatTranslationTranslating": "Översätter…",
+  "chatTranslationSend": "Skicka översättning",
+  "chatTranslationSending": "Skickar…",
+  "chatTranslationExpand": "Visa mer",
+  "chatTranslationCollapse": "Visa mindre",
+  "chatFileTooLarge": "Filen överskrider gränsen på 100 MB",
+  "chatInputMutedAdminOnly": "Endast ägaren eller utvalda medlemmar får skriva.",
+  "chatImageUploadUnsupported": "Bilduppladdningen misslyckades. Servern stöder det inte ännu.",
+  "chatFavoriteLongPressHint": "Håll inne ett meddelande för att lägga till det i favoriter",
+  "chatSelectedCount": "{count} valda",
+  "chatLocationSheetTitle": "Skicka plats",
+  "chatLocationNameLabel": "Platsnamn",
+  "chatLocationNameHint": "T.ex. kontor, kundadress",
+  "chatLocationAddressLabel": "Adress",
+  "chatLocationOptionalHint": "Valfritt",
+  "chatLocationLatitudeLabel": "Latitud",
+  "chatLocationLatitudeHint": "-90 till 90",
+  "chatLocationLongitudeLabel": "Longitud",
+  "chatLocationLongitudeHint": "-180 till 180",
+  "chatLocationValidationRequired": "Ange {label}",
+  "chatLocationValidationRange": "{label} är utanför intervallet",
+  "chatLocationDefaultTitle": "Plats",
+  "chatMutedFullNotice": "Den här gruppen är tystad. Endast ägaren eller utvalda medlemmar får skriva.",
+  "chatNotFriendSendBlocked": "Ni är inte längre vänner och kan inte skicka meddelanden",
+  "chatPersonalNotesTitle": "Personliga anteckningar",
+  "chatWorkNotesTitle": "Arbetsanteckningar",
+  "chatPersonalNotesDescription": "Spara personliga tankar och viktig information här\nSynkroniserat mellan enheter och alltid tillgängligt",
+  "chatWorkNotesDescription": "Spara arbetsuppgifter och arbetsmaterial här\nTeamutrymmen hålls separata och säkra",
+  "chatNoMessages": "Inga meddelanden",
+  "chatReplyTo": "Svara {sender}",
+  "chatFeatureComingSoon": "{feature} kommer snart",
+  "chatForwardSelectTitle": "Välj chatt",
+  "chatContactSelectTitle": "Välj kontakt",
+  "chatNoContacts": "Inga kontakter",
+  "autoTranslateTitle": "Automatisk översättning",
+  "autoTranslateEnabled": "Aktivera automatisk översättning",
+  "autoTranslateLanguage": "Målspråk",
+  "chatSettingsTitle": "Chatt",
+  "chatHistoryTitle": "Chatthistorik",
+  "chatHistoryClear": "Rensa all historik",
+  "chatHistoryClearConfirm": "Rensa all chatthistorik? Detta kan inte ångras.",
+  "chatHistoryClearSuccess": "Chatthistoriken rensad",
+  "chatBackgroundTitle": "Chattbakgrund",
+  "chatBackgroundDefault": "Standard",
+  "chatBackgroundCustom": "Anpassat",
+  "chatBackgroundReset": "Återställ standardvärden",
+  "imageViewerTitle": "Foto",
+  "imageViewerSave": "Spara till Album",
+  "imageViewerSaveSuccess": "Sparad i album",
+  "imageViewerSaveFailed": "Kunde inte spara. Försök igen.",
+  "chatOfficialAccountReadOnlyHint": "Detta konto skickar endast uppdateringar. Kontakta servicekontot för hjälp.",
+  "mediaSavedToLocalFile": "Sparat i en lokal fil",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "Idag",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "I går",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "Denna vecka",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, one {för {count} minut sedan} other {för {count} minuter sedan}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, one {för {count} timme sedan} other {för {count} timmar sedan}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, one {för {count} dag sedan} other {för {count} dagar sedan}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} s",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} min",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "I morgon",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "Tal till text",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "Igenkänningen kan vara felaktig. Granska texten innan du skickar.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "Igenkänd text…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "Igenkänningens säkerhet:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "Öppna länk {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "Skapar länkförhandsvisning",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "Den här länken kan inte öppnas",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "Markera som läst",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "Markera som oläst",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "Aktivera aviseringar",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "Mikrofonbehörighet krävs",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "Inspelningen kunde inte startas",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "Spelar in…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "Inspelningen är för kort",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "Spelar in, {count, plural, one {{count} sekund} other {{count} sekunder}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "Svep hit för att transkribera",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "Släpp för att avbryta",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "Släpp för att redigera texten",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "Transkriberar…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "Inget tal kändes igen",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "Skicka originalinspelning",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "Skickar",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "Sök efter en organisation, ange koden eller visa dina ansökningar",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "Visa kön och dina konversationer",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "Produktkort",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "Kampanjkupong",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "Enkät",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "Fler marknadsföringsverktyg",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "Ofta använda",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "Smileys",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "Gester",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "Djur",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "Mat",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "Aktiviteter",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "Resor",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "Föremål",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "Tryck för att ta ett foto. Håll inne för att spela in en video.",
+  "chatCameraReleaseToSend": "Släpp för att skicka",
+  "chatCameraStartFailed": "Kameran kunde inte startas. Kontrollera behörigheterna och försök igen.",
+  "chatCameraUnavailable": "Kamera otillgänglig",
+  "chatDetails": "Chattdetaljer",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "Sök i chatthistoriken",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "Schemalagda meddelanden",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "Ange chattbakgrund",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "Grupphantering",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "Gruppadministratörer",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "Tystade medlemmar",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "Medlemsinbjudningar är inaktiverade för gruppen",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "Endast gruppägaren eller administratörer kan lägga till medlemmar",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "Att skapa grupper är inte tillgängligt i denna version",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, one {{count} medlem tillagd} other {{count} medlemmar tillagda}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "Gruppnamn (valfritt)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "Ny grupp",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "Skapa en ny grupp",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "Skapa en grupp i närheten",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "Klart ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "Radera ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "Endast gruppägare, gruppadministratörer eller organisationsadministratörer kan se gruppadministratörer",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "Administratörer hjälper till att hantera gruppen, bland annat genom att publicera anslag och ta bort medlemmar.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "Endast gruppägaren kan utse administratörer, överföra ägarskap eller upplösa gruppen.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, one {Du kan utse högst {count} administratör.} other {Du kan utse högst {count} administratörer.}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "Ta bort administratör",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "Ta bort administratörsrättigheter från {name}?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "Endast gruppägaren eller administratörer kan se anslutningsförfrågningar",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "Anslutningsförfrågan godkänd",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "Anslutningsförfrågan avvisad",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "Den här förfrågan har redan hanterats",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "Avvisa anslutningsförfrågan",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "Avslagsorsak (valfritt)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "Avslagsorsak: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "Tillåt medlemmar att gå med via QR-kod",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "Anslutningsförfrågningar måste godkännas när aktiverat",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "När inaktiverat kan endast ägare och administratörer ändra gruppnamnet",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "Tillåt vanliga medlemmar att lägga till nya medlemmar",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "Tillåt vanliga medlemmar att nämna alla",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "När inaktiverat kan gruppmedlemmar inte lägga till varandra som vänner",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "När inaktiverat kan vanliga medlemmar inte se medlemslistan",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "Upplösa den här gruppen? Alla medlemmar aviseras. Detta kan inte ångras.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "Radera och lämna",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "Ägaren eller administratörer har inaktiverat åtkomst till medlemslistan för vanliga medlemmar",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "Visa medlemmarnas smeknamn",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "Gruppdetaljer kunde inte synkroniseras. Visar lokal chattinformation.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "Gruppinformation kunde inte läsas in",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "Välj medlemmar",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "Välj gruppmedlemmar",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "Endast gruppägaren kan utse administratörer",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "Inga medlemmar tillgängliga att lägga till",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "Välj en ny gruppägare",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "Endast gruppägaren kan överföra ägarskapet",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "Inga andra medlemmar",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "Överföra ägarskapet till {name}? Du blir en vanlig medlem.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "Bekräfta överföring",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "Endast du kan se den här gruppanteckningen",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "Gruppnamn: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "Använd det här namnet",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "Ingen har läst detta ännu",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "Alla har läst detta",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "Chattinformation",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "Chattinformation ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "Läst",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "Vänförfrågan skickad. Väntar på acceptans.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "Visa",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "Väntar på acceptans",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "Granska förfrågan",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "Vänner",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "Anställd",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "Filen kunde inte läsas. Ladda ned den till enheten och försök igen",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "Skicka bilder och videor från Foton",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "Filtypen kunde inte identifieras",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "Filtypen stämmer inte med filändelsen",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": ".{extension}-filer stöds inte ännu",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "Den här filtypen stöds inte ännu",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "Välj tid",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "Välj personer att nämna",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@Alla",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "Avisera alla gruppmedlemmar",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "Inga medlemmar tillgängliga att nämna",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "Inga matchande medlemmar",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "Snabbsvar",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "AI-svar",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "Snabbsvar",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "Snabbsvar kunde inte läsas in",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "Försök igen senare",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "Inga snabbsvar",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "Snabbsvar visas här när biblioteket är aktiverat",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "Inga matchande snabbsvar",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "Prova ett annat sökord",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "Sök snabbsvar",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "Snabbsvar utan titel",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "Utskick",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "Ange ett utskicksmeddelande",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "Välj mottagare",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "Välj giltiga mottagare",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, one {Skickat till {count} mottagare} other {Skickat till {count} mottagare}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "Skickat: {success}. Misslyckat: {failed}.",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "Försök misslyckade igen ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "Välj mottagare för att skicka",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, one {Skicka till {count} mottagare} other {Skicka till {count} mottagare}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "Vänner eller grupper kunde inte läsas in. Försök igen senare.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "Inga mottagare tillgängliga",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "Inga matchande mottagare",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "Lägg till vänner eller gå med i grupper för att använda utskick",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "Sök vänner eller grupper",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "Ange ditt utskicksmeddelande",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "Välj vänner eller grupper",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, one {{count} mottagare vald} other {{count} mottagare valda}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "Namnlös grupp",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "Namnlös vän",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "Skickat",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "Din nuvarande roll kan inte skicka utskick",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "Bedrägeri eller bluff",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "Intrång i rättigheter",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "Skadligt innehåll",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "Trakasserier",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "Spridning av rykten",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "Ditt klagomål kunde inte skickas in. Försök igen.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "Klagomål inskickat",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "Tack för din återkoppling. Vi granskar ditt klagomål om {reason} så snart som möjligt.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "Klagomåls-ID: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "En annan handläggare hanterar konversationen. Du kan inte längre svara.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "Historiken bevaras. Servicen återupptas när kunden fortsätter konversationen.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "Stängd av besökare",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "Stängd av handläggare",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "Stängd på grund av tidsgräns",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "Stängd av systemet",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "Arkiverad",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "Överförd till en annan handläggare",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "Avslutad",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "Följ global (på)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "Följ global (av)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "Den här konversationen (på)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "Den här konversationen (av)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "Det schemalagda meddelandet har skickats eller kan inte avbrytas",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "Kunde inte avbryta. Försök igen senare.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "Lagring",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "Lagringsstatistik är otillgänglig",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "Säkerhetskopiering och återställning",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "Säkerhetskopiera chatthistorik",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "Återställ chatthistorik",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "Import och export",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "Exportera chatthistorik",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "Importera chatthistorik",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "Inte tillgängligt ännu",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "Publicera",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "Anslagstitel (valfritt)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "Kunde inte radera. Försök igen.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "Kunde inte spara. Försök igen.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "Medlem tystad",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "Medlem inte längre tystad",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "Endast gruppägare, gruppadministratörer eller organisationsadministratörer kan tysta medlemmar",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "Inga vanliga medlemmar tillgängliga att tysta",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "Sök medlemmar",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "Rensa sökning",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "Inga matchande medlemmar",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "Inga resultat för ”{query}”",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "Tystning begränsar endast vanliga medlemmar. Ange längden i minuter; 0 betyder obegränsat. Orsaken skickas till servern.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "Till {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "Orsak: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "Tysta medlem",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "Sluta tysta medlem",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "Tystningsinställningar",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "Ange ett heltal som är 0 eller högre",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "Den här medlemmen tystas",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "Tysta {name}",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "Tystningslängd (minuter)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "Ange 0 för obegränsad tystning",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "Orsak till tystning",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "Valfritt, för framtida referens",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "Bekräfta tystning",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "Tystad",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "Inte tystad",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "Status inte synkroniserad",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "QR-kod otillgänglig",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "Kopiera innehåll",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "Ägaren eller administratörer har inaktiverat skapande av QR-koder för vanliga medlemmar",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "Skapar grupp-QR-kod",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "Gruppens QR-kod kunde inte skapas. Uppdatera och försök igen.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "Skanna QR-koden ovan för att begära att gå med i gruppen",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "Skanna QR-koden ovan för att gå med i gruppen",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "Giltig till {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "Gruppens QR-kod kunde inte läsas in",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "Läsdetaljer",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "Originalbilden kunde inte läsas in. Tryck för att försöka igen.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@mig]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@alla]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "Du nämndes",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "Alla nämndes",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "Acceptera konversationen först",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "Ta över konversationen först",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "Den här konversationen är skrivskyddad. Åtgärden är otillgänglig.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "Din nuvarande roll kan inte utföra den här supportåtgärden",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "Den här konversationen är tillfälligt otillgänglig",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "Åtgärden är otillgänglig i nuvarande tillstånd",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "Konversationen har återupptagits. Du kan fortsätta hjälpa kunden.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "En annan handläggare hanterar konversationen",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "Kunden har inte återupptagit konversationen",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "Konversation övertagen",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "Övertagandet misslyckades. Försök igen.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "Konversation accepterad",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "Acceptansen misslyckades. Försök igen.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "Stängning bevarar chatthistoriken. Serverregler kan köa eller tilldela konversationen igen.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "Konversation stängd",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "Stängningen misslyckades. Försök igen.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "Den här konversationen kan inte överföras nu",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "Inga handläggare tillgängliga för överföring",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "Konversation överförd",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "Överföringen misslyckades. Försök igen.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "Kundkonversation",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "Spara till Album",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "Inga meddelanden från den andra är tillgängliga för översättning",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "Följ global inställning",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "Global inställning är på",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "Global inställning är av",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "Aktivera för den här konversationen",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "Översätt automatiskt endast den andras synliga meddelanden",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "Inaktivera för den här konversationen",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "Översätt inte den här konversationen, även när den globala inställningen är på",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "Översätt synliga meddelanden",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "Välj en tid minst en minut från nu",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "Meddelanden kan schemaläggas högst 14 dagar framåt",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "Schemalagd sändning kunde inte ställas in",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "Innehållet kan inte skickas eftersom det bryter mot reglerna",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "Detta konto är tystat och kan inte skicka meddelanden nu",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "Gruppmeddelandet kunde inte skickas. Försök senare (INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "Sändningen misslyckades: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "Menyn är tillfälligt otillgänglig",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "Supportkonversationen förbereds. Försök strax igen.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "Du är i kö. En tillgänglig handläggare kontaktar dig.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI hanterar konversationen",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "Du hanterar konversationen",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} hanterar konversationen",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "AI svarar på kundmeddelanden · Källa: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "En handläggare hanterar konversationen · Källa: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "Kundprofilen är tillfälligt otillgänglig",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "Lägg till en anteckning (valfritt)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "Bekräfta överföring",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "Kunden skriver: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "Endast visning. Du kan inte skicka meddelanden.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "Acceptera konversationen för att svara",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "Acceptera konversationen innan du svarar",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "Ta över konversationen innan du svarar",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "Kundprofil",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "Namn",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "Nivå",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "Risk",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "Språk",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "Källa",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "Tilldelad handläggare",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "Kontoöversikt",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "Kontosaldo",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "Totala insättningar",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "Nettoinsättning",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "Kontostatus",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "Registreringsdatum",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "Översikt över handelshistorik",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "Totalt antal order",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "Handlade produkter",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "Vinstfrekvens",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "Senaste handelstid",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "Besökarprofil",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "Besökar-ID",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "Konversationshistorik",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "Källsida",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "Konto-, handels- och ärendeuppgifter blir tillgängliga när kunden registrerar sig och kopplar ett konto",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "Verifierad",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "Inte godkänd",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "låg",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "Medel",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "hög",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "Aktiv",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "Inaktiverat",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "Fryst",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "Taggar",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "Supportärenden",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "Inga supportärenden",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "Pågår",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "Väntar",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "Stängd",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "Tillfälliga orderdata",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "Inga tillfälliga order",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "Order",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "Ordernummer",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "Riktning",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "lot",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "Öppningskurs",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "Orealiserad vinst/förlust",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "Öppningstid",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "Köp",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "Sälj",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "Öppen position",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "Väntande order",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "Stängd position",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "Inte tilldelad",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "Officiellt konto",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "Typ",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "Favoritdetaljer",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "Favoritinnehåll",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(Inget innehåll)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "Sparat {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "Sök i chatthistoriken",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "Datum",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "Bilder och videor",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "Sök specifikt innehåll",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "Röstmeddelande {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[Systemmeddelande]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[Länk]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[Text]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[Formaterad text]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "Ett schemalagt meddelande kan inte vara tomt",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "Kunde inte uppdatera. Försök igen senare.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "Schemalagda meddelanden kunde inte läsas in",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "Inga schemalagda meddelanden",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "Meddelanden som schemalagts från skrivfältet kan hanteras här.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "Väntar på sändning",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "Levererar",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "Status {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "Redigera schemalagt meddelande",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "Meddelandeinnehåll",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "Sändningstid",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "Redigera",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "Schemalagt till {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "Meddelandet skickas kl. {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "Redigerar schemalagt meddelande · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "Radera schemalagt meddelande",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, one {{count} oläst konversation} other {{count} olästa konversationer}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "Inga olästa konversationer",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, one {{count} oläst meddelande} other {{count} olästa meddelanden}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {{count} nytt meddelande} other {{count} nya meddelanden}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "Inga matchande konversationer",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "Inga konversationer",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "Inga fler konversationer",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "Ä",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "Länk",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "Vanliga medlemmar kan inte nämna alla i den här gruppen",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "Uppdatera status",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "Håll inne för att prata",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "Släpp för att skicka",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "Medlem borttagen",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

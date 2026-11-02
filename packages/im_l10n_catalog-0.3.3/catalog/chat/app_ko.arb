@@ -1,0 +1,1950 @@
+{
+  "@@locale": "ko",
+  "homeTitle": "채팅",
+  "homeGatewayConnectingTitle": "연결 중",
+  "homePersonalSpace": "개인 공간",
+  "homeOfficialService": "공식 서비스",
+  "homeSwitchSpace": "공간 전환",
+  "homeSpaceSubtitle": "개인 · 기업",
+  "homeJoinEnterprise": "기업 참가",
+  "homeCreateGroup": "그룹 만들기",
+  "homeAddFriend": "친구 추가",
+  "homeScan": "QR 코드 스캔",
+  "homeJoinNewSpace": "새 공간 참가",
+  "homeSearchConversation": "채팅 검색",
+  "homeNoMessages": "메시지가 없습니다",
+  "homeDeleteConversation": "채팅 삭제",
+  "homeDeleteConversationConfirm": "이 채팅을 삭제하시겠습니까? 채팅 기록이 삭제됩니다.",
+  "homePersonalNote": "나 (개인 메모)",
+  "homeWorkNote": "나 (업무 메모)",
+  "homeConversationCount": "{count}개의 채팅",
+  "homeUnreadCount": "{count}개 읽지 않음",
+  "chatInputHint": "메시지 입력...",
+  "chatVoiceHint": "누르고 말하기",
+  "chatVoiceRelease": "놓으면 전송",
+  "chatVoiceCancel": "위로 밀어 취소",
+  "chatMenuCopy": "복사",
+  "chatMenuForward": "전달",
+  "chatMenuRecall": "취소",
+  "chatMenuDelete": "삭제",
+  "chatMenuFavorite": "즐겨찾기",
+  "chatMenuReply": "답장",
+  "chatMenuMultiSelect": "여러 선택",
+  "chatMenuTranslate": "번역",
+  "chatMenuVoiceToText": "텍스트 변환",
+  "chatMenuTextToSpeech": "소리내어 읽기",
+  "chatStatusRecalled": "메시지가 취소되었습니다",
+  "chatRecallSuccess": "취소되었습니다",
+  "chatRecallFailed": "취소에 실패했습니다",
+  "chatRecallTimeout": "2분이 지난 메시지는 취소할 수 없습니다",
+  "chatTranslateFailed": "번역에 실패했습니다. 다시 시도해 주십시오",
+  "chatTranslateNotConfigured": "번역 서비스를 현재 이용할 수 없습니다",
+  "chatVoiceToTextFailed": "변환에 실패했습니다. 다시 시도해 주십시오",
+  "chatTextToSpeechFailed": "소리내어 읽기에 실패했습니다. 다시 시도해 주십시오",
+  "chatVoiceToText": "텍스트 변환",
+  "chatForwardSuccess": "전달되었습니다",
+  "chatForwardFailed": "전달에 실패했습니다. 다시 시도해 주십시오",
+  "chatNoConversations": "전달할 채팅이 없습니다",
+  "chatSendFailed": "전송 실패",
+  "chatResend": "다시 전송",
+  "chatNotFriend": "친구가 아닙니다",
+  "chatNotFriendHint": "아직 친구가 아니어서 메시지를 보낼 수 없습니다",
+  "chatMutedHint": "전체 음소거 중",
+  "chatFileUploadFailed": "파일 업로드에 실패했습니다",
+  "chatFileStatusNotDownloaded": "다운로드 전",
+  "chatFileStatusDownloaded": "다운로드됨",
+  "chatFileStatusUploading": "업로드 중",
+  "chatFileStatusUploadFailed": "업로드 실패",
+  "chatCardSendFailed": "연락처 카드 전송에 실패했습니다",
+  "chatFavoriteSuccess": "즐겨찾기에 추가되었습니다",
+  "chatFavoriteFailed": "즐겨찾기 추가에 실패했습니다",
+  "chatLoadFailed": "로드 실패",
+  "chatImageMessage": "[이미지]",
+  "chatVoiceMessage": "[음성]",
+  "chatVideoMessage": "[동영상]",
+  "chatFileMessage": "[파일]",
+  "chatLocationMessage": "[위치]",
+  "chatContactCardMessage": "[연락처]",
+  "chatCallLogMessage": "[통화 기록]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "{count}명 읽음",
+  "chatUnread": "읽지 않음",
+  "chatRecalledSelf": "메시지를 취소했습니다",
+  "chatRecalledPeer": "{sender}님이 메시지를 취소했습니다",
+  "chatTranslationPrefix": "번역: {translation}",
+  "chatMessageDeleted": "메시지가 삭제되었습니다",
+  "chatPeer": "상대방",
+  "chatSelf": "나",
+  "chatGenericMessage": "[메시지]",
+  "chatVoiceHideText": "텍스트 숨기기",
+  "chatVoiceShowText": "텍스트 변환",
+  "chatFileDefaultName": "파일",
+  "chatContactDefaultName": "연락처",
+  "chatContactCardTitle": "연락처 카드",
+  "chatCallMissed": "부재중",
+  "chatCallCancelled": "취소됨",
+  "chatCallRejected": "거절됨",
+  "chatCallDisconnected": "연결 끊김",
+  "chatCallEnded": "통화 종료",
+  "chatCallFailed": "통화 실패",
+  "chatCallDuration": "통화 시간 {duration}",
+  "chatVideoCallTitle": "영상 통화",
+  "chatVoiceCallTitle": "음성 통화",
+  "chatToolPhotos": "사진",
+  "chatToolCamera": "촬영",
+  "chatToolFile": "파일",
+  "chatToolLocation": "위치",
+  "chatToolContactCard": "연락처",
+  "chatToolVoiceCall": "음성 통화",
+  "chatToolVideoCall": "영상 통화",
+  "chatToolFavorites": "즐겨찾기",
+  "chatToolTranslate": "번역",
+  "chatTranslationChooseLanguage": "번역 언어 선택",
+  "chatTranslationEnterText": "먼저 텍스트를 입력하세요",
+  "chatTranslationMentionsUnsupported": "멘션이 포함된 메시지는 번역할 수 없습니다",
+  "chatTranslationScheduledUnsupported": "예약 메시지를 편집하는 동안 번역할 수 없습니다",
+  "chatTranslationFailed": "번역에 실패했습니다. 다시 시도하세요",
+  "chatTranslationEmpty": "번역 결과가 없습니다. 다시 시도하세요",
+  "chatTranslationTranslating": "번역 중…",
+  "chatTranslationSend": "번역문 보내기",
+  "chatTranslationSending": "보내는 중…",
+  "chatTranslationExpand": "더 보기",
+  "chatTranslationCollapse": "접기",
+  "chatFileTooLarge": "파일 크기가 제한을 초과했습니다(100 MB)",
+  "chatInputMutedAdminOnly": "소유자 또는 지정된 멤버만 말할 수 있습니다",
+  "chatImageUploadUnsupported": "이미지 업로드에 실패했습니다. 서버가 아직 지원하지 않습니다.",
+  "chatFavoriteLongPressHint": "메시지를 길게 눌러 즐겨찾기에 추가하세요",
+  "chatSelectedCount": "{count}개 선택됨",
+  "chatLocationSheetTitle": "위치 보내기",
+  "chatLocationNameLabel": "장소 이름",
+  "chatLocationNameHint": "예: 회사, 고객 주소",
+  "chatLocationAddressLabel": "상세 주소",
+  "chatLocationOptionalHint": "선택 사항",
+  "chatLocationLatitudeLabel": "위도",
+  "chatLocationLatitudeHint": "-90 ~ 90",
+  "chatLocationLongitudeLabel": "경도",
+  "chatLocationLongitudeHint": "-180 ~ 180",
+  "chatLocationValidationRequired": "{label}을(를) 입력해 주십시오",
+  "chatLocationValidationRange": "{label} 범위가 올바르지 않습니다",
+  "chatLocationDefaultTitle": "위치",
+  "chatMutedFullNotice": "이 그룹은 전체 음소거 중입니다. 소유자 또는 지정된 멤버만 말할 수 있습니다",
+  "chatNotFriendSendBlocked": "상대방과 친구가 아니어서 메시지를 보낼 수 없습니다",
+  "chatPersonalNotesTitle": "개인 노트",
+  "chatWorkNotesTitle": "업무 노트",
+  "chatPersonalNotesDescription": "개인 생각과 중요한 정보를 여기에 기록하세요\n기기 간 동기화되어 언제든지 접근할 수 있습니다",
+  "chatWorkNotesDescription": "업무 사항과 자료를 여기에 저장하세요\n팀 공간은 독립적으로 안전하게 분리됩니다",
+  "chatNoMessages": "메시지가 없습니다",
+  "chatReplyTo": "{sender}에게 답장",
+  "chatFeatureComingSoon": "{feature} 기능은 곧 제공됩니다",
+  "chatForwardSelectTitle": "채팅 선택",
+  "chatContactSelectTitle": "연락처 선택",
+  "chatNoContacts": "연락처가 없습니다",
+  "autoTranslateTitle": "자동 번역",
+  "autoTranslateEnabled": "자동 번역 사용",
+  "autoTranslateLanguage": "번역 대상 언어",
+  "chatSettingsTitle": "채팅",
+  "chatHistoryTitle": "채팅 기록",
+  "chatHistoryClear": "기록 모두 삭제",
+  "chatHistoryClearConfirm": "모든 채팅 기록을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+  "chatHistoryClearSuccess": "채팅 기록이 삭제되었습니다",
+  "chatBackgroundTitle": "채팅 배경",
+  "chatBackgroundDefault": "기본",
+  "chatBackgroundCustom": "사용자 지정",
+  "chatBackgroundReset": "기본으로 재설정",
+  "imageViewerTitle": "사진",
+  "imageViewerSave": "앨범에 저장",
+  "imageViewerSaveSuccess": "앨범에 저장되었습니다",
+  "imageViewerSaveFailed": "저장에 실패했습니다. 다시 시도해 주십시오",
+  "chatOfficialAccountReadOnlyHint": "이 계정은 알림 전용입니다. 문의는 고객센터 계정을 이용해 주세요.",
+  "mediaSavedToLocalFile": "로컬 파일로 저장했습니다",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "오늘",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "어제",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "이번 주",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count}분 전",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count}시간 전",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count}일 전",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count}초",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count}분",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "내일",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "음성을 텍스트로 변환",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "인식 결과가 정확하지 않을 수 있습니다. 보내기 전에 확인해 주세요.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "인식된 텍스트…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "인식 신뢰도:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "링크 열기: {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "링크 미리보기 생성 중",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "이 링크를 열 수 없습니다",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "읽음으로 표시",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "읽지 않음으로 표시",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "알림 켜기",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "마이크 권한이 필요합니다",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "녹음을 시작할 수 없습니다",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "녹음 중…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "녹음 시간이 너무 짧습니다",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "녹음 중, {count}초",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "여기로 밀어 텍스트로 변환",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "손을 떼면 취소",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "손을 떼면 텍스트 편집",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "텍스트로 변환 중…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "인식된 텍스트가 없습니다",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "원본 음성 보내기",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "보내는 중",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "조직을 검색하거나 조직 코드를 입력하거나 내 신청을 확인하세요",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "대기열과 내 대화 보기",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "제품 카드",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "프로모션 쿠폰",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "설문조사",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "더 많은 마케팅 도구",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "자주 사용",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "표정",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "손짓",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "동물",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "음식",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "활동",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "여행",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "사물",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "탭하여 사진 촬영, 길게 눌러 동영상 녹화",
+  "chatCameraReleaseToSend": "손을 떼면 전송됩니다",
+  "chatCameraStartFailed": "카메라를 시작하지 못했습니다. 권한을 확인한 후 다시 시도해 주세요.",
+  "chatCameraUnavailable": "카메라를 사용할 수 없습니다",
+  "chatDetails": "채팅 상세정보",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "채팅 내용 검색",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "예약 메시지",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "현재 채팅 배경 설정",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "그룹 관리",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "그룹 관리자",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "멤버 발언 제한",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "이 그룹은 멤버 초대를 허용하지 않습니다",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "그룹 소유자나 관리자만 멤버를 추가할 수 있습니다",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "현재 버전에서는 그룹을 만들 수 없습니다",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "멤버 {count}명을 추가했습니다",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "그룹 이름 입력(선택 사항)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "새 그룹",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "새 그룹 만들기",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "주변 사람과 그룹 만들기",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "완료({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "삭제({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "그룹 소유자, 그룹 관리자 또는 조직 관리자만 그룹 관리자를 볼 수 있습니다",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "관리자는 공지 게시 및 멤버 제거 등 그룹 관리를 도울 수 있습니다.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "관리자 지정, 소유권 이전 및 그룹 해산은 그룹 소유자만 할 수 있습니다.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "관리자는 최대 {count}명까지 지정할 수 있습니다.",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "관리자 제거",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "{name}님의 관리자 권한을 제거할까요?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "그룹 소유자나 관리자만 가입 신청을 볼 수 있습니다",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "가입 신청을 승인했습니다",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "가입 신청을 거절했습니다",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "이미 처리된 신청입니다",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "가입 신청 거절",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "거절 사유 입력(선택 사항)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "거절 사유: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "켜면 QR 코드로 그룹에 가입할 수 있습니다",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "켜면 그룹 가입 신청을 승인받아야 합니다",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "끄면 소유자와 관리자만 그룹 이름을 변경할 수 있습니다",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "켜면 일반 멤버가 새 멤버를 추가할 수 있습니다",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "켜면 일반 멤버가 모든 멤버를 멘션할 수 있습니다",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "끄면 그룹 멤버끼리 친구를 추가할 수 없습니다",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "끄면 일반 멤버는 멤버 목록을 볼 수 없습니다",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "이 그룹을 해산할까요? 모든 멤버에게 알림이 전송되며 취소할 수 없습니다.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "삭제하고 나가기",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "소유자나 관리자가 일반 멤버의 멤버 목록 조회 권한을 껐습니다",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "그룹 멤버 닉네임 표시",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "그룹 상세정보를 동기화하지 못해 로컬 채팅 정보를 표시합니다.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "그룹 정보를 불러올 수 없습니다",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "멤버 선택",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "그룹 멤버 선택",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "그룹 소유자만 관리자를 지정할 수 있습니다",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "추가할 수 있는 멤버가 없습니다",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "새 그룹 소유자 선택",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "그룹 소유자만 소유권을 이전할 수 있습니다",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "다른 멤버가 없습니다",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "{name}님에게 소유권을 이전할까요? 이전 후 일반 멤버가 됩니다.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "이전 확인",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "그룹 메모는 나에게만 표시됩니다",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "그룹 이름: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "이 이름 사용",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "아직 읽은 사람이 없습니다",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "모두 읽었습니다",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "채팅 정보",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "채팅 정보({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "읽음",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "친구 요청을 보냈습니다. 수락을 기다리고 있습니다.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "보기",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "수락 대기 중",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "요청 처리",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "친구",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "직원",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "파일을 기기에 다운로드한 후 다시 시도해 주세요",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "사진과 동영상은 “사진”에서 보내 주세요",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "파일 형식을 확인할 수 없습니다",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "파일 형식과 확장자가 일치하지 않아 보낼 수 없습니다",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": ".{extension} 파일은 아직 보낼 수 없습니다",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "아직 지원하지 않는 파일 형식입니다",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "시간 선택",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "멘션할 사람 선택",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@모두",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "그룹의 모든 멤버에게 알림",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "멘션할 수 있는 멤버가 없습니다",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "일치하는 멤버가 없습니다",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "빠른 답장",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "AI 답장",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "자주 쓰는 빠른 답장",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "빠른 답장을 불러올 수 없습니다",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "잠시 후 다시 시도해 주세요",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "빠른 답장이 없습니다",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "빠른 답장 라이브러리가 활성화되면 여기에 표시됩니다",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "일치하는 빠른 답장이 없습니다",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "다른 검색어로 시도해 보세요",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "빠른 답장 검색",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "제목 없는 빠른 답장",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "일괄 보내기",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "일괄 보낼 내용을 입력해 주세요",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "받는 사람을 선택해 주세요",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "유효한 받는 사람을 선택해 주세요",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "받는 사람 {count}명에게 보냈습니다",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "성공: {success}명, 실패: {failed}명",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "실패 항목 다시 시도({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "받는 사람 선택 후 보내기",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "받는 사람 {count}명에게 보내기",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "친구나 그룹을 불러올 수 없습니다. 잠시 후 다시 시도해 주세요.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "보낼 수 있는 대상이 없습니다",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "일치하는 대상이 없습니다",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "친구를 추가하거나 그룹에 가입하면 일괄 보내기를 사용할 수 있습니다",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "친구 또는 그룹 검색",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "일괄 보낼 메시지 입력",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "친구나 그룹을 선택해 주세요",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "받는 사람 {count}명 선택됨",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "이름 없는 그룹",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "이름 없는 친구",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "보냄",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "현재 역할에는 일괄 보내기 권한이 없습니다",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "사기 행위",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "권리 침해",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "유해 정보 전송",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "괴롭힘",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "허위 정보 유포",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "신고를 제출할 수 없습니다. 다시 시도해 주세요.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "신고가 제출되었습니다",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "의견을 보내 주셔서 감사합니다. {reason}에 대한 신고를 최대한 빨리 검토하겠습니다.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "신고 번호: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "다른 상담원이 담당 중이므로 현재 계정은 더 이상 답장할 수 없습니다.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "기록은 보존됩니다. 고객이 대화를 이어가면 응대가 재개됩니다.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "방문자가 종료함",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "상담원이 종료함",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "시간 초과로 종료됨",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "시스템이 종료함",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "보관됨",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "다른 상담원에게 이관됨",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "종료됨",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "전체 설정 따름(켜짐)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "전체 설정 따름(꺼짐)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "이 대화(켜짐)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "이 대화(꺼짐)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "예약 메시지가 이미 전송되었거나 취소할 수 없습니다",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "취소할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "저장 공간",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "저장 공간 통계를 제공할 수 없습니다",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "백업 및 복원",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "채팅 기록 백업",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "채팅 기록 복원",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "가져오기 및 내보내기",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "채팅 기록 내보내기",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "채팅 기록 가져오기",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "아직 제공되지 않습니다",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "게시",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "공지 제목(선택 사항)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "삭제할 수 없습니다. 다시 시도해 주세요.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "저장할 수 없습니다. 다시 시도해 주세요.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "멤버의 발언을 제한했습니다",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "멤버의 발언 제한을 해제했습니다",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "그룹 소유자, 그룹 관리자 또는 조직 관리자만 멤버의 발언을 제한할 수 있습니다",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "발언을 제한할 일반 멤버가 없습니다",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "멤버 검색",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "검색 지우기",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "일치하는 멤버가 없습니다",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "“{query}” 검색 결과가 없습니다",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "발언 제한은 일반 멤버에게만 적용됩니다. 기간은 분 단위이며 0은 무기한입니다. 사유는 서버에 제출됩니다.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "{time}까지",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "사유: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "발언 제한",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "발언 제한 해제",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "발언 제한 설정",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "0 이상의 정수를 입력해 주세요",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "이 멤버의 발언을 제한합니다",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "{name}님의 발언 제한",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "발언 제한 기간(분)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "0을 입력하면 무기한으로 제한합니다",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "발언 제한 사유",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "선택 사항, 추후 확인용",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "발언 제한 확인",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "발언 제한 중",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "발언 제한 없음",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "상태가 동기화되지 않았습니다",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "QR 코드를 사용할 수 없습니다",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "내용 복사",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "소유자나 관리자가 일반 멤버의 QR 코드 생성을 껐습니다",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "그룹 QR 코드 생성 중",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "그룹 QR 코드를 생성할 수 없습니다. 새로고침 후 다시 시도해 주세요.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "위 QR 코드를 스캔하여 그룹 가입 신청",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "위 QR 코드를 스캔하여 그룹 가입",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "유효 기간: {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "그룹 QR 코드를 불러올 수 없습니다",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "읽음 상세정보",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "원본 이미지를 불러올 수 없습니다. 눌러서 다시 시도해 주세요.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@나]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@모두]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "나를 멘션한 메시지가 있습니다",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "모두를 멘션한 메시지가 있습니다",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "먼저 이 대화를 접수해 주세요",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "먼저 이 대화를 인계받아 주세요",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "읽기 전용 대화에서는 이 작업을 수행할 수 없습니다.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "현재 역할로는 이 상담 작업을 수행할 수 없습니다",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "현재 이 대화를 처리할 수 없습니다",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "현재 상태에서는 이 작업을 수행할 수 없습니다",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "대화가 재개되어 고객 응대를 계속할 수 있습니다.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "다른 상담원이 응대 중인 대화입니다",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "고객이 아직 대화를 재개하지 않았습니다",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "대화를 인계받았습니다",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "인계받을 수 없습니다. 다시 시도해 주세요.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "대화를 접수했습니다",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "접수할 수 없습니다. 다시 시도해 주세요.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "종료해도 대화 기록은 삭제되지 않으며 서버 정책에 따라 다시 대기하거나 배정될 수 있습니다.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "대화를 종료했습니다",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "종료할 수 없습니다. 다시 시도해 주세요.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "현재 이 대화를 이관할 수 없습니다",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "이관 가능한 상담원이 없습니다",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "대화를 이관했습니다",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "이관할 수 없습니다. 다시 시도해 주세요.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "고객 대화",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "앨범에 저장",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "번역할 상대방 메시지가 없습니다",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "전체 설정 따름",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "전체 설정이 켜져 있습니다",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "전체 설정이 꺼져 있습니다",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "이 대화에서 켜기",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "현재 화면에 보이는 상대방 메시지만 자동 번역합니다",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "이 대화에서 끄기",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "전체 설정이 켜져 있어도 이 대화는 자동 번역하지 않습니다",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "현재 화면의 메시지 번역",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "현재부터 최소 1분 후의 시간을 선택해 주세요",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "메시지는 최대 14일 후까지 예약할 수 있습니다",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "예약 전송을 설정할 수 없습니다",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "규정에 맞지 않는 내용이므로 전송할 수 없습니다",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "현재 계정은 발언이 제한되어 메시지를 보낼 수 없습니다",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "그룹 메시지를 보낼 수 없습니다. 잠시 후 다시 시도해 주세요(INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "전송 실패: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "현재 이 메뉴를 사용할 수 없습니다",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "상담 대화를 준비 중입니다. 잠시 후 다시 시도해 주세요.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "대기열에 등록되었습니다. 상담원이 가능해지면 연락드립니다.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI 응대 중",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "내가 응대 중",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name}님이 응대 중",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "AI가 고객 메시지에 응답 · 유입 경로: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "상담원이 대화를 처리 중 · 유입 경로: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "현재 고객 프로필을 사용할 수 없습니다",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "메모 추가(선택 사항)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "이관 확인",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "고객 입력 중: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "보기 전용 모드에서는 메시지를 보낼 수 없습니다.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "대화를 접수하면 답장할 수 있습니다",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "답장하기 전에 대화를 접수해 주세요",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "답장하기 전에 대화를 인계받아 주세요",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "고객 프로필",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "이름",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "등급",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "위험도",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "언어",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "유입 경로",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "담당 상담원",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "계좌 개요",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "계좌 잔액",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "누적 입금",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "순입금",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "계좌 상태",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "등록일",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "거래 내역 개요",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "총 주문 수",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "거래 상품",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "승률",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "최근 거래 시간",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "방문자 프로필",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "방문자 ID",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "대화 기록",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "유입 페이지",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "고객이 가입하고 계좌를 연결하면 계좌, 거래 및 티켓 정보를 볼 수 있습니다",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "인증됨",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "승인되지 않음",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "낮음",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "보통",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "높음",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "활성",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "비활성",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "동결됨",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "태그",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "지원 티켓",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "지원 티켓이 없습니다",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "처리 중",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "대기 중",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "종료됨",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "임시 주문 데이터",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "임시 주문이 없습니다",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "주문",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "주문 번호",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "방향",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "거래량(랏)",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "진입 가격",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "평가 손익",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "진입 시간",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "매수",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "매도",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "포지션 보유 중",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "예약 주문 중",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "포지션 청산됨",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "미배정",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "공식 계정",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "유형",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "즐겨찾기 상세정보",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "즐겨찾기 내용",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(내용 없음)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "저장한 날짜: {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "채팅 내용 검색",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "날짜",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "사진 및 동영상",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "특정 내용 검색",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "음성 메시지 {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[시스템 메시지]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[링크]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[텍스트]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[서식 있는 텍스트]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "예약 메시지 내용은 비워 둘 수 없습니다",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "업데이트할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "예약 메시지를 불러올 수 없습니다",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "예약 메시지가 없습니다",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "입력창에서 예약한 메시지를 여기에서 관리할 수 있습니다.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "전송 대기 중",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "전달 중",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "상태 {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "예약 메시지 편집",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "메시지 내용",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "전송 시간",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "수정",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "예약 전송: {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "메시지가 {time}에 전송됩니다",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "예약 메시지 편집 중 · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "예약 메시지 삭제",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "읽지 않은 대화 {count}개",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "읽지 않은 대화가 없습니다",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "읽지 않은 메시지 {count}개",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "새 메시지 {count}개",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "일치하는 대화가 없습니다",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "대화가 없습니다",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "더 이상 대화가 없습니다",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "기",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "링크",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "이 그룹에서는 일반 멤버가 모두를 멘션할 수 없습니다",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "상태 새로고침",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "길게 눌러 말하기",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "손을 떼면 보내기",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "멤버를 제거했습니다",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

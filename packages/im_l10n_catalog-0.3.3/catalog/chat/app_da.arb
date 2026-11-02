@@ -1,0 +1,1950 @@
+{
+  "@@locale": "da",
+  "homeTitle": "Beskeder",
+  "homeGatewayConnectingTitle": "Opretter forbindelse",
+  "homePersonalSpace": "Personligt",
+  "homeOfficialService": "Officiel service",
+  "homeSwitchSpace": "Skift rum",
+  "homeSpaceSubtitle": "Personligt · Virksomhed",
+  "homeJoinEnterprise": "Deltag i virksomhed",
+  "homeCreateGroup": "Ny gruppe",
+  "homeAddFriend": "Tilføj kontakt",
+  "homeScan": "Scan",
+  "homeJoinNewSpace": "Deltag i nyt rum",
+  "homeSearchConversation": "Søg",
+  "homeNoMessages": "Ingen beskeder",
+  "homeDeleteConversation": "Slet chat",
+  "homeDeleteConversationConfirm": "Slet denne chat? Chathistorikken ryddes.",
+  "homePersonalNote": "Mig (personlige noter)",
+  "homeWorkNote": "Mig (arbejdsnoter)",
+  "homeConversationCount": "{count} chats",
+  "homeUnreadCount": "{count} ulæste",
+  "chatInputHint": "Skriv en besked…",
+  "chatVoiceHint": "Hold for at tale",
+  "chatVoiceRelease": "Slip for at sende",
+  "chatVoiceCancel": "Stryg op for at annullere",
+  "chatMenuCopy": "Kopier",
+  "chatMenuForward": "Videresend",
+  "chatMenuRecall": "Tilbagekald",
+  "chatMenuDelete": "Slet",
+  "chatMenuFavorite": "Gem",
+  "chatMenuReply": "Svar",
+  "chatMenuMultiSelect": "Vælg",
+  "chatMenuTranslate": "Oversæt",
+  "chatMenuVoiceToText": "Konvertér til tekst",
+  "chatMenuTextToSpeech": "Læs højt",
+  "chatStatusRecalled": "Besked tilbagekaldt",
+  "chatRecallSuccess": "Tilbagekaldt",
+  "chatRecallFailed": "Tilbagekaldelse mislykkedes",
+  "chatRecallTimeout": "Beskeder ældre end 2 minutter kan ikke tilbagekaldes",
+  "chatTranslateFailed": "Oversættelse mislykkedes. Prøv igen.",
+  "chatTranslateNotConfigured": "Oversættelsestjenesten er ikke tilgængelig",
+  "chatVoiceToTextFailed": "Konvertering mislykkedes. Prøv igen.",
+  "chatTextToSpeechFailed": "Oplæsning mislykkedes. Prøv igen.",
+  "chatVoiceToText": "Konvertér",
+  "chatForwardSuccess": "Videresendt",
+  "chatForwardFailed": "Videresendelse mislykkedes. Prøv igen.",
+  "chatNoConversations": "Ingen chats at videresende til",
+  "chatSendFailed": "Afsendelse mislykkedes",
+  "chatResend": "Send igen",
+  "chatNotFriend": "Ikke i kontaktlisten",
+  "chatNotFriendHint": "I er endnu ikke kontakter. Beskeder kan ikke sendes.",
+  "chatMutedHint": "Skrivning er begrænset for alle medlemmer",
+  "chatFileUploadFailed": "Filupload mislykkedes. Prøv igen.",
+  "chatFileStatusNotDownloaded": "Ikke downloadet",
+  "chatFileStatusDownloaded": "Downloadet",
+  "chatFileStatusUploading": "Uploader",
+  "chatFileStatusUploadFailed": "Upload mislykkedes",
+  "chatCardSendFailed": "Kontaktkort kunne ikke sendes",
+  "chatFavoriteSuccess": "Gemt",
+  "chatFavoriteFailed": "Kunne ikke tilføje til favoritter",
+  "chatLoadFailed": "Indlæsning mislykkedes",
+  "chatImageMessage": "[Billede]",
+  "chatVoiceMessage": "[Talebesked]",
+  "chatVideoMessage": "[Video]",
+  "chatFileMessage": "[Fil]",
+  "chatLocationMessage": "[Placering]",
+  "chatContactCardMessage": "[Kontakt]",
+  "chatCallLogMessage": "[Opkald]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "Læst af {count}",
+  "chatUnread": "Ulæst",
+  "chatRecalledSelf": "Du tilbagekaldte en besked",
+  "chatRecalledPeer": "{sender} tilbagekaldte en besked",
+  "chatTranslationPrefix": "Oversættelse: {translation}",
+  "chatMessageDeleted": "Besked slettet",
+  "chatPeer": "Den anden",
+  "chatSelf": "Mig",
+  "chatGenericMessage": "[Besked]",
+  "chatVoiceHideText": "Skjul tekst",
+  "chatVoiceShowText": "Konvertér til tekst",
+  "chatFileDefaultName": "Fil",
+  "chatContactDefaultName": "Kontakt",
+  "chatContactCardTitle": "Kontaktkort",
+  "chatCallMissed": "Ubesvaret",
+  "chatCallCancelled": "Annulleret",
+  "chatCallRejected": "Afvist",
+  "chatCallDisconnected": "Forbindelse afbrudt",
+  "chatCallEnded": "Opkald afsluttet",
+  "chatCallFailed": "Opkald mislykkedes",
+  "chatCallDuration": "Varighed {duration}",
+  "chatVideoCallTitle": "Videoopkald",
+  "chatVoiceCallTitle": "Taleopkald",
+  "chatToolPhotos": "Fotos",
+  "chatToolCamera": "Kamera",
+  "chatToolFile": "Fil",
+  "chatToolLocation": "Placering",
+  "chatToolContactCard": "Kontakt",
+  "chatToolVoiceCall": "Taleopkald",
+  "chatToolVideoCall": "Videoopkald",
+  "chatToolFavorites": "Favoritter",
+  "chatToolTranslate": "Oversæt",
+  "chatTranslationChooseLanguage": "Vælg oversættelsessprog",
+  "chatTranslationEnterText": "Indtast tekst først",
+  "chatTranslationMentionsUnsupported": "Oversættelse er ikke tilgængelig for beskeder med omtaler",
+  "chatTranslationScheduledUnsupported": "Oversættelse er ikke tilgængelig under redigering af en planlagt besked",
+  "chatTranslationFailed": "Oversættelse mislykkedes. Prøv igen.",
+  "chatTranslationEmpty": "Ingen oversættelse modtaget. Prøv igen.",
+  "chatTranslationTranslating": "Oversætter…",
+  "chatTranslationSend": "Send oversættelse",
+  "chatTranslationSending": "Sender…",
+  "chatTranslationExpand": "Vis mere",
+  "chatTranslationCollapse": "Vis mindre",
+  "chatFileTooLarge": "Filen overskrider grænsen på 100 MB",
+  "chatInputMutedAdminOnly": "Kun ejeren eller udvalgte medlemmer må skrive.",
+  "chatImageUploadUnsupported": "Billedupload mislykkedes. Serveren understøtter det ikke endnu.",
+  "chatFavoriteLongPressHint": "Hold en besked nede for at tilføje den til favoritter",
+  "chatSelectedCount": "{count} valgt",
+  "chatLocationSheetTitle": "Send placering",
+  "chatLocationNameLabel": "Stednavn",
+  "chatLocationNameHint": "F.eks. kontor, kundeadresse",
+  "chatLocationAddressLabel": "Adresse",
+  "chatLocationOptionalHint": "Valgfrit",
+  "chatLocationLatitudeLabel": "Breddegrad",
+  "chatLocationLatitudeHint": "-90 til 90",
+  "chatLocationLongitudeLabel": "Længdegrad",
+  "chatLocationLongitudeHint": "-180 til 180",
+  "chatLocationValidationRequired": "Indtast {label}",
+  "chatLocationValidationRange": "{label} er uden for intervallet",
+  "chatLocationDefaultTitle": "Placering",
+  "chatMutedFullNotice": "Skrivning er begrænset i gruppen. Kun ejeren eller udvalgte medlemmer må skrive.",
+  "chatNotFriendSendBlocked": "I er ikke længere venner og kan ikke sende beskeder",
+  "chatPersonalNotesTitle": "Personlige noter",
+  "chatWorkNotesTitle": "Arbejdsnoter",
+  "chatPersonalNotesDescription": "Gem personlige tanker og vigtige oplysninger her\nSynkroniseret mellem enheder og altid tilgængelig",
+  "chatWorkNotesDescription": "Gem arbejdsopgaver og arbejdsmateriale her\nTeamrum forbliver adskilte og sikre",
+  "chatNoMessages": "Ingen beskeder",
+  "chatReplyTo": "Svar {sender}",
+  "chatFeatureComingSoon": "{feature} kommer snart",
+  "chatForwardSelectTitle": "Vælg chat",
+  "chatContactSelectTitle": "Vælg kontakt",
+  "chatNoContacts": "Ingen kontakter",
+  "autoTranslateTitle": "Automatisk oversættelse",
+  "autoTranslateEnabled": "Aktivér automatisk oversættelse",
+  "autoTranslateLanguage": "Målsprog",
+  "chatSettingsTitle": "Chat",
+  "chatHistoryTitle": "Chathistorik",
+  "chatHistoryClear": "Ryd al historik",
+  "chatHistoryClearConfirm": "Ryd al chathistorik? Dette kan ikke fortrydes.",
+  "chatHistoryClearSuccess": "Chathistorik ryddet",
+  "chatBackgroundTitle": "Chatbaggrund",
+  "chatBackgroundDefault": "Standard",
+  "chatBackgroundCustom": "Brugerdefineret",
+  "chatBackgroundReset": "Gendan standardindstillinger",
+  "imageViewerTitle": "Foto",
+  "imageViewerSave": "Gem til album",
+  "imageViewerSaveSuccess": "Gemt i album",
+  "imageViewerSaveFailed": "Kunne ikke gemme. Prøv igen.",
+  "chatOfficialAccountReadOnlyHint": "Denne konto sender kun opdateringer. Kontakt servicekontoen for hjælp.",
+  "mediaSavedToLocalFile": "Gemt i en lokal fil",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "I dag",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "I går",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "Denne uge",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, one {for {count} minut siden} other {for {count} minutter siden}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, one {for {count} time siden} other {for {count} timer siden}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, one {for {count} dag siden} other {for {count} dage siden}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} sek.",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} min.",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "I morgen",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "Tale til tekst",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "Genkendelsen kan være unøjagtig. Gennemgå teksten før afsendelse.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "Genkendt tekst…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "Genkendelsessikkerhed:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "Åbn link {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "Genererer linkforhåndsvisning",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "Dette link kan ikke åbnes",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "Markér som læst",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "Markér som ulæst",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "Aktivér advarsler",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "Mikrofontilladelse kræves",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "Optagelse kunne ikke startes",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "Optager…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "Optagelsen er for kort",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "Optager, {count, plural, one {{count} sekund} other {{count} sekunder}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "Stryg hertil for at transskribere",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "Slip for at annullere",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "Slip for at redigere teksten",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "Transskriberer…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "Ingen tale genkendt",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "Send original optagelse",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "Sender",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "Søg efter en organisation, indtast koden, eller se dine ansøgninger",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "Se køen og dine samtaler",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "Produktkort",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "Rabatkupon",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "Spørgeskema",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "Flere marketingværktøjer",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "Ofte brugt",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "Smileys",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "Gestus",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "Dyr",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "Mad",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "Aktiviteter",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "Rejser",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "Genstande",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "Tryk for at tage et foto. Hold for at optage en video.",
+  "chatCameraReleaseToSend": "Slip for at sende",
+  "chatCameraStartFailed": "Kameraet kunne ikke startes. Kontrollér tilladelserne, og prøv igen.",
+  "chatCameraUnavailable": "Kamera utilgængeligt",
+  "chatDetails": "Chatdetaljer",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "Søg i chathistorik",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "Planlagte beskeder",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "Angiv chatbaggrund",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "Gruppeadministration",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "Gruppeadministratorer",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "Medlemmer med skrivebegrænsning",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "Medlemsinvitationer er deaktiveret for gruppen",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "Kun gruppeejeren eller administratorer kan tilføje medlemmer",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "Oprettelse af grupper er ikke tilgængelig i denne version",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, one {{count} medlem tilføjet} other {{count} medlemmer tilføjet}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "Gruppenavn (valgfrit)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "Ny gruppe",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "Opret en ny gruppe",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "Opret en gruppe i nærheden",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "Færdig ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "Slet ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "Kun gruppeejere, gruppeadministratorer eller organisationsadministratorer kan se gruppeadministratorer",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "Administratorer hjælper med at administrere gruppen, herunder meddelelser og fjernelse af medlemmer.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "Kun gruppeejeren kan udpege administratorer, overdrage ejerskab eller opløse gruppen.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, one {Du kan udpege højst {count} administrator.} other {Du kan udpege højst {count} administratorer.}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "Fjern administrator",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "Fjern administratorrettigheder fra {name}?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "Kun gruppeejeren eller administratorer kan se deltagelsesanmodninger",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "Deltagelsesanmodning godkendt",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "Deltagelsesanmodning afvist",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "Denne anmodning er allerede behandlet",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "Afvis deltagelsesanmodning",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "Afvisningsårsag (valgfrit)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "Afvisningsårsag: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "Tillad medlemmer at deltage via QR-kode",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "Deltagelsesanmodninger skal godkendes, når aktiveret",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "Når deaktiveret, kan kun ejer og administratorer ændre gruppenavnet",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "Tillad almindelige medlemmer at tilføje nye medlemmer",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "Tillad almindelige medlemmer at omtale alle",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "Når deaktiveret, kan gruppemedlemmer ikke tilføje hinanden som venner",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "Når deaktiveret, kan almindelige medlemmer ikke se medlemslisten",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "Opløs denne gruppe? Alle medlemmer får besked. Dette kan ikke fortrydes.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "Slet og forlad",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "Ejeren eller administratorer har deaktiveret medlemslisteadgang for almindelige medlemmer",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "Vis medlemmernes kaldenavne",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "Gruppedetaljer kunne ikke synkroniseres. Viser lokale chatoplysninger.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "Gruppeoplysninger kunne ikke indlæses",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "Vælg medlemmer",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "Vælg gruppemedlemmer",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "Kun gruppeejeren kan udpege administratorer",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "Ingen medlemmer at tilføje",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "Vælg en ny gruppeejer",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "Kun gruppeejeren kan overdrage ejerskabet",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "Ingen andre medlemmer",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "Overdrag ejerskab til {name}? Du bliver almindeligt medlem.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "Bekræft overdragelse",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "Kun du kan se denne gruppebemærkning",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "Gruppenavn: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "Brug dette navn",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "Ingen har læst dette endnu",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "Alle har læst dette",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "Chatoplysninger",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "Chatoplysninger ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "Læst",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "Venneanmodning sendt. Afventer accept.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "Se",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "Afventer accept",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "Gennemgå anmodning",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "Venner",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "Medarbejder",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "Filen kunne ikke læses. Download den til enheden, og prøv igen",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "Send billeder og videoer fra Fotos",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "Filtypen kunne ikke identificeres",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "Filtypen passer ikke til filendelsen",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": ".{extension}-filer understøttes ikke endnu",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "Denne filtype understøttes ikke endnu",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "Vælg tidspunkt",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "Vælg personer at omtale",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@Alle",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "Underret alle gruppemedlemmer",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "Ingen medlemmer at omtale",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "Ingen matchende medlemmer",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "Hurtige svar",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "AI-svar",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "Hurtige svar",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "Hurtige svar kunne ikke indlæses",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "Prøv igen senere",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "Ingen hurtige svar",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "Hurtige svar vises her, når biblioteket er aktiveret",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "Ingen matchende hurtige svar",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "Prøv et andet søgeord",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "Søg hurtige svar",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "Hurtigt svar uden titel",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "Massebesked",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "Indtast en massebesked",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "Vælg modtagere",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "Vælg gyldige modtagere",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, one {Sendt til {count} modtager} other {Sendt til {count} modtagere}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "Sendt: {success}. Mislykket: {failed}.",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "Prøv mislykkede igen ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "Vælg modtagere for at sende",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, one {Send til {count} modtager} other {Send til {count} modtagere}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "Venner eller grupper kunne ikke indlæses. Prøv igen senere.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "Ingen modtagere tilgængelige",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "Ingen matchende modtagere",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "Tilføj venner eller deltag i grupper for at bruge massebeskeder",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "Søg venner eller grupper",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "Indtast din massebesked",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "Vælg venner eller grupper",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, one {{count} modtager valgt} other {{count} modtagere valgt}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "Unavngivet gruppe",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "Unavngivet ven",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "Sendt",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "Din nuværende rolle kan ikke sende massebeskeder",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "Bedrageri eller svindel",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "Krænkelse af rettigheder",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "Skadeligt indhold",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "Chikane",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "Spredning af rygter",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "Din klage kunne ikke indsendes. Prøv igen.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "Klage indsendt",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "Tak for din feedback. Vi gennemgår din klage om {reason} hurtigst muligt.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "Klage-id: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "En anden medarbejder håndterer samtalen. Du kan ikke svare længere.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "Historikken bevares. Service genoptages, når kunden fortsætter samtalen.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "Lukket af besøgende",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "Lukket af medarbejder",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "Lukket på grund af timeout",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "Lukket af systemet",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "Arkiveret",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "Overdraget til en anden medarbejder",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "Afsluttet",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "Følg global (til)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "Følg global (fra)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "Denne samtale (til)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "Denne samtale (fra)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "Den planlagte besked er sendt eller kan ikke annulleres",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "Kunne ikke annullere. Prøv igen senere.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "Lagring",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "Lagerstatistik er utilgængelig",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "Sikkerhedskopi og gendannelse",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "Sikkerhedskopiér chathistorik",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "Gendan chathistorik",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "Import og eksport",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "Eksportér chathistorik",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "Importér chathistorik",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "Ikke tilgængelig endnu",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "Udgiv",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "Meddelelsestitel (valgfrit)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "Kunne ikke slette. Prøv igen.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "Kunne ikke gemme. Prøv igen.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "Medlemmets skrivning er begrænset",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "Medlemmets skrivebegrænsning er ophævet",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "Kun gruppeejere, gruppeadministratorer eller organisationsadministratorer kan begrænse medlemmers skrivning",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "Ingen almindelige medlemmer at begrænse",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "Søg medlemmer",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "Ryd søgning",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "Ingen matchende medlemmer",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "Ingen resultater for »{query}«",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "Begrænsning gælder kun almindelige medlemmer. Angiv varighed i minutter; 0 betyder ubegrænset. Årsagen sendes til serveren.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "Indtil {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "Årsag: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "Begræns medlemmets skrivning",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "Ophæv medlemmets skrivebegrænsning",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "Indstillinger for begrænsning",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "Indtast et heltal på 0 eller højere",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "Medlemmets skrivning bliver begrænset",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "Begræns skrivning for {name}",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "Varighed (minutter)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "Indtast 0 for ubegrænset varighed",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "Årsag til begrænsning",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "Valgfrit, til senere reference",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "Bekræft begrænsning",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "Skrivebegrænsning aktiv",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "Ingen skrivebegrænsning",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "Status ikke synkroniseret",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "QR-kode utilgængelig",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "Kopiér indhold",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "Ejeren eller administratorer har deaktiveret QR-kodeoprettelse for almindelige medlemmer",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "Genererer gruppe-QR-kode",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "Gruppens QR-kode kunne ikke genereres. Opdatér, og prøv igen.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "Scan QR-koden ovenfor for at anmode om at deltage i gruppen",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "Scan QR-koden ovenfor for at deltage i gruppen",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "Gyldig indtil {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "Gruppens QR-kode kunne ikke indlæses",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "Læsedetaljer",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "Originalbilledet kunne ikke indlæses. Tryk for at prøve igen.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@mig]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@alle]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "Du blev omtalt",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "Alle blev omtalt",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "Acceptér samtalen først",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "Overtag samtalen først",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "Denne samtale er skrivebeskyttet. Handlingen er utilgængelig.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "Din nuværende rolle kan ikke udføre denne supporthandling",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "Denne samtale er midlertidigt utilgængelig",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "Handlingen er utilgængelig i den nuværende tilstand",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "Samtale genoptaget. Du kan fortsætte med at hjælpe kunden.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "En anden medarbejder håndterer samtalen",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "Kunden har ikke genoptaget samtalen",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "Samtale overtaget",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "Overtagelse mislykkedes. Prøv igen.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "Samtale accepteret",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "Accept mislykkedes. Prøv igen.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "Lukning bevarer chathistorikken. Serverregler kan sætte samtalen i kø eller tildele den igen.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "Samtale lukket",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "Lukning mislykkedes. Prøv igen.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "Denne samtale kan ikke overdrages nu",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "Ingen medarbejdere tilgængelige til overdragelse",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "Samtale overdraget",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "Overdragelse mislykkedes. Prøv igen.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "Kundesamtale",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "Gem til album",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "Ingen beskeder fra den anden er tilgængelige til oversættelse",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "Følg global indstilling",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "Global indstilling er slået til",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "Global indstilling er slået fra",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "Aktivér for denne samtale",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "Oversæt automatisk kun den andens synlige beskeder",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "Deaktivér for denne samtale",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "Oversæt ikke denne samtale, selv når den globale indstilling er slået til",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "Oversæt synlige beskeder",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "Vælg et tidspunkt mindst ét minut fra nu",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "Beskeder kan planlægges højst 14 dage frem",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "Planlagt afsendelse kunne ikke indstilles",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "Indholdet kan ikke sendes, fordi det overtræder reglerne",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "Denne konto har skrivebegrænsning og kan ikke sende beskeder nu",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "Gruppebeskeden kunne ikke sendes. Prøv senere (INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "Afsendelse mislykkedes: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "Menuen er midlertidigt utilgængelig",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "Supportsamtalen forberedes. Prøv om lidt.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "Du er i kø. En tilgængelig medarbejder kontakter dig.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI håndterer samtalen",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "Du håndterer samtalen",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} håndterer samtalen",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "AI besvarer kundebeskeder · Kilde: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "En medarbejder håndterer samtalen · Kilde: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "Kundeprofil er midlertidigt utilgængelig",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "Tilføj en note (valgfrit)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "Bekræft overdragelse",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "Kunden skriver: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "Kun visning. Du kan ikke sende beskeder.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "Acceptér samtalen for at svare",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "Acceptér samtalen før svar",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "Overtag samtalen før svar",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "Kundeprofil",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "Navn",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "Niveau",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "Risiko",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "Sprog",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "Kilde",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "Tildelt medarbejder",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "Kontooversigt",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "Kontosaldo",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "Samlede indbetalinger",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "Nettoindskud",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "Kontostatus",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "Registreringsdato",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "Oversigt over handelshistorik",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "Ordrer i alt",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "Handlede produkter",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "Gevinstprocent",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "Seneste handelstidspunkt",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "Besøgsprofil",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "Besøgs-id",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "Samtalehistorik",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "Kildeside",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "Konto-, handels- og sagsoplysninger bliver tilgængelige, når kunden registrerer sig og tilknytter en konto",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "Bekræftet",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "Ikke godkendt",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "lav",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "Mellem",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "høj",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "Aktiv",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "Deaktiveret",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "Frosset",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "Tags",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "Supportsager",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "Ingen supportsager",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "Under behandling",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "Afventer",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "Lukket",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "Midlertidige ordredata",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "Ingen midlertidige ordrer",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "Ordrer",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "Ordrenummer",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "Retning",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "Lot",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "Åbningskurs",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "Urealiseret gevinst/tab",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "Åbningstid",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "Køb",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "Sælg",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "Åben position",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "Pendende ordre",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "Lukket position",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "Ikke tildelt",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "Officiel konto",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "Type",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "Favoritdetaljer",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "Favoritindhold",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(Intet indhold)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "Gemt {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "Søg i chathistorik",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "Dato",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "Billeder og videoer",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "Søg bestemt indhold",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "Talebesked {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[Systembesked]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[Link]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[Tekst]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[Formateret tekst]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "En planlagt besked kan ikke være tom",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "Kunne ikke opdatere. Prøv igen senere.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "Planlagte beskeder kunne ikke indlæses",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "Ingen planlagte beskeder",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "Beskeder planlagt fra skrivefeltet kan administreres her.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "Venter på afsendelse",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "Leverer",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "Status {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "Redigér planlagt besked",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "Beskedindhold",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "Afsendelsestid",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "Rediger",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "Planlagt til {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "Beskeden sendes kl. {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "Redigerer planlagt besked · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "Slet planlagt besked",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, one {{count} ulæst samtale} other {{count} ulæste samtaler}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "Ingen ulæste samtaler",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, one {{count} ulæst besked} other {{count} ulæste beskeder}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {{count} ny besked} other {{count} nye beskeder}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "Ingen matchende samtaler",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "Ingen samtaler",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "Ingen flere samtaler",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "E",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "Link",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "Almindelige medlemmer kan ikke omtale alle i denne gruppe",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "Opdatér status",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "Hold for at tale",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "Slip for at sende",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "Medlem fjernet",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

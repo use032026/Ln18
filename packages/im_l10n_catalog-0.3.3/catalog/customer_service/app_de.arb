@@ -1,0 +1,1369 @@
+{
+  "@@locale": "de",
+  "customerServiceTitle": "Service-Arbeitsplatz",
+  "customerServiceQueue": "Warteschlange",
+  "customerServiceActive": "Aktiv",
+  "customerServiceClaim": "Annehmen",
+  "customerServiceTakeover": "Übernehmen",
+  "customerServiceClose": "Betreuung beenden",
+  "customerServiceCloseConfirm": "Diese Betreuung beenden?",
+  "customerServiceNoQueue": "Keine wartenden Gespräche",
+  "customerServiceNoActive": "Keine aktiven Gespräche",
+  "customerServiceVisitor": "Besucher",
+  "customerServiceCustomer": "Kunde",
+  "customerServiceAssignedTo": "Zugewiesen an",
+  "customerServiceTransferConversation": "Chat übertragen",
+  "marketingToolbar": "Marketing-Werkzeuge",
+  "customerServiceBroadcastDirectTitle": "Kunden-Rundnachricht",
+  "csAiReplyTitle": "KI-Antwort",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "Kundennachricht",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "Antwortvorschläge",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "Antwortvorschläge erstellen",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "Erneut erstellen",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "Vorschlag erstellen",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "Wird eingefügt …",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "Antwort einfügen",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "Wissensquellen",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "Material der Wissensdatenbank",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "Noch keine Vorschläge. Tippen, um eine KI-Antwort zu erstellen.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "Keine Kundennachricht zum Erstellen einer Antwort verfügbar.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "Dieses Konto darf die Kundendienst-KI nicht verwenden.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "KI-Antworten werden für diesen Gesprächstyp nicht unterstützt.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "Dieses Kundendienstgespräch ist nicht verfügbar. Aktualisieren und erneut versuchen.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "KI-Antwort konnte nicht erstellt werden. Erneut versuchen.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "Der Inhalt wurde durch die Moderation blockiert.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "Treten Sie der Gruppe bei, bevor Sie eine Gruppen-Rundnachricht senden.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "Gruppenchat auswählen",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "Eine mandantenweite Rundnachricht kann nicht an einen Gruppenchat gerichtet werden.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "Zielgruppe oder Aufgabe nicht gefunden.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "Das Ziel ist kein Gruppenchat.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "Die Zielgruppe ist nicht verfügbar.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "Dieses Nachrichtenformat wird nicht unterstützt.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "Im Zielbereich wurden keine berechtigten Empfänger gefunden.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "Die Empfängerzahl überschreitet das Rundnachrichtenlimit.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "Zu viele Rundnachrichtenanfragen. Bitte später erneut versuchen.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "Bei Gruppen-Rundnachrichten können einzelne Empfänger nicht erneut angeschrieben werden.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "Für diese Rundnachricht sind Administratorrechte erforderlich.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "Serverfehler",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "Rundnachricht fehlgeschlagen",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "Online-Support",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "Kundendienst",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "Leistung",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "Betreuung",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "Modus",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "Manuelle Annahme",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "Automatische Zuweisung",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "Annahmemodus konnte nicht geändert werden. Erneut versuchen.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "Status konnte nicht geändert werden. Erneut versuchen.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "Bitte zuerst einen Unternehmensbereich öffnen.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "Diese Rolle darf nicht auf den Arbeitsbereich zugreifen.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "Arbeitsbereich für Inhaber",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "Arbeitsbereich für Administratoren",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "Kundenbetreuung",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "Alle Kunden",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "Unternehmensbeitrittsanträge",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "Kundenwachstum",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "Servicebetrieb",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "Supportzentrum",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "Serviceeffizienz des Teams",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "Risikomanagement",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "Gefährdete Gespräche",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "Gesprächsprüfung",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "Aktionsprüfung",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "Gruppenbetrieb",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "Gruppenaufsicht",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "Unternehmens-Rundnachricht",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "Nach Kundenberater anzeigen",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "Antwortzeit überschritten",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "Keine Kundendaten",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "Kunden suchen",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "Kunden gesamt",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "Zuweisung ausstehend",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "Nicht zugewiesene Kunden",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "Keine nicht zugewiesenen Kunden",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "Heute hinzugefügt",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "Zuweisung überfällig",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "Keine Wachstumsdaten",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "Heute",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "Dieser Monat",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "Dieses Quartal",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "Sechs Monate",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "Neue Kunden",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "Aktive Kunden",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "Inaktive Kunden",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "Abwanderungsrisiko",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "Keine Kundengruppendaten",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "Kundengruppen suchen",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "Keine Daten zur Serviceeffizienz",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "Durchschnittliche Antwortzeit",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "Bearbeitete Gespräche",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "Servicegruppenüberwachung",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "Keine Servicegruppendaten",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "Kunden oder Servicegruppen suchen",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "Verwaltung von Kundendienstgesprächen",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "Keine Gespräche",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "Kunden, Besucher oder Gespräche suchen",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "Keine gefährdeten Gespräche",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "Kunden, Kundenberater oder Gespräche suchen",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "Keine Gesprächsaufzeichnungen",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "Keine Prüfprotokolle",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "Bearbeiter oder Kunden suchen",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "Keine Servicedaten der Kundenberater",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "Kundenberater suchen",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "Keine Gespräche mit überschrittener Antwortzeit",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "Kunden oder Gespräche suchen",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "Kundenberaterstatus",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "Keine Statusdaten der Kundenberater",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "Keine Kundenberaterdaten",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "Nicht zugewiesene Kunden sind vorübergehend nicht verfügbar.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "Warten auf einen Kundenberater",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "Zuweisen",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "Kundendetails",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "Verfügbare Kundenberater konnten nicht geladen werden.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "Automatisch nach Regeln zugewiesen",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "Kundenberater zugewiesen",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "Kundenberater konnte nicht zugewiesen werden.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "Kundenberater zuweisen",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "Automatisch nach Regeln zuweisen",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "Der Dienst wählt einen geeigneten Kundenberater aus.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "Keine Kundenberater zur Zuweisung verfügbar.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "Kundenberaterstatus vorübergehend nicht verfügbar.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "Gesprächsprüfung ist noch nicht verfügbar.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "Gefährdete Gespräche sind noch nicht verfügbar.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "Details zu überschrittenen Antwortzeiten sind noch nicht verfügbar.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "Aktionsprüfung ist vorübergehend nicht verfügbar.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "Aktionsprotokoll",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "Kundengespräche",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "In Warteschlange",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "Betreuungsmitarbeiter",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "Übersicht des Supportzentrums",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "Live-Überwachung",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "Live-Überwachung konnte nicht geladen werden.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "Laufende Kundendienstgespräche überwachen",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "Kundenberater werden synchronisiert",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "Nach Kundenberater filtern",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "Alle Kundenberater",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "In Bearbeitung",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "Alle Status",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "Alle Kanäle",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "Besucheranfragen",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "IM-Support",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "Keine aktiven Kundendienstgespräche entsprechen diesen Filtern.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "Wird überwacht",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "Überwachen",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "Wählen Sie oben Gespräche aus, um sie nebeneinander zu überwachen.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "Details konnten nicht synchronisiert werden. Bitte in Kürze aktualisieren.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "Keine Nachrichten für die Vorschau",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[Anruf]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "Keine Kundengespräche",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "Keine Online-Supportgespräche",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "Aktuelle Gespräche",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "Personen in der Warteschlange",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "Beschäftigte Kundenberater",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "Verfügbare Kundenberater",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "Übersicht des Online-Supports",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "Wartende Besucher",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "Betreute Besucher",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "Ausstehende Kundengespräche",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "Aktive Kundengespräche",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "Wartende gesamt",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "Anteil an der Warteschlange",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "Anteil an der aktiven Betreuung",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "Durchschnittliche Wartezeit",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "Online-Support in Warteschlange",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "Aktiver Online-Support",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "Leistungsdaten der Kundenberater vorübergehend nicht verfügbar.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "Betreut",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "Durchschnittliche erste Antwortzeit",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "Durchschnittliche Dauer",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "Durchschnittliche Bewertung",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "Erste Antwort",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "Dauer",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "Bewertung",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "Bestehensquote",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "Gesprächsverwaltung",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "Gespräch sperren",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "Gespräch entsperren",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "Gesprächsdetails",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "Gesprächs-ID",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "Gespräch gesperrt",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "Gespräch entsperrt",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "Sperrgrund (optional)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "Entsperrgrund (optional)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "Sperren bestätigen",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "Entsperren bestätigen",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "Häufige Antworten",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "Antwortvorlagen",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "Antworten konnten nicht geladen werden.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "Zum Aktualisieren und erneuten Versuchen nach unten ziehen.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "Keine Schnellantworten",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "Nach Aktivierung der Sammlung werden hier Antworten angezeigt.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "Keine passenden Antworten",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "Anderes Stichwort versuchen",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "Antworten suchen",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "Antwort ohne Titel",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "Diese Rolle darf keine Rundnachrichten senden.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "Rundnachrichten stehen nur Kundenberatern zur Verfügung.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "Aufgabe wird eingereicht …",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "Vorschau wird vorbereitet …",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "Vorschau und Absenden",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "Rundnachrichten",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "Gruppenchats konnten nicht geladen werden.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "Bitte in Kürze erneut versuchen oder die Gesprächsliste dieses Bereichs prüfen.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "Zielbereich",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "Alle Mandantenmitglieder",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "Einzelnachrichten an berechtigte Mitglieder dieses Unternehmens senden.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "Keine Gruppenchats verfügbar.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "Keine passenden Gruppenchats",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "Direktnachrichten an Mitglieder und Gruppen-Rundnachrichten unterstützen nur Gruppen, denen dieses Konto beigetreten ist.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "Bitte anderes Stichwort versuchen.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "Gruppenchat auswählen",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "Inhalt der Rundnachricht eingeben",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "Ihre Sitzung ist abgelaufen. Bitte erneut anmelden.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "Rundnachricht bestätigen",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "Nachrichten werden unter dem aktuellen Kundenberater gesendet und nach dem Absenden asynchron zugestellt. Gesendete Nachrichten können nicht zurückgerufen werden.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "Aufgabe absenden",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "Unternehmensmitglieder einzeln anschreiben",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "Gruppenmitglieder privat anschreiben",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "Jedem Mitglied einer Gruppe eine separate Direktnachricht senden.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "Rundnachricht in der Gruppe",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "Eine Nachricht direkt in einem Gruppenchat senden.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "Kunden- und Gruppen-Rundnachrichten",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "Text der Rundnachricht eingeben",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "Gruppenchats suchen",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "Für alle Mandantenmitglieder ist keine Gruppenauswahl erforderlich.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "Gruppenauswahl aufheben",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "Vorschauergebnisse",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "Erneuter Versuch",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "Fehlgeschlagene Empfänger erneut versuchen",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "Gruppenchat ohne Namen",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "Keine passenden Gespräche",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "Kein Gesprächsverlauf",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "Keine wartenden Gespräche",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "Keine aktiven Gespräche",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "Keine VIP-Gespräche",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "Durch Mitarbeiter übernehmen",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "Gespräch fortsetzen",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "Anzeigen",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "Gespräch konnte nicht angenommen werden. Erneut versuchen.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "Übernahme fehlgeschlagen. Erneut versuchen.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "Gespräch beendet",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "Gespräch schließen",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "Beim Schließen bleibt der Chatverlauf erhalten. Gemäß der Servicerichtlinie kann das Gespräch erneut eingereiht oder zugewiesen werden.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "Gespräch geschlossen",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "Gespräch konnte nicht geschlossen werden. Erneut versuchen.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "Gespräche suchen",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "Aktuelle Betreuung",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "Gesprächsverlauf",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "Das Gespräch wird synchronisiert. Bitte in Kürze aktualisieren.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "Übertragenes Gespräch",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "Benachrichtigung ausblenden",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "Heute betreut",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "Durchschnittliche Bearbeitungszeit",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "Zufriedenheit",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "Gespräche mit Zeitüberschreitung",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "In Warteschlange · Automatische Zuweisung ausstehend",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "In Warteschlange · Annahme ausstehend",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "Wartezeit --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "Geschätzte Wartezeit --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "WeChat",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "Web",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "Eigene App",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "Support-Arbeitsbereich ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "Geändert zu {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "Benutzerdefiniert {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie-ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} Sitzung} other {{count} Sitzungen}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · Gespräche: {count} · Erste Antwort: {response} · Bewertung: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "In Betreuung {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "Rundnachricht eingereicht. Empfänger: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {{count} fehlgeschlagener Empfänger erneut eingereiht} other {{count} fehlgeschlagene Empfänger erneut eingereiht}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "Methode: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "Gruppenchat: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "Geschätzte Empfänger: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "Beispiel: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "Aufgabe: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "Zugestellt {sent}/{total}, fehlgeschlagen {failed}, übersprungen {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {{count} Mitglied} other {{count} Mitglieder}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "Warteschlangenposition: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {Geschätzte Wartezeit: {count} Minute} other {Geschätzte Wartezeit: {count} Minuten}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {Geschätzte Wartezeit: {count} Sekunde} other {Geschätzte Wartezeit: {count} Sekunden}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "Kundenberater: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "Quelle: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "Warteschlange #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "Wartezeit {count} Min.",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "Wartezeit {count} Sek.",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "Gespräch an Sie übertragen",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "Ein Kundendienstgespräch wurde an Sie übertragen. Öffnen Sie den Arbeitsbereich, um den bisherigen Verlauf anzusehen.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "Ein Kundendienstgespräch wurde an Sie übertragen. Hinweis: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "Zustellung ausstehend",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "Wird zugestellt",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "Erledigt",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "Fehlgeschlagen",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "Registrierter Kunde",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "Unbekannter Kanal",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "Unbekannter Kunde",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "Verlauf eines übertragenen Gesprächs",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "Geschlossen am {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "Zuletzt aktiv {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "Mini-Programm",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

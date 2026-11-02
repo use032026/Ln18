@@ -1,0 +1,112 @@
+{
+  "@@locale": "ms",
+  "officialAccountBadge": "Rasmi",
+  "officialAccountOpenConversation": "Buka perbualan",
+  "officialAccountJoinHint": "Menambah akaun ini akan menyertakan anda dalam syarikat sebagai pelanggan. Kelulusan rakan tidak diperlukan.",
+  "officialAccountJoinDisabled": "Syarikat ini tidak menerima pelanggan baharu. Sila hubungi sokongan.",
+  "officialAccountRemoved": "Anda telah dikeluarkan daripada syarikat ini. Minta syarikat menjemput anda semula.",
+  "officialAccountBanned": "Akaun anda telah dilumpuhkan dalam syarikat ini.",
+  "officialAccountUnavailable": "Akaun rasmi ini tidak tersedia buat masa ini.",
+  "officialAccountJoinBindingDisabled": "Menyertai syarikat tidak dibenarkan dalam mod semasa.",
+  "officialAccountPlatformRequired": "Gunakan akaun platform untuk menambah akaun rasmi ini.",
+  "officialAccountOpenFailed": "Perbualan tidak dapat dibuka. Sila cuba lagi.",
+  "officialAccountAccountChanged": "Akaun atau ruang berubah. Sila buka semula.",
+  "officialAccountDirectoryUnavailable": "Direktori syarikat belum dikemas kini. Sila cuba sebentar lagi.",
+  "officialAccountInboxSyncFailed": "Penyegerakan akaun rasmi gagal. Kandungan setempat masih tersedia.",
+  "officialAccountInboxSyncing": "Menyegerakkan mesej akaun rasmi",
+  "officialIdentityQr": "Profil dan kod QR akaun rasmi",
+  "officialIdentityHint": "Urus identiti rasmi yang dilihat oleh pelanggan anda",
+  "officialEditProfile": "Kemaskini Maklumat",
+  "officialSetIdentityHint": "Tetapkan nombor, nama dan avatar akaun rasmi",
+  "officialQrTitle": "Kod QR akaun rasmi",
+  "officialViewReset": "Lihat atau tetapkan semula",
+  "officialAutoJoin": "Sertai organisasi secara automatik apabila menambah akaun rasminya",
+  "officialAutoJoinHint": "Pelanggan menyertai ruang pelanggan organisasi secara automatik apabila menambah akaun rasminya",
+  "officialConversationFeatures": "Ciri perbualan",
+  "officialConversationSettingsHint": "Perubahan terus mempengaruhi perbualan rasmi pelanggan",
+  "officialServiceMenu": "Menu perkhidmatan",
+  "officialServiceMenuHint": "Tunjukkan menu yang dikonfigurasi dalam konsol desktop kepada pelanggan",
+  "officialWelcomeOnFirstContact": "Sambutan hubungan pertama",
+  "officialWelcomeMessage": "Mesej alu-aluan",
+  "officialHumanSupport": "Serahkan kepada ejen manusia",
+  "officialReceptionModeHint": "Penerimaan baharu atau dibuka semula menggunakan mod yang dipilih. Perbualan aktif mengekalkan mod semasanya.",
+  "officialReceptionMode": "Mod penerimaan ejen",
+  "officialReceptionInOfficial": "Dalam perbualan akaun rasmi",
+  "officialReceptionLegacy": "Sembang ejen berasingan (mod legasi)",
+  "officialServiceNotice": "Notis penerimaan",
+  "officialServiceNoticeText": "Teks notis penerimaan",
+  "officialAutoHandoff": "Penyerahan ejen automatik",
+  "officialAutoHandoffHint": "Tugaskan ejen apabila pelanggan menghantar mesej kepada akaun rasmi",
+  "officialForwardCustomerText": "Majukan mesej pelanggan",
+  "officialForwardCustomerTextHint": "Sampaikan mesej pelanggan kepada ejen yang ditugaskan selepas penyerahan",
+  "officialSyncAgentReplies": "Segerakkan balasan ejen ke akaun rasmi",
+  "officialSyncAgentRepliesHint": "Sampaikan balasan ejen kembali ke perbualan rasmi dalam mod legasi",
+  "officialHandoffCooldown": "Tempoh bertenang notis penyerahan",
+  "officialAssignedNotice": "Mesej ejen ditugaskan",
+  "officialQueuedNotice": "Mesej baris gilir",
+  "officialDesktopManagementHint": "Urus struktur menu, kata laluan dan kumpulan rasmi dalam konsol desktop.",
+  "officialSaveFailed": "Tidak dapat menyimpan. Sila cuba lagi nanti.",
+  "officialCooldownRange": "Julat: 0–1440 minit",
+  "officialMenuItems": "Item menu",
+  "officialMenuVersion": "Versi menu",
+  "officialEnabled": "Didayakan",
+  "officialManageDenied": "Akaun ini tidak boleh mengurus akaun rasmi",
+  "officialSettingsLoadFailed": "Tidak dapat memuatkan tetapan akaun rasmi",
+  "officialProfileSaved": "Profil akaun rasmi disimpan",
+  "officialProfileTitle": "Profil akaun rasmi",
+  "officialDisplayName": "Nama paparan",
+  "officialAvatarUrl": "URL avatar",
+  "officialAvatarLogoFallback": "Biarkan kosong untuk menggunakan logo organisasi",
+  "officialIdHint": "6–10 digit; biarkan kosong untuk menyahpaut",
+  "officialResetQr": "Tetapkan semula kod QR",
+  "officialResetQrConfirm": "Kod QR lama akan berhenti berfungsi serta-merta. Tetapkan semula?",
+  "officialReset": "Reset",
+  "officialQrNotGenerated": "Belum ada kod QR dijana",
+  "officialQrLoadFailed": "Tidak dapat memuatkan kod QR. Sila cuba lagi.",
+  "officialGenerate": "jana",
+  "officialMenuCustomerOnly": "Menghubungi sokongan hanya tersedia untuk pelanggan",
+  "officialMenuUpdated": "Menu telah berubah. Sila cuba lagi.",
+  "officialMenuActionFailed": "Tindakan gagal. Semak sambungan dan cuba lagi.",
+  "officialMenuLoadFailed": "Tidak dapat memuatkan menu perkhidmatan",
+  "officialMenuRefreshFailed": "Tidak dapat menyegarkan semula menu perkhidmatan",
+  "officialAccountIdValue": "Akaun rasmi {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minit} other {{count} minit}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Menyokong pemegang tempat {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Digunakan {count} kali} other {Digunakan {count} kali}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Nama mesti mengandungi 1–64 aksara",
+  "officialIdFormatInvalid": "Nombor akaun rasmi mesti 6–10 digit"
+}

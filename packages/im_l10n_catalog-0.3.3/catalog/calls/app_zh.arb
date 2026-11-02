@@ -1,0 +1,224 @@
+{
+  "@@locale": "zh",
+  "callIncoming": "来电",
+  "@callIncoming": {
+    "description": "Incoming call"
+  },
+  "callOutgoing": "去电",
+  "@callOutgoing": {
+    "description": "Outgoing call"
+  },
+  "callAccept": "接听",
+  "@callAccept": {
+    "description": "Accept call"
+  },
+  "callReject": "拒绝",
+  "@callReject": {
+    "description": "Reject call"
+  },
+  "callHangup": "挂断",
+  "@callHangup": {
+    "description": "Hangup"
+  },
+  "callMissed": "未接来电",
+  "@callMissed": {
+    "description": "Missed call"
+  },
+  "callDuration": "通话时长",
+  "@callDuration": {
+    "description": "Call duration"
+  },
+  "callAudio": "语音通话",
+  "@callAudio": {
+    "description": "Audio call"
+  },
+  "callGeneric": "通话",
+  "@callGeneric": {
+    "description": "Generic call label used when media mode is unavailable"
+  },
+  "callVideo": "视频通话",
+  "@callVideo": {
+    "description": "Video call"
+  },
+  "callConnecting": "连接中...",
+  "@callConnecting": {
+    "description": "Connecting"
+  },
+  "callRinging": "等待接听...",
+  "@callRinging": {
+    "description": "Ringing"
+  },
+  "callEnded": "通话已结束",
+  "@callEnded": {
+    "description": "Call ended"
+  },
+  "callFailed": "通话失败",
+  "@callFailed": {
+    "description": "Call failed"
+  },
+  "callRejected": "对方已拒绝",
+  "@callRejected": {
+    "description": "Call rejected"
+  },
+  "callTimeout": "对方无应答",
+  "@callTimeout": {
+    "description": "Call timeout"
+  },
+  "callCancelled": "已取消",
+  "@callCancelled": {
+    "description": "Call cancelled"
+  },
+  "callUnknownPeer": "未知",
+  "@callUnknownPeer": {
+    "description": "Unknown call peer"
+  },
+  "callVideoInvitation": "视频通话邀请",
+  "@callVideoInvitation": {
+    "description": "Video call invitation"
+  },
+  "callAudioInvitation": "语音通话邀请",
+  "@callAudioInvitation": {
+    "description": "Audio call invitation"
+  },
+  "callAnswerAudio": "语音接听",
+  "@callAnswerAudio": {
+    "description": "Answer without video"
+  },
+  "callAnswerVideo": "视频接听",
+  "@callAnswerVideo": {
+    "description": "Answer with video"
+  },
+  "callViewProfile": "看他的近况",
+  "@callViewProfile": {
+    "description": "View peer profile"
+  },
+  "callOpeningCamera": "正在打开摄像头...",
+  "@callOpeningCamera": {
+    "description": "Opening camera"
+  },
+  "callWaitingRemoteVideo": "等待远端视频...",
+  "@callWaitingRemoteVideo": {
+    "description": "Waiting for remote video"
+  },
+  "callCameraOff": "摄像头已关闭",
+  "@callCameraOff": {
+    "description": "Camera is off"
+  },
+  "callCameraOn": "摄像头已开",
+  "@callCameraOn": {
+    "description": "Camera is on"
+  },
+  "callMicrophoneOff": "麦克风已关",
+  "@callMicrophoneOff": {
+    "description": "Microphone is off"
+  },
+  "callMicrophoneOn": "麦克风已开",
+  "@callMicrophoneOn": {
+    "description": "Microphone is on"
+  },
+  "callSpeakerOff": "扬声器已关",
+  "@callSpeakerOff": {
+    "description": "Speaker is off"
+  },
+  "callSpeakerOn": "扬声器已开",
+  "@callSpeakerOn": {
+    "description": "Speaker is on"
+  },
+  "callVideoPermissionFailure": "视频通话无法建立，请检查摄像头或麦克风权限后重试",
+  "@callVideoPermissionFailure": {
+    "description": "Video media permission failure"
+  },
+  "callAudioPermissionFailure": "语音通话无法建立，请检查麦克风权限后重试",
+  "@callAudioPermissionFailure": {
+    "description": "Audio media permission failure"
+  },
+  "callIncompleteIncoming": "来电信息不完整，无法接听",
+  "@callIncompleteIncoming": {
+    "description": "Incomplete incoming call"
+  },
+  "callInProgress": "通话中",
+  "@callInProgress": {
+    "description": "Call in progress"
+  },
+  "callCalling": "呼叫中...",
+  "@callCalling": {
+    "description": "Calling status"
+  },
+  "callEndedMedia": "{media}已结束",
+  "@callEndedMedia": {
+    "description": "Ended call title",
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "callRejectedMedia": "{media}已被拒绝",
+  "@callRejectedMedia": {
+    "description": "Rejected call title",
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "callUnansweredMedia": "{media}无人接听",
+  "@callUnansweredMedia": {
+    "description": "Unanswered call title",
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "callCancelledMedia": "{media}已取消",
+  "@callCancelledMedia": {
+    "description": "Cancelled call title",
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "callConnectionLost": "通话连接中断",
+  "@callConnectionLost": {
+    "description": "Call connection lost"
+  },
+  "callAdminEnded": "通话已被结束",
+  "@callAdminEnded": {
+    "description": "Call ended by administrator"
+  },
+  "callFailedMedia": "{media}失败",
+  "@callFailedMedia": {
+    "description": "Failed call title",
+    "placeholders": {
+      "media": {
+        "type": "String"
+      }
+    }
+  },
+  "callBusy": "对方忙线中",
+  "@callBusy": {
+    "description": "Peer is busy"
+  },
+  "callDurationValue": "通话时长 {duration}",
+  "@callDurationValue": {
+    "description": "Call duration value",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "callNotConnected": "未接通",
+  "@callNotConnected": {
+    "description": "Call did not connect"
+  },
+  "callDialed": "已拨出",
+  "callAnswered": "已接听",
+  "callRejectedByPeer": "对方已拒绝",
+  "callRejectedBySelf": "已拒绝",
+  "callPeerDidNotAnswer": "对方未接听",
+  "callMissedIncoming": "未接来电",
+  "callPeerCancelled": "对方已取消"
+}

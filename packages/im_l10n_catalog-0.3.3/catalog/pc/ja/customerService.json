@@ -1,0 +1,348 @@
+{
+  "customer": "顧客",
+  "action": {
+    "claim": "受付",
+    "closeThread": "会話を閉じる",
+    "takeover": "有人引き継ぎ"
+  },
+  "transfer": {
+    "confirm": "Transfer",
+    "currentStaff": "Current agent",
+    "detail": "Transfer the current conversation with \"{customer}\" to another agent. The recipient can view the full conversation history.",
+    "empty": "No transferable service members",
+    "loading": "Loading service members...",
+    "open": "Transfer to another agent",
+    "openShort": "Transfer",
+    "assignShort": "Assign",
+    "assign": {
+      "confirm": "Confirm assignment",
+      "detail": "Assign the current conversation with \"{customer}\" to an agent.",
+      "empty": "No assignable agents",
+      "loading": "Loading service members...",
+      "open": "Assign to agent",
+      "reasonLabel": "Assignment note",
+      "reasonPlaceholder": "Example: assign by language, queue ownership, or specialist skill",
+      "searchPlaceholder": "Search agent name or account",
+      "title": "Assign conversation",
+      "transferring": "Assigning..."
+    },
+    "reasonLabel": "Transfer note",
+    "reasonPlaceholder": "Example: customer requests Cantonese support, specialist follow-up needed",
+    "role": {
+      "admin": "Admin",
+      "customer_service": "Agent",
+      "owner": "Owner"
+    },
+    "searchPlaceholder": "Search agent name or account",
+    "selectTarget": "Select the target agent",
+    "title": "Transfer conversation",
+    "transferring": "Transferring...",
+    "unassignedStaff": "Unassigned",
+    "unavailable": "This conversation cannot be transferred yet. Claim or take over it first."
+  },
+  "send": {
+    "localFileExpired": "The local file expired. Select it again.",
+    "selectThread": "Select an online customer service conversation",
+    "sendInterruptedRetry": "Sending was interrupted. Click to retry.",
+    "threadClosedReadonly": "The conversation has ended and is now read-only.",
+    "videoPosterFailed": "Failed to generate video poster"
+  },
+  "contextPanel": {
+    "aiDraft": "AI draft",
+    "collapseCustomer": "Collapse customer info",
+    "dragSort": "Drag to reorder",
+    "emptyText": "Select a queued, active, or history conversation from the pool to view customer details.",
+    "emptyTitle": "No customer selected",
+    "expandCustomer": "Expand customer info",
+    "knowledge": "Knowledge base",
+    "pin": "Pin customer info",
+    "quickReply": "Quick replies",
+    "railAria": "Customer context shortcuts",
+    "selectFirst": "Select a conversation to view customer info",
+    "sessionInfo": "Conversation info",
+    "sessionNotesUnavailable": "Session notes are available only for online service temp sessions.",
+    "sessionSummary": "Conversation summary",
+    "sessionSummaryEmpty": "No conversation summary from the API yet.",
+    "title": "Customer info",
+    "toolsAria": "Customer service tools",
+    "unpin": "Unpin"
+  },
+  "sessionNotes": {
+    "add": "Add",
+    "contentRequired": "Enter a session note",
+    "contentTooLong": "Session notes cannot exceed {max} characters",
+    "count": "{count} notes",
+    "createFailed": "Failed to add note: {error}",
+    "createPinned": "Pin",
+    "created": "Note added",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this session note?",
+    "deleteFailed": "Failed to delete note: {error}",
+    "deleted": "Note deleted",
+    "editorLabel": "Session note content",
+    "empty": "No session notes",
+    "loadFailed": "Failed to load session notes: {error}",
+    "loading": "Loading session notes...",
+    "pin": "Pin",
+    "pinFailed": "Failed to update note pin: {error}",
+    "pinUpdated": "Note pin updated",
+    "placeholder": "Example: VIP customer, cares about refund timing",
+    "title": "Session notes",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time",
+    "unpin": "Unpin"
+  },
+  "transferRemarks": {
+    "closeAria": "Close transfer remarks",
+    "empty": "No transfer remarks",
+    "fromTo": "{from} transferred to {to}",
+    "inlineLabel": "Transfer note: {reason}",
+    "internalOnly": "Visible to agents only. Customers cannot see these notes.",
+    "noReason": "No transfer note",
+    "open": "Transfer remarks",
+    "openShort": "Transfer remarks",
+    "title": "Transfer remarks",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time"
+  },
+  "closeConfirm": {
+    "confirm": "会話を終了",
+    "detail": "終了後、このサービス会話は履歴に移動し、入力欄は読み取り専用になります。",
+    "pendingWarning": "未送信のメッセージが {count} 件あります。必要に応じて処理してから終了してください。",
+    "risk": "訪問者が再度問い合わせた場合、サーバールールに従って再キューまたは新しいサービススレッドが作成されます。",
+    "title": "「{customer}」との会話を終了しますか？"
+  },
+  "header": {
+    "autoTranslateDisabled": "この会話はオフ",
+    "autoTranslateEnabled": "この会話はオン",
+    "autoTranslateGlobalDisabled": "全体設定に従う、オフ",
+    "autoTranslateGlobalEnabled": "全体設定に従う、オン",
+    "autoTranslateNamed": "自動翻訳：{state}",
+    "actionsAria": "会話操作",
+    "normalCustomer": "通常顧客",
+    "openCustomerInfo": "顧客情報を開く",
+    "pendingClaim": "受付待ち",
+    "pendingTakeover": "引き継ぎ待ち",
+    "readonly": "読み取り専用",
+    "replyable": "返信可能",
+    "slaRisk": "SLA リスク",
+    "statusAria": "カスタマーサービス会話状態",
+    "unread": "未読 {count}",
+    "vipCustomer": "VIP 顧客"
+  },
+  "reception": {
+    "autoEnableHint": "クリック後、オンライン状態に切り替えて自動割り当てを有効にします。",
+    "control": "受付制御",
+    "mode": "受付モード",
+    "queueMode": {
+      "auto": {
+        "description": "サーバーがルールに従って待機中の会話をオンライン担当者へ割り当てます。",
+        "disabledOffline": "自動割り当てはオンライン状態でのみ有効にできます。",
+        "disabledUnsynced": "受付状態が同期されていないため、自動割り当てはまだ有効にできません。",
+        "label": "自動割り当て"
+      },
+      "manual": {
+        "description": "待機中の会話はプールに残り、担当者が手動で受付します。",
+        "label": "手動受付"
+      }
+    },
+    "status": "受付状態",
+    "statusOption": {
+      "break": {
+        "description": "短時間席を外し、新しい待機中の会話を受け付けません。",
+        "label": "一時離席"
+      },
+      "busy": {
+        "description": "自動受付を停止し、現在の会話を処理します。",
+        "label": "取り込み中"
+      },
+      "offline": {
+        "description": "受付に参加しません。現在の会話を処理または引き継いでください。",
+        "label": "オフライン"
+      },
+      "online": {
+        "description": "新しい会話を受付でき、自動割り当てに参加します。",
+        "label": "オンライン"
+      },
+      "unsynced": {
+        "description": "受付状態を同期中です。既定では取り込み中として新規受付しません。"
+      }
+    },
+    "summary": "{status} · {mode} · {sessions}"
+  },
+  "messageStage": {
+    "aria": "カスタマーサービスチャット",
+    "customerFallback": "顧客",
+    "customerReadAt": "顧客が既読 {time}",
+    "customerReadTimeUnknown": "顧客の既読時刻不明",
+    "customerUnread": "顧客未読",
+    "read": "既読",
+    "newMessages": "↓ 新着 {count} 件",
+    "typingPreviewEmpty": "The customer is typing...",
+    "typingPreviewLabel": "Customer is typing",
+    "unread": "未読"
+  },
+  "online": {
+    "accessModeUnsynced": "受付モード未同期",
+    "assistantNeedsWidth": "{pane}にはより広い作業領域が必要です。ウィンドウを広げるか、先にキューを折りたたんでください。",
+    "autoAccess": "自動受付",
+    "commandSummary": "会話 {total} · {mode} · 容量 {capacity}",
+    "commandTitle": "カスタマーサービス指令台",
+    "dragSort": "ドラッグして並べ替え",
+    "expandActiveTitle": "対応中会話を展開、現在 {count} 件",
+    "expandQueue": "受付キューを展開",
+    "expandQueuedTitle": "キュー中会話を展開、現在 {count} 件",
+    "expandSlaTitle": "SLA リスク会話を展開、現在 {count} 件",
+    "expandUnreadTitle": "未読会話を展開、現在 {count} 件",
+    "metrics": {
+      "capacity": "Capacity",
+      "assigned": "Assigned",
+      "maxAssignable": "Max assignable",
+      "queued": "Queued",
+      "active": "Active",
+      "unread": "Unread",
+      "sla": "SLA"
+    },
+    "manualAccess": "手動受付",
+    "queueRailAria": "カスタマーサービスキューレーダー",
+    "receptionNotSynced": "受付状態が同期されていません。後で再試行してください",
+    "resizeAssistant": "補助ツール幅を調整",
+    "resizeCustomer": "顧客プロフィール幅を調整",
+    "resizeList": "カスタマーサービス一覧幅を調整",
+    "status": {
+      "online": "Online",
+      "busy": "Busy",
+      "break": "Break",
+      "offline": "Offline",
+      "unsynced": "Not synced"
+    },
+    "unread": "未読",
+    "unreadHint": "未読待ちを展開しました。赤い点のある会話を優先してください。専用未読フィルターはバックエンド連携待ちです。"
+  },
+  "threadList": {
+    "claim": "受付",
+    "claiming": "受付中",
+    "claimTitle": "この訪問者の会話を手動で受付",
+    "current": "現在",
+    "empty": {
+      "clearSearch": "検索をクリア",
+      "filteredDescription": "現在のフィルターに処理可能な会話はありません。履歴へ切り替えるか、キュー中の訪問者を待ってください。",
+      "filteredTitle": "現在のフィルターは空です",
+      "historyFilteredDescription": "現在の履歴フィルターに表示できる会話はありません。現在の会話へ戻って対応を続けてください。",
+      "historyFilteredTitle": "履歴フィルターは空です",
+      "noCurrentDescription": "キュー中の訪問者は自動的に会話プールへ入ります。終了済み会話は履歴で確認できます。",
+      "noCurrentTitle": "現在の会話はありません",
+      "noHistoryDescription": "終了済み会話は履歴に入ります。まずはキュー、対応中、SLA リスクを確認してください。",
+      "noHistoryTitle": "履歴会話はありません",
+      "noSlaTitle": "SLA リスクはありません",
+      "queuedDescription": "受付待ちの訪問者はいません。すべてまたは対応中へ切り替えてください。",
+      "searchCurrentDescription": "現在の会話プールに一致する項目はありません。検索をクリアするか履歴へ切り替えてください。",
+      "searchHistoryDescription": "履歴に一致する顧客、チャネル、メッセージ内容はありません。検索をクリアして続行してください。",
+      "searchTitle": "一致する会話はありません",
+      "servingDescription": "対応中の会話はありません。キューへ切り替えて訪問者を受付するか、履歴を確認してください。",
+      "slaDescription": "SLA リスク信号は見つかりません。すべての会話に戻り、未読や最新メッセージ時刻で対応してください。",
+      "viewAll": "すべて表示",
+      "viewQueued": "キューを表示"
+    },
+    "filterAll": "すべて",
+    "filterAria": "カスタマーサービス絞り込み",
+    "filterQueued": "キュー",
+    "filterServing": "対応中",
+    "history": "履歴",
+    "historyStatus": {
+      "closedByVisitor": "Closed by visitor",
+      "closedByStaff": "Closed by agent",
+      "closedTimeout": "Closed by timeout",
+      "closedSystem": "Closed by system",
+      "transferred": "Transferred",
+      "archived": "Archived",
+      "ended": "Ended"
+    },
+    "historyStatusUnread": "Ended · {count} unread",
+    "historyThread": "履歴会話",
+    "loadMore": "さらに表示",
+    "loadFailed": "会話の読み込みに失敗しました。後で再試行してください",
+    "loading": "会話を読み込み中...",
+    "loadingMore": "さらに読み込み中...",
+    "modeTabsAria": "現在と履歴",
+    "noMessage": "メッセージはありません",
+    "queueMetaMinutes": "キュー {position} 番目 · 推定待ち時間 {minutes} 分",
+    "queueMetaSeconds": "キュー {position} 番目 · 推定待ち時間 {seconds} 秒",
+    "queueMetaUnknown": "キュー {position} 番目 · 推定待ち時間 --",
+    "queuePosition": "キュー #{position}",
+    "queueWaitMinutes": "待ち {minutes} 分",
+    "queueWaitSeconds": "待ち {seconds} 秒",
+    "queueWaitUnknown": "待ち --",
+    "queueWaiting": "待機中 · 受付待ち",
+    "queueWaitingAutomatic": "キュー内 · 自動割り当て待ち",
+    "readonly": "読み取り専用",
+    "searchPlaceholder": "顧客、チャネル、会話内容を検索",
+    "showMore": "さらに {count} 件の会話を表示",
+    "summary": "現在 {current} · キュー {queued} · 履歴 {history}",
+    "title": "会話プール",
+    "unknownCustomer": "不明な顧客"
+  },
+  "status": {
+    "aiTransfer": "AI から有人対応",
+    "closed": "終了済み",
+    "queueing": "顧客が待機中",
+    "serving": "オペレーター対応中",
+    "unknown": "状態を同期中"
+  },
+  "visitor": "訪問者",
+  "workspace": {
+    "actionFailed": "{action}：{error}",
+    "aiDraftInsertedNotice": "AI 返信候補を入力欄に挿入しました。顧客へ送信する前に確認してください。",
+    "closedUnreadNotice": "終了前の未読メッセージが {count} 件あります",
+    "closing": "終了中...",
+    "composerDisabled": {
+      "automaticAssignment": "自動割り当てが有効です。システムの割り当て後に返信できます。",
+      "claim": "この会話はまだキュー内です。先に受付してください。",
+      "managementReadonly": "閲覧モードです。返信はできません。会話はまだ進行中で、担当者へ転送できます。",
+      "readonly": "この会話は終了しており、返信できません",
+      "transferred": "この会話は転送済みのため、返信できません",
+      "takeover": "この会話はまだ AI が対応中です。先に有人対応へ切り替えてください。"
+    },
+    "currentCustomer": "現在の顧客",
+    "editFailed": "編集に失敗しました",
+    "emptyAiDraft": "この AI 返信候補には挿入可能なテキストがありません。",
+    "emptyAssistantContent": "この補助内容には挿入可能なテキストがありません。",
+    "emptyKnowledgeContent": "このナレッジ内容には挿入可能なテキストがありません。",
+    "fileCopied": "ファイルをコピーしました。",
+    "imageCopied": "画像をコピーしました。",
+    "insertedNotice": "入力欄に挿入しました。顧客へ送信する前に確認してください。",
+    "mediaNoUrl": "このメディアメッセージには処理可能な URL がありません。",
+    "openFailed": "開けませんでした",
+    "opened": "開きました。",
+    "openedForEdit": "編集用に開きました。",
+    "lookupLoadedRangeOnly": "現在は読み込み済みのカスタマーサービスメッセージのみ定位できます。",
+    "revealFailed": "ファイルの場所を表示できませんでした",
+    "revealedInFinder": "Finder に表示しました。",
+    "revealedInFolder": "フォルダーに表示しました。",
+    "saveAsFailed": "名前を付けて保存に失敗しました",
+    "savedAs": "名前を付けて保存しました。",
+    "selectThread": "カスタマーサービス会話を選択してください",
+    "serviceConversation": "カスタマーサービス会話",
+    "threadChangedConfirmAgain": "現在の会話が変わりました。終了を再確認してください。",
+    "inline": {
+      "emptyMessages": "メッセージ履歴はまだありません。顧客情報を確認するか、訪問者の開始を待ってください。",
+      "loadFailed": "会話の読み込みに失敗しました：{error}",
+      "loading": "会話を読み込み中...",
+      "noThread": "キュー、対応中、または履歴の会話を選択して処理を開始してください。"
+    },
+    "mode": {
+      "current": "現在の対応",
+      "history": "履歴会話",
+      "viewing": "閲覧モード"
+    },
+    "reception": {
+      "ai": "現在 AI が対応中 · {source} から · 返信前に有人対応へ切り替えてください",
+      "automaticAssignment": "顧客がキューにいます · {source} から · 自動割り当て待ち",
+      "ended": "会話終了 · {status}",
+      "queued": "顧客がキューにいます · {source} から · 返信前に受付してください",
+      "serving": "会話を受付済み · {source} から · 続けて対応できます",
+      "viewing": "閲覧モード · {status} · {source} から · 返信不可"
+    },
+    "unknownSource": "不明なソース"
+  }
+}

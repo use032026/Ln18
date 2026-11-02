@@ -1,0 +1,1369 @@
+{
+  "@@locale": "si",
+  "customerServiceTitle": "සේවා මධ්‍යස්ථානය",
+  "customerServiceQueue": "පෝලිමේ",
+  "customerServiceActive": "සක්‍රියයි",
+  "customerServiceClaim": "භාරගන්න",
+  "customerServiceTakeover": "භාරයට ගන්න",
+  "customerServiceClose": "සේවය අවසන් කරන්න",
+  "customerServiceCloseConfirm": "මෙම සේවා සැසිය අවසන් කරන්නද?",
+  "customerServiceNoQueue": "පෝලිමේ ඇති සැසි නැත",
+  "customerServiceNoActive": "සක්‍රිය සැසි නැත",
+  "customerServiceVisitor": "ආගන්තුකයා",
+  "customerServiceCustomer": "පාරිභෝගිකයා",
+  "customerServiceAssignedTo": "පවරා ඇත්තේ",
+  "customerServiceTransferConversation": "කතාබහ මාරු කරන්න",
+  "marketingToolbar": "අලෙවිකරණ මෙවලම්",
+  "customerServiceBroadcastDirectTitle": "පාරිභෝගිකයන්ට සමූහ පණිවිඩ",
+  "csAiReplyTitle": "AI පිළිතුර",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "පාරිභෝගික පණිවිඩය",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "යෝජිත පිළිතුරු",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "යෝජිත පිළිතුරු සාදන්න",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "නැවත සාදන්න",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "යෝජනාවක් සාදන්න",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "ඇතුළත් කරමින්…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "පිළිතුර ඇතුළත් කරන්න",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "දැනුම් මූලාශ්‍ර",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "දැනුම් පදනමේ තොරතුරු",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "තවම යෝජනා නැත. AI පිළිතුරක් සෑදීමට තට්ටු කරන්න.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "පිළිතුරක් සෑදීමට පාරිභෝගික පණිවිඩයක් නැත.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "මෙම ගිණුමට පාරිභෝගික සේවා AI භාවිත කළ නොහැක.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "මෙම සංවාද වර්ගයට AI පිළිතුරු සහාය නොදක්වයි.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "මෙම සහාය සංවාදය ලබාගත නොහැක. යළි පූරණය කර නැවත උත්සාහ කරන්න.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "AI පිළිතුරක් සෑදිය නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "අන්තර්ගත සමාලෝචනයෙන් මෙම අන්තර්ගතය අවහිර විය.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "සමූහ පණිවිඩයක් යැවීමට පෙර සමූහයට එක් වන්න.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "සමූහ කතාබහක් තෝරන්න",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "ආයතනය පුරා යවන සමූහ පණිවිඩයක ඉලක්කය ලෙස සමූහ කතාබහක් තෝරාගත නොහැක.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "ඉලක්ක සමූහය හෝ කාර්යය හමු නොවීය.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "ඉලක්කය සමූහ කතාබහක් නොවේ.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "ඉලක්ක සමූහය ලබාගත නොහැක.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "මෙම පණිවිඩ ආකෘතියට සහාය නොදක්වයි.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "ඉලක්ක විෂය පථය තුළ සුදුසු ලබන්නන් හමු නොවීය.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "ලබන්නන් ගණන සමූහ පණිවිඩ සීමාව ඉක්මවයි.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "සමූහ පණිවිඩ ඉල්ලීම් වැඩියි. පසුව නැවත උත්සාහ කරන්න.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "සමූහ පණිවිඩ සඳහා තනි ලබන්නන්ට නැවත යැවීමට සහාය නොදක්වයි.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "මෙම සමූහ පණිවිඩයට පරිපාලක අවසරය අවශ්‍යයි.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "සේවාදායක දෝෂය",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "සමූහ පණිවිඩය අසාර්ථක විය",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "මාර්ගගත සහාය",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "පාරිභෝගික සේවය",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "කාර්ය සාධනය",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "භාරගැනීම",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "ප්‍රකාරය",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "අතින් භාරගැනීම",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "ස්වයංක්‍රීය පැවරීම",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "භාරගැනීමේ ක්‍රමය වෙනස් කළ නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "තත්ත්වය වෙනස් කළ නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "පළමුව ව්‍යවසාය අවකාශයකට ඇතුළු වන්න.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "මෙම භූමිකාවට වැඩ පුවරුව වෙත ප්‍රවේශ විය නොහැක.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "හිමිකරුගේ වැඩ පුවරුව",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "පරිපාලක වැඩ පුවරුව",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "පාරිභෝගික කළමනාකරණය",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "සියලු පාරිභෝගිකයන්",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "ව්‍යවසායට එක් වීමේ ඉල්ලීම්",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "පාරිභෝගික වර්ධනය",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "සේවා මෙහෙයුම්",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "සහාය මධ්‍යස්ථානය",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "කණ්ඩායමේ සේවා කාර්යක්ෂමතාව",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "අවදානම් කළමනාකරණය",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "අවදානම් සහිත සංවාද",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "සංවාද විගණනය",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "ක්‍රියා විගණනය",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "සමූහ මෙහෙයුම්",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "සමූහ අධීක්ෂණය",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "ව්‍යවසාය සමූහ පණිවිඩ",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "සේවා නිලධාරියා අනුව බලන්න",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "පිළිතුරු කාලය ඉක්මවා ඇත",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "පාරිභෝගික දත්ත නැත",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "පාරිභෝගිකයන් සොයන්න",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "මුළු පාරිභෝගිකයන්",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "පැවරීම බලාපොරොත්තුවෙන්",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "නොපැවරූ පාරිභෝගිකයන්",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "නොපැවරූ පාරිභෝගිකයන් නැත",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "අද එක් කළ",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "පැවරීම ප්‍රමාදයි",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "වර්ධන දත්ත නැත",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "දිනෙහි",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "මෙම මාසය",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "මෙම කාර්තුව",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "මාස හයක්",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "නව පාරිභෝගිකයන්",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "සක්‍රිය පාරිභෝගිකයන්",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "අක්‍රිය පාරිභෝගිකයන්",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "පාරිභෝගිකයන් අහිමි වීමේ අවදානම",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "පාරිභෝගික සමූහ දත්ත නැත",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "පාරිභෝගික සමූහ සොයන්න",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "සේවා කාර්යක්ෂමතා දත්ත නැත",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "සාමාන්‍ය පිළිතුරු කාලය",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "හසුරුවූ සංවාද",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "සේවා සමූහ නිරීක්ෂණය",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "සේවා සමූහ දත්ත නැත",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "පාරිභෝගිකයන් හෝ සේවා සමූහ සොයන්න",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "සහාය සංවාද කළමනාකරණය",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "සංවාද නැත",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "පාරිභෝගිකයන්, අමුත්තන් හෝ සංවාද සොයන්න",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "අවදානම් සහිත සංවාද නැත",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "පාරිභෝගිකයන්, සේවා නිලධාරීන් හෝ සංවාද සොයන්න",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "සංවාද වාර්තා නැත",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "විගණන වාර්තා නැත",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "ක්‍රියාකරුවන් හෝ පාරිභෝගිකයන් සොයන්න",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "සේවා නිලධාරීන්ගේ සේවා දත්ත නැත",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "සේවා නිලධාරීන් සොයන්න",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "කාලය ඉක්මවූ සංවාද නැත",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "පාරිභෝගිකයන් හෝ සංවාද සොයන්න",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "සේවා නිලධාරීන්ගේ තත්ත්වය",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "සේවා නිලධාරීන්ගේ තත්ත්ව දත්ත නැත",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "සේවා නිලධාරීන්ගේ දත්ත නැත",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "නොපැවරූ පාරිභෝගිකයන් තාවකාලිකව ලබාගත නොහැක.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "සේවා නිලධාරියෙකු බලාපොරොත්තුවෙන්",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "පවරන්න",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "පාරිභෝගික විස්තර",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "ලබාගත හැකි සේවා නිලධාරීන් පූරණය කළ නොහැකි විය.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "නීති අනුව ස්වයංක්‍රීයව පවරා ඇත",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "සේවා නිලධාරියා පවරා ඇත",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "සේවා නිලධාරියෙකු පැවරිය නොහැකි විය.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "සේවා නිලධාරියෙකු පවරන්න",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "නීති අනුව ස්වයංක්‍රීයව පවරන්න",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "සේවාව සුදුසු සේවා නිලධාරියෙකු තෝරාගනී.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "පැවරීමට සේවා නිලධාරීන් නැත.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "සේවා නිලධාරීන්ගේ තත්ත්වය තාවකාලිකව ලබාගත නොහැක.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "සංවාද විගණනය තවම ලබාගත නොහැක.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "අවදානම් සහිත සංවාද තවම ලබාගත නොහැක.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "පිළිතුරු කාලය ඉක්මවීමේ විස්තර තවම ලබාගත නොහැක.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "ක්‍රියා විගණනය තාවකාලිකව ලබාගත නොහැක.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "ක්‍රියා වාර්තාව",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "පාරිභෝගික සංවාද",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "පෝලිමේ ඇත",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "භාරගන්නා සේවකයන්",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "සහාය මධ්‍යස්ථාන දළ විශ්ලේෂණය",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "සජීවී නිරීක්ෂණය",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "සජීවී නිරීක්ෂණය පූරණය කළ නොහැකි විය.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "සහාය සංවාද සජීවීව නිරීක්ෂණය කරන්න",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "සේවා නිලධාරීන් සමමුහුර්ත කරමින්",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "සේවා නිලධාරියා අනුව පෙරන්න",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "සියලු සේවා නිලධාරීන්",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "ක්‍රියාත්මකයි",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "සියලු තත්ත්වයන්",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "සියලු නාලිකා",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "අමුත්තන්ගේ විමසීම්",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "IM සහාය",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "මෙම පෙරහන්වලට ගැළපෙන සක්‍රිය සහාය සංවාද නැත.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "නිරීක්ෂණය කරමින්",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "නිරීක්ෂණය කරන්න",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "එක ළඟ නිරීක්ෂණය කිරීමට ඉහතින් සංවාද තෝරන්න.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "විස්තර සමමුහුර්ත කළ නොහැකි විය. මඳ වේලාවකින් යළි පූරණය කරන්න.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "පෙරදසුන් කිරීමට පණිවිඩ නැත",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[ඇමතුම]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "පාරිභෝගික සංවාද නැත",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "මාර්ගගත සහාය සංවාද නැත",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "වත්මන් සංවාද",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "පෝලිමේ සිටින අය",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "කාර්යබහුල සේවා නිලධාරීන්",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "ලබාගත හැකි සේවා නිලධාරීන්",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "මාර්ගගත සහාය දළ විශ්ලේෂණය",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "පෝලිමේ සිටින අමුත්තන්",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "සේවය ලබන අමුත්තන්",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "පොරොත්තු පාරිභෝගික සංවාද",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "සක්‍රිය පාරිභෝගික සංවාද",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "පෝලිමේ මුළු ගණන",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "මුළු පෝලිමෙන් ප්‍රතිශතය",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "සක්‍රිය සේවාවෙන් ප්‍රතිශතය",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "සාමාන්‍ය පොරොත්තු කාලය",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "මාර්ගගත සහාය පෝලිමේ",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "මාර්ගගත සහාය ක්‍රියාත්මකයි",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "සේවා නිලධාරීන්ගේ කාර්ය සාධනය තාවකාලිකව ලබාගත නොහැක.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "සේවය කළ",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "සාමාන්‍ය පළමු පිළිතුරු කාලය",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "සාමාන්‍ය කාලසීමාව",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "සාමාන්‍ය ඇගයීම",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "පළමු පිළිතුර",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "කාලසීමාව",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "ඇගයීම",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "සමත් ප්‍රතිශතය",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "සංවාද පාලනය",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "සංවාදය අත්හිටුවන්න",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "සංවාද අත්හිටුවීම ඉවත් කරන්න",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "සංවාද විස්තර",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "සංවාද ID",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "සංවාදය අත්හිටුවා ඇත",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "සංවාද අත්හිටුවීම ඉවත් කර ඇත",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "අත්හිටුවීමට හේතුව (විකල්ප)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "අත්හිටුවීම ඉවත් කිරීමට හේතුව (විකල්ප)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "අත්හිටුවීම තහවුරු කරන්න",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "අත්හිටුවීම ඉවත් කිරීම තහවුරු කරන්න",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "නිතර භාවිත වන පිළිතුරු",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "පිළිතුරු සැකිලි",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "පිළිතුරු පූරණය කළ නොහැකි විය.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "යළි පූරණය කිරීමට පහළට අදින්න, ඉන්පසු නැවත උත්සාහ කරන්න.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "ඉක්මන් පිළිතුරු නැත",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "පුස්තකාලය සබල කළ විට පිළිතුරු මෙහි දිස් වනු ඇත.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "ගැළපෙන පිළිතුරු නැත",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "වෙනත් සෙවුම් පදයක් උත්සාහ කරන්න",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "පිළිතුරු සොයන්න",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "මාතෘකාවක් නැති පිළිතුර",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "මෙම භූමිකාවට සමූහ පණිවිඩ යැවිය නොහැක.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "සමූහ පණිවිඩ ලබාගත හැක්කේ සේවා නිලධාරීන්ට පමණි.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "කාර්යය ඉදිරිපත් කරමින්…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "පෙරදසුන සකසමින්…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "පෙරදසුන් කර ඉදිරිපත් කරන්න",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "සමූහ පණිවිඩ",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "සමූහ කතාබහ පූරණය කළ නොහැකි විය.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "මඳ වේලාවකින් නැවත උත්සාහ කරන්න, නැතහොත් මෙම අවකාශයේ සංවාද ලැයිස්තුව පරීක්ෂා කරන්න.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "ඉලක්ක විෂය පථය",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "ආයතනයේ සියලු සාමාජිකයන්",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "මෙම ව්‍යවසායේ සුදුසු සාමාජිකයන්ට තනි පණිවිඩ යවන්න.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "සමූහ කතාබහ නැත.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "ගැළපෙන සමූහ කතාබහ නැත",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "සාමාජිකයන්ට තනි පණිවිඩ සහ සමූහ පණිවිඩ යැවීමට සහාය දක්වන්නේ මෙම ගිණුම එක් වී ඇති සමූහවලට පමණි.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "වෙනත් සෙවුම් පදයක් උත්සාහ කරන්න.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "සමූහ කතාබහක් තෝරන්න",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "සමූහ පණිවිඩ අන්තර්ගතය ඇතුළත් කරන්න",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "ඔබේ සැසිය කල් ඉකුත් වී ඇත. නැවත පිවිසෙන්න.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "සමූහ පණිවිඩය තහවුරු කරන්න",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "පණිවිඩ වත්මන් සේවා නිලධාරියා ලෙස යවනු ලබන අතර ඉදිරිපත් කිරීමෙන් පසු පසුබිමේ බෙදාහරිනු ලැබේ. යැවූ පණිවිඩ ආපසු ගත නොහැක.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "කාර්යය ඉදිරිපත් කරන්න",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "ව්‍යවසාය සාමාජිකයන්ට තනි තනිව පණිවිඩ යවන්න",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "සමූහ සාමාජිකයන්ට පුද්ගලික පණිවිඩ යවන්න",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "සමූහයක සෑම සාමාජිකයෙකුටම වෙන වෙනම සෘජු පණිවිඩයක් යවන්න.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "සමූහය තුළ සමූහ පණිවිඩය යවන්න",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "සමූහ කතාබහ තුළ සෘජුවම පණිවිඩයක් යවන්න.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "පාරිභෝගික සහ සමූහ පණිවිඩ",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "සමූහ පණිවිඩ පෙළ ඇතුළත් කරන්න",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "සමූහ කතාබහ සොයන්න",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "ආයතනයේ සියලු සාමාජිකයන් සඳහා සමූහයක් තේරීම අවශ්‍ය නැත.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "සමූහ තේරීම හිස් කරන්න",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "ප්‍රතිඵල පෙරදසුන",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "නැවත උත්සාහ කරමින්",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "අසාර්ථක ලබන්නන්ට නැවත යවන්න",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "නමක් නැති සමූහ කතාබහ",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "ගැළපෙන සංවාද නැත",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "සංවාද ඉතිහාසයක් නැත",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "පෝලිමේ සංවාද නැත",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "සක්‍රිය සංවාද නැත",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "VIP සංවාද නැත",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "මානව සේවා නිලධාරියෙකු භාරගැනීම",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "සංවාදය දිගටම කරගෙන යන්න",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "නරඹන්න",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "සංවාදය භාරගත නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "පාලනය භාරගත නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "සංවාදය අවසන් විය",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "සංවාදය වසන්න",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "වසන විට කතාබහ ඉතිහාසය තබාගනී. සේවා ප්‍රතිපත්තිය අනුව සංවාදය නැවත පෝලිමට හෝ පැවරීමකට යොමු විය හැක.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "සංවාදය වසා ඇත",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "සංවාදය වැසිය නොහැකි විය. නැවත උත්සාහ කරන්න.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "සංවාද සොයන්න",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "වත්මන් සේවා භාරගැනීම්",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "සංවාද ඉතිහාසය",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "සංවාදය සමමුහුර්ත වෙමින් පවතී. මඳ වේලාවකින් යළි පූරණය කරන්න.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "පැවරූ සංවාදය",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "දැනුම්දීම ඉවත් කරන්න",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "අද සේවය කළ",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "සාමාන්‍ය හැසිරවීමේ කාලය",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "තෘප්තිය",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "කාලය ඉක්මවූ සංවාද",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "පෝලිමේ · ස්වයංක්‍රීය පැවරීම බලාපොරොත්තුවෙන්",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "පෝලිමේ · භාරගැනීම බලාපොරොත්තුවෙන්",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "පොරොත්තු කාලය --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "ඇස්තමේන්තුගත පොරොත්තු කාලය --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "විචැට්",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "වෙබ්",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "තමන්ගේ යෙදුම",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "සහාය වැඩ පුවරුව ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "{label} ලෙස වෙනස් කළා",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "අභිරුචි {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {සැසි {count}ක්} other {සැසි {count}ක්}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · සැසි: {count} · පළමු පිළිතුර: {response} · ඇගයීම: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "සේවය කරමින් {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "සමූහ පණිවිඩය ඉදිරිපත් කර ඇත. ලබන්නන්: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {නැවත පෝලිමට එක් කළ අසාර්ථක ලබන්නන් ගණන: {count}} other {නැවත පෝලිමට එක් කළ අසාර්ථක ලබන්නන් ගණන: {count}}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "ක්‍රමය: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "සමූහ කතාබහ: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "ඇස්තමේන්තුගත ලබන්නන්: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "නියැදිය: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "කාර්යය: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "බෙදාහැරූ {sent}/{total}, අසාර්ථක {failed}, මඟහැරුණු {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {සාමාජිකයන් ගණන: {count}} other {සාමාජිකයන් ගණන: {count}}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "පෝලිමේ ස්ථානය: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {ඇස්තමේන්තුගත පොරොත්තු කාලය: මිනිත්තු {count}ක්} other {ඇස්තමේන්තුගත පොරොත්තු කාලය: මිනිත්තු {count}ක්}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {ඇස්තමේන්තුගත පොරොත්තු කාලය: තත්පර {count}ක්} other {ඇස්තමේන්තුගත පොරොත්තු කාලය: තත්පර {count}ක්}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "සේවා නිලධාරියා: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "මූලාශ්‍රය: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "පෝලිමේ #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "පොරොත්තු කාලය මිනිත්තු {count}",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "පොරොත්තු කාලය තත්පර {count}",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "සංවාදය ඔබට පවරා ඇත",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "සහාය සංවාදයක් ඔබට පවරා ඇත. එහි ඉතිහාසය පෙරදසුන් කිරීමට වැඩ පුවරුව විවෘත කරන්න.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "සහාය සංවාදයක් ඔබට පවරා ඇත. සටහන: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "බෙදාහැරීම බලාපොරොත්තුවෙන්",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "බෙදාහරිමින්",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "අවසන්",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "අසාර්ථකයි",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "ලියාපදිංචි පාරිභෝගිකයා",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "නොදන්නා නාලිකාව",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "නොදන්නා පාරිභෝගිකයා",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "පැවරූ සංවාදයක ඉතිහාසය",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "වසා දැමූ වේලාව {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "අවසන් වරට සක්‍රිය වූයේ {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "මිනි වැඩසටහන",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

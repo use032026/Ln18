@@ -1,0 +1,1369 @@
+{
+  "@@locale": "ja",
+  "customerServiceTitle": "カスタマーサービス",
+  "customerServiceQueue": "待機中",
+  "customerServiceActive": "対応中",
+  "customerServiceClaim": "受付",
+  "customerServiceTakeover": "引き継ぎ",
+  "customerServiceClose": "対応終了",
+  "customerServiceCloseConfirm": "この対応を終了しますか？",
+  "customerServiceNoQueue": "待機中のセッションはありません",
+  "customerServiceNoActive": "対応中のセッションはありません",
+  "customerServiceVisitor": "訪問者",
+  "customerServiceCustomer": "顧客",
+  "customerServiceAssignedTo": "担当者",
+  "customerServiceTransferConversation": "チャットを転送",
+  "marketingToolbar": "マーケティングツール",
+  "customerServiceBroadcastDirectTitle": "顧客一斉送信",
+  "csAiReplyTitle": "AI返信",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "顧客のメッセージ",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "返信候補",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "返信候補を生成",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "再生成",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "候補を生成",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "挿入中…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "返信を挿入",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "参照元",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "ナレッジベースの資料",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "候補はまだありません。タップしてAI返信を生成できます。",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "返信の生成に使える顧客メッセージがありません。",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "このアカウントにはサポートAIの利用権限がありません。",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "この会話の種類ではAI返信を利用できません。",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "このサポート会話を利用できません。更新して再試行してください。",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "AI返信を生成できませんでした。再試行してください。",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "内容がモデレーションによりブロックされました。",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "グループ内一斉送信には、そのグループへの参加が必要です。",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "グループチャットを選択",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "テナント全体への一斉送信ではグループを指定できません。",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "対象のグループまたはタスクが見つかりません。",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "対象はグループチャットではありません。",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "対象のグループを利用できません。",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "このメッセージ形式には対応していません。",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "対象範囲に配信可能なメンバーがいません。",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "宛先数が1回の一斉送信の上限を超えています。",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "一斉送信のリクエストが多すぎます。しばらくしてから再試行してください。",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "グループ内一斉送信では宛先別に再試行できません。",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "一斉送信に必要な管理権限がありません。",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "サーバーエラー",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "一斉送信に失敗しました",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "オンラインサポート",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "カスタマーサポート",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "パフォーマンス",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "応対",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "モード",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "手動受付",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "自動割り当て",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "受付モードを変更できませんでした。再試行してください。",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "ステータスを変更できませんでした。再試行してください。",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "先に企業スペースへ移動してください。",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "現在の権限ではワークスペースを利用できません。",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "オーナー用ワークスペース",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "管理用ワークスペース",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "顧客管理",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "すべての顧客",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "企業への参加申請",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "顧客の増加",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "サービス運用",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "サポートセンター",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "チームの対応効率",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "リスク管理",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "リスクのある会話",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "会話監査",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "操作監査",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "グループ運用",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "グループ監督",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "企業向け一斉送信",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "担当者別に表示",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "応答期限超過",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "顧客データがありません",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "顧客を検索",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "顧客総数",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "割り当て待ち",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "未割り当ての顧客",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "未割り当ての顧客はいません",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "本日の新規",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "割り当て期限超過",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "増加データがありません",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "当日",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "今月",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "今四半期",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "半年",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "新規顧客",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "アクティブな顧客",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "休眠顧客",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "離脱リスク",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "顧客グループのデータがありません",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "顧客グループを検索",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "対応効率のデータがありません",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "平均応答",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "対応会話数",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "サービスグループの監視",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "サービスグループのデータがありません",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "顧客やサービスグループを検索",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "サポート会話の管理",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "会話がありません",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "顧客・訪問者・会話を検索",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "リスクのある会話はありません",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "顧客・担当者・会話を検索",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "会話記録がありません",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "監査記録がありません",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "操作者や顧客を検索",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "担当者の対応データがありません",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "担当者を検索",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "期限を超えた会話はありません",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "顧客や会話を検索",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "担当者の状態",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "担当者の状態データがありません",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "担当者データがありません",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "未割り当て顧客の情報を現在利用できません。",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "担当者の割り当て待ち",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "割り当て",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "顧客の詳細",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "割り当て可能な担当者を読み込めませんでした。",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "ルールに基づいて自動割り当てしました",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "担当者を割り当てました",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "担当者を割り当てられませんでした。",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "担当者を割り当て",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "ルールに基づいて自動割り当て",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "サービスが適切な担当者を選択します。",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "割り当て可能な担当者がいません。",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "担当者の状態を現在取得できません。",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "会話監査はまだ利用できません。",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "リスク会話の一覧はまだ利用できません。",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "応答期限超過の詳細はまだ利用できません。",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "操作監査は現在利用できません。",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "操作記録",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "顧客との会話",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "待機中",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "応対担当者",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "サポートセンターの概要",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "リアルタイム監視",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "リアルタイム監視を読み込めませんでした。",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "サポート会話をリアルタイムで監視",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "担当者を同期中",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "担当者で絞り込み",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "すべての担当者",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "進行中",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "すべての状態",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "すべてのチャネル",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "訪問者からの問い合わせ",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "IMサポート",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "条件に一致する進行中のサポート会話がありません。",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "監視中",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "監視",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "上の会話一覧から並べて監視する会話を選択してください。",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "詳細を同期できませんでした。しばらくしてから更新してください。",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "プレビューできるメッセージがありません",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[通話]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "顧客との会話がありません",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "オンラインサポートの会話がありません",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "現在の会話",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "待機人数",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "対応中の担当者",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "対応可能な担当者",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "オンラインサポートの概要",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "待機中の訪問者",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "対応中の訪問者",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "対応待ちの顧客会話",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "対応中の顧客会話",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "待機総数",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "全待機件数に占める割合",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "全対応件数に占める割合",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "平均待ち時間",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "オンラインサポートの待機数",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "オンラインサポートの対応中",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "担当者の実績を現在取得できません。",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "対応済み",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "平均初回応答",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "平均時間",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "平均評価",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "初回応答",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "時間",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "評価",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "合格率",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "会話の管理",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "会話を凍結",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "会話の凍結を解除",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "会話の詳細",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "会話ID",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "会話を凍結しました",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "会話の凍結を解除しました",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "凍結の理由（任意）",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "凍結解除の理由（任意）",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "凍結を確定",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "凍結解除を確定",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "よく使う返信",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "返信テンプレート",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "返信文を読み込めませんでした。",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "下に引いて更新し、再試行してください。",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "定型返信がありません",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "返信ライブラリが有効になると、ここに表示されます。",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "一致する返信文がありません",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "別のキーワードをお試しください",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "返信文を検索",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "名前のない返信文",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "現在の権限では一斉送信できません。",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "一斉送信はサポート担当者のみ利用できます。",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "タスクを送信中…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "プレビューを準備中…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "プレビューして送信",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "メッセージの一斉送信",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "グループチャットを読み込めませんでした。",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "しばらくしてから再試行するか、このスペースの会話一覧をご確認ください。",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "対象範囲",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "テナントの全メンバー",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "この企業の配信可能なメンバーへ個別に送信します。",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "選択できるグループがありません。",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "一致するグループがありません",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "メンバーへの個別送信とグループ内一斉送信は、参加済みグループのみ利用できます。",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "別のキーワードをお試しください。",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "グループチャットを選択",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "一斉送信の内容を入力してください",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "ログインの有効期限が切れました。再度ログインしてください。",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "一斉送信を確認",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "現在の担当者として送信し、送信後に順次配信されます。配信済みのメッセージは取り消せません。",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "タスクを送信",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "企業メンバーへ個別に送信",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "グループメンバーへ個別送信",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "グループの各メンバーへ個別にメッセージを送信します。",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "グループ内一斉送信",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "グループチャット内に直接メッセージを送信します。",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "顧客・グループへの一斉送信",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "一斉送信するテキストを入力",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "グループチャットを検索",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "全メンバーへの送信ではグループ選択は不要です。",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "グループの選択を解除",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "プレビュー結果",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "再試行中",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "失敗した宛先を再試行",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "名前のないグループ",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "一致する会話がありません",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "過去の会話がありません",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "待機中の会話がありません",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "進行中の会話がありません",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "VIPの会話がありません",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "担当者が引き継ぐ",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "会話を続ける",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "表示",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "会話を受け付けられませんでした。再試行してください。",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "引き継げませんでした。再試行してください。",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "会話は終了しました",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "会話を閉じる",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "閉じてもチャット履歴は削除されません。サービスのルールにより再度待機・割り当てされる場合があります。",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "会話を閉じました",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "会話を閉じられませんでした。再試行してください。",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "会話を検索",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "現在の応対",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "過去の会話",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "会話を同期しています。しばらくしてから更新してください。",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "転送された会話",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "通知を閉じる",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "本日の応対",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "平均対応",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "満足度",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "期限超過の会話",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "待機中 · 自動割り当て待ち",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "待機中 · 受付待ち",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "待ち時間 --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "待ち時間の目安 --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "WeChat",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "ウェブ",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "自社アプリ",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "サポートワークスペース ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "{label}に変更しました",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "カスタム {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "微界ID：{id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count}件",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · 対応件数：{count} · 初回応答：{response} · 評価：{rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "対応中 {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "一斉送信タスクを送信しました。宛先数：{count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "失敗した宛先{count}件を再度待機列に追加しました",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "方式：{mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "グループ：{group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "想定宛先数：{count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "サンプル：{sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "タスク：{status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "配信済み {sent}/{total}、失敗 {failed}、スキップ {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count}人",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "待機順：{position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "待ち時間の目安：{count}分",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "待ち時間の目安：{count}秒",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "担当者：{agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "流入元：{source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "待機 #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "待ち時間 {count}分",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "待ち時間 {count}秒",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "会話が転送されました",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "サポート会話が転送されました。ワークスペースで履歴を確認できます。",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "サポート会話が転送されました。備考：{reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "配信待ち",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "配信中",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "完了",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "失敗",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "登録済みの顧客",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "不明なチャネル",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "不明な顧客",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "転送に参加した会話の履歴",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "終了日時 {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "最終アクティブ {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "ミニプログラム",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

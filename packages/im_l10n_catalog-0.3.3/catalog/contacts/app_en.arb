@@ -1,0 +1,370 @@
+{
+  "@@locale": "en",
+  "contactsTitle": "Contacts",
+  "contactsSearch": "Search contacts",
+  "contactsNewFriends": "New Friends",
+  "contactsGroups": "Groups",
+  "contactsFavorites": "Favorites",
+  "contactsRecent": "Recent",
+  "contactsOrganization": "Organization",
+  "contactsAnnouncement": "Announcements",
+  "contactsNewApplications": "New Applications",
+  "contactsCustomerGroups": "Customer Groups",
+  "contactsAllCustomers": "All Customers",
+  "contactsMyCustomers": "My Customers",
+  "contactsViewAll": "View All",
+  "contactsMyContacts": "My Contacts",
+  "contactsMyAdvisor": "My Advisor",
+  "contactsNoAdvisor": "No advisor assigned yet",
+  "contactsAdvisorLoading": "Loading...",
+  "contactsNavigateFailed": "Navigation failed, please try again",
+  "contactsEmpty": "No contacts",
+  "contactsNoAnnouncement": "No announcements",
+  "contactsOfficialBadge": "Official",
+  "contactsCustomerBadge": "Customer",
+  "contactsEmptyCustomers": "No customers",
+  "friendAddTitle": "Add Contact",
+  "friendSearchHint": "Phone / Email / StartLink ID",
+  "friendRequestSent": "Friend request sent",
+  "friendRequestFailed": "Failed to send, please try again",
+  "friendAlreadyFriend": "Already contacts",
+  "friendNewFriendsTitle": "New Friends",
+  "friendNoRequests": "No friend requests",
+  "friendAccept": "Accept",
+  "friendReject": "Decline",
+  "friendAccepted": "Accepted",
+  "friendRejected": "Declined",
+  "friendDeleteConfirm": "Remove this contact?",
+  "friendDeleteSuccess": "Contact removed",
+  "friendDeleteFailed": "Failed to remove, please try again",
+  "friendRemarkName": "Nickname",
+  "friendGroupName": "Group",
+  "friendSendMessage": "Message",
+  "friendMatchTypeLppId": "Matched by StartLink ID",
+  "friendMatchTypeMobile": "Matched by phone",
+  "friendMatchTypeEmail": "Matched by email",
+  "friendSearchEmpty": "No users found",
+  "friendAddMessage": "I'd like to add you as a contact",
+  "friendBlockConfirm": "Block this user?",
+  "friendUnblockConfirm": "Unblock this user?",
+  "friendBlockSuccess": "Blocked",
+  "friendUnblockSuccess": "Unblocked",
+  "searchTitle": "Search",
+  "searchHint": "Search by phone, email or StartLink ID",
+  "searchNoResults": "No results found",
+  "searchMessages": "Messages",
+  "searchUsers": "Users",
+  "searchFailed": "Search failed, please try again",
+  "scanTitle": "Scan",
+  "scanFailed": "Recognition failed, please try again",
+  "scanInvalidQrCode": "Invalid QR code",
+  "scanFlashOn": "Turn on flashlight",
+  "scanFlashOff": "Turn off flashlight",
+  "scanAlbum": "Choose from album",
+  "blacklistTitle": "Blocked",
+  "blacklistEmpty": "No blocked users",
+  "blacklistRemove": "Unblock",
+  "blacklistRemoveConfirm": "Unblock this user?",
+  "addFriendTitle": "Add Contact",
+  "addFriendSearchHint": "Phone / Email / StartLink ID",
+  "addFriendLppIdLabel": "StartLink ID: {lppId}",
+  "addFriendButton": "Add",
+  "addFriendCannotAddSelf": "You can't add yourself",
+  "addFriendUnsupportedUser": "This user can't be added. You can message them directly.",
+  "addFriendMessageHint": "Enter a message",
+  "addFriendSendRequest": "Send Request",
+  "scanAlreadyGroupMember": "You are already in this group",
+  "scanCameraInitializing": "The camera is starting. Please try again shortly.",
+  "scanCameraPermissionRequired": "Allow camera access to scan QR codes",
+  "scanCameraStartFailed": "Could not start the camera. Please try again later.",
+  "scanCameraStarting": "Starting camera",
+  "scanCameraUnsupported": "This device does not support QR scanning",
+  "scanDesktopAlbumUnsupported": "Reading QR codes from images is unavailable on desktop",
+  "scanDesktopUnsupported": "QR scanning is unavailable on desktop. Please use the mobile app.",
+  "scanEnterGroup": "Open group chat",
+  "scanFallbackFriendName": "Contact",
+  "scanFrameHint": "Place the QR code inside the frame to scan automatically",
+  "scanFriendAddUnavailable": "You cannot add this contact using this QR code right now",
+  "scanFriendAdded": "You are now contacts",
+  "scanFriendBlocked": "This person cannot receive your friend request right now",
+  "scanFriendIsolation": "You cannot add this contact in the current space",
+  "scanFriendQrExhausted": "This QR code has reached its usage limit. Ask for a new code.",
+  "scanFriendQrExpiredPreview": "This contact QR code has expired or is unavailable",
+  "scanFriendQrRevoked": "This QR code is no longer valid. Ask for a new code.",
+  "scanFriendRequestPending": "Friend request sent. Waiting for approval.",
+  "scanFriendRequestsDisabled": "This person does not accept friend requests",
+  "scanGroupApprovalHint": "Joining this group requires approval from its owner or an admin",
+  "scanGroupJoinFailed": "Could not submit the group join request",
+  "scanGroupJoinPending": "Group join request submitted. Waiting for approval.",
+  "scanGroupJoinUnavailable": "You cannot join this group using this QR code right now",
+  "scanGroupJoined": "Joined the group",
+  "scanGroupPermissionDenied": "You do not have permission to join this group using this QR code",
+  "scanGroupProcessFailed": "Could not process the group QR code",
+  "scanGroupQrDisabled": "The group owner or an admin has disabled joining by QR code",
+  "scanGroupQrExhausted": "This QR code has reached its usage limit. Ask a group member for a new code.",
+  "scanGroupQrExpired": "This QR code has expired. Ask a group member for a new code.",
+  "scanGroupQrRevoked": "This QR code has been revoked. Ask a group member for a new code.",
+  "scanGroupQrUnavailable": "This QR code is no longer valid. Ask a group member for a new code.",
+  "scanGroupScannerInvalid": "This account cannot join this group",
+  "scanImageReadFailed": "Could not read the image. Please try again.",
+  "scanIncomingFriendRequest": "This person has already sent you a friend request. Review it first.",
+  "scanInvalidGroupQr": "Invalid group QR code",
+  "scanInviterDeleted": "This user account has been deleted",
+  "scanJoinGroup": "Join group",
+  "scanJoinGroupConfirmation": "Join this group?",
+  "scanMutualFriendsOnly": "This person only accepts requests from people with mutual friends",
+  "scanNoQrFound": "No QR code found",
+  "scanOwnQr": "This is your own QR code",
+  "scanPluginUnavailable": "Scanning is unavailable. Fully close the app and try again.",
+  "scanProcessFailed": "Could not process the QR code",
+  "scanQrExpired": "This QR code has expired",
+  "scanQrUnavailableTitle": "QR code no longer valid",
+  "scanSendFriendConfirmation": "Send a friend request?",
+  "scanTorchFailed": "Could not change the flashlight. Please try again later.",
+  "scanTorchUnavailable": "This device does not have a flashlight",
+  "scanUnsupportedQr": "This QR code is not supported",
+  "contactsRequestsUnavailable": "Friend requests are temporarily unavailable",
+  "contactsTryLater": "Please try again later",
+  "contactsQrSource": "QR code",
+  "contactsRequestStatusInvalid": "Invalid status",
+  "contactsCustomerTagFilter": "Customer tag filter",
+  "contactsOverviewTitle": "Customer overview",
+  "contactsLoaded": "Loaded",
+  "contactsAssigned": "Assigned",
+  "contactsUnassigned": "Unassigned",
+  "contactsCustomerDataError": "Could not load customers. Check your connection or sign-in status and retry.",
+  "contactsTagFilter": "Filter by tag",
+  "contactsReassign": "Reassign",
+  "contactsCustomersLoadFailed": "Could not load customers",
+  "contactsNoAssigned": "No assigned customers",
+  "contactsNoUnassigned": "No unassigned customers",
+  "contactsDirectoryDenied": "Your role cannot access the customer directory",
+  "contactsApplicationAccessDenied": "Only organization admins or owners can view new applications",
+  "contactsApplicationsUnavailable": "Join applications are temporarily unavailable",
+  "contactsPullToRetry": "Could not load. Pull down to refresh and retry.",
+  "contactsApplicationApproved": "Application approved",
+  "contactsApplicantUnavailable": "Applicant details are temporarily unavailable",
+  "contactsApplicationApprove": "Approve",
+  "contactsApplicationAccepted": "Approved",
+  "contactsFriendRequests": "Friend requests",
+  "contactsRecentActive": "Recently active",
+  "contactsRecentActiveUnavailable": "Recent customer activity is temporarily unavailable",
+  "contactsMyCustomersRetry": "Could not load your customers. Tap to retry.",
+  "contactsLoadRetry": "Could not load contacts. Tap to retry.",
+  "contactsLoadFailed": "Could not load contacts",
+  "contactsNoCustomerYet": "No customers yet",
+  "contactsInviteCustomerHint": "Invite customers by sharing your QR code or organization code",
+  "contactsShareQr": "Share my QR code",
+  "contactsScanFriendHint": "Scan the QR code to send me a friend request",
+  "contactsQrToken": "QR code identifier",
+  "contactsQrUsage": "Usage count",
+  "contactsQrNote": "Default note",
+  "contactsCopyQr": "Copy QR code content",
+  "contactsGeneratingQr": "Generating…",
+  "contactsRegenerateQr": "Generate a new QR code",
+  "contactsQrLoadFailed": "Could not load the QR code",
+  "contactsSearchGroups": "Search groups",
+  "contactsNoMatchingGroups": "No matching group chats",
+  "contactsCreateGroupHint": "Tap + in the top right to start a group chat",
+  "contactsGroupOverview": "Group supervision overview",
+  "contactsGroupsLabel": "Groups",
+  "contactsCurrentFilter": "Current filter",
+  "contactsFreeze": "Freeze",
+  "contactsRisk": "Risk",
+  "contactsGroupStatisticsUnavailable": "Group supervision statistics are temporarily unavailable",
+  "contactsGroupList": "Group list",
+  "contactsNoGroupData": "No groups available",
+  "contactsNoMatchingGroupData": "No matching groups",
+  "contactsGroupDataUnavailable": "Groups cannot be displayed right now. Please try again later.",
+  "contactsFrozen": "Frozen",
+  "contactsNormal": "Normal",
+  "contactsGroupSupervisionDetail": "Group supervision details",
+  "contactsFreezeStatus": "Freeze status",
+  "contactsRiskStatus": "Risk status",
+  "contactsGroupId": "Group ID",
+  "contactsUnfreeze": "Unfreeze",
+  "contactsAdminMuteAll": "Mute all group members",
+  "contactsAdminMembers": "Group member management",
+  "contactsForceDissolve": "Force dissolve",
+  "contactsAdminDissolve": "Force dissolve group",
+  "contactsNoCustomerContacts": "No customer contacts yet",
+  "contactsNoMatchingCustomers": "No matching customers",
+  "contactsCustomerContactsRetry": "Could not load customer contacts. Tap to retry.",
+  "contactsFriendsOnlySetting": "This setting is available only for friends",
+  "contactsHandleFriendRequest": "Review friend request",
+  "contactsSaved": "Saved",
+  "contactsPrivateGender": "Gender (only visible to you)",
+  "contactsTags": "Tags",
+  "contactsMoreInfo": "More information",
+  "contactsMutualGroupsHeading": "Groups in common",
+  "contactsNone": "None",
+  "contactsSource": "Source",
+  "contactsAddedAt": "Added on",
+  "contactsGroupOpenFailed": "This group chat cannot be opened right now",
+  "contactsMutualGroups": "Groups in common",
+  "contactsMutualGroupsSyncing": "Syncing groups in common",
+  "contactsNoMutualGroups": "No groups in common",
+  "contactsDiscardTitle": "Discard changes?",
+  "contactsUnsavedChanges": "Your changes have not been saved.",
+  "contactsContinueEditing": "Continue editing",
+  "contactsDiscardChanges": "Discard changes",
+  "contactsEditRemark": "Edit remark",
+  "contactsAddRemark": "Add remark",
+  "contactsAddTag": "Add tag",
+  "contactsAddText": "Add text",
+  "contactsEditTags": "Edit tags",
+  "contactsAddedTags": "Added tags",
+  "contactsEnterTag": "Enter a tag",
+  "contactsProfileLoadFailed": "Could not load the profile. Please try again.",
+  "contactsDeleteFriend": "Delete friend",
+  "contactsFriendSettings": "Friend settings",
+  "contactsBlockUser": "Block user",
+  "contactsDeleting": "Deleting…",
+  "contactsReassignHint": "Choose a new agent. Related service conversations will be transferred too.",
+  "contactsAssignOwnerOnly": "This account cannot assign agents. Use an organization owner account.",
+  "contactsAssignRetry": "Could not assign an agent. Please try again later.",
+  "contactsEnterpriseTags": "Organization tags",
+  "contactsTagsCommaHint": "Separate multiple tags with commas",
+  "contactsEnterpriseTagsSaved": "Organization tags saved",
+  "contactsTagsSaveFailed": "Could not save tags. Please try again later.",
+  "contactsSharedTagsHint": "Used to filter customers and shared within the organization",
+  "contactsOwnerActionsHint": "Owners can change this customer's assigned agent. Service conversation records are temporarily unavailable.",
+  "contactsViewChatInfo": "View chat information",
+  "contactsCustomerServiceGroups": "This customer's service groups",
+  "contactsCannotAddFriend": "Adding friends is currently unavailable",
+  "contactsSaving": "Saving…",
+  "contactsRequestSource": "Request via {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "You sent a friend request · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, =1 {1 customer loaded} other {{count} customers loaded}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Assigned agent: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Reference: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "Pending ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Processed ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Valid until {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Unlimited",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Scan to add me as a friend",
+  "contactsItemCount": "{count, plural, =1 {1 group} other {{count} groups}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Nickname: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Region: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Original nickname: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "Delete {name} as a friend? Your existing chat history will be kept.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Assigned to {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Customer conversations unavailable",
+  "contactsCustomerChatUnavailable": "This customer's service conversations cannot be viewed right now. Please try again later."
+}

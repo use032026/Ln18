@@ -1,0 +1,1950 @@
+{
+  "@@locale": "ms",
+  "homeTitle": "Mesej",
+  "homeGatewayConnectingTitle": "Menyambung",
+  "homePersonalSpace": "Peribadi",
+  "homeOfficialService": "Perkhidmatan rasmi",
+  "homeSwitchSpace": "Tukar ruang",
+  "homeSpaceSubtitle": "Peribadi · Syarikat",
+  "homeJoinEnterprise": "Sertai syarikat",
+  "homeCreateGroup": "Kumpulan baharu",
+  "homeAddFriend": "Tambah kenalan",
+  "homeScan": "Imbas",
+  "homeJoinNewSpace": "Sertai ruang baharu",
+  "homeSearchConversation": "Cari",
+  "homeNoMessages": "Tiada Mesej",
+  "homeDeleteConversation": "Padam sembang",
+  "homeDeleteConversationConfirm": "Padam sembang ini? Sejarah sembang akan dikosongkan.",
+  "homePersonalNote": "Saya (Nota peribadi)",
+  "homeWorkNote": "Saya (Nota kerja)",
+  "homeConversationCount": "{count} sembang",
+  "homeUnreadCount": "{count} belum dibaca",
+  "chatInputHint": "Taip mesej...",
+  "chatVoiceHint": "Tahan untuk bercakap",
+  "chatVoiceRelease": "Lepaskan untuk menghantar",
+  "chatVoiceCancel": "Leret ke atas untuk membatalkan",
+  "chatMenuCopy": "Salin",
+  "chatMenuForward": "Majukan",
+  "chatMenuRecall": "Tarik balik",
+  "chatMenuDelete": "Padam",
+  "chatMenuFavorite": "Simpan",
+  "chatMenuReply": "Balas",
+  "chatMenuMultiSelect": "Pilih",
+  "chatMenuTranslate": "Terjemah",
+  "chatMenuVoiceToText": "Tukar kepada teks",
+  "chatMenuTextToSpeech": "Baca lantang",
+  "chatStatusRecalled": "Mesej ditarik balik",
+  "chatRecallSuccess": "Ditarik balik",
+  "chatRecallFailed": "Gagal menarik balik",
+  "chatRecallTimeout": "Mesej yang berusia lebih 2 minit tidak dapat ditarik balik",
+  "chatTranslateFailed": "Terjemahan gagal, cuba lagi",
+  "chatTranslateNotConfigured": "Perkhidmatan terjemahan tidak tersedia",
+  "chatVoiceToTextFailed": "Penukaran gagal, cuba lagi",
+  "chatTextToSpeechFailed": "Gagal membaca lantang, cuba lagi",
+  "chatVoiceToText": "Tukar",
+  "chatForwardSuccess": "Dimajukan",
+  "chatForwardFailed": "Gagal memajukan, cuba lagi",
+  "chatNoConversations": "Tiada sembang untuk dimajukan",
+  "chatSendFailed": "Gagal menghantar",
+  "chatResend": "Hantar semula",
+  "chatNotFriend": "Tiada dalam senarai kenalan",
+  "chatNotFriendHint": "Anda belum menjadi kenalan. Tidak dapat menghantar mesej.",
+  "chatMutedHint": "Semua ahli disenyapkan",
+  "chatFileUploadFailed": "Muat naik fail gagal, cuba lagi",
+  "chatFileStatusNotDownloaded": "Belum dimuat turun",
+  "chatFileStatusDownloaded": "Telah dimuat turun",
+  "chatFileStatusUploading": "Memuat naik",
+  "chatFileStatusUploadFailed": "Muat naik gagal",
+  "chatCardSendFailed": "Gagal menghantar kad kenalan",
+  "chatFavoriteSuccess": "Disimpan",
+  "chatFavoriteFailed": "Gagal menambah ke kegemaran",
+  "chatLoadFailed": "Gagal memuat",
+  "chatImageMessage": "[Imej]",
+  "chatVoiceMessage": "[Suara]",
+  "chatVideoMessage": "[Video]",
+  "chatFileMessage": "[Fail]",
+  "chatLocationMessage": "[Lokasi]",
+  "chatContactCardMessage": "[Kenalan]",
+  "chatCallLogMessage": "[Panggilan]",
+  "chatGroupMemberCount": "({count})",
+  "chatReadCount": "Dibaca oleh {count}",
+  "chatUnread": "Belum dibaca",
+  "chatRecalledSelf": "Anda menarik balik mesej",
+  "chatRecalledPeer": "{sender} menarik balik mesej",
+  "chatTranslationPrefix": "Terjemahan: {translation}",
+  "chatMessageDeleted": "Mesej dipadam",
+  "chatPeer": "Lain-lain",
+  "chatSelf": "Saya",
+  "chatGenericMessage": "[Mesej]",
+  "chatVoiceHideText": "Sembunyikan teks",
+  "chatVoiceShowText": "Tukar kepada teks",
+  "chatFileDefaultName": "Fail",
+  "chatContactDefaultName": "Kenalan",
+  "chatContactCardTitle": "Kad kenalan",
+  "chatCallMissed": "Tidak dijawab",
+  "chatCallCancelled": "Dibatalkan",
+  "chatCallRejected": "Ditolak",
+  "chatCallDisconnected": "Terputus",
+  "chatCallEnded": "Panggilan tamat",
+  "chatCallFailed": "Panggilan gagal",
+  "chatCallDuration": "Tempoh {duration}",
+  "chatVideoCallTitle": "Panggilan video",
+  "chatVoiceCallTitle": "Panggilan suara",
+  "chatToolPhotos": "Foto",
+  "chatToolCamera": "Kamera",
+  "chatToolFile": "Fail",
+  "chatToolLocation": "Lokasi",
+  "chatToolContactCard": "Kenalan",
+  "chatToolVoiceCall": "Panggilan suara",
+  "chatToolVideoCall": "Panggilan video",
+  "chatToolFavorites": "Kegemaran",
+  "chatToolTranslate": "Terjemah",
+  "chatTranslationChooseLanguage": "Pilih bahasa terjemahan",
+  "chatTranslationEnterText": "Masukkan teks dahulu",
+  "chatTranslationMentionsUnsupported": "Terjemahan tidak tersedia untuk mesej yang mengandungi sebutan",
+  "chatTranslationScheduledUnsupported": "Terjemahan tidak tersedia semasa menyunting mesej berjadual",
+  "chatTranslationFailed": "Terjemahan gagal. Cuba lagi",
+  "chatTranslationEmpty": "Tiada terjemahan diterima. Cuba lagi",
+  "chatTranslationTranslating": "Menterjemah…",
+  "chatTranslationSend": "Hantar terjemahan",
+  "chatTranslationSending": "Menghantar…",
+  "chatTranslationExpand": "Tunjukkan lebih banyak",
+  "chatTranslationCollapse": "Tunjukkan lebih sedikit",
+  "chatFileTooLarge": "Fail melebihi had (100 MB)",
+  "chatInputMutedAdminOnly": "Hanya pemilik atau ahli terpilih boleh menghantar mesej.",
+  "chatImageUploadUnsupported": "Muat naik imej gagal. Sokongan pelayan belum tersedia.",
+  "chatFavoriteLongPressHint": "Tekan lama mesej untuk menambahnya ke kegemaran",
+  "chatSelectedCount": "{count} dipilih",
+  "chatLocationSheetTitle": "Hantar lokasi",
+  "chatLocationNameLabel": "Nama tempat",
+  "chatLocationNameHint": "cth. Pejabat, alamat pelanggan",
+  "chatLocationAddressLabel": "Alamat",
+  "chatLocationOptionalHint": "Pilihan",
+  "chatLocationLatitudeLabel": "Latitud",
+  "chatLocationLatitudeHint": "-90 hingga 90",
+  "chatLocationLongitudeLabel": "Longitud",
+  "chatLocationLongitudeHint": "-180 hingga 180",
+  "chatLocationValidationRequired": "Masukkan {label}",
+  "chatLocationValidationRange": "{label} di luar julat",
+  "chatLocationDefaultTitle": "Lokasi",
+  "chatMutedFullNotice": "Kumpulan ini disenyapkan. Hanya pemilik atau ahli terpilih boleh menghantar mesej.",
+  "chatNotFriendSendBlocked": "Anda tidak lagi berkawan dan tidak dapat menghantar mesej",
+  "chatPersonalNotesTitle": "Nota peribadi",
+  "chatWorkNotesTitle": "Nota kerja",
+  "chatPersonalNotesDescription": "Catat fikiran peribadi dan simpan maklumat penting di sini\nDisegerakkan antara peranti untuk akses pada bila-bila masa",
+  "chatWorkNotesDescription": "Catat tugas kerja dan simpan bahan kerja di sini\nRuang pasukan kekal berasingan dan selamat",
+  "chatNoMessages": "Tiada Mesej",
+  "chatReplyTo": "Balas kepada {sender}",
+  "chatFeatureComingSoon": "{feature} akan datang",
+  "chatForwardSelectTitle": "Pilih sembang",
+  "chatContactSelectTitle": "Pilih kenalan",
+  "chatNoContacts": "Tiada kenalan",
+  "autoTranslateTitle": "Terjemahan automatik",
+  "autoTranslateEnabled": "Dayakan terjemahan automatik",
+  "autoTranslateLanguage": "Bahasa sasaran",
+  "chatSettingsTitle": "Sembang",
+  "chatHistoryTitle": "Sejarah sembang",
+  "chatHistoryClear": "Padam semua sejarah",
+  "chatHistoryClearConfirm": "Padam semua sejarah sembang? Tindakan ini tidak dapat dibuat asal.",
+  "chatHistoryClearSuccess": "Sejarah sembang dipadam",
+  "chatBackgroundTitle": "Latar sembang",
+  "chatBackgroundDefault": "Lalai",
+  "chatBackgroundCustom": "Tersuai",
+  "chatBackgroundReset": "Pulihkan Lalai",
+  "imageViewerTitle": "Foto",
+  "imageViewerSave": "simpan ke album",
+  "imageViewerSaveSuccess": "berjaya disimpan ke album",
+  "imageViewerSaveFailed": "Gagal menyimpan, cuba lagi",
+  "chatOfficialAccountReadOnlyHint": "Akaun ini hanya menghantar kemas kini. Sila hubungi akaun perkhidmatan untuk mendapatkan bantuan.",
+  "mediaSavedToLocalFile": "Disimpan ke fail setempat",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "Hari ini",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "Semalam",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "Minggu ini",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count, plural, one {{count} minit lalu} other {{count} minit lalu}}",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count, plural, one {{count} jam lalu} other {{count} jam lalu}}",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count, plural, one {{count} hari lalu} other {{count} hari lalu}}",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count} saat",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count} min",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "Esok",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "Pertuturan kepada teks",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "Pengecaman mungkin tidak tepat. Semak teks sebelum menghantar.",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "Teks yang dikenal pasti…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "Keyakinan pengecaman:",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "Buka pautan {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "Menjana pratonton pautan",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "Tidak dapat membuka pautan ini",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "Tandakan sebagai dibaca",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "Tandakan sebagai belum dibaca",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "Dayakan amaran",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "Kebenaran mikrofon diperlukan",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "Tidak dapat memulakan rakaman",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "Merakam…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "Rakaman terlalu pendek",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "Merakam, {count, plural, one {{count} saat} other {{count} saat}}",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "Leret ke sini untuk mentranskripsi",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "Lepaskan untuk membatalkan",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "Lepaskan untuk menyunting teks",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "Mentranskripsi…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "Tiada pertuturan dikenal pasti",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "Hantar rakaman asal",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "Menghantar",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "Cari organisasi, masukkan kodnya atau lihat permohonan anda",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "Lihat baris gilir dan perbualan anda",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "Kad produk",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "Kupon promosi",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "Tinjauan",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "Lagi alat pemasaran",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "Kerap digunakan",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "Muka senyum",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "Gerak isyarat",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "Haiwan",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "Makanan",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "Aktiviti",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "Perjalanan",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "Objek",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "Ketik untuk mengambil foto. Tahan untuk merakam video.",
+  "chatCameraReleaseToSend": "Lepaskan untuk menghantar",
+  "chatCameraStartFailed": "Tidak dapat memulakan kamera. Semak kebenaran dan cuba lagi.",
+  "chatCameraUnavailable": "Kamera tidak tersedia",
+  "chatDetails": "Butiran sembang",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "Cari sejarah sembang",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "Mesej berjadual",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "Tetapkan latar sembang",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "Pengurusan kumpulan",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "Pentadbir kumpulan",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "Ahli disenyapkan",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "Jemputan ahli dilumpuhkan untuk kumpulan ini",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "Hanya pemilik atau pentadbir kumpulan boleh menambah ahli",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "Penciptaan kumpulan tidak tersedia dalam versi ini",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "{count, plural, one {{count} ahli ditambah} other {{count} ahli ditambah}}",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "Nama kumpulan (pilihan)",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "Kumpulan baharu",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "Cipta kumpulan baharu",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "Cipta kumpulan berdekatan",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "Selesai ({count})",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "Padam ({count})",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "Hanya pemilik kumpulan, pentadbir kumpulan atau pentadbir organisasi boleh melihat pentadbir kumpulan",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "Pentadbir membantu mengurus kumpulan, termasuk menyiarkan pengumuman dan mengeluarkan ahli.",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "Hanya pemilik kumpulan boleh melantik pentadbir, memindahkan pemilikan atau membubarkan kumpulan.",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "{count, plural, one {Anda boleh melantik sehingga {count} pentadbir.} other {Anda boleh melantik sehingga {count} pentadbir.}}",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "Buang pentadbir",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "Buang hak pentadbir daripada {name}?",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "Hanya pemilik atau pentadbir kumpulan boleh melihat permohonan menyertai",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "Permohonan menyertai diluluskan",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "Permohonan menyertai ditolak",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "Permohonan ini telah dikendalikan",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "Tolak permohonan menyertai",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "Sebab penolakan (pilihan)",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "Sebab penolakan: {reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "Benarkan ahli menyertai menggunakan kod QR",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "Apabila didayakan, permohonan menyertai mesti diluluskan",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "Apabila dilumpuhkan, hanya pemilik dan pentadbir boleh menukar nama kumpulan",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "Benarkan ahli biasa menambah ahli baharu",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "Benarkan ahli biasa menyebut semua orang",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "Apabila dilumpuhkan, ahli kumpulan tidak boleh menambah satu sama lain sebagai rakan",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "Apabila dilumpuhkan, ahli biasa tidak boleh melihat senarai ahli",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "Bubarkan kumpulan ini? Semua ahli akan dimaklumkan. Tindakan ini tidak dapat dibuat asal.",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "Padam dan keluar",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "Pemilik atau pentadbir telah melumpuhkan akses senarai ahli untuk ahli biasa",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "Tunjukkan nama panggilan ahli",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "Tidak dapat menyegerakkan butiran kumpulan. Maklumat sembang setempat dipaparkan.",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "Tidak dapat memuatkan maklumat kumpulan",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "Pilih ahli",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "Pilih ahli kumpulan",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "Hanya pemilik kumpulan boleh melantik pentadbir",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "Tiada ahli tersedia untuk ditambah",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "Pilih pemilik kumpulan baharu",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "Hanya pemilik kumpulan boleh memindahkan pemilikan",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "Tiada ahli lain",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "Pindahkan pemilikan kepada {name}? Anda akan menjadi ahli biasa.",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "Sahkan pemindahan",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "Hanya anda boleh melihat catatan kumpulan ini",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "Nama kumpulan: {name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "Gunakan nama ini",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "Belum ada sesiapa membaca",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "Semua orang telah membaca",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "Maklumat sembang",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "Maklumat sembang ({count})",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "Dibaca",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "Permintaan rakan dihantar. Menunggu penerimaan.",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "Lihat",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "Menunggu penerimaan",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "Semak permintaan",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "Rakan",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "Pekerja",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "Tidak dapat membaca fail. Muat turun ke peranti ini dan cuba lagi",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "Hantar imej dan video daripada Foto",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "Tidak dapat mengenal pasti jenis fail",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "Jenis fail tidak sepadan dengan sambungannya",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": "Fail .{extension} belum disokong",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "Jenis fail ini belum disokong",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "Pilih waktu",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "Pilih orang untuk disebut",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@Semua",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "Maklumkan semua ahli kumpulan",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "Tiada ahli tersedia untuk disebut",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "Tiada ahli yang sepadan",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "Balasan pantas",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "Balasan AI",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "Balasan pantas",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "Tidak dapat memuatkan balasan pantas",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "Sila cuba lagi nanti",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "Tiada balasan pantas",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "Balasan pantas akan dipaparkan di sini apabila pustaka didayakan",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "Tiada balasan pantas yang sepadan",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "Cuba kata kunci lain",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "Cari balasan pantas",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "Balasan pantas tanpa tajuk",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "Siaran",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "Masukkan mesej siaran",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "Pilih penerima",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "Pilih penerima yang sah",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "{count, plural, one {Dihantar kepada {count} penerima} other {Dihantar kepada {count} penerima}}",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "Berjaya: {success}. Gagal: {failed}.",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "Cuba semula yang gagal ({count})",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "Pilih penerima untuk menghantar",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "{count, plural, one {Hantar kepada {count} penerima} other {Hantar kepada {count} penerima}}",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "Tidak dapat memuatkan rakan atau kumpulan. Sila cuba lagi nanti.",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "Tiada penerima tersedia",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "Tiada penerima yang sepadan",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "Tambah rakan atau sertai kumpulan untuk menggunakan siaran",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "Cari rakan atau kumpulan",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "Masukkan mesej siaran anda",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "Pilih rakan atau kumpulan",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "{count, plural, one {{count} penerima dipilih} other {{count} penerima dipilih}}",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "Kumpulan tanpa nama",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "Rakan tanpa nama",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "Dihantar",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "Peranan semasa anda tidak boleh menghantar siaran",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "Penipuan",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "Pelanggaran hak",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "Kandungan berbahaya",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "Gangguan",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "Menyebarkan khabar angin",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "Tidak dapat menghantar aduan anda. Sila cuba lagi.",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "Aduan dihantar",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "Terima kasih atas maklum balas anda. Kami akan menyemak aduan anda tentang {reason} secepat mungkin.",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "ID aduan: {id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "Ejen lain sedang mengendalikan perbualan ini. Anda tidak lagi boleh membalas.",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "Sejarah dikekalkan. Perkhidmatan akan disambung apabila pelanggan meneruskan perbualan.",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "Ditutup oleh pelawat",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "Ditutup oleh ejen",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "Ditutup kerana tamat masa",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "Ditutup oleh sistem",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "Diarkibkan",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "Dipindahkan kepada ejen lain",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "Tamat",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "Ikut global (hidup)",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "Ikut global (mati)",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "Perbualan ini (hidup)",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "Perbualan ini (mati)",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "Mesej berjadual telah dihantar atau tidak dapat dibatalkan",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "Tidak dapat membatalkan. Sila cuba lagi nanti.",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "Ruangan Penyimpanan",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "Statistik storan tidak tersedia",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "Sandaran dan pemulihan",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "Sandarkan sejarah sembang",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "Pulihkan sejarah sembang",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "Import dan eksport",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "Eksport sejarah sembang",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "Import sejarah sembang",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "Belum tersedia",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "Terbit",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "Tajuk pengumuman (pilihan)",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "Tidak dapat memadam. Sila cuba lagi.",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "Tidak dapat menyimpan. Sila cuba lagi.",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "Ahli disenyapkan",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "Ahli dinyahsenyapkan",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "Hanya pemilik kumpulan, pentadbir kumpulan atau pentadbir organisasi boleh menyenyapkan ahli",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "Tiada ahli biasa tersedia untuk disenyapkan",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "Cari ahli",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "Kosongkan carian",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "Tiada ahli yang sepadan",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "Tiada hasil untuk “{query}”",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "Senyap hanya mengehadkan ahli biasa. Tetapkan tempoh dalam minit; 0 bermaksud tanpa had. Sebab dihantar kepada pelayan.",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "Sehingga {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "Sebab: {reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "Senyapkan ahli",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "Nyahsenyapkan ahli",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "Tetapan senyap",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "Masukkan nombor bulat 0 atau lebih",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "Ahli ini akan disenyapkan",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "Senyapkan {name}",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "Tempoh senyap (minit)",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "Masukkan 0 untuk senyap tanpa had",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "Sebab menyenyapkan",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "Pilihan, untuk rujukan masa hadapan",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "Sahkan senyap",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "Disenyapkan",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "Tidak disenyapkan",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "Status belum disegerakkan",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "Kod QR tidak tersedia",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "Salin kandungan",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "Pemilik atau pentadbir melumpuhkan penciptaan kod QR untuk ahli biasa",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "Menjana kod QR kumpulan",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "Tidak dapat menjana kod QR kumpulan. Segarkan semula dan cuba lagi.",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "Imbas kod QR di atas untuk memohon menyertai kumpulan",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "Imbas kod QR di atas untuk menyertai kumpulan",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "Sah sehingga {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "Tidak dapat memuatkan kod QR kumpulan",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "Butiran bacaan",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "Tidak dapat memuatkan imej asal. Ketik untuk mencuba lagi.",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@saya]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@semua]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "Anda disebut",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "Semua orang disebut",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "Terima perbualan ini dahulu",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "Ambil alih perbualan ini dahulu",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "Perbualan ini baca sahaja. Tindakan ini tidak tersedia.",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "Peranan semasa anda tidak boleh melakukan tindakan sokongan ini",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "Perbualan ini tidak tersedia buat sementara waktu",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "Tindakan ini tidak tersedia dalam keadaan semasa",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "Perbualan disambung. Anda boleh terus membantu pelanggan.",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "Ejen lain sedang mengendalikan perbualan ini",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "Pelanggan belum menyambung perbualan",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "Perbualan diambil alih",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "Tidak dapat mengambil alih. Sila cuba lagi.",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "Perbualan diterima",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "Tidak dapat menerima. Sila cuba lagi.",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "Penutupan mengekalkan sejarah sembang. Peraturan pelayan mungkin memasukkan perbualan ke baris gilir atau menugaskannya semula.",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "Perbualan ditutup",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "Tidak dapat menutup. Sila cuba lagi.",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "Perbualan ini tidak boleh dipindahkan sekarang",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "Tiada ejen tersedia untuk pemindahan",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "Perbualan dipindahkan",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "Tidak dapat memindahkan. Sila cuba lagi.",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "Perbualan pelanggan",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "simpan ke album",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "Tiada mesej daripada pihak satu lagi tersedia untuk diterjemahkan",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "Ikut tetapan global",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "Tetapan global dihidupkan",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "Tetapan global dimatikan",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "Dayakan untuk perbualan ini",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "Terjemah secara automatik hanya mesej pihak satu lagi yang kelihatan",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "Lumpuhkan untuk perbualan ini",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "Jangan terjemah perbualan ini walaupun tetapan global dihidupkan",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "Terjemah mesej yang kelihatan",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "Pilih waktu sekurang-kurangnya satu minit dari sekarang",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "Mesej boleh dijadualkan sehingga 14 hari lebih awal",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "Tidak dapat menetapkan penghantaran berjadual",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "Kandungan ini tidak boleh dihantar kerana melanggar peraturan",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "Akaun ini disenyapkan dan tidak dapat menghantar mesej sekarang",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "Tidak dapat menghantar mesej kumpulan. Sila cuba lagi nanti (INVALID_OPERATION).",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "Penghantaran gagal: {reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "Menu ini tidak tersedia buat sementara waktu",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "Perbualan sokongan sedang disediakan. Sila cuba sebentar lagi.",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "Anda berada dalam baris gilir. Ejen yang tersedia akan menghubungi anda.",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI sedang mengendalikan perbualan ini",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "Anda sedang mengendalikan perbualan ini",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} sedang mengendalikan perbualan ini",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "AI membalas mesej pelanggan · Sumber: {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "Ejen sedang mengendalikan perbualan ini · Sumber: {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "Profil pelanggan tidak tersedia buat sementara waktu",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "Tambah nota (pilihan)",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "Sahkan pemindahan",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "Pelanggan sedang menaip: {text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "Mod lihat sahaja. Anda tidak boleh menghantar mesej.",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "Terima perbualan untuk membalas",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "Terima perbualan sebelum membalas",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "Ambil alih perbualan sebelum membalas",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "Profil pelanggan",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "Nama",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "Tahap",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "Risiko",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "Bahasa",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "Sumber",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "Ejen ditugaskan",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "Gambaran keseluruhan akaun",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "Baki akaun",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "Jumlah deposit",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "Deposit Bersih",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "Status akaun",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "Tarikh pendaftaran",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "Gambaran keseluruhan sejarah dagangan",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "Jumlah pesanan",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "Produk didagangkan",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "Kadar kemenangan",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "Waktu dagangan terakhir",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "Profil pelawat",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "ID pelawat",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "Sejarah perbualan",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "Halaman sumber",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "Butiran akaun, dagangan dan tiket tersedia selepas pelanggan mendaftar dan memautkan akaun",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "Disahkan",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "Belum diluluskan",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "Rendah",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "Sederhana",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "Tinggi",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "Aktif",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "Dilumpuhkan",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "Dibekukan",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "Tag",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "Tiket sokongan",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "Tiada tiket sokongan",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "Diproses",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "Menunggu",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "Ditutup",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "Data pesanan sementara",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "Tiada pesanan sementara",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "Pesanan",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "Nombor pesanan",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "Arah",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "lot",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "Harga Pembukaan",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "Untung/rugi terapung",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "Waktu Pembukaan Posisi",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "Beli",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "Jual",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "Posisi Terbuka",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "Pesanan tertunda",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "Posisi Ditutup",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "Belum ditugaskan",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "Akaun rasmi",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "Jenis",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "Butiran kegemaran",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "Kandungan kegemaran",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "(Tiada kandungan)",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "Disimpan pada {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "Cari sejarah sembang",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "Tarikh",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "Imej dan video",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "Cari kandungan tertentu",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "Mesej suara {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[Mesej sistem]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[Pautan]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[Teks]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[Teks kaya]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "Mesej berjadual tidak boleh kosong",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "Tidak dapat mengemas kini. Sila cuba lagi nanti.",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "Tidak dapat memuatkan mesej berjadual",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "Tiada mesej berjadual",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "Mesej yang dijadualkan daripada ruang penulisan boleh diurus di sini.",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "Menunggu untuk dihantar",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "Sedang dihantar",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "Status {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "Sunting mesej berjadual",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "Kandungan mesej",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "Waktu penghantaran",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "Ubah",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "Dijadualkan pada {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "Mesej akan dihantar pada {time}",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "Menyunting mesej berjadual · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "Padam mesej berjadual",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count, plural, one {{count} perbualan belum dibaca} other {{count} perbualan belum dibaca}}",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "Tiada perbualan belum dibaca",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count, plural, one {{count} mesej belum dibaca} other {{count} mesej belum dibaca}}",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "{count, plural, one {{count} mesej baharu} other {{count} mesej baharu}}",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "Tiada perbualan yang sepadan",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "Tiada perbualan",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "Tiada lagi perbualan",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "O",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "Pautan",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "Ahli biasa tidak boleh menyebut semua orang dalam kumpulan ini",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "Segarkan status",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "Tahan untuk bercakap",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "Lepaskan untuk menghantar",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "Ahli dikeluarkan",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

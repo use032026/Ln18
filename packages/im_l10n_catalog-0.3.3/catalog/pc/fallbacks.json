@@ -1,0 +1,1970 @@
+{
+  "workbenchFallback": {
+    "accessMode": "Access mode",
+    "active": "Active",
+    "allConversations": "All current conversations",
+    "announcementLoadFailed": "Failed to load announcements",
+    "autoAssign": "Automatic assignment",
+    "capabilityNavAria": "Workbench capabilities",
+    "capabilityCount": "capabilities",
+    "currentEnterprise": "Current enterprise",
+    "currentRole": "Current role",
+    "currentState": "Current state",
+    "customerManagement": {
+      "assigned": "Assigned",
+      "emptyText": "This enterprise has no customers.",
+      "emptyTitle": "No customers",
+      "errorTitle": "Customer data failed to load",
+      "loadMore": "Load more customers",
+      "loadingMore": "Loading more...",
+      "loadingText": "Synchronizing the enterprise customer pool.",
+      "loadingTitle": "Loading customers",
+      "openDirectory": "Open full customer directory",
+      "total": "Total customers",
+      "unassigned": "Unassigned"
+    },
+    "dataScope": "Data basis",
+    "dataScopeValue": "No fake data; empty states are shown when no API exists",
+    "detailAria": "Workbench details",
+    "documentCount": "{count} documents",
+    "documentCountEmpty": "Document count --",
+    "emptyAnnouncementsText": "The current enterprise has no published, unexpired announcements.",
+    "emptyAnnouncementsTitle": "No enterprise announcements",
+    "emptyNoEntryText": "The current role has no configured workbench capabilities.",
+    "emptyNoEntryTitle": "No available workbench entries",
+    "emptyQuickRepliesText": "The server returned no available knowledge base or quick reply content.",
+    "emptyQuickRepliesTitle": "No common quick replies",
+    "entry": "Entry",
+    "entryReservedText": "Role-based entry points and permission boundaries are reserved here. Real data will be added after the related page or API is connected.",
+    "entryReservedTitle": "Entry reserved",
+    "group": {
+      "admin": "Admin workbench",
+      "customerService": "Customer service workbench",
+      "owner": "Owner workbench"
+    },
+    "heroSubtitle": "{tenant} · {role} entry. Messages, contacts, and customer service stay independent; this workbench only contains role tasks and management entries.",
+    "heroTitle": "{role} workbench",
+    "knowledgeBase": "Knowledge base",
+    "knowledgeLoadFailed": "Failed to load quick replies",
+    "listSeparator": ", ",
+    "manualAccess": "Manual access",
+    "markRead": "Read",
+    "managementWorkbench": {
+      "title": "Enterprise management workbench",
+      "navigation": "Management workbench navigation",
+      "section": {
+        "customer": "Customer operations",
+        "service": "Service operations",
+        "governance": "Governance",
+        "communication": "Enterprise messages",
+        "enterprise": "Enterprise management"
+      },
+      "capability": {
+        "customer-management": {
+          "title": "Customer management",
+          "description": "Search, inspect, and assign customers"
+        },
+        "service-operations": {
+          "title": "Service operations",
+          "description": "Live service center and team efficiency"
+        },
+        "join-requests": {
+          "title": "Join approvals",
+          "description": "Review customer and employee join requests"
+        },
+        "group-supervision": {
+          "title": "Group supervision",
+          "description": "Inspect enterprise groups and apply freezes"
+        },
+        "conversation-audit": {
+          "title": "Conversation audit",
+          "description": "Search and inspect historical service conversations"
+        },
+        "operation-audit": {
+          "title": "Operation audit",
+          "description": "Inspect enterprise management operations"
+        },
+        "enterprise-communication": {
+          "title": "Enterprise messages",
+          "description": "Enterprise broadcast and announcement reading"
+        },
+        "official-account": {
+          "title": "Official account",
+          "description": "Manage identity, service menu, customer handoff, and official groups"
+        },
+        "enterprise-info": {
+          "title": "Enterprise information",
+          "description": "View enterprise profile information"
+        },
+        "enterprise-features": {
+          "title": "Enterprise configuration",
+          "description": "Configure assignment, approval, and visitor capabilities"
+        },
+        "employee-invitations": {
+          "title": "Invite employees",
+          "description": "Create, copy, and revoke enterprise invitations"
+        },
+        "member-management": {
+          "title": "Member management",
+          "description": "View members, change roles, or remove members"
+        },
+        "ownership-transfer": {
+          "title": "Transfer ownership",
+          "description": "Transfer enterprise ownership to another employee"
+        }
+      }
+    },
+    "management": {
+      "audit": {
+        "empty": "No operation audit records.",
+        "error": "Failed to load operation audit: {error}",
+        "loading": "Loading operation audit...",
+        "readonly": "Read-only audit trail",
+        "unknownAction": "Operation record"
+      },
+      "broadcast": {
+        "auditReason": "Audit note",
+        "auditReasonPlaceholder": "Optional reason for this broadcast",
+        "confirm": "Send this broadcast to {count} recipients in {target}?",
+        "content": "Message",
+        "contentPlaceholder": "Enter the enterprise broadcast message",
+        "emptyTasks": "No broadcast tasks.",
+        "history": "Delivery tasks",
+        "loadingTasks": "Loading broadcast tasks...",
+        "noSamples": "The server returned no recipient samples.",
+        "officialSender": "Official sender",
+        "preview": "Preview",
+        "previewRecipients": "{count} recipients",
+        "previewToConfirm": "Preview to confirm",
+        "previewing": "Previewing...",
+        "retryFailed": "Retry failed",
+        "status": {
+          "0": "Pending",
+          "1": "Delivering",
+          "2": "Completed",
+          "3": "Failed",
+          "4": "Cancelled"
+        },
+        "submit": "Send",
+        "submitting": "Submitting...",
+        "target": {
+          "allMembers": "All members",
+          "customers": "Customers",
+          "officialGroups": "Official groups",
+          "staff": "Employees"
+        },
+        "targetLabel": "Recipients",
+        "taskProgress": "{sent}/{total} sent · {failed} failed"
+      },
+      "conversationAudit": {
+        "description": "Search service history, open complete read-only conversations, and export reports.",
+        "open": "Open conversation audit",
+        "title": "Conversation audit"
+      },
+      "groups": {
+        "actionError": "Failed to update group state: {error}",
+        "count": "{count} groups",
+        "empty": "No groups match the current filter.",
+        "error": "Failed to load groups: {error}",
+        "freeze": "Freeze",
+        "freezeConfirm": "Freeze “{title}”? Members will be unable to continue normal activity.",
+        "frozen": "Frozen",
+        "loading": "Loading enterprise groups...",
+        "members": "{count} members",
+        "noPreview": "No recent message",
+        "search": "Search group, owner, or message",
+        "unfreeze": "Unfreeze"
+      },
+      "join": {
+        "approve": "Approve",
+        "emptyPending": "No pending applications.",
+        "error": "Failed to load join applications: {error}",
+        "loading": "Loading join applications...",
+        "pending": "Pending ({count})",
+        "processed": "Processed ({count})",
+        "reject": "Reject",
+        "reviewError": "Failed to review application: {error}",
+        "status": {
+          "approved": "Approved",
+          "cancelled": "Cancelled",
+          "rejected": "Rejected"
+        }
+      },
+      "settings": {
+        "customerServiceAuto": "Automatic assignment",
+        "customerServiceDesignated": "Designated agent",
+        "customerServiceMode": "Customer service assignment",
+        "enterpriseTools": "Enterprise tools",
+        "error": "Failed to load enterprise settings: {error}",
+        "featureTitle": "Enterprise configuration",
+        "friendIsolation": "Customer isolation",
+        "friendMode": "Friend mode",
+        "friendSocial": "Social",
+        "invite": "Invite employees",
+        "inviteHint": "Create and manage enterprise invitation codes",
+        "joinApprovalMode": "Join approval",
+        "joinAuto": "Automatic approval",
+        "joinManual": "Manual review",
+        "loading": "Loading enterprise settings...",
+        "members": "Member directory",
+        "membersHint": "View members and role identities",
+        "saved": "Settings saved",
+        "tempSessionEnabled": "Widget visitor service",
+        "tempSessionHint": "Allow temporary visitor sessions"
+      }
+    },
+    "myServiceStatus": "My customer service status",
+    "noSummary": "No summary",
+    "notice": {
+      "readFailed": "Failed to report read state: {error}",
+      "readSuccess": "Announcement marked as read"
+    },
+    "openKnowledgeBase": "Open knowledge base",
+    "openOnlineService": "Open customer service",
+    "openShortcut": "Open {title}",
+    "performance": {
+      "avgDuration": "Avg duration",
+      "avgFirstResponse": "Avg first response",
+      "avgRating": "Rating",
+      "channel": {
+        "imDirect": "IM direct",
+        "widget": "Widget visitors"
+      },
+      "channelMeta": "First {first} · Rating {rating}",
+      "emptyDistribution": "No source platform distribution yet.",
+      "emptyText": "The server has not returned team performance statistics yet.",
+      "emptyTitle": "No team statistics",
+      "errorTitle": "Failed to load team performance",
+      "excellentRate": "Quality pass rate",
+      "loadingText": "Syncing admin statistics. Existing workbench data remains visible.",
+      "loadingTitle": "Loading team performance",
+      "retry": "Retry",
+      "sessionsServed": "{count} sessions",
+      "sourcePlatformHint": "Channel distribution groups by sourcePlatform first, and falls back to sourceChannel for legacy data.",
+      "sourcePlatformTitle": "Source platform distribution",
+      "staffRankHint": "Top-level metrics merge Widget temp sessions and IM registered-customer direct chats.",
+      "staffRankTitle": "Agent efficiency ranking",
+      "totalServed": "Served",
+      "totalSessions": "Total sessions"
+    },
+    "performanceLoadFailed": "Failed to load performance data",
+    "priority": {
+      "important": "Important",
+      "normal": "Normal"
+    },
+    "queued": "Queued",
+    "role": {
+      "admin": "Admin",
+      "customer_service": "Customer service",
+      "owner": "Owner"
+    },
+    "roleTitle": {
+      "admin": "Admin workbench",
+      "customer_service": "Customer service workbench",
+      "owner": "Owner workbench"
+    },
+    "roleScope": "Role scope",
+    "shortcut": {
+      "wb-admin-customers": {
+        "description": "Customer statistics, assigned and unassigned customers, paged search, and service assignment.",
+        "title": "Customer management"
+      },
+      "wb-admin-groups": {
+        "description": "Group list, freeze and unfreeze controls, and future governance entry points.",
+        "title": "Group supervision"
+      },
+      "wb-admin-conversation-audit": {
+        "description": "Search and export complete customer-service conversation history.",
+        "title": "Conversation audit"
+      },
+      "wb-admin-join-requests": {
+        "description": "Review customer and employee requests to join the enterprise.",
+        "title": "Join applications"
+      },
+      "wb-admin-service-center": {
+        "description": "Watch all active service conversations, filter by agent or status, and step in when help is needed.",
+        "title": "Live service monitor"
+      },
+      "wb-cs-notices": {
+        "description": "View enterprise notices, policy announcements, and read status.",
+        "title": "Enterprise announcements"
+      },
+      "wb-cs-performance": {
+        "description": "View personal reception volume, average response, and satisfaction summary.",
+        "title": "Performance"
+      },
+      "wb-cs-quick-replies": {
+        "description": "Maintain common replies, knowledge base references, and multilingual scripts.",
+        "title": "Common quick replies"
+      },
+      "wb-owner-broadcast": {
+        "description": "Send enterprise notices from the official account to all users, employees, customers, or official groups.",
+        "title": "Enterprise broadcast"
+      },
+      "wb-owner-enterprise-settings": {
+        "description": "Configure assignment, join approval, friend mode, and visitor service.",
+        "title": "Enterprise settings"
+      },
+      "wb-owner-operation-audit": {
+        "description": "Read the authoritative enterprise operation audit trail.",
+        "title": "Operation audit"
+      }
+    },
+    "monitor": {
+      "activeThreads": "Service conversations",
+      "all": "All",
+      "channel": "Channel",
+      "detailFailed": "Failed to load conversation detail: {error}",
+      "emptyMessages": "No messages to show yet.",
+      "emptyRisk": "No SLA risk.",
+      "emptyStaff": "No agent status.",
+      "emptyThreads": "No service conversations match the current filters.",
+      "filter": {
+        "keyword": "Keyword",
+        "staff": "Agent",
+        "status": "Status",
+        "threadType": "Channel"
+      },
+      "filtersAria": "Live service monitor filters",
+      "kpi": {
+        "active": "Active",
+        "onlineStaff": "Online agents",
+        "queued": "Queued",
+        "queueHint": "Live admin queue",
+        "riskHint": "Needs priority handling",
+        "slaRisk": "SLA risk",
+        "staffHint": "Available agents",
+        "visibleHint": "Visible in current filters"
+      },
+      "kpisAria": "Live service monitor metrics",
+      "keywordPlaceholder": "Customer, conversation, or message",
+      "loadFailed": "Failed to load live monitor: {error}",
+      "loading": "Syncing monitor data...",
+      "loadingDetail": "Syncing conversation content...",
+      "addWatch": "Add",
+      "agent": "Agent",
+      "allStaff": "All agents",
+      "assistThread": "Assist",
+      "backoff": "Paused {seconds}s",
+      "capacityFull": "Wall is full",
+      "chatInfo": "Conversation info",
+      "closeWindow": "Close",
+      "customer": "Customer",
+      "emptySlot": "Empty slot",
+      "expandWindow": "Expand",
+      "lastSynced": "Synced {time}",
+      "layout": "Layout",
+      "jumpThread": "Open",
+      "pinWindow": "Pin side by side",
+      "promoteWindow": "Move to first slot",
+      "realtime": "30s polling",
+      "acceptingQueue": "Accepting queue",
+      "customerLevel": "Customer level",
+      "customerProfile": "Customer profile",
+      "heartbeat": "Heartbeat",
+      "lastOnline": "Last online",
+      "openCustomerProfile": "View customer profile",
+      "openReadonlyDetail": "Open read-only detail",
+      "openStaffProfile": "View agent profile",
+      "removeWindow": "Remove",
+      "replaceMode": "Choose window",
+      "replacePrompt": "Monitor wall is full. Choose a window to replace: {title}",
+      "replaceThisWindow": "Replace here",
+      "resultCount": "{count} items",
+      "selectThread": "Select a service conversation to inspect live detail.",
+      "selectReplaceSlot": "Choose a window to replace",
+      "shrinkWindow": "Shrink",
+      "slaRisk": "SLA risk",
+      "slaRiskFallback": "The server marked this conversation for attention.",
+      "source": "Source",
+      "staffId": "Agent ID",
+      "staffLoadLabel": "Load",
+      "staffLoad": "{active}/{max}",
+      "staffWall": "Agent status wall",
+      "staffProfile": "Agent profile",
+      "statusLabel": "Status",
+      "status": {
+        "active": "Active",
+        "queued": "Queued"
+      },
+      "subtitle": "Admins and owners can filter active service conversations by agent, status, channel, and keyword, then inspect synced detail.",
+      "threadDetail": "Conversation detail",
+      "threadId": "Thread ID",
+      "threadPool": "Conversation pool",
+      "title": "Live service conversation monitor",
+      "unassigned": "Unassigned",
+      "unpinWindow": "Unpin",
+      "updatedAt": "Updated",
+      "wall": "Monitor wall",
+      "watched": "Watching",
+      "windowCount": "{count} windows"
+    },
+    "state": {
+      "available": {
+        "hint": "Can enter or view",
+        "label": "Available"
+      },
+      "no_permission": {
+        "hint": "Unavailable for the current role",
+        "label": "No permission"
+      },
+      "pending_api": {
+        "hint": "Entry reserved, waiting for page or API integration",
+        "label": "Pending API"
+      },
+      "readonly": {
+        "hint": "Read-only view",
+        "label": "Read-only"
+      }
+    },
+    "summary": {
+      "announcements": "Enterprise announcements",
+      "announcementsHint": "Published and unexpired",
+      "currentConversations": "Current conversations",
+      "quickReplies": "Common quick replies",
+      "quickRepliesHint": "Reuses knowledge base and quick reply capabilities",
+      "receptionStatus": "Reception status",
+      "receptionStatusHint": "Entering the workbench does not change status automatically",
+      "threadHint": "Queued {queue} · Active {active}"
+    },
+    "summaryAria": "Workbench summary",
+    "unnamedKnowledgeBase": "Unnamed knowledge base"
+  },
+  "spaceRadarFallback": {
+    "crossSpaceNewMessages": "{count} new cross-space messages",
+    "currentSpace": "Current space",
+    "filter": {
+      "alerts": "New messages",
+      "all": "All",
+      "recent": "Recent"
+    },
+    "filterAria": "Space filters",
+    "loadingSpaces": "Loading space list...",
+    "manage": "Manage",
+    "manageSpaces": "Join / manage spaces",
+    "missingPlatformSession": "The current sign-in session has no platform session. Sign in again before switching spaces.",
+    "newReminderAria": "New reminders {count}",
+    "noMatch": "No matching spaces",
+    "noCrossSpaceNewMessages": "No new messages in other spaces",
+    "noCrossSpaceNewMessagesDetail": "Current-space reminders stay in the current space entry.",
+    "noNewMessages": "No new messages",
+    "noSpaceReminders": "No space message reminders",
+    "searchPlaceholder": "Search space / enterprise code",
+    "spaceCount": "{count} spaces",
+    "spacesSyncFailed": "Space list sync failed: {error}",
+    "subtitle": "View message reminders across spaces, then switch to see details",
+    "switch": "Switch",
+    "switchFailed": "Space switch failed: {error}",
+    "switching": "Switching",
+    "switchToViewDetail": "Switch spaces to view message details",
+    "switchToViewSpace": "Switch spaces to view details for that space.",
+    "syncFailed": "Sync failed",
+    "syncingUnread": "Syncing cross-space unread badges...",
+    "title": "Space",
+    "tryAnotherKeyword": "Try another keyword.",
+    "unreadSyncFailed": "Cross-space unread sync failed: {error}"
+  },
+  "tenantInvitationFallback": {
+    "acceptedRole": "Invite as {role}",
+    "adminWarning": "Admins can manage members and spaces. Send only to trusted employees.",
+    "codeCopied": "Invitation code copied",
+    "codeValue": "Invitation code: {value}",
+    "copyCode": "Copy invitation code",
+    "copyCodeButton": "Copy code",
+    "copyLink": "Copy invitation link",
+    "copyLinkButton": "Copy link",
+    "create": "Create invitation",
+    "createAdmin": "Create admin invitation",
+    "createFailed": "Failed to create invitation: {error}",
+    "created": "{role} invitation created",
+    "createdAt": "Created at {time}",
+    "creating": "Creating",
+    "emptyText": "After creation, target role, validity, and revoke entry will appear here.",
+    "emptyTitle": "No employee invitations",
+    "error": {
+      "roleInvalid": "Owner cannot be granted through an invitation code",
+      "roleTooHigh": "The current role cannot create an invitation for this onboarding role"
+    },
+    "expireHours": "Validity (hours)",
+    "inviteCode": "Invitation code",
+    "inviteLink": "Invitation link",
+    "linkCopied": "Invitation link copied",
+    "listLoadFailed": "Failed to load invitation list: {error}",
+    "loading": "Loading invitations...",
+    "maxUses": "Max uses",
+    "noCodeReturned": "The server did not return an invitation code",
+    "noPermission": "The current role has no permission to invite employees.",
+    "remainingUses": "Remaining {remaining}/{max}",
+    "revoke": "Revoke",
+    "revokeConfirm": "After revoking, copied invitation codes can no longer be used. Revoke now?",
+    "revokeFailed": "Failed to revoke invitation: {error}",
+    "revoked": "Invitation revoked",
+    "role": "Onboarding role",
+    "roleDescription": {
+      "admin": "Admins can manage members and spaces.",
+      "member": "Members can access basic collaboration features in the enterprise space.",
+      "staff": "Staff can use daily work features in the enterprise space.",
+      "technicalSupport": "Technical support can use technical collaboration features."
+    },
+    "roleInvite": "{role} invitation",
+    "roles": {
+      "admin": "Admin",
+      "default": "Member",
+      "member": "Member",
+      "staff": "Staff",
+      "technicalSupport": "Technical support"
+    },
+    "status": {
+      "active": "Active",
+      "expired": "Expired",
+      "revoked": "Revoked",
+      "unsynced": "Status pending",
+      "usedUp": "Used up"
+    },
+    "target": "Target",
+    "targetPlaceholder": "Phone / email / {publicIdLabel}, optional",
+    "title": "Invite employees",
+    "usedCount": "Used {used}/{max}",
+    "validEmpty": "Validity --",
+    "validHours": "Valid for {hours} hours",
+    "validUntil": "Valid until {time}"
+  },
+  "privacySettingsFallback": {
+    "allowLppSearch": {
+      "desc": "Other users can find you by {publicIdLabel}.",
+      "label": "Allow search by {publicIdLabel}"
+    },
+    "allowMobileSearch": {
+      "desc": "Other users can find you by mobile number.",
+      "label": "Allow search by mobile"
+    },
+    "blocklist": {
+      "count": "{count} people",
+      "empty": "No blocked users",
+      "label": "Blocklist",
+      "loadFailed": "Failed to load blocklist: {error}",
+      "loading": "Loading blocklist...",
+      "remove": "Remove",
+      "removeFailed": "Failed to remove from blocklist: {error}",
+      "removed": "Removed from blocklist"
+    },
+    "friendLoadFailed": "Failed to load friend permissions: {error}",
+    "friendRequestVerification": {
+      "desc": "Control who can send you friend requests.",
+      "label": "Friend requests"
+    },
+    "friendSaveFailed": "Failed to save friend permissions: {error}",
+    "friendSaved": "Friend permissions saved",
+    "option": {
+      "everyone": "Everyone",
+      "friends": "Friends only",
+      "friendsOfFriends": "People with mutual friends",
+      "nobody": "Not allowed"
+    },
+    "profileVisibility": {
+      "desc": "Control who can view your profile page.",
+      "label": "Profile visibility"
+    }
+  },
+  "meFallback": {
+    "action": {
+      "check": "Check",
+      "clean": "Clean",
+      "processing": "Processing"
+    },
+    "chatArchive": {
+      "aria": "Chat archive management",
+      "backup": "Back up",
+      "backingUp": "Backing up",
+      "backupSuccessNotice": "Chat archive backup saved",
+      "backupSuccessState": "Backed up {conversations} conversations and {messages} messages{partial}.",
+      "cancelledNotice": "Chat archive file save cancelled",
+      "cancelledState": "Chat archive file save cancelled.",
+      "error": {
+        "desktopApiUnavailable": "Use the PC desktop client to export, back up, or restore chat history.",
+        "loginExpired": "Sign-in state expired. Sign in again.",
+        "messageApiUnavailable": "Conversation message API is unavailable. Chat history was not exported.",
+        "noExportableMessages": "No exportable chat history.",
+        "restoreInvalid": "Backup file cannot be restored"
+      },
+      "export": "Export",
+      "exporting": "Exporting",
+      "exportSuccessNotice": "Chat history exported",
+      "exportSuccessState": "Exported {conversations} conversations and {messages} messages{partial}.",
+      "initialState": "Local archives are not synced to the cloud and do not write server messages.",
+      "partialFailed": ", {count} conversations were not exported because the API failed",
+      "restore": "Import",
+      "restoring": "Importing",
+      "restoreSuccessNotice": "Chat archive backup imported to local archive",
+      "restoreSuccessState": "Local backup archive imported. Real conversation list and unread state were not changed."
+    },
+    "currentStatus": "Current settings status",
+    "diagnosticsRecords": {
+      "aria": "Diagnostics records",
+      "browserDebug": "Browser debug",
+      "copyTraceAria": "Copy recent traceId",
+      "countItems": "{count} records",
+      "currentProfile": "Current profile",
+      "emptyLog": "No {filter} diagnostics records. Redacted log lines will appear here after API errors, message path issues, or settings writes.",
+      "emptySummary": "No local diagnostics records yet. You can still export a diagnostics package for engineering.",
+      "exportPackage": "Export diagnostics package",
+      "failedCount": "{count} failed",
+      "failedRecords": "Failed records",
+      "filter": {
+        "api-error": "API errors",
+        "api-traffic": "API requests",
+        "all": "All",
+        "cs-routing": "Customer service routing",
+        "gateway": "Gateway",
+        "message": "Message path",
+        "runtime": "Runtime",
+        "settings": "Settings"
+      },
+      "latestError": "Latest error",
+      "logTitle": "{filter} logs",
+      "moduleFilterAria": "Diagnostics module filter",
+      "recentCount": "{count} recent records",
+      "recentRecords": "Recent records",
+      "recordCount": "{filter} records",
+      "sourceNote": "Settings summarizes renderer memory diagnostics by problem area and shows redacted log lines. Persistent records in the diagnostics package continue to be split into jsonl files for engineering.",
+      "summary": "{total} recent diagnostics records collected, {failed} need attention.",
+      "title": "Recent diagnostics records",
+      "traceCopied": "traceId copied",
+      "traceCopyFailed": "Unable to copy traceId. Select it manually.",
+      "waitingRecords": "Waiting for records"
+    },
+    "group": {
+      "appearance": "Appearance",
+      "chat": "Chat",
+      "desktop": "Desktop",
+      "input": "Input",
+      "languageTime": "Language and time",
+      "notifications": "Notifications",
+      "systemPermissions": "System permissions",
+      "translation": "Translation"
+    },
+    "heroSubtitle": "Manage the PC customer service workspace by clear domains. Shared chat, notification, and appearance capabilities live in common settings.",
+    "navAria": "Settings groups",
+    "navSubtitle": "Organize settings by account, enterprise, messages, privacy, customer service, network, common, diagnostics, and about.",
+    "network": {
+      "autoReconnectOn": "Enabled. APIs and realtime messages reconnect automatically after the network recovers.",
+      "off": "Disabled.",
+      "weakNetworkOff": "No weak-network clues recorded.",
+      "weakNetworkOn": "Weak-network clues are recorded and can be exported with diagnostics."
+    },
+    "chatBackground": {
+      "aria": "Chat background",
+      "chooseImage": "Choose image",
+      "current": "Current: {name}",
+      "customImage": "Local image: {name}",
+      "desc": "Set the chat window background.",
+      "imageActive": "Chat background image applied",
+      "imageLoadFailed": "Unable to read this image. Choose another one.",
+      "imageTooLarge": "Choose a PNG, JPG, WebP, or GIF image under 3.5 MB.",
+      "preset": {
+        "beige": "Warm beige texture",
+        "default": "WeChat light gray",
+        "light-blue": "After-rain blue",
+        "light-gray": "Matte gray",
+        "light-green": "Bamboo green",
+        "light-pink": "Light cherry",
+        "light-purple": "Light wisteria",
+        "white": "Rice paper white"
+      },
+      "removeImage": "Remove image",
+      "title": "Chat background"
+    },
+    "connectivityHealth": {
+      "aria": "Connectivity health",
+      "item": {
+        "api-base": {
+          "desc": "Shows the current request base URL. Recent API errors are marked as needing attention.",
+          "label": "Current API"
+        },
+        "api-health": {
+          "desc": "When the server provides lightweight health, this shows API status, version, and dependency summaries.",
+          "label": "API health endpoint"
+        },
+        "cs-health": {
+          "desc": "When customer service health is available, this shows reception, queue, and assignment status.",
+          "label": "Customer service queue endpoint"
+        },
+        "customer-service-routing": {
+          "desc": "Reads online customer service state and cache diagnostics to help locate reception, queue, and assignment issues.",
+          "label": "Customer service routing"
+        },
+        "fixture-health": {
+          "desc": "Connected only in development or test environments to verify customer service fixture APIs.",
+          "label": "Customer service fixture"
+        },
+        "gateway-health": {
+          "desc": "When realtime health is available, this shows connection, negotiation, and subscription status.",
+          "label": "Gateway health endpoint"
+        },
+        "gateway-runtime": {
+          "desc": "Reads existing Gateway connection diagnostics without opening a synthetic long connection.",
+          "label": "Realtime connection"
+        },
+        "media-health": {
+          "desc": "When media health is available, this shows upload, download, and authorization status.",
+          "label": "Media upload/download endpoint"
+        },
+        "media-recent-errors": {
+          "desc": "Shows only recent media upload, download, or cache errors. No sample is not shown as success.",
+          "label": "Media path"
+        },
+        "site-lines": {
+          "desc": "Reuses line configuration and latency-test capability without sending token or Cookie.",
+          "label": "Line configuration"
+        }
+      },
+      "needsAttention": "Needs attention",
+      "noSyntheticConnection": "No synthetic connection",
+      "observable": "Observable",
+      "pendingOrNoSample": "Pending/no sample",
+      "phaseOne": "Existing signals",
+      "phaseTwo": "Requires server support",
+      "recentRecord": "Recent record {time}",
+      "requiresServerHealth": "Waiting for server health",
+      "siteLineValue": "{site} / {count} lines",
+      "status": {
+        "failed": "Needs attention",
+        "noBaseUrl": "No API base URL",
+        "noLines": "No lines",
+        "no-sample": "No sample",
+        "observable": "Observable",
+        "pending": "Pending"
+      },
+      "summaryNoFailures": "No failed samples right now. {pending} items are pending or have no sample.",
+      "summaryWithFailures": "{failed} items need attention. {pending} items are pending or have no sample.",
+      "title": "Connectivity health"
+    },
+    "networkLine": {
+      "activeLine": "Current line",
+      "aria": "Network lines",
+      "available": "Config reachable",
+      "configRefreshed": "Line configuration refreshed",
+      "currentSite": "Current site",
+      "latency": {
+        "ms": "{value} ms",
+        "testing": "Testing",
+        "unavailable": "Unavailable",
+        "untested": "Not tested"
+      },
+      "localChecked": "Local line configuration checked",
+      "latencyTest": "Line latency test",
+      "note": "{activeLine} switches the current PC API and realtime base URL. {latencyTest} requests only the line configuration URL and does not send token, Authorization, or Cookie.",
+      "refresh": "Refresh sites",
+      "refreshing": "Refreshing",
+      "refreshFailed": "Failed to refresh line configuration. Try again later.",
+      "switchableSites": "Switchable sites",
+      "switchableSummary": "{count} lines. S3 is only a fallback configuration source and is not shown in the line list.",
+      "switchFailed": "The line switch was not applied. Try again later.",
+      "switchUnavailable": "Line unavailable. The current line was kept.",
+      "switched": "Switched to {name}",
+      "testAll": "Test all",
+      "testCompleted": "Line latency test completed",
+      "testing": "Testing",
+      "testNamed": "Test {name}",
+      "unavailable": "Config unreachable",
+      "unverified": "Not verified"
+    },
+    "notificationSettings": {
+      "friendRequestDesc": "New friend requests follow the IM message reminder policy. Current: {state}",
+      "loadFailed": "Failed to load reminder settings: {error}. Current controls are saved locally first and can sync again after the API recovers.",
+      "loading": "Reading account reminder settings...",
+      "off": "Off",
+      "on": "On",
+      "saved": "Reminder settings saved",
+      "saveFailed": "Failed to save reminder settings: {error}"
+    },
+    "notice": {
+      "autoSave": "Setting changes are saved automatically",
+      "chatCacheCleared": "Chat cache cleared",
+      "diagnosticsExportCancelled": "Diagnostics export cancelled",
+      "diagnosticsExported": "Diagnostics package exported",
+      "localDataCleaned": "Cleared {count} local indexed messages",
+      "localDataCleanFailed": "Failed to clear local message index: {error}",
+      "localDataRepairDone": "Local store check finished: DB {status}, stale media {stale}",
+      "localDataRepairFailed": "Failed to check local store: {error}",
+      "localMediaCleaned": "Cleared {size} of local media cache",
+      "localMediaCleanFailed": "Failed to clear local media cache: {error}",
+      "saved": "Saved"
+    },
+    "localDataStorage": {
+      "cleanupConfirm": "Clear the local indexed message store for this device? Cloud messages are not deleted, but local history search and offline first paint will resync from the server.",
+      "cleanupDesc": "Clear this account scope local message index while keeping cloud messages.",
+      "cleanupTitle": "Clear local message index",
+      "loading": "Reading local message store...",
+      "mediaCleanupDesc": "Clear local image, video and file cache without deleting cloud messages.",
+      "mediaCleanupTitle": "Clear local media cache",
+      "repairDesc": "Check the DB, rebuild the search index, and mark missing local media files.",
+      "repairTitle": "Check and repair local store",
+      "stats": "{messages} local messages, {media} media items, {outbox} outbox items, {size}",
+      "title": "Local Message Store",
+      "unavailable": "Local message store stats are not available in this client"
+    },
+    "option": {
+      "apiLog": {
+        "body": "Full redacted",
+        "errors": "Errors only",
+        "off": "Off",
+        "summary": "All summaries"
+      },
+      "disabled": "Disabled",
+      "fontSize": {
+        "extraLarge": "Extra large",
+        "large": "Large",
+        "small": "Small",
+        "standard": "Standard"
+      },
+      "skin": {
+        "blue": "Business blue",
+        "graphite": "Graphite gray",
+        "jade": "Jade green"
+      },
+      "theme": {
+        "business": "Professional business",
+        "classicWechat": "Classic WeChat",
+        "dark": "Dark",
+        "highContrast": "High contrast",
+        "porcelain": "Porcelain"
+      }
+    },
+    "desktop": {
+      "browserUnavailable": "Browser debug unavailable",
+      "macCloseBehavior": "On macOS, closing the window keeps StartLink online. Use Cmd+Q to quit.",
+      "launchDisabled": "Launch at startup disabled",
+      "launchEnabled": "Launch at startup enabled",
+      "launchFailed": "Failed to set launch at startup: {error}",
+      "launchUnsupported": "The current browser debug environment does not support launch at startup",
+      "statusReadFailed": "Failed to read status",
+      "statusSyncFailed": "Failed to sync status",
+      "trayDisabled": "Minimize to tray disabled",
+      "trayEnabled": "Minimize to tray enabled",
+      "trayFailed": "Failed to set minimize to tray: {error}",
+      "trayUnsupported": "The current browser debug environment does not support minimize to tray"
+    },
+    "systemPermissions": {
+      "camera": {
+        "desc": "Used only when you start or answer a video call.",
+        "label": "Camera"
+      },
+      "firstLaunch": {
+        "allow": "Enable notifications",
+        "description": "While StartLink is running in the background, system notifications can alert you to new messages, service tasks, and security events.",
+        "eyebrow": "First launch setup",
+        "failed": "Unable to request notification access. Try again later from System permissions in Settings.",
+        "hint": "Continuing sends a test notification and opens macOS notification settings for confirmation.",
+        "later": "Not now",
+        "requesting": "Opening…",
+        "title": "Stay on top of important updates",
+        "unavailable": "System notifications are unavailable in this environment. Check again later in Settings."
+      },
+      "loginItems": {
+        "desc": "Review StartLink in macOS Login Items after enabling launch at startup.",
+        "label": "Login Items settings"
+      },
+      "microphone": {
+        "desc": "Used only when you start or answer a voice or video call.",
+        "label": "Microphone"
+      },
+      "notifications": {
+        "desc": "Send a clearly labelled test notification; final verification requires a signed build.",
+        "label": "Notification Center"
+      },
+      "openSettings": "Open settings",
+      "readFailed": "Unable to read system permission status. Try again after returning to StartLink.",
+      "refresh": "Refresh",
+      "request": "Request",
+      "requestBlocked": "Permission was not granted. Open System Settings, allow StartLink, then retry the feature.",
+      "requestFailed": "Unable to request this permission. Open System Settings and try again.",
+      "requestGranted": "Permission granted.",
+      "notificationSettingsOpened": "Test notification sent and System Settings opened. Enable StartLink there, then verify delivery and click-to-wake with the signed build.",
+      "screen": {
+        "desc": "Requested only when you actively take a screenshot; desktop audio is not captured.",
+        "label": "Screen Recording"
+      },
+      "settingsOpened": "System Settings opened. Return to StartLink and retry after changing the permission.",
+      "status": {
+        "denied": "Denied",
+        "granted": "Allowed",
+        "not-determined": "Not requested",
+        "restricted": "Restricted",
+        "unknown": "To verify",
+        "unsupported": "Unsupported"
+      }
+    },
+    "development": {
+      "apiUrl": "API URL",
+      "browserDebug": "Browser debug",
+      "currentEnvironment": "Current environment",
+      "defaultEnvironment": "Default test environment from current code",
+      "devRuntime": "Development / test runtime",
+      "environmentMasked": "Current connection environment (sensitive information hidden)",
+      "environmentOrigin": "{origin} (token, Authorization, and Cookie hidden)",
+      "loadingProfile": "Reading current window profile...",
+      "recentDiagnostics": "Recent diagnostics",
+      "recentDiagnosticsCount": "{count} records, export a diagnostics package for engineering.",
+      "realtime": "Realtime connection",
+      "realtimeHint": "Diagnostics packages collect WebSocket and message gateway status.",
+      "redactedHint": "Diagnostics are redacted by default and do not show passwords, tokens, Authorization, Cookie, or full mobile numbers.",
+      "testConnection": "Test connection or internal switch",
+      "title": "Development diagnostics",
+      "unknownVersion": "Unknown version",
+      "version": "Version",
+      "visibleHint": "Visible only in development / test environments"
+    },
+    "enterprise": {
+      "current": "Current enterprise",
+      "identity": "{name} / enterprise code {code} / {role}"
+    },
+    "planning": {
+      "aria": "Planned capabilities",
+      "defaultDependency": "Requires product, API, or desktop foundation work.",
+      "defaultNext": "Integrate after dependencies are split.",
+      "defaultValue": "Complete PC customer service client settings capability.",
+      "dependency": "Dependency",
+      "next": "Next step",
+      "planned": "Planned",
+      "subtitle": "These capabilities have clear product positions and integration conditions, so they are not shown as active switches yet.",
+      "title": "Planned capabilities",
+      "value": "Value"
+    },
+    "capability": {
+      "missingBackendApi": "Missing API",
+      "missingDesktopApi": "Missing desktop capability",
+      "missingRuntimeWiring": "Flow not wired"
+    },
+    "rowEffect": {
+      "account": "Saved with the account and applied immediately by this PC client.",
+      "enterprise": "Comes from the current enterprise and is shown as available state only.",
+      "local": "The result is stored only in this PC client.",
+      "localEffective": "This setting only affects the current PC client.",
+      "missingBackendApi": "Requires account or enterprise APIs before a real setting entry can be provided.",
+      "missingDesktopApi": "Requires desktop client capability before it can be enabled.",
+      "missingRuntimeWiring": "Requires the full client flow to be wired before it can be enabled.",
+      "recordOnly": "This item only shows current state and does not provide a setting entry.",
+      "system": "Only takes effect in the desktop client. Browser debug is unavailable."
+    },
+    "row": {
+      "profile": {
+        "label": "Profile",
+        "desc": "Configure Profile."
+      },
+      "enterpriseIdentity": {
+        "label": "Enterprise Identity",
+        "desc": "Configure Enterprise Identity."
+      },
+      "changePassword": {
+        "label": "Change Password",
+        "desc": "Configure Change Password."
+      },
+      "loginDevices": {
+        "label": "Login Devices",
+        "desc": "Configure Login Devices."
+      },
+      "logoutAccount": {
+        "label": "Logout Account",
+        "desc": "Configure Logout Account."
+      },
+      "deactivateAccount": {
+        "label": "Deactivate Account",
+        "desc": "Configure Deactivate Account."
+      },
+      "allowMobileSearch": {
+        "label": "Allow Mobile Search",
+        "desc": "Configure Allow Mobile Search."
+      },
+      "allowLppSearch": {
+        "label": "Allow Lpp Search",
+        "desc": "Configure Allow Lpp Search."
+      },
+      "friendRequestVerification": {
+        "label": "Friend Request Verification",
+        "desc": "Configure Friend Request Verification."
+      },
+      "profileVisibility": {
+        "label": "Profile Visibility",
+        "desc": "Configure Profile Visibility."
+      },
+      "blocklist": {
+        "label": "Blocklist",
+        "desc": "Configure Blocklist."
+      },
+      "imNotifications": {
+        "label": "Im Notifications",
+        "desc": "Configure Im Notifications."
+      },
+      "friendRequestNotifications": {
+        "label": "Friend Request Notifications",
+        "desc": "Configure Friend Request Notifications."
+      },
+      "serviceQueueNotifications": {
+        "label": "Service Queue Notifications",
+        "desc": "Configure Service Queue Notifications."
+      },
+      "customerServiceMessageNotifications": {
+        "label": "Customer Service Message Notifications",
+        "desc": "Configure Customer Service Message Notifications."
+      },
+      "foregroundInAppCustomerServiceReminders": {
+        "label": "Foreground In App Customer Service Reminders",
+        "desc": "Configure Foreground In App Customer Service Reminders."
+      },
+      "slaTimeoutNotifications": {
+        "label": "Sla Timeout Notifications",
+        "desc": "Configure Sla Timeout Notifications."
+      },
+      "desktopNotifications": {
+        "label": "Desktop Notifications",
+        "desc": "Configure Desktop Notifications."
+      },
+      "notificationPreview": {
+        "label": "Notification Preview",
+        "desc": "Configure Notification Preview."
+      },
+      "notificationSound": {
+        "label": "Notification Sound",
+        "desc": "Configure Notification Sound."
+      },
+      "doNotDisturb": {
+        "label": "Do Not Disturb",
+        "desc": "Pause IM, service queue, and SLA alerts. Calls and account security alerts remain on."
+      },
+      "enterToSend": {
+        "label": "Enter To Send",
+        "desc": "Configure Enter To Send."
+      },
+      "screenshotShortcut": {
+        "label": "Screenshot Shortcut",
+        "desc": "Configure Screenshot Shortcut."
+      },
+      "dragUpload": {
+        "label": "Drag Upload",
+        "desc": "Configure Drag Upload."
+      },
+      "autoTranslate": {
+        "label": "Auto Translate",
+        "desc": "Automatically translate peer text only while it is visible in the chat viewport."
+      },
+      "autoTranslateTargetLanguage": {
+        "label": "Translation Target Language",
+        "desc": "Auto translation always uses this language independently of the interface language."
+      },
+      "shortcutHints": {
+        "label": "Shortcut Hints",
+        "desc": "Configure Shortcut Hints."
+      },
+      "chatBackground": {
+        "label": "Chat Background",
+        "desc": "Configure Chat Background."
+      },
+      "chatExport": {
+        "label": "Chat Export",
+        "desc": "Configure Chat Export."
+      },
+      "chatBackup": {
+        "label": "Chat Backup",
+        "desc": "Configure Chat Backup."
+      },
+      "chatRestore": {
+        "label": "Chat Restore",
+        "desc": "Configure Chat Restore."
+      },
+      "theme": {
+        "label": "Theme",
+        "desc": "Configure Theme."
+      },
+      "skin": {
+        "label": "Skin",
+        "desc": "Configure Skin."
+      },
+      "fontSize": {
+        "label": "Font Size",
+        "desc": "Configure Font Size."
+      },
+      "compactList": {
+        "label": "Compact List",
+        "desc": "Configure Compact List."
+      },
+      "highDensityContext": {
+        "label": "High Density Context",
+        "desc": "Configure High Density Context."
+      },
+      "reduceMotion": {
+        "label": "Reduce Motion",
+        "desc": "Configure Reduce Motion."
+      },
+      "highContrastBoundary": {
+        "label": "High Contrast Boundary",
+        "desc": "Configure High Contrast Boundary."
+      },
+      "keyboardFocusHint": {
+        "label": "Keyboard Focus Hint",
+        "desc": "Configure Keyboard Focus Hint."
+      },
+      "minimizeToTray": {
+        "label": "Minimize To Tray",
+        "desc": "Configure Minimize To Tray."
+      },
+      "launchAtStartup": {
+        "label": "Launch At Startup",
+        "desc": "Configure Launch At Startup."
+      },
+      "multiProfileIndicator": {
+        "label": "Multi Profile Indicator",
+        "desc": "Configure Multi Profile Indicator."
+      },
+      "language": {
+        "label": "Language",
+        "desc": "Configure Language."
+      },
+      "timezone": {
+        "label": "Timezone",
+        "desc": "Configure Timezone."
+      },
+      "currentEnvironment": {
+        "label": "Current Environment",
+        "desc": "Configure Current Environment."
+      },
+      "activeLine": {
+        "label": "Active Line",
+        "desc": "Configure Active Line."
+      },
+      "lineLatencyTest": {
+        "label": "Line Latency Test",
+        "desc": "Configure Line Latency Test."
+      },
+      "autoReconnect": {
+        "label": "Auto Reconnect",
+        "desc": "Configure Auto Reconnect."
+      },
+      "weakNetworkDiagnostics": {
+        "label": "Weak Network Diagnostics",
+        "desc": "Configure Weak Network Diagnostics."
+      },
+      "clearLocalCache": {
+        "label": "Clear Local Cache",
+        "desc": "Configure Clear Local Cache."
+      },
+      "diagnosticsExport": {
+        "label": "Diagnostics Export",
+        "desc": "Configure Diagnostics Export."
+      },
+      "apiTrafficLogLevel": {
+        "label": "Api Traffic Log Level",
+        "desc": "Configure Api Traffic Log Level."
+      },
+      "diagnosticsRecentRecords": {
+        "label": "Diagnostics Recent Records",
+        "desc": "Configure Diagnostics Recent Records."
+      },
+      "connectivityHealth": {
+        "label": "Connectivity Health",
+        "desc": "Configure Connectivity Health."
+      },
+      "developmentDiagnostics": {
+        "label": "Development Diagnostics",
+        "desc": "Configure Development Diagnostics."
+      },
+      "runtimeStatus": {
+        "label": "Runtime Status",
+        "desc": "Configure Runtime Status."
+      },
+      "feedback": {
+        "label": "Feedback",
+        "desc": "Configure Feedback."
+      },
+      "terms": {
+        "label": "Terms",
+        "desc": "Configure Terms."
+      },
+      "privacyPolicy": {
+        "label": "Privacy Policy",
+        "desc": "Configure Privacy Policy."
+      },
+      "aboutClient": {
+        "label": "About Client",
+        "desc": "Configure About Client."
+      },
+      "autoCheckUpdates": {
+        "label": "Auto-check updates",
+        "desc": "When enabled, the client checks once after startup. It only prompts and never downloads or installs automatically."
+      },
+      "updateChannel": {
+        "label": "Update Channel",
+        "desc": "Stable is the default channel. Beta is reserved for staged and test releases."
+      },
+      "updateDownloadStrategy": {
+        "label": "Download Strategy",
+        "desc": "Prefer differential updates and fall back to a full download."
+      },
+      "checkUpdate": {
+        "label": "Check Update",
+        "desc": "Configure Check Update."
+      }
+    },
+    "runtimeStatus": {
+      "aria": "Runtime status",
+      "channel": {
+        "gateway": "Realtime gateway",
+        "httpQuery": "Active query",
+        "send": "Send path"
+      },
+      "empty": "No samples",
+      "emptyDesc": "No message latency samples yet. Sending or receiving messages will show samples automatically.",
+      "latestStage": "{channel}, latest stage: {stage}",
+      "localOnly": "Only locally observable stages are shown",
+      "milliseconds": "{value} ms",
+      "metric": {
+        "gatewayToCache": "Gateway to cache",
+        "gatewayToUi": "Gateway to window",
+        "sendHttp": "Send request",
+        "sendToAck": "Submit to ack",
+        "serverToGateway": "Server to gateway"
+      },
+      "owner": {
+        "customerService": "Customer service",
+        "im": "IM"
+      },
+      "recentLatency": "Recent message latency",
+      "realtime": "Live samples",
+      "seconds": "{value} sec",
+      "stage": {
+        "query_message_discovered": "Discovered by active query",
+        "receive_cache_written": "Written to local cache",
+        "receive_gateway_observed": "Received by gateway",
+        "receive_paint_observed": "Window paint completed",
+        "receive_ui_observed": "Window state received",
+        "send_compose_submit": "Send submitted",
+        "send_http_done": "Send request completed",
+        "send_http_failed": "Send failed",
+        "send_http_start": "Send request started",
+        "send_local_echo_written": "Local echo written",
+        "send_server_ack_observed": "Server ack observed"
+      },
+      "summary": {
+        "queryDiscovered": "The latest message was discovered by active query.",
+        "recorded": "Recent message runtime trace recorded.",
+        "sendHttp": "Latest send request took {duration}.",
+        "serverToGateway": "Latest realtime message from server time to local receipt took {duration}."
+      },
+      "traceTitle": "{owner} message {id}",
+      "waiting": "Waiting for samples"
+    },
+    "profile": {
+      "avatar": "Profile avatar",
+      "avatarCancelled": "Avatar change cancelled",
+      "avatarFormat": "JPG, PNG, WebP, max 5 MB",
+      "avatarSelected": "Avatar selected. Save to apply it.",
+      "avatarSyncHint": "The current avatar syncs to conversations, contacts, and the sidebar.",
+      "avatarTooLarge": "Avatar image cannot exceed 5 MB",
+      "avatarUpdateFailed": "Failed to update avatar: {error}",
+      "avatarUpdated": "Avatar updated",
+      "chooseImage": "Choose image",
+      "createdAt": "Created at",
+      "displayName": "Nickname",
+      "displayNamePlaceholder": "Enter nickname",
+      "email": "Email",
+      "error": {
+        "avatarNoUrl": "Avatar uploaded, but the server did not return an image URL",
+        "avatarProfileNoUrl": "Avatar uploaded, but the server profile did not return an avatar URL",
+        "avatarProfileUnchanged": "Avatar uploaded, but the server profile did not save the new avatar",
+        "emptyDisplayName": "Nickname cannot be empty"
+      },
+      "info": "Profile info",
+      "infoHint": "Nickname and signature sync to your profile card",
+      "loadFailed": "Failed to load profile: {error}",
+      "loading": "Loading profile...",
+      "loginExpiredAvatar": "Sign-in state expired. Sign in again before setting avatar.",
+      "loginName": "Login name",
+      "lppId": "{publicIdLabel}",
+      "member": "Member",
+      "mobile": "Mobile",
+      "reverted": "Profile edits reverted",
+      "revert": "Revert",
+      "role": "Role",
+      "saveAvatar": "Save avatar",
+      "saveFailed": "Failed to save profile: {error}",
+      "saveProfile": "Save profile",
+      "saved": "Profile saved",
+      "selectImageFile": "Choose an image file as the avatar",
+      "signature": "Signature",
+      "signaturePlaceholder": "Add a work status or personal signature",
+      "userId": "User ID"
+    },
+    "section": {
+      "about": {
+        "desc": "Version, help, agreements, and diagnostics.",
+        "title": "About"
+      },
+      "account": {
+        "desc": "Avatar, profile, login security, and account status.",
+        "title": "Account"
+      },
+      "common": {
+        "desc": "Notifications, input, chat, appearance, desktop, language, and time.",
+        "title": "Common"
+      },
+      "customerService": {
+        "desc": "Service reminders, customer context, and reception experience.",
+        "title": "Customer service"
+      },
+      "enterprise": {
+        "desc": "Current enterprise, space identity, and organization info.",
+        "title": "Enterprise"
+      },
+      "messages": {
+        "desc": "IM message reminders, input, and conversation experience.",
+        "title": "Messages"
+      },
+      "network": {
+        "desc": "Lines, connection, reconnect, and weak-network diagnostics.",
+        "title": "Network"
+      },
+      "privacy": {
+        "desc": "Search permissions, friend verification, profile visibility, and blocklist.",
+        "title": "Privacy"
+      },
+      "storageDiagnostics": {
+        "desc": "Cache, diagnostics, health checks, and redacted logs.",
+        "title": "Diagnostics"
+      }
+    },
+    "state": {
+      "autoTranslate": "Conversation-level buttons can be set to follow, on, or off."
+    },
+    "status": {
+      "common": "Common settings are grouped by notifications, input, chat, appearance, desktop, language, and time.",
+      "customerService": "Service reminders and customer context settings support the current reception workspace.",
+      "default": "Settings are saved automatically on this page and show the latest state.",
+      "notLoggedIn": "Sign-in state is not restored. Account settings will load after signing in again.",
+      "storageDiagnostics": "Diagnostics and health information only show redacted local observability state."
+    },
+    "title": "Settings center"
+  },
+  "contactsFallback": {
+    "actionError": {
+      "alreadyFriend": "Already friends",
+      "blockRestricted": "Cannot add this person because one side has blocklist restrictions enabled",
+      "forbidden": "This account does not have permission to perform this action",
+      "privacyRestricted": "The other person has friend permissions enabled and cannot be added right now",
+      "requestPending": "Friend request sent",
+      "withMessage": "{fallback}: {message}"
+    },
+    "addFriend": {
+      "aria": "Add contact",
+      "close": "Close add contact",
+      "contactFallback": "Contact",
+      "defaultMessage": "Hi, I would like to add you as a friend",
+      "matchType": {
+        "email": "Email",
+        "exact": "Exact match",
+        "lppId": "{publicIdLabel}",
+        "mobile": "Mobile number"
+      },
+      "myQr": "My friend QR code",
+      "noResults": "No user was found, or the other person does not allow search.",
+      "receivedRequests": "Received requests",
+      "relation": {
+        "accept": "Accept",
+        "add": "Add to contacts",
+        "message": "Message",
+        "reject": "Reject",
+        "self": "This is you",
+        "sent": "Friend request sent"
+      },
+      "resultsAria": "Search results",
+      "search": "Search",
+      "searchAdd": "Search to add",
+      "searchFailed": "Search failed: {error}",
+      "searchLoading": "Searching contacts...",
+      "searchPlaceholder": "Enter {publicIdLabel}, mobile number, or email",
+      "searching": "Searching",
+      "sendRequest": "Send request",
+      "sendRequestTitle": "Send friend request",
+      "sending": "Sending",
+      "subtitle": "Exact search by {publicIdLabel}, mobile number, or email",
+      "title": "Add contact"
+    },
+    "notice": {
+      "blockUserFailed": "Failed to block user",
+      "blockUserFailedWithError": "Failed to block user: {error}",
+      "blockUserSuccess": "Added to blocklist",
+      "cardMissingUserId": "The contact card is missing a user ID",
+      "createFriendQrFailed": "Failed to generate QR code",
+      "createFriendQrFailedWithError": "Failed to generate QR code: {error}",
+      "deleteFriendFailed": "Failed to delete friend",
+      "deleteFriendFailedWithError": "Failed to delete friend: {error}",
+      "enterSearchKeyword": "Enter a {publicIdLabel}, mobile number, or email.",
+      "friendDeleted": "Friend deleted",
+      "friendQrCreated": "Friend QR code generated",
+      "friendRequestAccepted": "Friend request accepted",
+      "friendRequestAutoAccepted": "You are now friends",
+      "friendRequestRejected": "Friend request rejected",
+      "friendRequestSent": "Friend request sent",
+      "handleFriendRequestFailed": "Failed to handle friend request",
+      "handleRequestFailedWithError": "Failed to handle request: {error}",
+      "missingFriendIdForRemark": "The current customer is missing a friend ID, so the remark cannot be edited",
+      "missingFriendIdForTags": "The current customer is missing a friend ID, so tags cannot be edited",
+      "missingUserIdForFriendRequest": "The current contact is missing a user ID, so a friend request cannot be sent.",
+      "openConversationFailed": "Failed to open conversation",
+      "openConversationFailedWithError": "Failed to open conversation: {error}",
+      "openConversationMissingId": "Failed to open conversation: the server did not return a conversation ID",
+      "searchFailed": "Failed to search users",
+      "sendFriendRequestFailed": "Failed to send friend request",
+      "updateCustomerProfileFailed": "Failed to update customer profile"
+    },
+    "detail": {
+      "addedAt": "Added at",
+      "conversationId": "Conversation ID",
+      "customerFriend": "Customer friend",
+      "customerRelationship": "Customer relationship",
+      "customerTags": "Customer tags",
+      "department": "Department",
+      "enterpriseMember": "Enterprise member",
+      "established": "Established",
+      "friendRelationship": "Friend relationship",
+      "friendTags": "Friend tags",
+      "greenBubbleNo": "{publicIdLabel}",
+      "group": "Contact group",
+      "groupInfo": "Group chat info",
+      "groupTags": "Group tags",
+      "groupType": "Group type",
+      "identity": "Identity",
+      "joinedAt": "Joined at",
+      "lastTime": "Last time",
+      "latestMessage": "Latest message",
+      "linkedConversation": "Linked conversation",
+      "memberCount": "Members",
+      "muted": "Muted",
+      "noTags": "No tags",
+      "normalReminder": "Normal reminders",
+      "notEstablished": "Not established",
+      "organizationInfo": "Organization info",
+      "organizationPath": "Organization path",
+      "peopleCount": "{count} people",
+      "permissionIdentity": "Permission identity",
+      "position": "Position",
+      "relationshipType": "Relationship type",
+      "remark": "Remark",
+      "reminderStatus": "Reminder status",
+      "role": "Role",
+      "source": "Source channel"
+    },
+    "inviteQr": {
+      "content": "Friend QR code content",
+      "copy": "Copy QR content",
+      "create": "Generate QR code",
+      "creating": "Generating...",
+      "empty": "No friend QR code is available. Generate one and send it to the other person.",
+      "loadFailed": "Failed to load QR code: {error}",
+      "loading": "Loading friend QR code...",
+      "refresh": "Refresh QR code",
+      "title": "Add contact"
+    },
+    "page": {
+      "action": {
+        "accept": "Accept",
+        "blockUser": "Block user",
+        "customerProfile": "Customer profile",
+        "deleteFriend": "Delete friend",
+        "editRemark": "Edit remark",
+        "message": "Message",
+        "openGroup": "Open group chat",
+        "opening": "Opening...",
+        "reject": "Reject",
+        "saveRemark": "Save",
+        "cancelRemark": "Cancel"
+      },
+      "addContact": "Add contact",
+      "addContactTitle": "Add friends and handle requests",
+      "addedAt": "Added at {time}",
+      "applicant": "Applicant",
+      "directoryError": "Contact directory API failed: {error}",
+      "empty": {
+        "all": "No contact directory data",
+        "customer": "No customer contacts",
+        "customerAll": "No contacts yet. Handle new friends or add a friend first.",
+        "customerFriend": "No friends yet. Add contacts from New Friends.",
+        "customerGroup": "No group chats.",
+        "friend": "No friends",
+        "group": "No group chats",
+        "organization": "No organization members",
+        "requests": "No friend requests"
+      },
+      "emptyDetailText": "Select a customer, friend, organization member, group chat, or request to view details.",
+      "emptyDetailTitle": "No contact directory data",
+      "emptyRequestsText": "New friend requests are handled here and do not enter temporary customer service sessions.",
+      "emptyRequestsTitle": "No friend requests",
+      "entry": {
+        "all": "All contacts",
+        "customer": "Customers",
+        "myCustomer": "My customers",
+        "friend": "Friends",
+        "group": "Group chats",
+        "organization": "Organization",
+        "requests": "New friends",
+        "staff": "Organization"
+      },
+      "entryAria": "Contact directory entries",
+      "unnamedGroup": "Unnamed group chat",
+      "groupConversation": "Group conversation",
+      "enterpriseOrganization": "Enterprise organization",
+      "friendRelationship": "Friend relationship",
+      "friendRequestFallback": "Friend request",
+      "groupMemberBadge": "{count} members",
+      "groupSubtitle": "{count} people · {reminder}",
+      "kind": {
+        "customer": "Customer",
+        "friend": "Friend",
+        "group": "Group chat",
+        "staff": "Employee"
+      },
+      "listAria": "Contact directory list",
+      "loading": "Loading contact directory...",
+      "noRecentMessage": "No recent messages",
+      "noVerificationMessage": "The other person did not enter a verification message.",
+      "notice": {
+        "addContact": "Contacts can be added through friend QR codes, contact cards, or received friend requests. Requests are handled here.",
+        "missingUserBlock": "This contact has no user ID, so it cannot be blocked.",
+        "missingUserDelete": "This contact has no user ID, so it cannot be deleted as a friend.",
+        "missingUserRemark": "This contact has no friend ID, so its remark cannot be edited.",
+        "profileShown": "The current customer profile is shown on the right.",
+        "remarkUpdated": "Remark updated.",
+        "remarkUpdateFailed": "Failed to update remark: {error}"
+      },
+      "remarkPlaceholder": "Enter a friend remark visible only to you",
+      "recipient": "Recipient",
+      "requestDefaultMessage": "Requests to add you as a friend",
+      "requestError": "Failed to load friend requests: {error}",
+      "requestStatus": {
+        "accepted": "Accepted",
+        "cancelled": "Cancelled",
+        "pending": "Pending",
+        "rejected": "Rejected",
+        "unknown": "Invalid status"
+      },
+      "requestSource": {
+        "label": "Request source",
+        "qr": "QR code",
+        "search": "Search",
+        "unknown": "Historical record"
+      },
+      "role": {
+        "admin": "Admin",
+        "customerService": "Customer service",
+        "enterpriseMember": "Enterprise member",
+        "member": "Member",
+        "owner": "Owner",
+        "technicalSupport": "Technical support"
+      },
+      "ruleTitle": "Handling rules",
+      "search": {
+        "customerMode": "Search friends and group chats",
+        "staffBasic": "Search customers, friends, and group chats",
+        "staffWithOrganization": "Search customers, friends, organization, and group chats"
+      },
+      "title": "Contacts",
+      "verificationTitle": "Verification message"
+    }
+  },
+  "customerProfileFallback": {
+    "actionAria": "Customer handling",
+    "addTag": "Add tag",
+    "actions": {
+      "cancelFieldEdit": "Cancel editing {field}",
+      "edit": "Edit",
+      "editField": "Edit {field}",
+      "saveField": "Save {field}",
+      "set": "Set",
+      "view": "View"
+    },
+    "blockingError": "Customer profile is temporarily unavailable. Basic information from conversations and contacts is shown.",
+    "blocks": {
+      "agentOwnership": "Agent ownership",
+      "businessOwnership": "Business ownership",
+      "contactInfo": "Contact information",
+      "coreIdentity": "Core identity",
+      "deviceSecurity": "Device and security",
+      "externalProfile": "Extended profile",
+      "fundsOverview": "Funds overview",
+      "language": "Language",
+      "riskCompliance": "Risk and compliance",
+      "sessionHistory": "Session history",
+      "temporaryOrders": "Temporary orders",
+      "ticketSummary": "Ticket summary",
+      "touchMarketing": "Touch and marketing",
+      "tradingSummary": "Historical trading summary"
+    },
+    "cards": {
+      "accountOverview": "Account overview",
+      "assetStructure": "Asset structure",
+      "languageBridge": "Language bridge",
+      "recentTrading7d": "Trading history (last 7 days)",
+      "serviceActions": "Service actions"
+    },
+    "detail": {
+      "addRemark": "Add remark",
+      "backToConversation": "Back to conversation",
+      "channelBadge": "Channel app {value}",
+      "createTicket": "Create ticket",
+      "loadingFullProfile": "Loading full customer profile...",
+      "noIdentity": "No customer identity information",
+      "placeholder": "Full tables and handling records will reuse the current customer profile data source as APIs mature.",
+      "selectConversation": "Select an online service conversation to view the full customer profile.",
+      "serviceContext": "Service context",
+      "sourceBadge": "Source {value}",
+      "tabsAria": "Full customer profile tabs",
+      "ticketCount": "{count} tickets"
+    },
+    "empty": {
+      "complianceData": "No KYC/compliance data",
+      "deviceRecords": "No device records",
+      "externalProfile": "No extended profile",
+      "followUp": "No follow-up set",
+      "fundRecords": "No fund records",
+      "latestTrade": "Latest trade --",
+      "notSet": "Not set",
+      "remark": "No remark",
+      "sessionSummary": "No session history summary",
+      "temporaryOrders": "No temporary orders",
+      "tickets": "No tickets",
+      "touchRecords": "No touch records",
+      "tradingDetails": "No trading details"
+    },
+    "model": {
+      "assetRows": {
+        "0": "Gold",
+        "1": "Forex",
+        "2": "Indices",
+        "3": "Commodities"
+      },
+      "booleans": {
+        "no": "No",
+        "yes": "Yes"
+      },
+      "enumLabels": {
+        "accepted": "Accepted",
+        "active": "Active",
+        "app": "Owned app",
+        "blocked": "Blocked",
+        "busy": "Busy",
+        "closed": "Closed",
+        "disabled": "Disabled",
+        "enabled": "Enabled",
+        "everyone": "Everyone",
+        "failed": "Failed",
+        "friends": "Friends only",
+        "high": "High",
+        "low": "Low",
+        "medium": "Medium",
+        "mobile_app": "Mobile app",
+        "native": "Owned app",
+        "no": "No",
+        "nobody": "Not allowed",
+        "offline": "Offline",
+        "online": "Online",
+        "own_app": "Owned app",
+        "pending": "Pending",
+        "rejected": "Rejected",
+        "reviewed": "Reviewed",
+        "success": "Success",
+        "unknown": "Unknown",
+        "unverified": "Unverified",
+        "verified": "Verified",
+        "web": "Web",
+        "website": "Web",
+        "yes": "Yes"
+      },
+      "fieldLabels": {
+        "accountBalance": "Account balance",
+        "amount": "Amount",
+        "createdAt": "Created at",
+        "netDeposit": "Net deposit",
+        "product": "Product",
+        "status": "Status",
+        "symbol": "Symbol",
+        "totalDeposit": "Total deposit",
+        "type": "Type",
+        "updatedAt": "Updated at"
+      },
+      "latestTradePrefix": "Latest trade",
+      "lotUnit": "lot",
+      "recordTitle": "Record {index}",
+      "sectionDetailTitle": "Details",
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "offline": "Offline",
+        "online": "Online",
+        "registered": "Registered",
+        "unregistered": "Unregistered",
+        "unverified": "Unverified",
+        "verified": "Verified"
+      }
+    },
+    "remarkEditor": {
+      "cancel": "Cancel",
+      "privateNote": "Private note",
+      "remarkName": "Remark name",
+      "save": "Save remark information",
+      "title": "Remark information"
+    },
+    "fields": {
+      "accountBalance": "Account balance",
+      "accountStatus": "Account status",
+      "activationStatus": "Activation status",
+      "agent": "Agent",
+      "agentType": "Agent type",
+      "assignedStaff": "Assigned agent",
+      "businessLine": "Business line",
+      "channelApp": "Channel app",
+      "commissionRate": "Commission rate",
+      "complianceNote": "Compliance note",
+      "countryRegion": "Country/region",
+      "createdAt": "Created at",
+      "customerId": "Customer ID",
+      "customerLevel": "Customer level",
+      "customerReceive": "Customer receives",
+      "deposit": "Deposit",
+      "email": "Email",
+      "followUp": "Follow-up",
+      "kycStatus": "KYC status",
+      "language": "Language",
+      "lastActive": "Last active",
+      "lastDevice": "Last device",
+      "lastIp": "Last IP",
+      "lastMessage": "Latest message",
+      "lastMessageTime": "Last time",
+      "latestFundTime": "Latest fund change",
+      "latestTouchChannel": "Latest touch channel",
+      "lppId": "{publicIdLabel}",
+      "marketingConsent": "Marketing consent",
+      "mobile": "Mobile",
+      "name": "Name",
+      "netDeposit": "Net deposit",
+      "nextFollowUp": "Next follow-up",
+      "profileVisibility": "Profile visibility",
+      "registeredAt": "Registered at",
+      "remark": "Remark",
+      "remoteLoginAlert": "Remote login alert",
+      "risk": "Risk",
+      "riskLevel": "Risk level",
+      "sessionCount": "Conversation count",
+      "source": "Source",
+      "sourceChannel": "Source channel",
+      "staffView": "Agent views",
+      "tags": "Tags",
+      "ticket": "Ticket",
+      "totalAssets": "Total assets",
+      "totalDeposit": "Total deposit",
+      "totalOrders": "Total orders",
+      "touchCount": "Touch count",
+      "tradeProduct": "Trading product",
+      "tradingVolume": "Trading volume",
+      "translateMode": "Translation mode",
+      "unreadCount": "Unread messages",
+      "userId": "User ID",
+      "winRate": "Win rate",
+      "withdrawal": "Withdrawal",
+      "recentTradeTime": "Recent trade time"
+    },
+    "fullProfile": "Full profile",
+    "inlineError": "Some customer profile data has not synced yet. Current available data is shown.",
+    "loading": "Loading customer profile...",
+    "more": "More",
+    "noTags": "No tags",
+    "notice": {
+      "followUpPending": "Follow-up API is not connected yet",
+      "missingFriendForRemark": "This customer has no friend ID, so the remark cannot be edited",
+      "missingFriendForTags": "This customer has no friend ID, so tags cannot be edited",
+      "remarkUpdated": "Remark updated",
+      "remarkUpdateFailed": "Failed to update remark",
+      "remarkUpdateFailedWithError": "Failed to update remark: {error}",
+      "tagsUpdated": "Tags updated",
+      "tagsUpdateFailed": "Failed to update tags",
+      "tagsUpdateFailedWithError": "Failed to update tags: {error}"
+    },
+    "pendingTickets": "{count} pending",
+    "recentTrading7dAria": "Last 7 days trading bar chart",
+    "statusAria": "Customer status",
+    "tabs": {
+      "agentDevice": "Agent/device",
+      "compliance": "KYC/compliance",
+      "funds": "Fund records",
+      "overview": "Overview",
+      "sessions": "Conversations",
+      "tickets": "Tickets",
+      "touch": "Touch",
+      "trading": "Trading records"
+    },
+    "tabsAria": "Customer profile tabs",
+    "temporaryOrderTitle": "Temporary order {index}",
+    "ticketTitle": "Ticket {index}",
+    "title": "Customer information",
+    "updatedAt": "Updated {time}",
+    "updatedEmpty": "Updated --"
+  },
+  "conversationInfoFallback": {
+    "actions": {
+      "accept": "Accept",
+      "addMembers": "Add members",
+      "chatBackground": "Chat background",
+      "clearHistory": "Clear chat history",
+      "complain": "Report",
+      "demoteAdmin": "Remove admin",
+      "disableAllMute": "Disable all-member mute",
+      "disableDnd": "Disable do not disturb",
+      "disableQrJoin": "Disable QR join",
+      "disbandGroup": "Disband group",
+      "enableAllMute": "Enable all-member mute",
+      "enableDnd": "Enable do not disturb",
+      "enableQrJoin": "Enable QR join",
+      "leaveGroup": "Leave group chat",
+      "more": "More",
+      "mute": "Mute",
+      "pinDirect": "Pin chat",
+      "pin": "Pin group chat",
+      "promoteAdmin": "Set admin",
+      "publish": "Publish",
+      "reject": "Reject",
+      "remove": "Remove",
+      "searchMessages": "Search chat history",
+      "submitComplaint": "Submit report",
+      "transfer": "Transfer",
+      "unmute": "Unmute",
+      "unpinDirect": "Unpin chat",
+      "unpin": "Unpin"
+    },
+    "addMemberTile": "Add",
+    "allMuted": "All muted",
+    "announcementFallback": "Group announcement",
+    "announcementPlaceholder": "Publish group announcement",
+    "announcementTitlePlaceholder": "Announcement title",
+    "applicant": "Applicant",
+    "backToAnnouncements": "Announcements",
+    "chatSettings": "Conversation tools",
+    "chatStatus": "Chat status",
+    "collapse": "Collapse group info",
+    "compactNames": "{names} and {count} people",
+    "doNotDisturb": "Do not disturb",
+    "complaintFailed": "Report submission failed: {error}",
+    "complaintLoginRequired": "Sign in before submitting a report",
+    "complaintPlaceholder": "Describe the issue. The conversation context will be included.",
+    "complaintSubmitted": "Report submitted.",
+    "complaintTitle": "Conversation report: {title}",
+    "confirm": {
+      "deleteAnnouncement": "Delete this group announcement?",
+      "disbandGroup": "Disband this group chat? This action cannot be undone.",
+      "leaveGroup": "Leave this group chat?",
+      "removeMember": "Remove {name} from the group chat?",
+      "transferOwner": "Transfer group ownership to {name}?"
+    },
+    "disabled": "Disabled",
+    "empty": "Select a conversation to view details",
+    "emptyAnnouncements": "No group announcements",
+    "emptyFiles": "No group files",
+    "emptyInviteContacts": "No contacts available to invite",
+    "emptyJoinRequests": "No join requests",
+    "emptyMembers": "No group members",
+    "enabled": "Enabled",
+    "expand": "Expand group info",
+    "fields": {
+      "admins": "Group admins",
+      "conversationType": "Conversation type",
+      "lastTime": "Last time",
+      "latestMessage": "Latest message",
+      "members": "Members",
+      "muted": "Do not disturb",
+      "myRole": "My role",
+      "owner": "Group owner",
+      "pinned": "Pinned",
+      "unread": "Unread"
+    },
+    "fileFilter": {
+      "all": "All",
+      "file": "Files",
+      "image": "Images",
+      "video": "Videos",
+      "voice": "Voice"
+    },
+    "fileCount": "{count} files",
+    "groupChat": "Group chat",
+    "groupName": "Group chat name",
+    "groupNamePlaceholder": "Group name",
+    "groupProfileTitle": "Group chat info",
+    "groupRemark": "Remark",
+    "groupSettings": "Group settings",
+    "showGroupMemberNicknames": "Show group member nicknames",
+    "invite": "Invite",
+    "inviteMembers": "Invite members",
+    "inviteContactSearchPlaceholder": "Search contacts to invite",
+    "inviteCount": "Invite {count}",
+    "inviteFromContacts": "Select from contacts",
+    "invitePlaceholder": "Enter userId, separate multiple with commas",
+    "inviteSelectedCount": "{count} selected",
+    "joinRequestFallback": "Requests to join the group chat",
+    "joinRequests": "Join requests",
+    "listSeparator": ", ",
+    "loadingMembers": "Loading group members...",
+    "memberFallback": "Group member",
+    "memberMuted": "Muted",
+    "memberMuteDialog": {
+      "duration": "Mute duration (minutes)",
+      "hint": "0 means permanent mute. The reason is sent to the server.",
+      "reason": "Reason",
+      "reasonPlaceholder": "Add a reason for audit history",
+      "submit": "Confirm mute",
+      "title": "Set member mute"
+    },
+    "memberSearchPlaceholder": "Nickname / {publicIdLabel}",
+    "moreActions": "More actions",
+    "myGroupNickname": "My nickname in this group",
+    "noSignature": "No signature",
+    "newAnnouncement": "New announcement",
+    "overview": "Group overview",
+    "ownerAdminOnly": "Only the group owner or admins can modify this",
+    "pinned": "Pinned",
+    "pinAnnouncement": "Pin announcement",
+    "quickActions": "Quick actions",
+    "profileRows": {
+      "groupNickname": "Group nickname",
+      "lppId": "{publicIdLabel}",
+      "muted": "Status",
+      "nickname": "Nickname",
+      "role": "Group role",
+      "signature": "Signature"
+    },
+    "roles": {
+      "admin": "Admin",
+      "member": "Member",
+      "owner": "Owner"
+    },
+    "saveGroupName": "Save group name",
+    "searchMembers": "Search members",
+    "settings": {
+      "allowMemberAddFriend": "Allow members to add each other as friends",
+      "allowMemberAtAll": "Allow members to @all",
+      "allowMemberInvite": "Allow members to invite",
+      "allowMemberModifyTitle": "Allow members to change group name",
+      "allowMemberViewMemberList": "Allow regular members to view the member list",
+      "allowQrCodeJoin": "Allow QR code join",
+      "requireApproval": "Require approval to join"
+    },
+    "tabs": {
+      "announcements": "Announcements",
+      "files": "Files",
+      "management": "Management",
+      "members": "Members",
+      "profile": "Profile"
+    },
+    "tabsAria": "Conversation info tabs",
+    "thisMember": "this member",
+    "title": "Conversation info",
+    "unreadCount": "{count} unread",
+    "viewMemberProfile": "View {name} profile",
+    "viewMore": "View more"
+  }
+}

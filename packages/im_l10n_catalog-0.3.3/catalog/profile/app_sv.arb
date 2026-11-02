@@ -1,0 +1,150 @@
+{
+  "@@locale": "sv",
+  "myTitle": "Jag",
+  "myEnterpriseInfo": "Företagsinformation",
+  "myEnterpriseManage": "Företagsadministration",
+  "myQrCode": "QR-kod",
+  "myFavorites": "Favoriter",
+  "myLanguage": "Språk",
+  "myTimezone": "Tidszon",
+  "myAutoTranslate": "Automatisk översättning",
+  "myNetworkSwitch": "Byt linje",
+  "mySettings": "Inställningar",
+  "myLogout": "Logga ut",
+  "myLogoutConfirm": "Vill du logga ut?",
+  "myLeaveEnterprise": "Lämna företag",
+  "myLeaveEnterpriseConfirm": "Vill du lämna detta företag? Du förlorar åtkomsten till företagets data.",
+  "myLeaveEnterpriseSuccess": "Företag lämnat",
+  "myLeaveEnterpriseFailed": "Kunde inte lämna. Försök igen.",
+  "myLppIdCopied": "StartLink-ID kopierat",
+  "myLppIdLabel": "StartLink-ID: {lppId}",
+  "myFriendCount": "{count} kontakter",
+  "myAutoSelect": "Automatiskt",
+  "myPresenceStatus": "Närvaro",
+  "myPresenceStatusTitle": "Ange närvaro",
+  "myPresenceOnline": "Online",
+  "myPresenceBusy": "Upptagen",
+  "myPresenceAway": "Borta",
+  "myPresenceInvisible": "Osynlig",
+  "profileTitle": "Min profil",
+  "profileName": "Namn",
+  "profileGender": "Kön",
+  "profileBirthday": "Födelsedag",
+  "profileRegion": "Region",
+  "profileSignature": "Profiltext",
+  "profileSignatureHint": "Berätta lite om dig själv",
+  "profileTapTapText": "Knackning",
+  "profileTapTapHint": "Text vid knackning (högst 20 tecken)",
+  "profileAccountSection": "Konto",
+  "profileBasicSection": "Grundinformation",
+  "profileLppId": "StartLink-ID",
+  "profileLppIdNotSet": "Inte angivet",
+  "profileMobile": "Telefon",
+  "profileMobileUnbound": "Inte kopplad",
+  "profileEmail": "E-post",
+  "profileEmailUnbound": "Inte kopplad",
+  "profileQrCode": "Min QR-kod",
+  "profileChangePassword": "Ändra lösenord",
+  "profileGenderMale": "Man",
+  "profileGenderFemale": "Kvinna",
+  "profileGenderOther": "Övrigt",
+  "profileGenderUnset": "Inte angivet",
+  "profileSaveFailed": "Kunde inte spara. Försök igen.",
+  "profileLppIdTitle": "StartLink-ID",
+  "profileLppIdSetOnce": "StartLink-ID kan bara ändras en gång. Välj omsorgsfullt.",
+  "profileLppIdChangeFailed": "Ändringen misslyckades (StartLink-ID kan bara ändras en gång)",
+  "profileChangePasswordOld": "Nuvarande lösenord",
+  "profileChangePasswordNew": "Nytt lösenord",
+  "profileChangePasswordConfirm": "Bekräfta nytt lösenord",
+  "profileChangePasswordMismatch": "Lösenorden matchar inte",
+  "profileChangePasswordSuccess": "Lösenordet har ändrats. Logga in igen.",
+  "profileChangePasswordFailed": "Kunde inte ändra lösenordet. Försök igen.",
+  "profilePageTitle": "Personuppgifter",
+  "profilePageSendMessage": "Meddelande",
+  "profilePageAddFriend": "Lägg till vän",
+  "profilePageAlreadyFriend": "Redan vänner",
+  "profilePageBlocked": "Blockerad",
+  "profilePageBlock": "Blockera",
+  "profilePageUnblock": "Avblockera",
+  "profilePageHidden": "Den här användaren har dolt sin profil",
+  "profilePageFriendsOnly": "Den här användaren visar endast profilen för vänner",
+  "profilePageLppId": "StartLink-ID",
+  "profilePageRemarkName": "Noteringar",
+  "profilePageEditRemark": "Redigera smeknamn",
+  "profilePageSaveRemarkSuccess": "Smeknamnet sparat",
+  "profilePageSaveRemarkFailed": "Kunde inte spara. Försök igen.",
+  "myCustomersTitle": "Mina kunder",
+  "myCustomersEmpty": "Inga kunder",
+  "profileInviteFriends": "Bjud in vänner",
+  "@profileInviteFriends": {
+    "description": "Invite friends"
+  },
+  "profileAddSignature": "Lägg till profiltext",
+  "@profileAddSignature": {
+    "description": "Add a signature"
+  },
+  "profileSigningOut": "Loggar ut. Vänta.",
+  "@profileSigningOut": {
+    "description": "Signing out. Please wait."
+  },
+  "profileInfoNotReady": "Profilen läses fortfarande in. Försök strax igen.",
+  "@profileInfoNotReady": {
+    "description": "Profile is still loading. Try again shortly."
+  },
+  "profileCannotOpenChat": "Chatten kunde inte öppnas. Försök igen.",
+  "@profileCannotOpenChat": {
+    "description": "Could not open the chat. Try again."
+  },
+  "profileIdentifierRule": "6–20 bokstäver, siffror eller understreck, med en bokstav först",
+  "@profileIdentifierRule": {
+    "description": "6–20 letters, digits or underscores, starting with a letter"
+  },
+  "profileIdentifierHint": "6–20 tecken, med en bokstav först",
+  "@profileIdentifierHint": {
+    "description": "6–20 characters, starting with a letter"
+  },
+  "profileFillAllFields": "Fyll i alla fält",
+  "@profileFillAllFields": {
+    "description": "Complete all fields"
+  },
+  "profilePasswordTooShort": "Det nya lösenordet måste vara minst 6 tecken",
+  "@profilePasswordTooShort": {
+    "description": "New password must be at least 6 characters"
+  },
+  "profileEnterValue": "Var god ange",
+  "@profileEnterValue": {
+    "description": "Enter a value"
+  },
+  "profileAvatarUploadFailed": "Profilbilden kunde inte laddas upp. Försök igen.",
+  "@profileAvatarUploadFailed": {
+    "description": "Could not upload your avatar. Try again."
+  },
+  "profileEnterField": "Ange {label}",
+  "@profileEnterField": {
+    "description": "profileEnterField",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarFailureDetail": "Uppladdning av profilbild misslyckades: {details}",
+  "@profileAvatarFailureDetail": {
+    "description": "profileAvatarFailureDetail",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarHttpFailure": "Uppladdning av profilbild misslyckades: servern returnerade {statusCode}",
+  "@profileAvatarHttpFailure": {
+    "description": "profileAvatarHttpFailure",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutFailed": "Kunde inte logga ut. Försök igen."
+}

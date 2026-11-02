@@ -1,0 +1,112 @@
+{
+  "@@locale": "id",
+  "officialAccountBadge": "Resmi",
+  "officialAccountOpenConversation": "Buka percakapan",
+  "officialAccountJoinHint": "Menambahkan akun ini akan membuat Anda bergabung ke perusahaan sebagai pelanggan. Tidak perlu persetujuan pertemanan.",
+  "officialAccountJoinDisabled": "Perusahaan ini tidak menerima pelanggan baru. Hubungi dukungan.",
+  "officialAccountRemoved": "Anda dikeluarkan dari perusahaan ini. Minta perusahaan mengundang Anda lagi.",
+  "officialAccountBanned": "Akun Anda dinonaktifkan di perusahaan ini.",
+  "officialAccountUnavailable": "Akun resmi ini sedang tidak tersedia.",
+  "officialAccountJoinBindingDisabled": "Bergabung ke perusahaan tidak diizinkan dalam mode saat ini.",
+  "officialAccountPlatformRequired": "Gunakan akun platform untuk menambahkan akun resmi ini.",
+  "officialAccountOpenFailed": "Percakapan tidak dapat dibuka. Coba lagi.",
+  "officialAccountAccountChanged": "Akun atau ruang berubah. Silakan buka kembali.",
+  "officialAccountDirectoryUnavailable": "Direktori perusahaan belum mutakhir. Coba sebentar lagi.",
+  "officialAccountInboxSyncFailed": "Sinkronisasi akun resmi gagal. Konten lokal tetap tersedia.",
+  "officialAccountInboxSyncing": "Menyinkronkan pesan akun resmi",
+  "officialIdentityQr": "Profil dan kode QR akun resmi",
+  "officialIdentityHint": "Kelola identitas resmi yang dilihat pelanggan Anda",
+  "officialEditProfile": "Edit Profil",
+  "officialSetIdentityHint": "Atur nomor, nama, dan avatar akun resmi",
+  "officialQrTitle": "Kode QR akun resmi",
+  "officialViewReset": "Lihat atau atur ulang",
+  "officialAutoJoin": "Gabung otomatis ke organisasi saat menambahkan akun resminya",
+  "officialAutoJoinHint": "Pelanggan otomatis bergabung ke ruang pelanggan organisasi saat menambahkan akun resminya",
+  "officialConversationFeatures": "Fitur percakapan",
+  "officialConversationSettingsHint": "Perubahan langsung memengaruhi percakapan resmi pelanggan",
+  "officialServiceMenu": "Menu layanan",
+  "officialServiceMenuHint": "Tampilkan menu yang dikonfigurasi di konsol desktop kepada pelanggan",
+  "officialWelcomeOnFirstContact": "Sambutan kontak pertama",
+  "officialWelcomeMessage": "Pesan sambutan",
+  "officialHumanSupport": "Alihkan ke agen manusia",
+  "officialReceptionModeHint": "Penerimaan baru atau dibuka kembali menggunakan mode terpilih. Percakapan aktif mempertahankan mode saat ini.",
+  "officialReceptionMode": "Mode penerimaan agen",
+  "officialReceptionInOfficial": "Dalam percakapan akun resmi",
+  "officialReceptionLegacy": "Obrolan agen terpisah (mode lama)",
+  "officialServiceNotice": "Pemberitahuan penerimaan",
+  "officialServiceNoticeText": "Teks pemberitahuan penerimaan",
+  "officialAutoHandoff": "Pengalihan agen otomatis",
+  "officialAutoHandoffHint": "Tugaskan agen saat pelanggan mengirim pesan ke akun resmi",
+  "officialForwardCustomerText": "Teruskan pesan pelanggan",
+  "officialForwardCustomerTextHint": "Teruskan pesan pelanggan ke agen yang ditugaskan setelah pengalihan",
+  "officialSyncAgentReplies": "Sinkronkan balasan agen ke akun resmi",
+  "officialSyncAgentRepliesHint": "Teruskan balasan agen kembali ke percakapan resmi dalam mode lama",
+  "officialHandoffCooldown": "Jeda pemberitahuan pengalihan",
+  "officialAssignedNotice": "Pesan agen ditugaskan",
+  "officialQueuedNotice": "Pesan antrean",
+  "officialDesktopManagementHint": "Kelola struktur menu, kata sandi, dan grup resmi di konsol desktop.",
+  "officialSaveFailed": "Tidak dapat menyimpan. Coba lagi nanti.",
+  "officialCooldownRange": "Rentang: 0–1440 menit",
+  "officialMenuItems": "Item menu",
+  "officialMenuVersion": "Versi menu",
+  "officialEnabled": "Diaktifkan",
+  "officialManageDenied": "Akun ini tidak dapat mengelola akun resmi",
+  "officialSettingsLoadFailed": "Tidak dapat memuat pengaturan akun resmi",
+  "officialProfileSaved": "Profil akun resmi disimpan",
+  "officialProfileTitle": "Profil akun resmi",
+  "officialDisplayName": "Nama tampilan",
+  "officialAvatarUrl": "URL avatar",
+  "officialAvatarLogoFallback": "Biarkan kosong untuk menggunakan logo organisasi",
+  "officialIdHint": "6–10 digit; biarkan kosong untuk melepas kaitan",
+  "officialResetQr": "Atur ulang kode QR",
+  "officialResetQrConfirm": "Kode QR lama akan langsung tidak berfungsi. Atur ulang?",
+  "officialReset": "Atur Ulang",
+  "officialQrNotGenerated": "Belum ada kode QR dibuat",
+  "officialQrLoadFailed": "Tidak dapat memuat kode QR. Coba lagi.",
+  "officialGenerate": "Buat",
+  "officialMenuCustomerOnly": "Menghubungi dukungan hanya tersedia untuk pelanggan",
+  "officialMenuUpdated": "Menu berubah. Coba lagi.",
+  "officialMenuActionFailed": "Tindakan gagal. Periksa koneksi lalu coba lagi.",
+  "officialMenuLoadFailed": "Tidak dapat memuat menu layanan",
+  "officialMenuRefreshFailed": "Tidak dapat menyegarkan menu layanan",
+  "officialAccountIdValue": "Akun resmi {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} menit} other {{count} menit}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Mendukung placeholder {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Digunakan {count} kali} other {Digunakan {count} kali}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Nama harus berisi 1–64 karakter",
+  "officialIdFormatInvalid": "Nomor akun resmi harus terdiri dari 6–10 digit"
+}

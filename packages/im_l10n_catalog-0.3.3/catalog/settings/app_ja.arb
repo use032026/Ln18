@@ -1,0 +1,471 @@
+{
+  "@@locale": "ja",
+  "settingsTitle": "設定",
+  "settingsSectionEnterprise": "企業",
+  "settingsSectionAccount": "アカウント",
+  "settingsSectionGeneral": "一般",
+  "settingsSectionFeatures": "機能",
+  "settingsSectionAbout": "このアプリについて",
+  "settingsEnterpriseInfo": "企業情報",
+  "settingsProfile": "プロフィール",
+  "settingsAccountSecurity": "アカウントセキュリティ",
+  "settingsNotification": "通知",
+  "settingsDisplay": "表示",
+  "settingsFriendPrivacy": "プライバシー",
+  "settingsChat": "トーク",
+  "settingsChatHistory": "トーク履歴",
+  "settingsAbout": "StartLinkについて",
+  "settingsLanguage": "言語",
+  "settingsTimezone": "タイムゾーン",
+  "settingsAutoTranslate": "自動翻訳",
+  "settingsNetworkSwitch": "ネットワーク",
+  "aboutTitle": "StartLinkについて",
+  "aboutVersion": "バージョン",
+  "aboutTerms": "利用規約",
+  "aboutPrivacy": "プライバシーポリシー",
+  "aboutOpenSource": "オープンソースライセンス",
+  "aboutCheckUpdate": "アップデートを確認",
+  "aboutLatestVersion": "最新バージョンです",
+  "aboutUpdateAvailable": "アップデートがあります",
+  "aboutUpdateNow": "今すぐアップデート",
+  "aboutUpdateLater": "後で",
+  "networkTitle": "ネットワーク",
+  "networkAutoSelect": "自動",
+  "networkManual": "手動",
+  "timezoneTitle": "タイムゾーン",
+  "timezoneAuto": "システムに従う",
+  "displayTitle": "表示",
+  "displayFontSize": "文字サイズ",
+  "displayChatBackground": "トーク背景",
+  "displayDarkMode": "ダーク",
+  "displayDarkModeSystem": "システムに従う",
+  "displayDarkModeSystemHint": "システム設定に従って自動切替",
+  "displayDarkModeOff": "ライト",
+  "displayDarkModeOffHint": "常にライトテーマを使用",
+  "displayDarkModeOn": "ダーク",
+  "displayDarkModeOnHint": "常にダークテーマを使用",
+  "accountSecurityTitle": "アカウントセキュリティ",
+  "accountSecurityChangePassword": "パスワード変更",
+  "accountSecurityChangeMobile": "電話番号変更",
+  "accountSecurityChangeEmail": "メールアドレス変更",
+  "accountSecurityLoggedDevices": "ログイン中のデバイス",
+  "accountSecurityDeactivate": "アカウント削除",
+  "accountSecurityDeactivateConfirm": "アカウントを削除すると、7日後にすべてのデータが完全に削除されます。削除しますか？",
+  "loggedDevicesTitle": "ログイン中のデバイス",
+  "loggedDevicesCurrent": "このデバイス",
+  "loggedDevicesRevoke": "ログアウト",
+  "loggedDevicesRevokeConfirm": "このデバイスからログアウトしますか？",
+  "loggedDevicesRevokeSuccess": "デバイスからログアウトしました",
+  "loggedDevicesRevokeFailed": "失敗しました。もう一度お試しください",
+  "loggedDevicesLastActive": "最終アクティブ",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "ウェブ",
+  "loggedDevicesTypeDesktop": "デスクトップ",
+  "loggedDevicesTypeUnknown": "不明なデバイス",
+  "fontSizeTitle": "文字サイズ",
+  "fontSizeSmall": "小",
+  "fontSizeNormal": "標準",
+  "fontSizeLarge": "大",
+  "fontSizeExtraLarge": "特大",
+  "fontSizePreview": "プレビュー",
+  "timezoneNameHawaii": "ハワイ",
+  "timezoneNameAlaska": "アラスカ",
+  "timezoneNamePacificTime": "太平洋時間",
+  "timezoneNameMountainTime": "山岳部時間",
+  "timezoneNameCentralTime": "中部時間",
+  "timezoneNameEasternTime": "東部時間",
+  "timezoneNameAtlanticTime": "大西洋時間",
+  "timezoneNameBrasilia": "ブラジリア",
+  "timezoneNameAzores": "アゾレス諸島",
+  "timezoneNameLondonDublin": "ロンドン/ダブリン",
+  "timezoneNameBerlinParisRome": "ベルリン/パリ/ローマ",
+  "timezoneNameCairoHelsinki": "カイロ/ヘルシンキ",
+  "timezoneNameMoscowRiyadh": "モスクワ/リヤド",
+  "timezoneNameTehran": "テヘラン",
+  "timezoneNameDubaiBaku": "ドバイ/バクー",
+  "timezoneNameKabul": "カブール",
+  "timezoneNameKarachiTashkent": "カラチ/タシュケント",
+  "timezoneNameMumbaiNewDelhi": "ムンバイ/ニューデリー",
+  "timezoneNameKathmandu": "カトマンズ",
+  "timezoneNameDhakaAlmaty": "ダッカ/アルマトイ",
+  "timezoneNameYangon": "ヤンゴン",
+  "timezoneNameBangkokHanoiJakarta": "バンコク/ハノイ/ジャカルタ",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "北京/上海/香港/台北",
+  "timezoneNameTokyoSeoul": "東京/ソウル",
+  "timezoneNameAdelaide": "アデレード",
+  "timezoneNameSydneyMelbourne": "シドニー/メルボルン",
+  "timezoneNameSolomonIslands": "ソロモン諸島",
+  "timezoneNameAucklandFiji": "オークランド/フィジー",
+  "networkSmartSelectBestRoute": "最適なルートを自動選択",
+  "networkTesting": "テスト中...",
+  "networkTestingShort": "テスト中",
+  "networkLatencyMs": "遅延 {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "接続モード",
+  "networkDirectMode": "直接接続モード",
+  "networkProxyMode": "プロキシモード",
+  "networkDirectModeDesc": "サーバーへ直接接続します",
+  "networkProxyModeDesc": "プロキシサーバー経由で接続します",
+  "networkDirectRoutes": "直接接続ルート",
+  "networkProxyRoutes": "プロキシルート",
+  "networkTestAll": "すべてテスト",
+  "networkChinaTelecom": "中国電信",
+  "networkChinaUnicom": "中国聯通",
+  "networkChinaMobile": "中国移動",
+  "networkHongKongNode": "香港ノード",
+  "networkSingaporeNode": "シンガポールノード",
+  "networkJapanNode": "日本ノード",
+  "networkUnitedStatesNode": "米国ノード",
+  "networkHint": "ヒント:\n• 直接接続モード: 高速で国内利用に適しています\n• プロキシモード: 越境通信で安定しやすいです\n• 更新アイコンをタップすると個別ルートの遅延をテストできます",
+  "diagnosticsTitle": "問題の診断",
+  "diagnosticsExplanation": "ログは匿名化され、現在のアカウントとスペースの動作・エラー情報、および共通の起動記録のみを含みます。チャット本文や認証情報は含みません。",
+  "diagnosticsHour": "過去1時間",
+  "diagnosticsDay": "過去24時間",
+  "diagnosticsWeek": "過去7日間",
+  "diagnosticsEventCount": "利用可能な記録：{count}件",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "ログは端末に保存され、再起動後も書き出せます。",
+  "diagnosticsNotPersistent": "一部のログが保存されていません。更新してください。",
+  "diagnosticsExport": "書き出して共有",
+  "diagnosticsRefresh": "更新",
+  "diagnosticsClear": "このスペースのログを消去",
+  "diagnosticsClearConfirm": "このスペースの診断ログを消去しますか？チャット履歴は削除されません。",
+  "diagnosticsShared": "システムの共有操作が完了しました。共有先でファイルを確認してください。",
+  "diagnosticsCancelled": "共有をキャンセルしました。再度書き出せます。",
+  "diagnosticsUnconfirmed": "共有結果を確認できません。共有先で確認してください。",
+  "diagnosticsFailed": "操作に失敗しました。再試行してください。",
+  "settingsDeleteWarning": "アカウントを削除すると、すべての企業スペースとの関係が解除され、メッセージ履歴は復元できません。\n\n削除申請後の7日間は、再度ログインして削除を取り消せます。",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "削除を続ける",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "最終確認",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "アカウントを削除しますか？7日後に完全に削除されます。",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "削除理由（任意）",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "削除を申請しました。7日以内にログインすると取り消せます。",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "削除を確定",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "削除できませんでした。再試行してください。",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "ブロックしたユーザーは、あなたへのメッセージ送信やプロフィール・近況の閲覧ができなくなります。",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "チャット",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Enterキーで送信",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "読み込めませんでした。タップして再試行",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "メッセージ通知への同意",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "同意済み",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "未同意",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "システムの通知権限",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "有効",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "無効",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "不明",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "非対応",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "確認中",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "確認できませんでした",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "着信の全画面通知",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "タップして確認・許可",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "着信の全画面通知を有効にしました",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "システム設定で着信の全画面通知を許可してください。",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "通知をオフにする時間帯",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "未設定",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "メッセージ通知を有効にする",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "有効にすると、JPush/JCoreと端末メーカーのプッシュサービスが、メッセージ・カスタマーサポート・着信通知のために端末情報、プッシュ識別子、通知配信情報を処理する場合があります。通知権限はシステム設定でオフにできます。",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "通知が無効のままです。システム設定で微界の通知を許可してください。",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00～08:00（夜間）",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "通知のミュートを解除",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "未テスト",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "利用不可",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "メイン接続のフォールバック",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "接続先を利用できません。現在の接続先を維持しました。",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "切り替え可能な接続先",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "接続先を更新できません。現在の接続先を維持しました。",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "更新中",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "接続先を更新",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "接続先は署名検証済みの正式設定から取得します。起動時は前回の接続先を復元してから、現在・キャッシュ・シード・S3/R2の情報で更新します。手動選択を優先し、失敗時は現在の接続先を維持します。",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "不明な端末",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "ログアウト",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "現在",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "端末一覧を読み込めませんでした",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "ログイン中の端末はありません",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "プレビュー",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "文字サイズを確認するためのサンプルです。読みやすいサイズを選んで、快適にチャットを楽しめます。",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "無断転載を禁じます",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "翻訳の例",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "原文（英語）",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "翻訳先の言語",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "ヒント：\n• 自動翻訳にはAIを使用します\n• 翻訳は参考情報であり、誤りを含む場合があります\n• チャットには原文と訳文の両方が表示されます\n• メッセージを長押しして「原文を表示」を選べます",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "標準の背景",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "ホワイト",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "ライトグレー",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "ベージュ",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "ライトブルー",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "ライトグリーン",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "ライトピンク",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "ライトパープル",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "カスタム画像",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "このチャットの背景",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "チャットの背景",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "カスタム画像を変更",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "写真から選択",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "設定済み",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "共通のチャット背景を使用",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "訳文（{language}）",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "「{name}」をログアウトしますか？",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count} セッション",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "最終アクセス {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "開発用診断",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "ネットワークを利用できません。接続設定を確認してください。",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

@@ -1,0 +1,2436 @@
+{
+  "@@locale": "zh",
+  "homeTitle": "消息",
+  "@homeTitle": {
+    "description": "Home page title"
+  },
+  "homeGatewayConnectingTitle": "连接中",
+  "@homeGatewayConnectingTitle": {
+    "description": "Home title shown while chat gateway is connecting or reconnecting"
+  },
+  "homePersonalSpace": "个人空间",
+  "@homePersonalSpace": {
+    "description": "Personal space"
+  },
+  "homeOfficialService": "官方服务空间",
+  "@homeOfficialService": {
+    "description": "Official service space"
+  },
+  "homeSwitchSpace": "切换空间",
+  "@homeSwitchSpace": {
+    "description": "Switch space"
+  },
+  "homeSpaceSubtitle": "个人空间 · 企业空间",
+  "@homeSpaceSubtitle": {
+    "description": "Space subtitle"
+  },
+  "homeJoinEnterprise": "加入企业",
+  "@homeJoinEnterprise": {
+    "description": "Join enterprise"
+  },
+  "homeCreateGroup": "发起群聊",
+  "@homeCreateGroup": {
+    "description": "Create group"
+  },
+  "homeAddFriend": "添加朋友",
+  "@homeAddFriend": {
+    "description": "Add friend"
+  },
+  "homeScan": "扫一扫",
+  "@homeScan": {
+    "description": "Scan"
+  },
+  "homeJoinNewSpace": "加入新空间",
+  "@homeJoinNewSpace": {
+    "description": "Join new space"
+  },
+  "homeSearchConversation": "搜索对话",
+  "@homeSearchConversation": {
+    "description": "Search conversation"
+  },
+  "homeNoMessages": "暂无消息",
+  "@homeNoMessages": {
+    "description": "No messages"
+  },
+  "homeDeleteConversation": "删除会话",
+  "@homeDeleteConversation": {
+    "description": "Delete conversation"
+  },
+  "homeDeleteConversationConfirm": "确定要删除该会话吗？聊天记录将被清空。",
+  "@homeDeleteConversationConfirm": {
+    "description": "Delete conversation confirm"
+  },
+  "homePersonalNote": "我（个人笔记）",
+  "@homePersonalNote": {
+    "description": "Personal note"
+  },
+  "homeWorkNote": "我（工作笔记）",
+  "@homeWorkNote": {
+    "description": "Work note"
+  },
+  "homeConversationCount": "{count} 条会话",
+  "@homeConversationCount": {
+    "description": "Conversation count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeUnreadCount": "{count} 条未读",
+  "@homeUnreadCount": {
+    "description": "Unread count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatInputHint": "输入消息...",
+  "@chatInputHint": {
+    "description": "chatInputHint"
+  },
+  "chatVoiceHint": "按住说话",
+  "@chatVoiceHint": {
+    "description": "Voice hint"
+  },
+  "chatVoiceRelease": "松开发送",
+  "@chatVoiceRelease": {
+    "description": "Voice release"
+  },
+  "chatVoiceCancel": "上滑取消",
+  "@chatVoiceCancel": {
+    "description": "Voice cancel"
+  },
+  "chatMenuCopy": "复制",
+  "@chatMenuCopy": {
+    "description": "Chat menu copy"
+  },
+  "chatMenuForward": "转发",
+  "@chatMenuForward": {
+    "description": "Chat menu forward"
+  },
+  "chatMenuRecall": "撤回",
+  "@chatMenuRecall": {
+    "description": "Chat menu recall"
+  },
+  "chatMenuDelete": "删除",
+  "@chatMenuDelete": {
+    "description": "Chat menu delete"
+  },
+  "chatMenuFavorite": "收藏",
+  "@chatMenuFavorite": {
+    "description": "Chat menu favorite"
+  },
+  "chatMenuReply": "引用",
+  "@chatMenuReply": {
+    "description": "Chat menu reply"
+  },
+  "chatMenuMultiSelect": "多选",
+  "@chatMenuMultiSelect": {
+    "description": "Chat menu multi select"
+  },
+  "chatMenuTranslate": "翻译",
+  "@chatMenuTranslate": {
+    "description": "Chat menu translate"
+  },
+  "chatMenuVoiceToText": "转文字",
+  "@chatMenuVoiceToText": {
+    "description": "Chat menu voice to text"
+  },
+  "chatMenuTextToSpeech": "朗读",
+  "@chatMenuTextToSpeech": {
+    "description": "Chat menu text to speech"
+  },
+  "chatStatusRecalled": "消息已撤回",
+  "@chatStatusRecalled": {
+    "description": "Message recalled"
+  },
+  "chatRecallSuccess": "已撤回",
+  "@chatRecallSuccess": {
+    "description": "Recall success"
+  },
+  "chatRecallFailed": "撤回失败",
+  "@chatRecallFailed": {
+    "description": "Recall failed"
+  },
+  "chatRecallTimeout": "超过2分钟的消息无法撤回",
+  "@chatRecallTimeout": {
+    "description": "Recall timeout"
+  },
+  "chatTranslateFailed": "翻译失败，请重试",
+  "@chatTranslateFailed": {
+    "description": "Translate failed"
+  },
+  "chatTranslateNotConfigured": "翻译服务暂未开放",
+  "@chatTranslateNotConfigured": {
+    "description": "Translate not configured"
+  },
+  "chatVoiceToTextFailed": "转文字失败，请重试",
+  "@chatVoiceToTextFailed": {
+    "description": "Voice to text failed"
+  },
+  "chatTextToSpeechFailed": "朗读失败，请重试",
+  "@chatTextToSpeechFailed": {
+    "description": "Text to speech failed"
+  },
+  "chatVoiceToText": "转文字",
+  "chatForwardSuccess": "已转发",
+  "@chatForwardSuccess": {
+    "description": "Forward success"
+  },
+  "chatForwardFailed": "转发失败，请重试",
+  "@chatForwardFailed": {
+    "description": "Forward failed"
+  },
+  "chatNoConversations": "没有可转发的会话",
+  "@chatNoConversations": {
+    "description": "No conversations to forward"
+  },
+  "chatSendFailed": "发送失败",
+  "@chatSendFailed": {
+    "description": "Send failed"
+  },
+  "chatResend": "重新发送",
+  "@chatResend": {
+    "description": "Resend"
+  },
+  "chatNotFriend": "对方不是你的好友",
+  "@chatNotFriend": {
+    "description": "Not friend"
+  },
+  "chatNotFriendHint": "你还不是对方的好友，暂时无法发送消息",
+  "@chatNotFriendHint": {
+    "description": "Not friend hint"
+  },
+  "chatMutedHint": "全员禁言中",
+  "@chatMutedHint": {
+    "description": "Muted hint"
+  },
+  "chatFileUploadFailed": "文件上传失败，请重试",
+  "@chatFileUploadFailed": {
+    "description": "File upload failed"
+  },
+  "chatFileStatusNotDownloaded": "未下载",
+  "@chatFileStatusNotDownloaded": {
+    "description": "File message status when the attachment has not been downloaded"
+  },
+  "chatFileStatusDownloaded": "已下载",
+  "@chatFileStatusDownloaded": {
+    "description": "File message status when the attachment is available locally"
+  },
+  "chatFileStatusUploading": "上传中",
+  "@chatFileStatusUploading": {
+    "description": "File message status while upload is in progress"
+  },
+  "chatFileStatusUploadFailed": "上传失败",
+  "@chatFileStatusUploadFailed": {
+    "description": "File message status when upload failed"
+  },
+  "chatCardSendFailed": "名片发送失败",
+  "@chatCardSendFailed": {
+    "description": "Card send failed"
+  },
+  "chatFavoriteSuccess": "已收藏",
+  "@chatFavoriteSuccess": {
+    "description": "Favorite success"
+  },
+  "chatFavoriteFailed": "收藏失败",
+  "@chatFavoriteFailed": {
+    "description": "Favorite failed"
+  },
+  "chatLoadFailed": "加载失败",
+  "@chatLoadFailed": {
+    "description": "Chat load failed"
+  },
+  "chatImageMessage": "[图片]",
+  "@chatImageMessage": {
+    "description": "Image message preview"
+  },
+  "chatVoiceMessage": "[语音]",
+  "@chatVoiceMessage": {
+    "description": "Voice message preview"
+  },
+  "chatVideoMessage": "[视频]",
+  "@chatVideoMessage": {
+    "description": "Video message preview"
+  },
+  "chatFileMessage": "[文件]",
+  "@chatFileMessage": {
+    "description": "File message preview"
+  },
+  "chatLocationMessage": "[位置]",
+  "@chatLocationMessage": {
+    "description": "Location message preview"
+  },
+  "chatContactCardMessage": "[名片]",
+  "@chatContactCardMessage": {
+    "description": "Contact card message preview"
+  },
+  "chatCallLogMessage": "[通话记录]",
+  "@chatCallLogMessage": {
+    "description": "Call log message preview"
+  },
+  "chatGroupMemberCount": "({count})",
+  "@chatGroupMemberCount": {
+    "description": "Group member count in title",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadCount": "已读 {count} 人",
+  "@chatReadCount": {
+    "description": "Chat read count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnread": "未读",
+  "@chatUnread": {
+    "description": "chatUnread"
+  },
+  "chatRecalledSelf": "你撤回了一条消息",
+  "@chatRecalledSelf": {
+    "description": "chatRecalledSelf"
+  },
+  "chatRecalledPeer": "{sender}撤回了一条消息",
+  "@chatRecalledPeer": {
+    "description": "Peer recalled message",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTranslationPrefix": "翻译：{translation}",
+  "@chatTranslationPrefix": {
+    "description": "Translation prefix",
+    "placeholders": {
+      "translation": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageDeleted": "消息已被删除",
+  "@chatMessageDeleted": {
+    "description": "chatMessageDeleted"
+  },
+  "chatPeer": "对方",
+  "@chatPeer": {
+    "description": "chatPeer"
+  },
+  "chatSelf": "我",
+  "@chatSelf": {
+    "description": "chatSelf"
+  },
+  "chatGenericMessage": "[消息]",
+  "@chatGenericMessage": {
+    "description": "chatGenericMessage"
+  },
+  "chatVoiceHideText": "隐藏文字",
+  "@chatVoiceHideText": {
+    "description": "chatVoiceHideText"
+  },
+  "chatVoiceShowText": "转文字",
+  "@chatVoiceShowText": {
+    "description": "chatVoiceShowText"
+  },
+  "chatFileDefaultName": "文件",
+  "@chatFileDefaultName": {
+    "description": "chatFileDefaultName"
+  },
+  "chatContactDefaultName": "联系人",
+  "@chatContactDefaultName": {
+    "description": "chatContactDefaultName"
+  },
+  "chatContactCardTitle": "个人名片",
+  "@chatContactCardTitle": {
+    "description": "chatContactCardTitle"
+  },
+  "chatCallMissed": "未接听",
+  "@chatCallMissed": {
+    "description": "chatCallMissed"
+  },
+  "chatCallCancelled": "已取消",
+  "@chatCallCancelled": {
+    "description": "chatCallCancelled"
+  },
+  "chatCallRejected": "已拒接",
+  "@chatCallRejected": {
+    "description": "chatCallRejected"
+  },
+  "chatCallDisconnected": "连接中断",
+  "@chatCallDisconnected": {
+    "description": "chatCallDisconnected"
+  },
+  "chatCallEnded": "通话已结束",
+  "@chatCallEnded": {
+    "description": "chatCallEnded"
+  },
+  "chatCallFailed": "通话失败",
+  "@chatCallFailed": {
+    "description": "chatCallFailed"
+  },
+  "chatCallDuration": "通话时长 {duration}",
+  "@chatCallDuration": {
+    "description": "Call duration text",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatVideoCallTitle": "视频通话",
+  "@chatVideoCallTitle": {
+    "description": "chatVideoCallTitle"
+  },
+  "chatVoiceCallTitle": "语音通话",
+  "@chatVoiceCallTitle": {
+    "description": "chatVoiceCallTitle"
+  },
+  "chatToolPhotos": "照片",
+  "@chatToolPhotos": {
+    "description": "chatToolPhotos"
+  },
+  "chatToolCamera": "拍摄",
+  "@chatToolCamera": {
+    "description": "chatToolCamera"
+  },
+  "chatToolFile": "文件",
+  "@chatToolFile": {
+    "description": "chatToolFile"
+  },
+  "chatToolLocation": "位置",
+  "@chatToolLocation": {
+    "description": "chatToolLocation"
+  },
+  "chatToolContactCard": "名片",
+  "@chatToolContactCard": {
+    "description": "chatToolContactCard"
+  },
+  "chatToolVoiceCall": "语音通话",
+  "@chatToolVoiceCall": {
+    "description": "chatToolVoiceCall"
+  },
+  "chatToolVideoCall": "视频通话",
+  "@chatToolVideoCall": {
+    "description": "chatToolVideoCall"
+  },
+  "chatToolFavorites": "收藏",
+  "@chatToolFavorites": {
+    "description": "chatToolFavorites"
+  },
+  "chatToolTranslate": "翻译",
+  "chatTranslationChooseLanguage": "选择翻译语言",
+  "chatTranslationEnterText": "请先输入文字",
+  "chatTranslationMentionsUnsupported": "暂不支持翻译带有 @ 的消息",
+  "chatTranslationScheduledUnsupported": "暂不支持翻译定时消息",
+  "chatTranslationFailed": "翻译失败，请重试",
+  "chatTranslationEmpty": "未获得译文，请重试",
+  "chatTranslationTranslating": "翻译中…",
+  "chatTranslationSend": "发送译文",
+  "chatTranslationSending": "发送中…",
+  "chatTranslationExpand": "展开译文",
+  "chatTranslationCollapse": "收起译文",
+  "chatFileTooLarge": "文件大小超过限制（100 MB）",
+  "@chatFileTooLarge": {
+    "description": "chatFileTooLarge"
+  },
+  "chatInputMutedAdminOnly": "已开启仅群主或特定成员可发言",
+  "@chatInputMutedAdminOnly": {
+    "description": "chatInputMutedAdminOnly"
+  },
+  "chatImageUploadUnsupported": "图片上传失败，服务端暂不支持，请联系管理员",
+  "@chatImageUploadUnsupported": {
+    "description": "chatImageUploadUnsupported"
+  },
+  "chatFavoriteLongPressHint": "请长按消息进行收藏",
+  "@chatFavoriteLongPressHint": {
+    "description": "chatFavoriteLongPressHint"
+  },
+  "chatSelectedCount": "已选择 {count} 条",
+  "@chatSelectedCount": {
+    "description": "Selected message count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatLocationSheetTitle": "发送位置",
+  "@chatLocationSheetTitle": {
+    "description": "chatLocationSheetTitle"
+  },
+  "chatLocationNameLabel": "地点名称",
+  "@chatLocationNameLabel": {
+    "description": "chatLocationNameLabel"
+  },
+  "chatLocationNameHint": "例如：公司、客户地址",
+  "@chatLocationNameHint": {
+    "description": "chatLocationNameHint"
+  },
+  "chatLocationAddressLabel": "详细地址",
+  "@chatLocationAddressLabel": {
+    "description": "chatLocationAddressLabel"
+  },
+  "chatLocationOptionalHint": "选填",
+  "@chatLocationOptionalHint": {
+    "description": "chatLocationOptionalHint"
+  },
+  "chatLocationLatitudeLabel": "纬度",
+  "@chatLocationLatitudeLabel": {
+    "description": "chatLocationLatitudeLabel"
+  },
+  "chatLocationLatitudeHint": "-90 到 90",
+  "@chatLocationLatitudeHint": {
+    "description": "chatLocationLatitudeHint"
+  },
+  "chatLocationLongitudeLabel": "经度",
+  "@chatLocationLongitudeLabel": {
+    "description": "chatLocationLongitudeLabel"
+  },
+  "chatLocationLongitudeHint": "-180 到 180",
+  "@chatLocationLongitudeHint": {
+    "description": "chatLocationLongitudeHint"
+  },
+  "chatLocationValidationRequired": "请输入{label}",
+  "@chatLocationValidationRequired": {
+    "description": "Location coordinate required",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLocationValidationRange": "{label}范围不正确",
+  "@chatLocationValidationRange": {
+    "description": "Location coordinate invalid range",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLocationDefaultTitle": "位置",
+  "@chatLocationDefaultTitle": {
+    "description": "chatLocationDefaultTitle"
+  },
+  "chatMutedFullNotice": "该群已开启已开启仅群主或特定成员可发言",
+  "@chatMutedFullNotice": {
+    "description": "chatMutedFullNotice"
+  },
+  "chatNotFriendSendBlocked": "你已不是对方好友，无法发送消息",
+  "@chatNotFriendSendBlocked": {
+    "description": "chatNotFriendSendBlocked"
+  },
+  "chatPersonalNotesTitle": "个人笔记",
+  "@chatPersonalNotesTitle": {
+    "description": "chatPersonalNotesTitle"
+  },
+  "chatWorkNotesTitle": "工作笔记",
+  "@chatWorkNotesTitle": {
+    "description": "chatWorkNotesTitle"
+  },
+  "chatPersonalNotesDescription": "在这里记录个人想法、保存重要信息\n跨设备同步，随时随地访问",
+  "@chatPersonalNotesDescription": {
+    "description": "chatPersonalNotesDescription"
+  },
+  "chatWorkNotesDescription": "在这里记录工作事项、保存工作资料\n团队空间独立，信息安全隔离",
+  "@chatWorkNotesDescription": {
+    "description": "chatWorkNotesDescription"
+  },
+  "chatNoMessages": "暂无消息",
+  "@chatNoMessages": {
+    "description": "chatNoMessages"
+  },
+  "chatReplyTo": "回复 {sender}",
+  "@chatReplyTo": {
+    "description": "Reply preview sender",
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFeatureComingSoon": "{feature} 功能即将上线",
+  "@chatFeatureComingSoon": {
+    "description": "Feature coming soon",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "chatForwardSelectTitle": "选择聊天",
+  "@chatForwardSelectTitle": {
+    "description": "chatForwardSelectTitle"
+  },
+  "chatContactSelectTitle": "选择联系人",
+  "@chatContactSelectTitle": {
+    "description": "chatContactSelectTitle"
+  },
+  "chatNoContacts": "暂无联系人",
+  "@chatNoContacts": {
+    "description": "chatNoContacts"
+  },
+  "autoTranslateTitle": "自动翻译",
+  "@autoTranslateTitle": {
+    "description": "Auto translate title"
+  },
+  "autoTranslateEnabled": "开启自动翻译",
+  "@autoTranslateEnabled": {
+    "description": "Auto translate enabled"
+  },
+  "autoTranslateLanguage": "翻译目标语言",
+  "@autoTranslateLanguage": {
+    "description": "Auto translate language"
+  },
+  "chatSettingsTitle": "聊天",
+  "@chatSettingsTitle": {
+    "description": "Chat settings title"
+  },
+  "chatHistoryTitle": "聊天记录管理",
+  "@chatHistoryTitle": {
+    "description": "Chat history title"
+  },
+  "chatHistoryClear": "清空聊天记录",
+  "@chatHistoryClear": {
+    "description": "Clear chat history"
+  },
+  "chatHistoryClearConfirm": "确定要清空所有聊天记录吗？此操作不可恢复。",
+  "@chatHistoryClearConfirm": {
+    "description": "Clear chat history confirm"
+  },
+  "chatHistoryClearSuccess": "聊天记录已清空",
+  "@chatHistoryClearSuccess": {
+    "description": "Clear chat history success"
+  },
+  "chatBackgroundTitle": "聊天背景",
+  "@chatBackgroundTitle": {
+    "description": "Chat background title"
+  },
+  "chatBackgroundDefault": "默认",
+  "@chatBackgroundDefault": {
+    "description": "Default background"
+  },
+  "chatBackgroundCustom": "自定义",
+  "@chatBackgroundCustom": {
+    "description": "Custom background"
+  },
+  "chatBackgroundReset": "恢复默认",
+  "@chatBackgroundReset": {
+    "description": "Reset background"
+  },
+  "imageViewerTitle": "图片",
+  "@imageViewerTitle": {
+    "description": "Image viewer title"
+  },
+  "imageViewerSave": "保存到相册",
+  "@imageViewerSave": {
+    "description": "Save image"
+  },
+  "imageViewerSaveSuccess": "已保存到相册",
+  "@imageViewerSaveSuccess": {
+    "description": "Image saved"
+  },
+  "imageViewerSaveFailed": "保存失败，请重试",
+  "@imageViewerSaveFailed": {
+    "description": "Image save failed"
+  },
+  "chatOfficialAccountReadOnlyHint": "本号仅用于推送消息，如需咨询请找客服号",
+  "mediaSavedToLocalFile": "已保存到本地文件",
+  "@mediaSavedToLocalFile": {
+    "description": "Localized mediaSavedToLocalFile presentation message"
+  },
+  "formatToday": "今天",
+  "@formatToday": {
+    "description": "Localized display formatToday"
+  },
+  "formatYesterday": "昨天",
+  "@formatYesterday": {
+    "description": "Localized display formatYesterday"
+  },
+  "formatThisWeek": "本周",
+  "@formatThisWeek": {
+    "description": "Localized display formatThisWeek"
+  },
+  "formatMinutesAgo": "{count}分钟前",
+  "@formatMinutesAgo": {
+    "description": "Localized display formatMinutesAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatHoursAgo": "{count}小时前",
+  "@formatHoursAgo": {
+    "description": "Localized display formatHoursAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatDaysAgo": "{count}天前",
+  "@formatDaysAgo": {
+    "description": "Localized display formatDaysAgo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatSeconds": "{count}秒",
+  "@formatSeconds": {
+    "description": "Localized display formatSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatMinutes": "{count}分",
+  "@formatMinutes": {
+    "description": "Localized display formatMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "formatRelativeDateTime": "{date} {time}",
+  "@formatRelativeDateTime": {
+    "description": "Localized display formatRelativeDateTime",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "formatFileSize": "{size} {unit}",
+  "@formatFileSize": {
+    "description": "Localized display formatFileSize",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "formatTomorrow": "明天",
+  "@formatTomorrow": {
+    "description": "Localized tomorrow display label"
+  },
+  "chatSpeechToTextTitle": "语音转文字",
+  "@chatSpeechToTextTitle": {
+    "description": "Chat presentation: chatSpeechToTextTitle"
+  },
+  "chatAsrReviewHint": "识别可能不准确，请确认后再发送",
+  "@chatAsrReviewHint": {
+    "description": "Chat presentation: chatAsrReviewHint"
+  },
+  "chatAsrResultHint": "识别结果…",
+  "@chatAsrResultHint": {
+    "description": "Chat presentation: chatAsrResultHint"
+  },
+  "chatAsrConfidence": "识别置信度：",
+  "@chatAsrConfidence": {
+    "description": "Chat presentation: chatAsrConfidence"
+  },
+  "chatLinkOpenLabel": "打开链接 {title}",
+  "@chatLinkOpenLabel": {
+    "description": "Chat presentation: chatLinkOpenLabel",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatLinkPreviewGenerating": "正在生成链接预览",
+  "@chatLinkPreviewGenerating": {
+    "description": "Chat presentation: chatLinkPreviewGenerating"
+  },
+  "chatLinkOpenFailed": "无法打开该链接",
+  "@chatLinkOpenFailed": {
+    "description": "Chat presentation: chatLinkOpenFailed"
+  },
+  "chatMarkRead": "标已读",
+  "@chatMarkRead": {
+    "description": "Chat presentation: chatMarkRead"
+  },
+  "chatMarkUnread": "标未读",
+  "@chatMarkUnread": {
+    "description": "Chat presentation: chatMarkUnread"
+  },
+  "chatEnableAlerts": "提醒",
+  "@chatEnableAlerts": {
+    "description": "Chat presentation: chatEnableAlerts"
+  },
+  "chatVoiceMicPermissionRequired": "需要麦克风权限",
+  "@chatVoiceMicPermissionRequired": {
+    "description": "Chat presentation: chatVoiceMicPermissionRequired"
+  },
+  "chatVoiceRecordingStartFailed": "录音启动失败",
+  "@chatVoiceRecordingStartFailed": {
+    "description": "Chat presentation: chatVoiceRecordingStartFailed"
+  },
+  "chatVoiceRecording": "录音中…",
+  "@chatVoiceRecording": {
+    "description": "Chat presentation: chatVoiceRecording"
+  },
+  "chatVoiceTooShort": "说话时间太短",
+  "@chatVoiceTooShort": {
+    "description": "Chat presentation: chatVoiceTooShort"
+  },
+  "chatVoiceRecordingSemantics": "正在录音，{count} 秒",
+  "@chatVoiceRecordingSemantics": {
+    "description": "Chat presentation: chatVoiceRecordingSemantics",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatVoiceSlideToText": "滑到这里 转文字",
+  "@chatVoiceSlideToText": {
+    "description": "Chat presentation: chatVoiceSlideToText"
+  },
+  "chatVoiceReleaseCancel": "松开 取消",
+  "@chatVoiceReleaseCancel": {
+    "description": "Chat presentation: chatVoiceReleaseCancel"
+  },
+  "chatVoiceReleaseEdit": "松手 编辑文字",
+  "@chatVoiceReleaseEdit": {
+    "description": "Chat presentation: chatVoiceReleaseEdit"
+  },
+  "chatVoiceTranscribing": "正在转文字…",
+  "@chatVoiceTranscribing": {
+    "description": "Chat presentation: chatVoiceTranscribing"
+  },
+  "chatVoiceNoText": "未识别到文字",
+  "@chatVoiceNoText": {
+    "description": "Chat presentation: chatVoiceNoText"
+  },
+  "chatVoiceSendOriginal": "发送原语音",
+  "@chatVoiceSendOriginal": {
+    "description": "Chat presentation: chatVoiceSendOriginal"
+  },
+  "chatSending": "发送中",
+  "@chatSending": {
+    "description": "Chat presentation: chatSending"
+  },
+  "chatJoinEnterpriseHint": "搜索企业、输入企业码，或查看我的申请",
+  "@chatJoinEnterpriseHint": {
+    "description": "Chat presentation: chatJoinEnterpriseHint"
+  },
+  "chatWorkbenchEntryHint": "查看待认领队列和我的会话",
+  "@chatWorkbenchEntryHint": {
+    "description": "Chat presentation: chatWorkbenchEntryHint"
+  },
+  "chatMarketingProduct": "产品卡片",
+  "@chatMarketingProduct": {
+    "description": "Chat presentation: chatMarketingProduct"
+  },
+  "chatMarketingCoupon": "活动优惠券",
+  "@chatMarketingCoupon": {
+    "description": "Chat presentation: chatMarketingCoupon"
+  },
+  "chatMarketingSurvey": "调研问卷",
+  "@chatMarketingSurvey": {
+    "description": "Chat presentation: chatMarketingSurvey"
+  },
+  "chatMarketingMore": "更多营销工具",
+  "@chatMarketingMore": {
+    "description": "Chat presentation: chatMarketingMore"
+  },
+  "chatEmojiFrequent": "常用",
+  "@chatEmojiFrequent": {
+    "description": "Chat presentation: chatEmojiFrequent"
+  },
+  "chatEmojiFaces": "笑脸",
+  "@chatEmojiFaces": {
+    "description": "Chat presentation: chatEmojiFaces"
+  },
+  "chatEmojiGestures": "手势",
+  "@chatEmojiGestures": {
+    "description": "Chat presentation: chatEmojiGestures"
+  },
+  "chatEmojiAnimals": "动物",
+  "@chatEmojiAnimals": {
+    "description": "Chat presentation: chatEmojiAnimals"
+  },
+  "chatEmojiFood": "食物",
+  "@chatEmojiFood": {
+    "description": "Chat presentation: chatEmojiFood"
+  },
+  "chatEmojiActivities": "活动",
+  "@chatEmojiActivities": {
+    "description": "Chat presentation: chatEmojiActivities"
+  },
+  "chatEmojiTravel": "旅行",
+  "@chatEmojiTravel": {
+    "description": "Chat presentation: chatEmojiTravel"
+  },
+  "chatEmojiObjects": "物品",
+  "@chatEmojiObjects": {
+    "description": "Chat presentation: chatEmojiObjects"
+  },
+  "chatCameraCaptureHint": "轻触拍照，长按摄像",
+  "chatCameraReleaseToSend": "松开发送",
+  "chatCameraStartFailed": "相机启动失败，请检查权限后重试",
+  "chatCameraUnavailable": "相机不可用",
+  "chatDetails": "聊天详情",
+  "@chatDetails": {
+    "description": "Chat presentation: chatDetails"
+  },
+  "chatFindContent": "查找聊天内容",
+  "@chatFindContent": {
+    "description": "Chat presentation: chatFindContent"
+  },
+  "chatScheduledMessages": "定时消息",
+  "@chatScheduledMessages": {
+    "description": "Chat presentation: chatScheduledMessages"
+  },
+  "chatSetBackground": "设置当前聊天背景",
+  "@chatSetBackground": {
+    "description": "Chat presentation: chatSetBackground"
+  },
+  "chatGroupManagement": "群管理",
+  "@chatGroupManagement": {
+    "description": "Chat presentation: chatGroupManagement"
+  },
+  "chatGroupAdmins": "群管理员",
+  "@chatGroupAdmins": {
+    "description": "Chat presentation: chatGroupAdmins"
+  },
+  "chatGroupMemberMute": "成员禁言",
+  "@chatGroupMemberMute": {
+    "description": "Chat presentation: chatGroupMemberMute"
+  },
+  "chatGroupInviteDisabled": "该群已关闭成员邀请权限",
+  "@chatGroupInviteDisabled": {
+    "description": "Chat presentation: chatGroupInviteDisabled"
+  },
+  "chatGroupInviteManagersOnly": "仅群主或管理员可以添加群成员",
+  "@chatGroupInviteManagersOnly": {
+    "description": "Chat presentation: chatGroupInviteManagersOnly"
+  },
+  "chatGroupCreationUnavailable": "当前版本暂不支持创建群聊",
+  "@chatGroupCreationUnavailable": {
+    "description": "Chat presentation: chatGroupCreationUnavailable"
+  },
+  "chatGroupAddedMembers": "已添加 {count} 位成员",
+  "@chatGroupAddedMembers": {
+    "description": "Chat presentation: chatGroupAddedMembers",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupNameOptional": "输入群聊名称（可选）",
+  "@chatGroupNameOptional": {
+    "description": "Chat presentation: chatGroupNameOptional"
+  },
+  "chatGroupNewDefault": "新群聊",
+  "@chatGroupNewDefault": {
+    "description": "Chat presentation: chatGroupNewDefault"
+  },
+  "chatGroupCreateNew": "创建新群聊",
+  "@chatGroupCreateNew": {
+    "description": "Chat presentation: chatGroupCreateNew"
+  },
+  "chatGroupFaceToFace": "面对面建群",
+  "@chatGroupFaceToFace": {
+    "description": "Chat presentation: chatGroupFaceToFace"
+  },
+  "chatDoneCount": "完成（{count}）",
+  "@chatDoneCount": {
+    "description": "Chat presentation: chatDoneCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDeleteCount": "删除（{count}）",
+  "@chatDeleteCount": {
+    "description": "Chat presentation: chatDeleteCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupAdminsViewDenied": "仅群主、群管理员或企业管理员可查看群管理员",
+  "@chatGroupAdminsViewDenied": {
+    "description": "Chat presentation: chatGroupAdminsViewDenied"
+  },
+  "chatGroupAdminsHelp": "管理员可协助群主管理群聊，拥有发布群公告、移除群成员等能力。",
+  "@chatGroupAdminsHelp": {
+    "description": "Chat presentation: chatGroupAdminsHelp"
+  },
+  "chatGroupOwnerOnlyHelp": "只有群主具备设置管理员、转让群主、解散群聊的能力。",
+  "@chatGroupOwnerOnlyHelp": {
+    "description": "Chat presentation: chatGroupOwnerOnlyHelp"
+  },
+  "chatGroupAdminLimit": "最多可设置 {count} 个管理员。",
+  "@chatGroupAdminLimit": {
+    "description": "Chat presentation: chatGroupAdminLimit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGroupRemoveAdmin": "移除管理员",
+  "@chatGroupRemoveAdmin": {
+    "description": "Chat presentation: chatGroupRemoveAdmin"
+  },
+  "chatGroupRemoveAdminConfirm": "确定移除「{name}」的管理员权限吗？",
+  "@chatGroupRemoveAdminConfirm": {
+    "description": "Chat presentation: chatGroupRemoveAdminConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupRequestsViewDenied": "仅群主或群管理员可查看入群申请",
+  "@chatGroupRequestsViewDenied": {
+    "description": "Chat presentation: chatGroupRequestsViewDenied"
+  },
+  "chatGroupRequestApproved": "已同意入群申请",
+  "@chatGroupRequestApproved": {
+    "description": "Chat presentation: chatGroupRequestApproved"
+  },
+  "chatGroupRequestRejected": "已拒绝入群申请",
+  "@chatGroupRequestRejected": {
+    "description": "Chat presentation: chatGroupRequestRejected"
+  },
+  "chatGroupRequestHandled": "该申请已被处理",
+  "@chatGroupRequestHandled": {
+    "description": "Chat presentation: chatGroupRequestHandled"
+  },
+  "chatGroupRejectRequest": "拒绝入群申请",
+  "@chatGroupRejectRequest": {
+    "description": "Chat presentation: chatGroupRejectRequest"
+  },
+  "chatGroupRejectReasonHint": "填写拒绝原因（可选）",
+  "@chatGroupRejectReasonHint": {
+    "description": "Chat presentation: chatGroupRejectReasonHint"
+  },
+  "chatGroupRejectReason": "拒绝原因：{reason}",
+  "@chatGroupRejectReason": {
+    "description": "Chat presentation: chatGroupRejectReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupQrJoinHelp": "开启后，成员可通过二维码加入群聊",
+  "@chatGroupQrJoinHelp": {
+    "description": "Chat presentation: chatGroupQrJoinHelp"
+  },
+  "chatGroupApprovalHelp": "开启后，申请入群需审批通过",
+  "@chatGroupApprovalHelp": {
+    "description": "Chat presentation: chatGroupApprovalHelp"
+  },
+  "chatGroupTitlePermissionHelp": "关闭后，仅群主和管理员可修改群名称",
+  "@chatGroupTitlePermissionHelp": {
+    "description": "Chat presentation: chatGroupTitlePermissionHelp"
+  },
+  "chatGroupInviteHelp": "开启后，普通成员可添加新成员",
+  "@chatGroupInviteHelp": {
+    "description": "Chat presentation: chatGroupInviteHelp"
+  },
+  "chatGroupAtAllHelp": "开启后，普通成员可在群聊中 @所有人",
+  "@chatGroupAtAllHelp": {
+    "description": "Chat presentation: chatGroupAtAllHelp"
+  },
+  "chatGroupAddFriendsHelp": "关闭后，群成员之间无法添加好友",
+  "@chatGroupAddFriendsHelp": {
+    "description": "Chat presentation: chatGroupAddFriendsHelp"
+  },
+  "chatGroupViewMembersHelp": "关闭后，普通成员无法查看成员列表",
+  "@chatGroupViewMembersHelp": {
+    "description": "Chat presentation: chatGroupViewMembersHelp"
+  },
+  "chatGroupDissolveWarning": "确定要解散该群聊吗？所有成员将收到通知，此操作不可撤销。",
+  "@chatGroupDissolveWarning": {
+    "description": "Chat presentation: chatGroupDissolveWarning"
+  },
+  "chatGroupLeaveAndDelete": "删除并退出",
+  "@chatGroupLeaveAndDelete": {
+    "description": "Chat presentation: chatGroupLeaveAndDelete"
+  },
+  "chatGroupMemberListRestricted": "群主或管理员已关闭普通成员查看成员列表权限",
+  "@chatGroupMemberListRestricted": {
+    "description": "Chat presentation: chatGroupMemberListRestricted"
+  },
+  "chatGroupShowNicknames": "显示群成员昵称",
+  "@chatGroupShowNicknames": {
+    "description": "Chat presentation: chatGroupShowNicknames"
+  },
+  "chatGroupLocalSnapshotNotice": "群详情同步失败，已展示本地聊天信息",
+  "@chatGroupLocalSnapshotNotice": {
+    "description": "Chat presentation: chatGroupLocalSnapshotNotice"
+  },
+  "chatGroupLoadFailed": "群信息加载失败",
+  "@chatGroupLoadFailed": {
+    "description": "Chat presentation: chatGroupLoadFailed"
+  },
+  "chatSelectMembers": "选择成员",
+  "@chatSelectMembers": {
+    "description": "Chat presentation: chatSelectMembers"
+  },
+  "chatSelectGroupMembers": "选择群成员",
+  "@chatSelectGroupMembers": {
+    "description": "Chat presentation: chatSelectGroupMembers"
+  },
+  "chatGroupSetAdminOwnerOnly": "仅群主可设置群管理员",
+  "@chatGroupSetAdminOwnerOnly": {
+    "description": "Chat presentation: chatGroupSetAdminOwnerOnly"
+  },
+  "chatGroupNoEligibleMembers": "暂无可添加的成员",
+  "@chatGroupNoEligibleMembers": {
+    "description": "Chat presentation: chatGroupNoEligibleMembers"
+  },
+  "chatGroupSelectNewOwner": "选择新群主",
+  "@chatGroupSelectNewOwner": {
+    "description": "Chat presentation: chatGroupSelectNewOwner"
+  },
+  "chatGroupTransferOwnerOnly": "仅群主可转让群主",
+  "@chatGroupTransferOwnerOnly": {
+    "description": "Chat presentation: chatGroupTransferOwnerOnly"
+  },
+  "chatGroupNoOtherMembers": "暂无其他成员",
+  "@chatGroupNoOtherMembers": {
+    "description": "Chat presentation: chatGroupNoOtherMembers"
+  },
+  "chatGroupTransferConfirmNamed": "确定将群主转让给「{name}」吗？转让后你将成为普通成员。",
+  "@chatGroupTransferConfirmNamed": {
+    "description": "Chat presentation: chatGroupTransferConfirmNamed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupConfirmTransfer": "确定转让",
+  "@chatGroupConfirmTransfer": {
+    "description": "Chat presentation: chatGroupConfirmTransfer"
+  },
+  "chatGroupRemarkPrivate": "群聊的备注仅自己可见",
+  "@chatGroupRemarkPrivate": {
+    "description": "Chat presentation: chatGroupRemarkPrivate"
+  },
+  "chatGroupNameDisplay": "群聊名称：{name}",
+  "@chatGroupNameDisplay": {
+    "description": "Chat presentation: chatGroupNameDisplay",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupUseName": "填入",
+  "@chatGroupUseName": {
+    "description": "Chat presentation: chatGroupUseName"
+  },
+  "chatGroupNobodyRead": "暂无人已读",
+  "@chatGroupNobodyRead": {
+    "description": "Chat presentation: chatGroupNobodyRead"
+  },
+  "chatGroupEveryoneRead": "所有人已读",
+  "@chatGroupEveryoneRead": {
+    "description": "Chat presentation: chatGroupEveryoneRead"
+  },
+  "chatGroupInfo": "聊天信息",
+  "@chatGroupInfo": {
+    "description": "Chat presentation: chatGroupInfo"
+  },
+  "chatGroupInfoCount": "聊天信息（{count}）",
+  "@chatGroupInfoCount": {
+    "description": "Chat presentation: chatGroupInfoCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReadLabel": "已读",
+  "@chatReadLabel": {
+    "description": "Chat presentation: chatReadLabel"
+  },
+  "chatFriendRequestPending": "好友申请已发送，等待对方通过",
+  "@chatFriendRequestPending": {
+    "description": "Chat presentation: chatFriendRequestPending"
+  },
+  "chatViewProfile": "查看",
+  "@chatViewProfile": {
+    "description": "Chat presentation: chatViewProfile"
+  },
+  "chatFriendWaitingVerification": "等待验证",
+  "@chatFriendWaitingVerification": {
+    "description": "Chat presentation: chatFriendWaitingVerification"
+  },
+  "chatFriendHandleRequest": "去处理",
+  "@chatFriendHandleRequest": {
+    "description": "Chat presentation: chatFriendHandleRequest"
+  },
+  "chatFriends": "好友",
+  "@chatFriends": {
+    "description": "Chat presentation: chatFriends"
+  },
+  "chatEmployee": "员工",
+  "@chatEmployee": {
+    "description": "Chat presentation: chatEmployee"
+  },
+  "chatFileReadFailed": "无法读取文件，请确认文件已下载到本机后重试",
+  "@chatFileReadFailed": {
+    "description": "Chat presentation: chatFileReadFailed"
+  },
+  "chatFileUsePhotos": "图片和视频请通过“照片”入口发送",
+  "@chatFileUsePhotos": {
+    "description": "Chat presentation: chatFileUsePhotos"
+  },
+  "chatFileTypeUnknown": "无法识别文件类型",
+  "@chatFileTypeUnknown": {
+    "description": "Chat presentation: chatFileTypeUnknown"
+  },
+  "chatFileTypeMismatch": "文件类型与扩展名不一致，无法发送",
+  "@chatFileTypeMismatch": {
+    "description": "Chat presentation: chatFileTypeMismatch"
+  },
+  "chatFileExtensionUnsupported": "暂不支持发送 .{extension} 文件",
+  "@chatFileExtensionUnsupported": {
+    "description": "Chat presentation: chatFileExtensionUnsupported",
+    "placeholders": {
+      "extension": {
+        "type": "String"
+      }
+    }
+  },
+  "chatFileTypeUnsupported": "暂不支持发送此类型文件",
+  "@chatFileTypeUnsupported": {
+    "description": "Chat presentation: chatFileTypeUnsupported"
+  },
+  "chatSelectTime": "选择时间",
+  "@chatSelectTime": {
+    "description": "Chat presentation: chatSelectTime"
+  },
+  "chatSelectMentionPeople": "选择提醒的人",
+  "@chatSelectMentionPeople": {
+    "description": "Chat presentation: chatSelectMentionPeople"
+  },
+  "chatMentionEveryone": "@所有人",
+  "@chatMentionEveryone": {
+    "description": "Chat presentation: chatMentionEveryone"
+  },
+  "chatMentionEveryoneHint": "提醒群内全部成员",
+  "@chatMentionEveryoneHint": {
+    "description": "Chat presentation: chatMentionEveryoneHint"
+  },
+  "chatMentionNobody": "暂无可提醒成员",
+  "@chatMentionNobody": {
+    "description": "Chat presentation: chatMentionNobody"
+  },
+  "chatMentionNoResults": "未找到相关成员",
+  "@chatMentionNoResults": {
+    "description": "Chat presentation: chatMentionNoResults"
+  },
+  "chatQuickReplies": "话术",
+  "@chatQuickReplies": {
+    "description": "Chat presentation: chatQuickReplies"
+  },
+  "chatAiReply": "AI 回复",
+  "@chatAiReply": {
+    "description": "Chat presentation: chatAiReply"
+  },
+  "chatQuickRepliesTitle": "常用话术",
+  "@chatQuickRepliesTitle": {
+    "description": "Chat presentation: chatQuickRepliesTitle"
+  },
+  "chatQuickRepliesLoadFailed": "话术加载失败",
+  "@chatQuickRepliesLoadFailed": {
+    "description": "Chat presentation: chatQuickRepliesLoadFailed"
+  },
+  "chatTryLater": "请稍后重试",
+  "@chatTryLater": {
+    "description": "Chat presentation: chatTryLater"
+  },
+  "chatQuickRepliesEmpty": "暂无话术",
+  "@chatQuickRepliesEmpty": {
+    "description": "Chat presentation: chatQuickRepliesEmpty"
+  },
+  "chatQuickRepliesEmptyHint": "话术库启用后会显示在这里",
+  "@chatQuickRepliesEmptyHint": {
+    "description": "Chat presentation: chatQuickRepliesEmptyHint"
+  },
+  "chatQuickRepliesNoMatch": "没有匹配的话术",
+  "@chatQuickRepliesNoMatch": {
+    "description": "Chat presentation: chatQuickRepliesNoMatch"
+  },
+  "chatTryAnotherKeyword": "换个关键词试试",
+  "@chatTryAnotherKeyword": {
+    "description": "Chat presentation: chatTryAnotherKeyword"
+  },
+  "chatQuickRepliesSearch": "搜索话术",
+  "@chatQuickRepliesSearch": {
+    "description": "Chat presentation: chatQuickRepliesSearch"
+  },
+  "chatQuickReplyUntitled": "未命名话术",
+  "@chatQuickReplyUntitled": {
+    "description": "Chat presentation: chatQuickReplyUntitled"
+  },
+  "chatBulkSend": "群发",
+  "@chatBulkSend": {
+    "description": "Chat presentation: chatBulkSend"
+  },
+  "chatBulkContentRequired": "请输入群发内容",
+  "@chatBulkContentRequired": {
+    "description": "Chat presentation: chatBulkContentRequired"
+  },
+  "chatBulkTargetsRequired": "请选择群发对象",
+  "@chatBulkTargetsRequired": {
+    "description": "Chat presentation: chatBulkTargetsRequired"
+  },
+  "chatBulkInvalidTargets": "请选择有效的群发对象",
+  "@chatBulkInvalidTargets": {
+    "description": "Chat presentation: chatBulkInvalidTargets"
+  },
+  "chatBulkSentSummary": "已发送给 {count} 个对象",
+  "@chatBulkSentSummary": {
+    "description": "Chat presentation: chatBulkSentSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkMixedSummary": "已发送 {success} 个，失败 {failed} 个",
+  "@chatBulkMixedSummary": {
+    "description": "Chat presentation: chatBulkMixedSummary",
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkRetryFailed": "重试失败项（{count}）",
+  "@chatBulkRetryFailed": {
+    "description": "Chat presentation: chatBulkRetryFailed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkSelectThenSend": "选择对象后发送",
+  "@chatBulkSelectThenSend": {
+    "description": "Chat presentation: chatBulkSelectThenSend"
+  },
+  "chatBulkSendToCount": "发送给 {count} 个对象",
+  "@chatBulkSendToCount": {
+    "description": "Chat presentation: chatBulkSendToCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBulkLoadFailed": "无法读取好友或群聊，请稍后重试",
+  "@chatBulkLoadFailed": {
+    "description": "Chat presentation: chatBulkLoadFailed"
+  },
+  "chatBulkNoTargets": "暂无可群发对象",
+  "@chatBulkNoTargets": {
+    "description": "Chat presentation: chatBulkNoTargets"
+  },
+  "chatBulkNoMatches": "未找到相关对象",
+  "@chatBulkNoMatches": {
+    "description": "Chat presentation: chatBulkNoMatches"
+  },
+  "chatBulkNoTargetsHint": "添加好友或加入群聊后可使用群发",
+  "@chatBulkNoTargetsHint": {
+    "description": "Chat presentation: chatBulkNoTargetsHint"
+  },
+  "chatBulkSearch": "搜索好友或群聊",
+  "@chatBulkSearch": {
+    "description": "Chat presentation: chatBulkSearch"
+  },
+  "chatBulkInputHint": "输入要群发的消息",
+  "@chatBulkInputHint": {
+    "description": "Chat presentation: chatBulkInputHint"
+  },
+  "chatBulkChooseFriendsGroups": "请选择好友或群聊",
+  "@chatBulkChooseFriendsGroups": {
+    "description": "Chat presentation: chatBulkChooseFriendsGroups"
+  },
+  "chatBulkSelectedCount": "已选择 {count} 个对象",
+  "@chatBulkSelectedCount": {
+    "description": "Chat presentation: chatBulkSelectedCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatUnnamedGroup": "未命名群聊",
+  "@chatUnnamedGroup": {
+    "description": "Chat presentation: chatUnnamedGroup"
+  },
+  "chatUnnamedFriend": "未命名好友",
+  "@chatUnnamedFriend": {
+    "description": "Chat presentation: chatUnnamedFriend"
+  },
+  "chatBulkSent": "已发送",
+  "@chatBulkSent": {
+    "description": "Chat presentation: chatBulkSent"
+  },
+  "chatBulkPermissionDenied": "当前身份没有群发权限",
+  "@chatBulkPermissionDenied": {
+    "description": "Chat presentation: chatBulkPermissionDenied"
+  },
+  "chatComplaintFraud": "存在欺诈骗钱行为",
+  "@chatComplaintFraud": {
+    "description": "Chat presentation: chatComplaintFraud"
+  },
+  "chatComplaintRights": "存在侵权行为",
+  "@chatComplaintRights": {
+    "description": "Chat presentation: chatComplaintRights"
+  },
+  "chatComplaintHarmful": "发送不良信息",
+  "@chatComplaintHarmful": {
+    "description": "Chat presentation: chatComplaintHarmful"
+  },
+  "chatComplaintHarassment": "骚扰他人",
+  "@chatComplaintHarassment": {
+    "description": "Chat presentation: chatComplaintHarassment"
+  },
+  "chatComplaintRumors": "散布谣言",
+  "@chatComplaintRumors": {
+    "description": "Chat presentation: chatComplaintRumors"
+  },
+  "chatComplaintSubmitFailed": "投诉提交失败，请重试",
+  "@chatComplaintSubmitFailed": {
+    "description": "Chat presentation: chatComplaintSubmitFailed"
+  },
+  "chatComplaintSubmitted": "投诉已提交",
+  "@chatComplaintSubmitted": {
+    "description": "Chat presentation: chatComplaintSubmitted"
+  },
+  "chatComplaintThanks": "感谢你的反馈，我们会尽快处理「{reason}」相关投诉。",
+  "@chatComplaintThanks": {
+    "description": "Chat presentation: chatComplaintThanks",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatComplaintId": "投诉编号：{id}",
+  "@chatComplaintId": {
+    "description": "Chat presentation: chatComplaintId",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsTransferredNotice": "会话已交由其他客服接待，当前账号不能继续回复。",
+  "@chatCsTransferredNotice": {
+    "description": "Chat presentation: chatCsTransferredNotice"
+  },
+  "chatCsHistoryRetained": "历史记录已保留，客户继续对话后会恢复接待。",
+  "@chatCsHistoryRetained": {
+    "description": "Chat presentation: chatCsHistoryRetained"
+  },
+  "chatCsClosedVisitor": "访客关闭",
+  "@chatCsClosedVisitor": {
+    "description": "Chat presentation: chatCsClosedVisitor"
+  },
+  "chatCsClosedStaff": "客服关闭",
+  "@chatCsClosedStaff": {
+    "description": "Chat presentation: chatCsClosedStaff"
+  },
+  "chatCsClosedTimeout": "超时关闭",
+  "@chatCsClosedTimeout": {
+    "description": "Chat presentation: chatCsClosedTimeout"
+  },
+  "chatCsClosedSystem": "系统关闭",
+  "@chatCsClosedSystem": {
+    "description": "Chat presentation: chatCsClosedSystem"
+  },
+  "chatCsArchived": "已归档",
+  "@chatCsArchived": {
+    "description": "Chat presentation: chatCsArchived"
+  },
+  "chatCsTransferred": "已转交其他客服",
+  "@chatCsTransferred": {
+    "description": "Chat presentation: chatCsTransferred"
+  },
+  "chatCsEnded": "已结束",
+  "@chatCsEnded": {
+    "description": "Chat presentation: chatCsEnded"
+  },
+  "chatAutoGlobalEnabled": "跟随全局（已开启）",
+  "@chatAutoGlobalEnabled": {
+    "description": "Chat presentation: chatAutoGlobalEnabled"
+  },
+  "chatAutoGlobalDisabled": "跟随全局（已关闭）",
+  "@chatAutoGlobalDisabled": {
+    "description": "Chat presentation: chatAutoGlobalDisabled"
+  },
+  "chatAutoConversationEnabled": "本会话（已开启）",
+  "@chatAutoConversationEnabled": {
+    "description": "Chat presentation: chatAutoConversationEnabled"
+  },
+  "chatAutoConversationDisabled": "本会话（已关闭）",
+  "@chatAutoConversationDisabled": {
+    "description": "Chat presentation: chatAutoConversationDisabled"
+  },
+  "chatScheduledNotCancelable": "定时消息已发送或不可取消",
+  "@chatScheduledNotCancelable": {
+    "description": "Chat presentation: chatScheduledNotCancelable"
+  },
+  "chatScheduledCancelFailed": "取消失败，请稍后重试",
+  "@chatScheduledCancelFailed": {
+    "description": "Chat presentation: chatScheduledCancelFailed"
+  },
+  "historyStorage": "存储空间",
+  "@historyStorage": {
+    "description": "Storage"
+  },
+  "historyStorageUnavailable": "暂无法提供存储统计",
+  "@historyStorageUnavailable": {
+    "description": "Storage statistics are unavailable"
+  },
+  "historyBackupRestore": "备份与恢复",
+  "@historyBackupRestore": {
+    "description": "Backup and restore"
+  },
+  "historyBackup": "备份聊天记录",
+  "@historyBackup": {
+    "description": "Back up chat history"
+  },
+  "historyRestore": "恢复聊天记录",
+  "@historyRestore": {
+    "description": "Restore chat history"
+  },
+  "historyImportExport": "导入与导出",
+  "@historyImportExport": {
+    "description": "Import and export"
+  },
+  "historyExport": "导出聊天记录",
+  "@historyExport": {
+    "description": "Export chat history"
+  },
+  "historyImport": "导入聊天记录",
+  "@historyImport": {
+    "description": "Import chat history"
+  },
+  "historyNotAvailable": "暂未开放",
+  "@historyNotAvailable": {
+    "description": "Not available yet"
+  },
+  "formatPercentageValue": "{value}%",
+  "@formatPercentageValue": {
+    "description": "Percentage with existing precision",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGroupPublish": "发布",
+  "@chatGroupPublish": {
+    "description": "Chat presentation: chatGroupPublish"
+  },
+  "chatAnnouncementTitleOptional": "公告标题（选填）",
+  "@chatAnnouncementTitleOptional": {
+    "description": "Chat presentation: chatAnnouncementTitleOptional"
+  },
+  "chatDeleteFailed": "删除失败，请重试",
+  "@chatDeleteFailed": {
+    "description": "Chat presentation: chatDeleteFailed"
+  },
+  "chatSaveFailed": "保存失败，请重试",
+  "@chatSaveFailed": {
+    "description": "Chat presentation: chatSaveFailed"
+  },
+  "chatMemberMuted": "已禁言该成员",
+  "@chatMemberMuted": {
+    "description": "Chat presentation: chatMemberMuted"
+  },
+  "chatMemberUnmuted": "已取消该成员禁言",
+  "@chatMemberUnmuted": {
+    "description": "Chat presentation: chatMemberUnmuted"
+  },
+  "chatMutePermissionDenied": "仅群主、群管理员或企业管理员可设置成员禁言",
+  "@chatMutePermissionDenied": {
+    "description": "Chat presentation: chatMutePermissionDenied"
+  },
+  "chatNoMutableMembers": "暂无可禁言的普通成员",
+  "@chatNoMutableMembers": {
+    "description": "Chat presentation: chatNoMutableMembers"
+  },
+  "chatSearchMembers": "搜索成员",
+  "@chatSearchMembers": {
+    "description": "Chat presentation: chatSearchMembers"
+  },
+  "chatClearSearch": "清空搜索",
+  "@chatClearSearch": {
+    "description": "Chat presentation: chatClearSearch"
+  },
+  "chatNoMatchingMembers": "暂无匹配成员",
+  "@chatNoMatchingMembers": {
+    "description": "Chat presentation: chatNoMatchingMembers"
+  },
+  "chatNoResultsFor": "未找到“{query}”",
+  "@chatNoResultsFor": {
+    "description": "Chat presentation: chatNoResultsFor",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteHelp": "成员禁言只影响普通成员发言。禁言时长按分钟设置，0 表示永久禁言；原因会随操作提交给服务端。",
+  "@chatMuteHelp": {
+    "description": "Chat presentation: chatMuteHelp"
+  },
+  "chatMuteUntil": "至 {time}",
+  "@chatMuteUntil": {
+    "description": "Chat presentation: chatMuteUntil",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteReasonText": "原因：{reason}",
+  "@chatMuteReasonText": {
+    "description": "Chat presentation: chatMuteReasonText",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteAction": "禁言",
+  "@chatMuteAction": {
+    "description": "Chat presentation: chatMuteAction"
+  },
+  "chatUnmuteAction": "解除禁言",
+  "@chatUnmuteAction": {
+    "description": "Chat presentation: chatUnmuteAction"
+  },
+  "chatMuteSettings": "设置禁言",
+  "@chatMuteSettings": {
+    "description": "Chat presentation: chatMuteSettings"
+  },
+  "chatMuteMinutesInvalid": "请输入不小于 0 的整数",
+  "@chatMuteMinutesInvalid": {
+    "description": "Chat presentation: chatMuteMinutesInvalid"
+  },
+  "chatMuteMemberConfirm": "将禁言该成员",
+  "@chatMuteMemberConfirm": {
+    "description": "Chat presentation: chatMuteMemberConfirm"
+  },
+  "chatMuteNamedConfirm": "将禁言「{name}」",
+  "@chatMuteNamedConfirm": {
+    "description": "Chat presentation: chatMuteNamedConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMuteDurationMinutes": "禁言时长（分钟）",
+  "@chatMuteDurationMinutes": {
+    "description": "Chat presentation: chatMuteDurationMinutes"
+  },
+  "chatMutePermanentHint": "填 0 表示永久禁言",
+  "@chatMutePermanentHint": {
+    "description": "Chat presentation: chatMutePermanentHint"
+  },
+  "chatMuteReason": "禁言原因",
+  "@chatMuteReason": {
+    "description": "Chat presentation: chatMuteReason"
+  },
+  "chatMuteReasonHint": "选填，便于后续追溯",
+  "@chatMuteReasonHint": {
+    "description": "Chat presentation: chatMuteReasonHint"
+  },
+  "chatConfirmMute": "确定禁言",
+  "@chatConfirmMute": {
+    "description": "Chat presentation: chatConfirmMute"
+  },
+  "chatMutedStatus": "已禁言",
+  "@chatMutedStatus": {
+    "description": "Chat presentation: chatMutedStatus"
+  },
+  "chatNotMutedStatus": "未禁言",
+  "@chatNotMutedStatus": {
+    "description": "Chat presentation: chatNotMutedStatus"
+  },
+  "chatMuteStatusUnknown": "状态未同步",
+  "@chatMuteStatusUnknown": {
+    "description": "Chat presentation: chatMuteStatusUnknown"
+  },
+  "chatQrUnavailable": "二维码不可用",
+  "@chatQrUnavailable": {
+    "description": "Chat presentation: chatQrUnavailable"
+  },
+  "chatQrCopyContent": "复制内容",
+  "@chatQrCopyContent": {
+    "description": "Chat presentation: chatQrCopyContent"
+  },
+  "chatQrCreationRestricted": "群主或管理员已关闭普通成员生成二维码",
+  "@chatQrCreationRestricted": {
+    "description": "Chat presentation: chatQrCreationRestricted"
+  },
+  "chatQrGenerating": "正在生成群二维码",
+  "@chatQrGenerating": {
+    "description": "Chat presentation: chatQrGenerating"
+  },
+  "chatQrGenerationFailed": "群二维码生成失败，请刷新重试",
+  "@chatQrGenerationFailed": {
+    "description": "Chat presentation: chatQrGenerationFailed"
+  },
+  "chatQrRequestHint": "扫一扫上面的二维码，提交入群申请",
+  "@chatQrRequestHint": {
+    "description": "Chat presentation: chatQrRequestHint"
+  },
+  "chatQrJoinHint": "扫一扫上面的二维码，加入群聊",
+  "@chatQrJoinHint": {
+    "description": "Chat presentation: chatQrJoinHint"
+  },
+  "chatQrExpiry": "有效期至 {time}",
+  "@chatQrExpiry": {
+    "description": "Chat presentation: chatQrExpiry",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatQrLoadFailed": "群二维码加载失败",
+  "@chatQrLoadFailed": {
+    "description": "Chat presentation: chatQrLoadFailed"
+  },
+  "chatReadDetails": "已读详情",
+  "@chatReadDetails": {
+    "description": "Chat presentation: chatReadDetails"
+  },
+  "chatImageOriginalFailed": "原图加载失败，点击重试",
+  "@chatImageOriginalFailed": {
+    "description": "Chat presentation: chatImageOriginalFailed"
+  },
+  "chatMentionReminderMe": "[@我]",
+  "@chatMentionReminderMe": {
+    "description": "Chat presentation: chatMentionReminderMe"
+  },
+  "chatMentionReminderAll": "[@所有人]",
+  "@chatMentionReminderAll": {
+    "description": "Chat presentation: chatMentionReminderAll"
+  },
+  "chatMentionBannerMe": "有 @你的消息",
+  "@chatMentionBannerMe": {
+    "description": "Chat presentation: chatMentionBannerMe"
+  },
+  "chatMentionBannerAll": "有 @所有人的消息",
+  "@chatMentionBannerAll": {
+    "description": "Chat presentation: chatMentionBannerAll"
+  },
+  "chatCsClaimFirst": "请先接入该会话",
+  "@chatCsClaimFirst": {
+    "description": "Chat presentation: chatCsClaimFirst"
+  },
+  "chatCsTakeoverFirst": "请先人工接管该会话",
+  "@chatCsTakeoverFirst": {
+    "description": "Chat presentation: chatCsTakeoverFirst"
+  },
+  "chatCsReadOnlyAction": "当前为只读会话，不能执行该操作",
+  "@chatCsReadOnlyAction": {
+    "description": "Chat presentation: chatCsReadOnlyAction"
+  },
+  "chatCsRoleDenied": "当前角色不能执行该客服操作",
+  "@chatCsRoleDenied": {
+    "description": "Chat presentation: chatCsRoleDenied"
+  },
+  "chatCsUnavailable": "当前会话暂不可操作",
+  "@chatCsUnavailable": {
+    "description": "Chat presentation: chatCsUnavailable"
+  },
+  "chatActionUnavailable": "当前状态暂不可操作",
+  "@chatActionUnavailable": {
+    "description": "Chat presentation: chatActionUnavailable"
+  },
+  "chatCsResumed": "会话已恢复，可继续接待",
+  "@chatCsResumed": {
+    "description": "Chat presentation: chatCsResumed"
+  },
+  "chatCsHandledByOther": "当前会话由其他客服接待",
+  "@chatCsHandledByOther": {
+    "description": "Chat presentation: chatCsHandledByOther"
+  },
+  "chatCsCustomerNotReturned": "客户尚未继续对话",
+  "@chatCsCustomerNotReturned": {
+    "description": "Chat presentation: chatCsCustomerNotReturned"
+  },
+  "chatCsTakenOver": "已人工接管",
+  "@chatCsTakenOver": {
+    "description": "Chat presentation: chatCsTakenOver"
+  },
+  "chatCsTakeoverFailed": "接管失败，请重试",
+  "@chatCsTakeoverFailed": {
+    "description": "Chat presentation: chatCsTakeoverFailed"
+  },
+  "chatCsAccepted": "已接入会话",
+  "@chatCsAccepted": {
+    "description": "Chat presentation: chatCsAccepted"
+  },
+  "chatCsClaimFailed": "接入失败，请重试",
+  "@chatCsClaimFailed": {
+    "description": "Chat presentation: chatCsClaimFailed"
+  },
+  "chatCsCloseHint": "关闭后不会删除底层聊天记录，可由服务端策略重新排队或分配。",
+  "@chatCsCloseHint": {
+    "description": "Chat presentation: chatCsCloseHint"
+  },
+  "chatCsClosed": "已关闭会话",
+  "@chatCsClosed": {
+    "description": "Chat presentation: chatCsClosed"
+  },
+  "chatCsCloseFailed": "关闭失败，请重试",
+  "@chatCsCloseFailed": {
+    "description": "Chat presentation: chatCsCloseFailed"
+  },
+  "chatCsTransferUnavailable": "当前会话暂不能转接",
+  "@chatCsTransferUnavailable": {
+    "description": "Chat presentation: chatCsTransferUnavailable"
+  },
+  "chatCsNoTransferAgent": "暂无可转接的客服",
+  "@chatCsNoTransferAgent": {
+    "description": "Chat presentation: chatCsNoTransferAgent"
+  },
+  "chatCsTransferredSuccess": "已转交会话",
+  "@chatCsTransferredSuccess": {
+    "description": "Chat presentation: chatCsTransferredSuccess"
+  },
+  "chatCsTransferFailed": "转交失败，请重试",
+  "@chatCsTransferFailed": {
+    "description": "Chat presentation: chatCsTransferFailed"
+  },
+  "chatCustomerConversation": "客户会话",
+  "@chatCustomerConversation": {
+    "description": "Chat presentation: chatCustomerConversation"
+  },
+  "chatSaveToAlbum": "保存到相册",
+  "@chatSaveToAlbum": {
+    "description": "Chat presentation: chatSaveToAlbum"
+  },
+  "chatNoTranslatableMessages": "暂无对方可翻译的消息",
+  "@chatNoTranslatableMessages": {
+    "description": "Chat presentation: chatNoTranslatableMessages"
+  },
+  "chatAutoFollowGlobal": "跟随全局",
+  "@chatAutoFollowGlobal": {
+    "description": "Chat presentation: chatAutoFollowGlobal"
+  },
+  "chatAutoGlobalOn": "当前全局已开启",
+  "@chatAutoGlobalOn": {
+    "description": "Chat presentation: chatAutoGlobalOn"
+  },
+  "chatAutoGlobalOff": "当前全局已关闭",
+  "@chatAutoGlobalOff": {
+    "description": "Chat presentation: chatAutoGlobalOff"
+  },
+  "chatAutoEnableHere": "本会话开启",
+  "@chatAutoEnableHere": {
+    "description": "Chat presentation: chatAutoEnableHere"
+  },
+  "chatAutoViewportHint": "仅自动翻译当前屏幕内的对方消息",
+  "@chatAutoViewportHint": {
+    "description": "Chat presentation: chatAutoViewportHint"
+  },
+  "chatAutoDisableHere": "本会话关闭",
+  "@chatAutoDisableHere": {
+    "description": "Chat presentation: chatAutoDisableHere"
+  },
+  "chatAutoDisableHint": "即使全局开启，本会话也不自动翻译",
+  "@chatAutoDisableHint": {
+    "description": "Chat presentation: chatAutoDisableHint"
+  },
+  "chatTranslateVisibleMessages": "翻译当前屏幕消息",
+  "@chatTranslateVisibleMessages": {
+    "description": "Chat presentation: chatTranslateVisibleMessages"
+  },
+  "chatScheduledTooSoon": "请选择至少 1 分钟后的时间",
+  "@chatScheduledTooSoon": {
+    "description": "Chat presentation: chatScheduledTooSoon"
+  },
+  "chatScheduledTooLate": "定时发送最多支持 14 天内",
+  "@chatScheduledTooLate": {
+    "description": "Chat presentation: chatScheduledTooLate"
+  },
+  "chatScheduledSettingsFailed": "定时发送设置失败",
+  "@chatScheduledSettingsFailed": {
+    "description": "Chat presentation: chatScheduledSettingsFailed"
+  },
+  "chatModerationBlocked": "内容不符合规范，已禁止发送",
+  "@chatModerationBlocked": {
+    "description": "Chat presentation: chatModerationBlocked"
+  },
+  "chatUserMuted": "当前账号已被禁言，暂时无法发言",
+  "@chatUserMuted": {
+    "description": "Chat presentation: chatUserMuted"
+  },
+  "chatGroupSendInvalidOperation": "群消息发送失败，请稍后重试（INVALID_OPERATION）",
+  "@chatGroupSendInvalidOperation": {
+    "description": "Chat presentation: chatGroupSendInvalidOperation"
+  },
+  "chatSendFailedReason": "发送失败：{reason}",
+  "@chatSendFailedReason": {
+    "description": "Chat presentation: chatSendFailedReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMenuUnavailable": "此菜单暂不可用",
+  "@chatMenuUnavailable": {
+    "description": "Chat presentation: chatMenuUnavailable"
+  },
+  "chatCsPreparing": "客服会话正在准备，请稍后重试",
+  "@chatCsPreparing": {
+    "description": "Chat presentation: chatCsPreparing"
+  },
+  "chatCsQueued": "已为您排队，坐席空闲后会主动联系您",
+  "@chatCsQueued": {
+    "description": "Chat presentation: chatCsQueued"
+  },
+  "chatCsAiHandling": "AI 正在接待",
+  "@chatCsAiHandling": {
+    "description": "Chat presentation: chatCsAiHandling"
+  },
+  "chatCsMeHandling": "我正在接待",
+  "@chatCsMeHandling": {
+    "description": "Chat presentation: chatCsMeHandling"
+  },
+  "chatCsAgentHandling": "{name} 正在接待",
+  "@chatCsAgentHandling": {
+    "description": "Chat presentation: chatCsAgentHandling",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsAiSource": "客户消息由 AI 客服回复 · 来源 {source}",
+  "@chatCsAiSource": {
+    "description": "Chat presentation: chatCsAiSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsHumanSource": "人工客服正在处理此会话 · 来源 {source}",
+  "@chatCsHumanSource": {
+    "description": "Chat presentation: chatCsHumanSource",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCsProfileUnavailable": "客户画像接口暂不可用",
+  "@chatCsProfileUnavailable": {
+    "description": "Chat presentation: chatCsProfileUnavailable"
+  },
+  "chatTransferRemark": "添加备注（可选）",
+  "@chatTransferRemark": {
+    "description": "Chat presentation: chatTransferRemark"
+  },
+  "chatTransferConfirm": "确认转交",
+  "@chatTransferConfirm": {
+    "description": "Chat presentation: chatTransferConfirm"
+  },
+  "chatCustomerTyping": "客户正在输入：{text}",
+  "@chatCustomerTyping": {
+    "description": "Chat presentation: chatCustomerTyping",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatReadOnlyHint": "会话查看模式，仅可查看，不能发言",
+  "@chatReadOnlyHint": {
+    "description": "Chat presentation: chatReadOnlyHint"
+  },
+  "chatClaimToReply": "接入后可回复客户",
+  "@chatClaimToReply": {
+    "description": "Chat presentation: chatClaimToReply"
+  },
+  "chatClaimBeforeReply": "请先接入会话后再回复",
+  "@chatClaimBeforeReply": {
+    "description": "Chat presentation: chatClaimBeforeReply"
+  },
+  "chatTakeoverBeforeReply": "请先人工接管后再回复",
+  "@chatTakeoverBeforeReply": {
+    "description": "Chat presentation: chatTakeoverBeforeReply"
+  },
+  "chatProfileTitle": "客户画像",
+  "@chatProfileTitle": {
+    "description": "Chat presentation: chatProfileTitle"
+  },
+  "chatNameLabel": "姓名",
+  "@chatNameLabel": {
+    "description": "Chat presentation: chatNameLabel"
+  },
+  "chatLevelLabel": "等级",
+  "@chatLevelLabel": {
+    "description": "Chat presentation: chatLevelLabel"
+  },
+  "chatRiskLabel": "风险",
+  "@chatRiskLabel": {
+    "description": "Chat presentation: chatRiskLabel"
+  },
+  "chatLanguageLabel": "语言",
+  "@chatLanguageLabel": {
+    "description": "Chat presentation: chatLanguageLabel"
+  },
+  "chatSourceLabel": "来源",
+  "@chatSourceLabel": {
+    "description": "Chat presentation: chatSourceLabel"
+  },
+  "chatAssignedAgent": "归属客服",
+  "@chatAssignedAgent": {
+    "description": "Chat presentation: chatAssignedAgent"
+  },
+  "chatAccountOverview": "账户概况",
+  "@chatAccountOverview": {
+    "description": "Chat presentation: chatAccountOverview"
+  },
+  "chatBalance": "账户余额",
+  "@chatBalance": {
+    "description": "Chat presentation: chatBalance"
+  },
+  "chatTotalDeposits": "累计入金",
+  "@chatTotalDeposits": {
+    "description": "Chat presentation: chatTotalDeposits"
+  },
+  "chatNetDeposits": "净入金",
+  "@chatNetDeposits": {
+    "description": "Chat presentation: chatNetDeposits"
+  },
+  "chatAccountStatus": "账户状态",
+  "@chatAccountStatus": {
+    "description": "Chat presentation: chatAccountStatus"
+  },
+  "chatRegisteredDate": "注册日期",
+  "@chatRegisteredDate": {
+    "description": "Chat presentation: chatRegisteredDate"
+  },
+  "chatTradeHistory": "历史交易概况",
+  "@chatTradeHistory": {
+    "description": "Chat presentation: chatTradeHistory"
+  },
+  "chatTotalOrders": "总订单",
+  "@chatTotalOrders": {
+    "description": "Chat presentation: chatTotalOrders"
+  },
+  "chatTradedProducts": "交易产品",
+  "@chatTradedProducts": {
+    "description": "Chat presentation: chatTradedProducts"
+  },
+  "chatWinRate": "胜率",
+  "@chatWinRate": {
+    "description": "Chat presentation: chatWinRate"
+  },
+  "chatLastTrade": "最近交易时间",
+  "@chatLastTrade": {
+    "description": "Chat presentation: chatLastTrade"
+  },
+  "chatVisitorProfile": "访客画像",
+  "@chatVisitorProfile": {
+    "description": "Chat presentation: chatVisitorProfile"
+  },
+  "chatVisitorId": "访客 ID",
+  "@chatVisitorId": {
+    "description": "Chat presentation: chatVisitorId"
+  },
+  "chatHistoryConversations": "历史会话",
+  "@chatHistoryConversations": {
+    "description": "Chat presentation: chatHistoryConversations"
+  },
+  "chatSourcePage": "来源页面",
+  "@chatSourcePage": {
+    "description": "Chat presentation: chatSourcePage"
+  },
+  "chatVisitorRegisterHint": "客户注册并绑定后可查看账户、交易和工单资料",
+  "@chatVisitorRegisterHint": {
+    "description": "Chat presentation: chatVisitorRegisterHint"
+  },
+  "chatVerified": "已认证",
+  "@chatVerified": {
+    "description": "Chat presentation: chatVerified"
+  },
+  "chatKycRejected": "未通过",
+  "@chatKycRejected": {
+    "description": "Chat presentation: chatKycRejected"
+  },
+  "chatRiskLow": "低",
+  "@chatRiskLow": {
+    "description": "Chat presentation: chatRiskLow"
+  },
+  "chatRiskMedium": "中",
+  "@chatRiskMedium": {
+    "description": "Chat presentation: chatRiskMedium"
+  },
+  "chatRiskHigh": "高",
+  "@chatRiskHigh": {
+    "description": "Chat presentation: chatRiskHigh"
+  },
+  "chatActive": "活跃",
+  "@chatActive": {
+    "description": "Chat presentation: chatActive"
+  },
+  "chatDisabled": "停用",
+  "@chatDisabled": {
+    "description": "Chat presentation: chatDisabled"
+  },
+  "chatFrozen": "冻结",
+  "@chatFrozen": {
+    "description": "Chat presentation: chatFrozen"
+  },
+  "chatTags": "标签",
+  "@chatTags": {
+    "description": "Chat presentation: chatTags"
+  },
+  "chatTickets": "工单信息",
+  "@chatTickets": {
+    "description": "Chat presentation: chatTickets"
+  },
+  "chatNoTickets": "暂无工单",
+  "@chatNoTickets": {
+    "description": "Chat presentation: chatNoTickets"
+  },
+  "chatTicketOpen": "处理中",
+  "@chatTicketOpen": {
+    "description": "Chat presentation: chatTicketOpen"
+  },
+  "chatTicketPending": "待处理",
+  "@chatTicketPending": {
+    "description": "Chat presentation: chatTicketPending"
+  },
+  "chatClosed": "已关闭",
+  "@chatClosed": {
+    "description": "Chat presentation: chatClosed"
+  },
+  "chatTemporaryOrders": "临时订单数据",
+  "@chatTemporaryOrders": {
+    "description": "Chat presentation: chatTemporaryOrders"
+  },
+  "chatNoTemporaryOrders": "暂无临时订单",
+  "@chatNoTemporaryOrders": {
+    "description": "Chat presentation: chatNoTemporaryOrders"
+  },
+  "chatOrder": "订单",
+  "@chatOrder": {
+    "description": "Chat presentation: chatOrder"
+  },
+  "chatOrderNumber": "单号",
+  "@chatOrderNumber": {
+    "description": "Chat presentation: chatOrderNumber"
+  },
+  "chatOrderSide": "方向",
+  "@chatOrderSide": {
+    "description": "Chat presentation: chatOrderSide"
+  },
+  "chatOrderVolume": "手数",
+  "@chatOrderVolume": {
+    "description": "Chat presentation: chatOrderVolume"
+  },
+  "chatOrderPrice": "开仓价",
+  "@chatOrderPrice": {
+    "description": "Chat presentation: chatOrderPrice"
+  },
+  "chatOrderPnL": "浮盈亏",
+  "@chatOrderPnL": {
+    "description": "Chat presentation: chatOrderPnL"
+  },
+  "chatOrderOpened": "开仓时间",
+  "@chatOrderOpened": {
+    "description": "Chat presentation: chatOrderOpened"
+  },
+  "chatBuy": "买入",
+  "@chatBuy": {
+    "description": "Chat presentation: chatBuy"
+  },
+  "chatSell": "卖出",
+  "@chatSell": {
+    "description": "Chat presentation: chatSell"
+  },
+  "chatOpenPosition": "持仓中",
+  "@chatOpenPosition": {
+    "description": "Chat presentation: chatOpenPosition"
+  },
+  "chatPendingOrder": "挂单中",
+  "@chatPendingOrder": {
+    "description": "Chat presentation: chatPendingOrder"
+  },
+  "chatClosedPosition": "已平仓",
+  "@chatClosedPosition": {
+    "description": "Chat presentation: chatClosedPosition"
+  },
+  "chatUnassigned": "未分配",
+  "@chatUnassigned": {
+    "description": "Chat presentation: chatUnassigned"
+  },
+  "chatOfficialAccount": "官方号",
+  "@chatOfficialAccount": {
+    "description": "Chat presentation: chatOfficialAccount"
+  },
+  "chatFavoriteType": "类型",
+  "@chatFavoriteType": {
+    "description": "Chat presentation: chatFavoriteType"
+  },
+  "chatFavoriteDetails": "收藏详情",
+  "@chatFavoriteDetails": {
+    "description": "Chat presentation: chatFavoriteDetails"
+  },
+  "chatFavoriteContent": "收藏内容",
+  "@chatFavoriteContent": {
+    "description": "Chat presentation: chatFavoriteContent"
+  },
+  "chatFavoriteNoContent": "（无内容）",
+  "@chatFavoriteNoContent": {
+    "description": "Chat presentation: chatFavoriteNoContent"
+  },
+  "chatFavoritedAt": "收藏于 {time}",
+  "@chatFavoritedAt": {
+    "description": "Chat presentation: chatFavoritedAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSearchInChat": "搜索聊天内容",
+  "@chatSearchInChat": {
+    "description": "Chat presentation: chatSearchInChat"
+  },
+  "chatSearchDate": "日期",
+  "@chatSearchDate": {
+    "description": "Chat presentation: chatSearchDate"
+  },
+  "chatSearchMedia": "图片及视频",
+  "@chatSearchMedia": {
+    "description": "Chat presentation: chatSearchMedia"
+  },
+  "chatSearchSpecific": "搜索指定内容",
+  "@chatSearchSpecific": {
+    "description": "Chat presentation: chatSearchSpecific"
+  },
+  "chatVoiceWithDuration": "语音 {duration}",
+  "@chatVoiceWithDuration": {
+    "description": "Chat presentation: chatVoiceWithDuration",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSystemMessage": "[系统消息]",
+  "@chatSystemMessage": {
+    "description": "Chat presentation: chatSystemMessage"
+  },
+  "chatLinkMessage": "[链接]",
+  "@chatLinkMessage": {
+    "description": "Chat presentation: chatLinkMessage"
+  },
+  "chatTextMessage": "[文本]",
+  "@chatTextMessage": {
+    "description": "Chat presentation: chatTextMessage"
+  },
+  "chatRichTextMessage": "[富文本]",
+  "@chatRichTextMessage": {
+    "description": "Chat presentation: chatRichTextMessage"
+  },
+  "chatScheduledEmptyContent": "定时消息内容不能为空",
+  "@chatScheduledEmptyContent": {
+    "description": "Chat presentation: chatScheduledEmptyContent"
+  },
+  "chatScheduledUpdateFailed": "更新失败，请稍后重试",
+  "@chatScheduledUpdateFailed": {
+    "description": "Chat presentation: chatScheduledUpdateFailed"
+  },
+  "chatScheduledLoadFailed": "定时消息加载失败",
+  "@chatScheduledLoadFailed": {
+    "description": "Chat presentation: chatScheduledLoadFailed"
+  },
+  "chatScheduledEmpty": "暂无定时消息",
+  "@chatScheduledEmpty": {
+    "description": "Chat presentation: chatScheduledEmpty"
+  },
+  "chatScheduledEmptyHint": "在输入栏选择定时发送后，会在这里统一管理。",
+  "@chatScheduledEmptyHint": {
+    "description": "Chat presentation: chatScheduledEmptyHint"
+  },
+  "chatScheduledPending": "等待发送",
+  "@chatScheduledPending": {
+    "description": "Chat presentation: chatScheduledPending"
+  },
+  "chatScheduledDelivering": "投递中",
+  "@chatScheduledDelivering": {
+    "description": "Chat presentation: chatScheduledDelivering"
+  },
+  "chatScheduledStatus": "状态 {count}",
+  "@chatScheduledStatus": {
+    "description": "Chat presentation: chatScheduledStatus",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatScheduledEdit": "编辑定时消息",
+  "@chatScheduledEdit": {
+    "description": "Chat presentation: chatScheduledEdit"
+  },
+  "chatMessageContent": "消息内容",
+  "@chatMessageContent": {
+    "description": "Chat presentation: chatMessageContent"
+  },
+  "chatSendTime": "发送时间",
+  "@chatSendTime": {
+    "description": "Chat presentation: chatSendTime"
+  },
+  "chatModify": "修改",
+  "@chatModify": {
+    "description": "Chat presentation: chatModify"
+  },
+  "chatScheduledDraftAt": "将定时发送 · {time}",
+  "@chatScheduledDraftAt": {
+    "description": "Chat presentation: chatScheduledDraftAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledTaskAt": "定时消息将于 {time} 发送",
+  "@chatScheduledTaskAt": {
+    "description": "Chat presentation: chatScheduledTaskAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledEditingAt": "正在编辑定时消息 · {time}",
+  "@chatScheduledEditingAt": {
+    "description": "Chat presentation: chatScheduledEditingAt",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "chatScheduledDelete": "删除定时消息",
+  "@chatScheduledDelete": {
+    "description": "Chat presentation: chatScheduledDelete"
+  },
+  "chatHomeUnreadConversations": "{count} 个未读会话",
+  "@chatHomeUnreadConversations": {
+    "description": "Chat presentation: chatHomeUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoUnreadConversations": "暂无未读会话",
+  "@chatHomeNoUnreadConversations": {
+    "description": "Chat presentation: chatHomeNoUnreadConversations"
+  },
+  "chatHomeUnreadMessages": "{count} 条未读消息",
+  "@chatHomeUnreadMessages": {
+    "description": "Chat presentation: chatHomeUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNewMessages": "有 {count} 条新消息",
+  "@chatHomeNewMessages": {
+    "description": "Chat presentation: chatHomeNewMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatHomeNoMatches": "未找到相关对话",
+  "@chatHomeNoMatches": {
+    "description": "Chat presentation: chatHomeNoMatches"
+  },
+  "chatHomeEmpty": "暂无对话",
+  "@chatHomeEmpty": {
+    "description": "Chat presentation: chatHomeEmpty"
+  },
+  "chatHomeNoMore": "没有更多会话",
+  "@chatHomeNoMore": {
+    "description": "Chat presentation: chatHomeNoMore"
+  },
+  "chatEnterpriseShort": "企",
+  "@chatEnterpriseShort": {
+    "description": "Chat presentation: chatEnterpriseShort"
+  },
+  "chatLinkLabel": "链接",
+  "@chatLinkLabel": {
+    "description": "Chat presentation: chatLinkLabel"
+  },
+  "chatAtAllDenied": "当前群不允许普通成员 @所有人",
+  "@chatAtAllDenied": {
+    "description": "Chat presentation: chatAtAllDenied"
+  },
+  "chatRefreshStatus": "刷新状态",
+  "@chatRefreshStatus": {
+    "description": "Chat presentation: chatRefreshStatus"
+  },
+  "chatVoicePressAndHold": "按住 说话",
+  "@chatVoicePressAndHold": {
+    "description": "Chat presentation: chatVoicePressAndHold"
+  },
+  "chatVoiceReleaseSend": "松开 发送",
+  "@chatVoiceReleaseSend": {
+    "description": "Chat presentation: chatVoiceReleaseSend"
+  },
+  "chatGroupMemberRemoved": "已移除成员",
+  "@chatGroupMemberRemoved": {
+    "description": "Chat presentation: chatGroupMemberRemoved"
+  }
+}

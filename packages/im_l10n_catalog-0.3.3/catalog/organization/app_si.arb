@@ -1,0 +1,626 @@
+{
+  "@@locale": "si",
+  "enterpriseInfoTitle": "ව්‍යවසාය තොරතුරු",
+  "enterpriseName": "නම",
+  "enterpriseDescription": "විස්තරය",
+  "enterpriseUpdateSuccess": "සාර්ථකව යාවත්කාලීන කරන ලදී",
+  "enterpriseUpdateFailed": "යාවත්කාලීන කළ නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "enterpriseLeave": "ව්‍යවසායෙන් ඉවත් වන්න",
+  "enterpriseLeaveConfirm": "ඔබට මෙම ව්‍යවසායෙන් ඉවත් වීමට අවශ්‍ය බව විශ්වාසද?",
+  "enterpriseLeaveSuccess": "ව්‍යවසායෙන් ඉවත් විය",
+  "enterpriseLeaveFailed": "ඉවත් විය නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "enterpriseLeaveOwnerError": "හිමිකරුට සෘජුව ඉවත් විය නොහැකිය. පළමුව හිමිකම මාරු කරන්න.",
+  "enterpriseMemberCount": "සාමාජිකයන්",
+  "enterpriseCreatedAt": "සාදන ලද දිනය",
+  "enterpriseCode": "ව්‍යවසාය කේතය",
+  "enterpriseInviteMembers": "සාමාජිකයන්ට ආරාධනා කරන්න",
+  "enterpriseCopyInviteCode": "ආරාධනා කේතය පිටපත් කරන්න",
+  "enterpriseInviteCodeCopied": "ආරාධනා කේතය පිටපත් කරන ලදි",
+  "groupCreateTitle": "නව සමූහයක්",
+  "groupNameHint": "සමූහයේ නම ඇතුළත් කරන්න",
+  "groupCreateSuccess": "සමූහය සාදන ලදි",
+  "groupCreateFailed": "සමූහය සෑදිය නොහැකි විය",
+  "groupSettings": "සමූහ සැකසුම්",
+  "groupName": "සමූහයේ නම",
+  "groupAvatar": "සමූහ අවතාරය",
+  "groupAnnouncement": "නිවේදනය",
+  "groupMembers": "සාමාජිකයන්",
+  "groupAddMember": "සාමාජිකයන් එක් කරන්න",
+  "groupRemoveMember": "සාමාජිකයා ඉවත් කරන්න",
+  "groupRemoveMemberConfirm": "මෙම සාමාජිකයා ඉවත් කරන්නද?",
+  "groupSetAdmin": "පරිපාලක ලෙස පත් කරන්න",
+  "groupRemoveAdmin": "පරිපාලක තනතුර ඉවත් කරන්න",
+  "groupTransferOwner": "හිමිකම මාරු කරන්න",
+  "groupTransferOwnerConfirm": "සමූහයේ හිමිකම මෙම සාමාජිකයාට මාරු කරන්නද?",
+  "groupTransferOwnerSuccess": "හිමිකම මාරු කරන ලදි",
+  "groupTransferOwnerFailed": "මාරු කිරීම අසාර්ථකයි, නැවත උත්සාහ කරන්න",
+  "groupLeave": "සමූහයෙන් ඉවත් වන්න",
+  "groupLeaveConfirm": "මෙම සමූහයෙන් ඉවත් වන්නද?",
+  "groupLeaveSuccess": "සමූහයෙන් ඉවත් විය",
+  "groupLeaveFailed": "ඉවත් විය නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "groupDissolve": "සමූහය විසුරුවන්න",
+  "groupDissolveConfirm": "මෙම සමූහය විසුරුවන්නද? සියලු සාමාජිකයන් ඉවත් කෙරේ.",
+  "groupDissolveSuccess": "සමූහය විසුරුවන ලදි",
+  "groupDissolveFailed": "විසුරුවිය නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "groupQrCode": "සමූහයේ QR කේතය",
+  "groupMuteAll": "සියල්ලන් නිහඬ කරන්න",
+  "groupMuteAllOn": "සියල්ලන් නිහඬ කිරීම සක්‍රිය කරන්න",
+  "groupMuteAllOff": "සියල්ලන් නිහඬ කිරීම අක්‍රිය කරන්න",
+  "groupAllowMemberInvite": "සාමාජික ආරාධනාවලට අවසර දෙන්න",
+  "groupAllowMemberModifyTitle": "සමූහ නම වෙනස් කිරීමට සාමාජිකයන්ට අවසර දෙන්න",
+  "groupAllowMemberAtAll": "@සියල්ලන් සඳහන් කිරීමට සාමාජිකයන්ට අවසර දෙන්න",
+  "groupAllowMemberViewMemberList": "සාමාජික ලැයිස්තුව බැලීමට සාමාජිකයන්ට අවසර දෙන්න",
+  "groupAllowQrCodeJoin": "QR කේතයෙන් එක්වීමට අවසර දෙන්න",
+  "groupRequireApproval": "එක්වීමට අනුමැතිය අවශ්‍යයි",
+  "groupAllowMemberAddFriend": "එකිනෙකා මිතුරන් ලෙස එක් කිරීමට සාමාජිකයන්ට අවසර දෙන්න",
+  "groupRoleOwner": "හිමිකරු",
+  "groupRoleAdmin": "පරිපාලක",
+  "groupRoleMember": "සාමාජිකයා",
+  "groupNoMembers": "සාමාජිකයන් නැත",
+  "groupNoAnnouncements": "නිවේදන නැත",
+  "groupCreateAnnouncement": "නිවේදනය පළ කරන්න",
+  "groupEditAnnouncement": "නිවේදනය සංස්කරණය කරන්න",
+  "groupDeleteAnnouncement": "නිවේදනය මකන්න",
+  "groupDeleteAnnouncementConfirm": "මෙම නිවේදනය මකන්නද?",
+  "groupAnnouncementTitle": "මාතෘකාව",
+  "groupAnnouncementContent": "අන්තර්ගතය",
+  "groupAnnouncementPin": "නිවේදනය අමුණන්න",
+  "groupMemberCount": "සාමාජිකයන් {count}",
+  "groupSelectedCount": "{count} ක් තෝරා ඇත",
+  "groupJoinRequestApprove": "සම්මත කරන්න",
+  "groupJoinRequestReject": "අවහිර කරන්න",
+  "groupJoinRequests": "එක්වීමේ ඉල්ලීම්",
+  "groupNoJoinRequests": "එක්වීමේ ඉල්ලීම් නැත",
+  "groupReadReceipts": "කියවූ බවට තහවුරු කිරීම්",
+  "groupReadCount": "කියවූ {count}",
+  "groupUnreadCount": "නොකියවූ {count}",
+  "organizationTitle": "ආයතනය",
+  "organizationEmpty": "දෙපාර්තමේන්තු තොරතුරු නැත",
+  "organizationMembers": "සාමාජිකයන්",
+  "organizationDepartment": "දෙපාර්තමේන්තුව",
+  "organizationPosition": "තනතුර",
+  "organizationLeader": "නායකයා",
+  "qrCodeTitle": "මගේ QR කේතය",
+  "qrCodeSave": "ඇල්බමයට සුරකින්න",
+  "qrCodeShare": "බෙදාගන්න",
+  "qrCodeSaveSuccess": "ඇල්බමට සුරකින ලදී",
+  "qrCodeSaveFailed": "සුරැකිය නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "qrCodeRefresh": "QR කේතය නැවුම් කරන්න",
+  "qrCodeExpired": "QR කේතය කල් ඉකුත් වී ඇත, නැවුම් කරන්න",
+  "qrCodeScanToAdd": "මාව සම්බන්ධතාවක් ලෙස එක් කිරීමට ස්කෑන් කරන්න",
+  "spacePersonal": "පෞද්ගලික",
+  "spaceEnterprise": "ව්‍යවසාය",
+  "spaceJoinByCode": "ව්‍යවසාය කේතයෙන් එක්වන්න",
+  "spaceJoinByInvite": "ආරාධනා කේතයෙන් එක්වන්න",
+  "spaceEnterCode": "ව්‍යවසාය කේතය ඇතුළත් කරන්න",
+  "spaceEnterInviteCode": "ආරාධනා කේතය ඇතුළත් කරන්න",
+  "spaceSearchEnterprise": "ව්‍යවසාය සොයන්න",
+  "spaceJoinRequestSent": "ඉල්ලීම ඉදිරිපත් කරන ලදි, අනුමැතිය බලාපොරොත්තුවෙන් සිටී",
+  "spaceJoinRequestPending": "අනුමැතිය අපේක්ෂිතයි",
+  "spaceJoinRequestApproved": "ඉල්ලීම අනුමත කරන ලදි",
+  "spaceJoinRequestRejected": "ඉල්ලීම ප්‍රතික්ෂේප කරන ලදි",
+  "spaceAlreadyMember": "ඔබ දැනටමත් සාමාජිකයෙකි",
+  "spaceAutoApproved": "ස්වයංක්‍රීයව අනුමත කරන ලදි. සාදරයෙන් පිළිගනිමු!",
+  "spacePendingApprovalHint": "ලියාපදිංචිය සාර්ථකයි. ඔබේ එක්වීමේ ඉල්ලීම ඉදිරිපත් කර ඇත.",
+  "spaceNoSpaces": "අවකාශ නැත",
+  "spaceInviteExpired": "ආරාධනා කේතය කල් ඉකුත් වී ඇත",
+  "spaceInviteTargetMismatch": "මෙම ආරාධනා කේතය ඔබේ ගිණුම සඳහා නොවේ",
+  "spaceAcceptInviteSuccess": "ව්‍යවසායට සාර්ථකව එක් විය",
+  "spaceAcceptInviteFailed": "එක්විය නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "spaceTenantSelectTitle": "අවකාශය තෝරන්න",
+  "spaceTenantSelectHint": "ඇතුළු වීමට අවකාශයක් තෝරන්න",
+  "spaceEnterPersonal": "පෞද්ගලික අවකාශයට ඇතුළු වන්න",
+  "spaceEnterEnterprise": "ව්‍යවසාය අවකාශයට ඇතුළු වන්න",
+  "recentContactsTitle": "මෑත",
+  "recentContactsEmpty": "මෑත සම්බන්ධතා නැත",
+  "inviteFriendsTitle": "මිතුරන්ට ආරාධනා කරන්න",
+  "inviteFriendsCopyLink": "ආරාධනා සබැඳිය පිටපත් කරන්න",
+  "inviteFriendsLinkCopied": "ආරාධනා සබැඳිය පිටපත් කරන ලදි",
+  "pendingJoinRequestsTitle": "නව අයදුම්පත්",
+  "pendingJoinRequestsEmpty": "අයදුම්පත් නැත",
+  "pendingJoinRequestApprove": "සම්මත කරන්න",
+  "pendingJoinRequestReject": "අවහිර කරන්න",
+  "pendingJoinRequestApproveSuccess": "අනුමත කරන ලදි",
+  "pendingJoinRequestRejectSuccess": "ප්‍රතික්ෂේප කරන ලදි",
+  "pendingJoinRequestFailed": "ක්‍රියාව අසාර්ථකයි, නැවත උත්සාහ කරන්න",
+  "groupListTitle": "සමූහ",
+  "groupListEmpty": "සමූහ නැත",
+  "joinCompanyTitle": "ව්‍යවසායට එක්වන්න",
+  "joinCompanyCodeHint": "ව්‍යවසාය කේතය ඇතුළත් කරන්න",
+  "joinCompanySearchHint": "ව්‍යවසාය නම සොයන්න",
+  "joinCompanyApply": "එක්වීමට අයදුම් කරන්න",
+  "joinCompanyApplySuccess": "අයදුම්පත ඉදිරිපත් කරන ලදි",
+  "joinCompanyApplyFailed": "අයදුම් කළ නොහැකි විය, නැවත උත්සාහ කරන්න",
+  "joinCompanyAutoApproved": "ස්වයංක්‍රීයව අනුමත කරන ලදි. සාදරයෙන් පිළිගනිමු!",
+  "joinCompanyPending": "අයදුම්පත ඉදිරිපත් කරන ලදි, අනුමැතිය බලාපොරොත්තුවෙන් සිටී",
+  "joinCompanyInviteCodeHint": "ආරාධනා කේතය ඇතුළත් කරන්න",
+  "joinCompanyAcceptInvite": "ආරාධනාව පිළිගන්න",
+  "joinCompanyNoResults": "ව්‍යවසාය හමු නොවීය",
+  "joinCompanyMemberCount": "සාමාජිකයන් {count}",
+  "approvalEmpty": "ඉල්ලීම් නැත",
+  "approvalApprove": "සම්මත කරන්න",
+  "approvalReject": "අවහිර කරන්න",
+  "approvalPending": "අපේක්ෂිතයි",
+  "approvalApproved": "අනුමතයි",
+  "approvalRejected": "අත්හැරී ඇත",
+  "approvalExpired": "අවසන් වී ඇති තත්ත්වය",
+  "approvalCancelled": "අවලංගු කරන ලදි",
+  "approvalReplayFailed": "මුල් ක්‍රියාව අසාර්ථක විය. එය නැවත උත්සාහ කරන්න.",
+  "requestCancelled": "ඉල්ලීම අවලංගු කරන ලදි",
+  "enterpriseNoPermission": "අවසර නැත",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "ව්‍යවසාය තොරතුරු සැකසුම්",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "ව්‍යවසාය වින්‍යාසය",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "නිල ගිණුම්",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "නිල ගිණුම් කළමනාකරණය කරන්න",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "සාමාජික කළමනාකරණය",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "සේවකයන්ට ආරාධනා කරන්න",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "සාමාජිකයන්",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "නිවේදන කළමනාකරණය",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "ව්‍යවසාය සමූහ පණිවිඩ",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "අනුමැති",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "සාමාජිකත්ව අනුමැති",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "හිමිකාරිත්වය පවරන්න",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "පැවරීමෙන් පසු ඔබ පරිපාලකයෙකු වේ. මෙය ආපසු හැරවිය නොහැක. සාමාජික ලැයිස්තුවෙන් නව හිමිකරු තෝරන්න.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "නව හිමිකරු තෝරන්න",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "සේවා නිලධාරි පැවරීමේ ක්‍රමය",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "ස්වයංක්‍රීය පැවරීම",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "නියමිත සේවා නිලධාරියා",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "සාමාජිකත්ව අනුමැති ක්‍රමය",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "අතින් අනුමැතිය",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "ස්වයංක්‍රීය අනුමැතිය",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "මිතුරු ප්‍රකාරය",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "සමාජ ප්‍රකාරය",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "හුදකලා ප්‍රකාරය",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "විජට් අමුත්තන්ගේ ප්‍රවේශය",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "අක්‍රියයි",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "නිදහස් සේවා නිලධාරීන්ට වාරයෙන් වාරයට ස්වයංක්‍රීයව පවරන්න",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "සියලු පාරිභෝගිකයන් නියමිත සේවා නිලධාරියාට පවරන්න",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "පාරිභෝගික ඉල්ලීම්වලට පරිපාලක අනුමැතිය අවශ්‍යයි",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "පාරිභෝගික ඉල්ලීම් ස්වයංක්‍රීයව අනුමත කරන්න",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "පාරිභෝගිකයන්ට එකිනෙකා මිතුරන් ලෙස එක් කළ හැක",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "පාරිභෝගිකයන්ට එකිනෙකා මිතුරන් ලෙස එක් කළ නොහැක",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "සාමාජිකයා",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "සාමාජිකයන් සොයන්න",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "සාමාජිකයෙකු ලෙස සකසන්න",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "තාක්ෂණික සහාය ලෙස සකසන්න",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "සේවා සේවා නිලධාරියෙකු ලෙස සකසන්න",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "පැවරීම තහවුරු කරන්න",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "ව්‍යවසායේ නම අවශ්‍යයි",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "ව්‍යවසායේ නම ඇතුළත් කරන්න",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "විස්තරයක් නැත",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "ව්‍යවසාය ලාංඡනය",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "නිර්මාණය කිරීම අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "උපරිම භාවිත ගණන",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "ක්‍රියාත්මක කාලය",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "පැය 1",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "පැය 24",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "දින 3",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "දින 7",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "ආරාධනා කේතයක් සාදන්න",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "ආරාධනා කේතය",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "සියලු දෙනා",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "සේවකයන්",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "සේවකයන්, භූමිකා හෝ තනතුරු සොයන්න",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "ව්‍යවසාය සාමාජිකයන්",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "ගැළපෙන සාමාජිකයන් නැත",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "ව්‍යවසාය දළ විශ්ලේෂණය",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "කළමනාකරණය",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "භූමිකා අවසර",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "සේවයෙන් ඉවත් වීමේදී භාරදීම",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "සේවකයන් සොයන්න",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "ව්‍යවසාය සේවකයන්",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "මිතුරාගේ පැතිකඩ",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "හඬ සහ වීඩියෝ ඇමතුම",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "මිතුරෙකු එක් කරන්න",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "පිරිමි",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "ගැහැනු",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "නොකියවූ සංවාද නැත",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "ව්‍යා",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "ආරාධනා කේතය පිටපත් විය",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "“{name}” ව්‍යවසායෙන් ඉවත් කරන්නද?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "“{name}”ට හිමිකාරිත්වය පවරන්නද? ඔබ පරිපාලකයෙකු වේ. මෙය ආපසු හැරවිය නොහැක.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {භාවිත {count}ක්} other {භාවිත {count}ක්}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "පැය {hours}ක් වලංගුයි · උපරිම භාවිත {count}ක්",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {නොකියවූ සංවාද {count}ක්} other {නොකියවූ සංවාද {count}ක්}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {නොකියවූ පණිවිඩ {count}ක්} other {නොකියවූ පණිවිඩ {count}ක්}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "පණිවිඩ බුබුළු ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "ආයතනයෙන් ඉවත් වන්න",
+  "enterpriseLoginBeforeSearch": "සංවිධානයක් සෙවීමට පෙර ගිණුමට පිවිසෙන්න",
+  "enterpriseSearchFailed": "සෙවීම අසාර්ථක විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+  "enterpriseLoginBeforeJoin": "සංවිධානයකට එක්වීමට අයදුම් කිරීමට පෙර ගිණුමට පිවිසෙන්න",
+  "enterpriseApplicationPending": "අයදුම්පත යවා ඇත. පරිපාලක අනුමැතිය බලා සිටී.",
+  "enterpriseLoginBeforeAction": "ඉදිරියට යාමට ගිණුමට පිවිසෙන්න",
+  "enterprisePlatformTagline": "සංවිධාන සඳහා පෞද්ගලික පාරිභෝගික සම්බන්ධතා",
+  "enterpriseLookupHint": "සංවිධාන අංකයක්, අන්වර්ථ නාමයක් හෝ ඇරයුම් කේතයක් ඇතුළත් කරන්න",
+  "enterpriseLookup": "සොයන්න",
+  "enterpriseApplicationNote": "අයදුම්පත් සටහන (විකල්ප)",
+  "enterpriseLookupGuide": "සංවිධාන අංකය හෝ අන්වර්ථ නාමයෙන් සොයන්න, නැතහොත් ඇරයුම් කේතයකින් එක්වන්න",
+  "enterpriseRecommendationsLoading": "නිර්දේශිත සංවිධාන පූරණය කරමින්",
+  "enterpriseRecommendationsFailed": "නිර්දේශිත සංවිධාන පූරණය කළ නොහැකි විය",
+  "enterpriseReload": "නැවත පූරණය කරන්න",
+  "enterpriseNoRecommendations": "නිර්දේශ නොමැත. සංවිධාන අංකයක්, අන්වර්ථ නාමයක් හෝ ඇරයුම් කේතයක් භාවිතයෙන් සොයන්න.",
+  "enterpriseRecommended": "නිර්දේශිත සංවිධාන",
+  "enterpriseJoined": "එක්වී ඇත",
+  "enterpriseRequestsLoadFailed": "අයදුම්පත් පූරණය කළ නොහැකි විය",
+  "enterpriseCodeMissing": "සංවිධාන අංකය ලබාගත නොහැක",
+  "enterpriseAlias": "සංවිධාන අන්වර්ථ නාමය",
+  "enterpriseCodeLabel": "සංවිධාන අංකය",
+  "enterprisePrivateAliasHint": "මෙම සංවිධානය සිය විස්තර ප්‍රසිද්ධ කර නැත. ඔබගේ අයදුම්පතේ එය මෙම අන්වර්ථ නාමයෙන් හඳුන්වනු ඇත.",
+  "enterpriseInvitationMismatch": "මෙම ඇරයුම් කේතය ඔබට යොමු කර නැත. එක්වීම අසාර්ථක විය හැක.",
+  "enterpriseTechnicalRole": "තාක්ෂණික සහාය",
+  "enterpriseJoin": "එක්වන්න",
+  "enterpriseCancelApplication": "අහෝසි කරන්න",
+  "enterpriseApplication": "සංවිධාන අයදුම්පත",
+  "enterpriseAliasValue": "සංවිධාන අන්වර්ථ නාමය: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "සංවිධාන අංකය: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "අන්වර්ථ නාමය: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "ඔබ {role} ලෙස එක්වනු ඇත",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "මෙම ඇරයුම් කේතය යොමු කර ඇත්තේ: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "ප්‍රතික්ෂේප කිරීමට හේතුව: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "සංවිධානය {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "සියලුදෙනා",
+  "enterpriseAudienceAllHint": "සේවකයින් සහ පාරිභෝගිකයින්",
+  "enterpriseAudienceStaffHint": "සංවිධාන සේවකයින් පමණි",
+  "enterpriseAudienceCustomers": "සංවිධාන පාරිභෝගිකයින්",
+  "enterpriseAudienceCustomersHint": "සංවිධානයට එක්වූ පාරිභෝගිකයින්",
+  "enterpriseOfficialGroups": "නිල සමූහ",
+  "enterpriseAudienceGroupsHint": "නිල සංවිධාන සමූහ කතාබස්",
+  "enterpriseSendNow": "දැන් යවන්න",
+  "enterpriseSendScheduled": "යැවීම කාලසටහන්ගත කරන්න",
+  "enterprisePreviewing": "පෙරදසුන් පෙන්වමින්",
+  "enterprisePreview": "පෙරදසුන",
+  "enterpriseSubmitSend": "යැවීම සඳහා ඉදිරිපත් කරන්න",
+  "enterpriseBroadcastSubmitted": "සංවිධාන සමූහ පණිවිඩ යැවීම ඉදිරිපත් කර ඇත",
+  "enterpriseScheduledUnavailable": "කාලසටහන්ගත සංවිධාන සමූහ පණිවිඩ යැවීම මෙම අනුවාදයේ ලබාගත නොහැක",
+  "enterpriseBroadcastFailed": "සංවිධාන සමූහ පණිවිඩ යැවීම අසාර්ථක විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න.",
+  "enterpriseBroadcastGuide": "සමූහ පණිවිඩ යැවීමේදී සංවිධානයේ නිල ගිණුම භාවිත කරන අතර මෙහෙයුම වාර්තා කෙරේ. ඉදිරිපත් කිරීමෙන් පසු බෙදාහැරීමේ ප්‍රතිඵල ලබාගත හැක.",
+  "enterpriseSenderIdentity": "යවන්නාගේ අනන්‍යතාව",
+  "enterpriseSenderAfterPreview": "පෙරදසුනේ තහවුරු කරන්න",
+  "enterpriseSenderConfirmed": "තහවුරු කර ඇත",
+  "enterpriseDefaultOfficialSender": "පෙරනිමි සංවිධාන නිල ගිණුම",
+  "enterpriseOfficialSenderHint": "ලබන්නන්ට සංවිධානයේ නිල ගිණුම් අනන්‍යතාව පෙනේ",
+  "enterpriseMessageContent": "පණිවිඩ අන්තර්ගතය",
+  "enterpriseBroadcastContentHint": "නිල ගිණුමෙන් යැවීමට සමූහ පණිවිඩය ඇතුළත් කරන්න",
+  "enterpriseInternalNoteHint": "විගණනය සහ පසු විපරම සඳහා අභ්‍යන්තර සටහන (විකල්ප)",
+  "enterpriseSendPreview": "යැවීමේ පෙරදසුන",
+  "enterpriseExpectedRecipients": "අපේක්ෂිත ලබන්නන්",
+  "enterpriseDeliveryMethod": "බෙදාහැරීමේ ක්‍රමය",
+  "enterpriseTaskStatus": "කාර්ය තත්ත්වය",
+  "enterpriseNoBroadcastHistory": "තවම සංවිධාන සමූහ පණිවිඩ යැවීම් නොමැත",
+  "enterpriseHistoryUnavailable": "තාවකාලිකව ලබාගත නොහැක",
+  "enterpriseBroadcastDenied": "සංවිධාන සමූහ පණිවිඩ යැවීමේ අවසරය නොමැත",
+  "enterpriseBroadcastRoleHint": "සංවිධාන සමූහ පණිවිඩ යැවීම ලබාගත හැක්කේ පරිපාලකයින්ට සහ හිමිකරුවන්ට පමණි.",
+  "enterpriseDefaultApplicationMessage": "ඔබගේ සංවිධානයට එක්වීමට කැමැත්තෙමි"
+}

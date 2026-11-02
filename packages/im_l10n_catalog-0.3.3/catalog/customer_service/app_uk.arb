@@ -1,0 +1,1369 @@
+{
+  "@@locale": "uk",
+  "customerServiceTitle": "Служба підтримки",
+  "customerServiceQueue": "У черзі",
+  "customerServiceActive": "Активні",
+  "customerServiceClaim": "Прийняти",
+  "customerServiceTakeover": "Перехопити",
+  "customerServiceClose": "Завершити обслуговування",
+  "customerServiceCloseConfirm": "Завершити цей сеанс обслуговування?",
+  "customerServiceNoQueue": "Немає сеансів у черзі",
+  "customerServiceNoActive": "Немає активних сеансів",
+  "customerServiceVisitor": "Відвідувач",
+  "customerServiceCustomer": "Клієнт",
+  "customerServiceAssignedTo": "Призначено",
+  "customerServiceTransferConversation": "Передати чат",
+  "marketingToolbar": "Маркетингові інструменти",
+  "customerServiceBroadcastDirectTitle": "Розсилка клієнтам",
+  "csAiReplyTitle": "Відповідь ШІ",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "Повідомлення клієнта",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "Пропозиції відповідей",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "Створити пропозиції відповідей",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "Перестворити",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "Створити пропозицію",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "Вставлення…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "Вставити відповідь",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "Джерела знань",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "Матеріал бази знань",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "Поки немає пропозицій. Натисніть, щоб створити відповідь ШІ.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "Немає повідомлення клієнта для створення відповіді.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "Цей обліковий запис не може використовувати ШІ підтримки клієнтів.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "Для цього типу розмови відповіді ШІ не підтримуються.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "Ця розмова підтримки недоступна. Оновіть і спробуйте ще раз.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "Не вдалося створити відповідь ШІ. Спробуйте ще раз.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "Вміст заблоковано модерацією.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "Вступіть до групи перед надсиланням групової розсилки.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "Виберіть груповий чат",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "Розсилка всьому орендарю не може адресуватися груповому чату.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "Цільову групу або завдання не знайдено.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "Одержувач не є груповим чатом.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "Цільова група недоступна.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "Цей формат повідомлень не підтримується.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "У цільовій області немає відповідних одержувачів.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "Кількість одержувачів перевищує ліміт розсилки.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "Забагато запитів розсилки. Спробуйте пізніше.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "Групові розсилки не підтримують повторне надсилання окремим одержувачам.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "Для цієї розсилки потрібні права адміністратора.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "Помилка сервера",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "Помилка розсилки",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "Онлайн-підтримка",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "Підтримка клієнтів",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "Результати",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "Прийом",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "Режим",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "Ручне прийняття",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "Автоматичне призначення",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "Не вдалося змінити режим прийому. Спробуйте ще раз.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "Не вдалося змінити статус. Спробуйте ще раз.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "Спочатку ввійдіть до простору компанії.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "Ця роль не має доступу до робочого місця.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "Робоче місце власника",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "Робоче місце адміністратора",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "Робота з клієнтами",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "Усі клієнти",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "Заявки на вступ до компанії",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "Зростання клієнтської бази",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "Робота служби підтримки",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "Центр підтримки",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "Ефективність команди",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "Керування ризиками",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "Розмови з ризиком",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "Аудит розмов",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "Аудит операцій",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "Робота з групами",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "Контроль груп",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "Розсилка компанії",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "За операторами",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "Перевищення часу відповіді",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "Немає даних про клієнтів",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "Пошук клієнтів",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "Усього клієнтів",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "Очікують призначення",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "Непризначені клієнти",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "Немає непризначених клієнтів",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "Додано сьогодні",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "Призначення прострочено",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "Немає даних про зростання",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "Сьогодні",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "Цього місяця",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "Цей квартал",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "Шість місяців",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "Нові клієнти",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "Активні клієнти",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "Неактивні клієнти",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "Ризик відтоку",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "Немає даних про групи клієнтів",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "Пошук груп клієнтів",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "Немає даних про ефективність обслуговування",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "Середній час відповіді",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "Оброблені розмови",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "Моніторинг груп підтримки",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "Немає даних про групи підтримки",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "Пошук клієнтів або груп підтримки",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "Керування розмовами підтримки",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "Немає розмов",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "Пошук клієнтів, відвідувачів або розмов",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "Немає розмов із ризиком",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "Пошук клієнтів, операторів або розмов",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "Немає записів розмов",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "Немає записів аудиту",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "Пошук виконавців або клієнтів",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "Немає даних про обслуговування операторів",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "Пошук операторів",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "Немає розмов із перевищенням часу",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "Пошук клієнтів або розмов",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "Статус оператора",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "Немає даних про статус операторів",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "Немає даних про операторів",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "Непризначені клієнти тимчасово недоступні.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "Очікує оператора",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "Призначити",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "Картка клієнта",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "Не вдалося завантажити доступних операторів.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "Призначено автоматично за правилами",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "Оператора призначено",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "Не вдалося призначити оператора.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "Призначити оператора",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "Призначити автоматично за правилами",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "Сервіс вибере відповідного оператора.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "Немає доступних операторів для призначення.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "Статус оператора тимчасово недоступний.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "Аудит розмов поки недоступний.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "Розмови з ризиком поки недоступні.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "Відомості про перевищення часу відповіді поки недоступні.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "Аудит операцій тимчасово недоступний.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "Запис операції",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "Розмови клієнтів",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "У черзі",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "Працівники прийому",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "Огляд центру підтримки",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "Моніторинг у реальному часі",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "Не вдалося завантажити моніторинг.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "Спостерігати за поточними розмовами підтримки",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "Синхронізація операторів",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "Фільтр за оператором",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "Усі оператори",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "Триває",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "Усі статуси",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "Усі канали",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "Звернення відвідувачів",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "Підтримка в IM",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "Немає активних розмов підтримки з такими фільтрами.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "Спостереження",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "Спостерігати",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "Виберіть розмови вище для паралельного спостереження.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "Не вдалося синхронізувати деталі. Оновіть трохи пізніше.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "Немає повідомлень для перегляду",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[Дзвінок]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "Немає розмов клієнтів",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "Немає розмов онлайн-підтримки",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "Поточні розмови",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "Людей у черзі",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "Зайняті оператори",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "Доступні оператори",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "Огляд онлайн-підтримки",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "Відвідувачів у черзі",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "Відвідувачів на обслуговуванні",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "Розмови клієнтів, що очікують",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "Активні розмови клієнтів",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "Усього в черзі",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "Частка загальної черги",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "Частка активного обслуговування",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "Середнє очікування",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "У черзі онлайн-підтримки",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "Активні в онлайн-підтримці",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "Показники операторів тимчасово недоступні.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "Обслуговано",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "Середній час першої відповіді",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "Середня тривалість",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "Середня оцінка",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "Перша відповідь",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "Тривалість",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "Оцінка",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "Частка успішних",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "Керування розмовами",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "Заморозити розмову",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "Розморозити розмову",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "Подробиці розмови",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "ID розмови",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "Розмову заморожено",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "Розмову розморожено",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "Причина заморожування (необов’язково)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "Причина розморожування (необов’язково)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "Підтвердити заморожування",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "Підтвердити розморожування",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "Часті відповіді",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "Шаблони відповідей",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "Не вдалося завантажити відповіді.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "Потягніть униз для оновлення та спробуйте ще раз.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "Немає швидких відповідей",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "Відповіді з’являться тут після ввімкнення бібліотеки.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "Немає відповідних відповідей",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "Спробуйте інше ключове слово",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "Пошук відповідей",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "Відповідь без назви",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "Ця роль не може робити розсилки.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "Розсилки доступні лише операторам.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "Надсилання завдання…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "Підготовка перегляду…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "Перегляд і надсилання",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "Розсилки повідомлень",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "Не вдалося завантажити групові чати.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "Спробуйте трохи пізніше або перевірте список розмов у цьому просторі.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "Цільова область",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "Усі учасники орендаря",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "Надіслати окремі повідомлення відповідним учасникам цієї компанії.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "Немає доступних групових чатів.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "Немає відповідних групових чатів",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "Особисті повідомлення учасникам і групові розсилки підтримують лише групи, до яких входить обліковий запис.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "Спробуйте інше ключове слово.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "Виберіть груповий чат",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "Введіть текст розсилки",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "Строк сеансу минув. Увійдіть знову.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "Підтвердити розсилку",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "Повідомлення надсилаються від поточного оператора й доставляються асинхронно після надсилання завдання. Відкликати надіслані повідомлення не можна.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "Надіслати завдання",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "Написати учасникам компанії окремо",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "Написати учасникам групи особисто",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "Надіслати окреме особисте повідомлення кожному учаснику групи.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "Розсилка в групі",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "Надіслати повідомлення безпосередньо в груповий чат.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "Розсилки клієнтам і групам",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "Введіть текст розсилки",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "Пошук групових чатів",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "Для всіх учасників орендаря вибирати групу не потрібно.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "Скинути вибір групи",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "Результати перегляду",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "Повторна спроба",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "Повторити для неуспішних одержувачів",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "Груповий чат без назви",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "Немає відповідних розмов",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "Немає історії розмов",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "Немає розмов у черзі",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "Немає активних розмов",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "Немає VIP-розмов",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "Перехоплення людиною",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "Продовжити розмову",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "Переглянути",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "Не вдалося прийняти розмову. Спробуйте ще раз.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "Не вдалося перехопити. Спробуйте ще раз.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "Розмову завершено",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "Закрити розмову",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "Під час закриття історія зберігається. За правилами обслуговування розмова може знову потрапити до черги або бути призначена.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "Розмову закрито",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "Не вдалося закрити розмову. Спробуйте ще раз.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "Пошук розмов",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "Поточний прийом",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "Історія розмов",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "Розмова синхронізується. Оновіть трохи пізніше.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "Передана розмова",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "Закрити сповіщення",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "Обслуговано сьогодні",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "Середній час обробки",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "Задоволеність",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "Розмови з перевищенням часу",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "У черзі · Очікує автоматичного призначення",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "У черзі · Очікує прийняття",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "Очікування --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "Приблизне очікування --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "WeChat",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "Веб",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "Власний застосунок",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "Робоче місце підтримки ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "Змінено на {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "Власний діапазон {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} сеанс} few {{count} сеанси} many {{count} сеансів} other {{count} сеансу}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · Сеансів: {count} · Перша відповідь: {response} · Оцінка: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "Обслуговується {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "Розсилку надіслано. Одержувачів: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {{count} неуспішного одержувача повернуто до черги} few {{count} неуспішних одержувачів повернуто до черги} many {{count} неуспішних одержувачів повернуто до черги} other {{count} неуспішного одержувача повернуто до черги}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "Спосіб: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "Груповий чат: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "Приблизно одержувачів: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "Приклад: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "Завдання: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "Доставлено {sent}/{total}, помилок {failed}, пропущено {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {{count} учасник} few {{count} учасники} many {{count} учасників} other {{count} учасника}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "Місце в черзі: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {Приблизне очікування: {count} хвилина} few {Приблизне очікування: {count} хвилини} many {Приблизне очікування: {count} хвилин} other {Приблизне очікування: {count} хвилини}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {Приблизне очікування: {count} секунда} few {Приблизне очікування: {count} секунди} many {Приблизне очікування: {count} секунд} other {Приблизне очікування: {count} секунди}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "Оператор: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "Джерело: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "У черзі #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "Очікування {count} хв",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "Очікування {count} с",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "Розмову передано вам",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "Вам передано розмову підтримки. Відкрийте робоче місце, щоб переглянути історію.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "Вам передано розмову підтримки. Примітка: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "Очікує доставлення",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "Доставлення",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "Виконано",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "Помилка",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "Зареєстрований клієнт",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "Невідомий канал",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "Невідомий клієнт",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "Історія переданої розмови",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "Закрито: {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "Остання активність: {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "Міні-програма",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

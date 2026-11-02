@@ -1,0 +1,53 @@
+{
+  "@@locale": "de",
+  "notificationTitle": "Benachrichtigungen",
+  "notificationGlobalMute": "Nicht stören",
+  "notificationSound": "Ton",
+  "notificationVibration": "Vibration",
+  "notificationPreview": "Nachrichtenvorschau",
+  "notificationDndStart": "Beginn von „Nicht stören“",
+  "notificationDndEnd": "Ende von „Nicht stören“",
+  "notificationNewMessageTitle": "Neue StartLink-Nachricht",
+  "notificationOnlineServiceTitle": "Neue Kundendienstnachricht",
+  "notificationNewMessageBody": "Sie haben eine neue Nachricht erhalten",
+  "notificationImagePreview": "Hat ein Bild gesendet",
+  "notificationVideoPreview": "Hat ein Video gesendet",
+  "notificationVoicePreview": "Hat eine Sprachnachricht gesendet",
+  "notificationFilePreview": "Hat eine Datei gesendet",
+  "notificationContactPreview": "Hat eine Kontaktkarte gesendet",
+  "notificationCallLogPreview": "Hat einen Anrufeintrag gesendet",
+  "notificationLocationPreview": "Hat einen Standort geteilt",
+  "notificationLinkPreview": "Hat einen Link geteilt",
+  "notificationMentionMe": "Hat Sie erwähnt: {body}",
+  "notificationMentionMeBy": "{sender} hat Sie erwähnt: {body}",
+  "notificationMentionAll": "Hat alle erwähnt: {body}",
+  "notificationMentionAllBy": "{sender} hat alle erwähnt: {body}",
+  "notificationSecurityTitle": "Warnung zur Kontosicherheit",
+  "notificationSecurityBody": "Die Sicherheitseinstellungen Ihres StartLink-Kontos wurden geändert. Bitte jetzt prüfen.",
+  "notificationFriendAcceptedTitle": "Freundschaftsanfrage angenommen",
+  "notificationFriendRejectedTitle": "Freundschaftsanfrage abgelehnt",
+  "notificationFriendAcceptedBody": "Die andere Person hat Ihre Freundschaftsanfrage angenommen",
+  "notificationFriendRejectedBody": "Die andere Person hat Ihre Freundschaftsanfrage abgelehnt",
+  "notificationVideoCallTitle": "Einladung zum Videoanruf",
+  "notificationAudioCallTitle": "Einladung zum Sprachanruf",
+  "notificationVideoCallBody": "{caller} hat Sie zu einem Videoanruf eingeladen",
+  "notificationAudioCallBody": "{caller} hat Sie zu einem Sprachanruf eingeladen",
+  "notificationMessageChannelName": "Nachrichten",
+  "notificationMessageChannelDescription": "Chatnachrichten, Anrufeinträge und Systemhinweise",
+  "notificationCallChannelName": "Anrufe",
+  "notificationCallChannelDescription": "Benachrichtigungen zu Sprach- und Videoanrufen",
+  "notificationSecurityChannelName": "Kontosicherheit",
+  "notificationSecurityChannelDescription": "Hinweise zu Anmeldungen sowie Passwort- und Mobilnummeränderungen",
+  "notificationUnknownCaller": "Unbekannter Anrufer",
+  "notificationBadgeChannelName": "Nachrichtenkennzeichen",
+  "notificationBadgeChannelDescription": "Anzahl ungelesener Nachrichten auf dem App-Symbol",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} ungelesene Nachricht} other {{count} ungelesene Nachrichten}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ ungelesene Nachrichten"
+}

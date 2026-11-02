@@ -1,0 +1,53 @@
+{
+  "@@locale": "es",
+  "notificationTitle": "Notificaciones",
+  "notificationGlobalMute": "No molestar",
+  "notificationSound": "Sonido",
+  "notificationVibration": "Vibración",
+  "notificationPreview": "Vista previa de mensajes",
+  "notificationDndStart": "Inicio de No molestar",
+  "notificationDndEnd": "Fin de No molestar",
+  "notificationNewMessageTitle": "Nuevo mensaje de StartLink",
+  "notificationOnlineServiceTitle": "Nuevo mensaje de atención al cliente",
+  "notificationNewMessageBody": "Has recibido un nuevo mensaje",
+  "notificationImagePreview": "Envió una imagen",
+  "notificationVideoPreview": "Envió un vídeo",
+  "notificationVoicePreview": "Envió un mensaje de voz",
+  "notificationFilePreview": "Envió un archivo",
+  "notificationContactPreview": "Envió una tarjeta de contacto",
+  "notificationCallLogPreview": "Envió un registro de llamada",
+  "notificationLocationPreview": "Compartió una ubicación",
+  "notificationLinkPreview": "Compartió un enlace",
+  "notificationMentionMe": "Te mencionaron: {body}",
+  "notificationMentionMeBy": "{sender} te mencionó: {body}",
+  "notificationMentionAll": "Mención a todos: {body}",
+  "notificationMentionAllBy": "{sender} mencionó a todos: {body}",
+  "notificationSecurityTitle": "Alerta de seguridad de la cuenta",
+  "notificationSecurityBody": "Los ajustes de seguridad de tu cuenta de StartLink han cambiado. Revísalos ahora.",
+  "notificationFriendAcceptedTitle": "Solicitud de amistad aceptada",
+  "notificationFriendRejectedTitle": "Solicitud de amistad rechazada",
+  "notificationFriendAcceptedBody": "La otra persona aceptó tu solicitud de amistad",
+  "notificationFriendRejectedBody": "La otra persona rechazó tu solicitud de amistad",
+  "notificationVideoCallTitle": "Invitación a videollamada",
+  "notificationAudioCallTitle": "Invitación a llamada de voz",
+  "notificationVideoCallBody": "{caller} te invitó a una videollamada",
+  "notificationAudioCallBody": "{caller} te invitó a una llamada de voz",
+  "notificationMessageChannelName": "Mensajes",
+  "notificationMessageChannelDescription": "Mensajes de chat, registros de llamadas y alertas del sistema",
+  "notificationCallChannelName": "Llamadas",
+  "notificationCallChannelDescription": "Alertas de llamadas de voz y vídeo",
+  "notificationSecurityChannelName": "Seguridad de la cuenta",
+  "notificationSecurityChannelDescription": "Alertas de inicio de sesión y cambios de contraseña o número de móvil",
+  "notificationUnknownCaller": "Persona desconocida",
+  "notificationBadgeChannelName": "Contadores de mensajes",
+  "notificationBadgeChannelDescription": "Número de mensajes sin leer en el icono de la aplicación",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} mensaje sin leer} other {{count} mensajes sin leer}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ mensajes sin leer"
+}

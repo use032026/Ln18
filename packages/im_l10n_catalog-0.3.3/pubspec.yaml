@@ -1,0 +1,10 @@
+name: im_l10n_catalog
+description: Versioned IM translation sources and a build-time ARB selector.
+version: 0.3.3
+publish_to: none
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  crypto: ^3.0.6
+dev_dependencies:
+  test: ^1.25.8

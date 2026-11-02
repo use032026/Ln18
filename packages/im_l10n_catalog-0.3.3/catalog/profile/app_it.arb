@@ -1,0 +1,150 @@
+{
+  "@@locale": "it",
+  "myTitle": "Io",
+  "myEnterpriseInfo": "Informazioni aziendali",
+  "myEnterpriseManage": "Gestione aziendale",
+  "myQrCode": "Codice QR",
+  "myFavorites": "Preferiti",
+  "myLanguage": "Lingua",
+  "myTimezone": "Fuso orario",
+  "myAutoTranslate": "Traduzione automatica",
+  "myNetworkSwitch": "Cambia linea",
+  "mySettings": "Impostazioni",
+  "myLogout": "Esci",
+  "myLogoutConfirm": "Vuoi davvero uscire?",
+  "myLeaveEnterprise": "Lascia l’azienda",
+  "myLeaveEnterpriseConfirm": "Vuoi davvero lasciare questa azienda? Perderai l’accesso ai dati aziendali.",
+  "myLeaveEnterpriseSuccess": "Hai lasciato l’azienda",
+  "myLeaveEnterpriseFailed": "Impossibile uscire. Riprova.",
+  "myLppIdCopied": "ID StartLink copiato",
+  "myLppIdLabel": "ID StartLink: {lppId}",
+  "myFriendCount": "{count} contatti",
+  "myAutoSelect": "Automatico",
+  "myPresenceStatus": "Stato di presenza",
+  "myPresenceStatusTitle": "Imposta presenza",
+  "myPresenceOnline": "Online",
+  "myPresenceBusy": "Occupato",
+  "myPresenceAway": "Assente",
+  "myPresenceInvisible": "Invisibile",
+  "profileTitle": "Il mio profilo",
+  "profileName": "Nome",
+  "profileGender": "Genere",
+  "profileBirthday": "Compleanno",
+  "profileRegion": "Regione",
+  "profileSignature": "Presentazione",
+  "profileSignatureHint": "Racconta qualcosa di te",
+  "profileTapTapText": "Toc toc",
+  "profileTapTapHint": "Testo visualizzato quando ricevi un tocco (max 20 caratteri)",
+  "profileAccountSection": "Account",
+  "profileBasicSection": "Informazioni di base",
+  "profileLppId": "ID StartLink",
+  "profileLppIdNotSet": "Non impostato",
+  "profileMobile": "Telefono",
+  "profileMobileUnbound": "Non collegata",
+  "profileEmail": "Email",
+  "profileEmailUnbound": "Non collegata",
+  "profileQrCode": "Il mio codice QR",
+  "profileChangePassword": "Cambia password",
+  "profileGenderMale": "Maschio",
+  "profileGenderFemale": "Femmina",
+  "profileGenderOther": "Altro",
+  "profileGenderUnset": "Non impostato",
+  "profileSaveFailed": "Salvataggio non riuscito. Riprova.",
+  "profileLppIdTitle": "ID StartLink",
+  "profileLppIdSetOnce": "L’ID StartLink può essere modificato una sola volta. Scegli con attenzione.",
+  "profileLppIdChangeFailed": "Modifica non riuscita (l’ID StartLink può essere modificato una sola volta)",
+  "profileChangePasswordOld": "Password attuale",
+  "profileChangePasswordNew": "Nuova password",
+  "profileChangePasswordConfirm": "Conferma nuova password",
+  "profileChangePasswordMismatch": "Le password non coincidono",
+  "profileChangePasswordSuccess": "Password modificata. Accedi di nuovo.",
+  "profileChangePasswordFailed": "Impossibile modificare la password. Riprova.",
+  "profilePageTitle": "Informazioni Personali",
+  "profilePageSendMessage": "Messaggio",
+  "profilePageAddFriend": "Aggiungi amico",
+  "profilePageAlreadyFriend": "Siete già amici",
+  "profilePageBlocked": "Bloccato",
+  "profilePageBlock": "Blocca",
+  "profilePageUnblock": "Sblocca",
+  "profilePageHidden": "Questo utente ha nascosto il suo profilo",
+  "profilePageFriendsOnly": "Questo utente mostra il profilo solo agli amici",
+  "profilePageLppId": "ID StartLink",
+  "profilePageRemarkName": "Osservazioni",
+  "profilePageEditRemark": "Modifica nome del contatto",
+  "profilePageSaveRemarkSuccess": "Nome del contatto salvato",
+  "profilePageSaveRemarkFailed": "Salvataggio non riuscito. Riprova.",
+  "myCustomersTitle": "I miei clienti",
+  "myCustomersEmpty": "Nessun cliente",
+  "profileInviteFriends": "Invita Amici",
+  "@profileInviteFriends": {
+    "description": "Invite friends"
+  },
+  "profileAddSignature": "Aggiungi una presentazione",
+  "@profileAddSignature": {
+    "description": "Add a signature"
+  },
+  "profileSigningOut": "Disconnessione in corso. Attendi.",
+  "@profileSigningOut": {
+    "description": "Signing out. Please wait."
+  },
+  "profileInfoNotReady": "Il profilo è ancora in caricamento. Riprova tra poco.",
+  "@profileInfoNotReady": {
+    "description": "Profile is still loading. Try again shortly."
+  },
+  "profileCannotOpenChat": "Impossibile aprire la chat. Riprova.",
+  "@profileCannotOpenChat": {
+    "description": "Could not open the chat. Try again."
+  },
+  "profileIdentifierRule": "6–20 lettere, cifre o trattini bassi, iniziando con una lettera",
+  "@profileIdentifierRule": {
+    "description": "6–20 letters, digits or underscores, starting with a letter"
+  },
+  "profileIdentifierHint": "6–20 caratteri, iniziando con una lettera",
+  "@profileIdentifierHint": {
+    "description": "6–20 characters, starting with a letter"
+  },
+  "profileFillAllFields": "Compila tutti i campi",
+  "@profileFillAllFields": {
+    "description": "Complete all fields"
+  },
+  "profilePasswordTooShort": "La nuova password deve contenere almeno 6 caratteri",
+  "@profilePasswordTooShort": {
+    "description": "New password must be at least 6 characters"
+  },
+  "profileEnterValue": "Inserisci",
+  "@profileEnterValue": {
+    "description": "Enter a value"
+  },
+  "profileAvatarUploadFailed": "Impossibile caricare l’immagine del profilo. Riprova.",
+  "@profileAvatarUploadFailed": {
+    "description": "Could not upload your avatar. Try again."
+  },
+  "profileEnterField": "Inserisci {label}",
+  "@profileEnterField": {
+    "description": "profileEnterField",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarFailureDetail": "Caricamento dell’immagine del profilo non riuscito: {details}",
+  "@profileAvatarFailureDetail": {
+    "description": "profileAvatarFailureDetail",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarHttpFailure": "Caricamento dell’immagine del profilo non riuscito: risposta del server {statusCode}",
+  "@profileAvatarHttpFailure": {
+    "description": "profileAvatarHttpFailure",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutFailed": "Impossibile disconnettersi. Riprova."
+}

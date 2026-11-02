@@ -1,0 +1,1369 @@
+{
+  "@@locale": "da",
+  "customerServiceTitle": "Servicecenter",
+  "customerServiceQueue": "I kø",
+  "customerServiceActive": "Aktiv",
+  "customerServiceClaim": "Acceptér",
+  "customerServiceTakeover": "Overtag",
+  "customerServiceClose": "Afslut service",
+  "customerServiceCloseConfirm": "Afslut denne servicesamtale?",
+  "customerServiceNoQueue": "Ingen samtaler i kø",
+  "customerServiceNoActive": "Ingen aktive samtaler",
+  "customerServiceVisitor": "Besøgende",
+  "customerServiceCustomer": "Kunde",
+  "customerServiceAssignedTo": "Tildelt til",
+  "customerServiceTransferConversation": "Overdrag chat",
+  "marketingToolbar": "Marketingværktøjer",
+  "customerServiceBroadcastDirectTitle": "Kundemassebesked",
+  "csAiReplyTitle": "AI-svar",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "Kundebesked",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "Svarforslag",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "Generér svarforslag",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "Genopret",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "Generér forslag",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "Indsætter…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "Indsæt svar",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "Videnskilder",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "Materiale fra vidensbase",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "Ingen forslag endnu. Tryk for at generere et AI-svar.",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "Ingen kundebesked tilgængelig til at generere et svar.",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "Denne konto kan ikke bruge kundeservice-AI.",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "AI-svar understøttes ikke for denne samtaletype.",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "Denne supportsamtale er utilgængelig. Opdatér, og prøv igen.",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "AI-svar kunne ikke genereres. Prøv igen.",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "Indholdet blev blokeret af moderation.",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "Deltag i gruppen, før du sender en gruppemassebesked.",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "Vælg en gruppechat",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "En massebesked til hele lejeren kan ikke målrettes en gruppechat.",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "Målgruppen eller opgaven blev ikke fundet.",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "Målet er ikke en gruppechat.",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "Målgruppen er utilgængelig.",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "Dette beskedformat understøttes ikke.",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "Ingen berettigede modtagere blev fundet i målområdet.",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "Antallet af modtagere overstiger massebeskedgrænsen.",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "For mange massebeskedanmodninger. Prøv senere.",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "Gruppemassebeskeder understøtter ikke genforsøg for enkelte modtagere.",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "Administratortilladelse kræves til denne massebesked.",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "Serverfejl",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "Massebesked mislykkedes",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "Online support",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "Kundeservice",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "Resultater",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "Modtagelse",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "Tilstand",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "Manuel accept",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "Automatisk tildeling",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "Accepttilstanden kunne ikke ændres. Prøv igen.",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "Status kunne ikke ændres. Prøv igen.",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "Åbn et virksomhedsrum først.",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "Denne rolle kan ikke åbne arbejdsområdet.",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "Ejerarbejdsområde",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "Administratorarbejdsområde",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "Kundeadministration",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "Alle kunder",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "Virksomhedsdeltagelsesanmodninger",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "Kundevækst",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "Servicedrift",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "Supportcenter",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "Teamets serviceeffektivitet",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "Risikostyring",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "Risikosamtaler",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "Samtalerevision",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "Handlingsrevision",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "Gruppedrift",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "Gruppetilsyn",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "Virksomhedsmassebesked",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "Vis efter medarbejder",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "Svartid overskredet",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "Ingen kundedata",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "Søg kunder",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "Kunder i alt",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "Afventer tildeling",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "Ikke-tildelte kunder",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "Ingen ikke-tildelte kunder",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "Tilføjet i dag",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "Tildeling forsinket",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "Ingen vækstdata",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "Dagens dag",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "Denne måned",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "Dette kvartal",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "Seks måneder",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "Nye kunder",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "Aktive kunder",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "Inaktive kunder",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "Risiko for frafald",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "Ingen kundegruppedata",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "Søg kundegrupper",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "Ingen serviceeffektivitetsdata",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "Gennemsnitlig svartid",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "Behandlede samtaler",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "Overvågning af servicegrupper",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "Ingen servicegruppedata",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "Søg kunder eller servicegrupper",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "Administration af supportsamtaler",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "Ingen samtaler",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "Søg kunder, besøgende eller samtaler",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "Ingen risikosamtaler",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "Søg kunder, medarbejdere eller samtaler",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "Ingen samtaleregistreringer",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "Ingen revisionsregistreringer",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "Søg operatører eller kunder",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "Ingen servicedata for medarbejdere",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "Søg medarbejdere",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "Ingen samtaler med timeout",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "Søg kunder eller samtaler",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "Medarbejderstatus",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "Ingen medarbejderstatusdata",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "Ingen medarbejderdata",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "Ikke-tildelte kunder er midlertidigt utilgængelige.",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "Afventer medarbejder",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "Tildel",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "Kundedetaljer",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "Tilgængelige medarbejdere kunne ikke indlæses.",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "Tildelt automatisk efter reglerne",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "Medarbejder tildelt",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "Medarbejder kunne ikke tildeles.",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "Tildel medarbejder",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "Tildel automatisk efter reglerne",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "Tjenesten vælger en passende medarbejder.",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "Ingen medarbejdere tilgængelige til tildeling.",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "Medarbejderstatus er midlertidigt utilgængelig.",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "Samtalerevision er ikke tilgængelig endnu.",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "Risikosamtaler er ikke tilgængelige endnu.",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "Detaljer om overskredet svartid er ikke tilgængelige endnu.",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "Handlingsrevision er midlertidigt utilgængelig.",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "Handlingsregistrering",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "Kundesamtaler",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "I kø",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "Modtagelsespersonale",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "Supportcenteroversigt",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "Liveovervågning",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "Liveovervågning kunne ikke indlæses.",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "Overvåg supportsamtaler live",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "Synkroniserer medarbejdere",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "Filtrér efter medarbejder",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "Alle medarbejdere",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "I gang",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "Alle statusser",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "Alle kanaler",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "Besøgsforespørgsler",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "IM-support",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "Ingen aktive supportsamtaler matcher disse filtre.",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "Overvåger",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "Overvåg",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "Vælg samtaler ovenfor for at overvåge dem side om side.",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "Detaljer kunne ikke synkroniseres. Opdatér om lidt.",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "Ingen beskeder at forhåndsvise",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[Opkald]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "Ingen kundesamtaler",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "Ingen onlinesupportsamtaler",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "Nuværende samtaler",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "Personer i kø",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "Optagede medarbejdere",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "Tilgængelige medarbejdere",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "Onlinesupportoversigt",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "Besøgende i kø",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "Besøgende under betjening",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "Afventende kundesamtaler",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "Aktive kundesamtaler",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "Samlet kø",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "Andel af samlet kø",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "Andel af aktiv service",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "Gennemsnitlig ventetid",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "Onlinesupport i kø",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "Aktiv onlinesupport",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "Medarbejderresultater er midlertidigt utilgængelige.",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "Betjent",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "Gennemsnitligt første svar",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "Gennemsnitlig varighed",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "Gennemsnitlig bedømmelse",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "Første svar",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "Varighed",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "Bedømmelse",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "Beståelsesprocent",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "Samtalestyring",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "Frys samtale",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "Frigiv samtale",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "Samtaledetaljer",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "Samtale-id",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "Samtale frosset",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "Samtale frigivet",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "Årsag til frysning (valgfrit)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "Årsag til frigivelse (valgfrit)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "Bekræft frysning",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "Bekræft frigivelse",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "Ofte brugte svar",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "Svarskabeloner",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "Svar kunne ikke indlæses.",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "Træk ned for at opdatere, og prøv igen.",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "Ingen hurtige svar",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "Svar vises her, når biblioteket er aktiveret.",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "Ingen matchende svar",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "Prøv et andet søgeord",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "Søg svar",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "Svar uden titel",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "Denne rolle kan ikke sende massebeskeder.",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "Massebeskeder er kun tilgængelige for medarbejdere.",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "Indsender opgave…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "Forbereder forhåndsvisning…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "Forhåndsvis og indsend",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "Massebeskeder",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "Gruppechats kunne ikke indlæses.",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "Prøv om lidt, eller kontrollér samtalelisten i dette rum.",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "Målområde",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "Alle lejermedlemmer",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "Send individuelle beskeder til berettigede medlemmer af virksomheden.",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "Ingen gruppechats tilgængelige.",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "Ingen matchende gruppechats",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "Direkte beskeder til medlemmer og gruppemassebeskeder understøtter kun grupper, denne konto deltager i.",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "Prøv et andet søgeord.",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "Vælg en gruppechat",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "Indtast massebeskedens indhold",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "Din session er udløbet. Log ind igen.",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "Bekræft massebesked",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "Beskeder sendes som den nuværende medarbejder og leveres asynkront efter indsendelse. Sendte beskeder kan ikke tilbagekaldes.",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "Indsend opgave",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "Skriv individuelt til virksomhedsmedlemmer",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "Skriv privat til gruppemedlemmer",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "Send en separat direkte besked til hvert gruppemedlem.",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "Massebesked i gruppe",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "Send en besked direkte i en gruppechat.",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "Kunde- og gruppemassebeskeder",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "Indtast massebeskedtekst",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "Søg gruppechats",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "Intet gruppevalg kræves for alle lejermedlemmer.",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "Ryd gruppevalg",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "Forhåndsvisningsresultater",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "Prøver igen",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "Prøv mislykkede modtagere igen",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "Unavngivet gruppechat",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "Ingen matchende samtaler",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "Ingen samtalehistorik",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "Ingen samtaler i kø",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "Ingen aktive samtaler",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "Ingen VIP-samtaler",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "Menneskelig overtagelse",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "Fortsæt samtale",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "Se",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "Samtalen kunne ikke accepteres. Prøv igen.",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "Kunne ikke overtage. Prøv igen.",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "Samtale afsluttet",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "Luk samtale",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "Lukning bevarer chathistorikken. Samtalen kan sættes i kø eller tildeles igen efter servicepolitikken.",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "Samtale lukket",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "Samtalen kunne ikke lukkes. Prøv igen.",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "Søg samtaler",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "Nuværende modtagelse",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "Samtalehistorik",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "Samtalen synkroniseres. Opdatér om lidt.",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "Overdraget samtale",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "Afvis notifikation",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "Betjent i dag",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "Gennemsnitlig behandlingstid",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "Tilfredshed",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "Samtaler med timeout",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "I kø · Afventer automatisk tildeling",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "I kø · Afventer accept",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "Ventetid --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "Forventet ventetid --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "WeChat",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "Web",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "Egen app",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "Supportarbejdsområde ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "Ændret til {label}",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "Brugerdefineret {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie-id: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} session} other {{count} sessioner}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · Samtaler: {count} · Første svar: {response} · Bedømmelse: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "Betjener {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "Massebesked indsendt. Modtagere: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {{count} mislykket modtager sat i kø igen} other {{count} mislykkede modtagere sat i kø igen}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "Metode: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "Gruppechat: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "Forventede modtagere: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "Eksempel: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "Opgave: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "Leveret {sent}/{total}, mislykket {failed}, sprunget over {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {{count} medlem} other {{count} medlemmer}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "Køposition: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {Forventet ventetid: {count} minut} other {Forventet ventetid: {count} minutter}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {Forventet ventetid: {count} sekund} other {Forventet ventetid: {count} sekunder}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "Medarbejder: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "Kilde: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "I kø #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "Ventetid {count} min.",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "Ventetid {count} sek.",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "Samtale overdraget til dig",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "En supportsamtale er overdraget til dig. Åbn arbejdsområdet for at se historikken.",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "En supportsamtale er overdraget til dig. Bemærkning: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "Afventer levering",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "Leverer",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "Færdig",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "Mislykkedes",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "Registreret kunde",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "Ukendt kanal",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "Ukendt kunde",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "Historik fra en overdraget samtale",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "Lukket {timestamp}",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "Senest aktiv {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "Miniprogram",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

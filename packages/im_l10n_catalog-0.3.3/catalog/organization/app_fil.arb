@@ -1,0 +1,626 @@
+{
+  "@@locale": "fil",
+  "enterpriseInfoTitle": "Impormasyon ng negosyo",
+  "enterpriseName": "Pangalan",
+  "enterpriseDescription": "Paglalarawan",
+  "enterpriseUpdateSuccess": "Matagumpay na na-update",
+  "enterpriseUpdateFailed": "Hindi na-update, subukang muli",
+  "enterpriseLeave": "Umalis sa negosyo",
+  "enterpriseLeaveConfirm": "Sigurado ka bang aalis ka sa negosyong ito?",
+  "enterpriseLeaveSuccess": "Nakaalis na sa negosyo",
+  "enterpriseLeaveFailed": "Hindi makaalis, subukang muli",
+  "enterpriseLeaveOwnerError": "Hindi maaaring umalis agad ang may-ari. Ilipat muna ang pagmamay-ari.",
+  "enterpriseMemberCount": "Mga miyembro",
+  "enterpriseCreatedAt": "Ginawa",
+  "enterpriseCode": "Code ng negosyo",
+  "enterpriseInviteMembers": "Mag-imbita ng miyembro",
+  "enterpriseCopyInviteCode": "Kopyahin ang code ng imbitasyon",
+  "enterpriseInviteCodeCopied": "Nakopya ang code ng imbitasyon",
+  "groupCreateTitle": "Bagong grupo",
+  "groupNameHint": "Ilagay ang pangalan ng grupo",
+  "groupCreateSuccess": "Nagawa ang grupo",
+  "groupCreateFailed": "Hindi nagawa ang grupo",
+  "groupSettings": "Mga setting ng grupo",
+  "groupName": "Pangalan ng grupo",
+  "groupAvatar": "Avatar ng grupo",
+  "groupAnnouncement": "Anunsiyo",
+  "groupMembers": "Mga miyembro",
+  "groupAddMember": "Magdagdag ng miyembro",
+  "groupRemoveMember": "Alisin ang miyembro",
+  "groupRemoveMemberConfirm": "Alisin ang miyembrong ito?",
+  "groupSetAdmin": "Gawing admin",
+  "groupRemoveAdmin": "Alisin bilang admin",
+  "groupTransferOwner": "Ilipat ang pagmamay-ari",
+  "groupTransferOwnerConfirm": "Ilipat ang pagmamay-ari ng grupo sa miyembrong ito?",
+  "groupTransferOwnerSuccess": "Nailipat ang pagmamay-ari",
+  "groupTransferOwnerFailed": "Hindi nailipat, subukang muli",
+  "groupLeave": "Umalis sa grupo",
+  "groupLeaveConfirm": "Umalis sa grupong ito?",
+  "groupLeaveSuccess": "Nakaalis na sa grupo",
+  "groupLeaveFailed": "Hindi makaalis, subukang muli",
+  "groupDissolve": "Buwagin ang grupo",
+  "groupDissolveConfirm": "Buwagin ang grupong ito? Aalisin ang lahat ng miyembro.",
+  "groupDissolveSuccess": "Nabuwag ang grupo",
+  "groupDissolveFailed": "Hindi nabuwag, subukang muli",
+  "groupQrCode": "QR code ng grupo",
+  "groupMuteAll": "I-mute lahat",
+  "groupMuteAllOn": "I-on ang pag-mute sa lahat",
+  "groupMuteAllOff": "I-off ang pag-mute sa lahat",
+  "groupAllowMemberInvite": "Payagang mag-imbita ang mga miyembro",
+  "groupAllowMemberModifyTitle": "Payagang baguhin ng mga miyembro ang pangalan ng grupo",
+  "groupAllowMemberAtAll": "Payagang banggitin ng mga miyembro ang @Lahat",
+  "groupAllowMemberViewMemberList": "Payagang makita ng mga miyembro ang listahan ng miyembro",
+  "groupAllowQrCodeJoin": "Payagang sumali gamit ang QR code",
+  "groupRequireApproval": "Kailangan ng pag-apruba para sumali",
+  "groupAllowMemberAddFriend": "Payagang magdagdag ang mga miyembro sa isa't isa",
+  "groupRoleOwner": "May-ari",
+  "groupRoleAdmin": "Admin",
+  "groupRoleMember": "Miyembro",
+  "groupNoMembers": "Walang miyembro",
+  "groupNoAnnouncements": "Walang anunsiyo",
+  "groupCreateAnnouncement": "Mag-post ng anunsiyo",
+  "groupEditAnnouncement": "I-edit ang anunsiyo",
+  "groupDeleteAnnouncement": "Burahin ang anunsiyo",
+  "groupDeleteAnnouncementConfirm": "Burahin ang anunsiyong ito?",
+  "groupAnnouncementTitle": "Pamagat",
+  "groupAnnouncementContent": "Nilalaman",
+  "groupAnnouncementPin": "I-pin ang anunsiyo",
+  "groupMemberCount": "{count} miyembro",
+  "groupSelectedCount": "{count} napili",
+  "groupJoinRequestApprove": "Sumasang-ayon",
+  "groupJoinRequestReject": "Tanggihan",
+  "groupJoinRequests": "Mga kahilingang sumali",
+  "groupNoJoinRequests": "Walang kahilingang sumali",
+  "groupReadReceipts": "Mga resibo ng pagbasa",
+  "groupReadCount": "{count} nabasa na",
+  "groupUnreadCount": "{count} hindi pa nababasa",
+  "organizationTitle": "Organisasyon",
+  "organizationEmpty": "Walang impormasyon ng departamento",
+  "organizationMembers": "Mga miyembro",
+  "organizationDepartment": "Departamento",
+  "organizationPosition": "Posisyon",
+  "organizationLeader": "Pinuno",
+  "qrCodeTitle": "QR code ko",
+  "qrCodeSave": "I-save sa Album",
+  "qrCodeShare": "Ibahagi",
+  "qrCodeSaveSuccess": "Na-save sa album",
+  "qrCodeSaveFailed": "Hindi na-save, subukang muli",
+  "qrCodeRefresh": "I-refresh ang QR code",
+  "qrCodeExpired": "Nag-expire ang QR code, i-refresh ito",
+  "qrCodeScanToAdd": "I-scan para idagdag ako bilang contact",
+  "spacePersonal": "Personal",
+  "spaceEnterprise": "Negosyo",
+  "spaceJoinByCode": "Sumali gamit ang code ng negosyo",
+  "spaceJoinByInvite": "Sumali gamit ang code ng imbitasyon",
+  "spaceEnterCode": "Ilagay ang code ng negosyo",
+  "spaceEnterInviteCode": "Ilagay ang code ng imbitasyon",
+  "spaceSearchEnterprise": "Maghanap ng negosyo",
+  "spaceJoinRequestSent": "Naipadala ang kahilingan, naghihintay ng pag-apruba",
+  "spaceJoinRequestPending": "Naghihintay ng pag-apruba",
+  "spaceJoinRequestApproved": "Naaprubahan ang kahilingan",
+  "spaceJoinRequestRejected": "Tinanggihan ang kahilingan",
+  "spaceAlreadyMember": "Miyembro ka na",
+  "spaceAutoApproved": "Awtomatikong naaprubahan. Maligayang pagdating!",
+  "spacePendingApprovalHint": "Matagumpay ang pagpaparehistro. Naipadala na ang iyong kahilingang sumali.",
+  "spaceNoSpaces": "Walang espasyo",
+  "spaceInviteExpired": "Nag-expire ang code ng imbitasyon",
+  "spaceInviteTargetMismatch": "Hindi para sa account mo ang code ng imbitasyong ito",
+  "spaceAcceptInviteSuccess": "Matagumpay na nakasali sa negosyo",
+  "spaceAcceptInviteFailed": "Hindi nakasali, subukang muli",
+  "spaceTenantSelectTitle": "Pumili ng espasyo",
+  "spaceTenantSelectHint": "Pumili ng espasyong papasukan",
+  "spaceEnterPersonal": "Pumasok sa personal na espasyo",
+  "spaceEnterEnterprise": "Pumasok sa espasyo ng negosyo",
+  "recentContactsTitle": "Kamakailan",
+  "recentContactsEmpty": "Walang kamakailang contact",
+  "inviteFriendsTitle": "Mag-imbita ng kaibigan",
+  "inviteFriendsCopyLink": "Kopyahin ang link ng imbitasyon",
+  "inviteFriendsLinkCopied": "Nakopya ang link ng imbitasyon",
+  "pendingJoinRequestsTitle": "Mga bagong aplikasyon",
+  "pendingJoinRequestsEmpty": "Walang aplikasyon",
+  "pendingJoinRequestApprove": "Sumasang-ayon",
+  "pendingJoinRequestReject": "Tanggihan",
+  "pendingJoinRequestApproveSuccess": "Naaprubahan",
+  "pendingJoinRequestRejectSuccess": "Tinanggihan",
+  "pendingJoinRequestFailed": "Hindi naisagawa, subukang muli",
+  "groupListTitle": "Mga grupo",
+  "groupListEmpty": "Walang grupo",
+  "joinCompanyTitle": "Sumali sa negosyo",
+  "joinCompanyCodeHint": "Ilagay ang code ng negosyo",
+  "joinCompanySearchHint": "Hanapin ang pangalan ng negosyo",
+  "joinCompanyApply": "Mag-apply para sumali",
+  "joinCompanyApplySuccess": "Naipadala ang aplikasyon",
+  "joinCompanyApplyFailed": "Hindi nakapag-apply, subukang muli",
+  "joinCompanyAutoApproved": "Awtomatikong naaprubahan. Maligayang pagdating!",
+  "joinCompanyPending": "Naipadala ang aplikasyon, naghihintay ng pag-apruba",
+  "joinCompanyInviteCodeHint": "Ilagay ang code ng imbitasyon",
+  "joinCompanyAcceptInvite": "Tanggapin ang imbitasyon",
+  "joinCompanyNoResults": "Walang nahanap na negosyo",
+  "joinCompanyMemberCount": "{count} miyembro",
+  "approvalEmpty": "Walang kahilingan",
+  "approvalApprove": "Sumasang-ayon",
+  "approvalReject": "Tanggihan",
+  "approvalPending": "Naghihintay",
+  "approvalApproved": "Naaprubahan",
+  "approvalRejected": "Rejected",
+  "approvalExpired": "Expired",
+  "approvalCancelled": "Kinansela",
+  "approvalReplayFailed": "Hindi naisagawa ang orihinal na pagkilos. Subukan itong muli.",
+  "requestCancelled": "Nakansela ang kahilingan",
+  "enterpriseNoPermission": "Walang pahintulot",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Mga setting ng impormasyon ng negosyo",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Configuration ng negosyo",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Mga opisyal na account",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Pamahalaan ang mga opisyal na account",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Pamamahala ng miyembro",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Mag-imbita ng kawani",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Mga miyembro",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Pamamahala ng anunsiyo",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Broadcast ng negosyo",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Mga pag-apruba",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Mga pag-apruba ng pagiging miyembro",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Ilipat ang pagmamay-ari",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Pagkatapos ilipat, magiging administrator ka. Hindi ito mababawi. Piliin ang bagong may-ari mula sa listahan ng miyembro.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Pumili ng bagong may-ari",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Mode ng pagtatalaga ng ahente",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Awtomatikong pagtatalaga",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Itinalagang ahente",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Mode ng pag-apruba ng pagiging miyembro",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Manwal na pag-apruba",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Awtomatikong pag-apruba",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Mode ng kaibigan",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Social mode",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Mode ng paghihiwalay",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Access ng bisita sa widget",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Hindi pinagana",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Awtomatikong italaga nang salitan ang mga available na ahente",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Italaga ang lahat ng customer sa itinakdang ahente",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Kailangan ng pag-apruba ng administrator ang mga kahilingan ng customer",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Awtomatikong aprubahan ang mga kahilingan ng customer",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Maaaring magdagdag ang mga customer sa isa't isa bilang kaibigan",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Hindi maaaring magdagdag ang mga customer sa isa't isa bilang kaibigan",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Miyembro",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Maghanap ng miyembro",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Gawing miyembro",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Gawing teknikal na suporta",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Gawing ahente ng serbisyo",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Kumpirmahin ang paglilipat",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Kailangan ang pangalan ng negosyo",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Ilagay ang pangalan ng negosyo",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Walang paglalarawan",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logo ng negosyo",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Nabigo ang paglikha. Pakisubukang muli.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Pinakamataas na paggamit",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Sagal ng Order",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 oras",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 oras",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 araw",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 araw",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Gumawa ng code ng imbitasyon",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Code ng imbitasyon",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Lahat",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Kawani",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Maghanap ng kawani, tungkulin o posisyon",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Mga miyembro ng negosyo",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Walang tumugmang miyembro",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Pangkalahatang-ideya ng negosyo",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Pamahalaan",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Mga pahintulot ng tungkulin",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Paglilipat ng tungkulin sa pag-alis",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Maghanap ng kawani",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Kawani ng negosyo",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profile ng kaibigan",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Voice at video call",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Magdagdag ng kaibigan",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Lalaki",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Babae",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Walang hindi pa nababasang pag-uusap",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Nakopya ang code ng imbitasyon",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Alisin si “{name}” sa negosyo?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Ilipat ang pagmamay-ari kay “{name}”? Magiging administrator ka. Hindi ito mababawi.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} paggamit} other {{count} paggamit}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Bisa ng {hours} oras · Hanggang {count} paggamit",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} hindi pa nababasang pag-uusap} other {{count} hindi pa nababasang pag-uusap}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} hindi pa nababasang mensahe} other {{count} hindi pa nababasang mensahe}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Bubble ID: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Umalis sa negosyo",
+  "enterpriseLoginBeforeSearch": "Mag-sign in bago maghanap ng organisasyon",
+  "enterpriseSearchFailed": "Hindi nakapaghanap. Subukang muli.",
+  "enterpriseLoginBeforeJoin": "Mag-sign in bago mag-apply na sumali sa organisasyon",
+  "enterpriseApplicationPending": "Naipadala ang aplikasyon. Naghihintay ng pag-apruba ng admin.",
+  "enterpriseLoginBeforeAction": "Mag-sign in para magpatuloy",
+  "enterprisePlatformTagline": "Pribadong pakikipag-ugnayan sa customer para sa mga organisasyon",
+  "enterpriseLookupHint": "Ilagay ang numero ng organisasyon, alias o code ng imbitasyon",
+  "enterpriseLookup": "Maghanap",
+  "enterpriseApplicationNote": "Tala sa aplikasyon (opsyonal)",
+  "enterpriseLookupGuide": "Maghanap gamit ang numero o alias ng organisasyon, o sumali gamit ang code ng imbitasyon",
+  "enterpriseRecommendationsLoading": "Nilo-load ang mga inirerekomendang organisasyon",
+  "enterpriseRecommendationsFailed": "Hindi ma-load ang mga inirerekomendang organisasyon",
+  "enterpriseReload": "Magsariwa",
+  "enterpriseNoRecommendations": "Walang rekomendasyon. Maghanap gamit ang numero ng organisasyon, alias o code ng imbitasyon.",
+  "enterpriseRecommended": "Mga inirerekomendang organisasyon",
+  "enterpriseJoined": "Kasali na",
+  "enterpriseRequestsLoadFailed": "Hindi ma-load ang mga aplikasyon",
+  "enterpriseCodeMissing": "Hindi available ang numero ng organisasyon",
+  "enterpriseAlias": "Alias ng organisasyon",
+  "enterpriseCodeLabel": "Numero ng organisasyon",
+  "enterprisePrivateAliasHint": "Hindi pa inilalathala ng organisasyong ito ang mga detalye nito. Gagamitin ng aplikasyon mo ang alias na ito para matukoy ito.",
+  "enterpriseInvitationMismatch": "Hindi para sa iyo ang code ng imbitasyong ito. Maaaring hindi ka makasali.",
+  "enterpriseTechnicalRole": "Teknikal na suporta",
+  "enterpriseJoin": "Sumali",
+  "enterpriseCancelApplication": "I-undo",
+  "enterpriseApplication": "Aplikasyon sa organisasyon",
+  "enterpriseAliasValue": "Alias ng organisasyon: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Numero ng organisasyon: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Sasali ka bilang {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Nakatutok ang code ng imbitasyong ito kay: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Dahilan ng pagtanggi: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisasyon {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Lahat",
+  "enterpriseAudienceAllHint": "Mga empleyado at customer",
+  "enterpriseAudienceStaffHint": "Mga empleyado lang ng organisasyon",
+  "enterpriseAudienceCustomers": "Mga customer ng organisasyon",
+  "enterpriseAudienceCustomersHint": "Mga customer na sumali sa organisasyon",
+  "enterpriseOfficialGroups": "Mga opisyal na grupo",
+  "enterpriseAudienceGroupsHint": "Mga opisyal na group chat ng organisasyon",
+  "enterpriseSendNow": "Ipadala ngayon",
+  "enterpriseSendScheduled": "I-iskedyul ang pagpapadala",
+  "enterprisePreviewing": "Pini-preview",
+  "enterprisePreview": "Preview",
+  "enterpriseSubmitSend": "Isumite para ipadala",
+  "enterpriseBroadcastSubmitted": "Naisumite ang broadcast ng organisasyon",
+  "enterpriseScheduledUnavailable": "Hindi available sa release na ito ang nakaiskedyul na broadcast ng organisasyon",
+  "enterpriseBroadcastFailed": "Hindi naipadala ang broadcast ng organisasyon. Subukan ulit mamaya.",
+  "enterpriseBroadcastGuide": "Ginagamit ng mga broadcast ang opisyal na account ng organisasyon at itinatala ang operasyon. Available ang mga resulta ng paghahatid pagkatapos isumite.",
+  "enterpriseSenderIdentity": "Pagkakakilanlan ng nagpadala",
+  "enterpriseSenderAfterPreview": "Kumpirmahin sa preview",
+  "enterpriseSenderConfirmed": "Nakumpirma",
+  "enterpriseDefaultOfficialSender": "Default na opisyal na account ng organisasyon",
+  "enterpriseOfficialSenderHint": "Nakikita ng mga tatanggap ang pagkakakilanlan ng opisyal na account ng organisasyon",
+  "enterpriseMessageContent": "Nilalaman ng mensahe",
+  "enterpriseBroadcastContentHint": "Ilagay ang mensahe ng broadcast na ipapadala mula sa opisyal na account",
+  "enterpriseInternalNoteHint": "Panloob na tala para sa audit at follow-up (opsyonal)",
+  "enterpriseSendPreview": "Preview ng pagpapadala",
+  "enterpriseExpectedRecipients": "Tinatayang tatanggap",
+  "enterpriseDeliveryMethod": "Paraan ng paghahatid",
+  "enterpriseTaskStatus": "Status ng gawain",
+  "enterpriseNoBroadcastHistory": "Wala pang broadcast ng organisasyon",
+  "enterpriseHistoryUnavailable": "Pansamantalang hindi available",
+  "enterpriseBroadcastDenied": "Walang pahintulot para sa broadcast ng organisasyon",
+  "enterpriseBroadcastRoleHint": "Available lang sa mga admin at may-ari ang mga broadcast ng organisasyon.",
+  "enterpriseDefaultApplicationMessage": "Gusto kong sumali sa inyong organisasyon"
+}

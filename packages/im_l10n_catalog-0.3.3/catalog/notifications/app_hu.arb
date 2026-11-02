@@ -1,0 +1,53 @@
+{
+  "@@locale": "hu",
+  "notificationTitle": "Értesítések",
+  "notificationGlobalMute": "Ne zavarjanak",
+  "notificationSound": "Hang",
+  "notificationVibration": "Rezgés",
+  "notificationPreview": "Üzenet-előnézet",
+  "notificationDndStart": "Ne zavarjanak kezdete",
+  "notificationDndEnd": "Ne zavarjanak vége",
+  "notificationNewMessageTitle": "Új StartLink-üzenet",
+  "notificationOnlineServiceTitle": "Új ügyfélszolgálati üzenet",
+  "notificationNewMessageBody": "Új üzenete érkezett",
+  "notificationImagePreview": "Képet küldött",
+  "notificationVideoPreview": "Videót küldött",
+  "notificationVoicePreview": "Hangüzenetet küldött",
+  "notificationFilePreview": "Fájlt küldött",
+  "notificationContactPreview": "Névjegykártyát küldött",
+  "notificationCallLogPreview": "Hívásrekordot küldött",
+  "notificationLocationPreview": "Helyet osztott meg",
+  "notificationLinkPreview": "Hivatkozást osztott meg",
+  "notificationMentionMe": "Megemlítette Önt: {body}",
+  "notificationMentionMeBy": "{sender} megemlítette Önt: {body}",
+  "notificationMentionAll": "Mindenkit megemlített: {body}",
+  "notificationMentionAllBy": "{sender} mindenkit megemlített: {body}",
+  "notificationSecurityTitle": "Fiókbiztonsági riasztás",
+  "notificationSecurityBody": "StartLink-fiókja biztonsági beállításai megváltoztak. Ellenőrizze őket most.",
+  "notificationFriendAcceptedTitle": "Barátkérelem elfogadva",
+  "notificationFriendRejectedTitle": "Barátkérelem elutasítva",
+  "notificationFriendAcceptedBody": "A másik fél elfogadta a barátkérelmét",
+  "notificationFriendRejectedBody": "A másik fél elutasította a barátkérelmét",
+  "notificationVideoCallTitle": "Videóhívás-meghívás",
+  "notificationAudioCallTitle": "Hanghívás-meghívás",
+  "notificationVideoCallBody": "{caller} videóhívásra hívta Önt",
+  "notificationAudioCallBody": "{caller} hanghívásra hívta Önt",
+  "notificationMessageChannelName": "Üzenetek",
+  "notificationMessageChannelDescription": "Beszélgetési üzenetek, hívásrekordok és rendszerriasztások",
+  "notificationCallChannelName": "Hívások",
+  "notificationCallChannelDescription": "Hang- és videóhívás-riasztások",
+  "notificationSecurityChannelName": "Fiókbiztonság",
+  "notificationSecurityChannelDescription": "Bejelentkezési, jelszó- és mobiltelefonszám-változási riasztások",
+  "notificationUnknownCaller": "Ismeretlen hívó",
+  "notificationBadgeChannelName": "Üzenetjelvények",
+  "notificationBadgeChannelDescription": "Olvasatlan üzenetek száma az alkalmazásikonon",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} olvasatlan üzenet} other {{count} olvasatlan üzenet}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ olvasatlan üzenet"
+}

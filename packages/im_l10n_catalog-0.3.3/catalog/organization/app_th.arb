@@ -1,0 +1,626 @@
+{
+  "@@locale": "th",
+  "enterpriseInfoTitle": "ข้อมูลองค์กร",
+  "enterpriseName": "ชื่อ",
+  "enterpriseDescription": "คำอธิบาย",
+  "enterpriseUpdateSuccess": "อัปเดตเรียบร้อยแล้ว",
+  "enterpriseUpdateFailed": "อัปเดตไม่สำเร็จ โปรดลองอีกครั้ง",
+  "enterpriseLeave": "ออกจากองค์กร",
+  "enterpriseLeaveConfirm": "ต้องการออกจากองค์กรนี้หรือไม่?",
+  "enterpriseLeaveSuccess": "ออกจากองค์กรแล้ว",
+  "enterpriseLeaveFailed": "ออกจากองค์กรไม่สำเร็จ โปรดลองอีกครั้ง",
+  "enterpriseLeaveOwnerError": "เจ้าของออกจากองค์กรโดยตรงไม่ได้ โปรดโอนความเป็นเจ้าของก่อน",
+  "enterpriseMemberCount": "สมาชิก",
+  "enterpriseCreatedAt": "วันที่สร้าง",
+  "enterpriseCode": "รหัสองค์กร",
+  "enterpriseInviteMembers": "เชิญสมาชิก",
+  "enterpriseCopyInviteCode": "คัดลอกรหัสเชิญ",
+  "enterpriseInviteCodeCopied": "คัดลอกรหัสเชิญแล้ว",
+  "groupCreateTitle": "กลุ่มใหม่",
+  "groupNameHint": "ป้อนชื่อกลุ่ม",
+  "groupCreateSuccess": "สร้างกลุ่มแล้ว",
+  "groupCreateFailed": "สร้างกลุ่มไม่สำเร็จ",
+  "groupSettings": "การตั้งค่ากลุ่ม",
+  "groupName": "ชื่อกลุ่ม",
+  "groupAvatar": "รูปประจำกลุ่ม",
+  "groupAnnouncement": "ประกาศ",
+  "groupMembers": "สมาชิก",
+  "groupAddMember": "เพิ่มสมาชิก",
+  "groupRemoveMember": "นำสมาชิกออก",
+  "groupRemoveMemberConfirm": "นำสมาชิกคนนี้ออกหรือไม่?",
+  "groupSetAdmin": "ตั้งเป็นผู้ดูแล",
+  "groupRemoveAdmin": "ยกเลิกผู้ดูแล",
+  "groupTransferOwner": "โอนความเป็นเจ้าของ",
+  "groupTransferOwnerConfirm": "โอนความเป็นเจ้าของกลุ่มให้สมาชิกคนนี้หรือไม่?",
+  "groupTransferOwnerSuccess": "โอนความเป็นเจ้าของแล้ว",
+  "groupTransferOwnerFailed": "โอนไม่สำเร็จ โปรดลองอีกครั้ง",
+  "groupLeave": "ออกจากกลุ่ม",
+  "groupLeaveConfirm": "ออกจากกลุ่มนี้หรือไม่?",
+  "groupLeaveSuccess": "ออกจากกลุ่มแล้ว",
+  "groupLeaveFailed": "ออกจากองค์กรไม่สำเร็จ โปรดลองอีกครั้ง",
+  "groupDissolve": "ยุบกลุ่ม",
+  "groupDissolveConfirm": "ยุบกลุ่มนี้หรือไม่? สมาชิกทั้งหมดจะถูกนำออก",
+  "groupDissolveSuccess": "ยุบกลุ่มแล้ว",
+  "groupDissolveFailed": "ยุบกลุ่มไม่สำเร็จ โปรดลองอีกครั้ง",
+  "groupQrCode": "คิวอาร์โค้ดของกลุ่ม",
+  "groupMuteAll": "ปิดสิทธิ์ส่งข้อความทั้งหมด",
+  "groupMuteAllOn": "เปิดการปิดสิทธิ์ส่งข้อความทั้งหมด",
+  "groupMuteAllOff": "ปิดการปิดสิทธิ์ส่งข้อความทั้งหมด",
+  "groupAllowMemberInvite": "อนุญาตให้สมาชิกเชิญผู้อื่น",
+  "groupAllowMemberModifyTitle": "อนุญาตให้สมาชิกเปลี่ยนชื่อกลุ่ม",
+  "groupAllowMemberAtAll": "อนุญาตให้สมาชิกกล่าวถึง @ทุกคน",
+  "groupAllowMemberViewMemberList": "อนุญาตให้สมาชิกดูรายชื่อสมาชิก",
+  "groupAllowQrCodeJoin": "อนุญาตให้เข้าร่วมด้วยคิวอาร์โค้ด",
+  "groupRequireApproval": "ต้องอนุมัติก่อนเข้าร่วม",
+  "groupAllowMemberAddFriend": "อนุญาตให้สมาชิกเพิ่มกันเป็นเพื่อน",
+  "groupRoleOwner": "เจ้าของ",
+  "groupRoleAdmin": "ผู้ดูแล",
+  "groupRoleMember": "สมาชิก",
+  "groupNoMembers": "ไม่มีสมาชิก",
+  "groupNoAnnouncements": "ไม่มีประกาศ",
+  "groupCreateAnnouncement": "โพสต์ประกาศ",
+  "groupEditAnnouncement": "แก้ไขประกาศ",
+  "groupDeleteAnnouncement": "ลบประกาศ",
+  "groupDeleteAnnouncementConfirm": "ลบประกาศนี้หรือไม่?",
+  "groupAnnouncementTitle": "หัวข้อ",
+  "groupAnnouncementContent": "เนื้อหา",
+  "groupAnnouncementPin": "ปักหมุดประกาศ",
+  "groupMemberCount": "สมาชิก {count} คน",
+  "groupSelectedCount": "เลือกแล้ว {count} รายการ",
+  "groupJoinRequestApprove": "ตกลง",
+  "groupJoinRequestReject": "ปฏิเสธ",
+  "groupJoinRequests": "คำขอเข้าร่วม",
+  "groupNoJoinRequests": "ไม่มีคำขอเข้าร่วม",
+  "groupReadReceipts": "สถานะการอ่าน",
+  "groupReadCount": "อ่านแล้ว {count} คน",
+  "groupUnreadCount": "ยังไม่อ่าน {count} รายการ",
+  "organizationTitle": "องค์กร",
+  "organizationEmpty": "ไม่มีข้อมูลแผนก",
+  "organizationMembers": "สมาชิก",
+  "organizationDepartment": "แผนก",
+  "organizationPosition": "ตำแหน่ง",
+  "organizationLeader": "หัวหน้า",
+  "qrCodeTitle": "คิวอาร์โค้ดของฉัน",
+  "qrCodeSave": "บันทึกไปยังอัลบั้ม",
+  "qrCodeShare": "แชร์",
+  "qrCodeSaveSuccess": "บันทึกลงอัลบั้มเรียบร้อยแล้ว",
+  "qrCodeSaveFailed": "บันทึกไม่สำเร็จ โปรดลองอีกครั้ง",
+  "qrCodeRefresh": "รีเฟรชคิวอาร์โค้ด",
+  "qrCodeExpired": "คิวอาร์โค้ดหมดอายุ โปรดรีเฟรช",
+  "qrCodeScanToAdd": "สแกนเพื่อเพิ่มฉันเป็นผู้ติดต่อ",
+  "spacePersonal": "ส่วนตัว",
+  "spaceEnterprise": "องค์กร",
+  "spaceJoinByCode": "เข้าร่วมด้วยรหัสองค์กร",
+  "spaceJoinByInvite": "เข้าร่วมด้วยรหัสเชิญ",
+  "spaceEnterCode": "ป้อนรหัสองค์กร",
+  "spaceEnterInviteCode": "ป้อนรหัสเชิญ",
+  "spaceSearchEnterprise": "ค้นหาองค์กร",
+  "spaceJoinRequestSent": "ส่งคำขอแล้ว รออนุมัติ",
+  "spaceJoinRequestPending": "รออนุมัติ",
+  "spaceJoinRequestApproved": "อนุมัติคำขอแล้ว",
+  "spaceJoinRequestRejected": "ปฏิเสธคำขอแล้ว",
+  "spaceAlreadyMember": "คุณเป็นสมาชิกอยู่แล้ว",
+  "spaceAutoApproved": "อนุมัติอัตโนมัติ ยินดีต้อนรับ!",
+  "spacePendingApprovalHint": "ลงทะเบียนสำเร็จ ส่งคำขอเข้าร่วมแล้ว",
+  "spaceNoSpaces": "ไม่มีพื้นที่",
+  "spaceInviteExpired": "รหัสเชิญหมดอายุ",
+  "spaceInviteTargetMismatch": "รหัสเชิญนี้ไม่ใช่สำหรับบัญชีของคุณ",
+  "spaceAcceptInviteSuccess": "เข้าร่วมองค์กรสำเร็จ",
+  "spaceAcceptInviteFailed": "เข้าร่วมไม่สำเร็จ โปรดลองอีกครั้ง",
+  "spaceTenantSelectTitle": "เลือกพื้นที่",
+  "spaceTenantSelectHint": "เลือกพื้นที่ที่จะเข้า",
+  "spaceEnterPersonal": "เข้าสู่พื้นที่ส่วนตัว",
+  "spaceEnterEnterprise": "เข้าสู่พื้นที่องค์กร",
+  "recentContactsTitle": "ล่าสุด",
+  "recentContactsEmpty": "ไม่มีผู้ติดต่อล่าสุด",
+  "inviteFriendsTitle": "เชิญเพื่อน",
+  "inviteFriendsCopyLink": "คัดลอกลิงก์เชิญ",
+  "inviteFriendsLinkCopied": "คัดลอกลิงก์เชิญแล้ว",
+  "pendingJoinRequestsTitle": "คำขอใหม่",
+  "pendingJoinRequestsEmpty": "ไม่มีคำขอ",
+  "pendingJoinRequestApprove": "ตกลง",
+  "pendingJoinRequestReject": "ปฏิเสธ",
+  "pendingJoinRequestApproveSuccess": "อนุมัติแล้ว",
+  "pendingJoinRequestRejectSuccess": "ปฏิเสธแล้ว",
+  "pendingJoinRequestFailed": "ดำเนินการไม่สำเร็จ โปรดลองอีกครั้ง",
+  "groupListTitle": "กลุ่ม",
+  "groupListEmpty": "ไม่มีกลุ่ม",
+  "joinCompanyTitle": "เข้าร่วมองค์กร",
+  "joinCompanyCodeHint": "ป้อนรหัสองค์กร",
+  "joinCompanySearchHint": "ค้นหาชื่อองค์กร",
+  "joinCompanyApply": "สมัครเข้าร่วม",
+  "joinCompanyApplySuccess": "ส่งคำขอแล้ว",
+  "joinCompanyApplyFailed": "สมัครไม่สำเร็จ โปรดลองอีกครั้ง",
+  "joinCompanyAutoApproved": "อนุมัติอัตโนมัติ ยินดีต้อนรับ!",
+  "joinCompanyPending": "ส่งคำขอแล้ว รออนุมัติ",
+  "joinCompanyInviteCodeHint": "ป้อนรหัสเชิญ",
+  "joinCompanyAcceptInvite": "ยอมรับคำเชิญ",
+  "joinCompanyNoResults": "ไม่พบองค์กร",
+  "joinCompanyMemberCount": "สมาชิก {count} คน",
+  "approvalEmpty": "ไม่มีคำขอ",
+  "approvalApprove": "ตกลง",
+  "approvalReject": "ปฏิเสธ",
+  "approvalPending": "รอดำเนินการ",
+  "approvalApproved": "อนุมัติแล้ว",
+  "approvalRejected": "ถูกปฏิเสธ",
+  "approvalExpired": "หมดอายุ",
+  "approvalCancelled": "ยกเลิก",
+  "approvalReplayFailed": "การดำเนินการเดิมไม่สำเร็จ โปรดลองใหม่",
+  "requestCancelled": "ยกเลิกคำขอแล้ว",
+  "enterpriseNoPermission": "ไม่มีสิทธิ์",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "ตั้งค่าข้อมูลองค์กร",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "การกำหนดค่าองค์กร",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "บัญชีทางการ",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "จัดการบัญชีทางการ",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "จัดการสมาชิก",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "เชิญพนักงาน",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "สมาชิก",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "จัดการประกาศ",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "ข้อความกลุ่มขององค์กร",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "การอนุมัติ",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "อนุมัติสมาชิก",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "โอนความเป็นเจ้าของ",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "หลังโอนคุณจะเป็นผู้ดูแลระบบ การดำเนินการนี้ย้อนกลับไม่ได้ เลือกเจ้าของใหม่จากรายชื่อสมาชิก",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "เลือกเจ้าของใหม่",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "โหมดมอบหมายเจ้าหน้าที่",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "มอบหมายอัตโนมัติ",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "เจ้าหน้าที่ที่กำหนด",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "โหมดอนุมัติสมาชิก",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "อนุมัติด้วยตนเอง",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "อนุมัติอัตโนมัติ",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "โหมดเพื่อน",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "โหมดสังคม",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "โหมดแยก",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "การเข้าถึงของผู้เยี่ยมชมวิดเจ็ต",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "ปิดใช้งาน",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "มอบหมายเจ้าหน้าที่ที่ว่างแบบหมุนเวียนอัตโนมัติ",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "มอบหมายลูกค้าทั้งหมดให้เจ้าหน้าที่ที่กำหนด",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "คำขอของลูกค้าต้องได้รับอนุมัติจากผู้ดูแล",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "อนุมัติคำขอของลูกค้าอัตโนมัติ",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "ลูกค้าเพิ่มกันเป็นเพื่อนได้",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "ลูกค้าเพิ่มกันเป็นเพื่อนไม่ได้",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "สมาชิก",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "ค้นหาสมาชิก",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "ตั้งเป็นสมาชิก",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "ตั้งเป็นฝ่ายสนับสนุนทางเทคนิค",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "ตั้งเป็นเจ้าหน้าที่บริการ",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "ยืนยันการโอน",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "ต้องระบุชื่อองค์กร",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "ป้อนชื่อองค์กร",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "ไม่มีคำอธิบาย",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "โลโก้องค์กร",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "ไม่สามารถสร้างได้ กรุณาลองอีกครั้ง",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "จำนวนใช้สูงสุด",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "ระยะเวลาที่คำสั่งมีผล",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 ชั่วโมง",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 ชั่วโมง",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 วัน",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 วัน",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "สร้างรหัสเชิญ",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "รหัสเชิญ",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "ทุกคน",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "พนักงาน",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "ค้นหาพนักงาน บทบาท หรือตำแหน่ง",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "สมาชิกองค์กร",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "ไม่มีสมาชิกที่ตรงกัน",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "ภาพรวมองค์กร",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "จัดการ",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "สิทธิ์ตามบทบาท",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "ส่งมอบงานเมื่อออกจากงาน",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "ค้นหาพนักงาน",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "พนักงานองค์กร",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "โปรไฟล์เพื่อน",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "โทรด้วยเสียงและวิดีโอ",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "เพิ่มเพื่อน",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "ชาย",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "หญิง",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "ไม่มีการสนทนาที่ยังไม่อ่าน",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "E",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "คัดลอกรหัสเชิญแล้ว",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "นำ “{name}” ออกจากองค์กรหรือไม่?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "โอนความเป็นเจ้าของให้ “{name}” หรือไม่? คุณจะเป็นผู้ดูแลระบบ การดำเนินการนี้ย้อนกลับไม่ได้",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} ครั้ง} other {{count} ครั้ง}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "ใช้ได้ {hours} ชั่วโมง · สูงสุด {count} ครั้ง",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {การสนทนายังไม่อ่าน {count} รายการ} other {การสนทนายังไม่อ่าน {count} รายการ}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {ข้อความยังไม่อ่าน {count} ข้อความ} other {ข้อความยังไม่อ่าน {count} ข้อความ}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "รหัสบับเบิล: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "ออกจากองค์กร",
+  "enterpriseLoginBeforeSearch": "เข้าสู่ระบบก่อนค้นหาองค์กร",
+  "enterpriseSearchFailed": "ค้นหาไม่สำเร็จ โปรดลองอีกครั้ง",
+  "enterpriseLoginBeforeJoin": "เข้าสู่ระบบก่อนสมัครเข้าร่วมองค์กร",
+  "enterpriseApplicationPending": "ส่งคำขอแล้ว รอผู้ดูแลอนุมัติ",
+  "enterpriseLoginBeforeAction": "เข้าสู่ระบบเพื่อดำเนินการต่อ",
+  "enterprisePlatformTagline": "สื่อสารกับลูกค้าแบบส่วนตัวสำหรับองค์กร",
+  "enterpriseLookupHint": "ป้อนหมายเลของค์กร นามแฝง หรือรหัสเชิญ",
+  "enterpriseLookup": "ค้นหา",
+  "enterpriseApplicationNote": "หมายเหตุคำขอ (ไม่บังคับ)",
+  "enterpriseLookupGuide": "ค้นหาด้วยหมายเลขหรือนามแฝงองค์กร หรือเข้าร่วมด้วยรหัสเชิญ",
+  "enterpriseRecommendationsLoading": "กำลังโหลดองค์กรแนะนำ",
+  "enterpriseRecommendationsFailed": "โหลดองค์กรแนะนำไม่ได้",
+  "enterpriseReload": "รีโหลด",
+  "enterpriseNoRecommendations": "ไม่มีคำแนะนำ ค้นหาด้วยหมายเลของค์กร นามแฝง หรือรหัสเชิญ",
+  "enterpriseRecommended": "องค์กรแนะนำ",
+  "enterpriseJoined": "เข้าร่วมแล้ว",
+  "enterpriseRequestsLoadFailed": "โหลดคำขอไม่ได้",
+  "enterpriseCodeMissing": "หมายเลของค์กรไม่พร้อมใช้งาน",
+  "enterpriseAlias": "นามแฝงองค์กร",
+  "enterpriseCodeLabel": "หมายเลของค์กร",
+  "enterprisePrivateAliasHint": "องค์กรนี้ยังไม่เผยแพร่รายละเอียด คำขอของคุณจะระบุองค์กรด้วยนามแฝงนี้",
+  "enterpriseInvitationMismatch": "รหัสเชิญนี้ไม่ได้ส่งถึงคุณ การเข้าร่วมอาจล้มเหลว",
+  "enterpriseTechnicalRole": "ฝ่ายสนับสนุนทางเทคนิค",
+  "enterpriseJoin": "เข้าร่วม",
+  "enterpriseCancelApplication": "เลิกทำ",
+  "enterpriseApplication": "คำขอเข้าองค์กร",
+  "enterpriseAliasValue": "นามแฝงองค์กร: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "หมายเลของค์กร: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "นามแฝง: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "คุณจะเข้าร่วมในฐานะ {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "รหัสเชิญนี้ส่งถึง: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "เหตุผลที่ปฏิเสธ: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "องค์กร {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "ทุกคน",
+  "enterpriseAudienceAllHint": "พนักงานและลูกค้า",
+  "enterpriseAudienceStaffHint": "พนักงานองค์กรเท่านั้น",
+  "enterpriseAudienceCustomers": "ลูกค้าองค์กร",
+  "enterpriseAudienceCustomersHint": "ลูกค้าที่เข้าร่วมองค์กรแล้ว",
+  "enterpriseOfficialGroups": "กลุ่มทางการ",
+  "enterpriseAudienceGroupsHint": "แชทกลุ่มทางการขององค์กร",
+  "enterpriseSendNow": "ส่งตอนนี้",
+  "enterpriseSendScheduled": "ตั้งเวลาส่ง",
+  "enterprisePreviewing": "กำลังดูตัวอย่าง",
+  "enterprisePreview": "ตัวอย่าง",
+  "enterpriseSubmitSend": "ส่งเพื่อดำเนินการ",
+  "enterpriseBroadcastSubmitted": "ส่งงานข้อความกลุ่มขององค์กรแล้ว",
+  "enterpriseScheduledUnavailable": "เวอร์ชันนี้ยังไม่รองรับการตั้งเวลาส่งข้อความกลุ่มขององค์กร",
+  "enterpriseBroadcastFailed": "ส่งข้อความกลุ่มขององค์กรไม่สำเร็จ โปรดลองภายหลัง",
+  "enterpriseBroadcastGuide": "การส่งข้อความกลุ่มใช้บัญชีทางการขององค์กรและบันทึกการดำเนินการ ผลจัดส่งจะดูได้หลังส่งงาน",
+  "enterpriseSenderIdentity": "ตัวตนผู้ส่ง",
+  "enterpriseSenderAfterPreview": "ยืนยันในตัวอย่าง",
+  "enterpriseSenderConfirmed": "ยืนยันแล้ว",
+  "enterpriseDefaultOfficialSender": "บัญชีทางการเริ่มต้นขององค์กร",
+  "enterpriseOfficialSenderHint": "ผู้รับจะเห็นตัวตนบัญชีทางการขององค์กร",
+  "enterpriseMessageContent": "เนื้อหาข้อความ",
+  "enterpriseBroadcastContentHint": "ป้อนข้อความกลุ่มที่จะส่งจากบัญชีทางการ",
+  "enterpriseInternalNoteHint": "หมายเหตุภายในสำหรับตรวจสอบและติดตาม (ไม่บังคับ)",
+  "enterpriseSendPreview": "ตัวอย่างการส่ง",
+  "enterpriseExpectedRecipients": "ผู้รับโดยประมาณ",
+  "enterpriseDeliveryMethod": "วิธีจัดส่ง",
+  "enterpriseTaskStatus": "สถานะงาน",
+  "enterpriseNoBroadcastHistory": "ยังไม่มีข้อความกลุ่มขององค์กร",
+  "enterpriseHistoryUnavailable": "ไม่พร้อมใช้งานชั่วคราว",
+  "enterpriseBroadcastDenied": "ไม่มีสิทธิ์ส่งข้อความกลุ่มขององค์กร",
+  "enterpriseBroadcastRoleHint": "การส่งข้อความกลุ่มขององค์กรใช้ได้เฉพาะผู้ดูแลและเจ้าของ",
+  "enterpriseDefaultApplicationMessage": "ฉันต้องการเข้าร่วมองค์กรของคุณ"
+}

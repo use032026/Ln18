@@ -1,0 +1,150 @@
+{
+  "@@locale": "pt",
+  "myTitle": "Eu",
+  "myEnterpriseInfo": "Informações da empresa",
+  "myEnterpriseManage": "Gestão da empresa",
+  "myQrCode": "Código QR",
+  "myFavorites": "Favoritos",
+  "myLanguage": "Idioma do Sistema",
+  "myTimezone": "Fuso horário",
+  "myAutoTranslate": "Tradução automática",
+  "myNetworkSwitch": "Alterar linha",
+  "mySettings": "Configurações",
+  "myLogout": "Sair",
+  "myLogoutConfirm": "Tem certeza de que deseja sair?",
+  "myLeaveEnterprise": "Sair da empresa",
+  "myLeaveEnterpriseConfirm": "Tem certeza de que deseja sair desta empresa? Você perderá o acesso aos dados da empresa.",
+  "myLeaveEnterpriseSuccess": "Você saiu da empresa",
+  "myLeaveEnterpriseFailed": "Falha ao sair. Tente novamente.",
+  "myLppIdCopied": "ID StartLink copiado",
+  "myLppIdLabel": "ID StartLink: {lppId}",
+  "myFriendCount": "{count} contatos",
+  "myAutoSelect": "Automático",
+  "myPresenceStatus": "Status de presença",
+  "myPresenceStatusTitle": "Definir presença",
+  "myPresenceOnline": "Online",
+  "myPresenceBusy": "Ocupado",
+  "myPresenceAway": "Ausente",
+  "myPresenceInvisible": "Invisível",
+  "profileTitle": "Perfil",
+  "profileName": "Nome",
+  "profileGender": "Sexo",
+  "profileBirthday": "Aniversário",
+  "profileRegion": "Região",
+  "profileSignature": "Biografia",
+  "profileSignatureHint": "Conte um pouco sobre você",
+  "profileTapTapText": "Toque",
+  "profileTapTapHint": "Texto exibido ao receber um toque (máx. 20 caracteres)",
+  "profileAccountSection": "Conta",
+  "profileBasicSection": "Informações básicas",
+  "profileLppId": "ID StartLink",
+  "profileLppIdNotSet": "Não configurado",
+  "profileMobile": "Telefone",
+  "profileMobileUnbound": "Não vinculado",
+  "profileEmail": "E-mail",
+  "profileEmailUnbound": "Não vinculado",
+  "profileQrCode": "Meu código QR",
+  "profileChangePassword": "Editar senha",
+  "profileGenderMale": "Masculino",
+  "profileGenderFemale": "Feminino",
+  "profileGenderOther": "Outros",
+  "profileGenderUnset": "Não configurado",
+  "profileSaveFailed": "Falha ao salvar. Tente novamente.",
+  "profileLppIdTitle": "ID StartLink",
+  "profileLppIdSetOnce": "O ID StartLink só pode ser alterado uma vez. Escolha com cuidado.",
+  "profileLppIdChangeFailed": "Falha na alteração (o ID StartLink só pode ser alterado uma vez)",
+  "profileChangePasswordOld": "Senha atual",
+  "profileChangePasswordNew": "Nova Senha",
+  "profileChangePasswordConfirm": "Confirmar nova senha",
+  "profileChangePasswordMismatch": "As senhas não coincidem",
+  "profileChangePasswordSuccess": "Senha alterada. Entre novamente.",
+  "profileChangePasswordFailed": "Falha ao alterar a senha. Tente novamente.",
+  "profilePageTitle": "Detalhes do Perfil",
+  "profilePageSendMessage": "Mensagem",
+  "profilePageAddFriend": "Adicionar amigo",
+  "profilePageAlreadyFriend": "Vocês já são amigos",
+  "profilePageBlocked": "Bloqueado",
+  "profilePageBlock": "Bloquear",
+  "profilePageUnblock": "Desbloquear",
+  "profilePageHidden": "Este usuário ocultou o perfil",
+  "profilePageFriendsOnly": "Este usuário mostra o perfil apenas para amigos",
+  "profilePageLppId": "ID StartLink",
+  "profilePageRemarkName": "Observação",
+  "profilePageEditRemark": "Editar apelido",
+  "profilePageSaveRemarkSuccess": "Apelido salvo",
+  "profilePageSaveRemarkFailed": "Falha ao salvar. Tente novamente.",
+  "myCustomersTitle": "Meus clientes",
+  "myCustomersEmpty": "Nenhum cliente",
+  "profileInviteFriends": "Convidar amigos",
+  "@profileInviteFriends": {
+    "description": "Invite friends"
+  },
+  "profileAddSignature": "Adicionar biografia",
+  "@profileAddSignature": {
+    "description": "Add a signature"
+  },
+  "profileSigningOut": "Saindo. Aguarde.",
+  "@profileSigningOut": {
+    "description": "Signing out. Please wait."
+  },
+  "profileInfoNotReady": "O perfil ainda está carregando. Tente em instantes.",
+  "@profileInfoNotReady": {
+    "description": "Profile is still loading. Try again shortly."
+  },
+  "profileCannotOpenChat": "Não foi possível abrir a conversa. Tente novamente.",
+  "@profileCannotOpenChat": {
+    "description": "Could not open the chat. Try again."
+  },
+  "profileIdentifierRule": "De 6 a 20 letras, números ou sublinhados, começando com uma letra",
+  "@profileIdentifierRule": {
+    "description": "6–20 letters, digits or underscores, starting with a letter"
+  },
+  "profileIdentifierHint": "De 6 a 20 caracteres, começando com uma letra",
+  "@profileIdentifierHint": {
+    "description": "6–20 characters, starting with a letter"
+  },
+  "profileFillAllFields": "Preencha todos os campos",
+  "@profileFillAllFields": {
+    "description": "Complete all fields"
+  },
+  "profilePasswordTooShort": "A nova senha deve ter pelo menos 6 caracteres",
+  "@profilePasswordTooShort": {
+    "description": "New password must be at least 6 characters"
+  },
+  "profileEnterValue": "Digite",
+  "@profileEnterValue": {
+    "description": "Enter a value"
+  },
+  "profileAvatarUploadFailed": "Não foi possível enviar sua foto de perfil. Tente novamente.",
+  "@profileAvatarUploadFailed": {
+    "description": "Could not upload your avatar. Try again."
+  },
+  "profileEnterField": "Digite {label}",
+  "@profileEnterField": {
+    "description": "profileEnterField",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarFailureDetail": "Falha ao enviar foto de perfil: {details}",
+  "@profileAvatarFailureDetail": {
+    "description": "profileAvatarFailureDetail",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarHttpFailure": "Falha ao enviar foto de perfil: o servidor retornou {statusCode}",
+  "@profileAvatarHttpFailure": {
+    "description": "profileAvatarHttpFailure",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutFailed": "Não foi possível sair. Tente novamente."
+}

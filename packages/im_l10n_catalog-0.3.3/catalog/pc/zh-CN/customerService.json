@@ -1,0 +1,348 @@
+{
+  "customer": "客户",
+  "action": {
+    "claim": "接入",
+    "closeThread": "关闭会话",
+    "takeover": "人工接管"
+  },
+  "transfer": {
+    "confirm": "确认转接",
+    "currentStaff": "当前客服",
+    "detail": "把「{customer}」当前会话转接给另一位客服，转接后对方可查看完整对话记录。",
+    "empty": "暂无可转接的客服成员",
+    "loading": "正在加载客服成员...",
+    "open": "转接给另一位客服",
+    "openShort": "转接",
+    "assignShort": "指派",
+    "assign": {
+      "confirm": "确认指派",
+      "detail": "把「{customer}」当前会话指派给客服处理。",
+      "empty": "暂无可指派的客服成员",
+      "loading": "正在加载客服成员...",
+      "open": "指派给客服",
+      "reasonLabel": "指派备注",
+      "reasonPlaceholder": "例如：管理员指派排队会话、按语言或专业方向分配",
+      "searchPlaceholder": "搜索客服姓名或账号",
+      "title": "指派对话",
+      "transferring": "指派中..."
+    },
+    "reasonLabel": "转接备注",
+    "reasonPlaceholder": "例如：客户要求粤语客服、专业问题需二线协助",
+    "role": {
+      "admin": "管理员",
+      "customer_service": "客服",
+      "owner": "所有者"
+    },
+    "searchPlaceholder": "搜索客服姓名或账号",
+    "selectTarget": "请选择要转接的客服",
+    "title": "转接对话",
+    "transferring": "转接中...",
+    "unassignedStaff": "未分配",
+    "unavailable": "当前会话暂不能转接，请先接入或接管后再操作。"
+  },
+  "send": {
+    "localFileExpired": "本地文件已失效，请重新选择",
+    "selectThread": "请选择在线客服会话",
+    "sendInterruptedRetry": "发送中断，点击重试",
+    "threadClosedReadonly": "会话已结束，已切换为只读状态。",
+    "videoPosterFailed": "视频封面生成失败"
+  },
+  "contextPanel": {
+    "aiDraft": "AI 起草",
+    "collapseCustomer": "收起客户信息",
+    "dragSort": "拖拽排序",
+    "emptyText": "从会话池选择排队、进行中或历史会话后查看客户资料。",
+    "emptyTitle": "未选择客户",
+    "expandCustomer": "展开客户信息",
+    "knowledge": "知识库",
+    "pin": "固定客户信息",
+    "quickReply": "快捷话术",
+    "railAria": "客户上下文快捷栏",
+    "selectFirst": "选择会话后查看客户信息",
+    "sessionInfo": "会话信息",
+    "sessionNotesUnavailable": "仅在线客服临时会话支持会话备注。",
+    "sessionSummary": "会话摘要",
+    "sessionSummaryEmpty": "API 暂未提供会话摘要。",
+    "title": "客户信息",
+    "toolsAria": "客服工具",
+    "unpin": "取消固定"
+  },
+  "sessionNotes": {
+    "add": "新增",
+    "contentRequired": "请输入会话备注内容",
+    "contentTooLong": "会话备注不能超过 {max} 字",
+    "count": "{count} 条",
+    "createFailed": "备注新增失败：{error}",
+    "createPinned": "置顶",
+    "created": "备注已新增",
+    "delete": "删除",
+    "deleteConfirm": "确认删除这条会话备注？",
+    "deleteFailed": "备注删除失败：{error}",
+    "deleted": "备注已删除",
+    "editorLabel": "会话备注内容",
+    "empty": "暂无会话备注",
+    "loadFailed": "会话备注加载失败：{error}",
+    "loading": "正在加载会话备注...",
+    "pin": "置顶",
+    "pinFailed": "备注置顶状态更新失败：{error}",
+    "pinUpdated": "备注置顶状态已更新",
+    "placeholder": "例如：VIP 客户，关注退款时效",
+    "title": "会话备注",
+    "unknownStaff": "未知坐席",
+    "unknownTime": "时间未知",
+    "unpin": "取消置顶"
+  },
+  "transferRemarks": {
+    "closeAria": "关闭转接备注",
+    "empty": "暂无转接备注",
+    "fromTo": "{from} 转接给 {to}",
+    "inlineLabel": "转接备注：{reason}",
+    "internalOnly": "仅客服可见，客户不可见。",
+    "noReason": "本次转接没有备注",
+    "open": "转接备注",
+    "openShort": "转接备注",
+    "title": "转接备注",
+    "unknownStaff": "未知客服",
+    "unknownTime": "时间未知"
+  },
+  "closeConfirm": {
+    "confirm": "确认关闭",
+    "detail": "关闭后，本次服务会话将进入历史记录，输入区会变为只读。",
+    "pendingWarning": "当前还有 {count} 条消息未完成发送，建议处理后再关闭。",
+    "risk": "访客后续再次咨询时，将按服务端规则重新排队或生成新的客服线程。",
+    "title": "关闭「{customer}」的会话？"
+  },
+  "header": {
+    "autoTranslateDisabled": "本会话（已关闭）",
+    "autoTranslateEnabled": "本会话（已开启）",
+    "autoTranslateGlobalDisabled": "跟随全局（已关闭）",
+    "autoTranslateGlobalEnabled": "跟随全局（已开启）",
+    "autoTranslateNamed": "自动翻译：{state}",
+    "actionsAria": "会话操作",
+    "normalCustomer": "普通客户",
+    "openCustomerInfo": "打开客户信息",
+    "pendingClaim": "待接入",
+    "pendingTakeover": "待接管",
+    "readonly": "只读",
+    "replyable": "可回复",
+    "slaRisk": "SLA 风险",
+    "statusAria": "客服会话状态",
+    "unread": "未读 {count}",
+    "vipCustomer": "VIP 客户"
+  },
+  "reception": {
+    "autoEnableHint": "点击后切换为在线状态，并启用自动分配。",
+    "control": "接待控制",
+    "mode": "接入模式",
+    "queueMode": {
+      "auto": {
+        "description": "服务端按规则把排队会话分配给在线客服。",
+        "disabledOffline": "仅在线状态可以启用自动分配。",
+        "disabledUnsynced": "接待状态未同步，暂不能启用自动分配。",
+        "label": "自动分配"
+      },
+      "manual": {
+        "description": "排队会话保留在会话池，客服手动点击接入。",
+        "label": "手动接入"
+      }
+    },
+    "status": "接待状态",
+    "statusOption": {
+      "break": {
+        "description": "短时间离开坐席，不接收新的排队会话。",
+        "label": "短暂离开"
+      },
+      "busy": {
+        "description": "暂停自动接入，继续处理当前会话。",
+        "label": "忙碌"
+      },
+      "offline": {
+        "description": "不参与接待，建议先处理或转交当前会话。",
+        "label": "离线"
+      },
+      "online": {
+        "description": "可接入新会话，参与自动分配。",
+        "label": "在线"
+      },
+      "unsynced": {
+        "description": "接待状态正在同步，默认忙碌不接入。"
+      }
+    },
+    "summary": "{status} · {mode} · {sessions}"
+  },
+  "messageStage": {
+    "aria": "在线客服聊天",
+    "customerFallback": "客",
+    "customerReadAt": "客户已读 {time}",
+    "customerReadTimeUnknown": "客户已读时间未知",
+    "customerUnread": "客户未读",
+    "read": "已读",
+    "newMessages": "↓ {count} 条新消息",
+    "typingPreviewEmpty": "客户正在输入...",
+    "typingPreviewLabel": "客户正在输入",
+    "unread": "未读"
+  },
+  "online": {
+    "accessModeUnsynced": "接入模式未同步",
+    "assistantNeedsWidth": "{pane}需要更宽的工作区，请拉宽窗口或先收起队列后查看。",
+    "autoAccess": "自动接入",
+    "commandSummary": "会话 {total} · {mode} · 已分配 {capacity}",
+    "commandTitle": "在线客服指挥台",
+    "dragSort": "拖拽排序",
+    "expandActiveTitle": "展开进行中会话，当前 {count} 个",
+    "expandQueue": "展开接待队列",
+    "expandQueuedTitle": "展开排队会话，当前 {count} 个",
+    "expandSlaTitle": "展开查看 SLA 风险会话，当前 {count} 个",
+    "expandUnreadTitle": "展开未读会话，当前 {count} 条",
+    "metrics": {
+      "capacity": "容量",
+      "assigned": "已分配",
+      "maxAssignable": "最大可分配",
+      "queued": "排队",
+      "active": "进行中",
+      "unread": "未读",
+      "sla": "SLA"
+    },
+    "manualAccess": "手动接入",
+    "queueRailAria": "在线客服队列雷达",
+    "receptionNotSynced": "接待状态未同步，请稍后重试",
+    "resizeAssistant": "调整客服辅助工具宽度",
+    "resizeCustomer": "调整客户资料宽度",
+    "resizeList": "调整在线客服列表宽度",
+    "status": {
+      "online": "在线",
+      "busy": "忙碌",
+      "break": "小休",
+      "offline": "离线",
+      "unsynced": "未同步"
+    },
+    "unread": "未读",
+    "unreadHint": "未读待处理已展开，请优先查看带红点的会话；专用未读筛选等待后端能力接入。"
+  },
+  "threadList": {
+    "claim": "接入",
+    "claiming": "接入中",
+    "claimTitle": "手动接入该访客会话",
+    "current": "当前",
+    "empty": {
+      "clearSearch": "清空搜索",
+      "filteredDescription": "当前筛选下没有可处理会话。可切换历史或等待排队访客进入会话池。",
+      "filteredTitle": "当前筛选为空",
+      "historyFilteredDescription": "当前历史筛选没有可展示会话，可回到当前会话池继续处理在线访客。",
+      "historyFilteredTitle": "当前历史筛选为空",
+      "noCurrentDescription": "排队访客出现后会自动进入会话池；也可以切换历史查看已结束会话。",
+      "noCurrentTitle": "暂无当前会话",
+      "noHistoryDescription": "已结束会话会进入历史列表；当前可先关注排队、进行中和 SLA 风险。",
+      "noHistoryTitle": "暂无历史会话",
+      "noSlaTitle": "暂无 SLA 风险",
+      "queuedDescription": "当前没有等待接入的访客。可切换全部或进行中，继续处理已接待会话。",
+      "searchCurrentDescription": "当前会话池没有匹配项，可清空搜索或切换历史会话继续排查。",
+      "searchHistoryDescription": "历史会话里没有匹配的客户、渠道或消息内容，可清空搜索后继续查看。",
+      "searchTitle": "未找到匹配会话",
+      "servingDescription": "当前没有接待中会话。可切换排队接入访客，或查看历史记录。",
+      "slaDescription": "暂未发现 SLA 风险信号。可回到全部会话，按未读和最后消息时间继续处理。",
+      "viewAll": "查看全部",
+      "viewQueued": "查看排队"
+    },
+    "filterAll": "全部",
+    "filterAria": "在线客服筛选",
+    "filterQueued": "排队",
+    "filterServing": "进行中",
+    "history": "历史",
+    "historyStatus": {
+      "closedByVisitor": "访客关闭",
+      "closedByStaff": "客服关闭",
+      "closedTimeout": "超时关闭",
+      "closedSystem": "系统关闭",
+      "transferred": "已转接",
+      "archived": "已归档",
+      "ended": "已结束"
+    },
+    "historyStatusUnread": "已结束 · 未读 {count}",
+    "historyThread": "历史会话",
+    "loadMore": "查看更多",
+    "loadFailed": "会话加载失败，请稍后重试",
+    "loading": "正在加载会话...",
+    "loadingMore": "正在加载更多...",
+    "modeTabsAria": "当前和历史",
+    "noMessage": "暂无消息",
+    "queueMetaMinutes": "排队第 {position} 位 · 预计等待 {minutes} 分钟",
+    "queueMetaSeconds": "排队第 {position} 位 · 预计等待 {seconds} 秒",
+    "queueMetaUnknown": "排队第 {position} 位 · 预计等待 --",
+    "queuePosition": "排队 #{position}",
+    "queueWaitMinutes": "等{minutes}分钟",
+    "queueWaitSeconds": "等{seconds}秒",
+    "queueWaitUnknown": "等待 --",
+    "queueWaiting": "排队中 · 等待接入",
+    "queueWaitingAutomatic": "排队中 · 等待自动分配",
+    "readonly": "只读",
+    "searchPlaceholder": "搜索客户、渠道、会话内容",
+    "showMore": "显示更多 {count} 个会话",
+    "summary": "当前 {current} · 排队 {queued} · 历史 {history}",
+    "title": "会话池",
+    "unknownCustomer": "未知客户"
+  },
+  "status": {
+    "aiTransfer": "AI 转人工",
+    "closed": "已结束",
+    "queueing": "客户排队中",
+    "serving": "人工服务中",
+    "unknown": "状态待同步"
+  },
+  "visitor": "访客",
+  "workspace": {
+    "actionFailed": "{action}：{error}",
+    "aiDraftInsertedNotice": "AI 回复建议已插入输入框，确认后可发送给客户。",
+    "closedUnreadNotice": "有 {count} 条关闭前未读消息",
+    "closing": "关闭中...",
+    "composerDisabled": {
+      "automaticAssignment": "自动分配已开启，等待系统分配后即可回复。",
+      "claim": "当前会话仍在排队中，请先点击“接入”。",
+      "managementReadonly": "查看模式，无法回复。会话仍在进行中，可转接给客服处理。",
+      "readonly": "会话已结束，无法继续回复",
+      "transferred": "会话已转接，不能回复",
+      "takeover": "当前会话仍由 AI 接待，请先点击“人工接管”。"
+    },
+    "currentCustomer": "当前客户",
+    "editFailed": "编辑失败",
+    "emptyAiDraft": "这条 AI 回复建议暂无可插入文本。",
+    "emptyAssistantContent": "这条辅助内容暂无可插入文本。",
+    "emptyKnowledgeContent": "这条知识内容暂无可插入文本。",
+    "fileCopied": "文件已复制。",
+    "imageCopied": "图片已复制。",
+    "insertedNotice": "已插入输入框，确认后可发送给客户。",
+    "mediaNoUrl": "这条媒体消息没有可处理的地址。",
+    "openFailed": "打开失败",
+    "opened": "已打开。",
+    "openedForEdit": "已打开编辑。",
+    "lookupLoadedRangeOnly": "当前只可定位已加载的客服聊天记录。",
+    "revealFailed": "显示文件位置失败",
+    "revealedInFinder": "已在 Finder 中显示。",
+    "revealedInFolder": "已在文件夹中显示。",
+    "saveAsFailed": "另存为失败",
+    "savedAs": "已另存为。",
+    "selectThread": "请选择在线客服会话",
+    "serviceConversation": "客服会话",
+    "threadChangedConfirmAgain": "当前会话已变化，请重新确认关闭。",
+    "inline": {
+      "emptyMessages": "暂无消息记录，可先查看客户资料或等待访客发起对话。",
+      "loadFailed": "会话加载失败：{error}",
+      "loading": "正在加载会话...",
+      "noThread": "选择排队、进行中或历史会话后开始处理。"
+    },
+    "mode": {
+      "current": "当前接待",
+      "history": "历史会话",
+      "viewing": "查看模式"
+    },
+    "reception": {
+      "ai": "当前由 AI 接待 · 来自 {source} · 接管后才能人工回复",
+      "automaticAssignment": "客户正在排队 · 来自 {source} · 等待系统自动分配",
+      "ended": "会话已结束 · {status}",
+      "queued": "客户正在排队 · 来自 {source} · 接入后才能人工回复",
+      "serving": "会话已接入 · 来自 {source} · 可继续沟通",
+      "viewing": "查看模式 · {status} · 来自 {source} · 无法回复"
+    },
+    "unknownSource": "未知来源"
+  }
+}

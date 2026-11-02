@@ -1,0 +1,778 @@
+{
+  "action": {
+    "check": "检查",
+    "clean": "清理",
+    "processing": "处理中"
+  },
+  "chatArchive": {
+    "aria": "聊天记录管理",
+    "backup": "备份",
+    "backingUp": "备份中",
+    "backupSuccessNotice": "聊天记录备份已保存",
+    "backupSuccessState": "备份 {conversations} 个会话、{messages} 条消息{partial}。",
+    "cancelledNotice": "已取消聊天记录文件保存",
+    "cancelledState": "已取消聊天记录文件保存。",
+    "error": {
+      "desktopApiUnavailable": "当前需要在 PC 桌面客户端中使用聊天记录导出、备份和恢复。",
+      "loginExpired": "登录状态已失效，请重新登录",
+      "messageApiUnavailable": "会话消息接口不可用，未能导出聊天记录。",
+      "noExportableMessages": "暂无可导出的聊天记录。",
+      "restoreInvalid": "备份文件无法恢复"
+    },
+    "export": "导出",
+    "exporting": "导出中",
+    "exportSuccessNotice": "聊天记录已导出",
+    "exportSuccessState": "导出 {conversations} 个会话、{messages} 条消息{partial}。",
+    "initialState": "本地归档不会同步到云端，也不会写入服务端消息。",
+    "partialFailed": "，{count} 个会话因接口失败未导出",
+    "restore": "导入",
+    "restoring": "导入中",
+    "restoreSuccessNotice": "聊天记录备份已导入本机归档",
+    "restoreSuccessState": "已导入本地备份归档，真实会话列表和未读状态未被修改。"
+  },
+  "currentStatus": "当前设置状态",
+  "diagnosticsRecords": {
+    "aria": "诊断记录",
+    "browserDebug": "浏览器调试",
+    "copyTraceAria": "复制最近 traceId",
+    "countItems": "{count} 条",
+    "currentProfile": "当前 profile",
+    "emptyLog": "暂无{filter}诊断记录。发生接口错误、消息链路异常或设置写入后会在这里显示脱敏日志行。",
+    "emptySummary": "暂无本机诊断记录，可继续使用导出诊断包给研发定位。",
+    "exportPackage": "导出诊断包",
+    "failedCount": "{count} 异常",
+    "failedRecords": "异常记录",
+    "filter": {
+      "api-error": "API 错误",
+      "api-traffic": "API 请求",
+      "all": "全部",
+      "cs-routing": "客服路由",
+      "gateway": "网关",
+      "message": "消息链路",
+      "runtime": "运行时",
+      "settings": "设置"
+    },
+    "latestError": "最近异常",
+    "logTitle": "{filter}日志",
+    "moduleFilterAria": "诊断模块筛选",
+    "recentCount": "{count} 条最近记录",
+    "recentRecords": "最近记录",
+    "recordCount": "{filter}记录",
+    "sourceNote": "设置页按问题域汇总 renderer 内存诊断并展示脱敏日志行；诊断包里的持久化记录会继续按 jsonl 文件分流，供研发深化。",
+    "summary": "已收集 {total} 条最近诊断记录，其中 {failed} 条需要关注。",
+    "title": "最近诊断记录",
+    "traceCopied": "已复制 traceId",
+    "traceCopyFailed": "无法复制 traceId，请手动选择",
+    "waitingRecords": "等待记录"
+  },
+  "group": {
+    "appearance": "外观",
+    "chat": "聊天",
+    "desktop": "桌面",
+    "input": "输入",
+    "languageTime": "语言与时间",
+    "notifications": "通知",
+    "systemPermissions": "系统权限",
+    "translation": "翻译"
+  },
+  "heroSubtitle": "按清晰领域管理 PC 客服工作环境，聊天、通知和外观等共用能力统一收进通用设置。",
+  "navAria": "设置分组",
+  "navSubtitle": "按账户、企业、消息、隐私、在线客服、线路、通用、诊断和关于组织设置。",
+  "network": {
+    "autoReconnectOn": "已启用，网络恢复后自动重连接口和实时消息。",
+    "off": "已关闭。",
+    "weakNetworkOff": "未记录弱网线索。",
+    "weakNetworkOn": "已记录弱网线索，可随诊断包导出。"
+  },
+  "chatBackground": {
+    "aria": "聊天背景",
+    "chooseImage": "选择图片",
+    "current": "当前：{name}",
+    "customImage": "本地图片：{name}",
+    "desc": "设置聊天窗口背景。",
+    "imageActive": "聊天背景图片已生效",
+    "imageLoadFailed": "图片读取失败，请重新选择。",
+    "imageTooLarge": "请选择 3.5 MB 以内的 PNG、JPG、WebP 或 GIF 图片。",
+    "preset": {
+      "beige": "暖米纹理",
+      "default": "微信浅灰",
+      "light-blue": "雨后蓝",
+      "light-gray": "雾面灰",
+      "light-green": "竹青",
+      "light-pink": "淡樱",
+      "light-purple": "浅藤",
+      "white": "宣纸白"
+    },
+    "removeImage": "清除图片",
+    "title": "聊天背景"
+  },
+  "connectivityHealth": {
+    "aria": "连接体检",
+    "item": {
+      "api-base": {
+        "desc": "展示当前请求基址；如果最近有 API 错误，会直接标记为需关注。",
+        "label": "当前 API"
+      },
+      "api-health": {
+        "desc": "服务端提供轻量 health 后展示 API 服务状态、版本和依赖摘要。",
+        "label": "API 健康端点"
+      },
+      "cs-health": {
+        "desc": "客服服务提供队列/分配健康端点后展示接待链路。",
+        "label": "在线客服队列端点"
+      },
+      "customer-service-routing": {
+        "desc": "读取在线客服状态与缓存诊断，辅助判断接待、队列和分配问题。",
+        "label": "客服路由"
+      },
+      "fixture-health": {
+        "desc": "仅开发/测试环境接入，用于验证客服夹具接口状态。",
+        "label": "客服测试夹具"
+      },
+      "gateway-health": {
+        "desc": "服务端提供长连接健康状态后展示连接、协商和订阅状态。",
+        "label": "Gateway 健康端点"
+      },
+      "gateway-runtime": {
+        "desc": "读取现有 Gateway 连接诊断，不新建测试长连接。",
+        "label": "实时连接"
+      },
+      "media-health": {
+        "desc": "媒体服务提供健康端点后展示上传、下载和鉴权链路。",
+        "label": "媒体上传/下载端点"
+      },
+      "media-recent-errors": {
+        "desc": "只显示最近媒体上传、下载或缓存错误；未发生过则不冒充成功。",
+        "label": "媒体链路"
+      },
+      "site-lines": {
+        "desc": "复用线路配置与测速能力，不额外携带 token 或 Cookie。",
+        "label": "线路配置"
+      }
+    },
+    "needsAttention": "需关注",
+    "noSyntheticConnection": "不新建合成连接",
+    "observable": "可观测",
+    "pendingOrNoSample": "待接入/暂无采样",
+    "phaseOne": "现有信号",
+    "phaseTwo": "待服务端补齐",
+    "recentRecord": "最近记录 {time}",
+    "requiresServerHealth": "待服务端 health 接入",
+    "siteLineValue": "{site} / {count} 条线路",
+    "status": {
+      "failed": "需关注",
+      "noBaseUrl": "未读取到 API 基址",
+      "noLines": "暂无线路",
+      "no-sample": "暂无采样",
+      "observable": "可观测",
+      "pending": "待接入"
+    },
+    "summaryNoFailures": "当前没有失败采样，{pending} 项待接入或暂无采样。",
+    "summaryWithFailures": "{failed} 项需要关注，{pending} 项待接入或暂无采样。",
+    "title": "连接体检"
+  },
+  "networkLine": {
+    "activeLine": "当前线路",
+    "aria": "网络线路",
+    "available": "配置可达",
+    "configRefreshed": "线路配置已刷新",
+    "currentSite": "当前站点",
+    "latency": {
+      "ms": "{value} ms",
+      "testing": "测试中",
+      "unavailable": "不可用",
+      "untested": "未测试"
+    },
+    "localChecked": "已检查本地线路配置",
+    "latencyTest": "线路测速",
+    "note": "{activeLine} 会真实切换 PC 当前 API 与实时连接基址，{latencyTest} 仅请求线路配置地址，不携带 token、Authorization 或 Cookie。",
+    "refresh": "刷新站点",
+    "refreshing": "刷新中",
+    "refreshFailed": "刷新线路配置失败，请稍后重试",
+    "switchableSites": "可切换站点",
+    "switchableSummary": "{count} 条线路，S3 仅作为兜底配置源，不显示在线路列表。",
+    "switchFailed": "线路切换未生效，请稍后重试",
+    "switchUnavailable": "线路不可用，已保留当前线路",
+    "switched": "已切换到 {name}",
+    "testAll": "全部测速",
+    "testCompleted": "线路测速已完成",
+    "testing": "测速中",
+    "testNamed": "测试 {name}",
+    "unavailable": "配置不可达",
+    "unverified": "未验证"
+  },
+  "notificationSettings": {
+    "friendRequestDesc": "新的好友申请跟随 IM 消息提醒策略。当前：{state}",
+    "loadFailed": "提醒设置加载失败：{error}。当前控件会先保存在本机，接口恢复后可再次同步。",
+    "loading": "正在读取账号提醒设置...",
+    "off": "关闭",
+    "on": "开启",
+    "saved": "提醒设置已保存",
+    "saveFailed": "提醒设置保存失败：{error}"
+  },
+  "notice": {
+    "autoSave": "设置更改后会自动保存",
+    "chatCacheCleared": "已清理聊天缓存",
+    "diagnosticsExportCancelled": "已取消导出诊断包",
+    "diagnosticsExported": "诊断包已导出",
+    "localDataCleaned": "已清理本机消息索引 {count} 条",
+    "localDataCleanFailed": "清理本机消息索引失败：{error}",
+    "localDataRepairDone": "本地库检查完成：DB {status}，失效媒体 {stale} 个",
+    "localDataRepairFailed": "本地库检查失败：{error}",
+    "localMediaCleaned": "已清理本机媒体缓存 {size}",
+    "localMediaCleanFailed": "清理本机媒体缓存失败：{error}",
+    "saved": "已保存"
+  },
+  "localDataStorage": {
+    "cleanupConfirm": "确认清理本机已落库消息索引？不会删除云端消息，但本机历史搜索和离线首屏会重新依赖服务端同步。",
+    "cleanupDesc": "清理当前账号空间的本机消息索引，并保留云端消息。",
+    "cleanupTitle": "清理本机消息索引",
+    "loading": "正在读取本地消息库...",
+    "mediaCleanupDesc": "清理本机图片、视频和文件缓存，不删除云端消息。",
+    "mediaCleanupTitle": "清理本机媒体缓存",
+    "repairDesc": "检查 DB、重建搜索索引，并标记丢失的本机媒体文件。",
+    "repairTitle": "检查并修复本地库",
+    "stats": "本机消息 {messages} 条，媒体 {media} 个，发送箱 {outbox} 条，占用 {size}",
+    "title": "本地消息库",
+    "unavailable": "当前客户端未接入本地消息库统计"
+  },
+  "option": {
+    "apiLog": {
+      "body": "完整脱敏",
+      "errors": "仅失败",
+      "off": "关闭",
+      "summary": "全部摘要"
+    },
+    "disabled": "不启用",
+    "fontSize": {
+      "extraLarge": "超大",
+      "large": "大",
+      "small": "小",
+      "standard": "标准"
+    },
+    "skin": {
+      "blue": "商务蓝",
+      "graphite": "石墨灰",
+      "jade": "翡翠绿"
+    },
+    "theme": {
+      "business": "专业商务",
+      "classicWechat": "经典微信",
+      "dark": "深色",
+      "highContrast": "高对比",
+      "porcelain": "白瓷"
+    }
+  },
+  "desktop": {
+    "browserUnavailable": "浏览器调试不可用",
+    "macCloseBehavior": "macOS 关闭窗口后仍保持在线；请使用 Cmd+Q 退出。",
+    "launchDisabled": "已关闭开机自启",
+    "launchEnabled": "已开启开机自启",
+    "launchFailed": "开机自启设置失败：{error}",
+    "launchUnsupported": "当前浏览器调试环境不支持开机自启",
+    "statusReadFailed": "状态读取失败",
+    "statusSyncFailed": "状态同步失败",
+    "trayDisabled": "已关闭最小化到托盘",
+    "trayEnabled": "已开启最小化到托盘",
+    "trayFailed": "最小化到托盘设置失败：{error}",
+    "trayUnsupported": "当前浏览器调试环境不支持最小化到托盘"
+  },
+  "systemPermissions": {
+    "camera": {
+      "desc": "仅在主动发起或接听视频通话时使用。",
+      "label": "摄像头"
+    },
+    "firstLaunch": {
+      "allow": "开启通知",
+      "description": "StartLink 在后台并保持运行时，可通过系统通知提醒你新消息、客服任务和安全事件。",
+      "eyebrow": "首次启动设置",
+      "failed": "通知权限申请失败，请稍后在设置的“系统权限”中重试。",
+      "hint": "继续后会发送一条测试通知，并打开 macOS 通知设置供你确认。",
+      "later": "暂不",
+      "requesting": "正在打开…",
+      "title": "及时接收重要通知",
+      "unavailable": "当前环境不支持系统通知，请稍后在设置中检查。"
+    },
+    "loginItems": {
+      "desc": "开启开机自启后，可在 macOS 登录项中复核 StartLink。",
+      "label": "登录项设置"
+    },
+    "microphone": {
+      "desc": "仅在主动发起或接听语音、视频通话时使用。",
+      "label": "麦克风"
+    },
+    "notifications": {
+      "desc": "发送明确标记的测试通知；最终验收必须使用正式签名包。",
+      "label": "通知中心"
+    },
+    "openSettings": "打开设置",
+    "readFailed": "系统权限状态读取失败，返回 StartLink 后可重试。",
+    "refresh": "刷新",
+    "request": "申请权限",
+    "requestBlocked": "权限未开启；请在系统设置中允许 StartLink 后重试对应功能。",
+    "requestFailed": "权限申请失败；请打开系统设置后重试。",
+    "requestGranted": "权限已允许。",
+    "notificationSettingsOpened": "已发送测试通知并打开系统设置；请在其中开启 StartLink，再用正式签名包验证送达和点击唤醒。",
+    "screen": {
+      "desc": "仅在主动截图时申请，不采集桌面音频。",
+      "label": "屏幕录制"
+    },
+    "settingsOpened": "已打开系统设置；修改权限后请返回 StartLink 重试。",
+    "status": {
+      "denied": "已拒绝",
+      "granted": "已允许",
+      "not-determined": "未申请",
+      "restricted": "系统限制",
+      "unknown": "待验证",
+      "unsupported": "不支持"
+    }
+  },
+  "development": {
+    "apiUrl": "API 地址",
+    "browserDebug": "浏览器调试",
+    "currentEnvironment": "当前环境",
+    "defaultEnvironment": "当前代码默认测试环境",
+    "devRuntime": "开发/测试运行",
+    "environmentMasked": "当前连接环境（已隐藏敏感信息）",
+    "environmentOrigin": "{origin}（已隐藏 token、Authorization、Cookie）",
+    "loadingProfile": "正在读取当前窗口 profile...",
+    "recentDiagnostics": "最近诊断记录",
+    "recentDiagnosticsCount": "{count} 条，可导出诊断包给研发定位。",
+    "realtime": "实时连接",
+    "realtimeHint": "随诊断包采集 WebSocket 与消息网关状态。",
+    "redactedHint": "诊断信息默认脱敏，不展示密码、token、Authorization、Cookie 或完整手机号。",
+    "testConnection": "测试连接或内部开关",
+    "title": "开发诊断",
+    "unknownVersion": "未知版本",
+    "version": "版本",
+    "visibleHint": "仅开发/测试环境显示"
+  },
+  "enterprise": {
+    "current": "当前企业",
+    "identity": "{name} / 企业号 {code} / {role}"
+  },
+  "planning": {
+    "aria": "规划能力",
+    "defaultDependency": "需要补齐产品、接口或桌面端基础能力。",
+    "defaultNext": "完成依赖拆分后接入。",
+    "defaultValue": "完善 PC 客服端设置能力。",
+    "dependency": "依赖",
+    "next": "下一步",
+    "planned": "计划接入",
+    "subtitle": "这些能力已有明确产品位置和接入条件，暂不伪装成可生效开关。",
+    "title": "规划能力",
+    "value": "价值"
+  },
+  "capability": {
+    "missingBackendApi": "缺少接口",
+    "missingDesktopApi": "缺少桌面能力",
+    "missingRuntimeWiring": "待接入流程"
+  },
+  "rowEffect": {
+    "account": "设置会随账号保存，当前 PC 客户端会立即使用最新策略。",
+    "enterprise": "内容来自当前企业信息，当前 PC 客户端只展示可用状态。",
+    "local": "操作结果仅保存在当前 PC 客户端。",
+    "localEffective": "此设置仅影响当前 PC 客户端。",
+    "missingBackendApi": "需要补齐账号或企业接口后才能提供真实设置入口。",
+    "missingDesktopApi": "需要补齐桌面客户端能力后才能启用。",
+    "missingRuntimeWiring": "需要接入完整客户端流程后才能启用。",
+    "recordOnly": "此项仅展示当前状态，不提供设置入口。",
+    "system": "仅在桌面客户端生效，浏览器调试环境不可用。"
+  },
+  "row": {
+    "profile": {
+      "label": "个人资料",
+      "desc": "头像、昵称、{publicIdLabel}、手机号、邮箱和创建时间。"
+    },
+    "enterpriseIdentity": {
+      "label": "当前企业",
+      "desc": "当前企业、企业号、角色和企业切换入口。"
+    },
+    "changePassword": {
+      "label": "修改密码",
+      "desc": "校验旧密码后更新账号登录密码。"
+    },
+    "loginDevices": {
+      "label": "登录设备",
+      "desc": "查看已登录设备并下线异常设备。"
+    },
+    "logoutAccount": {
+      "label": "退出登录",
+      "desc": "退出当前 {publicName} 账号。"
+    },
+    "deactivateAccount": {
+      "label": "注销账户",
+      "desc": "提交验证码后进入账号注销冷静期。"
+    },
+    "allowMobileSearch": {
+      "label": "允许通过手机号搜索",
+      "desc": "其他用户可通过手机号找到你。"
+    },
+    "allowLppSearch": {
+      "label": "允许通过 {publicIdLabel}搜索",
+      "desc": "其他用户可通过 {publicIdLabel}找到你。"
+    },
+    "friendRequestVerification": {
+      "label": "加我为好友",
+      "desc": "控制陌生人向你发起好友申请的范围。"
+    },
+    "profileVisibility": {
+      "label": "个人资料可见性",
+      "desc": "控制资料页对外展示范围。"
+    },
+    "blocklist": {
+      "label": "黑名单",
+      "desc": "查看黑名单列表，移出后对方可恢复互动。"
+    },
+    "imNotifications": {
+      "label": "IM 消息提醒",
+      "desc": "好友、群聊、系统通知和好友申请进入消息提醒。"
+    },
+    "friendRequestNotifications": {
+      "label": "好友申请提醒",
+      "desc": "新的好友申请跟随 IM 消息通知策略。"
+    },
+    "serviceQueueNotifications": {
+      "label": "访客排队/待接入提醒",
+      "desc": "有访客排队、待接入或待接管时提醒客服。"
+    },
+    "customerServiceMessageNotifications": {
+      "label": "已接入会话新消息提醒",
+      "desc": "已接入或正在处理的客服会话收到访客新消息时提醒。"
+    },
+    "foregroundInAppCustomerServiceReminders": {
+      "label": "前台站内消息提醒",
+      "desc": "PC 客户端在前台时，收到已接入客服会话新消息显示右上角提醒卡片。"
+    },
+    "slaTimeoutNotifications": {
+      "label": "SLA 超时提醒",
+      "desc": "会话接近超时或已经超时时提醒。"
+    },
+    "desktopNotifications": {
+      "label": "桌面系统通知",
+      "desc": "允许系统通知中心展示 IM 和客服提醒。"
+    },
+    "notificationPreview": {
+      "label": "通知预览",
+      "desc": "桌面通知中显示发送人和摘要，敏感内容仍按脱敏规则处理。"
+    },
+    "notificationSound": {
+      "label": "声音提醒",
+      "desc": "新消息、排队和 SLA 事件播放轻量提示音。"
+    },
+    "doNotDisturb": {
+      "label": "免打扰",
+      "desc": "暂停 IM、客服队列和 SLA 提醒；来电与账号安全通知仍会保留。"
+    },
+    "enterToSend": {
+      "label": "Enter 发送",
+      "desc": "开启后 Enter 发送消息，Shift + Enter 换行。"
+    },
+    "screenshotShortcut": {
+      "label": "截图快捷键",
+      "desc": "在聊天输入区快速截屏并作为图片待发送。"
+    },
+    "dragUpload": {
+      "label": "文件拖拽上传",
+      "desc": "把图片或文件拖进输入区即可发送。"
+    },
+    "autoTranslate": {
+      "label": "自动翻译全部会话",
+      "desc": "仅自动翻译当前聊天视口内的对方文本，会话可单独覆盖。"
+    },
+    "autoTranslateTargetLanguage": {
+      "label": "翻译目标语言",
+      "desc": "自动翻译始终使用这里选择的目标语言，与界面语言分开。"
+    },
+    "shortcutHints": {
+      "label": "快捷键提示",
+      "desc": "在输入区和工具按钮上显示快捷键提示。"
+    },
+    "chatBackground": {
+      "label": "聊天背景",
+      "desc": "设置默认聊天背景或按会话单独设置。"
+    },
+    "chatExport": {
+      "label": "导出聊天记录",
+      "desc": "导出最近真实会话消息为 JSON 文件。"
+    },
+    "chatBackup": {
+      "label": "备份聊天记录",
+      "desc": "生成本机加密聊天记录备份文件。"
+    },
+    "chatRestore": {
+      "label": "导入/恢复聊天记录",
+      "desc": "校验本地备份文件并保存为本机归档。"
+    },
+    "theme": {
+      "label": "主题",
+      "desc": "切换整套颜色、边界和管理端视觉基调。"
+    },
+    "skin": {
+      "label": "皮肤",
+      "desc": "在当前主题下调整主色，不改变信息结构。"
+    },
+    "fontSize": {
+      "label": "字号",
+      "desc": "调整会话、聊天、资料面板的基础字号。"
+    },
+    "compactList": {
+      "label": "紧凑列表",
+      "desc": "减少会话列表行高，提高 PC 信息密度。"
+    },
+    "highDensityContext": {
+      "label": "高密度客户上下文",
+      "desc": "右侧资料面板以更紧凑的行距展示。"
+    },
+    "reduceMotion": {
+      "label": "减少动效",
+      "desc": "降低弹层、列表和按钮过渡动画。"
+    },
+    "highContrastBoundary": {
+      "label": "高对比度边界",
+      "desc": "增强边框和分隔线，适合长时间办公。"
+    },
+    "keyboardFocusHint": {
+      "label": "键盘焦点提示",
+      "desc": "Tab 操作时显示更清晰的焦点状态。"
+    },
+    "minimizeToTray": {
+      "label": "最小化到托盘",
+      "desc": "关闭窗口时保留后台在线。"
+    },
+    "launchAtStartup": {
+      "label": "开机自启",
+      "desc": "登录系统后自动启动 PC 客户端。"
+    },
+    "multiProfileIndicator": {
+      "label": "多开 profile 标识",
+      "desc": "显示当前窗口 profile，避免多账号测试和多客服环境串号。"
+    },
+    "language": {
+      "label": "界面语言",
+      "desc": "PC 客户端菜单和界面文案语言。"
+    },
+    "timezone": {
+      "label": "时区",
+      "desc": "统一聊天时间、客服 SLA、历史会话和报表时间。"
+    },
+    "currentEnvironment": {
+      "label": "当前连接环境",
+      "desc": "显示当前测试环境地址，不展示 token、Authorization 或 Cookie。"
+    },
+    "activeLine": {
+      "label": "网络线路",
+      "desc": "按 APP 线路管理规则自动或手动选择可用站点，切换后 API 与实时连接使用新线路。"
+    },
+    "lineLatencyTest": {
+      "label": "线路测速",
+      "desc": "通过线路配置地址测试候选线路延迟和可达状态，不再把 API 根地址当作健康检查。"
+    },
+    "autoReconnect": {
+      "label": "断线自动重连",
+      "desc": "网络恢复后自动重连接口和实时消息。"
+    },
+    "weakNetworkDiagnostics": {
+      "label": "弱网提示",
+      "desc": "检测接口延迟、实时连接和最近失败请求。"
+    },
+    "clearLocalCache": {
+      "label": "清理缓存",
+      "desc": "清理图片、文件缩略图和临时缓存，不删除云端消息。"
+    },
+    "diagnosticsExport": {
+      "label": "导出诊断包",
+      "desc": "导出本地日志、traceId、接口错误和关键操作轨迹。"
+    },
+    "apiTrafficLogLevel": {
+      "label": "API 请求响应日志",
+      "desc": "控制 data/api 层统一记录接口请求、响应和脱敏 body 的详细程度。"
+    },
+    "diagnosticsRecentRecords": {
+      "label": "诊断记录",
+      "desc": "查看本机最近诊断摘要、模块筛选和脱敏后的 traceId。"
+    },
+    "connectivityHealth": {
+      "label": "连接体检",
+      "desc": "查看当前 API、线路、实时连接、媒体和客服路由的可观测状态。"
+    },
+    "developmentDiagnostics": {
+      "label": "开发诊断",
+      "desc": "查看环境、版本、构建、接口、实时连接和 profile 状态。"
+    },
+    "runtimeStatus": {
+      "label": "运行情况",
+      "desc": "抽样显示最近消息发送、长连接接收、缓存写入和窗口展示耗时。"
+    },
+    "feedback": {
+      "label": "反馈",
+      "desc": "提交投诉、建议、问题反馈和缺陷线索。"
+    },
+    "terms": {
+      "label": "用户协议",
+      "desc": "查看 {publicName}用户服务协议。"
+    },
+    "privacyPolicy": {
+      "label": "隐私政策",
+      "desc": "查看 {publicName}隐私政策和个人信息处理说明。"
+    },
+    "aboutClient": {
+      "label": "关于客户端",
+      "desc": "查看版本号、构建信息和运行环境。"
+    },
+    "autoCheckUpdates": {
+      "label": "自动检查更新",
+      "desc": "开启后启动客户端会延迟检查一次；只提示，不自动下载或安装。"
+    },
+    "updateChannel": {
+      "label": "更新渠道",
+      "desc": "默认使用 stable，beta 预留给灰度和测试版本。"
+    },
+    "updateDownloadStrategy": {
+      "label": "下载策略",
+      "desc": "优先增量，失败自动完整下载。"
+    },
+    "checkUpdate": {
+      "label": "检查更新",
+      "desc": "检查当前版本、更新说明和可用安装包。"
+    }
+  },
+  "runtimeStatus": {
+    "aria": "运行情况",
+    "channel": {
+      "gateway": "长连接",
+      "httpQuery": "主动查询",
+      "send": "发送链路"
+    },
+    "empty": "暂无采样",
+    "emptyDesc": "暂无消息耗时采样，发送或接收消息后会自动显示。",
+    "latestStage": "{channel}，最新阶段：{stage}",
+    "localOnly": "仅展示本机可观测阶段",
+    "milliseconds": "{value} 毫秒",
+    "metric": {
+      "gatewayToCache": "长连接到缓存",
+      "gatewayToUi": "长连接到窗口",
+      "sendHttp": "发送请求",
+      "sendToAck": "提交到确认",
+      "serverToGateway": "服务端到长连接"
+    },
+    "owner": {
+      "customerService": "在线客服",
+      "im": "IM"
+    },
+    "recentLatency": "最近消息耗时",
+    "realtime": "实时采样",
+    "seconds": "{value} 秒",
+    "stage": {
+      "query_message_discovered": "主动查询发现",
+      "receive_cache_written": "写入本机缓存",
+      "receive_gateway_observed": "长连接收到",
+      "receive_paint_observed": "窗口绘制完成",
+      "receive_ui_observed": "窗口状态收到",
+      "send_compose_submit": "提交发送",
+      "send_http_done": "发送请求完成",
+      "send_http_failed": "发送失败",
+      "send_http_start": "发送请求开始",
+      "send_local_echo_written": "本地显示",
+      "send_server_ack_observed": "服务端确认"
+    },
+    "summary": {
+      "queryDiscovered": "最近一条消息由主动查询发现。",
+      "recorded": "已记录最近消息运行轨迹。",
+      "sendHttp": "最近一次发送请求耗时 {duration}。",
+      "serverToGateway": "最近一条长连接消息：服务端时间到本机收到 {duration}。"
+    },
+    "traceTitle": "{owner} 消息 {id}",
+    "waiting": "等待采样"
+  },
+  "profile": {
+    "avatar": "个人头像",
+    "avatarCancelled": "已取消头像更改",
+    "avatarFormat": "JPG、PNG、WebP，最大 5 MB",
+    "avatarSelected": "已选择头像，点击保存后生效",
+    "avatarSyncHint": "当前头像会同步到会话、联系人和侧边栏展示。",
+    "avatarTooLarge": "头像图片不能超过 5 MB",
+    "avatarUpdateFailed": "头像更新失败：{error}",
+    "avatarUpdated": "头像已更新",
+    "chooseImage": "选择图片",
+    "createdAt": "创建时间",
+    "displayName": "昵称",
+    "displayNamePlaceholder": "请输入昵称",
+    "email": "邮箱",
+    "error": {
+      "avatarNoUrl": "头像上传成功，但服务端未返回图片地址",
+      "avatarProfileNoUrl": "头像已上传，但服务端个人资料未返回头像地址",
+      "avatarProfileUnchanged": "头像已上传，但服务端个人资料未写入新头像",
+      "emptyDisplayName": "昵称不能为空"
+    },
+    "info": "资料信息",
+    "infoHint": "昵称和签名会同步到个人名片",
+    "loadFailed": "个人资料加载失败：{error}",
+    "loading": "正在读取个人资料...",
+    "loginExpiredAvatar": "登录状态已失效，请重新登录后设置头像。",
+    "loginName": "登录名",
+    "lppId": "{publicIdLabel}",
+    "member": "成员",
+    "mobile": "手机号",
+    "reverted": "已还原资料编辑",
+    "revert": "还原",
+    "role": "角色",
+    "saveAvatar": "保存头像",
+    "saveFailed": "个人资料保存失败：{error}",
+    "saveProfile": "保存资料",
+    "saved": "个人资料已保存",
+    "selectImageFile": "请选择图片文件作为头像",
+    "signature": "签名",
+    "signaturePlaceholder": "添加一句工作状态或个人签名",
+    "userId": "用户 ID"
+  },
+  "section": {
+    "about": {
+      "desc": "版本、帮助、协议和诊断信息。",
+      "title": "关于"
+    },
+    "account": {
+      "desc": "头像、资料、登录安全和账号状态。",
+      "title": "账户"
+    },
+    "common": {
+      "desc": "通知、输入、聊天、外观、桌面、语言与时间。",
+      "title": "通用"
+    },
+    "customerService": {
+      "desc": "客服提醒、客户上下文和接待体验。",
+      "title": "在线客服"
+    },
+    "enterprise": {
+      "desc": "当前企业、空间身份和组织信息。",
+      "title": "企业"
+    },
+    "messages": {
+      "desc": "IM 消息提醒、输入和会话体验。",
+      "title": "消息"
+    },
+    "network": {
+      "desc": "线路、连接、重连和弱网诊断。",
+      "title": "线路"
+    },
+    "privacy": {
+      "desc": "搜索权限、好友验证、资料可见性和黑名单。",
+      "title": "隐私"
+    },
+    "storageDiagnostics": {
+      "desc": "缓存、诊断、体检和脱敏日志。",
+      "title": "诊断"
+    }
+  },
+  "state": {
+    "autoTranslate": "会话级按钮可设为跟随、开启或关闭。"
+  },
+  "status": {
+    "common": "通用设置已按通知、输入、聊天、外观、桌面、语言时间分组。",
+    "customerService": "客服提醒和客户上下文设置会服务当前接待工作台。",
+    "default": "设置项会在当前页面自动保存并显示最新状态。",
+    "notLoggedIn": "登录状态未恢复，账号类设置会在重新登录后读取。",
+    "storageDiagnostics": "诊断和体检信息只展示脱敏后的本机可观测状态。"
+  },
+  "title": "设置中心"
+}

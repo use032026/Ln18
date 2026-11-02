@@ -1,0 +1,53 @@
+{
+  "@@locale": "sk",
+  "notificationTitle": "Oznámenia",
+  "notificationGlobalMute": "Nerušiť",
+  "notificationSound": "Zvuk",
+  "notificationVibration": "Vibrácie",
+  "notificationPreview": "Náhľad správy",
+  "notificationDndStart": "Začiatok režimu Nerušiť",
+  "notificationDndEnd": "Koniec režimu Nerušiť",
+  "notificationNewMessageTitle": "Nová správa StartLink",
+  "notificationOnlineServiceTitle": "Nová správa zákazníckej podpory",
+  "notificationNewMessageBody": "Dostali ste novú správu",
+  "notificationImagePreview": "Odoslaný obrázok",
+  "notificationVideoPreview": "Odoslané video",
+  "notificationVoicePreview": "Odoslaná hlasová správa",
+  "notificationFilePreview": "Odoslaný súbor",
+  "notificationContactPreview": "Odoslaná vizitka",
+  "notificationCallLogPreview": "Odoslaný záznam hovoru",
+  "notificationLocationPreview": "Zdieľaná poloha",
+  "notificationLinkPreview": "Zdieľaný odkaz",
+  "notificationMentionMe": "Zmienka o vás: {body}",
+  "notificationMentionMeBy": "{sender} vás spomenul(a): {body}",
+  "notificationMentionAll": "Zmienka o všetkých: {body}",
+  "notificationMentionAllBy": "{sender} spomenul(a) všetkých: {body}",
+  "notificationSecurityTitle": "Bezpečnostné upozornenie účtu",
+  "notificationSecurityBody": "Zabezpečenie vášho účtu StartLink sa zmenilo. Skontrolujte ho.",
+  "notificationFriendAcceptedTitle": "Žiadosť o priateľstvo prijatá",
+  "notificationFriendRejectedTitle": "Žiadosť o priateľstvo odmietnutá",
+  "notificationFriendAcceptedBody": "Druhá strana prijala vašu žiadosť o priateľstvo",
+  "notificationFriendRejectedBody": "Druhá strana odmietla vašu žiadosť o priateľstvo",
+  "notificationVideoCallTitle": "Pozvanie na videohovor",
+  "notificationAudioCallTitle": "Pozvanie na hlasový hovor",
+  "notificationVideoCallBody": "{caller} vás pozval(a) na videohovor",
+  "notificationAudioCallBody": "{caller} vás pozval(a) na hlasový hovor",
+  "notificationMessageChannelName": "Správy",
+  "notificationMessageChannelDescription": "Správy chatu, záznamy hovorov a systémové upozornenia",
+  "notificationCallChannelName": "Hovory",
+  "notificationCallChannelDescription": "Upozornenia na hlasové hovory a videohovory",
+  "notificationSecurityChannelName": "Zabezpečenie účtu",
+  "notificationSecurityChannelDescription": "Upozornenia na prihlásenie a zmeny hesla a mobilného čísla",
+  "notificationUnknownCaller": "Neznámy volajúci",
+  "notificationBadgeChannelName": "Odznaky správ",
+  "notificationBadgeChannelDescription": "Počet neprečítaných správ na ikone aplikácie",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} neprečítaná správa} few {{count} neprečítané správy} other {{count} neprečítaných správ}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ neprečítaných správ"
+}

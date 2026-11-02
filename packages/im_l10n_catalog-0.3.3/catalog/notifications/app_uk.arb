@@ -1,0 +1,53 @@
+{
+  "@@locale": "uk",
+  "notificationTitle": "Сповіщення",
+  "notificationGlobalMute": "Не турбувати",
+  "notificationSound": "Звук",
+  "notificationVibration": "Вібрація",
+  "notificationPreview": "Попередній перегляд повідомлень",
+  "notificationDndStart": "Початок режиму «Не турбувати»",
+  "notificationDndEnd": "Завершення режиму «Не турбувати»",
+  "notificationNewMessageTitle": "Нове повідомлення StartLink",
+  "notificationOnlineServiceTitle": "Нове повідомлення підтримки",
+  "notificationNewMessageBody": "Ви отримали нове повідомлення",
+  "notificationImagePreview": "Надіслано зображення",
+  "notificationVideoPreview": "Надіслано відео",
+  "notificationVoicePreview": "Надіслано голосове повідомлення",
+  "notificationFilePreview": "Надіслано файл",
+  "notificationContactPreview": "Надіслано картку контакту",
+  "notificationCallLogPreview": "Надіслано запис дзвінка",
+  "notificationLocationPreview": "Надіслано місцезнаходження",
+  "notificationLinkPreview": "Надіслано посилання",
+  "notificationMentionMe": "Вас згадали: {body}",
+  "notificationMentionMeBy": "{sender} згадує вас: {body}",
+  "notificationMentionAll": "Згадали всіх: {body}",
+  "notificationMentionAllBy": "{sender} згадує всіх: {body}",
+  "notificationSecurityTitle": "Попередження безпеки облікового запису",
+  "notificationSecurityBody": "Налаштування безпеки облікового запису StartLink змінено. Перевірте їх зараз.",
+  "notificationFriendAcceptedTitle": "Запит у друзі прийнято",
+  "notificationFriendRejectedTitle": "Запит у друзі відхилено",
+  "notificationFriendAcceptedBody": "Співрозмовник прийняв ваш запит у друзі",
+  "notificationFriendRejectedBody": "Співрозмовник відхилив ваш запит у друзі",
+  "notificationVideoCallTitle": "Запрошення на відеодзвінок",
+  "notificationAudioCallTitle": "Запрошення на голосовий дзвінок",
+  "notificationVideoCallBody": "{caller} запрошує вас на відеодзвінок",
+  "notificationAudioCallBody": "{caller} запрошує вас на голосовий дзвінок",
+  "notificationMessageChannelName": "Повідомлення",
+  "notificationMessageChannelDescription": "Повідомлення чатів, записи дзвінків і системні сповіщення",
+  "notificationCallChannelName": "Дзвінки",
+  "notificationCallChannelDescription": "Сповіщення про голосові та відеодзвінки",
+  "notificationSecurityChannelName": "Безпека облікового запису",
+  "notificationSecurityChannelDescription": "Сповіщення про вхід, зміну пароля й номера телефону",
+  "notificationUnknownCaller": "Невідомий абонент",
+  "notificationBadgeChannelName": "Значки повідомлень",
+  "notificationBadgeChannelDescription": "Кількість непрочитаних повідомлень на значку застосунку",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} непрочитане повідомлення} few {{count} непрочитані повідомлення} many {{count} непрочитаних повідомлень} other {{count} непрочитаного повідомлення}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ непрочитаних повідомлень"
+}

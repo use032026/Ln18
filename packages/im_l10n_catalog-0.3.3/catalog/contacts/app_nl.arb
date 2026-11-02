@@ -1,0 +1,370 @@
+{
+  "@@locale": "nl",
+  "contactsTitle": "Contacten",
+  "contactsSearch": "Contacten zoeken",
+  "contactsNewFriends": "Nieuwe vrienden",
+  "contactsGroups": "Groepen",
+  "contactsFavorites": "Favorieten",
+  "contactsRecent": "Recent",
+  "contactsOrganization": "Organisatie",
+  "contactsAnnouncement": "Aankondigingen",
+  "contactsNewApplications": "Nieuwe aanvragen",
+  "contactsCustomerGroups": "Klantgroepen",
+  "contactsAllCustomers": "Alle klanten",
+  "contactsMyCustomers": "Mijn klanten",
+  "contactsViewAll": "Alles bekijken",
+  "contactsMyContacts": "Mijn contacten",
+  "contactsMyAdvisor": "Mijn adviseur",
+  "contactsNoAdvisor": "Nog geen adviseur toegewezen",
+  "contactsAdvisorLoading": "Laden…",
+  "contactsNavigateFailed": "Navigatie mislukt. Probeer het opnieuw.",
+  "contactsEmpty": "Geen contacten",
+  "contactsNoAnnouncement": "Geen aankondigingen",
+  "contactsOfficialBadge": "Officieel",
+  "contactsCustomerBadge": "Klant",
+  "contactsEmptyCustomers": "Geen klanten",
+  "friendAddTitle": "Contact toevoegen",
+  "friendSearchHint": "Telefoon / E-mail / StartLink-ID",
+  "friendRequestSent": "Vriendschapsverzoek verzonden",
+  "friendRequestFailed": "Verzenden mislukt. Probeer het opnieuw.",
+  "friendAlreadyFriend": "Al contacten",
+  "friendNewFriendsTitle": "Nieuwe vrienden",
+  "friendNoRequests": "Geen vriendschapsverzoeken",
+  "friendAccept": "Accepteren",
+  "friendReject": "Weigeren",
+  "friendAccepted": "Geaccepteerd",
+  "friendRejected": "Afgewezen",
+  "friendDeleteConfirm": "Dit contact verwijderen?",
+  "friendDeleteSuccess": "Contact verwijderd",
+  "friendDeleteFailed": "Verwijderen mislukt. Probeer het opnieuw.",
+  "friendRemarkName": "Contactnaam",
+  "friendGroupName": "Groep",
+  "friendSendMessage": "Bericht",
+  "friendMatchTypeLppId": "Gevonden via StartLink-ID",
+  "friendMatchTypeMobile": "Gevonden via telefoon",
+  "friendMatchTypeEmail": "Gevonden via e-mail",
+  "friendSearchEmpty": "Geen gebruikers gevonden",
+  "friendAddMessage": "Ik wil u graag als contact toevoegen",
+  "friendBlockConfirm": "Deze gebruiker blokkeren?",
+  "friendUnblockConfirm": "Deze gebruiker deblokkeren?",
+  "friendBlockSuccess": "Geblokkeerd",
+  "friendUnblockSuccess": "Gedeblokkeerd",
+  "searchTitle": "Zoeken",
+  "searchHint": "Zoek op telefoon, e-mail of StartLink-ID",
+  "searchNoResults": "Geen resultaten gevonden",
+  "searchMessages": "Berichten",
+  "searchUsers": "Gebruikers",
+  "searchFailed": "Zoeken mislukt. Probeer het opnieuw.",
+  "scanTitle": "Scannen",
+  "scanFailed": "Herkenning mislukt. Probeer het opnieuw.",
+  "scanInvalidQrCode": "Ongeldige QR-code",
+  "scanFlashOn": "Zaklamp inschakelen",
+  "scanFlashOff": "Zaklamp uitschakelen",
+  "scanAlbum": "Kies uit album",
+  "blacklistTitle": "Geblokkeerd",
+  "blacklistEmpty": "Geen geblokkeerde gebruikers",
+  "blacklistRemove": "Deblokkeren",
+  "blacklistRemoveConfirm": "Deze gebruiker deblokkeren?",
+  "addFriendTitle": "Contact toevoegen",
+  "addFriendSearchHint": "Telefoon / E-mail / StartLink-ID",
+  "addFriendLppIdLabel": "StartLink-ID: {lppId}",
+  "addFriendButton": "Toevoegen",
+  "addFriendCannotAddSelf": "U kunt uzelf niet toevoegen",
+  "addFriendUnsupportedUser": "Deze gebruiker kan niet worden toegevoegd. U kunt rechtstreeks een bericht sturen.",
+  "addFriendMessageHint": "Voer een bericht in",
+  "addFriendSendRequest": "Verzoek verzenden",
+  "scanAlreadyGroupMember": "U zit al in deze groep",
+  "scanCameraInitializing": "De camera wordt gestart. Probeer het binnenkort opnieuw.",
+  "scanCameraPermissionRequired": "Sta cameratoegang toe om QR-codes te scannen",
+  "scanCameraStartFailed": "Camera kon niet worden gestart. Probeer het later opnieuw.",
+  "scanCameraStarting": "Camera starten",
+  "scanCameraUnsupported": "Dit apparaat ondersteunt geen QR-scannen",
+  "scanDesktopAlbumUnsupported": "QR-codes lezen uit afbeeldingen is niet beschikbaar op desktop",
+  "scanDesktopUnsupported": "QR-scannen is niet beschikbaar op desktop. Gebruik de mobiele app.",
+  "scanEnterGroup": "Groepschat openen",
+  "scanFallbackFriendName": "Contact",
+  "scanFrameHint": "Plaats de QR-code in het kader om automatisch te scannen",
+  "scanFriendAddUnavailable": "U kunt dit contact momenteel niet via deze QR-code toevoegen",
+  "scanFriendAdded": "U bent nu contacten",
+  "scanFriendBlocked": "Deze persoon kan uw vriendschapsverzoek momenteel niet ontvangen",
+  "scanFriendIsolation": "U kunt dit contact niet toevoegen in de huidige ruimte",
+  "scanFriendQrExhausted": "Deze QR-code heeft de gebruikslimiet bereikt. Vraag een nieuwe code.",
+  "scanFriendQrExpiredPreview": "Deze contact-QR-code is verlopen of niet beschikbaar",
+  "scanFriendQrRevoked": "Deze QR-code is niet meer geldig. Vraag een nieuwe code.",
+  "scanFriendRequestPending": "Vriendschapsverzoek verzonden. Wacht op goedkeuring.",
+  "scanFriendRequestsDisabled": "Deze persoon accepteert geen vriendschapsverzoeken",
+  "scanGroupApprovalHint": "Lid worden van deze groep vereist goedkeuring van de eigenaar of een beheerder",
+  "scanGroupJoinFailed": "De groepslidmaatschapsaanvraag kon niet worden verzonden",
+  "scanGroupJoinPending": "Groepslidmaatschapsaanvraag verzonden. Wacht op goedkeuring.",
+  "scanGroupJoinUnavailable": "U kunt momenteel niet via deze QR-code lid worden van deze groep",
+  "scanGroupJoined": "Lid geworden van de groep",
+  "scanGroupPermissionDenied": "U mag niet via deze QR-code lid worden van deze groep",
+  "scanGroupProcessFailed": "De groeps-QR-code kon niet worden verwerkt",
+  "scanGroupQrDisabled": "De groepseigenaar of een beheerder heeft lid worden via QR-code uitgeschakeld",
+  "scanGroupQrExhausted": "Deze QR-code heeft de gebruikslimiet bereikt. Vraag een groepslid om een nieuwe code.",
+  "scanGroupQrExpired": "Deze QR-code is verlopen. Vraag een groepslid om een nieuwe code.",
+  "scanGroupQrRevoked": "Deze QR-code is ingetrokken. Vraag een groepslid om een nieuwe code.",
+  "scanGroupQrUnavailable": "Deze QR-code is niet meer geldig. Vraag een groepslid om een nieuwe code.",
+  "scanGroupScannerInvalid": "Dit account kan geen lid worden van deze groep",
+  "scanImageReadFailed": "De afbeelding kon niet worden gelezen. Probeer het opnieuw.",
+  "scanIncomingFriendRequest": "Deze persoon heeft u al een vriendschapsverzoek gestuurd. Beoordeel dat eerst.",
+  "scanInvalidGroupQr": "Ongeldige groeps-QR-code",
+  "scanInviterDeleted": "Dit gebruikersaccount is verwijderd",
+  "scanJoinGroup": "Lid worden van groep",
+  "scanJoinGroupConfirmation": "Lid worden van deze groep?",
+  "scanMutualFriendsOnly": "Deze persoon accepteert alleen verzoeken van mensen met gemeenschappelijke vrienden",
+  "scanNoQrFound": "Geen QR-code gevonden",
+  "scanOwnQr": "Dit is uw eigen QR-code",
+  "scanPluginUnavailable": "Scannen is niet beschikbaar. Sluit de app volledig en probeer het opnieuw.",
+  "scanProcessFailed": "De QR-code kon niet worden verwerkt",
+  "scanQrExpired": "Deze QR-code is verlopen",
+  "scanQrUnavailableTitle": "QR-code niet meer geldig",
+  "scanSendFriendConfirmation": "Vriendschapsverzoek verzenden?",
+  "scanTorchFailed": "De zaklamp kon niet worden gewijzigd. Probeer het later opnieuw.",
+  "scanTorchUnavailable": "Dit apparaat heeft geen zaklamp",
+  "scanUnsupportedQr": "Deze QR-code wordt niet ondersteund",
+  "contactsRequestsUnavailable": "Vriendschapsverzoeken zijn tijdelijk niet beschikbaar",
+  "contactsTryLater": "Probeer het later opnieuw",
+  "contactsQrSource": "QR-code",
+  "contactsRequestStatusInvalid": "Ongeldige status",
+  "contactsCustomerTagFilter": "Filter op klanttags",
+  "contactsOverviewTitle": "Klantoverzicht",
+  "contactsLoaded": "Geladen",
+  "contactsAssigned": "Toegewezen",
+  "contactsUnassigned": "Niet toegewezen",
+  "contactsCustomerDataError": "Klanten konden niet worden geladen. Controleer uw verbinding of aanmeldstatus en probeer het opnieuw.",
+  "contactsTagFilter": "Filteren op tag",
+  "contactsReassign": "Opnieuw toewijzen",
+  "contactsCustomersLoadFailed": "Klanten konden niet worden geladen",
+  "contactsNoAssigned": "Geen toegewezen klanten",
+  "contactsNoUnassigned": "Geen niet-toegewezen klanten",
+  "contactsDirectoryDenied": "Uw rol heeft geen toegang tot de klantengids",
+  "contactsApplicationAccessDenied": "Alleen organisatiebeheerders of eigenaars kunnen nieuwe aanvragen bekijken",
+  "contactsApplicationsUnavailable": "Lidmaatschapsaanvragen zijn tijdelijk niet beschikbaar",
+  "contactsPullToRetry": "Laden mislukt. Trek omlaag om te vernieuwen en probeer het opnieuw.",
+  "contactsApplicationApproved": "Aanvraag goedgekeurd",
+  "contactsApplicantUnavailable": "Gegevens van aanvrager zijn tijdelijk niet beschikbaar",
+  "contactsApplicationApprove": "Geslaagd",
+  "contactsApplicationAccepted": "Goedgekeurd",
+  "contactsFriendRequests": "Vriendschapsverzoeken",
+  "contactsRecentActive": "Recent actief",
+  "contactsRecentActiveUnavailable": "Recente klantactiviteit is tijdelijk niet beschikbaar",
+  "contactsMyCustomersRetry": "Uw klanten konden niet worden geladen. Tik om het opnieuw te proberen.",
+  "contactsLoadRetry": "Contacten konden niet worden geladen. Tik om het opnieuw te proberen.",
+  "contactsLoadFailed": "Contacten konden niet worden geladen",
+  "contactsNoCustomerYet": "Nog geen klanten",
+  "contactsInviteCustomerHint": "Nodig klanten uit door uw QR-code of organisatiecode te delen",
+  "contactsShareQr": "Mijn QR-code delen",
+  "contactsScanFriendHint": "Scan de QR-code om mij een vriendschapsverzoek te sturen",
+  "contactsQrToken": "QR-code-ID",
+  "contactsQrUsage": "Aantal keren gebruikt",
+  "contactsQrNote": "Standaardnotitie",
+  "contactsCopyQr": "QR-code-inhoud kopiëren",
+  "contactsGeneratingQr": "Video aan het maken..",
+  "contactsRegenerateQr": "Nieuwe QR-code maken",
+  "contactsQrLoadFailed": "QR-code kon niet worden geladen",
+  "contactsSearchGroups": "Groepen zoeken",
+  "contactsNoMatchingGroups": "Geen overeenkomende groepschats",
+  "contactsCreateGroupHint": "Tik rechtsboven op + om een groepschat te starten",
+  "contactsGroupOverview": "Overzicht groepstoezicht",
+  "contactsGroupsLabel": "Groepen",
+  "contactsCurrentFilter": "Huidig filter",
+  "contactsFreeze": "Bevriezen",
+  "contactsRisk": "Risico",
+  "contactsGroupStatisticsUnavailable": "Statistieken voor groepstoezicht zijn tijdelijk niet beschikbaar",
+  "contactsGroupList": "Groepslijst",
+  "contactsNoGroupData": "Geen groepen beschikbaar",
+  "contactsNoMatchingGroupData": "Geen overeenkomende groepen",
+  "contactsGroupDataUnavailable": "Groepen kunnen nu niet worden getoond. Probeer het later opnieuw.",
+  "contactsFrozen": "Bevroren",
+  "contactsNormal": "Actief",
+  "contactsGroupSupervisionDetail": "Details groepstoezicht",
+  "contactsFreezeStatus": "Bevriezingsstatus",
+  "contactsRiskStatus": "Risicostatus",
+  "contactsGroupId": "Groeps-ID",
+  "contactsUnfreeze": "Vrijgeven",
+  "contactsAdminMuteAll": "Alle groepsleden dempen",
+  "contactsAdminMembers": "Groepsleden beheren",
+  "contactsForceDissolve": "Ontbinding afdwingen",
+  "contactsAdminDissolve": "Groepsontbinding afdwingen",
+  "contactsNoCustomerContacts": "Nog geen klantcontacten",
+  "contactsNoMatchingCustomers": "Geen overeenkomende klanten",
+  "contactsCustomerContactsRetry": "Klantcontacten konden niet worden geladen. Tik om het opnieuw te proberen.",
+  "contactsFriendsOnlySetting": "Deze instelling is alleen beschikbaar voor vrienden",
+  "contactsHandleFriendRequest": "Vriendschapsverzoek beoordelen",
+  "contactsSaved": "Opgeslagen",
+  "contactsPrivateGender": "Geslacht (alleen voor u zichtbaar)",
+  "contactsTags": "Tags",
+  "contactsMoreInfo": "Meer informatie",
+  "contactsMutualGroupsHeading": "Gemeenschappelijke groepen",
+  "contactsNone": "Geen",
+  "contactsSource": "Bron",
+  "contactsAddedAt": "Toegevoegd op",
+  "contactsGroupOpenFailed": "Deze groepschat kan momenteel niet worden geopend",
+  "contactsMutualGroups": "Gemeenschappelijke groepen",
+  "contactsMutualGroupsSyncing": "Gemeenschappelijke groepen synchroniseren",
+  "contactsNoMutualGroups": "Geen gemeenschappelijke groepen",
+  "contactsDiscardTitle": "Wijzigingen negeren?",
+  "contactsUnsavedChanges": "Uw wijzigingen zijn niet opgeslagen.",
+  "contactsContinueEditing": "Doorgaan met bewerken",
+  "contactsDiscardChanges": "Wijzigingen negeren",
+  "contactsEditRemark": "Notitie bewerken",
+  "contactsAddRemark": "Notitie toevoegen",
+  "contactsAddTag": "Tag toevoegen",
+  "contactsAddText": "Tekst toevoegen",
+  "contactsEditTags": "Tags bewerken",
+  "contactsAddedTags": "Toegevoegde tags",
+  "contactsEnterTag": "Voer een tag in",
+  "contactsProfileLoadFailed": "Profiel kon niet worden geladen. Probeer het opnieuw.",
+  "contactsDeleteFriend": "Vriend verwijderen",
+  "contactsFriendSettings": "Vriendinstellingen",
+  "contactsBlockUser": "Gebruiker blokkeren",
+  "contactsDeleting": "Verwijderen…",
+  "contactsReassignHint": "Kies een nieuwe servicemedewerker. Bijbehorende servicegesprekken worden ook overgedragen.",
+  "contactsAssignOwnerOnly": "Dit account mag geen servicemedewerkers toewijzen. Gebruik een account van een organisatie-eigenaar.",
+  "contactsAssignRetry": "Servicemedewerker kon niet worden toegewezen. Probeer het later opnieuw.",
+  "contactsEnterpriseTags": "Organisatietags",
+  "contactsTagsCommaHint": "Scheid meerdere tags met komma’s",
+  "contactsEnterpriseTagsSaved": "Organisatietags opgeslagen",
+  "contactsTagsSaveFailed": "Tags konden niet worden opgeslagen. Probeer het later opnieuw.",
+  "contactsSharedTagsHint": "Gebruikt om klanten te filteren en gedeeld binnen de organisatie",
+  "contactsOwnerActionsHint": "Eigenaars kunnen de toegewezen servicemedewerker van deze klant wijzigen. Verslagen van servicegesprekken zijn tijdelijk niet beschikbaar.",
+  "contactsViewChatInfo": "Chatinformatie bekijken",
+  "contactsCustomerServiceGroups": "Servicegroepen van deze klant",
+  "contactsCannotAddFriend": "Vrienden toevoegen is momenteel niet beschikbaar",
+  "contactsSaving": "Opslaan..",
+  "contactsRequestSource": "Verzoek via {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "U hebt een vriendschapsverzoek verzonden · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, one {{count} klant geladen} other {{count} klanten geladen}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Toegewezen servicemedewerker: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Referentie: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "In behandeling ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Verwerkt ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Geldig tot {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Onbeperkt",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Scan om mij als vriend toe te voegen",
+  "contactsItemCount": "{count, plural, one {{count} groep} other {{count} groepen}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Bijnaam: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Regio: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Oorspronkelijke bijnaam: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "{name} als vriend verwijderen? Uw bestaande chatgeschiedenis blijft behouden.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Toegewezen aan {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Klantgesprekken niet beschikbaar",
+  "contactsCustomerChatUnavailable": "De servicegesprekken van deze klant kunnen momenteel niet worden bekeken. Probeer het later opnieuw."
+}
