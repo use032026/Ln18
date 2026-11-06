@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "更新のインストールを許可してください",
+  "appUpdateDownloading": "更新をダウンロード中…",
+  "appUpdateVerifying": "更新ファイルを検証中…",
+  "appUpdateOpeningInstaller": "システムのインストーラーを開いています…",
+  "appUpdateAwaitingInstallation": "更新の準備ができました。システムの画面でインストールを完了してください。",
+  "appUpdateContinueInstallation": "インストールを続ける",
+  "appUpdateOpeningStore": "アプリストアを開いています…",
+  "appUpdateAwaitingStore": "アプリストアで更新を完了し、アプリを開き直してください。",
+  "appUpdateGoToStore": "アプリストアへ",
+  "appUpdateResumeDownload": "ダウンロードを再開",
+  "appUpdateRedownload": "もう一度ダウンロード",
+  "appUpdateCancelDownload": "ダウンロードをキャンセル",
+  "appUpdateDownloaded": "{size} ダウンロード済み",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "設定を開く"
 }

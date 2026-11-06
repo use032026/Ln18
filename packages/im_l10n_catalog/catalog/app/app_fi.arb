@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Salli päivityksen asennus",
+  "appUpdateDownloading": "Ladataan päivitystä…",
+  "appUpdateVerifying": "Tarkistetaan päivitystä…",
+  "appUpdateOpeningInstaller": "Avataan järjestelmän asennusohjelmaa…",
+  "appUpdateAwaitingInstallation": "Päivitys on valmis. Viimeistele asennus järjestelmän asennusohjelmassa.",
+  "appUpdateContinueInstallation": "Jatka asennusta",
+  "appUpdateOpeningStore": "Avataan sovelluskauppaa…",
+  "appUpdateAwaitingStore": "Viimeistele päivitys sovelluskaupassa ja avaa sovellus uudelleen.",
+  "appUpdateGoToStore": "Avaa sovelluskauppa",
+  "appUpdateResumeDownload": "Jatka latausta",
+  "appUpdateRedownload": "Lataa uudelleen",
+  "appUpdateCancelDownload": "Peruuta lataus",
+  "appUpdateDownloaded": "Ladattu {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Avaa asetukset"
 }

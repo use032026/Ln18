@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "請允許安裝更新",
+  "appUpdateDownloading": "正在下載更新…",
+  "appUpdateVerifying": "正在驗證安裝套件…",
+  "appUpdateOpeningInstaller": "正在開啟系統安裝程式…",
+  "appUpdateAwaitingInstallation": "安裝套件已就緒，請在系統畫面完成安裝。",
+  "appUpdateContinueInstallation": "繼續安裝",
+  "appUpdateOpeningStore": "正在開啟應用程式商店…",
+  "appUpdateAwaitingStore": "請在應用程式商店完成更新，更新後重新開啟應用程式。",
+  "appUpdateGoToStore": "前往應用程式商店",
+  "appUpdateResumeDownload": "繼續下載",
+  "appUpdateRedownload": "重新下載",
+  "appUpdateCancelDownload": "取消下載",
+  "appUpdateDownloaded": "已下載 {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "前往設定"
 }

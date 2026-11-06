@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "อนุญาตให้ติดตั้งการอัปเดต",
+  "appUpdateDownloading": "กำลังดาวน์โหลดการอัปเดต…",
+  "appUpdateVerifying": "กำลังตรวจสอบการอัปเดต…",
+  "appUpdateOpeningInstaller": "กำลังเปิดตัวติดตั้งของระบบ…",
+  "appUpdateAwaitingInstallation": "การอัปเดตพร้อมแล้ว โปรดติดตั้งให้เสร็จในหน้าติดตั้งของระบบ",
+  "appUpdateContinueInstallation": "ติดตั้งต่อ",
+  "appUpdateOpeningStore": "กำลังเปิดร้านแอป…",
+  "appUpdateAwaitingStore": "โปรดอัปเดตให้เสร็จในร้านแอป แล้วเปิดแอปอีกครั้ง",
+  "appUpdateGoToStore": "เปิดร้านแอป",
+  "appUpdateResumeDownload": "ดาวน์โหลดต่อ",
+  "appUpdateRedownload": "ดาวน์โหลดอีกครั้ง",
+  "appUpdateCancelDownload": "ยกเลิกการดาวน์โหลด",
+  "appUpdateDownloaded": "ดาวน์โหลดแล้ว {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "เปิดการตั้งค่า"
 }

@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Autoriser l’installation de la mise à jour",
+  "appUpdateDownloading": "Téléchargement de la mise à jour…",
+  "appUpdateVerifying": "Vérification de la mise à jour…",
+  "appUpdateOpeningInstaller": "Ouverture du programme d’installation du système…",
+  "appUpdateAwaitingInstallation": "La mise à jour est prête. Terminez l’installation dans le programme d’installation du système.",
+  "appUpdateContinueInstallation": "Poursuivre l’installation",
+  "appUpdateOpeningStore": "Ouverture de la boutique d’applications…",
+  "appUpdateAwaitingStore": "Effectuez la mise à jour dans la boutique d’applications, puis rouvrez l’application.",
+  "appUpdateGoToStore": "Ouvrir la boutique d’applications",
+  "appUpdateResumeDownload": "Reprendre le téléchargement",
+  "appUpdateRedownload": "Télécharger à nouveau",
+  "appUpdateCancelDownload": "Annuler le téléchargement",
+  "appUpdateDownloaded": "{size} téléchargés",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Ouvrir les paramètres"
 }

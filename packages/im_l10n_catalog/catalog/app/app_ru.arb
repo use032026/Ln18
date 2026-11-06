@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Разрешите установку обновления",
+  "appUpdateDownloading": "Загрузка обновления…",
+  "appUpdateVerifying": "Проверка обновления…",
+  "appUpdateOpeningInstaller": "Открытие системного установщика…",
+  "appUpdateAwaitingInstallation": "Обновление готово. Завершите установку в системном установщике.",
+  "appUpdateContinueInstallation": "Продолжить установку",
+  "appUpdateOpeningStore": "Открытие магазина приложений…",
+  "appUpdateAwaitingStore": "Завершите обновление в магазине приложений, затем снова откройте приложение.",
+  "appUpdateGoToStore": "Открыть магазин приложений",
+  "appUpdateResumeDownload": "Продолжить загрузку",
+  "appUpdateRedownload": "Скачать заново",
+  "appUpdateCancelDownload": "Отменить загрузку",
+  "appUpdateDownloaded": "Загружено {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Открыть настройки"
 }

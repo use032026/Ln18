@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Zezwól na instalację aktualizacji",
+  "appUpdateDownloading": "Pobieranie aktualizacji…",
+  "appUpdateVerifying": "Weryfikowanie aktualizacji…",
+  "appUpdateOpeningInstaller": "Otwieranie instalatora systemowego…",
+  "appUpdateAwaitingInstallation": "Aktualizacja jest gotowa. Dokończ instalację w instalatorze systemowym.",
+  "appUpdateContinueInstallation": "Kontynuuj instalację",
+  "appUpdateOpeningStore": "Otwieranie sklepu z aplikacjami…",
+  "appUpdateAwaitingStore": "Dokończ aktualizację w sklepie z aplikacjami, a następnie ponownie otwórz aplikację.",
+  "appUpdateGoToStore": "Otwórz sklep z aplikacjami",
+  "appUpdateResumeDownload": "Wznów pobieranie",
+  "appUpdateRedownload": "Pobierz ponownie",
+  "appUpdateCancelDownload": "Anuluj pobieranie",
+  "appUpdateDownloaded": "Pobrano {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Otwórz ustawienia"
 }

@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Tillad installation af opdateringen",
+  "appUpdateDownloading": "Downloader opdatering…",
+  "appUpdateVerifying": "Kontrollerer opdatering…",
+  "appUpdateOpeningInstaller": "Åbner systemets installationsprogram…",
+  "appUpdateAwaitingInstallation": "Opdateringen er klar. Fuldfør installationen i systemets installationsprogram.",
+  "appUpdateContinueInstallation": "Fortsæt installation",
+  "appUpdateOpeningStore": "Åbner appbutik…",
+  "appUpdateAwaitingStore": "Fuldfør opdateringen i appbutikken, og åbn derefter appen igen.",
+  "appUpdateGoToStore": "Åbn appbutik",
+  "appUpdateResumeDownload": "Genoptag download",
+  "appUpdateRedownload": "Download igen",
+  "appUpdateCancelDownload": "Annuller download",
+  "appUpdateDownloaded": "Downloadet {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Åbn indstillinger"
 }

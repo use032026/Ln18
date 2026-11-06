@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Permite instalarea actualizării",
+  "appUpdateDownloading": "Se descarcă actualizarea…",
+  "appUpdateVerifying": "Se verifică actualizarea…",
+  "appUpdateOpeningInstaller": "Se deschide programul de instalare al sistemului…",
+  "appUpdateAwaitingInstallation": "Actualizarea este pregătită. Finalizează instalarea în programul de instalare al sistemului.",
+  "appUpdateContinueInstallation": "Continuă instalarea",
+  "appUpdateOpeningStore": "Se deschide magazinul de aplicații…",
+  "appUpdateAwaitingStore": "Finalizează actualizarea în magazinul de aplicații, apoi redeschide aplicația.",
+  "appUpdateGoToStore": "Deschide magazinul de aplicații",
+  "appUpdateResumeDownload": "Reia descărcarea",
+  "appUpdateRedownload": "Descarcă din nou",
+  "appUpdateCancelDownload": "Anulează descărcarea",
+  "appUpdateDownloaded": "Descărcat: {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Deschide setările"
 }

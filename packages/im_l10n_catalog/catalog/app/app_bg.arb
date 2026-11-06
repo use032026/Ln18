@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Разрешете инсталирането на актуализацията",
+  "appUpdateDownloading": "Изтегляне на актуализацията…",
+  "appUpdateVerifying": "Проверка на актуализацията…",
+  "appUpdateOpeningInstaller": "Отваряне на системния инсталатор…",
+  "appUpdateAwaitingInstallation": "Актуализацията е готова. Завършете инсталирането в системния инсталатор.",
+  "appUpdateContinueInstallation": "Продължете инсталирането",
+  "appUpdateOpeningStore": "Отваряне на магазина за приложения…",
+  "appUpdateAwaitingStore": "Завършете актуализацията в магазина за приложения, след което отворете приложението отново.",
+  "appUpdateGoToStore": "Отворете магазина за приложения",
+  "appUpdateResumeDownload": "Продължете изтеглянето",
+  "appUpdateRedownload": "Изтеглете отново",
+  "appUpdateCancelDownload": "Отменете изтеглянето",
+  "appUpdateDownloaded": "Изтеглени {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Отворете настройките"
 }

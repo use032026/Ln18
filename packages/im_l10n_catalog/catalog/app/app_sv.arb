@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Tillåt installation av uppdateringen",
+  "appUpdateDownloading": "Hämtar uppdatering…",
+  "appUpdateVerifying": "Verifierar uppdatering…",
+  "appUpdateOpeningInstaller": "Öppnar systemets installationsprogram…",
+  "appUpdateAwaitingInstallation": "Uppdateringen är klar. Slutför installationen i systemets installationsprogram.",
+  "appUpdateContinueInstallation": "Fortsätt installationen",
+  "appUpdateOpeningStore": "Öppnar appbutiken…",
+  "appUpdateAwaitingStore": "Slutför uppdateringen i appbutiken och öppna sedan appen igen.",
+  "appUpdateGoToStore": "Öppna appbutiken",
+  "appUpdateResumeDownload": "Återuppta hämtningen",
+  "appUpdateRedownload": "Hämta igen",
+  "appUpdateCancelDownload": "Avbryt hämtningen",
+  "appUpdateDownloaded": "Hämtat {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Öppna inställningar"
 }

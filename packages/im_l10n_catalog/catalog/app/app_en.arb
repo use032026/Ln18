@@ -71,5 +71,27 @@
         "type": "String"
       }
     }
-  }
+  },
+  "appUpdateAwaitingPermission": "Allow update installation",
+  "appUpdateDownloading": "Downloading update…",
+  "appUpdateVerifying": "Verifying update…",
+  "appUpdateOpeningInstaller": "Opening system installer…",
+  "appUpdateAwaitingInstallation": "The update is ready. Complete installation in the system installer.",
+  "appUpdateContinueInstallation": "Continue installation",
+  "appUpdateOpeningStore": "Opening app store…",
+  "appUpdateAwaitingStore": "Complete the update in the app store, then reopen the app.",
+  "appUpdateGoToStore": "Open app store",
+  "appUpdateResumeDownload": "Resume download",
+  "appUpdateRedownload": "Download again",
+  "appUpdateCancelDownload": "Cancel download",
+  "appUpdateDownloaded": "Downloaded {size}",
+  "@appUpdateDownloaded": {
+    "description": "Downloaded size when the update total size is unknown.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "appUpdateOpenSettings": "Open settings"
 }
