@@ -1,0 +1,431 @@
+{
+  "accessMode": "接入模式",
+  "active": "進行中",
+  "allConversations": "目前全部會話",
+  "announcementLoadFailed": "公告載入失敗",
+  "autoAssign": "自動分配",
+  "capabilityNavAria": "工作台能力",
+  "capabilityCount": "項能力",
+  "currentEnterprise": "目前企業",
+  "currentRole": "目前角色",
+  "currentState": "目前狀態",
+  "customerManagement": {
+    "assigned": "已分配",
+    "emptyText": "目前企業暫無客戶。",
+    "emptyTitle": "暫無客戶",
+    "errorTitle": "客戶資料載入失敗",
+    "loadMore": "載入更多客戶",
+    "loadingMore": "正在載入更多...",
+    "loadingText": "正在同步企業客戶池。",
+    "loadingTitle": "正在載入客戶",
+    "openDirectory": "進入完整客戶目錄",
+    "total": "客戶總數",
+    "unassigned": "未分配"
+  },
+  "dataScope": "資料口徑",
+  "dataScopeValue": "不造假；無介面時顯示空態",
+  "detailAria": "工作台詳情",
+  "documentCount": "{count} 篇內容",
+  "documentCountEmpty": "內容數 --",
+  "emptyAnnouncementsText": "目前企業沒有已發布且未過期的公告。",
+  "emptyAnnouncementsTitle": "暫無企業公告",
+  "emptyNoEntryText": "目前角色沒有配置工作台能力。",
+  "emptyNoEntryTitle": "暫無可用工作台入口",
+  "emptyQuickRepliesText": "服務端未返回可用知識庫或話術內容。",
+  "emptyQuickRepliesTitle": "暫無常用話術",
+  "entry": "入口",
+  "entryReservedText": "這裡先保留角色化入口和權限邊界；後續接入對應頁面或介面後再填充真實資料。",
+  "entryReservedTitle": "入口已放好",
+  "group": {
+    "admin": "管理工作台",
+    "customerService": "客服工作台",
+    "owner": "所有者工作台"
+  },
+  "heroSubtitle": "{tenant} · {role}入口。消息、通訊錄和線上客服保持獨立，工作台只放角色任務和管理入口。",
+  "heroTitle": "{role}工作台",
+  "knowledgeBase": "知識庫",
+  "knowledgeLoadFailed": "話術載入失敗",
+  "listSeparator": "、",
+  "manualAccess": "手動接入",
+  "markRead": "已讀",
+  "managementWorkbench": {
+    "title": "企業管理工作台",
+    "navigation": "管理工作台導覽",
+    "section": {
+      "customer": "客戶營運",
+      "service": "服務營運",
+      "governance": "風控治理",
+      "communication": "企業訊息",
+      "enterprise": "企業管理"
+    },
+    "capability": {
+      "customer-management": {
+        "title": "客戶管理",
+        "description": "客戶查詢、詳情與客服分配"
+      },
+      "service-operations": {
+        "title": "服務營運",
+        "description": "即時服務中心與團隊服務效率"
+      },
+      "join-requests": {
+        "title": "加入審批",
+        "description": "處理客戶和員工加入企業申請"
+      },
+      "group-supervision": {
+        "title": "群組監管",
+        "description": "查看企業群組並執行凍結治理"
+      },
+      "conversation-audit": {
+        "title": "會話審計",
+        "description": "檢索並查看歷史客服會話"
+      },
+      "operation-audit": {
+        "title": "操作審計",
+        "description": "查看企業管理操作記錄"
+      },
+      "enterprise-communication": {
+        "title": "企業訊息",
+        "description": "企業群發和公告閱讀"
+      },
+      "official-account": {
+        "title": "官方帳號",
+        "description": "管理官方身份、服務選單、客服引流與官方群"
+      },
+      "enterprise-info": {
+        "title": "企業資訊",
+        "description": "查看企業基礎資料"
+      },
+      "enterprise-features": {
+        "title": "企業設定",
+        "description": "設定客服分配、審批和訪客能力"
+      },
+      "employee-invitations": {
+        "title": "邀請員工",
+        "description": "建立、複製和撤銷企業邀請碼"
+      },
+      "member-management": {
+        "title": "成員管理",
+        "description": "查看成員、調整角色或移出企業"
+      },
+      "ownership-transfer": {
+        "title": "轉讓所有者",
+        "description": "將企業所有權轉讓給其他員工"
+      }
+    }
+  },
+  "management": {
+    "audit": {
+      "empty": "暫無操作審計記錄。",
+      "error": "操作審計載入失敗：{error}",
+      "loading": "正在載入操作審計...",
+      "readonly": "唯讀審計軌跡",
+      "unknownAction": "操作記錄"
+    },
+    "broadcast": {
+      "auditReason": "審計備註",
+      "auditReasonPlaceholder": "選填，說明本次群發原因",
+      "confirm": "確認向「{target}」的 {count} 個接收方提交群發嗎？",
+      "content": "群發內容",
+      "contentPlaceholder": "請輸入企業群發內容",
+      "emptyTasks": "暫無群發任務。",
+      "history": "投遞任務",
+      "loadingTasks": "正在載入群發任務...",
+      "noSamples": "服務端未返回接收方樣例。",
+      "officialSender": "官方發送身分",
+      "preview": "預覽",
+      "previewRecipients": "預計接收 {count} 人",
+      "previewToConfirm": "預覽後確認",
+      "previewing": "預覽中...",
+      "retryFailed": "重試失敗項",
+      "status": {
+        "0": "待投遞",
+        "1": "投遞中",
+        "2": "已完成",
+        "3": "失敗",
+        "4": "已取消"
+      },
+      "submit": "提交發送",
+      "submitting": "提交中...",
+      "target": {
+        "allMembers": "全體人員",
+        "customers": "企業客戶",
+        "officialGroups": "官方群",
+        "staff": "企業員工"
+      },
+      "targetLabel": "接收範圍",
+      "taskProgress": "已發送 {sent}/{total} · 失敗 {failed}"
+    },
+    "conversationAudit": {
+      "description": "查詢客服歷史、開啟完整唯讀對話並匯出報表。",
+      "open": "進入會話審計",
+      "title": "會話審計"
+    },
+    "groups": {
+      "actionError": "群組狀態更新失敗：{error}",
+      "count": "{count} 個群組",
+      "empty": "目前篩選下暫無群組。",
+      "error": "群組載入失敗：{error}",
+      "freeze": "凍結",
+      "freezeConfirm": "確認凍結「{title}」嗎？凍結後成員不能繼續正常活動。",
+      "frozen": "已凍結",
+      "loading": "正在載入企業群組...",
+      "members": "{count} 名成員",
+      "noPreview": "暫無最近訊息",
+      "search": "搜尋群組、群主或訊息",
+      "unfreeze": "解凍"
+    },
+    "join": {
+      "approve": "通過",
+      "emptyPending": "暫無待處理申請。",
+      "error": "加入申請載入失敗：{error}",
+      "loading": "正在載入加入申請...",
+      "pending": "待處理（{count}）",
+      "processed": "已處理（{count}）",
+      "reject": "拒絕",
+      "reviewError": "申請審批失敗：{error}",
+      "status": {
+        "approved": "已通過",
+        "cancelled": "已取消",
+        "rejected": "已拒絕"
+      }
+    },
+    "settings": {
+      "customerServiceAuto": "自動分配",
+      "customerServiceDesignated": "指定客服",
+      "customerServiceMode": "客服分配模式",
+      "enterpriseTools": "企業工具",
+      "error": "企業配置載入失敗：{error}",
+      "featureTitle": "企業配置",
+      "friendIsolation": "客戶隔離",
+      "friendMode": "好友模式",
+      "friendSocial": "社交模式",
+      "invite": "邀請員工",
+      "inviteHint": "建立和管理企業邀請碼",
+      "joinApprovalMode": "加入審批模式",
+      "joinAuto": "自動通過",
+      "joinManual": "人工審批",
+      "loading": "正在載入企業配置...",
+      "members": "成員列表",
+      "membersHint": "查看成員和角色身分",
+      "saved": "配置已儲存",
+      "tempSessionEnabled": "Widget 訪客服務",
+      "tempSessionHint": "允許訪客發起臨時客服會話"
+    }
+  },
+  "myServiceStatus": "我的線上客服狀態",
+  "noSummary": "暫無摘要",
+  "notice": {
+    "readFailed": "已讀上報失敗：{error}",
+    "readSuccess": "公告已標記為已讀"
+  },
+  "openKnowledgeBase": "打開知識庫",
+  "openOnlineService": "打開線上客服",
+  "openShortcut": "打開{title}",
+  "performance": {
+    "avgDuration": "平均時長",
+    "avgFirstResponse": "平均首響",
+    "avgRating": "評分",
+    "channel": {
+      "imDirect": "IM 直聊",
+      "widget": "Widget 訪客"
+    },
+    "channelMeta": "首響 {first} · 評分 {rating}",
+    "emptyDistribution": "暫無來源平台分布。",
+    "emptyText": "服務端暫未返回團隊績效統計。",
+    "emptyTitle": "暫無團隊統計",
+    "errorTitle": "團隊效率資料載入失敗",
+    "excellentRate": "質檢合格率",
+    "loadingText": "正在同步管理端統計，已有工作台資料不會被遮擋。",
+    "loadingTitle": "正在載入團隊效率",
+    "retry": "重試",
+    "sessionsServed": "{count} 個會話",
+    "sourcePlatformHint": "渠道分布優先按 sourcePlatform 分組，舊資料無該欄位時回退 sourceChannel。",
+    "sourcePlatformTitle": "來源平台分布",
+    "staffRankHint": "頂層指標為 Widget 臨時會話與 IM 註冊客戶直聊的跨渠道合併 KPI。",
+    "staffRankTitle": "客服效率榜",
+    "totalServed": "已服務",
+    "totalSessions": "總會話"
+  },
+  "performanceLoadFailed": "效能資料載入失敗",
+  "priority": {
+    "important": "重要",
+    "normal": "普通"
+  },
+  "queued": "排隊",
+  "role": {
+    "admin": "管理員",
+    "customer_service": "客服",
+    "owner": "所有者"
+  },
+  "roleTitle": {
+    "admin": "管理工作台",
+    "customer_service": "客服工作台",
+    "owner": "所有者工作台"
+  },
+  "roleScope": "角色範圍",
+  "shortcut": {
+    "wb-admin-customers": {
+      "description": "客戶統計、已分配/未分配客戶、分頁查詢和分配客服。",
+      "title": "客戶管理"
+    },
+    "wb-admin-groups": {
+      "description": "群組列表、凍結/解凍和後續治理介面入口。",
+      "title": "群組監管"
+    },
+    "wb-admin-conversation-audit": {
+      "description": "查詢和匯出完整線上客服歷史會話。",
+      "title": "會話審計"
+    },
+    "wb-admin-join-requests": {
+      "description": "審批客戶或員工加入目前企業的申請。",
+      "title": "加入企業申請"
+    },
+    "wb-admin-service-center": {
+      "description": "同步查看所有進行中的客服對話，按客服人員或對話狀態篩選，即時介入或協助。",
+      "title": "客服即時監控"
+    },
+    "wb-cs-notices": {
+      "description": "查看企業通知、制度公告和已讀狀態。",
+      "title": "企業公告"
+    },
+    "wb-cs-performance": {
+      "description": "查看個人接待量、平均響應和滿意度摘要。",
+      "title": "效能"
+    },
+    "wb-cs-quick-replies": {
+      "description": "維護常用回覆、知識庫引用和多語言話術。",
+      "title": "常用話術"
+    },
+    "wb-owner-broadcast": {
+      "description": "以官方帳號向全體人員、員工、客戶或官方群發送企業通知。",
+      "title": "企業群發"
+    },
+    "wb-owner-enterprise-settings": {
+      "description": "配置客服分配、加入審批、好友模式和訪客服務。",
+      "title": "企業管理"
+    },
+    "wb-owner-operation-audit": {
+      "description": "查看服務端權威的企業操作審計軌跡。",
+      "title": "操作審計"
+    }
+  },
+  "monitor": {
+    "activeThreads": "客服對話",
+    "all": "全部",
+    "channel": "渠道",
+    "detailFailed": "對話詳情載入失敗：{error}",
+    "emptyMessages": "暫無可展示訊息。",
+    "emptyRisk": "暫無 SLA 風險。",
+    "emptyStaff": "暫無坐席狀態。",
+    "emptyThreads": "目前篩選下沒有客服對話。",
+    "filter": {
+      "keyword": "關鍵字",
+      "staff": "客服",
+      "status": "狀態",
+      "threadType": "渠道"
+    },
+    "filtersAria": "客服即時監控篩選",
+    "kpi": {
+      "active": "進行中",
+      "onlineStaff": "線上坐席",
+      "queued": "排隊",
+      "queueHint": "管理端即時隊列",
+      "riskHint": "需優先處理",
+      "slaRisk": "SLA 風險",
+      "staffHint": "可接待人員",
+      "visibleHint": "目前篩選可見"
+    },
+    "kpisAria": "客服即時監控指標",
+    "keywordPlaceholder": "客戶、會話、訊息內容",
+    "loadFailed": "即時監控載入失敗：{error}",
+    "loading": "正在同步監控資料...",
+    "loadingDetail": "正在同步對話內容...",
+    "addWatch": "加入監控",
+    "agent": "客服",
+    "allStaff": "全部客服",
+    "assistThread": "介入協助",
+    "backoff": "限流暫停 {seconds}s",
+    "capacityFull": "監控牆已滿",
+    "chatInfo": "會話資訊",
+    "closeWindow": "關閉",
+    "customer": "客戶",
+    "emptySlot": "空槽",
+    "expandWindow": "放大",
+    "lastSynced": "已同步 {time}",
+    "layout": "佈局",
+    "jumpThread": "跳轉",
+    "pinWindow": "釘住並排",
+    "promoteWindow": "置頂到第一槽",
+    "realtime": "30 秒輪詢",
+    "acceptingQueue": "接收排隊",
+    "customerLevel": "客戶等級",
+    "customerProfile": "客戶資料",
+    "heartbeat": "心跳時間",
+    "lastOnline": "最近在線",
+    "openCustomerProfile": "查看客戶資料",
+    "openReadonlyDetail": "打開只讀詳情",
+    "openStaffProfile": "查看客服資料",
+    "removeWindow": "移出",
+    "replaceMode": "選擇替換視窗",
+    "replacePrompt": "監控牆已滿，請選擇要替換的視窗：{title}",
+    "replaceThisWindow": "替換此視窗",
+    "resultCount": "{count} 條",
+    "selectThread": "選擇一條客服對話後查看即時詳情。",
+    "selectReplaceSlot": "選擇要替換的視窗",
+    "shrinkWindow": "縮小",
+    "slaRisk": "SLA 風險",
+    "slaRiskFallback": "服務端標記該會話需要關注。",
+    "source": "來源",
+    "staffId": "客服 ID",
+    "staffLoadLabel": "接待負載",
+    "staffLoad": "{active}/{max}",
+    "staffWall": "坐席狀態牆",
+    "staffProfile": "客服資料",
+    "statusLabel": "狀態",
+    "status": {
+      "active": "進行中",
+      "queued": "排隊"
+    },
+    "subtitle": "管理員和所有者可按客服、狀態、渠道和關鍵字篩選活躍客服對話，並同步查看詳情。",
+    "threadDetail": "對話詳情",
+    "threadId": "會話 ID",
+    "threadPool": "會話池",
+    "title": "即時監控客服對話",
+    "unassigned": "未分配",
+    "unpinWindow": "取消釘住",
+    "updatedAt": "更新時間",
+    "wall": "監控牆",
+    "watched": "已監控",
+    "windowCount": "{count} 個視窗"
+  },
+  "state": {
+    "available": {
+      "hint": "可以進入或查看",
+      "label": "可用"
+    },
+    "no_permission": {
+      "hint": "目前角色不可用",
+      "label": "無權限"
+    },
+    "pending_api": {
+      "hint": "入口已保留，等待頁面或介面接入",
+      "label": "待接入"
+    },
+    "readonly": {
+      "hint": "只讀查看",
+      "label": "只讀"
+    }
+  },
+  "summary": {
+    "announcements": "企業公告",
+    "announcementsHint": "已發布且未過期",
+    "currentConversations": "目前會話",
+    "quickReplies": "常用話術",
+    "quickRepliesHint": "複用知識庫與話術能力",
+    "receptionStatus": "接待狀態",
+    "receptionStatusHint": "進入工作台不會自動改變狀態",
+    "threadHint": "排隊 {queue} · 進行中 {active}"
+  },
+  "summaryAria": "工作台摘要",
+  "unnamedKnowledgeBase": "未命名知識庫"
+}

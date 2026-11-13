@@ -1,0 +1,471 @@
+{
+  "@@locale": "vi",
+  "settingsTitle": "Cài đặt",
+  "settingsSectionEnterprise": "Doanh nghiệp",
+  "settingsSectionAccount": "Tài khoản",
+  "settingsSectionGeneral": "Chung",
+  "settingsSectionFeatures": "Tính năng",
+  "settingsSectionAbout": "Giới thiệu",
+  "settingsEnterpriseInfo": "Thông tin doanh nghiệp",
+  "settingsProfile": "Hồ sơ",
+  "settingsAccountSecurity": "Bảo mật tài khoản",
+  "settingsNotification": "Thông báo",
+  "settingsDisplay": "Hiển thị",
+  "settingsFriendPrivacy": "Quyền riêng tư",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Lịch sử chat",
+  "settingsAbout": "Về StartLink",
+  "settingsLanguage": "Ngôn ngữ",
+  "settingsTimezone": "Múi giờ",
+  "settingsAutoTranslate": "Tự động dịch",
+  "settingsNetworkSwitch": "Mạng",
+  "aboutTitle": "Về StartLink",
+  "aboutVersion": "Phiên bản",
+  "aboutTerms": "Điều khoản dịch vụ",
+  "aboutPrivacy": "Chính sách bảo mật",
+  "aboutOpenSource": "Giấy phép mã nguồn mở",
+  "aboutCheckUpdate": "Kiểm tra cập nhật",
+  "aboutLatestVersion": "Đã là phiên bản mới nhất",
+  "aboutUpdateAvailable": "Có bản cập nhật mới",
+  "aboutUpdateNow": "Cập nhật ngay",
+  "aboutUpdateLater": "Để sau",
+  "networkTitle": "Mạng",
+  "networkAutoSelect": "Tự động",
+  "networkManual": "Thủ công",
+  "timezoneTitle": "Múi giờ",
+  "timezoneAuto": "Theo hệ thống",
+  "displayTitle": "Hiển thị",
+  "displayFontSize": "Cỡ chữ",
+  "displayChatBackground": "Nền chat",
+  "displayDarkMode": "Tối",
+  "displayDarkModeSystem": "Theo hệ thống",
+  "displayDarkModeSystemHint": "Tự động chuyển đổi theo cài đặt hệ thống",
+  "displayDarkModeOff": "Sáng",
+  "displayDarkModeOffHint": "Luôn dùng giao diện sáng",
+  "displayDarkModeOn": "Tối",
+  "displayDarkModeOnHint": "Luôn dùng giao diện tối",
+  "accountSecurityTitle": "Bảo mật tài khoản",
+  "accountSecurityChangePassword": "Đổi mật khẩu",
+  "accountSecurityChangeMobile": "Đổi số điện thoại",
+  "accountSecurityChangeEmail": "Đổi email",
+  "accountSecurityLoggedDevices": "Thiết bị đã đăng nhập",
+  "accountSecurityDeactivate": "Xóa tài khoản",
+  "accountSecurityDeactivateConfirm": "Tất cả dữ liệu sẽ bị xóa vĩnh viễn sau 7 ngày. Xóa tài khoản?",
+  "loggedDevicesTitle": "Thiết bị đã đăng nhập",
+  "loggedDevicesCurrent": "Thiết bị này",
+  "loggedDevicesRevoke": "Đăng xuất",
+  "loggedDevicesRevokeConfirm": "Đăng xuất khỏi thiết bị này?",
+  "loggedDevicesRevokeSuccess": "Đã đăng xuất khỏi thiết bị",
+  "loggedDevicesRevokeFailed": "Thất bại, vui lòng thử lại",
+  "loggedDevicesLastActive": "Hoạt động lần cuối",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Máy tính",
+  "loggedDevicesTypeUnknown": "Thiết bị không xác định",
+  "fontSizeTitle": "Cỡ chữ",
+  "fontSizeSmall": "Nhỏ",
+  "fontSizeNormal": "Bình thường",
+  "fontSizeLarge": "Lớn",
+  "fontSizeExtraLarge": "Rất lớn",
+  "fontSizePreview": "Xem trước",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Giờ Thái Bình Dương",
+  "timezoneNameMountainTime": "Giờ Miền núi",
+  "timezoneNameCentralTime": "Giờ Miền Trung",
+  "timezoneNameEasternTime": "Giờ Miền Đông",
+  "timezoneNameAtlanticTime": "Giờ Đại Tây Dương",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azores",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rome",
+  "timezoneNameCairoHelsinki": "Cairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscow/Riyadh",
+  "timezoneNameTehran": "Tehran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tashkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hà Nội/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Bắc Kinh/Thượng Hải/Hồng Kông/Đài Bắc",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Quần đảo Solomon",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Tự chọn tuyến tối ưu",
+  "networkTesting": "Đang kiểm tra...",
+  "networkTestingShort": "Đang kiểm tra",
+  "networkLatencyMs": "Độ trễ {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Chế độ kết nối",
+  "networkDirectMode": "Chế độ trực tiếp",
+  "networkProxyMode": "Chế độ proxy",
+  "networkDirectModeDesc": "Kết nối trực tiếp tới máy chủ",
+  "networkProxyModeDesc": "Kết nối qua máy chủ proxy",
+  "networkDirectRoutes": "Tuyến trực tiếp",
+  "networkProxyRoutes": "Tuyến proxy",
+  "networkTestAll": "Kiểm tra tất cả",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Nút Hồng Kông",
+  "networkSingaporeNode": "Nút Singapore",
+  "networkJapanNode": "Nút Nhật Bản",
+  "networkUnitedStatesNode": "Nút Hoa Kỳ",
+  "networkHint": "Gợi ý:\n• Chế độ trực tiếp: nhanh hơn, phù hợp dùng trong nước\n• Chế độ proxy: ổn định hơn cho liên lạc xuyên biên giới\n• Nhấn biểu tượng làm mới để kiểm tra độ trễ từng tuyến",
+  "diagnosticsTitle": "Chẩn đoán sự cố",
+  "diagnosticsExplanation": "Nhật ký đã được ẩn thông tin nhạy cảm, chỉ gồm hoạt động và lỗi của tài khoản, không gian hiện tại và sự kiện khởi động chung. Không gồm nội dung trò chuyện hay thông tin đăng nhập.",
+  "diagnosticsHour": "1 giờ qua",
+  "diagnosticsDay": "24 giờ qua",
+  "diagnosticsWeek": "7 ngày qua",
+  "diagnosticsEventCount": "Số bản ghi: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Nhật ký đã lưu trên thiết bị và có thể xuất sau khi khởi động lại.",
+  "diagnosticsNotPersistent": "Một số nhật ký chưa được lưu. Vui lòng làm mới.",
+  "diagnosticsExport": "Xuất và chia sẻ",
+  "diagnosticsRefresh": "Làm mới",
+  "diagnosticsClear": "Xóa nhật ký không gian này",
+  "diagnosticsClearConfirm": "Xóa nhật ký chẩn đoán của không gian này? Lịch sử trò chuyện sẽ được giữ lại.",
+  "diagnosticsShared": "Thao tác chia sẻ đã hoàn tất. Hãy kiểm tra tệp trong ứng dụng nhận.",
+  "diagnosticsCancelled": "Đã hủy chia sẻ. Bạn có thể xuất lại.",
+  "diagnosticsUnconfirmed": "Không thể xác nhận kết quả chia sẻ. Hãy kiểm tra ứng dụng nhận.",
+  "diagnosticsFailed": "Thao tác thất bại. Vui lòng thử lại.",
+  "settingsDeleteWarning": "Xóa tài khoản sẽ xóa mọi liên kết với không gian doanh nghiệp. Không thể khôi phục lịch sử tin nhắn.\n\nTrong thời gian chờ 7 ngày, bạn có thể đăng nhập lại để hủy yêu cầu xóa.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Tiếp tục xóa",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Xác nhận cuối cùng",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Xóa tài khoản? Thao tác sẽ có hiệu lực vĩnh viễn sau 7 ngày.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Lý do xóa (không bắt buộc)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Đã gửi yêu cầu xóa. Đăng nhập trong vòng 7 ngày để hủy.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Xác nhận xóa",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Không thể xóa tài khoản. Vui lòng thử lại.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Người bị chặn không thể gửi tin nhắn hoặc xem hồ sơ và cập nhật của bạn.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Trò chuyện",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Nhấn Enter để gửi",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Không tải được. Nhấn để thử lại.",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Đồng ý nhận thông báo tin nhắn",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Đã đồng ý",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Chưa đồng ý",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Quyền thông báo hệ thống",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Đã bật",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Chưa bật",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Không xác định",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Không hỗ trợ",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Đang kiểm tra",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Kiểm tra thất bại",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Thông báo cuộc gọi toàn màn hình",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Nhấn để kiểm tra và cấp quyền",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Đã bật thông báo cuộc gọi toàn màn hình",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Vui lòng cho phép thông báo cuộc gọi toàn màn hình trong cài đặt hệ thống.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Lịch không làm phiền",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Chưa đặt",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Bật thông báo tin nhắn",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Khi bật, JPush/JCore và dịch vụ đẩy của nhà sản xuất có thể xử lý thông tin thiết bị, mã định danh đẩy và thông tin gửi thông báo để báo tin nhắn, hỗ trợ khách hàng và cuộc gọi. Bạn vẫn có thể tắt quyền thông báo trong cài đặt hệ thống.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Thông báo vẫn chưa được bật. Vui lòng cho phép thông báo của 微界 trong cài đặt hệ thống.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (ban đêm)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Tắt không làm phiền",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Chưa kiểm tra",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Không khả dụng",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Dự phòng máy chủ chính",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Tuyến không khả dụng. Đã giữ nguyên tuyến hiện tại.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Máy chủ có thể chuyển",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Không thể làm mới tuyến. Đã giữ nguyên tuyến hiện tại.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Đang làm mới",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Làm mới máy chủ",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Các tuyến lấy từ cấu hình chính thức đã xác minh chữ ký. Khi khởi động, ứng dụng khôi phục tuyến trước rồi làm mới từ nguồn hiện tại, bộ nhớ đệm, nguồn khởi tạo và S3/R2. Lựa chọn thủ công được ưu tiên; nếu lỗi, tuyến hiện tại được giữ nguyên.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Thiết bị không xác định",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Đăng xuất",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Hiện tại",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Không thể tải danh sách thiết bị",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Chưa có thiết bị đăng nhập",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Xem trước",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Đây là văn bản mẫu để xem trước cỡ chữ. Chọn cỡ chữ phù hợp để trò chuyện thoải mái hơn.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Bảo lưu mọi quyền",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Ví dụ dịch",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Bản gốc (tiếng Anh)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Ngôn ngữ đích",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Lưu ý:\n• Dịch tự động sử dụng AI\n• Bản dịch chỉ để tham khảo và có thể có sai sót\n• Bản gốc và bản dịch đều hiển thị trong cuộc trò chuyện\n• Nhấn giữ tin nhắn rồi chọn “Hiện bản gốc”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Hình nền mặc định",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Trắng",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Xám nhạt",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Trắng kem",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Xanh dương nhạt",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Xanh lá nhạt",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Hồng nhạt",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Tím nhạt",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Ảnh tùy chọn",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Hình nền cuộc trò chuyện này",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Hình nền trò chuyện",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Đổi ảnh tùy chọn",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Chọn ảnh từ thư viện",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Đã đặt",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Dùng hình nền trò chuyện chung",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Bản dịch ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Đăng xuất “{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count} phiên",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Hoạt động lần cuối {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Chẩn đoán dành cho nhà phát triển",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Mạng không khả dụng. Vui lòng kiểm tra cài đặt mạng.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "@@locale": "tr",
+  "settingsTitle": "Ayarlar",
+  "settingsSectionEnterprise": "Kurum",
+  "settingsSectionAccount": "Hesap",
+  "settingsSectionGeneral": "Genel",
+  "settingsSectionFeatures": "Özellikler",
+  "settingsSectionAbout": "Hakkında",
+  "settingsEnterpriseInfo": "Kurum bilgileri",
+  "settingsProfile": "Profilim",
+  "settingsAccountSecurity": "Hesap güvenliği",
+  "settingsNotification": "Bildirimler",
+  "settingsDisplay": "Görünüm",
+  "settingsFriendPrivacy": "Gizlilik",
+  "settingsChat": "Sohbet",
+  "settingsChatHistory": "Sohbet geçmişi",
+  "settingsAbout": "StartLink hakkında",
+  "settingsLanguage": "Dil",
+  "settingsTimezone": "Saat dilimi",
+  "settingsAutoTranslate": "Otomatik çeviri",
+  "settingsNetworkSwitch": "Hattı değiştir",
+  "aboutTitle": "StartLink hakkında",
+  "aboutVersion": "Sürüm",
+  "aboutTerms": "Kullanıcı Sözleşmesi",
+  "aboutPrivacy": "Gizlilik Politikası",
+  "aboutOpenSource": "Açık kaynak lisansları",
+  "aboutCheckUpdate": "Güncellemeleri kontrol et",
+  "aboutLatestVersion": "En son sürümü kullanıyorsunuz.",
+  "aboutUpdateAvailable": "Yeni sürüm mevcut",
+  "aboutUpdateNow": "Şimdi Güncelle",
+  "aboutUpdateLater": "Daha sonra",
+  "networkTitle": "Hattı değiştir",
+  "networkAutoSelect": "Otomatik",
+  "networkManual": "Manuel",
+  "timezoneTitle": "Saat dilimi",
+  "timezoneAuto": "Sistemi izle",
+  "displayTitle": "Görünüm",
+  "displayFontSize": "Yazı Boyutu",
+  "displayChatBackground": "Sohbet arka planı",
+  "displayDarkMode": "Görünüm",
+  "displayDarkModeSystem": "Sistemi izle",
+  "displayDarkModeSystemHint": "Sistem ayarına göre otomatik geçiş yap",
+  "displayDarkModeOff": "Açık",
+  "displayDarkModeOffHint": "Her zaman açık tema kullan",
+  "displayDarkModeOn": "Koyu",
+  "displayDarkModeOnHint": "Her zaman koyu tema kullan",
+  "accountSecurityTitle": "Hesap güvenliği",
+  "accountSecurityChangePassword": "Şifreyi Değiştir",
+  "accountSecurityChangeMobile": "Telefon Numarasını Değiştir",
+  "accountSecurityChangeEmail": "E-postayı değiştir",
+  "accountSecurityLoggedDevices": "Giriş yapılan cihazlar",
+  "accountSecurityDeactivate": "Hesabı kapat",
+  "accountSecurityDeactivateConfirm": "7 gün sonra tüm veriler kalıcı olarak silinecek. Hesap kapatılsın mı?",
+  "loggedDevicesTitle": "Giriş yapılan cihazlar",
+  "loggedDevicesCurrent": "Bu cihaz",
+  "loggedDevicesRevoke": "Çıkış yap",
+  "loggedDevicesRevokeConfirm": "Bu cihazdan çıkış yapılsın mı?",
+  "loggedDevicesRevokeSuccess": "Cihazdan çıkış yapıldı",
+  "loggedDevicesRevokeFailed": "Başarısız, tekrar deneyin",
+  "loggedDevicesLastActive": "Son etkinlik",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Masaüstü",
+  "loggedDevicesTypeUnknown": "Bilinmeyen cihaz",
+  "fontSizeTitle": "Yazı Boyutu",
+  "fontSizeSmall": "Küçük",
+  "fontSizeNormal": "Standart",
+  "fontSizeLarge": "Büyük",
+  "fontSizeExtraLarge": "Ekstra Büyük",
+  "fontSizePreview": "Önizle",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Pasifik Saati",
+  "timezoneNameMountainTime": "Dağ Saati",
+  "timezoneNameCentralTime": "Merkez Saati",
+  "timezoneNameEasternTime": "Doğu Saati",
+  "timezoneNameAtlanticTime": "Atlantik Saati",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azor Adaları",
+  "timezoneNameLondonDublin": "Londra/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Roma",
+  "timezoneNameCairoHelsinki": "Kahire/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskova/Riyad",
+  "timezoneNameTehran": "Tahran",
+  "timezoneNameDubaiBaku": "Dubai/Bakü",
+  "timezoneNameKabul": "Kabil",
+  "timezoneNameKarachiTashkent": "Karaçi/Taşkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/Yeni Delhi",
+  "timezoneNameKathmandu": "Katmandu",
+  "timezoneNameDhakaAlmaty": "Dakka/Almatı",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Cakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Pekin/Şanghay/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sidney/Melbourne",
+  "timezoneNameSolomonIslands": "Solomon Adaları",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "En iyi rotayı akıllıca seç",
+  "networkTesting": "Test ediliyor...",
+  "networkTestingShort": "Test ediliyor",
+  "networkLatencyMs": "Gecikme {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Bağlantı modu",
+  "networkDirectMode": "Doğrudan mod",
+  "networkProxyMode": "Proxy modu",
+  "networkDirectModeDesc": "Sunucuya doğrudan bağlan",
+  "networkProxyModeDesc": "Proxy sunucusu üzerinden bağlan",
+  "networkDirectRoutes": "Doğrudan rotalar",
+  "networkProxyRoutes": "Proxy rotaları",
+  "networkTestAll": "Tümünü test et",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hong Kong düğümü",
+  "networkSingaporeNode": "Singapur düğümü",
+  "networkJapanNode": "Japonya düğümü",
+  "networkUnitedStatesNode": "ABD düğümü",
+  "networkHint": "İpuçları:\n• Doğrudan mod: daha hızlıdır ve yurt içi kullanıma uygundur\n• Proxy modu: sınır ötesi iletişimde daha kararlıdır\n• Tek bir rotanın gecikmesini ölçmek için yenile simgesine dokunun",
+  "diagnosticsTitle": "Tanılama",
+  "diagnosticsExplanation": "Günlükler hassas bilgilerden arındırılır; bu hesap ve alanın işlem ve hata bilgileri ile herkese açık başlatma olaylarını içerir. Sohbet içeriği ve kimlik bilgileri kaydedilmez.",
+  "diagnosticsHour": "Son saat",
+  "diagnosticsDay": "Son 24 saat",
+  "diagnosticsWeek": "7G",
+  "diagnosticsEventCount": "Kullanılabilir olay: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Günlükler bu cihaza kaydedilir ve yeniden başlatıldıktan sonra da kullanılabilir.",
+  "diagnosticsNotPersistent": "Bazı günlükler kaydedilmedi. Yeniden denemek için yenileyin.",
+  "diagnosticsExport": "Dışa aktar ve paylaş",
+  "diagnosticsRefresh": "Yenile",
+  "diagnosticsClear": "Bu alanın günlüklerini temizle",
+  "diagnosticsClearConfirm": "Bu alanın tanılama günlükleri temizlensin mi? Sohbet geçmişi korunacak.",
+  "diagnosticsShared": "Sistem paylaşımı tamamlandı. Dosyayı alıcı uygulamada doğrulayın.",
+  "diagnosticsCancelled": "Paylaşım iptal edildi. Yeniden dışa aktarabilirsiniz.",
+  "diagnosticsUnconfirmed": "Paylaşım doğrulanamadı. Alıcı uygulamayı kontrol edin.",
+  "diagnosticsFailed": "İşlem başarısız. Tekrar deneyin.",
+  "settingsDeleteWarning": "Hesabınızı silmek tüm kurum üyeliklerini kaldırır. Mesaj geçmişi kurtarılamaz.\n\n7 günlük bekleme süreniz vardır; silmeyi iptal etmek için yeniden giriş yapabilirsiniz.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Silmeye devam et",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Son onay",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Hesabınız silinsin mi? 7 gün sonra kalıcı olur.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Silme nedeni (isteğe bağlı)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Silme talep edildi. İptal etmek için 7 gün içinde giriş yapın.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Hesap Silmeyi Onayla",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Hesap silinemedi. Tekrar deneyin.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Engellenen kullanıcılar size mesaj gönderemez, profilinizi ve güncellemelerinizi göremez.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Sohbet",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Göndermek için Enter’a basın",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Yüklenemedi, tekrar denemek için dokunun",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Mesaj bildirimi onayı",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Onaylandı",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Onaylanmadı",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Sistem bildirim izni",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Açık",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Devre dışı",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Bilinmeyen",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Desteklenmiyor",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Kontrol ediliyor",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Kontrol başarısız",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Tam ekran gelen aramalar",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Kontrol edip izin vermek için dokunun",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Tam ekran arama uyarıları etkin",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Sistem ayarlarında tam ekran arama uyarılarına izin verin.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Rahatsız etmeyin zamanlaması",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Ayarlanmadı",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Mesaj bildirimlerini aç",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Etkinleştirildiğinde JPush/JCore ve cihaz bildirim hizmetleri mesaj, müşteri hizmetleri ve arama uyarıları için cihaz bilgilerini, bildirim tanımlayıcılarını ve teslimat bilgilerini işleyebilir. Bildirimleri sistem ayarlarında kapatabilirsiniz.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Bildirimler hâlâ kapalı. Sistem ayarlarında Weijie bildirimlerine izin verin.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (gece)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Rahatsız etmeyini kapat",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Test edilmedi",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Kullanılamıyor",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Birincil yedek",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Rota kullanılamıyor. Mevcut rotanız korundu.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Kullanılabilir siteler",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Rotalar yenilenemedi. Mevcut rotanız korundu.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Yenileniyor",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Siteleri yenile",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Rotalar doğrulanmış resmî yapılandırmadan gelir. Başlangıçta son rota geri yüklenir; ardından mevcut, önbellek, başlangıç ve S3/R2 kaynaklarından yenilenir. Manuel seçim önceliklidir; hata durumunda mevcut rota korunur.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Bilinmeyen cihaz",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Çıkış yap",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Mevcut",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Cihazlar yüklenemedi",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Giriş yapılmış cihaz yok",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Önizle",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Bu örnek metin yazı boyutunu gösterir. Sohbet ederken rahat edeceğiniz bir boyut seçin.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Tüm hakları saklıdır",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Çeviri örneği",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Asıl metin (İngilizce)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Hedef dil",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "İpuçları:\n• Otomatik çeviri yapay zekâ kullanır\n• Çeviriler yalnızca bilgi amaçlıdır ve hata içerebilir\n• Sohbette hem asıl metin hem çeviri görünür\n• Mesaja basılı tutup “Aslını göster” seçeneğini seçin",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Varsayılan arka plan",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Beyaz",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Açık gri",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Bej",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Açık mavi",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Açık yeşil",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Açık pembe",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Açık mor",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Özel görsel",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Bu sohbetin arka planı",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Sohbet arka planı",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Özel görseli değiştir",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Fotoğraflardan seç",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Ayarla",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Genel sohbet arka planını kullan",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Çeviri ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "“{name}” oturumunu kapat?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} oturum} other {{count} oturum}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Son etkinlik {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Geliştirici tanılaması",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Ağ kullanılamıyor. Ağ ayarlarınızı kontrol edin.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

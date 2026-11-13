@@ -1,0 +1,370 @@
+{
+  "@@locale": "bg",
+  "contactsTitle": "Контакти",
+  "contactsSearch": "Търси контакти",
+  "contactsNewFriends": "Нови приятели",
+  "contactsGroups": "Групи",
+  "contactsFavorites": "Любими",
+  "contactsRecent": "Скорошни",
+  "contactsOrganization": "Организация",
+  "contactsAnnouncement": "Обявления",
+  "contactsNewApplications": "Нови заявления",
+  "contactsCustomerGroups": "Клиентски групи",
+  "contactsAllCustomers": "Всички клиенти",
+  "contactsMyCustomers": "Моите клиенти",
+  "contactsViewAll": "Виж всички",
+  "contactsMyContacts": "Моите контакти",
+  "contactsMyAdvisor": "Моят консултант",
+  "contactsNoAdvisor": "Все още няма назначен консултант",
+  "contactsAdvisorLoading": "Зареждане...",
+  "contactsNavigateFailed": "Преминаването към страницата е неуспешно. Опитайте отново.",
+  "contactsEmpty": "Няма контакти",
+  "contactsNoAnnouncement": "Няма обявления",
+  "contactsOfficialBadge": "Официално",
+  "contactsCustomerBadge": "Клиент",
+  "contactsEmptyCustomers": "Няма клиенти",
+  "friendAddTitle": "Добави контакт",
+  "friendSearchHint": "Телефон / имейл / StartLink ID",
+  "friendRequestSent": "Заявката за приятелство е изпратена",
+  "friendRequestFailed": "Изпращането е неуспешно. Опитайте отново.",
+  "friendAlreadyFriend": "Вече сте контакти",
+  "friendNewFriendsTitle": "Нови приятели",
+  "friendNoRequests": "Няма заявки за приятелство",
+  "friendAccept": "Приеми",
+  "friendReject": "Отказ",
+  "friendAccepted": "Прието",
+  "friendRejected": "Отказан",
+  "friendDeleteConfirm": "Да се премахне ли този контакт?",
+  "friendDeleteSuccess": "Контактът е премахнат",
+  "friendDeleteFailed": "Премахването е неуспешно. Опитайте отново.",
+  "friendRemarkName": "Псевдоним",
+  "friendGroupName": "Група",
+  "friendSendMessage": "Съобщение",
+  "friendMatchTypeLppId": "Намерено по StartLink ID",
+  "friendMatchTypeMobile": "Намерено по телефон",
+  "friendMatchTypeEmail": "Намерено по имейл",
+  "friendSearchEmpty": "Няма намерени потребители",
+  "friendAddMessage": "Бих искал да ви добавя като контакт",
+  "friendBlockConfirm": "Да се блокира ли този потребител?",
+  "friendUnblockConfirm": "Да се отблокира ли този потребител?",
+  "friendBlockSuccess": "Блокиран",
+  "friendUnblockSuccess": "Отблокиран",
+  "searchTitle": "Търсене",
+  "searchHint": "Търси по телефон, имейл или StartLink ID",
+  "searchNoResults": "Няма резултати",
+  "searchMessages": "Съобщения",
+  "searchUsers": "Потребители",
+  "searchFailed": "Търсенето е неуспешно. Опитайте отново.",
+  "scanTitle": "Сканирай",
+  "scanFailed": "Разпознаването е неуспешно. Опитайте отново.",
+  "scanInvalidQrCode": "Невалиден QR код",
+  "scanFlashOn": "Включи фенерчето",
+  "scanFlashOff": "Изключи фенерчето",
+  "scanAlbum": "Изберете от албума",
+  "blacklistTitle": "В черен списък",
+  "blacklistEmpty": "Няма блокирани потребители",
+  "blacklistRemove": "Отблокирай",
+  "blacklistRemoveConfirm": "Да се отблокира ли този потребител?",
+  "addFriendTitle": "Добави контакт",
+  "addFriendSearchHint": "Телефон / имейл / StartLink ID",
+  "addFriendLppIdLabel": "StartLink ID: {lppId}",
+  "addFriendButton": "Добави",
+  "addFriendCannotAddSelf": "Не можете да добавите себе си",
+  "addFriendUnsupportedUser": "Този потребител не може да бъде добавен. Можете да му пишете директно.",
+  "addFriendMessageHint": "Въведете съобщение",
+  "addFriendSendRequest": "Изпрати заявка",
+  "scanAlreadyGroupMember": "Вече сте в тази група",
+  "scanCameraInitializing": "Камерата се стартира. Опитайте след малко.",
+  "scanCameraPermissionRequired": "Разрешете достъп до камерата за сканиране на QR кодове",
+  "scanCameraStartFailed": "Камерата не можа да се стартира. Опитайте по-късно.",
+  "scanCameraStarting": "Стартиране на камерата",
+  "scanCameraUnsupported": "Това устройство не поддържа сканиране на QR кодове",
+  "scanDesktopAlbumUnsupported": "Разчитането на QR кодове от изображения е недостъпно на компютър",
+  "scanDesktopUnsupported": "Сканирането на QR кодове е недостъпно на компютър. Използвайте мобилното приложение.",
+  "scanEnterGroup": "Отвори груповия разговор",
+  "scanFallbackFriendName": "Контакт",
+  "scanFrameHint": "Поставете QR кода в рамката за автоматично сканиране",
+  "scanFriendAddUnavailable": "В момента не можете да добавите този контакт с този QR код",
+  "scanFriendAdded": "Вече сте контакти",
+  "scanFriendBlocked": "Този човек в момента не може да получи поканата ви за приятелство",
+  "scanFriendIsolation": "Не можете да добавите този контакт в текущото пространство",
+  "scanFriendQrExhausted": "Този QR код е достигнал лимита си за използване. Поискайте нов код.",
+  "scanFriendQrExpiredPreview": "Този QR код на контакт е изтекъл или е недостъпен",
+  "scanFriendQrRevoked": "Този QR код вече не е валиден. Поискайте нов код.",
+  "scanFriendRequestPending": "Поканата за приятелство е изпратена. Изчаква се одобрение.",
+  "scanFriendRequestsDisabled": "Този човек не приема покани за приятелство",
+  "scanGroupApprovalHint": "Присъединяването към тази група изисква одобрение от собственика или администратор",
+  "scanGroupJoinFailed": "Заявката за присъединяване към групата не можа да се изпрати",
+  "scanGroupJoinPending": "Заявката за присъединяване е изпратена. Изчаква се одобрение.",
+  "scanGroupJoinUnavailable": "В момента не можете да се присъедините към тази група с този QR код",
+  "scanGroupJoined": "Присъединихте се към групата",
+  "scanGroupPermissionDenied": "Нямате разрешение да се присъедините към тази група с този QR код",
+  "scanGroupProcessFailed": "QR кодът на групата не можа да се обработи",
+  "scanGroupQrDisabled": "Собственикът или администратор е изключил присъединяването чрез QR код",
+  "scanGroupQrExhausted": "Този QR код е достигнал лимита си за използване. Поискайте нов код от член на групата.",
+  "scanGroupQrExpired": "Този QR код е изтекъл. Поискайте нов код от член на групата.",
+  "scanGroupQrRevoked": "Този QR код е оттеглен. Поискайте нов код от член на групата.",
+  "scanGroupQrUnavailable": "Този QR код вече не е валиден. Поискайте нов код от член на групата.",
+  "scanGroupScannerInvalid": "Този профил не може да се присъедини към тази група",
+  "scanImageReadFailed": "Изображението не можа да се прочете. Опитайте отново.",
+  "scanIncomingFriendRequest": "Този човек вече ви е изпратил покана за приятелство. Първо я прегледайте.",
+  "scanInvalidGroupQr": "Невалиден QR код на група",
+  "scanInviterDeleted": "Този потребителски профил е изтрит",
+  "scanJoinGroup": "Присъедини се към групата",
+  "scanJoinGroupConfirmation": "Присъединяване към тази група?",
+  "scanMutualFriendsOnly": "Този човек приема покани само от хора с общи приятели",
+  "scanNoQrFound": "Не е намерен QR код",
+  "scanOwnQr": "Това е вашият собствен QR код",
+  "scanPluginUnavailable": "Сканирането е недостъпно. Затворете приложението напълно и опитайте отново.",
+  "scanProcessFailed": "QR кодът не можа да се обработи",
+  "scanQrExpired": "Този QR код е изтекъл",
+  "scanQrUnavailableTitle": "QR кодът вече не е валиден",
+  "scanSendFriendConfirmation": "Да се изпрати ли покана за приятелство?",
+  "scanTorchFailed": "Фенерчето не можа да се превключи. Опитайте по-късно.",
+  "scanTorchUnavailable": "Това устройство няма фенерче",
+  "scanUnsupportedQr": "Този QR код не се поддържа",
+  "contactsRequestsUnavailable": "Поканите за приятелство временно са недостъпни",
+  "contactsTryLater": "Опитайте по-късно",
+  "contactsQrSource": "QR код",
+  "contactsRequestStatusInvalid": "Невалидно състояние",
+  "contactsCustomerTagFilter": "Филтър по клиентски етикети",
+  "contactsOverviewTitle": "Преглед на клиентите",
+  "contactsLoaded": "Заредени",
+  "contactsAssigned": "Разпределени",
+  "contactsUnassigned": "Неразпределен",
+  "contactsCustomerDataError": "Клиентите не можаха да се заредят. Проверете връзката или състоянието на входа си и опитайте отново.",
+  "contactsTagFilter": "Филтрирай по етикет",
+  "contactsReassign": "Преразпредели",
+  "contactsCustomersLoadFailed": "Клиентите не можаха да се заредят",
+  "contactsNoAssigned": "Няма разпределени клиенти",
+  "contactsNoUnassigned": "Няма неразпределени клиенти",
+  "contactsDirectoryDenied": "Вашата роля няма достъп до указателя на клиентите",
+  "contactsApplicationAccessDenied": "Само администратори или собственици на организацията могат да виждат новите заявки",
+  "contactsApplicationsUnavailable": "Заявките за присъединяване временно са недостъпни",
+  "contactsPullToRetry": "Зареждането е неуспешно. Плъзнете надолу за опресняване и опитайте отново.",
+  "contactsApplicationApproved": "Заявката е одобрена",
+  "contactsApplicantUnavailable": "Данните на кандидата временно са недостъпни",
+  "contactsApplicationApprove": "Положен",
+  "contactsApplicationAccepted": "Одобрени",
+  "contactsFriendRequests": "Покани за приятелство",
+  "contactsRecentActive": "Наскоро активни",
+  "contactsRecentActiveUnavailable": "Последната активност на клиентите временно е недостъпна",
+  "contactsMyCustomersRetry": "Клиентите ви не можаха да се заредят. Докоснете за повторен опит.",
+  "contactsLoadRetry": "Контактите не можаха да се заредят. Докоснете за повторен опит.",
+  "contactsLoadFailed": "Контактите не можаха да се заредят",
+  "contactsNoCustomerYet": "Все още няма клиенти",
+  "contactsInviteCustomerHint": "Поканете клиенти, като споделите своя QR код или кода на организацията",
+  "contactsShareQr": "Сподели моя QR код",
+  "contactsScanFriendHint": "Сканирайте QR кода, за да ми изпратите покана за приятелство",
+  "contactsQrToken": "Идентификатор на QR кода",
+  "contactsQrUsage": "Брой използвания",
+  "contactsQrNote": "Бележка по подразбиране",
+  "contactsCopyQr": "Копирай съдържанието на QR кода",
+  "contactsGeneratingQr": "Създаване на видео..",
+  "contactsRegenerateQr": "Създай нов QR код",
+  "contactsQrLoadFailed": "QR кодът не можа да се зареди",
+  "contactsSearchGroups": "Търси групи",
+  "contactsNoMatchingGroups": "Няма съответстващи групови разговори",
+  "contactsCreateGroupHint": "Докоснете + горе вдясно, за да започнете групов разговор",
+  "contactsGroupOverview": "Преглед на надзора на групите",
+  "contactsGroupsLabel": "Групи",
+  "contactsCurrentFilter": "Текущ филтър",
+  "contactsFreeze": "Замрази",
+  "contactsRisk": "Риск",
+  "contactsGroupStatisticsUnavailable": "Статистиката за надзора на групите временно е недостъпна",
+  "contactsGroupList": "Списък с групи",
+  "contactsNoGroupData": "Няма налични групи",
+  "contactsNoMatchingGroupData": "Няма съответстващи групи",
+  "contactsGroupDataUnavailable": "Групите не могат да се покажат в момента. Опитайте по-късно.",
+  "contactsFrozen": "Замразен",
+  "contactsNormal": "Активен",
+  "contactsGroupSupervisionDetail": "Подробности за надзора на групата",
+  "contactsFreezeStatus": "Състояние на замразяване",
+  "contactsRiskStatus": "Състояние на риска",
+  "contactsGroupId": "ID на групата",
+  "contactsUnfreeze": "Размрази",
+  "contactsAdminMuteAll": "Заглуши всички членове на групата",
+  "contactsAdminMembers": "Управление на членовете на групата",
+  "contactsForceDissolve": "Принудително разпускане",
+  "contactsAdminDissolve": "Разпусни групата принудително",
+  "contactsNoCustomerContacts": "Все още няма контакти с клиенти",
+  "contactsNoMatchingCustomers": "Няма съответстващи клиенти",
+  "contactsCustomerContactsRetry": "Контактите с клиенти не можаха да се заредят. Докоснете за повторен опит.",
+  "contactsFriendsOnlySetting": "Тази настройка е достъпна само за приятели",
+  "contactsHandleFriendRequest": "Прегледай поканата за приятелство",
+  "contactsSaved": "Запазено",
+  "contactsPrivateGender": "Пол (видим само за вас)",
+  "contactsTags": "Етикети",
+  "contactsMoreInfo": "Още информация",
+  "contactsMutualGroupsHeading": "Общи групи",
+  "contactsNone": "Няма",
+  "contactsSource": "Източник",
+  "contactsAddedAt": "Добавен на",
+  "contactsGroupOpenFailed": "Този групов разговор в момента не може да се отвори",
+  "contactsMutualGroups": "Общи групи",
+  "contactsMutualGroupsSyncing": "Синхронизиране на общите групи",
+  "contactsNoMutualGroups": "Няма общи групи",
+  "contactsDiscardTitle": "Да се отхвърлят ли промените?",
+  "contactsUnsavedChanges": "Промените ви не са запазени.",
+  "contactsContinueEditing": "Продължи редактирането",
+  "contactsDiscardChanges": "Отхвърли промените",
+  "contactsEditRemark": "Редактирай бележката",
+  "contactsAddRemark": "Добави бележка",
+  "contactsAddTag": "Добави етикет",
+  "contactsAddText": "Добави текст",
+  "contactsEditTags": "Редактирай етикетите",
+  "contactsAddedTags": "Добавени етикети",
+  "contactsEnterTag": "Въведете етикет",
+  "contactsProfileLoadFailed": "Профилът не можа да се зареди. Опитайте отново.",
+  "contactsDeleteFriend": "Изтрий приятеля",
+  "contactsFriendSettings": "Настройки на приятеля",
+  "contactsBlockUser": "Блокирай потребителя",
+  "contactsDeleting": "Изтриване…",
+  "contactsReassignHint": "Изберете нов агент. Свързаните разговори за обслужване също ще бъдат прехвърлени.",
+  "contactsAssignOwnerOnly": "Този профил не може да разпределя агенти. Използвайте профил на собственик на организацията.",
+  "contactsAssignRetry": "Агентът не можа да се разпредели. Опитайте по-късно.",
+  "contactsEnterpriseTags": "Етикети на организацията",
+  "contactsTagsCommaHint": "Разделяйте няколко етикета със запетаи",
+  "contactsEnterpriseTagsSaved": "Етикетите на организацията са запазени",
+  "contactsTagsSaveFailed": "Етикетите не можаха да се запазят. Опитайте по-късно.",
+  "contactsSharedTagsHint": "Използват се за филтриране на клиенти и се споделят в организацията",
+  "contactsOwnerActionsHint": "Собствениците могат да променят определения агент на този клиент. Записите на разговорите за обслужване временно са недостъпни.",
+  "contactsViewChatInfo": "Виж информацията за разговора",
+  "contactsCustomerServiceGroups": "Групи за обслужване на този клиент",
+  "contactsCannotAddFriend": "Добавянето на приятели в момента е недостъпно",
+  "contactsSaving": "Запазване..",
+  "contactsRequestSource": "Заявка чрез {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "Изпратихте покана за приятелство · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, one {Зареден е {count} клиент} other {Заредени са {count} клиенти}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Определен агент: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Референция: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "Чакащи ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Обработени ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Валиден до {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Без ограничение",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Сканирайте, за да ме добавите като приятел",
+  "contactsItemCount": "{count, plural, one {{count} група} other {{count} групи}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Прякор: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Регион: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Първоначален прякор: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "Да се изтрие ли {name} като приятел? Съществуващата история на разговора ще се запази.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Разпределен към {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Разговорите с клиента са недостъпни",
+  "contactsCustomerChatUnavailable": "Разговорите за обслужване на този клиент не могат да се видят в момента. Опитайте по-късно."
+}

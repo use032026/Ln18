@@ -1,0 +1,431 @@
+{
+  "accessMode": "接入模式",
+  "active": "进行中",
+  "allConversations": "当前全部会话",
+  "announcementLoadFailed": "公告加载失败",
+  "autoAssign": "自动分配",
+  "capabilityNavAria": "工作台能力",
+  "capabilityCount": "项能力",
+  "currentEnterprise": "当前企业",
+  "currentRole": "当前角色",
+  "currentState": "当前状态",
+  "customerManagement": {
+    "assigned": "已分配",
+    "emptyText": "当前企业暂无客户。",
+    "emptyTitle": "暂无客户",
+    "errorTitle": "客户数据加载失败",
+    "loadMore": "加载更多客户",
+    "loadingMore": "正在加载更多...",
+    "loadingText": "正在同步企业客户池。",
+    "loadingTitle": "正在加载客户",
+    "openDirectory": "进入完整客户目录",
+    "total": "客户总数",
+    "unassigned": "未分配"
+  },
+  "dataScope": "数据口径",
+  "dataScopeValue": "不造假；无接口时显示空态",
+  "detailAria": "工作台详情",
+  "documentCount": "{count} 篇内容",
+  "documentCountEmpty": "内容数 --",
+  "emptyAnnouncementsText": "当前企业没有已发布且未过期的公告。",
+  "emptyAnnouncementsTitle": "暂无企业公告",
+  "emptyNoEntryText": "当前角色没有配置工作台能力。",
+  "emptyNoEntryTitle": "暂无可用工作台入口",
+  "emptyQuickRepliesText": "服务端未返回可用知识库或话术内容。",
+  "emptyQuickRepliesTitle": "暂无常用话术",
+  "entry": "入口",
+  "entryReservedText": "这里先保留角色化入口和权限边界；后续接入对应页面或接口后再填充真实数据。",
+  "entryReservedTitle": "入口已放好",
+  "group": {
+    "admin": "管理工作台",
+    "customerService": "客服工作台",
+    "owner": "所有者工作台"
+  },
+  "heroSubtitle": "{tenant} · {role}入口。消息、通讯录和在线客服保持独立，工作台只放角色任务和管理入口。",
+  "heroTitle": "{role}工作台",
+  "knowledgeBase": "知识库",
+  "knowledgeLoadFailed": "话术加载失败",
+  "listSeparator": "、",
+  "manualAccess": "手动接入",
+  "markRead": "已读",
+  "managementWorkbench": {
+    "title": "企业管理工作台",
+    "navigation": "管理工作台导航",
+    "section": {
+      "customer": "客户运营",
+      "service": "服务运营",
+      "governance": "风控治理",
+      "communication": "企业消息",
+      "enterprise": "企业管理"
+    },
+    "capability": {
+      "customer-management": {
+        "title": "客户管理",
+        "description": "客户查询、详情与客服分配"
+      },
+      "service-operations": {
+        "title": "服务运营",
+        "description": "实时服务中心与团队服务效率"
+      },
+      "join-requests": {
+        "title": "加入审批",
+        "description": "处理客户和员工加入企业申请"
+      },
+      "group-supervision": {
+        "title": "群组监管",
+        "description": "查看企业群组并执行冻结治理"
+      },
+      "conversation-audit": {
+        "title": "会话审计",
+        "description": "检索并查看历史客服会话"
+      },
+      "operation-audit": {
+        "title": "操作审计",
+        "description": "查看企业管理操作记录"
+      },
+      "enterprise-communication": {
+        "title": "企业消息",
+        "description": "企业群发和公告阅读"
+      },
+      "official-account": {
+        "title": "官方账号",
+        "description": "管理官方身份、服务菜单、客服引流与官方群"
+      },
+      "enterprise-info": {
+        "title": "企业信息",
+        "description": "查看企业基础资料"
+      },
+      "enterprise-features": {
+        "title": "企业配置",
+        "description": "配置客服分配、审批和访客能力"
+      },
+      "employee-invitations": {
+        "title": "邀请员工",
+        "description": "创建、复制和撤销企业邀请码"
+      },
+      "member-management": {
+        "title": "成员管理",
+        "description": "查看成员、调整角色或移出企业"
+      },
+      "ownership-transfer": {
+        "title": "转让所有者",
+        "description": "将企业所有权转让给其他员工"
+      }
+    }
+  },
+  "management": {
+    "audit": {
+      "empty": "暂无操作审计记录。",
+      "error": "操作审计加载失败：{error}",
+      "loading": "正在加载操作审计...",
+      "readonly": "只读审计轨迹",
+      "unknownAction": "操作记录"
+    },
+    "broadcast": {
+      "auditReason": "审计备注",
+      "auditReasonPlaceholder": "选填，说明本次群发原因",
+      "confirm": "确认向“{target}”的 {count} 个接收方提交群发吗？",
+      "content": "群发内容",
+      "contentPlaceholder": "请输入企业群发内容",
+      "emptyTasks": "暂无群发任务。",
+      "history": "投递任务",
+      "loadingTasks": "正在加载群发任务...",
+      "noSamples": "服务端未返回接收方样例。",
+      "officialSender": "官方发送身份",
+      "preview": "预览",
+      "previewRecipients": "预计接收 {count} 人",
+      "previewToConfirm": "预览后确认",
+      "previewing": "预览中...",
+      "retryFailed": "重试失败项",
+      "status": {
+        "0": "待投递",
+        "1": "投递中",
+        "2": "已完成",
+        "3": "失败",
+        "4": "已取消"
+      },
+      "submit": "提交发送",
+      "submitting": "提交中...",
+      "target": {
+        "allMembers": "全体人员",
+        "customers": "企业客户",
+        "officialGroups": "官方群",
+        "staff": "企业员工"
+      },
+      "targetLabel": "接收范围",
+      "taskProgress": "已发送 {sent}/{total} · 失败 {failed}"
+    },
+    "conversationAudit": {
+      "description": "查询客服历史、打开完整只读对话并导出报表。",
+      "open": "进入会话审计",
+      "title": "会话审计"
+    },
+    "groups": {
+      "actionError": "群组状态更新失败：{error}",
+      "count": "{count} 个群组",
+      "empty": "当前筛选下暂无群组。",
+      "error": "群组加载失败：{error}",
+      "freeze": "冻结",
+      "freezeConfirm": "确认冻结“{title}”吗？冻结后成员不能继续正常活动。",
+      "frozen": "已冻结",
+      "loading": "正在加载企业群组...",
+      "members": "{count} 名成员",
+      "noPreview": "暂无最近消息",
+      "search": "搜索群组、群主或消息",
+      "unfreeze": "解冻"
+    },
+    "join": {
+      "approve": "通过",
+      "emptyPending": "暂无待处理申请。",
+      "error": "加入申请加载失败：{error}",
+      "loading": "正在加载加入申请...",
+      "pending": "待处理（{count}）",
+      "processed": "已处理（{count}）",
+      "reject": "拒绝",
+      "reviewError": "申请审批失败：{error}",
+      "status": {
+        "approved": "已通过",
+        "cancelled": "已取消",
+        "rejected": "已拒绝"
+      }
+    },
+    "settings": {
+      "customerServiceAuto": "自动分配",
+      "customerServiceDesignated": "指定客服",
+      "customerServiceMode": "客服分配模式",
+      "enterpriseTools": "企业工具",
+      "error": "企业配置加载失败：{error}",
+      "featureTitle": "企业配置",
+      "friendIsolation": "客户隔离",
+      "friendMode": "好友模式",
+      "friendSocial": "社交模式",
+      "invite": "邀请员工",
+      "inviteHint": "创建和管理企业邀请码",
+      "joinApprovalMode": "加入审批模式",
+      "joinAuto": "自动通过",
+      "joinManual": "人工审批",
+      "loading": "正在加载企业配置...",
+      "members": "成员列表",
+      "membersHint": "查看成员和角色身份",
+      "saved": "配置已保存",
+      "tempSessionEnabled": "Widget 访客功能",
+      "tempSessionHint": "允许访客发起临时客服会话"
+    }
+  },
+  "myServiceStatus": "我的在线客服状态",
+  "noSummary": "暂无摘要",
+  "notice": {
+    "readFailed": "已读上报失败：{error}",
+    "readSuccess": "公告已标记为已读"
+  },
+  "openKnowledgeBase": "打开知识库",
+  "openOnlineService": "打开在线客服",
+  "openShortcut": "打开{title}",
+  "performance": {
+    "avgDuration": "平均时长",
+    "avgFirstResponse": "平均首响",
+    "avgRating": "评分",
+    "channel": {
+      "imDirect": "IM 直聊",
+      "widget": "Widget 访客"
+    },
+    "channelMeta": "首响 {first} · 评分 {rating}",
+    "emptyDistribution": "暂无来源平台分布。",
+    "emptyText": "服务端暂未返回团队绩效统计。",
+    "emptyTitle": "暂无团队统计",
+    "errorTitle": "团队效率数据加载失败",
+    "excellentRate": "质检合格率",
+    "loadingText": "正在同步管理端统计，已有工作台数据不会被遮挡。",
+    "loadingTitle": "正在加载团队效率",
+    "retry": "重试",
+    "sessionsServed": "{count} 个会话",
+    "sourcePlatformHint": "渠道分布优先按 sourcePlatform 分组，旧数据无该字段时回退 sourceChannel。",
+    "sourcePlatformTitle": "来源平台分布",
+    "staffRankHint": "顶层指标为 Widget 临时会话与 IM 注册客户直聊的跨渠道合并 KPI。",
+    "staffRankTitle": "客服效率榜",
+    "totalServed": "已服务",
+    "totalSessions": "总会话"
+  },
+  "performanceLoadFailed": "效能数据加载失败",
+  "priority": {
+    "important": "重要",
+    "normal": "普通"
+  },
+  "queued": "排队",
+  "role": {
+    "admin": "管理员",
+    "customer_service": "客服",
+    "owner": "所有者"
+  },
+  "roleTitle": {
+    "admin": "管理工作台",
+    "customer_service": "客服工作台",
+    "owner": "所有者工作台"
+  },
+  "roleScope": "角色范围",
+  "shortcut": {
+    "wb-admin-customers": {
+      "description": "客户统计、已分配/未分配客户、分页查询和分配客服。",
+      "title": "客户管理"
+    },
+    "wb-admin-groups": {
+      "description": "群组列表、冻结/解冻和后续治理接口入口。",
+      "title": "群组监管"
+    },
+    "wb-admin-conversation-audit": {
+      "description": "查询和导出完整在线客服历史会话。",
+      "title": "会话审计"
+    },
+    "wb-admin-join-requests": {
+      "description": "审批客户或员工加入当前企业的申请。",
+      "title": "加入企业申请"
+    },
+    "wb-admin-service-center": {
+      "description": "同步查看所有正在进行中的客服对话，按客服人员或对话状态筛选，即时介入或协助。",
+      "title": "客服实时监控"
+    },
+    "wb-cs-notices": {
+      "description": "查看企业通知、制度公告和已读状态。",
+      "title": "企业公告"
+    },
+    "wb-cs-performance": {
+      "description": "查看个人接待量、平均响应和满意度摘要。",
+      "title": "效能"
+    },
+    "wb-cs-quick-replies": {
+      "description": "维护常用回复、知识库引用和多语言话术。",
+      "title": "常用话术"
+    },
+    "wb-owner-broadcast": {
+      "description": "以官方账号向全体人员、员工、客户或官方群发送企业通知。",
+      "title": "企业群发"
+    },
+    "wb-owner-enterprise-settings": {
+      "description": "配置客服分配、加入审批、好友模式和访客客服。",
+      "title": "企业管理"
+    },
+    "wb-owner-operation-audit": {
+      "description": "查看服务端权威的企业操作审计轨迹。",
+      "title": "操作审计"
+    }
+  },
+  "monitor": {
+    "activeThreads": "客服对话",
+    "all": "全部",
+    "channel": "渠道",
+    "detailFailed": "对话详情加载失败：{error}",
+    "emptyMessages": "暂无可展示消息。",
+    "emptyRisk": "暂无 SLA 风险。",
+    "emptyStaff": "暂无坐席状态。",
+    "emptyThreads": "当前筛选下没有客服对话。",
+    "filter": {
+      "keyword": "关键字",
+      "staff": "客服",
+      "status": "状态",
+      "threadType": "渠道"
+    },
+    "filtersAria": "客服实时监控筛选",
+    "kpi": {
+      "active": "进行中",
+      "onlineStaff": "在线坐席",
+      "queued": "排队",
+      "queueHint": "管理端实时队列",
+      "riskHint": "需优先处理",
+      "slaRisk": "SLA 风险",
+      "staffHint": "可接待人员",
+      "visibleHint": "当前筛选可见"
+    },
+    "kpisAria": "客服实时监控指标",
+    "keywordPlaceholder": "客户、会话、消息内容",
+    "loadFailed": "实时监控加载失败：{error}",
+    "loading": "正在同步监控数据...",
+    "loadingDetail": "正在同步对话内容...",
+    "addWatch": "加入监控",
+    "agent": "客服",
+    "allStaff": "全部客服",
+    "assistThread": "介入协助",
+    "backoff": "限流暂停 {seconds}s",
+    "capacityFull": "监控墙已满",
+    "chatInfo": "会话信息",
+    "closeWindow": "关闭",
+    "customer": "客户",
+    "emptySlot": "空槽",
+    "expandWindow": "放大",
+    "lastSynced": "已同步 {time}",
+    "layout": "布局",
+    "jumpThread": "跳转",
+    "pinWindow": "钉住并排",
+    "promoteWindow": "置顶到第一槽",
+    "realtime": "30 秒轮询",
+    "acceptingQueue": "接收排队",
+    "customerLevel": "客户等级",
+    "customerProfile": "客户资料",
+    "heartbeat": "心跳时间",
+    "lastOnline": "最近在线",
+    "openCustomerProfile": "查看客户资料",
+    "openReadonlyDetail": "打开只读详情",
+    "openStaffProfile": "查看客服资料",
+    "removeWindow": "移出",
+    "replaceMode": "选择替换窗口",
+    "replacePrompt": "监控墙已满，请选择要替换的窗口：{title}",
+    "replaceThisWindow": "替换此窗口",
+    "resultCount": "{count} 条",
+    "selectThread": "选择一条客服对话后查看实时详情。",
+    "selectReplaceSlot": "选择要替换的窗口",
+    "shrinkWindow": "缩小",
+    "slaRisk": "SLA 风险",
+    "slaRiskFallback": "服务端标记该会话需要关注。",
+    "source": "来源",
+    "staffId": "客服 ID",
+    "staffLoadLabel": "接待负载",
+    "staffLoad": "{active}/{max}",
+    "staffWall": "坐席状态墙",
+    "staffProfile": "客服资料",
+    "statusLabel": "状态",
+    "status": {
+      "active": "进行中",
+      "queued": "排队"
+    },
+    "subtitle": "管理员和所有者可按客服、状态、渠道和关键字筛选活跃客服对话，并同步查看详情。",
+    "threadDetail": "对话详情",
+    "threadId": "会话 ID",
+    "threadPool": "会话池",
+    "title": "实时监控客服对话",
+    "unassigned": "未分配",
+    "unpinWindow": "取消钉住",
+    "updatedAt": "更新时间",
+    "wall": "监控墙",
+    "watched": "已监控",
+    "windowCount": "{count} 个窗口"
+  },
+  "state": {
+    "available": {
+      "hint": "可以进入或查看",
+      "label": "可用"
+    },
+    "no_permission": {
+      "hint": "当前角色不可用",
+      "label": "无权限"
+    },
+    "pending_api": {
+      "hint": "入口已保留，等待页面或接口接入",
+      "label": "待接入"
+    },
+    "readonly": {
+      "hint": "只读查看",
+      "label": "只读"
+    }
+  },
+  "summary": {
+    "announcements": "企业公告",
+    "announcementsHint": "已发布且未过期",
+    "currentConversations": "当前会话",
+    "quickReplies": "常用话术",
+    "quickRepliesHint": "复用知识库与话术能力",
+    "receptionStatus": "接待状态",
+    "receptionStatusHint": "进入工作台不会自动改变状态",
+    "threadHint": "排队 {queue} · 进行中 {active}"
+  },
+  "summaryAria": "工作台摘要",
+  "unnamedKnowledgeBase": "未命名知识库"
+}

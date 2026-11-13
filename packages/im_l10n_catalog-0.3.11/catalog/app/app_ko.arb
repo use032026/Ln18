@@ -1,0 +1,75 @@
+{
+  "@@locale": "ko",
+  "appRuntimeLoadFailed": "계정 데이터를 불러오지 못했습니다",
+  "privacyConsentTitle": "이용약관 및 개인정보 처리방침",
+  "privacyConsentBodyAndroid": "{brand}을(를) 이용해 주셔서 감사합니다. 계정 로그인, 인스턴트 메시징, 기업 협업, 온라인 고객 서비스, 메시지 알림 및 보안 서비스를 제공하기 위해 이용약관과 개인정보 처리방침에 따라 필요한 정보를 처리해야 합니다.\n\n동의하기 전에는 클립보드 정보를 읽지 않고 JPush/JCore 및 휴대폰 제조사 푸시 SDK를 초기화하지 않으며, 이러한 SDK를 통해 Android ID, OAID, 설치된 앱 목록, MAC 주소 등의 정보를 수집하지 않습니다. 지금 동의하지 않으면 해당 선택을 저장합니다. 문서를 계속 확인한 후 나중에 다시 선택할 수 있습니다.\n\n동의한 후 메시지, 고객 서비스 및 수신 전화 알림을 제공하기 위해 JPush/JCore와 휴대폰 제조사 푸시 서비스가 기기 모델, Android 버전, 앱 패키지명과 버전, 네트워크 유형, IP 주소, Android ID, OAID, 푸시 Registration ID, 제조사 푸시 Token, 알림 전송 및 클릭 정보를 처리할 수 있습니다. 스마트 푸시, 설치된 앱 목록, MAC, IMEI, IMSI, Wi-Fi 목록, 자동 깨우기 및 연계 시작 등 불필요한 기능은 비활성화했습니다.\n\n클립보드는 사용자가 복사 또는 붙여넣기를 직접 사용할 때만 접근합니다. 카메라, 마이크, 알림 등의 시스템 권한은 해당 기능을 직접 사용할 때만 요청합니다. 개별 권한을 거부하면 해당 기능에만 영향을 줍니다. 아래 전체 문서를 읽고 동의 여부를 선택하세요.",
+  "privacyConsentBodyIos": "{brand}을(를) 이용해 주셔서 감사합니다. 계정 로그인, 인스턴트 메시징, 기업 협업, 온라인 고객 서비스, 메시지 알림 및 보안 서비스를 제공하기 위해 이용약관과 개인정보 처리방침에 따라 필요한 정보를 처리해야 합니다.\n\n동의하기 전에는 클립보드 정보를 읽지 않고 JPush/JCore를 초기화하거나 Apple Push Notification service(APNs)에 등록하지 않으며, JPush Registration ID 및 APNs 기기 토큰과 같은 푸시 식별자도 가져오지 않습니다. 지금 동의하지 않으면 해당 선택을 저장합니다. 문서를 계속 확인한 후 나중에 다시 선택할 수 있습니다.\n\n동의한 후 메시지, 고객 서비스 및 수신 전화 알림을 제공하기 위해 iPhone 모델, iOS 버전, 앱 패키지명과 버전, 네트워크 유형, IP 주소, IDFV, JPush Registration ID, APNs 기기 토큰, 알림 전송 및 클릭 정보를 처리할 수 있습니다. JPush/JCore는 푸시 서비스 연결에 사용되며, Apple APNs는 시스템 알림 전송에 필요한 앱 식별자, 기기 토큰 및 알림 내용을 처리합니다. 현재 iOS 앱은 광고 서비스를 사용하거나 IDFA를 가져오지 않습니다.\n\n클립보드는 사용자가 복사 또는 붙여넣기를 직접 사용할 때만 접근합니다. 카메라, 마이크, 알림 등의 시스템 권한은 해당 기능을 직접 사용할 때만 요청합니다. 개별 권한을 거부하면 해당 기능에만 영향을 줍니다. 아래 전체 문서를 읽고 동의 여부를 선택하세요.",
+  "privacyConsentTermsLink": "이용약관",
+  "privacyConsentConjunction": "및",
+  "privacyConsentPrivacyLink": "개인정보 처리방침",
+  "privacyConsentDecline": "동의 안 함",
+  "privacyConsentDeclinedExit": "이용약관 및 개인정보 처리방침에 동의하지 않아 앱을 종료합니다.",
+  "privacyConsentAccept": "동의",
+  "privacyConsentRuntimeFailure": "시작하지 못했습니다. 네트워크를 확인한 후 다시 시도하세요.",
+  "privacyConsentSaveFailure": "선택을 저장하지 못했습니다. 다시 시도하세요.",
+  "appUpdateRequiredTitle": "계속하려면 업데이트가 필요합니다",
+  "appUpdateOptionalTitle": "새 버전이 있습니다",
+  "appUpdateVersionAvailable": "{brand} {version} 버전을 사용할 수 있습니다",
+  "appUpdateLater": "나중에",
+  "appUpdateNow": "지금 업데이트",
+  "appUpdateProcessing": "처리 중...",
+  "appUpdateInvalidUrl": "업데이트 주소가 올바르지 않습니다. 나중에 다시 시도하세요.",
+  "appUpdateOpenUrlFailed": "업데이트 링크를 열 수 없습니다. 나중에 다시 시도하세요.",
+  "appUpdateDownloadInterrupted": "다운로드가 중단되었습니다. 네트워크를 확인한 후 다시 시도하세요.",
+  "appUpdatePackageVerificationFailed": "설치 패키지 검증에 실패했습니다. 다시 다운로드하세요.",
+  "appUpdatePermissionDenied": "시스템 설정에서 {brand}의 업데이트 설치를 허용하세요.",
+  "appUpdateOpenInstallerFailed": "시스템 설치 프로그램을 열 수 없습니다. 설치 권한을 확인하세요.",
+  "appUpdateGenericFailure": "업데이트하지 못했습니다. 네트워크를 확인한 후 다시 시도하세요.",
+  "appUpdateUnavailable": "새 버전을 아직 다운로드할 수 없습니다. 나중에 다시 시도하세요.",
+  "appUpdateCheckFailed": "업데이트를 확인하지 못했습니다. 나중에 다시 시도하세요.",
+  "appUpdateChecking": "확인 중",
+  "privacySettingsTitle": "개인정보",
+  "privacySearchableByMobile": "전화번호로 검색 허용",
+  "privacySearchableByLppId": "StartLink ID로 검색 허용",
+  "privacyAllowFriendRequest": "친구 신청 허용",
+  "privacyProfileVisibility": "프로필 공개 범위",
+  "privacyEveryone": "모든 사람",
+  "privacyFriendsOfFriends": "친구의 친구",
+  "privacyNobody": "비공개",
+  "privacyFriendsOnly": "친구만",
+  "privacySaveSuccess": "설정이 저장되었습니다",
+  "privacySaveFailed": "저장에 실패했습니다. 다시 시도해 주십시오",
+  "termsTitle": "이용약관",
+  "privacyPolicyTitle": "개인정보처리방침",
+  "permissionGroupManageDenied": "그룹 소유자나 관리자만 그룹 설정을 변경할 수 있습니다.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "그룹 소유자나 관리자만 그룹 이름을 변경할 수 있습니다.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "이 그룹에서는 멤버끼리 친구를 추가할 수 없습니다.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "이 조직은 고객 간 교류를 제한하므로 고객을 친구로 추가할 수 없습니다.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "공식 웹사이트에서 최신 버전 보기",
+  "legalOfficialOpenFailed": "웹사이트를 열지 못해 로컬 백업을 표시합니다.",
+  "legalLocalChineseNotice": "로컬 약관 백업은 중국어 간체로 제공됩니다.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

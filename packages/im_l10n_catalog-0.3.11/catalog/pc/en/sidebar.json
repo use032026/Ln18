@@ -1,0 +1,97 @@
+{
+  "account": {
+    "accountAndClient": "Account and client",
+    "createQrFailed": "Failed to generate QR code: {error}",
+    "entryAria": "{name}, {account}, status: {status}",
+    "identifyingClient": "Identifying client",
+    "imStatus": "IM status",
+    "instance": "Instance {id}",
+    "inviteQrMessage": "Scan to add me",
+    "logout": "Sign out",
+    "manageDevices": "Manage login devices",
+    "member": "Member",
+    "myAccount": "My account",
+    "myEntrances": "My entries",
+    "noSignature": "No signature",
+    "openClientFailed": "Failed to open new client: {error}",
+    "openNewClient": "Open new client",
+    "openProfile": "Open account profile",
+    "openedNewClient": "Opened a new PC client",
+    "opening": "Opening",
+    "pcUser": "PC user",
+    "setImStatus": "Set IM status to {status}"
+  },
+  "badge": {
+    "friendRequestsSuffix": ", {count} friend requests",
+    "remindersSuffix": ", {count} reminders"
+  },
+  "brand": {
+    "about": "About {publicName}",
+    "helpAboutUpdate": "Help / About / Check updates"
+  },
+  "collapse": "Collapse sidebar",
+  "expand": "Expand sidebar",
+  "navAria": "Main navigation",
+  "notification": {
+    "newServiceThread": "New customer service conversation",
+    "queueBody": "A visitor is queued and waiting to be claimed",
+    "queueCountBody": "New visitors are queued and waiting to be claimed",
+    "queueFromSource": "A visitor from {source} is queued and waiting to be claimed",
+    "serviceMessageBody": "Customer service conversation has a new message",
+    "serviceMessageTitle": "New customer service message",
+    "slaBody": "A customer service conversation is near timeout or already overdue",
+    "slaBodyNamed": "{title} is near timeout or already overdue",
+    "slaTitle": "SLA timeout reminder"
+  },
+  "presence": {
+    "away": "Away",
+    "busy": "Busy",
+    "invisible": "Invisible",
+    "online": "Online"
+  },
+  "productVersion": "Pro · v{version}",
+  "service": {
+    "accessModeAria": "Customer service access mode",
+    "autoEnableHint": "Click to switch customer service online and enable automatic assignment.",
+    "counterQueue": "Queued",
+    "counterQueueShort": "Q",
+    "counterReception": "Serving",
+    "counterReceptionShort": "S",
+    "counterUnread": "Unread",
+    "counterUnreadShort": "U",
+    "enter": "Enter customer service",
+    "entryAria": "Customer service: {status}",
+    "fullDetail": "Serving {reception} · Queued {queue} · Unread {unread}",
+    "metricQueue": "Queued {value}",
+    "metricReception": "Serving {value}",
+    "metricUnread": "Unread {value}",
+    "receptionNotSynced": "Reception status is not synced, so access mode cannot be changed yet.",
+    "receptionStatusAria": "Customer service reception status",
+    "status": {
+      "break": "Away",
+      "busy": "Busy",
+      "offline": "Offline",
+      "online": "Online"
+    },
+    "statusHint": {
+      "break": "Temporarily stop receiving new queued conversations",
+      "busy": "Do not auto-claim, but manual handling is still available",
+      "offline": "Not participating in reception",
+      "online": "Can manually claim queued conversations"
+    },
+    "statusAria": "Customer service status",
+    "statusUnsynced": "Status not synced",
+    "syncFailed": "Reception status sync failed: {error}",
+    "tooltip": "Customer service · {status}"
+  },
+  "space": {
+    "enterprise": "Enterprise space",
+    "enterpriseCode": "Enterprise code {code}",
+    "entryAria": "Current space: {name}, {meta}",
+    "pendingSuffix": " · {count} pending",
+    "personal": "Personal space",
+    "personalAccount": "Personal account",
+    "tooltip": "Space · {name} · {meta}"
+  },
+  "statusCenter": "Status center"
+}

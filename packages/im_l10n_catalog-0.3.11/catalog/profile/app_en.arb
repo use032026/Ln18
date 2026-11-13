@@ -1,0 +1,150 @@
+{
+  "@@locale": "en",
+  "myTitle": "Me",
+  "myEnterpriseInfo": "Enterprise Info",
+  "myEnterpriseManage": "Enterprise Management",
+  "myQrCode": "QR Code",
+  "myFavorites": "Favorites",
+  "myLanguage": "Language",
+  "myTimezone": "Timezone",
+  "myAutoTranslate": "Auto Translate",
+  "myNetworkSwitch": "Network",
+  "mySettings": "Settings",
+  "myLogout": "Sign Out",
+  "myLogoutConfirm": "Are you sure you want to sign out?",
+  "myLeaveEnterprise": "Leave Enterprise",
+  "myLeaveEnterpriseConfirm": "Are you sure you want to leave this enterprise? You will lose access to enterprise data.",
+  "myLeaveEnterpriseSuccess": "Left enterprise",
+  "myLeaveEnterpriseFailed": "Failed to leave, please try again",
+  "myLppIdCopied": "StartLink ID copied",
+  "myLppIdLabel": "StartLink ID: {lppId}",
+  "myFriendCount": "{count} contacts",
+  "myAutoSelect": "Auto",
+  "myPresenceStatus": "Presence",
+  "myPresenceStatusTitle": "Set Presence",
+  "myPresenceOnline": "Online",
+  "myPresenceBusy": "Busy",
+  "myPresenceAway": "Away",
+  "myPresenceInvisible": "Invisible",
+  "profileTitle": "Profile",
+  "profileName": "Name",
+  "profileGender": "Gender",
+  "profileBirthday": "Birthday",
+  "profileRegion": "Region",
+  "profileSignature": "Bio",
+  "profileSignatureHint": "Tell something about yourself",
+  "profileTapTapText": "Tap Tap",
+  "profileTapTapHint": "Text shown when tapped (max 20 chars)",
+  "profileAccountSection": "Account",
+  "profileBasicSection": "Basic Info",
+  "profileLppId": "StartLink ID",
+  "profileLppIdNotSet": "Not set",
+  "profileMobile": "Phone",
+  "profileMobileUnbound": "Not bound",
+  "profileEmail": "Email",
+  "profileEmailUnbound": "Not bound",
+  "profileQrCode": "My QR Code",
+  "profileChangePassword": "Change Password",
+  "profileGenderMale": "Male",
+  "profileGenderFemale": "Female",
+  "profileGenderOther": "Other",
+  "profileGenderUnset": "Not set",
+  "profileSaveFailed": "Failed to save, please try again",
+  "profileLppIdTitle": "StartLink ID",
+  "profileLppIdSetOnce": "StartLink ID can only be changed once. Please choose carefully.",
+  "profileLppIdChangeFailed": "Change failed (StartLink ID can only be changed once)",
+  "profileChangePasswordOld": "Current Password",
+  "profileChangePasswordNew": "New Password",
+  "profileChangePasswordConfirm": "Confirm New Password",
+  "profileChangePasswordMismatch": "Passwords do not match",
+  "profileChangePasswordSuccess": "Password changed. Please sign in again.",
+  "profileChangePasswordFailed": "Failed to change password, please try again",
+  "profilePageTitle": "Profile",
+  "profilePageSendMessage": "Message",
+  "profilePageAddFriend": "Add Friend",
+  "profilePageAlreadyFriend": "Already Friends",
+  "profilePageBlocked": "Blocked",
+  "profilePageBlock": "Block",
+  "profilePageUnblock": "Unblock",
+  "profilePageHidden": "This user has hidden their profile",
+  "profilePageFriendsOnly": "This user only shows profile to friends",
+  "profilePageLppId": "StartLink ID",
+  "profilePageRemarkName": "Nickname",
+  "profilePageEditRemark": "Edit Nickname",
+  "profilePageSaveRemarkSuccess": "Nickname saved",
+  "profilePageSaveRemarkFailed": "Failed to save, please try again",
+  "myCustomersTitle": "My Customers",
+  "myCustomersEmpty": "No customers",
+  "profileInviteFriends": "Invite friends",
+  "@profileInviteFriends": {
+    "description": "Invite friends"
+  },
+  "profileAddSignature": "Add a signature",
+  "@profileAddSignature": {
+    "description": "Add a signature"
+  },
+  "profileSigningOut": "Signing out. Please wait.",
+  "@profileSigningOut": {
+    "description": "Signing out. Please wait."
+  },
+  "profileInfoNotReady": "Profile is still loading. Try again shortly.",
+  "@profileInfoNotReady": {
+    "description": "Profile is still loading. Try again shortly."
+  },
+  "profileCannotOpenChat": "Could not open the chat. Try again.",
+  "@profileCannotOpenChat": {
+    "description": "Could not open the chat. Try again."
+  },
+  "profileIdentifierRule": "6–20 letters, digits or underscores, starting with a letter",
+  "@profileIdentifierRule": {
+    "description": "6–20 letters, digits or underscores, starting with a letter"
+  },
+  "profileIdentifierHint": "6–20 characters, starting with a letter",
+  "@profileIdentifierHint": {
+    "description": "6–20 characters, starting with a letter"
+  },
+  "profileFillAllFields": "Complete all fields",
+  "@profileFillAllFields": {
+    "description": "Complete all fields"
+  },
+  "profilePasswordTooShort": "New password must be at least 6 characters",
+  "@profilePasswordTooShort": {
+    "description": "New password must be at least 6 characters"
+  },
+  "profileEnterValue": "Enter a value",
+  "@profileEnterValue": {
+    "description": "Enter a value"
+  },
+  "profileAvatarUploadFailed": "Could not upload your avatar. Try again.",
+  "@profileAvatarUploadFailed": {
+    "description": "Could not upload your avatar. Try again."
+  },
+  "profileEnterField": "Enter {label}",
+  "@profileEnterField": {
+    "description": "profileEnterField",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarFailureDetail": "Avatar upload failed: {details}",
+  "@profileAvatarFailureDetail": {
+    "description": "profileAvatarFailureDetail",
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "profileAvatarHttpFailure": "Avatar upload failed: server returned {statusCode}",
+  "@profileAvatarHttpFailure": {
+    "description": "profileAvatarHttpFailure",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "profileSignOutFailed": "Could not sign out. Try again."
+}

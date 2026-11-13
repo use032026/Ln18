@@ -1,0 +1,54 @@
+{
+  "cards": {
+    "customerGrowth": {
+      "description": "新規顧客、アクティブ顧客、VIP 顧客、離脱リスク。",
+      "title": "顧客成長"
+    },
+    "myCustomerFollowUp": {
+      "description": "本日連絡した顧客、フォロー待ち顧客、重点顧客のリマインダー。",
+      "title": "自分の顧客フォロー"
+    },
+    "myRealtimeStatus": {
+      "description": "オンライン状態、現在の会話負荷、異常アラート。",
+      "title": "自分のリアルタイム状態"
+    },
+    "myServiceEfficiency": {
+      "description": "自分の対応件数、初回応答、解決率、満足度、SLA 達成。",
+      "title": "自分の対応効率"
+    },
+    "myServiceTrend": {
+      "description": "個人のキュー受け入れ、タイムアウト、転送、処理トレンド。",
+      "title": "自分のサービス傾向"
+    },
+    "realtimeStatus": {
+      "description": "オペレーターのオンライン状態、キュー負荷、異常アラート。",
+      "title": "リアルタイム状態"
+    },
+    "serviceEfficiency": {
+      "description": "対応件数、初回応答、解決率、満足度、SLA 達成。",
+      "title": "サポート効率"
+    },
+    "serviceTrend": {
+      "description": "キュー、タイムアウト、苦情、有人切替、チャネル流入傾向。",
+      "title": "サービス傾向"
+    }
+  },
+  "description": {
+    "default": "サービス運営、顧客成長、サポート効率の指標を扱う統一入口です。単一の帳票ではなく、指標、傾向、洞察、エクスポートを集約します。",
+    "selfService": "自分の対応件数、初回応答、解決率、満足度、チケット処理に集中します。"
+  },
+  "emptyText": "連携後、権限に応じて個人データ、チームデータ、顧客傾向、チャネル実績、エクスポート機能を表示します。",
+  "emptyTitle": "データインサイトなし",
+  "metrics": {
+    "customerSatisfaction": "顧客満足度",
+    "pendingTickets": "未処理チケット",
+    "slaRisk": "SLA リスク",
+    "todayConversations": "本日の会話"
+  },
+  "refreshMetrics": "指標を更新",
+  "title": {
+    "default": "データセンター",
+    "enterpriseOwner": "企業データセンター",
+    "selfService": "自分のサービスデータ"
+  }
+}

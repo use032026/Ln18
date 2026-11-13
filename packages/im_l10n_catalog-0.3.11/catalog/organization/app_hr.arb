@@ -1,0 +1,626 @@
+{
+  "@@locale": "hr",
+  "enterpriseInfoTitle": "Podaci o tvrtki",
+  "enterpriseName": "Ime",
+  "enterpriseDescription": "Opis",
+  "enterpriseUpdateSuccess": "Uspješno ažurirano.",
+  "enterpriseUpdateFailed": "Ažuriranje nije uspjelo. Pokušajte ponovno.",
+  "enterpriseLeave": "Napusti tvrtku",
+  "enterpriseLeaveConfirm": "Želite li napustiti ovu tvrtku?",
+  "enterpriseLeaveSuccess": "Napustili ste tvrtku",
+  "enterpriseLeaveFailed": "Napuštanje nije uspjelo. Pokušajte ponovno.",
+  "enterpriseLeaveOwnerError": "Vlasnik ne može izravno napustiti tvrtku. Najprije prenesite vlasništvo.",
+  "enterpriseMemberCount": "Članovi",
+  "enterpriseCreatedAt": "Stvoreno",
+  "enterpriseCode": "Kod tvrtke",
+  "enterpriseInviteMembers": "Pozovi članove",
+  "enterpriseCopyInviteCode": "Kopiraj kod pozivnice",
+  "enterpriseInviteCodeCopied": "Kod pozivnice je kopiran",
+  "groupCreateTitle": "Nova grupa",
+  "groupNameHint": "Unesite naziv grupe",
+  "groupCreateSuccess": "Grupa je stvorena",
+  "groupCreateFailed": "Stvaranje grupe nije uspjelo",
+  "groupSettings": "Postavke grupe",
+  "groupName": "Naziv grupe",
+  "groupAvatar": "Slika grupe",
+  "groupAnnouncement": "Obavijest",
+  "groupMembers": "Članovi",
+  "groupAddMember": "Dodaj članove",
+  "groupRemoveMember": "Ukloni člana",
+  "groupRemoveMemberConfirm": "Ukloniti ovog člana?",
+  "groupSetAdmin": "Postavi za administratora",
+  "groupRemoveAdmin": "Ukloni administratorsku ulogu",
+  "groupTransferOwner": "Prenesi vlasništvo",
+  "groupTransferOwnerConfirm": "Prenijeti vlasništvo grupe ovom članu?",
+  "groupTransferOwnerSuccess": "Vlasništvo je preneseno",
+  "groupTransferOwnerFailed": "Prijenos nije uspio. Pokušajte ponovno.",
+  "groupLeave": "Napusti grupu",
+  "groupLeaveConfirm": "Napustiti ovu grupu?",
+  "groupLeaveSuccess": "Napustili ste grupu",
+  "groupLeaveFailed": "Napuštanje nije uspjelo. Pokušajte ponovno.",
+  "groupDissolve": "Raspusti grupu",
+  "groupDissolveConfirm": "Raspustiti ovu grupu? Svi članovi bit će uklonjeni.",
+  "groupDissolveSuccess": "Grupa je raspuštena",
+  "groupDissolveFailed": "Raspuštanje nije uspjelo. Pokušajte ponovno.",
+  "groupQrCode": "QR kod grupe",
+  "groupMuteAll": "Utišaj sve",
+  "groupMuteAllOn": "Uključi utišavanje svih",
+  "groupMuteAllOff": "Isključi utišavanje svih",
+  "groupAllowMemberInvite": "Dopusti članovima pozivanje drugih",
+  "groupAllowMemberModifyTitle": "Dopusti članovima promjenu naziva grupe",
+  "groupAllowMemberAtAll": "Dopusti članovima spominjanje svih",
+  "groupAllowMemberViewMemberList": "Dopusti članovima prikaz popisa članova",
+  "groupAllowQrCodeJoin": "Dopusti pridruživanje QR kodom",
+  "groupRequireApproval": "Za pridruživanje je potrebno odobrenje",
+  "groupAllowMemberAddFriend": "Dopusti članovima međusobno dodavanje",
+  "groupRoleOwner": "Vlasnik",
+  "groupRoleAdmin": "Administrator",
+  "groupRoleMember": "Član",
+  "groupNoMembers": "Nema članova",
+  "groupNoAnnouncements": "Nema obavijesti",
+  "groupCreateAnnouncement": "Objavi obavijest",
+  "groupEditAnnouncement": "Uredi obavijest",
+  "groupDeleteAnnouncement": "Izbriši obavijest",
+  "groupDeleteAnnouncementConfirm": "Izbrisati ovu obavijest?",
+  "groupAnnouncementTitle": "Naslov",
+  "groupAnnouncementContent": "Sadržaj",
+  "groupAnnouncementPin": "Prikvači obavijest",
+  "groupMemberCount": "{count} članova",
+  "groupSelectedCount": "Odabrano: {count}",
+  "groupJoinRequestApprove": "Prihvaćam",
+  "groupJoinRequestReject": "Odbij",
+  "groupJoinRequests": "Zahtjevi za pridruživanje",
+  "groupNoJoinRequests": "Nema zahtjeva za pridruživanje",
+  "groupReadReceipts": "Potvrde čitanja",
+  "groupReadCount": "Pročitano: {count}",
+  "groupUnreadCount": "{count} nepročitanih",
+  "organizationTitle": "Organizacija",
+  "organizationEmpty": "Nema podataka o odjelu",
+  "organizationMembers": "Članovi",
+  "organizationDepartment": "Odjel",
+  "organizationPosition": "Radno mjesto",
+  "organizationLeader": "Voditelj",
+  "qrCodeTitle": "Moj QR kod",
+  "qrCodeSave": "Spremi u album",
+  "qrCodeShare": "Podijeli",
+  "qrCodeSaveSuccess": "Spremljeno u album",
+  "qrCodeSaveFailed": "Spremanje nije uspjelo. Pokušajte ponovno.",
+  "qrCodeRefresh": "Osvježi QR kod",
+  "qrCodeExpired": "QR kod je istekao. Osvježite ga.",
+  "qrCodeScanToAdd": "Skenirajte da biste me dodali u kontakte",
+  "spacePersonal": "Osobno",
+  "spaceEnterprise": "Tvrtka",
+  "spaceJoinByCode": "Pridruži se kodom tvrtke",
+  "spaceJoinByInvite": "Pridruži se kodom pozivnice",
+  "spaceEnterCode": "Unesite kod tvrtke",
+  "spaceEnterInviteCode": "Unesite kod pozivnice",
+  "spaceSearchEnterprise": "Pretraži tvrtke",
+  "spaceJoinRequestSent": "Zahtjev je poslan i čeka odobrenje",
+  "spaceJoinRequestPending": "Čeka se odobrenje",
+  "spaceJoinRequestApproved": "Zahtjev je odobren",
+  "spaceJoinRequestRejected": "Zahtjev je odbijen",
+  "spaceAlreadyMember": "Već ste član",
+  "spaceAutoApproved": "Automatski odobreno. Dobro došli!",
+  "spacePendingApprovalHint": "Registracija je uspjela. Vaš zahtjev za pridruživanje je poslan.",
+  "spaceNoSpaces": "Nema prostora",
+  "spaceInviteExpired": "Kod pozivnice je istekao",
+  "spaceInviteTargetMismatch": "Ovaj kod pozivnice nije namijenjen vašem računu",
+  "spaceAcceptInviteSuccess": "Uspješno ste se pridružili tvrtki",
+  "spaceAcceptInviteFailed": "Pridruživanje nije uspjelo. Pokušajte ponovno.",
+  "spaceTenantSelectTitle": "Odaberite prostor",
+  "spaceTenantSelectHint": "Odaberite prostor u koji želite ući",
+  "spaceEnterPersonal": "Uđi u osobni prostor",
+  "spaceEnterEnterprise": "Uđi u prostor tvrtke",
+  "recentContactsTitle": "Nedavno",
+  "recentContactsEmpty": "Nema nedavnih kontakata",
+  "inviteFriendsTitle": "Pozovi prijatelje",
+  "inviteFriendsCopyLink": "Kopiraj poveznicu pozivnice",
+  "inviteFriendsLinkCopied": "Poveznica pozivnice je kopirana",
+  "pendingJoinRequestsTitle": "Novi zahtjevi",
+  "pendingJoinRequestsEmpty": "Nema zahtjeva",
+  "pendingJoinRequestApprove": "Prihvaćam",
+  "pendingJoinRequestReject": "Odbij",
+  "pendingJoinRequestApproveSuccess": "Odobreno",
+  "pendingJoinRequestRejectSuccess": "Odbijeno",
+  "pendingJoinRequestFailed": "Radnja nije uspjela. Pokušajte ponovno.",
+  "groupListTitle": "Grupe",
+  "groupListEmpty": "Nema grupa",
+  "joinCompanyTitle": "Pridruži se tvrtki",
+  "joinCompanyCodeHint": "Unesite kod tvrtke",
+  "joinCompanySearchHint": "Pretraži naziv tvrtke",
+  "joinCompanyApply": "Zatraži pridruživanje",
+  "joinCompanyApplySuccess": "Zahtjev je poslan",
+  "joinCompanyApplyFailed": "Slanje zahtjeva nije uspjelo. Pokušajte ponovno.",
+  "joinCompanyAutoApproved": "Automatski odobreno. Dobro došli!",
+  "joinCompanyPending": "Zahtjev je poslan i čeka odobrenje",
+  "joinCompanyInviteCodeHint": "Unesite kod pozivnice",
+  "joinCompanyAcceptInvite": "Prihvati pozivnicu",
+  "joinCompanyNoResults": "Nema pronađenih tvrtki",
+  "joinCompanyMemberCount": "{count} članova",
+  "approvalEmpty": "Nema zahtjeva",
+  "approvalApprove": "Prihvaćam",
+  "approvalReject": "Odbij",
+  "approvalPending": "Na čekanju",
+  "approvalApproved": "Odobreno",
+  "approvalRejected": "Odbijeno",
+  "approvalExpired": "Istekao",
+  "approvalCancelled": "Otkazano",
+  "approvalReplayFailed": "Izvorna radnja nije uspjela. Pokušajte ponovno.",
+  "requestCancelled": "Zahtjev je otkazan",
+  "enterpriseNoPermission": "Nema dopuštenja",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Postavke podataka tvrtke",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Konfiguracija tvrtke",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Službeni računi",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Upravljanje službenim računima",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Upravljanje članovima",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Pozovi zaposlenike",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Članovi",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Upravljanje obavijestima",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Skupno slanje tvrtke",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Odobrenja",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Odobrenja članstva",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Prenesi vlasništvo",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Nakon prijenosa postajete administrator. Ovu radnju nije moguće poništiti. Odaberite novog vlasnika s popisa članova.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Odaberite novog vlasnika",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Način dodjele agenata",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automatska dodjela",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Određeni agent",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Način odobravanja članstva",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Ručno odobravanje",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automatsko odobravanje",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Način prijateljstva",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Društveni način",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Način izolacije",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Pristup posjetitelja putem widgeta",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Onemogućeno",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Automatski dodjeljuj dostupne agente kružnim redoslijedom",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Dodijeli sve klijente određenom agentu",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Zahtjevi klijenata zahtijevaju odobrenje administratora",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Automatski odobravaj zahtjeve klijenata",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Klijenti mogu dodavati jedni druge u prijatelje",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Klijenti ne mogu dodavati jedni druge u prijatelje",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Član",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Pretraži članove",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Postavi za člana",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Postavi za tehničku podršku",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Postavi za agenta podrške",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Potvrdi prijenos",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Naziv tvrtke je obvezan",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Unesite naziv tvrtke",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Nema opisa",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Logotip tvrtke",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Kreiranje nije uspjelo. Molimo pokušajte ponovno.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Najveći broj korištenja",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Rok važenja",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 sat",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 sata",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 dana",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 dana",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Stvori kod pozivnice",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Kod pozivnice",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Svi",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Zaposlenici",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Pretraži zaposlenike, uloge ili radna mjesta",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Članovi tvrtke",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Nema odgovarajućih članova",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Pregled tvrtke",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Upravljajte",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Dopuštenja uloga",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Primopredaja pri odlasku",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Pretraži zaposlenike",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Zaposlenici tvrtke",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Profil prijatelja",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Glasovni i videopoziv",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Dodaj prijatelja",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Muško",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Žensko",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Nema nepročitanih razgovora",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "T",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Kod pozivnice je kopiran",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Ukloniti „{name}” iz tvrtke?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Prenijeti vlasništvo korisniku „{name}”? Postat ćete administrator. Ovu radnju nije moguće poništiti.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} korištenje} few {{count} korištenja} other {{count} korištenja}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Vrijedi {hours} h · Najviše {count} korištenja",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} nepročitani razgovor} few {{count} nepročitana razgovora} other {{count} nepročitanih razgovora}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} nepročitana poruka} few {{count} nepročitane poruke} other {{count} nepročitanih poruka}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "ID oblačića: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Napusti tvrtku",
+  "enterpriseLoginBeforeSearch": "Prijavite se prije pretraživanja organizacije",
+  "enterpriseSearchFailed": "Pretraživanje nije uspjelo. Pokušajte ponovno.",
+  "enterpriseLoginBeforeJoin": "Prijavite se prije slanja zahtjeva za pridruživanje organizaciji",
+  "enterpriseApplicationPending": "Zahtjev je poslan. Čeka se odobrenje administratora.",
+  "enterpriseLoginBeforeAction": "Prijavite se za nastavak",
+  "enterprisePlatformTagline": "Privatna komunikacija s klijentima za organizacije",
+  "enterpriseLookupHint": "Unesite broj organizacije, alias ili kod pozivnice",
+  "enterpriseLookup": "Pretraži",
+  "enterpriseApplicationNote": "Napomena uz zahtjev (neobvezno)",
+  "enterpriseLookupGuide": "Pretražujte po broju organizacije ili aliasu ili se pridružite kodom pozivnice",
+  "enterpriseRecommendationsLoading": "Učitavanje preporučenih organizacija",
+  "enterpriseRecommendationsFailed": "Preporučene organizacije nisu učitane",
+  "enterpriseReload": "Osvježi",
+  "enterpriseNoRecommendations": "Nema preporuka. Pretražujte po broju organizacije, aliasu ili kodu pozivnice.",
+  "enterpriseRecommended": "Preporučene organizacije",
+  "enterpriseJoined": "Pridruženi",
+  "enterpriseRequestsLoadFailed": "Zahtjevi nisu učitani",
+  "enterpriseCodeMissing": "Broj organizacije nije dostupan",
+  "enterpriseAlias": "Alias organizacije",
+  "enterpriseCodeLabel": "Broj organizacije",
+  "enterprisePrivateAliasHint": "Ova organizacija nije objavila svoje podatke. Vaš zahtjev prepoznat će je prema ovom aliasu.",
+  "enterpriseInvitationMismatch": "Ova pozivnica nije namijenjena vama. Pridruživanje možda neće uspjeti.",
+  "enterpriseTechnicalRole": "Tehnička podrška",
+  "enterpriseJoin": "Pridruži se",
+  "enterpriseCancelApplication": "Poništi",
+  "enterpriseApplication": "Zahtjev organizaciji",
+  "enterpriseAliasValue": "Alias organizacije: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Broj organizacije: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Pridružit ćete se u ulozi {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Ovaj kod pozivnice namijenjen je: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Razlog odbijanja: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organizacija {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "A",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Svi",
+  "enterpriseAudienceAllHint": "Zaposlenici i klijenti",
+  "enterpriseAudienceStaffHint": "Samo zaposlenici organizacije",
+  "enterpriseAudienceCustomers": "Klijenti organizacije",
+  "enterpriseAudienceCustomersHint": "Klijenti koji su se pridružili organizaciji",
+  "enterpriseOfficialGroups": "Službene grupe",
+  "enterpriseAudienceGroupsHint": "Službeni grupni razgovori organizacije",
+  "enterpriseSendNow": "Pošalji sada",
+  "enterpriseSendScheduled": "Zakaži slanje",
+  "enterprisePreviewing": "Pregled je u tijeku",
+  "enterprisePreview": "Pregled",
+  "enterpriseSubmitSend": "Predaj za slanje",
+  "enterpriseBroadcastSubmitted": "Skupno slanje organizacije je predano",
+  "enterpriseScheduledUnavailable": "Zakazano skupno slanje organizacije nije dostupno u ovoj verziji",
+  "enterpriseBroadcastFailed": "Skupno slanje organizacije nije uspjelo. Pokušajte kasnije.",
+  "enterpriseBroadcastGuide": "Skupne poruke šalju se sa službenog računa organizacije, a radnja se bilježi. Rezultati dostave dostupni su nakon predaje.",
+  "enterpriseSenderIdentity": "Identitet pošiljatelja",
+  "enterpriseSenderAfterPreview": "Potvrdi u pregledu",
+  "enterpriseSenderConfirmed": "Potvrđeno",
+  "enterpriseDefaultOfficialSender": "Zadani službeni račun organizacije",
+  "enterpriseOfficialSenderHint": "Primatelji vide identitet službenog računa organizacije",
+  "enterpriseMessageContent": "Sadržaj poruke",
+  "enterpriseBroadcastContentHint": "Unesite skupnu poruku za slanje sa službenog računa",
+  "enterpriseInternalNoteHint": "Interna napomena za reviziju i praćenje (neobvezno)",
+  "enterpriseSendPreview": "Pregled slanja",
+  "enterpriseExpectedRecipients": "Procijenjeni primatelji",
+  "enterpriseDeliveryMethod": "Način dostave",
+  "enterpriseTaskStatus": "Status zadatka",
+  "enterpriseNoBroadcastHistory": "Još nema skupnih poruka organizacije",
+  "enterpriseHistoryUnavailable": "Trenutačno nije dostupno",
+  "enterpriseBroadcastDenied": "Nema dopuštenja za skupno slanje organizacije",
+  "enterpriseBroadcastRoleHint": "Skupno slanje organizacije dostupno je samo administratorima i vlasnicima.",
+  "enterpriseDefaultApplicationMessage": "Želim se pridružiti vašoj organizaciji"
+}

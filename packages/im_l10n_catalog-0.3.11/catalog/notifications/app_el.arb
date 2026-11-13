@@ -1,0 +1,53 @@
+{
+  "@@locale": "el",
+  "notificationTitle": "Ειδοποιήσεις",
+  "notificationGlobalMute": "Μην ενοχλείτε",
+  "notificationSound": "Ήχος",
+  "notificationVibration": "Δόνηση",
+  "notificationPreview": "Προεπισκόπηση μηνυμάτων",
+  "notificationDndStart": "Έναρξη λειτουργίας Μην ενοχλείτε",
+  "notificationDndEnd": "Λήξη λειτουργίας Μην ενοχλείτε",
+  "notificationNewMessageTitle": "Νέο μήνυμα StartLink",
+  "notificationOnlineServiceTitle": "Νέο μήνυμα εξυπηρέτησης πελατών",
+  "notificationNewMessageBody": "Λάβατε νέο μήνυμα",
+  "notificationImagePreview": "Έστειλε εικόνα",
+  "notificationVideoPreview": "Έστειλε βίντεο",
+  "notificationVoicePreview": "Έστειλε φωνητικό μήνυμα",
+  "notificationFilePreview": "Έστειλε αρχείο",
+  "notificationContactPreview": "Έστειλε κάρτα επαφής",
+  "notificationCallLogPreview": "Έστειλε εγγραφή κλήσης",
+  "notificationLocationPreview": "Κοινοποίησε τοποθεσία",
+  "notificationLinkPreview": "Κοινοποίησε σύνδεσμο",
+  "notificationMentionMe": "Σας ανέφερε: {body}",
+  "notificationMentionMeBy": "Ο/Η {sender} σας ανέφερε: {body}",
+  "notificationMentionAll": "Ανέφερε όλους: {body}",
+  "notificationMentionAllBy": "Ο/Η {sender} ανέφερε όλους: {body}",
+  "notificationSecurityTitle": "Ειδοποίηση ασφάλειας λογαριασμού",
+  "notificationSecurityBody": "Οι ρυθμίσεις ασφάλειας του λογαριασμού StartLink άλλαξαν. Ελέγξτε τις τώρα.",
+  "notificationFriendAcceptedTitle": "Το αίτημα φιλίας έγινε δεκτό",
+  "notificationFriendRejectedTitle": "Το αίτημα φιλίας απορρίφθηκε",
+  "notificationFriendAcceptedBody": "Ο συνομιλητής αποδέχτηκε το αίτημα φιλίας σας",
+  "notificationFriendRejectedBody": "Ο συνομιλητής απέρριψε το αίτημα φιλίας σας",
+  "notificationVideoCallTitle": "Πρόσκληση βιντεοκλήσης",
+  "notificationAudioCallTitle": "Πρόσκληση φωνητικής κλήσης",
+  "notificationVideoCallBody": "Ο/Η {caller} σας προσκάλεσε σε βιντεοκλήση",
+  "notificationAudioCallBody": "Ο/Η {caller} σας προσκάλεσε σε φωνητική κλήση",
+  "notificationMessageChannelName": "Μηνύματα",
+  "notificationMessageChannelDescription": "Μηνύματα συνομιλιών, εγγραφές κλήσεων και ειδοποιήσεις συστήματος",
+  "notificationCallChannelName": "Κλήσεις",
+  "notificationCallChannelDescription": "Ειδοποιήσεις φωνητικών κλήσεων και βιντεοκλήσεων",
+  "notificationSecurityChannelName": "Ασφάλεια λογαριασμού",
+  "notificationSecurityChannelDescription": "Ειδοποιήσεις σύνδεσης και αλλαγής κωδικού ή αριθμού κινητού",
+  "notificationUnknownCaller": "Άγνωστος καλών",
+  "notificationBadgeChannelName": "Σήματα μηνυμάτων",
+  "notificationBadgeChannelDescription": "Πλήθος μη αναγνωσμένων μηνυμάτων στο εικονίδιο εφαρμογής",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} μη αναγνωσμένο μήνυμα} other {{count} μη αναγνωσμένα μηνύματα}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ μη αναγνωσμένα μηνύματα"
+}

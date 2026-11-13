@@ -1,0 +1,781 @@
+{
+  "action": {
+    "check": "Check",
+    "clean": "Clean",
+    "processing": "Processing"
+  },
+  "chatArchive": {
+    "aria": "Chat archive management",
+    "backup": "Back up",
+    "backingUp": "Backing up",
+    "backupSuccessNotice": "Chat archive backup saved",
+    "backupSuccessState": "Backed up {conversations} conversations and {messages} messages{partial}.",
+    "cancelledNotice": "Chat archive file save cancelled",
+    "cancelledState": "Chat archive file save cancelled.",
+    "error": {
+      "desktopApiUnavailable": "Use the PC desktop client to export, back up, or restore chat history.",
+      "loginExpired": "Sign-in state expired. Sign in again.",
+      "messageApiUnavailable": "Conversation message API is unavailable. Chat history was not exported.",
+      "noExportableMessages": "No exportable chat history.",
+      "restoreInvalid": "Backup file cannot be restored"
+    },
+    "export": "Export",
+    "exporting": "Exporting",
+    "exportSuccessNotice": "Chat history exported",
+    "exportSuccessState": "Exported {conversations} conversations and {messages} messages{partial}.",
+    "initialState": "Local archives are not synced to the cloud and do not write server messages.",
+    "partialFailed": ", {count} conversations were not exported because the API failed",
+    "restore": "Import",
+    "restoring": "Importing",
+    "restoreSuccessNotice": "Chat archive backup imported to local archive",
+    "restoreSuccessState": "Local backup archive imported. Real conversation list and unread state were not changed."
+  },
+  "currentStatus": "Current settings status",
+  "diagnosticsRecords": {
+    "aria": "Diagnostics records",
+    "browserDebug": "Browser debug",
+    "copyTraceAria": "Copy recent traceId",
+    "countItems": "{count} records",
+    "currentProfile": "Current profile",
+    "emptyLog": "No {filter} diagnostics records. Redacted log lines will appear here after API errors, message path issues, or settings writes.",
+    "emptySummary": "No local diagnostics records yet. You can still export a diagnostics package for engineering.",
+    "exportPackage": "Export diagnostics package",
+    "failedCount": "{count} failed",
+    "failedRecords": "Failed records",
+    "filter": {
+      "api-error": "API errors",
+      "api-traffic": "API requests",
+      "all": "All",
+      "cs-routing": "Customer service routing",
+      "gateway": "Gateway",
+      "message": "Message path",
+      "runtime": "Runtime",
+      "settings": "Settings"
+    },
+    "latestError": "Latest error",
+    "logTitle": "{filter} logs",
+    "moduleFilterAria": "Diagnostics module filter",
+    "recentCount": "{count} recent records",
+    "recentRecords": "Recent records",
+    "recordCount": "{filter} records",
+    "sourceNote": "Settings summarizes renderer memory diagnostics by problem area and shows redacted log lines. Persistent records in the diagnostics package continue to be split into jsonl files for engineering.",
+    "summary": "{total} recent diagnostics records collected, {failed} need attention.",
+    "title": "Recent diagnostics records",
+    "traceCopied": "traceId copied",
+    "traceCopyFailed": "Unable to copy traceId. Select it manually.",
+    "waitingRecords": "Waiting for records"
+  },
+  "group": {
+    "appearance": "Appearance",
+    "chat": "Chat",
+    "desktop": "Desktop",
+    "input": "Input",
+    "languageTime": "Language and time",
+    "notifications": "Notifications",
+    "systemPermissions": "System permissions",
+    "translation": "Translation"
+  },
+  "heroSubtitle": "Manage the PC customer service workspace by clear domains. Shared chat, notification, and appearance capabilities live in common settings.",
+  "navAria": "Settings groups",
+  "navSubtitle": "Organize settings by account, enterprise, messages, privacy, customer service, network, common, diagnostics, and about.",
+  "network": {
+    "autoReconnectOn": "Enabled. APIs and realtime messages reconnect automatically after the network recovers.",
+    "off": "Disabled.",
+    "weakNetworkOff": "No weak-network clues recorded.",
+    "weakNetworkOn": "Weak-network clues are recorded and can be exported with diagnostics."
+  },
+  "chatBackground": {
+    "aria": "Chat background",
+    "chooseImage": "Choose image",
+    "current": "Current: {name}",
+    "customImage": "Local image: {name}",
+    "desc": "Set the chat window background.",
+    "imageActive": "Chat background image applied",
+    "imageLoadFailed": "Unable to read this image. Choose another one.",
+    "imageTooLarge": "Choose a PNG, JPG, WebP, or GIF image under 3.5 MB.",
+    "preset": {
+      "beige": "Warm beige texture",
+      "default": "WeChat light gray",
+      "light-blue": "After-rain blue",
+      "light-gray": "Matte gray",
+      "light-green": "Bamboo green",
+      "light-pink": "Light cherry",
+      "light-purple": "Light wisteria",
+      "white": "Rice paper white"
+    },
+    "removeImage": "Remove image",
+    "title": "Chat background"
+  },
+  "connectivityHealth": {
+    "aria": "Connectivity health",
+    "item": {
+      "api-base": {
+        "desc": "Shows the current request base URL. Recent API errors are marked as needing attention.",
+        "label": "Current API"
+      },
+      "api-health": {
+        "desc": "When the server provides lightweight health, this shows API status, version, and dependency summaries.",
+        "label": "API health endpoint"
+      },
+      "cs-health": {
+        "desc": "When customer service health is available, this shows reception, queue, and assignment status.",
+        "label": "Customer service queue endpoint"
+      },
+      "customer-service-routing": {
+        "desc": "Reads online customer service state and cache diagnostics to help locate reception, queue, and assignment issues.",
+        "label": "Customer service routing"
+      },
+      "fixture-health": {
+        "desc": "Connected only in development or test environments to verify customer service fixture APIs.",
+        "label": "Customer service fixture"
+      },
+      "gateway-health": {
+        "desc": "When realtime health is available, this shows connection, negotiation, and subscription status.",
+        "label": "Gateway health endpoint"
+      },
+      "gateway-runtime": {
+        "desc": "Reads existing Gateway connection diagnostics without opening a synthetic long connection.",
+        "label": "Realtime connection"
+      },
+      "media-health": {
+        "desc": "When media health is available, this shows upload, download, and authorization status.",
+        "label": "Media upload/download endpoint"
+      },
+      "media-recent-errors": {
+        "desc": "Shows only recent media upload, download, or cache errors. No sample is not shown as success.",
+        "label": "Media path"
+      },
+      "site-lines": {
+        "desc": "Reuses line configuration and latency-test capability without sending token or Cookie.",
+        "label": "Line configuration"
+      }
+    },
+    "needsAttention": "Needs attention",
+    "noSyntheticConnection": "No synthetic connection",
+    "observable": "Observable",
+    "pendingOrNoSample": "Pending/no sample",
+    "phaseOne": "Existing signals",
+    "phaseTwo": "Requires server support",
+    "recentRecord": "Recent record {time}",
+    "requiresServerHealth": "Waiting for server health",
+    "siteLineValue": "{site} / {count} lines",
+    "status": {
+      "failed": "Needs attention",
+      "noBaseUrl": "No API base URL",
+      "noLines": "No lines",
+      "no-sample": "No sample",
+      "observable": "Observable",
+      "pending": "Pending"
+    },
+    "summaryNoFailures": "No failed samples right now. {pending} items are pending or have no sample.",
+    "summaryWithFailures": "{failed} items need attention. {pending} items are pending or have no sample.",
+    "title": "Connectivity health"
+  },
+  "networkLine": {
+    "activeLine": "Current line",
+    "aria": "Network lines",
+    "available": "Config reachable",
+    "configRefreshed": "Line configuration refreshed",
+    "currentSite": "Current site",
+    "latency": {
+      "ms": "{value} ms",
+      "testing": "Testing",
+      "unavailable": "Unavailable",
+      "untested": "Not tested"
+    },
+    "localChecked": "Local line configuration checked",
+    "latencyTest": "Line latency test",
+    "note": "{activeLine} switches the current PC API and realtime base URL. {latencyTest} requests only the line configuration URL and does not send token, Authorization, or Cookie.",
+    "refresh": "Refresh sites",
+    "refreshing": "Refreshing",
+    "refreshFailed": "Failed to refresh line configuration. Try again later.",
+    "switchableSites": "Switchable sites",
+    "switchableSummary": "{count} lines. S3 is only a fallback configuration source and is not shown in the line list.",
+    "switchFailed": "The line switch was not applied. Try again later.",
+    "switchUnavailable": "Line unavailable. The current line was kept.",
+    "switched": "Switched to {name}",
+    "testAll": "Test all",
+    "testCompleted": "Line latency test completed",
+    "testing": "Testing",
+    "testNamed": "Test {name}",
+    "unavailable": "Config unreachable",
+    "unverified": "Not verified"
+  },
+  "notificationSettings": {
+    "friendRequestDesc": "New friend requests follow the IM message reminder policy. Current: {state}",
+    "loadFailed": "Failed to load reminder settings: {error}. Current controls are saved locally first and can sync again after the API recovers.",
+    "loading": "Reading account reminder settings...",
+    "off": "Off",
+    "on": "On",
+    "saved": "Reminder settings saved",
+    "saveFailed": "Failed to save reminder settings: {error}"
+  },
+  "notice": {
+    "autoSave": "Setting changes are saved automatically",
+    "chatCacheCleared": "Chat cache cleared",
+    "diagnosticsExportCancelled": "Diagnostics export cancelled",
+    "diagnosticsExported": "Diagnostics package exported",
+    "localDataCleaned": "Cleared {count} local indexed messages",
+    "localDataCleanFailed": "Failed to clear local message index: {error}",
+    "localDataRepairDone": "Local store check finished: DB {status}, stale media {stale}",
+    "localDataRepairFailed": "Failed to check local store: {error}",
+    "localMediaCleaned": "Cleared {size} of local media cache",
+    "localMediaCleanFailed": "Failed to clear local media cache: {error}",
+    "saved": "Saved"
+  },
+  "localDataStorage": {
+    "cleanupConfirm": "Clear the local indexed message store for this device? Cloud messages are not deleted, but local history search and offline first paint will resync from the server.",
+    "cleanupDesc": "Clear this account scope local message index while keeping cloud messages.",
+    "cleanupTitle": "Clear local message index",
+    "loading": "Reading local message store...",
+    "mediaCleanupDesc": "Clear local image, video and file cache without deleting cloud messages.",
+    "mediaCleanupTitle": "Clear local media cache",
+    "repairDesc": "Check the DB, rebuild the search index, and mark missing local media files.",
+    "repairTitle": "Check and repair local store",
+    "stats": "{messages} local messages, {media} media items, {outbox} outbox items, {size}",
+    "title": "Local Message Store",
+    "unavailable": "Local message store stats are not available in this client"
+  },
+  "option": {
+    "apiLog": {
+      "body": "Full redacted",
+      "errors": "Errors only",
+      "off": "Off",
+      "summary": "All summaries"
+    },
+    "disabled": "Disabled",
+    "fontSize": {
+      "extraLarge": "Extra large",
+      "large": "Large",
+      "small": "Small",
+      "standard": "Standard"
+    },
+    "skin": {
+      "blue": "Business blue",
+      "graphite": "Graphite gray",
+      "jade": "Jade green"
+    },
+    "theme": {
+      "business": "Professional business",
+      "classicWechat": "Classic WeChat",
+      "dark": "Dark",
+      "highContrast": "High contrast",
+      "porcelain": "Porcelain"
+    }
+  },
+  "desktop": {
+    "browserUnavailable": "Browser debug unavailable",
+    "macCloseBehavior": "On macOS, closing the window keeps StartLink online. Use Cmd+Q to quit.",
+    "launchDisabled": "Launch at startup disabled",
+    "launchEnabled": "Launch at startup enabled",
+    "launchFailed": "Failed to set launch at startup: {error}",
+    "launchUnsupported": "The current browser debug environment does not support launch at startup",
+    "statusReadFailed": "Failed to read status",
+    "statusSyncFailed": "Failed to sync status",
+    "trayDisabled": "Minimize to tray disabled",
+    "trayEnabled": "Minimize to tray enabled",
+    "trayFailed": "Failed to set minimize to tray: {error}",
+    "trayUnsupported": "The current browser debug environment does not support minimize to tray"
+  },
+  "systemPermissions": {
+    "camera": {
+      "desc": "Used only when you start or answer a video call.",
+      "label": "Camera"
+    },
+    "firstLaunch": {
+      "allow": "Enable notifications",
+      "description": "While StartLink is running in the background, system notifications can alert you to new messages, service tasks, and security events.",
+      "eyebrow": "First launch setup",
+      "failed": "Unable to request notification access. Try again later from System permissions in Settings.",
+      "hint": "Continuing sends a test notification and opens macOS notification settings for confirmation.",
+      "later": "Not now",
+      "requesting": "Opening…",
+      "title": "Stay on top of important updates",
+      "unavailable": "System notifications are unavailable in this environment. Check again later in Settings."
+    },
+    "loginItems": {
+      "desc": "Review StartLink in macOS Login Items after enabling launch at startup.",
+      "label": "Login Items settings"
+    },
+    "microphone": {
+      "desc": "Used only when you start or answer a voice or video call.",
+      "label": "Microphone"
+    },
+    "notifications": {
+      "desc": "Send a clearly labelled test notification; final verification requires a signed build.",
+      "label": "Notification Center"
+    },
+    "openSettings": "Open settings",
+    "readFailed": "Unable to read system permission status. Try again after returning to StartLink.",
+    "refresh": "Refresh",
+    "request": "Request",
+    "requestBlocked": "Permission was not granted. Open System Settings, allow StartLink, then retry the feature.",
+    "requestFailed": "Unable to request this permission. Open System Settings and try again.",
+    "requestGranted": "Permission granted.",
+    "notificationSettingsOpened": "Test notification sent and System Settings opened. Enable StartLink there, then verify delivery and click-to-wake with the signed build.",
+    "screen": {
+      "desc": "Requested only when you actively take a screenshot; desktop audio is not captured.",
+      "label": "Screen Recording"
+    },
+    "settingsOpened": "System Settings opened. Return to StartLink and retry after changing the permission.",
+    "status": {
+      "denied": "Denied",
+      "granted": "Allowed",
+      "not-determined": "Not requested",
+      "restricted": "Restricted",
+      "unknown": "To verify",
+      "unsupported": "Unsupported"
+    }
+  },
+  "development": {
+    "apiUrl": "API URL",
+    "browserDebug": "Browser debug",
+    "currentEnvironment": "Current environment",
+    "defaultEnvironment": "Default test environment from current code",
+    "devRuntime": "Development / test runtime",
+    "environmentMasked": "Current connection environment (sensitive information hidden)",
+    "environmentOrigin": "{origin} (token, Authorization, and Cookie hidden)",
+    "loadingProfile": "Reading current window profile...",
+    "recentDiagnostics": "Recent diagnostics",
+    "recentDiagnosticsCount": "{count} records, export a diagnostics package for engineering.",
+    "realtime": "Realtime connection",
+    "realtimeHint": "Diagnostics packages collect WebSocket and message gateway status.",
+    "redactedHint": "Diagnostics are redacted by default and do not show passwords, tokens, Authorization, Cookie, or full mobile numbers.",
+    "testConnection": "Test connection or internal switch",
+    "title": "Development diagnostics",
+    "unknownVersion": "Unknown version",
+    "version": "Version",
+    "visibleHint": "Visible only in development / test environments"
+  },
+  "enterprise": {
+    "current": "Current enterprise",
+    "identity": "{name} / enterprise code {code} / {role}"
+  },
+  "planning": {
+    "aria": "Planned capabilities",
+    "defaultDependency": "Requires product, API, or desktop foundation work.",
+    "defaultNext": "Integrate after dependencies are split.",
+    "defaultValue": "Complete PC customer service client settings capability.",
+    "dependency": "Dependency",
+    "next": "Next step",
+    "planned": "Planned",
+    "subtitle": "These capabilities have clear product positions and integration conditions, so they are not shown as active switches yet.",
+    "title": "Planned capabilities",
+    "value": "Value"
+  },
+  "capability": {
+    "missingBackendApi": "Missing API",
+    "missingDesktopApi": "Missing desktop capability",
+    "missingRuntimeWiring": "Flow not wired"
+  },
+  "rowEffect": {
+    "account": "Saved with the account and applied immediately by this PC client.",
+    "enterprise": "Comes from the current enterprise and is shown as available state only.",
+    "local": "The result is stored only in this PC client.",
+    "localEffective": "This setting only affects the current PC client.",
+    "missingBackendApi": "Requires account or enterprise APIs before a real setting entry can be provided.",
+    "missingDesktopApi": "Requires desktop client capability before it can be enabled.",
+    "missingRuntimeWiring": "Requires the full client flow to be wired before it can be enabled.",
+    "recordOnly": "This item only shows current state and does not provide a setting entry.",
+    "system": "Only takes effect in the desktop client. Browser debug is unavailable."
+  },
+  "row": {
+    "profile": {
+      "label": "Profile",
+      "desc": "Configure Profile."
+    },
+    "enterpriseIdentity": {
+      "label": "Enterprise Identity",
+      "desc": "Configure Enterprise Identity."
+    },
+    "changePassword": {
+      "label": "Change Password",
+      "desc": "Configure Change Password."
+    },
+    "loginDevices": {
+      "label": "Login Devices",
+      "desc": "Configure Login Devices."
+    },
+    "logoutAccount": {
+      "label": "Logout Account",
+      "desc": "Configure Logout Account."
+    },
+    "deactivateAccount": {
+      "label": "Deactivate Account",
+      "desc": "Configure Deactivate Account."
+    },
+    "allowMobileSearch": {
+      "label": "Allow Mobile Search",
+      "desc": "Configure Allow Mobile Search."
+    },
+    "allowLppSearch": {
+      "label": "Allow Lpp Search",
+      "desc": "Configure Allow Lpp Search."
+    },
+    "friendRequestVerification": {
+      "label": "Friend Request Verification",
+      "desc": "Configure Friend Request Verification."
+    },
+    "profileVisibility": {
+      "label": "Profile Visibility",
+      "desc": "Configure Profile Visibility."
+    },
+    "blocklist": {
+      "label": "Blocklist",
+      "desc": "Configure Blocklist."
+    },
+    "imNotifications": {
+      "label": "Im Notifications",
+      "desc": "Configure Im Notifications."
+    },
+    "friendRequestNotifications": {
+      "label": "Friend Request Notifications",
+      "desc": "Configure Friend Request Notifications."
+    },
+    "serviceQueueNotifications": {
+      "label": "Service Queue Notifications",
+      "desc": "Configure Service Queue Notifications."
+    },
+    "customerServiceMessageNotifications": {
+      "label": "Customer Service Message Notifications",
+      "desc": "Configure Customer Service Message Notifications."
+    },
+    "foregroundInAppCustomerServiceReminders": {
+      "label": "Foreground In App Customer Service Reminders",
+      "desc": "Configure Foreground In App Customer Service Reminders."
+    },
+    "slaTimeoutNotifications": {
+      "label": "Sla Timeout Notifications",
+      "desc": "Configure Sla Timeout Notifications."
+    },
+    "desktopNotifications": {
+      "label": "Desktop Notifications",
+      "desc": "Configure Desktop Notifications."
+    },
+    "notificationPreview": {
+      "label": "Notification Preview",
+      "desc": "Configure Notification Preview."
+    },
+    "notificationSound": {
+      "label": "Notification Sound",
+      "desc": "Configure Notification Sound."
+    },
+    "doNotDisturb": {
+      "label": "Do Not Disturb",
+      "desc": "Pause IM, service queue, and SLA alerts. Calls and account security alerts remain on."
+    },
+    "enterToSend": {
+      "label": "Enter To Send",
+      "desc": "Configure Enter To Send."
+    },
+    "screenshotShortcut": {
+      "label": "Screenshot Shortcut",
+      "desc": "Configure Screenshot Shortcut."
+    },
+    "dragUpload": {
+      "label": "Drag Upload",
+      "desc": "Configure Drag Upload."
+    },
+    "autoTranslate": {
+      "label": "Auto Translate",
+      "desc": "Automatically translate peer text only while it is visible in the chat viewport."
+    },
+    "autoTranslateTargetLanguage": {
+      "label": "Translation Target Language",
+      "desc": "Auto translation always uses this language independently of the interface language."
+    },
+    "shortcutHints": {
+      "label": "Shortcut Hints",
+      "desc": "Configure Shortcut Hints."
+    },
+    "chatBackground": {
+      "label": "Chat Background",
+      "desc": "Configure Chat Background."
+    },
+    "chatExport": {
+      "label": "Chat Export",
+      "desc": "Configure Chat Export."
+    },
+    "chatBackup": {
+      "label": "Chat Backup",
+      "desc": "Configure Chat Backup."
+    },
+    "chatRestore": {
+      "label": "Chat Restore",
+      "desc": "Configure Chat Restore."
+    },
+    "theme": {
+      "label": "Theme",
+      "desc": "Configure Theme."
+    },
+    "skin": {
+      "label": "Skin",
+      "desc": "Configure Skin."
+    },
+    "fontSize": {
+      "label": "Font Size",
+      "desc": "Configure Font Size."
+    },
+    "compactList": {
+      "label": "Compact List",
+      "desc": "Configure Compact List."
+    },
+    "highDensityContext": {
+      "label": "High Density Context",
+      "desc": "Configure High Density Context."
+    },
+    "reduceMotion": {
+      "label": "Reduce Motion",
+      "desc": "Configure Reduce Motion."
+    },
+    "highContrastBoundary": {
+      "label": "High Contrast Boundary",
+      "desc": "Configure High Contrast Boundary."
+    },
+    "keyboardFocusHint": {
+      "label": "Keyboard Focus Hint",
+      "desc": "Configure Keyboard Focus Hint."
+    },
+    "minimizeToTray": {
+      "label": "Minimize To Tray",
+      "desc": "Configure Minimize To Tray."
+    },
+    "launchAtStartup": {
+      "label": "Launch At Startup",
+      "desc": "Configure Launch At Startup."
+    },
+    "multiProfileIndicator": {
+      "label": "Multi Profile Indicator",
+      "desc": "Configure Multi Profile Indicator."
+    },
+    "language": {
+      "label": "Language",
+      "desc": "Configure Language."
+    },
+    "timezone": {
+      "label": "Timezone",
+      "desc": "Configure Timezone."
+    },
+    "currentEnvironment": {
+      "label": "Current Environment",
+      "desc": "Configure Current Environment."
+    },
+    "activeLine": {
+      "label": "Active Line",
+      "desc": "Configure Active Line."
+    },
+    "lineLatencyTest": {
+      "label": "Line Latency Test",
+      "desc": "Configure Line Latency Test."
+    },
+    "autoReconnect": {
+      "label": "Auto Reconnect",
+      "desc": "Configure Auto Reconnect."
+    },
+    "weakNetworkDiagnostics": {
+      "label": "Weak Network Diagnostics",
+      "desc": "Configure Weak Network Diagnostics."
+    },
+    "clearLocalCache": {
+      "label": "Clear Local Cache",
+      "desc": "Configure Clear Local Cache."
+    },
+    "diagnosticsExport": {
+      "label": "Diagnostics Export",
+      "desc": "Configure Diagnostics Export."
+    },
+    "apiTrafficLogLevel": {
+      "label": "Api Traffic Log Level",
+      "desc": "Configure Api Traffic Log Level."
+    },
+    "diagnosticsRecentRecords": {
+      "label": "Diagnostics Recent Records",
+      "desc": "Configure Diagnostics Recent Records."
+    },
+    "connectivityHealth": {
+      "label": "Connectivity Health",
+      "desc": "Configure Connectivity Health."
+    },
+    "developmentDiagnostics": {
+      "label": "Development Diagnostics",
+      "desc": "Configure Development Diagnostics."
+    },
+    "runtimeStatus": {
+      "label": "Runtime Status",
+      "desc": "Configure Runtime Status."
+    },
+    "feedback": {
+      "label": "Feedback",
+      "desc": "Configure Feedback."
+    },
+    "terms": {
+      "label": "Terms",
+      "desc": "Configure Terms."
+    },
+    "privacyPolicy": {
+      "label": "Privacy Policy",
+      "desc": "Configure Privacy Policy."
+    },
+    "aboutClient": {
+      "label": "About Client",
+      "desc": "Configure About Client."
+    },
+    "autoCheckUpdates": {
+      "label": "Auto-check updates",
+      "desc": "When enabled, the client checks once after startup. It only prompts and never downloads or installs automatically."
+    },
+    "updateChannel": {
+      "label": "Update Channel",
+      "desc": "Stable is the default channel. Beta is reserved for staged and test releases."
+    },
+    "updateDownloadStrategy": {
+      "label": "Download Strategy",
+      "desc": "Prefer differential updates and fall back to a full download."
+    },
+    "checkUpdate": {
+      "label": "Check Update",
+      "desc": "Configure Check Update."
+    }
+  },
+  "runtimeStatus": {
+    "aria": "Runtime status",
+    "channel": {
+      "gateway": "Realtime gateway",
+      "httpQuery": "Active query",
+      "send": "Send path"
+    },
+    "empty": "No samples",
+    "emptyDesc": "No message latency samples yet. Sending or receiving messages will show samples automatically.",
+    "latestStage": "{channel}, latest stage: {stage}",
+    "localOnly": "Only locally observable stages are shown",
+    "milliseconds": "{value} ms",
+    "metric": {
+      "gatewayToCache": "Gateway to cache",
+      "gatewayToUi": "Gateway to window",
+      "sendHttp": "Send request",
+      "sendToAck": "Submit to ack",
+      "serverToGateway": "Server to gateway"
+    },
+    "owner": {
+      "customerService": "Customer service",
+      "im": "IM"
+    },
+    "recentLatency": "Recent message latency",
+    "realtime": "Live samples",
+    "seconds": "{value} sec",
+    "stage": {
+      "query_message_discovered": "Discovered by active query",
+      "receive_cache_written": "Written to local cache",
+      "receive_gateway_observed": "Received by gateway",
+      "receive_paint_observed": "Window paint completed",
+      "receive_ui_observed": "Window state received",
+      "send_compose_submit": "Send submitted",
+      "send_http_done": "Send request completed",
+      "send_http_failed": "Send failed",
+      "send_http_start": "Send request started",
+      "send_local_echo_written": "Local echo written",
+      "send_server_ack_observed": "Server ack observed"
+    },
+    "summary": {
+      "queryDiscovered": "The latest message was discovered by active query.",
+      "recorded": "Recent message runtime trace recorded.",
+      "sendHttp": "Latest send request took {duration}.",
+      "serverToGateway": "Latest realtime message from server time to local receipt took {duration}."
+    },
+    "traceTitle": "{owner} message {id}",
+    "waiting": "Waiting for samples"
+  },
+  "profile": {
+    "avatar": "Profile avatar",
+    "avatarCancelled": "Avatar change cancelled",
+    "avatarFormat": "JPG, PNG, WebP, max 5 MB",
+    "avatarSelected": "Avatar selected. Save to apply it.",
+    "avatarSyncHint": "The current avatar syncs to conversations, contacts, and the sidebar.",
+    "avatarTooLarge": "Avatar image cannot exceed 5 MB",
+    "avatarUpdateFailed": "Failed to update avatar: {error}",
+    "avatarUpdated": "Avatar updated",
+    "chooseImage": "Choose image",
+    "createdAt": "Created at",
+    "displayName": "Nickname",
+    "displayNamePlaceholder": "Enter nickname",
+    "email": "Email",
+    "error": {
+      "avatarNoUrl": "Avatar uploaded, but the server did not return an image URL",
+      "avatarProfileNoUrl": "Avatar uploaded, but the server profile did not return an avatar URL",
+      "avatarProfileUnchanged": "Avatar uploaded, but the server profile did not save the new avatar",
+      "emptyDisplayName": "Nickname cannot be empty",
+      "signatureEnChinese": "Chữ ký tiếng Anh không được chứa ký tự tiếng Trung."
+    },
+    "info": "Profile info",
+    "infoHint": "Nickname and signature sync to your profile card",
+    "loadFailed": "Failed to load profile: {error}",
+    "loading": "Loading profile...",
+    "loginExpiredAvatar": "Sign-in state expired. Sign in again before setting avatar.",
+    "loginName": "Login name",
+    "lppId": "{publicIdLabel}",
+    "member": "Member",
+    "mobile": "Mobile",
+    "reverted": "Profile edits reverted",
+    "revert": "Revert",
+    "role": "Role",
+    "saveAvatar": "Save avatar",
+    "saveFailed": "Failed to save profile: {error}",
+    "saveProfile": "Save profile",
+    "saved": "Profile saved",
+    "selectImageFile": "Choose an image file as the avatar",
+    "signature": "Signature",
+    "signaturePlaceholder": "Add a work status or personal signature",
+    "userId": "User ID",
+    "signatureEn": "Chữ ký tiếng Anh",
+    "signatureEnPlaceholder": "Để trống để hệ thống tự động dịch."
+  },
+  "section": {
+    "about": {
+      "desc": "Version, help, agreements, and diagnostics.",
+      "title": "About"
+    },
+    "account": {
+      "desc": "Avatar, profile, login security, and account status.",
+      "title": "Account"
+    },
+    "common": {
+      "desc": "Notifications, input, chat, appearance, desktop, language, and time.",
+      "title": "Common"
+    },
+    "customerService": {
+      "desc": "Service reminders, customer context, and reception experience.",
+      "title": "Customer service"
+    },
+    "enterprise": {
+      "desc": "Current enterprise, space identity, and organization info.",
+      "title": "Enterprise"
+    },
+    "messages": {
+      "desc": "IM message reminders, input, and conversation experience.",
+      "title": "Messages"
+    },
+    "network": {
+      "desc": "Lines, connection, reconnect, and weak-network diagnostics.",
+      "title": "Network"
+    },
+    "privacy": {
+      "desc": "Search permissions, friend verification, profile visibility, and blocklist.",
+      "title": "Privacy"
+    },
+    "storageDiagnostics": {
+      "desc": "Cache, diagnostics, health checks, and redacted logs.",
+      "title": "Diagnostics"
+    }
+  },
+  "state": {
+    "autoTranslate": "Conversation-level buttons can be set to follow, on, or off."
+  },
+  "status": {
+    "common": "Common settings are grouped by notifications, input, chat, appearance, desktop, language, and time.",
+    "customerService": "Service reminders and customer context settings support the current reception workspace.",
+    "default": "Settings are saved automatically on this page and show the latest state.",
+    "notLoggedIn": "Sign-in state is not restored. Account settings will load after signing in again.",
+    "storageDiagnostics": "Diagnostics and health information only show redacted local observability state."
+  },
+  "title": "Settings center"
+}

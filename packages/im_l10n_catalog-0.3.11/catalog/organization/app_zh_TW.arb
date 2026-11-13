@@ -1,0 +1,626 @@
+{
+  "@@locale": "zh_TW",
+  "enterpriseInfoTitle": "企業資訊",
+  "enterpriseName": "企業名稱",
+  "enterpriseDescription": "企業簡介",
+  "enterpriseUpdateSuccess": "更新成功",
+  "enterpriseUpdateFailed": "更新失敗，請重試",
+  "enterpriseLeave": "退出企業",
+  "enterpriseLeaveConfirm": "確定要退出該企業嗎？",
+  "enterpriseLeaveSuccess": "已退出企業",
+  "enterpriseLeaveFailed": "退出失敗，請重試",
+  "enterpriseLeaveOwnerError": "所有者不能直接退出，請先轉讓所有者權限",
+  "enterpriseMemberCount": "成員數",
+  "enterpriseCreatedAt": "建立時間",
+  "enterpriseCode": "企業碼",
+  "enterpriseInviteMembers": "邀請成員",
+  "enterpriseCopyInviteCode": "複製邀請碼",
+  "enterpriseInviteCodeCopied": "邀請碼已複製",
+  "groupCreateTitle": "發起群組",
+  "groupNameHint": "請輸入群組名稱",
+  "groupCreateSuccess": "群組建立成功",
+  "groupCreateFailed": "群組建立失敗",
+  "groupSettings": "群組設定",
+  "groupName": "群組名稱",
+  "groupAvatar": "群組頭像",
+  "groupAnnouncement": "群組公告",
+  "groupMembers": "群組成員",
+  "groupAddMember": "新增成員",
+  "groupRemoveMember": "移除成員",
+  "groupRemoveMemberConfirm": "確定要移除該成員嗎？",
+  "groupSetAdmin": "設為管理員",
+  "groupRemoveAdmin": "取消管理員",
+  "groupTransferOwner": "轉讓群主",
+  "groupTransferOwnerConfirm": "確定要將群主轉讓給該成員嗎？",
+  "groupTransferOwnerSuccess": "群主已轉讓",
+  "groupTransferOwnerFailed": "轉讓失敗，請重試",
+  "groupLeave": "退出群組",
+  "groupLeaveConfirm": "確定要退出該群組嗎？",
+  "groupLeaveSuccess": "已退出群組",
+  "groupLeaveFailed": "退出失敗，請重試",
+  "groupDissolve": "解散群組",
+  "groupDissolveConfirm": "確定要解散該群組嗎？解散後所有成員將被移除。",
+  "groupDissolveSuccess": "群組已解散",
+  "groupDissolveFailed": "解散失敗，請重試",
+  "groupQrCode": "群組二維碼",
+  "groupMuteAll": "全員禁言",
+  "groupMuteAllOn": "開啟全員禁言",
+  "groupMuteAllOff": "關閉全員禁言",
+  "groupAllowMemberInvite": "允許成員邀請",
+  "groupAllowMemberModifyTitle": "允許成員修改群組名稱",
+  "groupAllowMemberAtAll": "允許成員@所有人",
+  "groupAllowMemberViewMemberList": "允許成員查看成員列表",
+  "groupAllowQrCodeJoin": "允許二維碼加入",
+  "groupRequireApproval": "加入群組需要審核",
+  "groupAllowMemberAddFriend": "允許群組成員互加好友",
+  "groupRoleOwner": "群主",
+  "groupRoleAdmin": "管理員",
+  "groupRoleMember": "成員",
+  "groupNoMembers": "暫無成員",
+  "groupNoAnnouncements": "暫無公告",
+  "groupCreateAnnouncement": "發布公告",
+  "groupEditAnnouncement": "編輯公告",
+  "groupDeleteAnnouncement": "刪除公告",
+  "groupDeleteAnnouncementConfirm": "確定要刪除該公告嗎？",
+  "groupAnnouncementTitle": "公告標題",
+  "groupAnnouncementContent": "公告內容",
+  "groupAnnouncementPin": "置頂公告",
+  "groupMemberCount": "{count} 人",
+  "groupSelectedCount": "已選 {count} 人",
+  "groupJoinRequestApprove": "同意",
+  "groupJoinRequestReject": "拒絕",
+  "groupJoinRequests": "入群申請",
+  "groupNoJoinRequests": "暫無入群申請",
+  "groupReadReceipts": "訊息已讀回執",
+  "groupReadCount": "{count} 人已讀",
+  "groupUnreadCount": "{count} 人未讀",
+  "organizationTitle": "組織架構",
+  "organizationEmpty": "暫無部門資訊",
+  "organizationMembers": "成員",
+  "organizationDepartment": "部門",
+  "organizationPosition": "職位",
+  "organizationLeader": "負責人",
+  "qrCodeTitle": "我的二維碼",
+  "qrCodeSave": "儲存到相簿",
+  "qrCodeShare": "分享",
+  "qrCodeSaveSuccess": "已儲存到相簿",
+  "qrCodeSaveFailed": "儲存失敗，請重試",
+  "qrCodeRefresh": "重新整理二維碼",
+  "qrCodeExpired": "二維碼已過期，請重新整理",
+  "qrCodeScanToAdd": "掃一掃上面的二維碼，新增我為好友",
+  "spacePersonal": "個人空間",
+  "spaceEnterprise": "企業空間",
+  "spaceJoinByCode": "透過企業碼加入",
+  "spaceJoinByInvite": "透過邀請碼加入",
+  "spaceEnterCode": "請輸入企業碼",
+  "spaceEnterInviteCode": "請輸入邀請碼",
+  "spaceSearchEnterprise": "搜尋企業",
+  "spaceJoinRequestSent": "申請已提交，等待審核",
+  "spaceJoinRequestPending": "申請審核中",
+  "spaceJoinRequestApproved": "申請已通過",
+  "spaceJoinRequestRejected": "申請已拒絕",
+  "spaceAlreadyMember": "你已經是該企業成員",
+  "spaceAutoApproved": "已自動通過，歡迎加入",
+  "spacePendingApprovalHint": "註冊成功，加入企業申請已提交，等待審核",
+  "spaceNoSpaces": "暫無空間",
+  "spaceInviteExpired": "邀請碼已過期",
+  "spaceInviteTargetMismatch": "該邀請碼不適用於你的帳號",
+  "spaceAcceptInviteSuccess": "已成功加入企業",
+  "spaceAcceptInviteFailed": "加入失敗，請重試",
+  "spaceTenantSelectTitle": "選擇空間",
+  "spaceTenantSelectHint": "請選擇要進入的空間",
+  "spaceEnterPersonal": "進入個人空間",
+  "spaceEnterEnterprise": "進入企業空間",
+  "recentContactsTitle": "最近聯絡",
+  "recentContactsEmpty": "暫無最近聯絡人",
+  "inviteFriendsTitle": "邀請朋友",
+  "inviteFriendsCopyLink": "複製邀請連結",
+  "inviteFriendsLinkCopied": "邀請連結已複製",
+  "pendingJoinRequestsTitle": "新的申請",
+  "pendingJoinRequestsEmpty": "暫無申請",
+  "pendingJoinRequestApprove": "同意",
+  "pendingJoinRequestReject": "拒絕",
+  "pendingJoinRequestApproveSuccess": "已同意申請",
+  "pendingJoinRequestRejectSuccess": "已拒絕申請",
+  "pendingJoinRequestFailed": "操作失敗，請重試",
+  "groupListTitle": "群組列表",
+  "groupListEmpty": "暫無群組",
+  "joinCompanyTitle": "加入企業",
+  "joinCompanyCodeHint": "請輸入企業碼",
+  "joinCompanySearchHint": "搜尋企業名稱",
+  "joinCompanyApply": "申請加入",
+  "joinCompanyApplySuccess": "申請已提交",
+  "joinCompanyApplyFailed": "申請失敗，請重試",
+  "joinCompanyAutoApproved": "已自動通過，歡迎加入",
+  "joinCompanyPending": "申請已提交，等待審核",
+  "joinCompanyInviteCodeHint": "請輸入邀請碼",
+  "joinCompanyAcceptInvite": "接受邀請",
+  "joinCompanyNoResults": "未找到相關企業",
+  "joinCompanyMemberCount": "{count} 名成員",
+  "approvalEmpty": "暫無申請",
+  "approvalApprove": "同意",
+  "approvalReject": "拒絕",
+  "approvalPending": "待審批",
+  "approvalApproved": "已同意",
+  "approvalRejected": "已拒絕",
+  "approvalExpired": "已過期",
+  "approvalCancelled": "已撤銷",
+  "approvalReplayFailed": "原操作執行失敗，請重新發起",
+  "requestCancelled": "申請已撤銷",
+  "enterpriseNoPermission": "無權限",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "企業資訊設定",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "企業設定",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "官方帳號",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "官方帳號管理",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "成員管理",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "邀請員工",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "成員清單",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "公告管理",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "企業群發",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "審批",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "加入申請審批",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "轉讓擁有者",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "轉讓後您將降為管理員，且無法撤銷。請前往成員清單選擇新的擁有者。",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "選擇新擁有者",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "客服分配模式",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "自動分配",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "指定客服",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "加入審批模式",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "人工審批",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "自動通過",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "好友模式",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "社交模式",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "隔離模式",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Widget 訪客功能",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "已關閉",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "依輪詢自動分配空閒客服",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "所有客戶分配給指定客服",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "客戶申請須管理員審批",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "客戶申請自動通過",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "客戶之間可互加好友",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "客戶之間禁止互加好友",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "一般成員",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "搜尋成員",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "設為一般成員",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "設為技術支援",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "設為客服",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "確認轉讓",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "企業名稱不可為空",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "請輸入企業名稱",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "暫無簡介",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "企業 Logo",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "產生失敗，請重試",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "使用次數上限",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "有效期限",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 小時",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 小時",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 天",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 天",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "產生邀請碼",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "邀請碼",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "全員",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "員工",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "搜尋員工／角色／職位",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "企業成員",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "暫無符合的成員",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "企業概覽",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "管理",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "角色權限",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "離職交接",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "搜尋員工",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "企業員工",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "好友資料",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "語音及視訊通話",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "新增好友",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "男性",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "女性",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "暫無未讀對話",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "企",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "已複製邀請碼",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "確定將「{name}」移出企業？",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "確定將擁有者身分轉讓給「{name}」？轉讓後您將降為管理員，且無法撤銷。",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count} 次",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "有效期限 {hours} 小時 · 最多使用 {count} 次",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count} 個未讀對話",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count} 則未讀訊息",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role}  {count} 人",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "泡泡號：{value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "離開企業",
+  "enterpriseLoginBeforeSearch": "請先登入後再查詢企業",
+  "enterpriseSearchFailed": "查詢失敗，請重試",
+  "enterpriseLoginBeforeJoin": "請先登入後再申請加入企業",
+  "enterpriseApplicationPending": "申請已提交，等待管理員審核",
+  "enterpriseLoginBeforeAction": "請先登入後再操作",
+  "enterprisePlatformTagline": "企業私域行銷平台",
+  "enterpriseLookupHint": "輸入企業號、別名或邀請碼",
+  "enterpriseLookup": "查詢",
+  "enterpriseApplicationNote": "申請說明（選填）",
+  "enterpriseLookupGuide": "可用企業號或別名查詢，也可使用邀請碼直接加入",
+  "enterpriseRecommendationsLoading": "正在載入推薦企業",
+  "enterpriseRecommendationsFailed": "推薦企業載入失敗",
+  "enterpriseReload": "重新載入",
+  "enterpriseNoRecommendations": "暫無推薦企業，可輸入企業號、別名或邀請碼查詢",
+  "enterpriseRecommended": "推薦企業",
+  "enterpriseJoined": "已加入",
+  "enterpriseRequestsLoadFailed": "申請記錄載入失敗",
+  "enterpriseCodeMissing": "企業號暫時無法使用",
+  "enterpriseAlias": "企業別名",
+  "enterpriseCodeLabel": "企業號",
+  "enterprisePrivateAliasHint": "此企業尚未公開資料。提交後將依此別名確認目標企業。",
+  "enterpriseInvitationMismatch": "此邀請碼並非發給您，可能無法加入",
+  "enterpriseTechnicalRole": "技術支援",
+  "enterpriseJoin": "加入",
+  "enterpriseCancelApplication": "撤銷",
+  "enterpriseApplication": "企業申請",
+  "enterpriseAliasValue": "企業別名 {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "企業號：{code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "別名：{alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "將以 {role} 身分加入",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "此邀請碼發送對象：{target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "拒絕原因：{reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "企業 {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "別",
+  "enterpriseCompanyInitial": "企",
+  "enterpriseAudienceAll": "全體人員",
+  "enterpriseAudienceAllHint": "員工 + 客戶",
+  "enterpriseAudienceStaffHint": "僅企業員工",
+  "enterpriseAudienceCustomers": "企業客戶",
+  "enterpriseAudienceCustomersHint": "已加入企業的客戶",
+  "enterpriseOfficialGroups": "官方群組",
+  "enterpriseAudienceGroupsHint": "企業官方群組聊天",
+  "enterpriseSendNow": "立即傳送",
+  "enterpriseSendScheduled": "排程傳送",
+  "enterprisePreviewing": "正在預覽",
+  "enterprisePreview": "預覽",
+  "enterpriseSubmitSend": "提交傳送",
+  "enterpriseBroadcastSubmitted": "企業群發任務已提交",
+  "enterpriseScheduledUnavailable": "目前版本尚未開放企業群發排程傳送",
+  "enterpriseBroadcastFailed": "企業群發失敗，請稍後重試",
+  "enterpriseBroadcastGuide": "企業群發使用企業官方帳號傳送，並記錄操作。提交後可查看投遞結果。",
+  "enterpriseSenderIdentity": "傳送身分",
+  "enterpriseSenderAfterPreview": "預覽後確認",
+  "enterpriseSenderConfirmed": "已確認",
+  "enterpriseDefaultOfficialSender": "企業預設官方帳號",
+  "enterpriseOfficialSenderHint": "接收方看到的是企業官方帳號身分",
+  "enterpriseMessageContent": "訊息內容",
+  "enterpriseBroadcastContentHint": "輸入要以官方帳號傳送的企業群發內容",
+  "enterpriseInternalNoteHint": "內部備註，便於日後稽核與追溯（選填）",
+  "enterpriseSendPreview": "傳送預覽",
+  "enterpriseExpectedRecipients": "預計人數",
+  "enterpriseDeliveryMethod": "傳送方式",
+  "enterpriseTaskStatus": "任務狀態",
+  "enterpriseNoBroadcastHistory": "暫無企業群發記錄",
+  "enterpriseHistoryUnavailable": "暫時無法使用",
+  "enterpriseBroadcastDenied": "沒有企業群發權限",
+  "enterpriseBroadcastRoleHint": "企業群發僅供管理員與擁有者使用。",
+  "enterpriseDefaultApplicationMessage": "希望加入貴組織"
+}

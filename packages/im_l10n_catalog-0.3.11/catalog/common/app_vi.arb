@@ -1,0 +1,190 @@
+{
+  "@@locale": "vi",
+  "navWorkbench": "Bàn làm việc",
+  "navBadgeOverflow": "99+",
+  "startupFailureTitle": "Khởi động thất bại",
+  "startupFailureMessage": "Hãy kiểm tra mạng rồi thử lại",
+  "commonConfirm": "Xác nhận",
+  "commonCancel": "Hủy",
+  "commonSave": "Lưu",
+  "commonEdit": "Chỉnh sửa",
+  "commonDelete": "Xóa",
+  "commonSearch": "Tìm kiếm",
+  "commonLoading": "Đang tải...",
+  "commonLoadFailed": "Tải thất bại",
+  "commonRetry": "Thử lại",
+  "commonEmpty": "Không có dữ liệu",
+  "commonCopy": "Sao chép",
+  "commonForward": "Chuyển tiếp",
+  "commonFavorite": "Yêu thích",
+  "commonClose": "Đóng",
+  "commonSend": "Gửi",
+  "commonDone": "Xong",
+  "commonMore": "Xem thêm",
+  "commonSettings": "Cài đặt",
+  "commonCopied": "Đã sao chép",
+  "commonUnknown": "Không xác định",
+  "commonNotSet": "Chưa đặt",
+  "commonUnbound": "Chưa liên kết",
+  "commonViewAll": "Xem tất cả",
+  "commonSubmit": "Gửi",
+  "commonAdd": "Thêm",
+  "commonRemove": "Xóa",
+  "commonCreate": "Tạo",
+  "commonUpdate": "Cập nhật",
+  "commonUpload": "Tải lên",
+  "commonShare": "Chia sẻ",
+  "commonBlock": "Chặn",
+  "commonUnblock": "Bỏ chặn",
+  "commonMute": "Tắt thông báo",
+  "commonUnmute": "Bật thông báo",
+  "commonPin": "Ghim",
+  "commonUnpin": "Bỏ ghim",
+  "commonMarkRead": "Đánh dấu đã đọc",
+  "commonMarkUnread": "Đánh dấu chưa đọc",
+  "commonOnline": "Trực tuyến",
+  "commonOffline": "Ngoại tuyến",
+  "commonOperationFailed": "Thao tác thất bại, vui lòng thử lại",
+  "commonNetworkError": "Lỗi mạng, vui lòng kiểm tra kết nối",
+  "navMessages": "Tin nhắn",
+  "navContacts": "Danh bạ",
+  "navMe": "Tôi",
+  "noticeTitle": "Thông báo",
+  "noticeEmpty": "Không có thông báo",
+  "noticeDetail": "Chi tiết thông báo",
+  "noticePublishedAt": "Ngày đăng",
+  "noticePriorityNormal": "Thường",
+  "noticePriorityImportant": "Quan trọng",
+  "noticePriorityUrgent": "Khẩn cấp",
+  "errorSessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+  "@errorSessionExpired": {
+    "description": "Localized errorSessionExpired presentation message"
+  },
+  "errorEmailAlreadyRegistered": "Email này đã được đăng ký. Vui lòng đăng nhập.",
+  "@errorEmailAlreadyRegistered": {
+    "description": "Localized errorEmailAlreadyRegistered presentation message"
+  },
+  "errorMobileAlreadyRegistered": "Số điện thoại này đã được đăng ký. Vui lòng đăng nhập.",
+  "@errorMobileAlreadyRegistered": {
+    "description": "Localized errorMobileAlreadyRegistered presentation message"
+  },
+  "errorCaptchaRequired": "Vui lòng hoàn thành mã xác thực hình ảnh trước.",
+  "@errorCaptchaRequired": {
+    "description": "Localized errorCaptchaRequired presentation message"
+  },
+  "errorVerificationTooFrequent": "Yêu cầu mã xác minh quá thường xuyên. Vui lòng thử lại sau.",
+  "@errorVerificationTooFrequent": {
+    "description": "Localized errorVerificationTooFrequent presentation message"
+  },
+  "errorVerificationHourlyLimit": "Đã đạt giới hạn gửi mã xác minh trong giờ này.",
+  "@errorVerificationHourlyLimit": {
+    "description": "Localized errorVerificationHourlyLimit presentation message"
+  },
+  "errorVerificationDailyLimit": "Đã đạt giới hạn gửi mã xác minh trong ngày.",
+  "@errorVerificationDailyLimit": {
+    "description": "Localized errorVerificationDailyLimit presentation message"
+  },
+  "errorTenantNotMember": "Tài khoản này không thuộc tenant đã chọn.",
+  "@errorTenantNotMember": {
+    "description": "Localized errorTenantNotMember presentation message"
+  },
+  "errorTenantSuspended": "Tenant đã chọn đã bị tạm ngưng.",
+  "@errorTenantSuspended": {
+    "description": "Localized errorTenantSuspended presentation message"
+  },
+  "errorRateLimited": "Thao tác quá thường xuyên. Vui lòng thử lại sau.",
+  "@errorRateLimited": {
+    "description": "Localized errorRateLimited presentation message"
+  },
+  "errorRegistrationUnavailable": "Hiện không thể đăng ký. Vui lòng thử lại sau.",
+  "@errorRegistrationUnavailable": {
+    "description": "Localized errorRegistrationUnavailable presentation message"
+  },
+  "errorMemberMuted": "Bạn đang bị tắt quyền gửi tin nhắn. Vui lòng thử lại sau.",
+  "@errorMemberMuted": {
+    "description": "Localized errorMemberMuted presentation message"
+  },
+  "errorNetworkTimeout": "Yêu cầu đã hết thời gian chờ. Vui lòng kiểm tra kết nối mạng.",
+  "@errorNetworkTimeout": {
+    "description": "Localized errorNetworkTimeout presentation message"
+  },
+  "errorNetworkConnection": "Không thể kết nối với máy chủ. Vui lòng kiểm tra kết nối mạng.",
+  "@errorNetworkConnection": {
+    "description": "Localized errorNetworkConnection presentation message"
+  },
+  "errorRequestCancelled": "Yêu cầu đã bị hủy.",
+  "@errorRequestCancelled": {
+    "description": "Localized errorRequestCancelled presentation message"
+  },
+  "errorServerUnavailable": "Máy chủ tạm thời không khả dụng. Vui lòng thử lại sau.",
+  "@errorServerUnavailable": {
+    "description": "Localized errorServerUnavailable presentation message"
+  },
+  "commonOperationFailedShort": "Thao tác thất bại",
+  "@commonOperationFailedShort": {
+    "description": "Operation failed"
+  },
+  "commonComingSoon": "Sắp ra mắt",
+  "@commonComingSoon": {
+    "description": "Coming soon"
+  },
+  "identityBadgeOwnerShort": "C",
+  "@identityBadgeOwnerShort": {
+    "description": "Compact identity badge letter"
+  },
+  "identityBadgeAdminShort": "Q",
+  "@identityBadgeAdminShort": {
+    "description": "Compact identity badge letter"
+  },
+  "identityBadgeServiceShort": "H",
+  "@identityBadgeServiceShort": {
+    "description": "Compact identity badge letter"
+  },
+  "identityBadgeCustomerShort": "K",
+  "@identityBadgeCustomerShort": {
+    "description": "Compact identity badge letter"
+  },
+  "identityBadgeEmployeeShort": "N",
+  "@identityBadgeEmployeeShort": {
+    "description": "Compact identity badge letter"
+  },
+  "identityBadgeOfficialShort": "X",
+  "@identityBadgeOfficialShort": {
+    "description": "Compact identity badge letter"
+  },
+  "noticeMarkAllRead": "Đánh dấu tất cả đã đọc",
+  "@noticeMarkAllRead": {
+    "description": "Shared UI presentation noticeMarkAllRead"
+  },
+  "noticeImportantAnnouncement": "Thông báo quan trọng",
+  "@noticeImportantAnnouncement": {
+    "description": "Shared UI presentation noticeImportantAnnouncement"
+  },
+  "noticeEncryptionSupport": "Dịch vụ này sử dụng công nghệ bảo mật và mã hóa do {brand} cung cấp.",
+  "@noticeEncryptionSupport": {
+    "description": "Shared UI presentation noticeEncryptionSupport",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "toastFeatureComingSoon": "Tính năng {feature} sẽ sớm ra mắt",
+  "@toastFeatureComingSoon": {
+    "description": "Shared UI presentation toastFeatureComingSoon",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "toastFeatureApiMissing": "“{feature}” hiện không khả dụng. Vui lòng liên hệ bộ phận hỗ trợ.",
+  "@toastFeatureApiMissing": {
+    "description": "Shared UI presentation toastFeatureApiMissing",
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "@@locale": "fi",
+  "enterpriseInfoTitle": "Yrityksen tiedot",
+  "enterpriseName": "Nimi",
+  "enterpriseDescription": "Kuvaus",
+  "enterpriseUpdateSuccess": "Päivitetty onnistuneesti",
+  "enterpriseUpdateFailed": "Päivitys epäonnistui. Yritä uudelleen.",
+  "enterpriseLeave": "Eroa yrityksestä",
+  "enterpriseLeaveConfirm": "Haluatko varmasti erota tästä yrityksestä?",
+  "enterpriseLeaveSuccess": "Erosit yrityksestä",
+  "enterpriseLeaveFailed": "Eroaminen epäonnistui. Yritä uudelleen.",
+  "enterpriseLeaveOwnerError": "Omistaja ei voi erota suoraan. Siirrä ensin omistajuus.",
+  "enterpriseMemberCount": "Jäsenet",
+  "enterpriseCreatedAt": "Luotu",
+  "enterpriseCode": "Yrityskoodi",
+  "enterpriseInviteMembers": "Kutsu jäseniä",
+  "enterpriseCopyInviteCode": "Kopioi kutsukoodi",
+  "enterpriseInviteCodeCopied": "Kutsukoodi kopioitu",
+  "groupCreateTitle": "Uusi ryhmä",
+  "groupNameHint": "Anna ryhmän nimi",
+  "groupCreateSuccess": "Ryhmä luotu",
+  "groupCreateFailed": "Ryhmän luominen epäonnistui",
+  "groupSettings": "Ryhmän asetukset",
+  "groupName": "Ryhmän nimi",
+  "groupAvatar": "Ryhmän kuva",
+  "groupAnnouncement": "Tiedote",
+  "groupMembers": "Jäsenet",
+  "groupAddMember": "Lisää jäseniä",
+  "groupRemoveMember": "Poista jäsen",
+  "groupRemoveMemberConfirm": "Poistetaanko tämä jäsen?",
+  "groupSetAdmin": "Nimeä ylläpitäjäksi",
+  "groupRemoveAdmin": "Poista ylläpitäjän oikeudet",
+  "groupTransferOwner": "Siirrä omistajuus",
+  "groupTransferOwnerConfirm": "Siirretäänkö ryhmän omistajuus tälle jäsenelle?",
+  "groupTransferOwnerSuccess": "Omistajuus siirretty",
+  "groupTransferOwnerFailed": "Siirto epäonnistui. Yritä uudelleen.",
+  "groupLeave": "Poistu ryhmästä",
+  "groupLeaveConfirm": "Poistutaanko tästä ryhmästä?",
+  "groupLeaveSuccess": "Poistuit ryhmästä",
+  "groupLeaveFailed": "Eroaminen epäonnistui. Yritä uudelleen.",
+  "groupDissolve": "Lopeta ryhmä",
+  "groupDissolveConfirm": "Lopetetaanko tämä ryhmä? Kaikki jäsenet poistetaan.",
+  "groupDissolveSuccess": "Ryhmä lopetettu",
+  "groupDissolveFailed": "Ryhmän lopettaminen epäonnistui. Yritä uudelleen.",
+  "groupQrCode": "Ryhmän QR-koodi",
+  "groupMuteAll": "Mykistä kaikki",
+  "groupMuteAllOn": "Ota kaikkien mykistys käyttöön",
+  "groupMuteAllOff": "Poista kaikkien mykistys käytöstä",
+  "groupAllowMemberInvite": "Salli jäsenten kutsua muita",
+  "groupAllowMemberModifyTitle": "Salli jäsenten muuttaa ryhmän nimeä",
+  "groupAllowMemberAtAll": "Salli jäsenten mainita kaikki",
+  "groupAllowMemberViewMemberList": "Salli jäsenten tarkastella jäsenluetteloa",
+  "groupAllowQrCodeJoin": "Salli liittyminen QR-koodilla",
+  "groupRequireApproval": "Vaadi liittymisen hyväksyntä",
+  "groupAllowMemberAddFriend": "Salli jäsenten lisätä toisensa",
+  "groupRoleOwner": "Omistaja",
+  "groupRoleAdmin": "Ylläpitäjä",
+  "groupRoleMember": "Jäsen",
+  "groupNoMembers": "Ei jäseniä",
+  "groupNoAnnouncements": "Ei tiedotteita",
+  "groupCreateAnnouncement": "Julkaise tiedote",
+  "groupEditAnnouncement": "Muokkaa tiedotetta",
+  "groupDeleteAnnouncement": "Poista tiedote",
+  "groupDeleteAnnouncementConfirm": "Poistetaanko tämä tiedote?",
+  "groupAnnouncementTitle": "Otsikko",
+  "groupAnnouncementContent": "Sisältö",
+  "groupAnnouncementPin": "Kiinnitä tiedote",
+  "groupMemberCount": "{count} jäsentä",
+  "groupSelectedCount": "{count} valittu",
+  "groupJoinRequestApprove": "Hyväksyn",
+  "groupJoinRequestReject": "Kieltäydy",
+  "groupJoinRequests": "Liittymispyynnöt",
+  "groupNoJoinRequests": "Ei liittymispyyntöjä",
+  "groupReadReceipts": "Lukukuittaukset",
+  "groupReadCount": "{count} lukenut",
+  "groupUnreadCount": "{count} lukematonta",
+  "organizationTitle": "Organisaatio",
+  "organizationEmpty": "Ei osastotietoja",
+  "organizationMembers": "Jäsenet",
+  "organizationDepartment": "Osasto",
+  "organizationPosition": "Tehtävä",
+  "organizationLeader": "Esihenkilö",
+  "qrCodeTitle": "Oma QR-koodi",
+  "qrCodeSave": "Tallenna albumiin",
+  "qrCodeShare": "Jaa",
+  "qrCodeSaveSuccess": "Tallennettu albumiin",
+  "qrCodeSaveFailed": "Tallennus epäonnistui. Yritä uudelleen.",
+  "qrCodeRefresh": "Päivitä QR-koodi",
+  "qrCodeExpired": "QR-koodi on vanhentunut. Päivitä se.",
+  "qrCodeScanToAdd": "Lisää minut yhteystiedoksi skannaamalla",
+  "spacePersonal": "Henkilökohtainen",
+  "spaceEnterprise": "Yritys",
+  "spaceJoinByCode": "Liity yrityskoodilla",
+  "spaceJoinByInvite": "Liity kutsukoodilla",
+  "spaceEnterCode": "Anna yrityskoodi",
+  "spaceEnterInviteCode": "Anna kutsukoodi",
+  "spaceSearchEnterprise": "Hae yritystä",
+  "spaceJoinRequestSent": "Pyyntö lähetetty, odottaa hyväksyntää",
+  "spaceJoinRequestPending": "Hyväksyntä odottaa",
+  "spaceJoinRequestApproved": "Pyyntö hyväksytty",
+  "spaceJoinRequestRejected": "Pyyntö hylätty",
+  "spaceAlreadyMember": "Olet jo jäsen",
+  "spaceAutoApproved": "Hyväksytty automaattisesti. Tervetuloa!",
+  "spacePendingApprovalHint": "Rekisteröityminen onnistui. Liittymispyyntösi on lähetetty.",
+  "spaceNoSpaces": "Ei tiloja",
+  "spaceInviteExpired": "Kutsukoodi on vanhentunut",
+  "spaceInviteTargetMismatch": "Tämä kutsukoodi ei ole tilillesi",
+  "spaceAcceptInviteSuccess": "Liityit yritykseen",
+  "spaceAcceptInviteFailed": "Liittyminen epäonnistui. Yritä uudelleen.",
+  "spaceTenantSelectTitle": "Valitse tila",
+  "spaceTenantSelectHint": "Valitse tila, johon siirryt",
+  "spaceEnterPersonal": "Siirry henkilökohtaiseen tilaan",
+  "spaceEnterEnterprise": "Siirry yritystilaan",
+  "recentContactsTitle": "Viimeisimmät",
+  "recentContactsEmpty": "Ei viimeaikaisia yhteystietoja",
+  "inviteFriendsTitle": "Kutsu ystäviä",
+  "inviteFriendsCopyLink": "Kopioi kutsulinkki",
+  "inviteFriendsLinkCopied": "Kutsulinkki kopioitu",
+  "pendingJoinRequestsTitle": "Uudet hakemukset",
+  "pendingJoinRequestsEmpty": "Ei hakemuksia",
+  "pendingJoinRequestApprove": "Hyväksyn",
+  "pendingJoinRequestReject": "Kieltäydy",
+  "pendingJoinRequestApproveSuccess": "Hyväksytty",
+  "pendingJoinRequestRejectSuccess": "Hylätty",
+  "pendingJoinRequestFailed": "Toiminto epäonnistui. Yritä uudelleen.",
+  "groupListTitle": "Ryhmät",
+  "groupListEmpty": "Ei ryhmiä",
+  "joinCompanyTitle": "Liity yritykseen",
+  "joinCompanyCodeHint": "Anna yrityskoodi",
+  "joinCompanySearchHint": "Hae yrityksen nimeä",
+  "joinCompanyApply": "Hae jäsenyyttä",
+  "joinCompanyApplySuccess": "Hakemus lähetetty",
+  "joinCompanyApplyFailed": "Hakeminen epäonnistui. Yritä uudelleen.",
+  "joinCompanyAutoApproved": "Hyväksytty automaattisesti. Tervetuloa!",
+  "joinCompanyPending": "Hakemus lähetetty, odottaa hyväksyntää",
+  "joinCompanyInviteCodeHint": "Anna kutsukoodi",
+  "joinCompanyAcceptInvite": "Hyväksy kutsu",
+  "joinCompanyNoResults": "Yrityksiä ei löytynyt",
+  "joinCompanyMemberCount": "{count} jäsentä",
+  "approvalEmpty": "Ei pyyntöjä",
+  "approvalApprove": "Hyväksyn",
+  "approvalReject": "Kieltäydy",
+  "approvalPending": "Odottaa",
+  "approvalApproved": "Hyväksytty",
+  "approvalRejected": "hylätty",
+  "approvalExpired": "vanhentunut",
+  "approvalCancelled": "Peruttu",
+  "approvalReplayFailed": "Alkuperäinen toiminto epäonnistui. Yritä sitä uudelleen.",
+  "requestCancelled": "Pyyntö peruutettu",
+  "enterpriseNoPermission": "Ei käyttöoikeutta",
+  "@enterpriseNoPermission": {
+    "description": "No permission"
+  },
+  "enterpriseInformationSettings": "Yritystietojen asetukset",
+  "@enterpriseInformationSettings": {
+    "description": "Enterprise information settings"
+  },
+  "enterpriseConfiguration": "Yrityksen määritykset",
+  "@enterpriseConfiguration": {
+    "description": "Enterprise configuration"
+  },
+  "enterpriseOfficialAccounts": "Viralliset tilit",
+  "@enterpriseOfficialAccounts": {
+    "description": "Official accounts"
+  },
+  "enterpriseOfficialAccountManagement": "Hallitse virallisia tilejä",
+  "@enterpriseOfficialAccountManagement": {
+    "description": "Manage official accounts"
+  },
+  "enterpriseMemberManagement": "Jäsenten hallinta",
+  "@enterpriseMemberManagement": {
+    "description": "Member management"
+  },
+  "enterpriseInviteStaff": "Kutsu työntekijöitä",
+  "@enterpriseInviteStaff": {
+    "description": "Invite staff"
+  },
+  "enterpriseMemberList": "Jäsenet",
+  "@enterpriseMemberList": {
+    "description": "Members"
+  },
+  "enterpriseAnnouncementManagement": "Tiedotteiden hallinta",
+  "@enterpriseAnnouncementManagement": {
+    "description": "Announcement management"
+  },
+  "enterpriseBroadcastTitle": "Yrityksen joukkoviestit",
+  "@enterpriseBroadcastTitle": {
+    "description": "Enterprise broadcast"
+  },
+  "enterpriseApprovals": "Hyväksynnät",
+  "@enterpriseApprovals": {
+    "description": "Approvals"
+  },
+  "enterpriseJoinApprovals": "Jäsenyyden hyväksynnät",
+  "@enterpriseJoinApprovals": {
+    "description": "Membership approvals"
+  },
+  "enterpriseTransferOwnership": "Siirrä omistajuus",
+  "@enterpriseTransferOwnership": {
+    "description": "Transfer ownership"
+  },
+  "enterpriseTransferInstructions": "Siirron jälkeen sinusta tulee ylläpitäjä. Tätä ei voi perua. Valitse uusi omistaja jäsenluettelosta.",
+  "@enterpriseTransferInstructions": {
+    "description": "After the transfer you become an administrator. This cannot be undone. Choose the new owner from the member list."
+  },
+  "enterpriseChooseNewOwner": "Valitse uusi omistaja",
+  "@enterpriseChooseNewOwner": {
+    "description": "Choose a new owner"
+  },
+  "enterpriseServiceAssignmentMode": "Asiakaspalvelijoiden nimeämistapa",
+  "@enterpriseServiceAssignmentMode": {
+    "description": "Agent assignment mode"
+  },
+  "enterpriseAutomaticAssignment": "Automaattinen nimeäminen",
+  "@enterpriseAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "enterpriseDesignatedAgent": "Nimetty asiakaspalvelija",
+  "@enterpriseDesignatedAgent": {
+    "description": "Designated agent"
+  },
+  "enterpriseJoinApprovalMode": "Jäsenyyden hyväksymistapa",
+  "@enterpriseJoinApprovalMode": {
+    "description": "Membership approval mode"
+  },
+  "enterpriseManualApproval": "Manuaalinen hyväksyntä",
+  "@enterpriseManualApproval": {
+    "description": "Manual approval"
+  },
+  "enterpriseAutomaticApproval": "Automaattinen hyväksyntä",
+  "@enterpriseAutomaticApproval": {
+    "description": "Automatic approval"
+  },
+  "enterpriseFriendMode": "Ystävyystila",
+  "@enterpriseFriendMode": {
+    "description": "Friend mode"
+  },
+  "enterpriseSocialMode": "Sosiaalinen tila",
+  "@enterpriseSocialMode": {
+    "description": "Social mode"
+  },
+  "enterpriseIsolatedMode": "Eristystila",
+  "@enterpriseIsolatedMode": {
+    "description": "Isolation mode"
+  },
+  "enterpriseWidgetVisitors": "Vierailijoiden pääsy pienoisohjelman kautta",
+  "@enterpriseWidgetVisitors": {
+    "description": "Widget visitor access"
+  },
+  "enterpriseDisabled": "Pois käytöstä",
+  "@enterpriseDisabled": {
+    "description": "Disabled"
+  },
+  "enterpriseRoundRobinDescription": "Nimeä vapaat asiakaspalvelijat automaattisesti vuorotellen",
+  "@enterpriseRoundRobinDescription": {
+    "description": "Assign available agents automatically in rotation"
+  },
+  "enterpriseDesignatedAgentDescription": "Nimeä kaikki asiakkaat määritetylle asiakaspalvelijalle",
+  "@enterpriseDesignatedAgentDescription": {
+    "description": "Assign all customers to the designated agent"
+  },
+  "enterpriseManualApprovalDescription": "Asiakaspyynnöt vaativat ylläpitäjän hyväksynnän",
+  "@enterpriseManualApprovalDescription": {
+    "description": "Customer requests require administrator approval"
+  },
+  "enterpriseAutomaticApprovalDescription": "Hyväksy asiakaspyynnöt automaattisesti",
+  "@enterpriseAutomaticApprovalDescription": {
+    "description": "Approve customer requests automatically"
+  },
+  "enterpriseSocialDescription": "Asiakkaat voivat lisätä toisensa ystäviksi",
+  "@enterpriseSocialDescription": {
+    "description": "Customers can add each other as friends"
+  },
+  "enterpriseIsolationDescription": "Asiakkaat eivät voi lisätä toisiaan ystäviksi",
+  "@enterpriseIsolationDescription": {
+    "description": "Customers cannot add each other as friends"
+  },
+  "enterpriseRegularMember": "Jäsen",
+  "@enterpriseRegularMember": {
+    "description": "Member"
+  },
+  "enterpriseSearchMembers": "Hae jäseniä",
+  "@enterpriseSearchMembers": {
+    "description": "Search members"
+  },
+  "enterpriseSetRegularMember": "Aseta jäseneksi",
+  "@enterpriseSetRegularMember": {
+    "description": "Set as member"
+  },
+  "enterpriseSetTechnicalSupport": "Aseta tekniseen tukeen",
+  "@enterpriseSetTechnicalSupport": {
+    "description": "Set as technical support"
+  },
+  "enterpriseSetServiceAgent": "Aseta asiakaspalvelijaksi",
+  "@enterpriseSetServiceAgent": {
+    "description": "Set as service agent"
+  },
+  "enterpriseConfirmTransfer": "Vahvista siirto",
+  "@enterpriseConfirmTransfer": {
+    "description": "Confirm transfer"
+  },
+  "enterpriseNameRequired": "Yrityksen nimi vaaditaan",
+  "@enterpriseNameRequired": {
+    "description": "Enterprise name is required"
+  },
+  "enterpriseEnterName": "Anna yrityksen nimi",
+  "@enterpriseEnterName": {
+    "description": "Enter the enterprise name"
+  },
+  "enterpriseNoDescription": "Ei kuvausta",
+  "@enterpriseNoDescription": {
+    "description": "No description"
+  },
+  "enterpriseLogo": "Yrityksen logo",
+  "@enterpriseLogo": {
+    "description": "Enterprise logo"
+  },
+  "enterpriseInviteGenerationFailed": "Luonti epäonnistui. Yritä uudelleen.",
+  "@enterpriseInviteGenerationFailed": {
+    "description": "Could not generate. Try again."
+  },
+  "enterpriseMaximumUses": "Käyttökertojen enimmäismäärä",
+  "@enterpriseMaximumUses": {
+    "description": "Maximum uses"
+  },
+  "enterpriseInviteValidity": "Voimassaoloaika",
+  "@enterpriseInviteValidity": {
+    "description": "Validity"
+  },
+  "enterpriseOneHour": "1 tunti",
+  "@enterpriseOneHour": {
+    "description": "1 hour"
+  },
+  "enterpriseTwentyFourHours": "24 tuntia",
+  "@enterpriseTwentyFourHours": {
+    "description": "24 hours"
+  },
+  "enterpriseThreeDays": "3 päivää",
+  "@enterpriseThreeDays": {
+    "description": "3 days"
+  },
+  "enterpriseSevenDays": "7 päivää",
+  "@enterpriseSevenDays": {
+    "description": "7 days"
+  },
+  "enterpriseGenerateInvite": "Luo kutsukoodi",
+  "@enterpriseGenerateInvite": {
+    "description": "Generate invitation code"
+  },
+  "enterpriseInviteCode": "Kutsukoodi",
+  "@enterpriseInviteCode": {
+    "description": "Invitation code"
+  },
+  "organizationAllMembers": "Kaikki",
+  "@organizationAllMembers": {
+    "description": "Everyone"
+  },
+  "organizationStaff": "Henkilöstö",
+  "@organizationStaff": {
+    "description": "Staff"
+  },
+  "organizationSearchRolesPositions": "Hae työntekijöitä, rooleja tai tehtäviä",
+  "@organizationSearchRolesPositions": {
+    "description": "Search staff, roles or positions"
+  },
+  "organizationEnterpriseMembers": "Yrityksen jäsenet",
+  "@organizationEnterpriseMembers": {
+    "description": "Enterprise members"
+  },
+  "organizationNoMatchingMembers": "Ei vastaavia jäseniä",
+  "@organizationNoMatchingMembers": {
+    "description": "No matching members"
+  },
+  "organizationEnterpriseOverview": "Yrityksen yleiskuva",
+  "@organizationEnterpriseOverview": {
+    "description": "Enterprise overview"
+  },
+  "organizationManage": "Hallinnoi",
+  "@organizationManage": {
+    "description": "Manage"
+  },
+  "organizationRolePermissions": "Roolien käyttöoikeudet",
+  "@organizationRolePermissions": {
+    "description": "Role permissions"
+  },
+  "organizationOffboardingHandover": "Tehtävien siirto työsuhteen päättyessä",
+  "@organizationOffboardingHandover": {
+    "description": "Offboarding handover"
+  },
+  "organizationSearchStaff": "Hae työntekijöitä",
+  "@organizationSearchStaff": {
+    "description": "Search staff"
+  },
+  "organizationEnterpriseStaff": "Yrityksen työntekijät",
+  "@organizationEnterpriseStaff": {
+    "description": "Enterprise staff"
+  },
+  "organizationFriendProfile": "Ystävän profiili",
+  "@organizationFriendProfile": {
+    "description": "Friend profile"
+  },
+  "organizationAudioVideoCall": "Ääni- ja videopuhelu",
+  "@organizationAudioVideoCall": {
+    "description": "Voice and video call"
+  },
+  "organizationAddFriend": "Lisää ystävä",
+  "@organizationAddFriend": {
+    "description": "Add friend"
+  },
+  "organizationMale": "Mies",
+  "@organizationMale": {
+    "description": "Male"
+  },
+  "organizationFemale": "Nainen",
+  "@organizationFemale": {
+    "description": "Female"
+  },
+  "spaceNoUnreadConversations": "Ei lukemattomia keskusteluja",
+  "@spaceNoUnreadConversations": {
+    "description": "No unread conversations"
+  },
+  "enterpriseAvatarPlaceholder": "Y",
+  "@enterpriseAvatarPlaceholder": {
+    "description": "E"
+  },
+  "enterpriseInviteCodeCopiedText": "Kutsukoodi kopioitu",
+  "@enterpriseInviteCodeCopiedText": {
+    "description": "Invitation code copied"
+  },
+  "enterpriseRemoveMemberConfirm": "Poistetaanko ”{name}” yrityksestä?",
+  "@enterpriseRemoveMemberConfirm": {
+    "description": "enterpriseRemoveMemberConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTransferConfirm": "Siirretäänkö omistajuus käyttäjälle ”{name}”? Sinusta tulee ylläpitäjä. Tätä ei voi perua.",
+  "@enterpriseTransferConfirm": {
+    "description": "enterpriseTransferConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseInviteUses": "{count, plural, one {{count} käyttökerta} other {{count} käyttökertaa}}",
+  "@enterpriseInviteUses": {
+    "description": "enterpriseInviteUses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseInviteSummary": "Voimassa {hours} h · Enintään {count} käyttökertaa",
+  "@enterpriseInviteSummary": {
+    "description": "enterpriseInviteSummary",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadConversations": "{count, plural, one {{count} lukematon keskustelu} other {{count} lukematonta keskustelua}}",
+  "@enterpriseUnreadConversations": {
+    "description": "enterpriseUnreadConversations",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "enterpriseUnreadMessages": "{count, plural, one {{count} lukematon viesti} other {{count} lukematonta viestiä}}",
+  "@enterpriseUnreadMessages": {
+    "description": "enterpriseUnreadMessages",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationRoleCount": "{role} · {count}",
+  "@organizationRoleCount": {
+    "description": "organizationRoleCount",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "organizationBubbleId": "Kuplan tunnus: {value}",
+  "@organizationBubbleId": {
+    "description": "organizationBubbleId",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseLeaveAction": "Eroa yrityksestä",
+  "enterpriseLoginBeforeSearch": "Kirjaudu ennen organisaation hakemista",
+  "enterpriseSearchFailed": "Haku epäonnistui. Yritä uudelleen.",
+  "enterpriseLoginBeforeJoin": "Kirjaudu ennen organisaatioon liittymisen hakemista",
+  "enterpriseApplicationPending": "Hakemus lähetetty. Odottaa ylläpitäjän hyväksyntää.",
+  "enterpriseLoginBeforeAction": "Kirjaudu jatkaaksesi",
+  "enterprisePlatformTagline": "Organisaatioiden yksityinen asiakasviestintä",
+  "enterpriseLookupHint": "Anna organisaation numero, alias tai kutsukoodi",
+  "enterpriseLookup": "Hae",
+  "enterpriseApplicationNote": "Hakemuksen huomautus (valinnainen)",
+  "enterpriseLookupGuide": "Hae organisaation numerolla tai aliaksella tai liity kutsukoodilla",
+  "enterpriseRecommendationsLoading": "Ladataan suositeltuja organisaatioita",
+  "enterpriseRecommendationsFailed": "Suositeltujen organisaatioiden lataaminen epäonnistui",
+  "enterpriseReload": "Lataa uudelleen",
+  "enterpriseNoRecommendations": "Ei suosituksia. Hae organisaation numerolla, aliaksella tai kutsukoodilla.",
+  "enterpriseRecommended": "Suositellut organisaatiot",
+  "enterpriseJoined": "Liitytty",
+  "enterpriseRequestsLoadFailed": "Hakemusten lataaminen epäonnistui",
+  "enterpriseCodeMissing": "Organisaation numero ei ole saatavilla",
+  "enterpriseAlias": "Organisaation alias",
+  "enterpriseCodeLabel": "Organisaation numero",
+  "enterprisePrivateAliasHint": "Tämä organisaatio ei ole julkaissut tietojaan. Hakemuksesi tunnistaa sen tällä aliaksella.",
+  "enterpriseInvitationMismatch": "Tätä kutsukoodia ei ole osoitettu sinulle. Liittyminen voi epäonnistua.",
+  "enterpriseTechnicalRole": "Tekninen tuki",
+  "enterpriseJoin": "Liity",
+  "enterpriseCancelApplication": "Kumoa",
+  "enterpriseApplication": "Organisaatiohakemus",
+  "enterpriseAliasValue": "Organisaation alias: {alias}",
+  "@enterpriseAliasValue": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseCodeValue": "Organisaation numero: {code}",
+  "@enterpriseCodeValue": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasDetail": "Alias: {alias}",
+  "@enterpriseAliasDetail": {
+    "placeholders": {
+      "alias": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseJoinAsRole": "Liityt roolissa {role}",
+  "@enterpriseJoinAsRole": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseTargetInvitation": "Tämä kutsukoodi on osoitettu: {target}",
+  "@enterpriseTargetInvitation": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseRejectionReason": "Hylkäyksen syy: {reason}",
+  "@enterpriseRejectionReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseFallbackName": "Organisaatio {id}",
+  "@enterpriseFallbackName": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "enterpriseAliasInitial": "Y",
+  "enterpriseCompanyInitial": "O",
+  "enterpriseAudienceAll": "Kaikki",
+  "enterpriseAudienceAllHint": "Työntekijät ja asiakkaat",
+  "enterpriseAudienceStaffHint": "Vain organisaation työntekijät",
+  "enterpriseAudienceCustomers": "Organisaation asiakkaat",
+  "enterpriseAudienceCustomersHint": "Organisaatioon liittyneet asiakkaat",
+  "enterpriseOfficialGroups": "Viralliset ryhmät",
+  "enterpriseAudienceGroupsHint": "Organisaation viralliset ryhmäkeskustelut",
+  "enterpriseSendNow": "Lähetä nyt",
+  "enterpriseSendScheduled": "Ajasta lähetys",
+  "enterprisePreviewing": "Esikatsellaan",
+  "enterprisePreview": "Esikatselu",
+  "enterpriseSubmitSend": "Lähetä toimitettavaksi",
+  "enterpriseBroadcastSubmitted": "Organisaation joukkoviesti lähetetty",
+  "enterpriseScheduledUnavailable": "Ajastetut organisaation joukkoviestit eivät ole käytettävissä tässä versiossa",
+  "enterpriseBroadcastFailed": "Organisaation joukkoviesti epäonnistui. Yritä myöhemmin uudelleen.",
+  "enterpriseBroadcastGuide": "Joukkoviestit lähetetään organisaation viralliselta tililtä ja toiminto kirjataan. Toimitustulokset ovat nähtävissä lähettämisen jälkeen.",
+  "enterpriseSenderIdentity": "Lähettäjän henkilöllisyys",
+  "enterpriseSenderAfterPreview": "Vahvista esikatselussa",
+  "enterpriseSenderConfirmed": "Vahvistettu",
+  "enterpriseDefaultOfficialSender": "Organisaation oletusarvoinen virallinen tili",
+  "enterpriseOfficialSenderHint": "Vastaanottajat näkevät organisaation virallisen tilin henkilöllisyyden",
+  "enterpriseMessageContent": "Viestin sisältö",
+  "enterpriseBroadcastContentHint": "Kirjoita viralliselta tililtä lähetettävä joukkoviesti",
+  "enterpriseInternalNoteHint": "Sisäinen huomautus tarkastusta ja seurantaa varten (valinnainen)",
+  "enterpriseSendPreview": "Lähetyksen esikatselu",
+  "enterpriseExpectedRecipients": "Arvioidut vastaanottajat",
+  "enterpriseDeliveryMethod": "Toimitustapa",
+  "enterpriseTaskStatus": "Tehtävän tila",
+  "enterpriseNoBroadcastHistory": "Ei vielä organisaation joukkoviestejä",
+  "enterpriseHistoryUnavailable": "Tilapäisesti poissa käytöstä",
+  "enterpriseBroadcastDenied": "Ei lupaa organisaation joukkoviesteihin",
+  "enterpriseBroadcastRoleHint": "Organisaation joukkoviestit ovat käytettävissä vain ylläpitäjille ja omistajille.",
+  "enterpriseDefaultApplicationMessage": "Haluaisin liittyä organisaatioonne"
+}

@@ -1,0 +1,471 @@
+{
+  "@@locale": "en",
+  "settingsTitle": "Settings",
+  "settingsSectionEnterprise": "Enterprise",
+  "settingsSectionAccount": "Account",
+  "settingsSectionGeneral": "General",
+  "settingsSectionFeatures": "Features",
+  "settingsSectionAbout": "About",
+  "settingsEnterpriseInfo": "Enterprise Info",
+  "settingsProfile": "Profile",
+  "settingsAccountSecurity": "Account Security",
+  "settingsNotification": "Notifications",
+  "settingsDisplay": "Display",
+  "settingsFriendPrivacy": "Privacy",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Chat History",
+  "settingsAbout": "About StartLink",
+  "settingsLanguage": "Language",
+  "settingsTimezone": "Timezone",
+  "settingsAutoTranslate": "Auto Translate",
+  "settingsNetworkSwitch": "Network",
+  "aboutTitle": "About StartLink",
+  "aboutVersion": "Version",
+  "aboutTerms": "Terms of Service",
+  "aboutPrivacy": "Privacy Policy",
+  "aboutOpenSource": "Open Source Licenses",
+  "aboutCheckUpdate": "Check for Updates",
+  "aboutLatestVersion": "Already up to date",
+  "aboutUpdateAvailable": "Update Available",
+  "aboutUpdateNow": "Update Now",
+  "aboutUpdateLater": "Later",
+  "networkTitle": "Network",
+  "networkAutoSelect": "Auto",
+  "networkManual": "Manual",
+  "timezoneTitle": "Timezone",
+  "timezoneAuto": "Follow System",
+  "displayTitle": "Display",
+  "displayFontSize": "Font Size",
+  "displayChatBackground": "Chat Background",
+  "displayDarkMode": "Appearance",
+  "displayDarkModeSystem": "Follow System",
+  "displayDarkModeSystemHint": "Automatically switch based on system setting",
+  "displayDarkModeOff": "Light",
+  "displayDarkModeOffHint": "Always use light theme",
+  "displayDarkModeOn": "Dark",
+  "displayDarkModeOnHint": "Always use dark theme",
+  "accountSecurityTitle": "Account Security",
+  "accountSecurityChangePassword": "Change Password",
+  "accountSecurityChangeMobile": "Change Phone",
+  "accountSecurityChangeEmail": "Change Email",
+  "accountSecurityLoggedDevices": "Logged-in Devices",
+  "accountSecurityDeactivate": "Deactivate Account",
+  "accountSecurityDeactivateConfirm": "All data will be permanently deleted after 7 days. Deactivate?",
+  "loggedDevicesTitle": "Logged-in Devices",
+  "loggedDevicesCurrent": "This Device",
+  "loggedDevicesRevoke": "Sign Out",
+  "loggedDevicesRevokeConfirm": "Sign out from this device?",
+  "loggedDevicesRevokeSuccess": "Signed out from device",
+  "loggedDevicesRevokeFailed": "Failed, please try again",
+  "loggedDevicesLastActive": "Last active",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Desktop",
+  "loggedDevicesTypeUnknown": "Unknown Device",
+  "fontSizeTitle": "Font Size",
+  "fontSizeSmall": "Small",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Large",
+  "fontSizeExtraLarge": "Extra Large",
+  "fontSizePreview": "Preview",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Pacific Time",
+  "timezoneNameMountainTime": "Mountain Time",
+  "timezoneNameCentralTime": "Central Time",
+  "timezoneNameEasternTime": "Eastern Time",
+  "timezoneNameAtlanticTime": "Atlantic Time",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azores",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rome",
+  "timezoneNameCairoHelsinki": "Cairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscow/Riyadh",
+  "timezoneNameTehran": "Tehran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tashkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Beijing/Shanghai/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Solomon Islands",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Smart select best route",
+  "networkTesting": "Testing...",
+  "networkTestingShort": "Testing",
+  "networkLatencyMs": "Latency {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Connection mode",
+  "networkDirectMode": "Direct mode",
+  "networkProxyMode": "Proxy mode",
+  "networkDirectModeDesc": "Connect directly to the server",
+  "networkProxyModeDesc": "Connect through a proxy server",
+  "networkDirectRoutes": "Direct routes",
+  "networkProxyRoutes": "Proxy routes",
+  "networkTestAll": "Test all",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hong Kong node",
+  "networkSingaporeNode": "Singapore node",
+  "networkJapanNode": "Japan node",
+  "networkUnitedStatesNode": "United States node",
+  "networkHint": "Tips:\n• Direct mode: faster and suitable for domestic use\n• Proxy mode: more stable for cross-border communication\n• Tap the refresh icon to test a single route latency",
+  "diagnosticsTitle": "Diagnostics",
+  "diagnosticsExplanation": "Logs are redacted and contain operational and error information for this account and space, plus public startup events. Chat content and credentials are excluded.",
+  "diagnosticsHour": "Last hour",
+  "diagnosticsDay": "Last 24 hours",
+  "diagnosticsWeek": "Last 7 days",
+  "diagnosticsEventCount": "Available events: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Logs are saved on this device and remain available after restart.",
+  "diagnosticsNotPersistent": "Some logs have not been saved. Refresh to retry.",
+  "diagnosticsExport": "Export and share",
+  "diagnosticsRefresh": "Refresh",
+  "diagnosticsClear": "Clear this space’s logs",
+  "diagnosticsClearConfirm": "Clear diagnostic logs for this space? Chat history will be kept.",
+  "diagnosticsShared": "System sharing completed. Confirm the file in the receiving app.",
+  "diagnosticsCancelled": "Sharing cancelled. You can export again.",
+  "diagnosticsUnconfirmed": "Sharing could not be confirmed. Check the receiving app.",
+  "diagnosticsFailed": "The operation failed. Please retry.",
+  "settingsDeleteWarning": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Continue deletion",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Final confirmation",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Delete your account? This becomes permanent after 7 days.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Reason for deletion (optional)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Deletion requested. Sign in within 7 days to cancel.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Confirm deletion",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Could not delete the account. Try again.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Blocked users cannot send you messages or view your profile and updates.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Press Enter to send",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Could not load. Tap to retry.",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Message notification consent",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Agreed",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Not agreed",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "System notification permission",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Enabled",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Disabled",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Unknown",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Not supported",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Checking",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Check failed",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Full-screen incoming calls",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Tap to check and allow",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Full-screen call alerts enabled",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Allow full-screen call alerts in system settings.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Do Not Disturb schedule",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Not set",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Enable message notifications",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Notifications are still disabled. Allow Weijie notifications in system settings.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (night)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Turn off Do Not Disturb",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Not tested",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Unavailable",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Primary fallback",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Route unavailable. Your current route was kept.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Available sites",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Could not refresh routes. Your current route was kept.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Refreshing",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Refresh sites",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Unknown device",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Sign out",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Current",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Could not load devices",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "No signed-in devices",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Preview",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "This sample text previews the font size. Choose a size that makes chatting comfortable for you.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "All rights reserved",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Translation example",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (English)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Target language",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Default background",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "White",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Light gray",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Light blue",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Light green",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Light pink",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Light purple",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Custom image",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "This chat’s background",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Chat background",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Change custom image",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Choose from photos",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Set",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Use global chat background",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Translation ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Sign out “{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} session} other {{count} sessions}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Last active {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Developer diagnostics",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Network unavailable. Check your network settings.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

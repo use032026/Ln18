@@ -1,0 +1,348 @@
+{
+  "customer": "ลูกค้า",
+  "action": {
+    "claim": "รับงาน",
+    "closeThread": "ปิดการสนทนา",
+    "takeover": "รับช่วงโดยเจ้าหน้าที่"
+  },
+  "transfer": {
+    "confirm": "Transfer",
+    "currentStaff": "Current agent",
+    "detail": "Transfer the current conversation with \"{customer}\" to another agent. The recipient can view the full conversation history.",
+    "empty": "No transferable service members",
+    "loading": "Loading service members...",
+    "open": "Transfer to another agent",
+    "openShort": "Transfer",
+    "assignShort": "Assign",
+    "assign": {
+      "confirm": "Confirm assignment",
+      "detail": "Assign the current conversation with \"{customer}\" to an agent.",
+      "empty": "No assignable agents",
+      "loading": "Loading service members...",
+      "open": "Assign to agent",
+      "reasonLabel": "Assignment note",
+      "reasonPlaceholder": "Example: assign by language, queue ownership, or specialist skill",
+      "searchPlaceholder": "Search agent name or account",
+      "title": "Assign conversation",
+      "transferring": "Assigning..."
+    },
+    "reasonLabel": "Transfer note",
+    "reasonPlaceholder": "Example: customer requests Cantonese support, specialist follow-up needed",
+    "role": {
+      "admin": "Admin",
+      "customer_service": "Agent",
+      "owner": "Owner"
+    },
+    "searchPlaceholder": "Search agent name or account",
+    "selectTarget": "Select the target agent",
+    "title": "Transfer conversation",
+    "transferring": "Transferring...",
+    "unassignedStaff": "Unassigned",
+    "unavailable": "This conversation cannot be transferred yet. Claim or take over it first."
+  },
+  "send": {
+    "localFileExpired": "The local file expired. Select it again.",
+    "selectThread": "Select an online customer service conversation",
+    "sendInterruptedRetry": "Sending was interrupted. Click to retry.",
+    "threadClosedReadonly": "The conversation has ended and is now read-only.",
+    "videoPosterFailed": "Failed to generate video poster"
+  },
+  "contextPanel": {
+    "aiDraft": "AI draft",
+    "collapseCustomer": "Collapse customer info",
+    "dragSort": "Drag to reorder",
+    "emptyText": "Select a queued, active, or history conversation from the pool to view customer details.",
+    "emptyTitle": "No customer selected",
+    "expandCustomer": "Expand customer info",
+    "knowledge": "Knowledge base",
+    "pin": "Pin customer info",
+    "quickReply": "Quick replies",
+    "railAria": "Customer context shortcuts",
+    "selectFirst": "Select a conversation to view customer info",
+    "sessionInfo": "Conversation info",
+    "sessionNotesUnavailable": "Session notes are available only for online service temp sessions.",
+    "sessionSummary": "Conversation summary",
+    "sessionSummaryEmpty": "No conversation summary from the API yet.",
+    "title": "Customer info",
+    "toolsAria": "Customer service tools",
+    "unpin": "Unpin"
+  },
+  "sessionNotes": {
+    "add": "Add",
+    "contentRequired": "Enter a session note",
+    "contentTooLong": "Session notes cannot exceed {max} characters",
+    "count": "{count} notes",
+    "createFailed": "Failed to add note: {error}",
+    "createPinned": "Pin",
+    "created": "Note added",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this session note?",
+    "deleteFailed": "Failed to delete note: {error}",
+    "deleted": "Note deleted",
+    "editorLabel": "Session note content",
+    "empty": "No session notes",
+    "loadFailed": "Failed to load session notes: {error}",
+    "loading": "Loading session notes...",
+    "pin": "Pin",
+    "pinFailed": "Failed to update note pin: {error}",
+    "pinUpdated": "Note pin updated",
+    "placeholder": "Example: VIP customer, cares about refund timing",
+    "title": "Session notes",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time",
+    "unpin": "Unpin"
+  },
+  "transferRemarks": {
+    "closeAria": "Close transfer remarks",
+    "empty": "No transfer remarks",
+    "fromTo": "{from} transferred to {to}",
+    "inlineLabel": "Transfer note: {reason}",
+    "internalOnly": "Visible to agents only. Customers cannot see these notes.",
+    "noReason": "No transfer note",
+    "open": "Transfer remarks",
+    "openShort": "Transfer remarks",
+    "title": "Transfer remarks",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time"
+  },
+  "closeConfirm": {
+    "confirm": "ปิดการสนทนา",
+    "detail": "หลังจากปิด การสนทนาบริการนี้จะย้ายไปประวัติ และช่องพิมพ์จะเป็นแบบอ่านอย่างเดียว",
+    "pendingWarning": "ยังมีข้อความ {count} รายการที่ส่งไม่เสร็จ ควรจัดการก่อนปิดหากจำเป็น",
+    "risk": "หากผู้เยี่ยมชมติดต่ออีกครั้ง ระบบจะจัดคิวใหม่หรือสร้างเธรดบริการใหม่ตามกฎของเซิร์ฟเวอร์",
+    "title": "ปิดการสนทนากับ \"{customer}\" หรือไม่?"
+  },
+  "header": {
+    "autoTranslateDisabled": "ปิดสำหรับการสนทนานี้",
+    "autoTranslateEnabled": "เปิดสำหรับการสนทนานี้",
+    "autoTranslateGlobalDisabled": "ตามค่าทั่วไป ปิดอยู่",
+    "autoTranslateGlobalEnabled": "ตามค่าทั่วไป เปิดอยู่",
+    "autoTranslateNamed": "แปลอัตโนมัติ: {state}",
+    "actionsAria": "การทำงานของบทสนทนา",
+    "normalCustomer": "ลูกค้าทั่วไป",
+    "openCustomerInfo": "เปิดข้อมูลลูกค้า",
+    "pendingClaim": "รอรับงาน",
+    "pendingTakeover": "รอรับช่วง",
+    "readonly": "อ่านอย่างเดียว",
+    "replyable": "ตอบกลับได้",
+    "slaRisk": "ความเสี่ยง SLA",
+    "statusAria": "สถานะการสนทนาบริการลูกค้า",
+    "unread": "ยังไม่ได้อ่าน {count}",
+    "vipCustomer": "ลูกค้า VIP"
+  },
+  "reception": {
+    "autoEnableHint": "คลิกเพื่อเปลี่ยนเป็นสถานะออนไลน์และเปิดการมอบหมายอัตโนมัติ",
+    "control": "ควบคุมการรับบริการ",
+    "mode": "โหมดรับบริการ",
+    "queueMode": {
+      "auto": {
+        "description": "เซิร์ฟเวอร์มอบหมายการสนทนาในคิวให้เจ้าหน้าที่ออนไลน์ตามกฎ",
+        "disabledOffline": "เปิดการมอบหมายอัตโนมัติได้เฉพาะเมื่อออนไลน์",
+        "disabledUnsynced": "สถานะรับบริการยังไม่ซิงค์ จึงยังเปิดการมอบหมายอัตโนมัติไม่ได้",
+        "label": "มอบหมายอัตโนมัติ"
+      },
+      "manual": {
+        "description": "การสนทนาในคิวจะอยู่ในกลุ่มสนทนา ให้เจ้าหน้าที่รับเรื่องเอง",
+        "label": "รับเรื่องเอง"
+      }
+    },
+    "status": "สถานะรับบริการ",
+    "statusOption": {
+      "break": {
+        "description": "ออกจากที่นั่งชั่วคราวและไม่รับการสนทนาใหม่ในคิว",
+        "label": "พักชั่วคราว"
+      },
+      "busy": {
+        "description": "หยุดรับอัตโนมัติและดำเนินการสนทนาปัจจุบันต่อ",
+        "label": "ไม่ว่าง"
+      },
+      "offline": {
+        "description": "ไม่เข้าร่วมการรับบริการ ควรจัดการหรือโอนการสนทนาปัจจุบันก่อน",
+        "label": "ออฟไลน์"
+      },
+      "online": {
+        "description": "รับการสนทนาใหม่ได้และเข้าร่วมการมอบหมายอัตโนมัติ",
+        "label": "ออนไลน์"
+      },
+      "unsynced": {
+        "description": "กำลังซิงค์สถานะรับบริการ ค่าเริ่มต้นคือไม่ว่างและไม่รับเรื่อง"
+      }
+    },
+    "summary": "{status} · {mode} · {sessions}"
+  },
+  "messageStage": {
+    "aria": "แชทบริการลูกค้า",
+    "customerFallback": "ลูกค้า",
+    "customerReadAt": "ลูกค้าอ่านแล้ว {time}",
+    "customerReadTimeUnknown": "ไม่ทราบเวลาอ่านของลูกค้า",
+    "customerUnread": "ลูกค้ายังไม่อ่าน",
+    "read": "อ่านแล้ว",
+    "newMessages": "↓ ข้อความใหม่ {count} รายการ",
+    "typingPreviewEmpty": "The customer is typing...",
+    "typingPreviewLabel": "Customer is typing",
+    "unread": "ยังไม่อ่าน"
+  },
+  "online": {
+    "accessModeUnsynced": "โหมดรับบริการยังไม่ซิงค์",
+    "assistantNeedsWidth": "{pane} ต้องใช้พื้นที่ทำงานกว้างขึ้น โปรดขยายหน้าต่างหรือย่อคิวก่อน",
+    "autoAccess": "รับอัตโนมัติ",
+    "commandSummary": "การสนทนา {total} · {mode} · ความจุ {capacity}",
+    "commandTitle": "ศูนย์ควบคุมบริการลูกค้า",
+    "dragSort": "ลากเพื่อจัดเรียง",
+    "expandActiveTitle": "ขยายการสนทนาที่กำลังดำเนินการ ขณะนี้ {count} รายการ",
+    "expandQueue": "ขยายคิวรับบริการ",
+    "expandQueuedTitle": "ขยายการสนทนาในคิว ขณะนี้ {count} รายการ",
+    "expandSlaTitle": "ขยายการสนทนาที่เสี่ยง SLA ขณะนี้ {count} รายการ",
+    "expandUnreadTitle": "ขยายการสนทนาที่ยังไม่ได้อ่าน ขณะนี้ {count} รายการ",
+    "metrics": {
+      "capacity": "Capacity",
+      "assigned": "Assigned",
+      "maxAssignable": "Max assignable",
+      "queued": "Queued",
+      "active": "Active",
+      "unread": "Unread",
+      "sla": "SLA"
+    },
+    "manualAccess": "รับด้วยตนเอง",
+    "queueRailAria": "เรดาร์คิวบริการลูกค้า",
+    "receptionNotSynced": "สถานะรับบริการยังไม่ซิงค์ โปรดลองอีกครั้งภายหลัง",
+    "resizeAssistant": "ปรับความกว้างเครื่องมือช่วยเหลือ",
+    "resizeCustomer": "ปรับความกว้างข้อมูลลูกค้า",
+    "resizeList": "ปรับความกว้างรายการบริการลูกค้า",
+    "status": {
+      "online": "Online",
+      "busy": "Busy",
+      "break": "Break",
+      "offline": "Offline",
+      "unsynced": "Not synced"
+    },
+    "unread": "ยังไม่ได้อ่าน",
+    "unreadHint": "เปิดรายการยังไม่ได้อ่านที่รอดำเนินการแล้ว โปรดดูการสนทนาที่มีจุดแดงก่อน ตัวกรองยังไม่ได้อ่านเฉพาะรอ backend"
+  },
+  "threadList": {
+    "claim": "รับงาน",
+    "claiming": "กำลังรับงาน",
+    "claimTitle": "รับการสนทนาของผู้เยี่ยมชมนี้ด้วยตนเอง",
+    "current": "ปัจจุบัน",
+    "empty": {
+      "clearSearch": "ล้างการค้นหา",
+      "filteredDescription": "ไม่มีการสนทนาที่ต้องจัดการในตัวกรองปัจจุบัน สามารถสลับไปประวัติหรือรอผู้เยี่ยมชมในคิว",
+      "filteredTitle": "ตัวกรองปัจจุบันว่าง",
+      "historyFilteredDescription": "ไม่มีการสนทนาประวัติที่แสดงได้ในตัวกรองปัจจุบัน กลับไปการสนทนาปัจจุบันเพื่อจัดการต่อ",
+      "historyFilteredTitle": "ตัวกรองประวัติปัจจุบันว่าง",
+      "noCurrentDescription": "ผู้เยี่ยมชมที่เข้าคิวจะเข้าสู่กลุ่มการสนทนาอัตโนมัติ หรือสลับไปประวัติเพื่อดูการสนทนาที่จบแล้ว",
+      "noCurrentTitle": "ยังไม่มีการสนทนาปัจจุบัน",
+      "noHistoryDescription": "การสนทนาที่จบแล้วจะเข้าสู่รายการประวัติ ตอนนี้ให้ติดตามคิว กำลังดำเนินการ และความเสี่ยง SLA",
+      "noHistoryTitle": "ยังไม่มีการสนทนาประวัติ",
+      "noSlaTitle": "ยังไม่มีความเสี่ยง SLA",
+      "queuedDescription": "ไม่มีผู้เยี่ยมชมรอรับงาน สามารถสลับไปทั้งหมดหรือกำลังดำเนินการ",
+      "searchCurrentDescription": "ไม่พบรายการที่ตรงกันในกลุ่มการสนทนาปัจจุบัน ล้างการค้นหาหรือสลับไปประวัติ",
+      "searchHistoryDescription": "ไม่พบลูกค้า ช่องทาง หรือเนื้อหาข้อความที่ตรงกันในประวัติ ล้างการค้นหาเพื่อดูต่อ",
+      "searchTitle": "ไม่พบการสนทนาที่ตรงกัน",
+      "servingDescription": "ไม่มีการสนทนาที่กำลังรับบริการ สลับไปคิวเพื่อรับผู้เยี่ยมชมหรือดูประวัติ",
+      "slaDescription": "ยังไม่พบสัญญาณความเสี่ยง SLA กลับไปการสนทนาทั้งหมดแล้วจัดการตามยังไม่ได้อ่านหรือเวลาข้อความล่าสุด",
+      "viewAll": "ดูทั้งหมด",
+      "viewQueued": "ดูคิว"
+    },
+    "filterAll": "ทั้งหมด",
+    "filterAria": "ตัวกรองบริการลูกค้า",
+    "filterQueued": "คิว",
+    "filterServing": "กำลังดำเนินการ",
+    "history": "ประวัติ",
+    "historyStatus": {
+      "closedByVisitor": "Closed by visitor",
+      "closedByStaff": "Closed by agent",
+      "closedTimeout": "Closed by timeout",
+      "closedSystem": "Closed by system",
+      "transferred": "Transferred",
+      "archived": "Archived",
+      "ended": "Ended"
+    },
+    "historyStatusUnread": "Ended · {count} unread",
+    "historyThread": "การสนทนาประวัติ",
+    "loadMore": "โหลดเพิ่ม",
+    "loadFailed": "โหลดการสนทนาไม่สำเร็จ โปรดลองอีกครั้งภายหลัง",
+    "loading": "กำลังโหลดการสนทนา...",
+    "loadingMore": "กำลังโหลดเพิ่ม...",
+    "modeTabsAria": "ปัจจุบันและประวัติ",
+    "noMessage": "ยังไม่มีข้อความ",
+    "queueMetaMinutes": "คิวลำดับที่ {position} · เวลารอโดยประมาณ {minutes} นาที",
+    "queueMetaSeconds": "คิวลำดับที่ {position} · เวลารอโดยประมาณ {seconds} วินาที",
+    "queueMetaUnknown": "คิวลำดับที่ {position} · เวลารอโดยประมาณ --",
+    "queuePosition": "คิว #{position}",
+    "queueWaitMinutes": "รอ {minutes} นาที",
+    "queueWaitSeconds": "รอ {seconds} วินาที",
+    "queueWaitUnknown": "รอ --",
+    "queueWaiting": "อยู่ในคิว · รอรับเรื่อง",
+    "queueWaitingAutomatic": "อยู่ในคิว · รอการจัดสรรอัตโนมัติ",
+    "readonly": "อ่านอย่างเดียว",
+    "searchPlaceholder": "ค้นหาลูกค้า ช่องทาง หรือเนื้อหาการสนทนา",
+    "showMore": "แสดงการสนทนาเพิ่มอีก {count} รายการ",
+    "summary": "ปัจจุบัน {current} · คิว {queued} · ประวัติ {history}",
+    "title": "กลุ่มการสนทนา",
+    "unknownCustomer": "ลูกค้าไม่ทราบชื่อ"
+  },
+  "status": {
+    "aiTransfer": "โอนจาก AI ไปยังเจ้าหน้าที่",
+    "closed": "สิ้นสุดแล้ว",
+    "queueing": "ลูกค้ากำลังรอ",
+    "serving": "เจ้าหน้าที่กำลังให้บริการ",
+    "unknown": "กำลังซิงค์สถานะ"
+  },
+  "visitor": "ผู้เยี่ยมชม",
+  "workspace": {
+    "actionFailed": "{action}: {error}",
+    "aiDraftInsertedNotice": "แทรกคำแนะนำตอบกลับ AI ในช่องพิมพ์แล้ว โปรดยืนยันก่อนส่งให้ลูกค้า",
+    "closedUnreadNotice": "มีข้อความยังไม่ได้อ่าน {count} รายการก่อนปิด",
+    "closing": "กำลังปิด...",
+    "composerDisabled": {
+      "automaticAssignment": "เปิดการจัดสรรอัตโนมัติแล้ว คุณจะตอบกลับได้หลังจากระบบจัดสรรการสนทนา",
+      "claim": "การสนทนานี้ยังอยู่ในคิว โปรดรับเรื่องก่อน",
+      "managementReadonly": "โหมดดูเท่านั้น ไม่สามารถตอบกลับได้ การสนทนายังดำเนินอยู่และสามารถโอนไปยังเจ้าหน้าที่ได้",
+      "readonly": "การสนทนานี้สิ้นสุดแล้ว ไม่สามารถตอบต่อได้",
+      "transferred": "การสนทนานี้ถูกโอนแล้ว ไม่สามารถตอบกลับได้",
+      "takeover": "การสนทนานี้ยังให้ AI จัดการอยู่ โปรดรับช่วงด้วยตนเองก่อน"
+    },
+    "currentCustomer": "ลูกค้าปัจจุบัน",
+    "editFailed": "แก้ไขไม่สำเร็จ",
+    "emptyAiDraft": "คำแนะนำตอบกลับ AI นี้ยังไม่มีข้อความที่แทรกได้",
+    "emptyAssistantContent": "เนื้อหาช่วยเหลือนี้ยังไม่มีข้อความที่แทรกได้",
+    "emptyKnowledgeContent": "เนื้อหาความรู้นี้ยังไม่มีข้อความที่แทรกได้",
+    "fileCopied": "คัดลอกไฟล์แล้ว",
+    "imageCopied": "คัดลอกรูปภาพแล้ว",
+    "insertedNotice": "แทรกในช่องพิมพ์แล้ว โปรดยืนยันก่อนส่งให้ลูกค้า",
+    "mediaNoUrl": "ข้อความสื่อนี้ไม่มีที่อยู่ที่จัดการได้",
+    "openFailed": "เปิดไม่สำเร็จ",
+    "opened": "เปิดแล้ว",
+    "openedForEdit": "เปิดเพื่อแก้ไขแล้ว",
+    "lookupLoadedRangeOnly": "ขณะนี้ระบุตำแหน่งได้เฉพาะข้อความบริการลูกค้าที่โหลดแล้ว",
+    "revealFailed": "แสดงตำแหน่งไฟล์ไม่สำเร็จ",
+    "revealedInFinder": "แสดงใน Finder แล้ว",
+    "revealedInFolder": "แสดงในโฟลเดอร์แล้ว",
+    "saveAsFailed": "บันทึกเป็นไม่สำเร็จ",
+    "savedAs": "บันทึกเป็นแล้ว",
+    "selectThread": "โปรดเลือกการสนทนาบริการลูกค้า",
+    "serviceConversation": "การสนทนาบริการลูกค้า",
+    "threadChangedConfirmAgain": "การสนทนาปัจจุบันเปลี่ยนแล้ว โปรดยืนยันการปิดอีกครั้ง",
+    "inline": {
+      "emptyMessages": "ยังไม่มีประวัติข้อความ สามารถดูข้อมูลลูกค้าก่อนหรือรอให้ผู้เยี่ยมชมเริ่มสนทนา",
+      "loadFailed": "โหลดการสนทนาไม่สำเร็จ: {error}",
+      "loading": "กำลังโหลดการสนทนา...",
+      "noThread": "เลือกการสนทนาในคิว กำลังดำเนินการ หรือประวัติเพื่อเริ่มจัดการ"
+    },
+    "mode": {
+      "current": "กำลังรับบริการ",
+      "history": "การสนทนาประวัติ",
+      "viewing": "โหมดดู"
+    },
+    "reception": {
+      "ai": "ขณะนี้ AI กำลังจัดการ · จาก {source} · ต้องรับช่วงก่อนตอบด้วยตนเอง",
+      "automaticAssignment": "ลูกค้าอยู่ในคิว · จาก {source} · รอระบบจัดสรรอัตโนมัติ",
+      "ended": "การสนทนาสิ้นสุดแล้ว · {status}",
+      "queued": "ลูกค้าอยู่ในคิว · จาก {source} · ต้องรับเรื่องก่อนตอบด้วยตนเอง",
+      "serving": "รับการสนทนาแล้ว · จาก {source} · สามารถสนทนาต่อได้",
+      "viewing": "โหมดดู · {status} · จาก {source} · ไม่สามารถตอบกลับ"
+    },
+    "unknownSource": "ไม่ทราบแหล่งที่มา"
+  }
+}

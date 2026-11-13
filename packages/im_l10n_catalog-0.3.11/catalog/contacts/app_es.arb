@@ -1,0 +1,370 @@
+{
+  "@@locale": "es",
+  "contactsTitle": "Contactos",
+  "contactsSearch": "Buscar contactos",
+  "contactsNewFriends": "Nuevos amigos",
+  "contactsGroups": "Grupos",
+  "contactsFavorites": "Favoritos",
+  "contactsRecent": "Recientes",
+  "contactsOrganization": "Organización",
+  "contactsAnnouncement": "Anuncios",
+  "contactsNewApplications": "Nuevas solicitudes",
+  "contactsCustomerGroups": "Grupos de clientes",
+  "contactsAllCustomers": "Todos los clientes",
+  "contactsMyCustomers": "Mis clientes",
+  "contactsViewAll": "Ver todo",
+  "contactsMyContacts": "Mis contactos",
+  "contactsMyAdvisor": "Mi asesor",
+  "contactsNoAdvisor": "Aún no hay asesor asignado",
+  "contactsAdvisorLoading": "Cargando...",
+  "contactsNavigateFailed": "No se pudo abrir. Inténtalo de nuevo",
+  "contactsEmpty": "Sin contactos",
+  "contactsNoAnnouncement": "Sin anuncios",
+  "contactsOfficialBadge": "Oficial",
+  "contactsCustomerBadge": "Cliente",
+  "contactsEmptyCustomers": "Sin clientes",
+  "friendAddTitle": "Añadir contacto",
+  "friendSearchHint": "Teléfono / Correo / ID de StartLink",
+  "friendRequestSent": "Solicitud de amistad enviada",
+  "friendRequestFailed": "No se pudo enviar. Inténtalo de nuevo",
+  "friendAlreadyFriend": "Ya sois contactos",
+  "friendNewFriendsTitle": "Nuevos amigos",
+  "friendNoRequests": "Sin solicitudes de amistad",
+  "friendAccept": "Aceptar",
+  "friendReject": "Rechazar",
+  "friendAccepted": "Aceptada",
+  "friendRejected": "Rechazado",
+  "friendDeleteConfirm": "¿Eliminar este contacto?",
+  "friendDeleteSuccess": "Contacto eliminado",
+  "friendDeleteFailed": "No se pudo eliminar. Inténtalo de nuevo",
+  "friendRemarkName": "Apodo",
+  "friendGroupName": "Grupo",
+  "friendSendMessage": "Mensaje",
+  "friendMatchTypeLppId": "Encontrado por ID de StartLink",
+  "friendMatchTypeMobile": "Encontrado por teléfono",
+  "friendMatchTypeEmail": "Encontrado por correo",
+  "friendSearchEmpty": "No se encontraron usuarios",
+  "friendAddMessage": "Me gustaría añadirte como contacto",
+  "friendBlockConfirm": "¿Bloquear a este usuario?",
+  "friendUnblockConfirm": "¿Desbloquear a este usuario?",
+  "friendBlockSuccess": "Bloqueado",
+  "friendUnblockSuccess": "Desbloqueado",
+  "searchTitle": "Buscar",
+  "searchHint": "Buscar por teléfono, correo o ID de StartLink",
+  "searchNoResults": "No se encontraron resultados",
+  "searchMessages": "Mensajes",
+  "searchUsers": "Usuarios",
+  "searchFailed": "Error de búsqueda. Inténtalo de nuevo",
+  "scanTitle": "Escanear",
+  "scanFailed": "No se pudo reconocer. Inténtalo de nuevo",
+  "scanInvalidQrCode": "Código QR no válido",
+  "scanFlashOn": "Encender linterna",
+  "scanFlashOff": "Apagar linterna",
+  "scanAlbum": "Elegir del álbum",
+  "blacklistTitle": "En lista negra",
+  "blacklistEmpty": "Sin usuarios bloqueados",
+  "blacklistRemove": "Desbloquear",
+  "blacklistRemoveConfirm": "¿Desbloquear a este usuario?",
+  "addFriendTitle": "Añadir contacto",
+  "addFriendSearchHint": "Teléfono / Correo / ID de StartLink",
+  "addFriendLppIdLabel": "ID de StartLink: {lppId}",
+  "addFriendButton": "Añadir",
+  "addFriendCannotAddSelf": "No puedes añadirte a ti mismo",
+  "addFriendUnsupportedUser": "No puedes añadir a este usuario. Puedes enviarle mensajes directamente.",
+  "addFriendMessageHint": "Introduce un mensaje",
+  "addFriendSendRequest": "Enviar solicitud",
+  "scanAlreadyGroupMember": "Ya estás en este grupo",
+  "scanCameraInitializing": "La cámara se está iniciando. Inténtalo dentro de un momento.",
+  "scanCameraPermissionRequired": "Permite el acceso a la cámara para escanear códigos QR",
+  "scanCameraStartFailed": "No se pudo iniciar la cámara. Inténtalo más tarde.",
+  "scanCameraStarting": "Iniciando la cámara",
+  "scanCameraUnsupported": "Este dispositivo no permite escanear códigos QR",
+  "scanDesktopAlbumUnsupported": "La lectura de códigos QR de imágenes no está disponible en escritorio",
+  "scanDesktopUnsupported": "El escaneo de códigos QR no está disponible en escritorio. Usa la aplicación móvil.",
+  "scanEnterGroup": "Abrir chat de grupo",
+  "scanFallbackFriendName": "Contacto",
+  "scanFrameHint": "Coloca el código QR dentro del marco para escanearlo automáticamente",
+  "scanFriendAddUnavailable": "Ahora no puedes añadir este contacto mediante este código QR",
+  "scanFriendAdded": "Ahora sois contactos",
+  "scanFriendBlocked": "Esta persona no puede recibir tu solicitud de amistad ahora",
+  "scanFriendIsolation": "No puedes añadir este contacto en el espacio actual",
+  "scanFriendQrExhausted": "Este código QR ha alcanzado su límite de usos. Pide uno nuevo.",
+  "scanFriendQrExpiredPreview": "Este código QR de contacto ha caducado o no está disponible",
+  "scanFriendQrRevoked": "Este código QR ya no es válido. Pide uno nuevo.",
+  "scanFriendRequestPending": "Solicitud de amistad enviada. Esperando aprobación.",
+  "scanFriendRequestsDisabled": "Esta persona no acepta solicitudes de amistad",
+  "scanGroupApprovalHint": "Para unirte a este grupo necesitas la aprobación de su propietario o un administrador",
+  "scanGroupJoinFailed": "No se pudo enviar la solicitud de incorporación al grupo",
+  "scanGroupJoinPending": "Solicitud de incorporación al grupo enviada. Esperando aprobación.",
+  "scanGroupJoinUnavailable": "Ahora no puedes unirte a este grupo mediante este código QR",
+  "scanGroupJoined": "Te has unido al grupo",
+  "scanGroupPermissionDenied": "No tienes permiso para unirte a este grupo mediante este código QR",
+  "scanGroupProcessFailed": "No se pudo procesar el código QR del grupo",
+  "scanGroupQrDisabled": "El propietario o un administrador ha desactivado la incorporación mediante código QR",
+  "scanGroupQrExhausted": "Este código QR ha alcanzado su límite de usos. Pide uno nuevo a un miembro del grupo.",
+  "scanGroupQrExpired": "Este código QR ha caducado. Pide uno nuevo a un miembro del grupo.",
+  "scanGroupQrRevoked": "Este código QR se ha revocado. Pide uno nuevo a un miembro del grupo.",
+  "scanGroupQrUnavailable": "Este código QR ya no es válido. Pide uno nuevo a un miembro del grupo.",
+  "scanGroupScannerInvalid": "Esta cuenta no puede unirse a este grupo",
+  "scanImageReadFailed": "No se pudo leer la imagen. Inténtalo de nuevo.",
+  "scanIncomingFriendRequest": "Esta persona ya te ha enviado una solicitud de amistad. Revísala primero.",
+  "scanInvalidGroupQr": "Código QR de grupo no válido",
+  "scanInviterDeleted": "Esta cuenta de usuario se ha eliminado",
+  "scanJoinGroup": "Unirse al grupo",
+  "scanJoinGroupConfirmation": "¿Unirte a este grupo?",
+  "scanMutualFriendsOnly": "Esta persona solo acepta solicitudes de personas con amigos en común",
+  "scanNoQrFound": "No se encontró ningún código QR",
+  "scanOwnQr": "Este es tu propio código QR",
+  "scanPluginUnavailable": "El escaneo no está disponible. Cierra completamente la aplicación e inténtalo de nuevo.",
+  "scanProcessFailed": "No se pudo procesar el código QR",
+  "scanQrExpired": "Este código QR ha caducado",
+  "scanQrUnavailableTitle": "El código QR ya no es válido",
+  "scanSendFriendConfirmation": "¿Enviar una solicitud de amistad?",
+  "scanTorchFailed": "No se pudo cambiar la linterna. Inténtalo más tarde.",
+  "scanTorchUnavailable": "Este dispositivo no tiene linterna",
+  "scanUnsupportedQr": "Este código QR no es compatible",
+  "contactsRequestsUnavailable": "Las solicitudes de amistad no están disponibles temporalmente",
+  "contactsTryLater": "Inténtalo más tarde",
+  "contactsQrSource": "Código QR",
+  "contactsRequestStatusInvalid": "Estado no válido",
+  "contactsCustomerTagFilter": "Filtro de etiquetas de clientes",
+  "contactsOverviewTitle": "Resumen de clientes",
+  "contactsLoaded": "Cargado",
+  "contactsAssigned": "Asignado",
+  "contactsUnassigned": "Sin asignar",
+  "contactsCustomerDataError": "No se pudieron cargar los clientes. Comprueba la conexión o el estado de la sesión e inténtalo de nuevo.",
+  "contactsTagFilter": "Filtrar por etiqueta",
+  "contactsReassign": "Reasignar",
+  "contactsCustomersLoadFailed": "No se pudieron cargar los clientes",
+  "contactsNoAssigned": "Sin clientes asignados",
+  "contactsNoUnassigned": "Sin clientes pendientes de asignación",
+  "contactsDirectoryDenied": "Tu rol no puede acceder al directorio de clientes",
+  "contactsApplicationAccessDenied": "Solo los administradores o propietarios de la organización pueden ver nuevas solicitudes",
+  "contactsApplicationsUnavailable": "Las solicitudes de incorporación no están disponibles temporalmente",
+  "contactsPullToRetry": "No se pudo cargar. Desliza hacia abajo para actualizar e inténtalo de nuevo.",
+  "contactsApplicationApproved": "Solicitud aprobada",
+  "contactsApplicantUnavailable": "Los datos del solicitante no están disponibles temporalmente",
+  "contactsApplicationApprove": "Aprobado",
+  "contactsApplicationAccepted": "Aprobado",
+  "contactsFriendRequests": "Solicitudes de amistad",
+  "contactsRecentActive": "Actividad reciente",
+  "contactsRecentActiveUnavailable": "La actividad reciente de clientes no está disponible temporalmente",
+  "contactsMyCustomersRetry": "No se pudieron cargar tus clientes. Pulsa para reintentar.",
+  "contactsLoadRetry": "No se pudieron cargar los contactos. Pulsa para reintentar.",
+  "contactsLoadFailed": "No se pudieron cargar los contactos",
+  "contactsNoCustomerYet": "Aún no hay clientes",
+  "contactsInviteCustomerHint": "Invita a clientes compartiendo tu código QR o el código de la organización",
+  "contactsShareQr": "Compartir mi código QR",
+  "contactsScanFriendHint": "Escanea el código QR para enviarme una solicitud de amistad",
+  "contactsQrToken": "Identificador del código QR",
+  "contactsQrUsage": "Número de usos",
+  "contactsQrNote": "Nota predeterminada",
+  "contactsCopyQr": "Copiar contenido del código QR",
+  "contactsGeneratingQr": "Creando vídeo...",
+  "contactsRegenerateQr": "Generar un nuevo código QR",
+  "contactsQrLoadFailed": "No se pudo cargar el código QR",
+  "contactsSearchGroups": "Buscar grupos",
+  "contactsNoMatchingGroups": "Sin chats de grupo coincidentes",
+  "contactsCreateGroupHint": "Pulsa + arriba a la derecha para iniciar un chat de grupo",
+  "contactsGroupOverview": "Resumen de supervisión de grupos",
+  "contactsGroupsLabel": "Grupos",
+  "contactsCurrentFilter": "Filtro actual",
+  "contactsFreeze": "Congelar",
+  "contactsRisk": "Riesgo",
+  "contactsGroupStatisticsUnavailable": "Las estadísticas de supervisión de grupos no están disponibles temporalmente",
+  "contactsGroupList": "Lista de grupos",
+  "contactsNoGroupData": "Sin grupos disponibles",
+  "contactsNoMatchingGroupData": "Sin grupos coincidentes",
+  "contactsGroupDataUnavailable": "No se pueden mostrar los grupos ahora. Inténtalo más tarde.",
+  "contactsFrozen": "Congelado",
+  "contactsNormal": "Activo",
+  "contactsGroupSupervisionDetail": "Detalles de supervisión del grupo",
+  "contactsFreezeStatus": "Estado de congelación",
+  "contactsRiskStatus": "Estado de riesgo",
+  "contactsGroupId": "ID del grupo",
+  "contactsUnfreeze": "Descongelar",
+  "contactsAdminMuteAll": "Silenciar a todos los miembros del grupo",
+  "contactsAdminMembers": "Gestión de miembros del grupo",
+  "contactsForceDissolve": "Disolver de forma forzada",
+  "contactsAdminDissolve": "Disolver grupo de forma forzada",
+  "contactsNoCustomerContacts": "Aún no hay contactos de clientes",
+  "contactsNoMatchingCustomers": "Sin clientes coincidentes",
+  "contactsCustomerContactsRetry": "No se pudieron cargar los contactos de clientes. Pulsa para reintentar.",
+  "contactsFriendsOnlySetting": "Este ajuste solo está disponible para amigos",
+  "contactsHandleFriendRequest": "Revisar solicitud de amistad",
+  "contactsSaved": "Guardado",
+  "contactsPrivateGender": "Género (solo visible para ti)",
+  "contactsTags": "Etiquetas",
+  "contactsMoreInfo": "Más información",
+  "contactsMutualGroupsHeading": "Grupos en común",
+  "contactsNone": "Ninguno",
+  "contactsSource": "Origen",
+  "contactsAddedAt": "Añadido el",
+  "contactsGroupOpenFailed": "Este chat de grupo no se puede abrir ahora",
+  "contactsMutualGroups": "Grupos en común",
+  "contactsMutualGroupsSyncing": "Sincronizando grupos en común",
+  "contactsNoMutualGroups": "Sin grupos en común",
+  "contactsDiscardTitle": "¿Descartar cambios?",
+  "contactsUnsavedChanges": "Los cambios no se han guardado.",
+  "contactsContinueEditing": "Seguir editando",
+  "contactsDiscardChanges": "Descartar cambios",
+  "contactsEditRemark": "Editar nota",
+  "contactsAddRemark": "Añadir nota",
+  "contactsAddTag": "Añadir etiqueta",
+  "contactsAddText": "Añadir texto",
+  "contactsEditTags": "Editar etiquetas",
+  "contactsAddedTags": "Etiquetas añadidas",
+  "contactsEnterTag": "Introduce una etiqueta",
+  "contactsProfileLoadFailed": "No se pudo cargar el perfil. Inténtalo de nuevo.",
+  "contactsDeleteFriend": "Eliminar amigo",
+  "contactsFriendSettings": "Ajustes del amigo",
+  "contactsBlockUser": "Bloquear usuario",
+  "contactsDeleting": "Eliminando…",
+  "contactsReassignHint": "Elige un nuevo agente. También se transferirán las conversaciones de atención relacionadas.",
+  "contactsAssignOwnerOnly": "Esta cuenta no puede asignar agentes. Usa una cuenta de propietario de la organización.",
+  "contactsAssignRetry": "No se pudo asignar un agente. Inténtalo más tarde.",
+  "contactsEnterpriseTags": "Etiquetas de la organización",
+  "contactsTagsCommaHint": "Separa varias etiquetas con comas",
+  "contactsEnterpriseTagsSaved": "Etiquetas de la organización guardadas",
+  "contactsTagsSaveFailed": "No se pudieron guardar las etiquetas. Inténtalo más tarde.",
+  "contactsSharedTagsHint": "Sirven para filtrar clientes y se comparten dentro de la organización",
+  "contactsOwnerActionsHint": "Los propietarios pueden cambiar el agente asignado a este cliente. Los registros de conversaciones de atención no están disponibles temporalmente.",
+  "contactsViewChatInfo": "Ver información del chat",
+  "contactsCustomerServiceGroups": "Grupos de atención de este cliente",
+  "contactsCannotAddFriend": "Añadir amigos no está disponible actualmente",
+  "contactsSaving": "Guardando...",
+  "contactsRequestSource": "Solicitud a través de {source}",
+  "@contactsRequestSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestSourceMessage": "{source} · {message}",
+  "@contactsRequestSourceMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOutgoingRequestMessage": "Has enviado una solicitud de amistad · {message}",
+  "@contactsOutgoingRequestMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomersLoaded": "{count, plural, one {{count} cliente cargado} other {{count} clientes cargados}}",
+  "@contactsCustomersLoaded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsAssignedAgent": "Agente asignado: {agent}",
+  "@contactsAssignedAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRequestReference": "Referencia: {requestId}",
+  "@contactsRequestReference": {
+    "placeholders": {
+      "requestId": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsPendingCount": "Pendientes ({count})",
+  "@contactsPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsProcessedCount": "Tramitadas ({count})",
+  "@contactsProcessedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrExpires": "Válido hasta {time}",
+  "@contactsQrExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsQrUnlimitedUsage": "{count} / Sin límite",
+  "@contactsQrUnlimitedUsage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsQrDefaultNote": "Escanea para añadirme como amigo",
+  "contactsItemCount": "{count, plural, one {{count} grupo} other {{count} grupos}}",
+  "@contactsItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactsNicknameValue": "Apodo: {name}",
+  "@contactsNicknameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsRegionValue": "Región: {region}",
+  "@contactsRegionValue": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsOriginalNickname": "Apodo original: {name}",
+  "@contactsOriginalNickname": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsDeleteFriendConfirm": "¿Eliminar a {name} como amigo? Se conservará el historial de chat existente.",
+  "@contactsDeleteFriendConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsAssignedTo": "Asignado a {name}",
+  "@contactsAssignedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsCustomerChatUnavailableTitle": "Conversaciones del cliente no disponibles",
+  "contactsCustomerChatUnavailable": "No se pueden consultar las conversaciones de atención de este cliente ahora. Inténtalo más tarde."
+}

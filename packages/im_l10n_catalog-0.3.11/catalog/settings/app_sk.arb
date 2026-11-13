@@ -1,0 +1,471 @@
+{
+  "@@locale": "sk",
+  "settingsTitle": "Nastavenia",
+  "settingsSectionEnterprise": "Firma",
+  "settingsSectionAccount": "Účet",
+  "settingsSectionGeneral": "Všeobecné",
+  "settingsSectionFeatures": "Funkcie",
+  "settingsSectionAbout": "O aplikácii",
+  "settingsEnterpriseInfo": "Údaje firmy",
+  "settingsProfile": "Môj profil",
+  "settingsAccountSecurity": "Zabezpečenie účtu",
+  "settingsNotification": "Oznámenia",
+  "settingsDisplay": "Zobrazenie",
+  "settingsFriendPrivacy": "Súkromie",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "História chatov",
+  "settingsAbout": "O aplikácii StartLink",
+  "settingsLanguage": "Jazyk",
+  "settingsTimezone": "Časové pásmo",
+  "settingsAutoTranslate": "Automatický preklad",
+  "settingsNetworkSwitch": "Prepnúť linku",
+  "aboutTitle": "O aplikácii StartLink",
+  "aboutVersion": "Verzia",
+  "aboutTerms": "Užívateľská zmluva",
+  "aboutPrivacy": "Zásady ochrany osobných údajov",
+  "aboutOpenSource": "Licencie otvoreného softvéru",
+  "aboutCheckUpdate": "Skontrolovať aktualizácie",
+  "aboutLatestVersion": "Používate najnovšiu verziu.",
+  "aboutUpdateAvailable": "K dispozícii je nová verzia",
+  "aboutUpdateNow": "Aktualizovať teraz",
+  "aboutUpdateLater": "Neskôr",
+  "networkTitle": "Prepnúť linku",
+  "networkAutoSelect": "Automaticky",
+  "networkManual": "Ručne",
+  "timezoneTitle": "Časové pásmo",
+  "timezoneAuto": "Podľa systému",
+  "displayTitle": "Zobrazenie",
+  "displayFontSize": "Veľkosť písma",
+  "displayChatBackground": "Pozadie chatu",
+  "displayDarkMode": "Vzhľad",
+  "displayDarkModeSystem": "Podľa systému",
+  "displayDarkModeSystemHint": "Automaticky prepínať podľa nastavenia systému",
+  "displayDarkModeOff": "Svetlý",
+  "displayDarkModeOffHint": "Vždy používať svetlý motív",
+  "displayDarkModeOn": "Tmavý",
+  "displayDarkModeOnHint": "Vždy používať tmavý motív",
+  "accountSecurityTitle": "Zabezpečenie účtu",
+  "accountSecurityChangePassword": "Zmeniť heslo",
+  "accountSecurityChangeMobile": "Zmeniť telefónne číslo",
+  "accountSecurityChangeEmail": "Zmeniť e-mail",
+  "accountSecurityLoggedDevices": "Prihlásené zariadenia",
+  "accountSecurityDeactivate": "Zrušiť účet",
+  "accountSecurityDeactivateConfirm": "Po 7 dňoch sa všetky údaje natrvalo odstránia. Zrušiť účet?",
+  "loggedDevicesTitle": "Prihlásené zariadenia",
+  "loggedDevicesCurrent": "Toto zariadenie",
+  "loggedDevicesRevoke": "Odhlásiť sa",
+  "loggedDevicesRevokeConfirm": "Odhlásiť sa z tohto zariadenia?",
+  "loggedDevicesRevokeSuccess": "Zo zariadenia ste odhlásení",
+  "loggedDevicesRevokeFailed": "Zlyhalo. Skúste to znova.",
+  "loggedDevicesLastActive": "Posledná aktivita",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Počítač",
+  "loggedDevicesTypeUnknown": "Neznáme zariadenie",
+  "fontSizeTitle": "Veľkosť písma",
+  "fontSizeSmall": "Malé",
+  "fontSizeNormal": "Štandardné",
+  "fontSizeLarge": "Veľké",
+  "fontSizeExtraLarge": "Extra veľké",
+  "fontSizePreview": "Náhľad",
+  "timezoneNameHawaii": "Havaj",
+  "timezoneNameAlaska": "Aljaška",
+  "timezoneNamePacificTime": "Tichomorský čas",
+  "timezoneNameMountainTime": "Horský čas",
+  "timezoneNameCentralTime": "Centrálny čas",
+  "timezoneNameEasternTime": "Východný čas",
+  "timezoneNameAtlanticTime": "Atlantický čas",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azory",
+  "timezoneNameLondonDublin": "Londýn/Dublin",
+  "timezoneNameBerlinParisRome": "Berlín/Paríž/Rím",
+  "timezoneNameCairoHelsinki": "Káhira/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskva/Rijád",
+  "timezoneNameTehran": "Teherán",
+  "timezoneNameDubaiBaku": "Dubaj/Baku",
+  "timezoneNameKabul": "Kábul",
+  "timezoneNameKarachiTashkent": "Karáči/Taškent",
+  "timezoneNameMumbaiNewDelhi": "Bombaj/Naí Dillí",
+  "timezoneNameKathmandu": "Káthmandu",
+  "timezoneNameDhakaAlmaty": "Dháka/Almaty",
+  "timezoneNameYangon": "Rangún",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoj/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Šanghaj/Hongkong/Tchaj-pej",
+  "timezoneNameTokyoSeoul": "Tokio/Soul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Šalamúnove ostrovy",
+  "timezoneNameAucklandFiji": "Auckland/Fidži",
+  "networkSmartSelectBestRoute": "Inteligentne vybrať najlepšiu trasu",
+  "networkTesting": "Testuje sa...",
+  "networkTestingShort": "Testovanie",
+  "networkLatencyMs": "Odozva {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Režim pripojenia",
+  "networkDirectMode": "Priamy režim",
+  "networkProxyMode": "Režim proxy",
+  "networkDirectModeDesc": "Pripojiť priamo k serveru",
+  "networkProxyModeDesc": "Pripojiť cez proxy server",
+  "networkDirectRoutes": "Priame trasy",
+  "networkProxyRoutes": "Proxy trasy",
+  "networkTestAll": "Otestovať všetko",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Uzol v Hongkongu",
+  "networkSingaporeNode": "Uzol v Singapure",
+  "networkJapanNode": "Uzol v Japonsku",
+  "networkUnitedStatesNode": "Uzol v Spojených štátoch",
+  "networkHint": "Tipy:\n• Priamy režim: rýchlejší a vhodný na domáce použitie\n• Režim proxy: stabilnejší pri cezhraničnej komunikácii\n• Klepnutím na ikonu obnovenia otestujete odozvu jednej trasy",
+  "diagnosticsTitle": "Diagnostika",
+  "diagnosticsExplanation": "Protokoly sú anonymizované a obsahujú prevádzkové a chybové informácie pre tento účet a priestor a verejné udalosti spustenia. Obsah chatov a prihlasovacie údaje nie sú zahrnuté.",
+  "diagnosticsHour": "Posledná hodina",
+  "diagnosticsDay": "Posledných 24 hodín",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Dostupné udalosti: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Protokoly sa ukladajú v tomto zariadení a zostanú dostupné po reštarte.",
+  "diagnosticsNotPersistent": "Niektoré protokoly neboli uložené. Obnovením skúste znova.",
+  "diagnosticsExport": "Exportovať a zdieľať",
+  "diagnosticsRefresh": "Obnoviť",
+  "diagnosticsClear": "Vymazať protokoly tohto priestoru",
+  "diagnosticsClearConfirm": "Vymazať diagnostické protokoly tohto priestoru? História chatov sa zachová.",
+  "diagnosticsShared": "Systémové zdieľanie dokončené. Overte súbor v cieľovej aplikácii.",
+  "diagnosticsCancelled": "Zdieľanie zrušené. Môžete exportovať znova.",
+  "diagnosticsUnconfirmed": "Zdieľanie sa nepodarilo potvrdiť. Skontrolujte cieľovú aplikáciu.",
+  "diagnosticsFailed": "Akcia zlyhala. Skúste to znova.",
+  "settingsDeleteWarning": "Odstránením účtu sa zrušia všetky vaše členstvá vo firmách. Históriu správ nemožno obnoviť.\n\nPočas sedemdňovej ochrannej lehoty sa môžete znova prihlásiť a odstránenie zrušiť.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Pokračovať v odstránení",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Konečné potvrdenie",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Odstrániť účet? Po 7 dňoch bude odstránenie trvalé.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Dôvod odstránenia (voliteľné)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "O odstránenie bolo požiadané. Na zrušenie sa prihláste do 7 dní.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Potvrdiť odstránenie účtu",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Účet sa nepodarilo odstrániť. Skúste to znova.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Blokovaní používatelia vám nemôžu posielať správy ani zobrazovať váš profil a príspevky.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Odosielať klávesom Enter",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Načítanie zlyhalo, ťuknutím skúste znova",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Súhlas s oznámeniami o správach",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Súhlas udelený",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Bez súhlasu",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Systémové povolenie oznámení",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Zapnuté",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Zakázané",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Neznáme",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Nepodporované",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Kontrola",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Kontrola zlyhala",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Prichádzajúce hovory na celú obrazovku",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Klepnutím overte a povoľte",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Celoobrazovkové upozornenia hovorov sú zapnuté",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Povoľte celoobrazovkové upozornenia hovorov v nastaveniach systému.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Rozvrh režimu Nerušiť",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Nenastavené",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Zapnúť oznámenia o správach",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Pri zapnutí môžu JPush/JCore a služby oznámení zariadenia spracúvať údaje o zariadení, identifikátory oznámení a údaje o doručení pre upozornenia na správy, zákaznícku podporu a hovory. Oznámenia môžete vypnúť v nastaveniach systému.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Oznámenia sú stále vypnuté. Povoľte oznámenia Weijie v nastaveniach systému.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (noc)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Vypnúť režim Nerušiť",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Netestované",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Nedostupné",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Hlavná záložná trasa",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Trasa nie je dostupná. Aktuálna trasa sa zachovala.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Dostupné miesta pripojenia",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Trasy sa nepodarilo obnoviť. Aktuálna trasa sa zachovala.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Obnovuje sa",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Obnoviť miesta pripojenia",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Trasy pochádzajú z overenej oficiálnej konfigurácie. Pri spustení sa obnoví posledná trasa a potom aktualizuje z aktuálnych, uložených, predvolených a S3/R2 zdrojov. Ručný výber má prednosť; pri zlyhaní zostáva aktuálna trasa.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Neznáme zariadenie",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Odhlásiť sa",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Aktuálne",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Zariadenia sa nepodarilo načítať",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Žiadne prihlásené zariadenia",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Náhľad",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Tento ukážkový text slúži na náhľad veľkosti písma. Vyberte veľkosť, s ktorou sa vám bude pohodlne chatovať.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Všetky práva vyhradené",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Ukážka prekladu",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Originál (anglicky)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Cieľový jazyk",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tipy:\n• Automatický preklad používa umelú inteligenciu\n• Preklady sú orientačné a môžu obsahovať chyby\n• V chate sa zobrazuje originál aj preklad\n• Podržte správu a vyberte „Zobraziť originál”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Predvolené pozadie",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Biela",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Svetlosivá",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Béžová",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Svetlomodrá",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Svetlozelená",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Svetloružová",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Svetlofialová",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Vlastný obrázok",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Pozadie tohto chatu",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Pozadie chatu",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Zmeniť vlastný obrázok",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Vybrať z fotiek",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Nastaviť",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Použiť všeobecné pozadie chatov",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Preklad ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Odhlásiť „{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} relácia} few {{count} relácie} other {{count} relácií}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Posledná aktivita {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Vývojárska diagnostika",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Sieť nie je dostupná. Skontrolujte nastavenia siete.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

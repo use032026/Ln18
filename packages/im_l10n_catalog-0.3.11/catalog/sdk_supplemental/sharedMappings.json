@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "policy": "Preserve all existing six-language values. New locales reuse reviewed same-context shared ARB keys; unmapped SDK-specific messages explicitly fall back to their existing English value. No inferred or machine translations.",
+  "data": {
+    "web": {
+      "消息": {
+        "module": "chat",
+        "key": "homeTitle"
+      },
+      "联系人": {
+        "module": "chat",
+        "key": "chatContactDefaultName"
+      },
+      "刷新": {
+        "module": "settings",
+        "key": "diagnosticsRefresh"
+      },
+      "退出登录": {
+        "module": "auth",
+        "key": "authLogout"
+      },
+      "关闭": {
+        "module": "common",
+        "key": "commonClose"
+      },
+      "账号": {
+        "module": "settings",
+        "key": "settingsSectionAccount"
+      },
+      "密码": {
+        "module": "auth",
+        "key": "authPassword"
+      },
+      "安全验证": {
+        "module": "auth",
+        "key": "authCaptchaTitle"
+      },
+      "登录": {
+        "module": "auth",
+        "key": "authLoginButton"
+      },
+      "重试": {
+        "module": "common",
+        "key": "commonRetry"
+      },
+      "昵称": {
+        "module": "auth",
+        "key": "authNickname"
+      },
+      "手机号": {
+        "module": "profile",
+        "key": "profileMobile"
+      },
+      "确认密码": {
+        "module": "auth",
+        "key": "authConfirmPassword"
+      },
+      "注册并登录": {
+        "module": "auth",
+        "key": "authRegisterAndLogin"
+      },
+      "验证码": {
+        "module": "auth",
+        "key": "authVerificationCode"
+      },
+      "邮箱": {
+        "module": "profile",
+        "key": "profileEmail"
+      },
+      "两次输入的密码不一致": {
+        "module": "auth",
+        "key": "authErrorPasswordMismatch"
+      },
+      "添加好友": {
+        "module": "organization",
+        "key": "organizationAddFriend"
+      },
+      "好友申请": {
+        "module": "contacts",
+        "key": "contactsFriendRequests"
+      },
+      "暂无消息": {
+        "module": "chat",
+        "key": "chatNoMessages"
+      },
+      "新建群聊": {
+        "module": "chat",
+        "key": "homeCreateGroup"
+      },
+      "暂无联系人。": {
+        "module": "chat",
+        "key": "chatNoContacts"
+      },
+      "已是好友": {
+        "module": "profile",
+        "key": "profilePageAlreadyFriend"
+      },
+      "好友申请已发送，等待对方同意": {
+        "module": "contacts",
+        "key": "scanFriendRequestPending"
+      },
+      "已成为好友": {
+        "module": "contacts",
+        "key": "friendAccepted"
+      },
+      "已拒绝": {
+        "module": "contacts",
+        "key": "friendRejected"
+      },
+      "同意": {
+        "module": "contacts",
+        "key": "friendAccept"
+      },
+      "拒绝": {
+        "module": "contacts",
+        "key": "friendReject"
+      },
+      "暂无好友申请": {
+        "module": "contacts",
+        "key": "friendNoRequests"
+      },
+      "群名称": {
+        "module": "organization",
+        "key": "groupName"
+      },
+      "聊天": {
+        "module": "chat",
+        "key": "chatSettingsTitle"
+      },
+      "输入消息…": {
+        "module": "chat",
+        "key": "chatInputHint"
+      },
+      "消息内容": {
+        "module": "chat",
+        "key": "chatMessageContent"
+      },
+      "发送": {
+        "module": "common",
+        "key": "commonSend"
+      },
+      "我": {
+        "module": "chat",
+        "key": "chatSelf"
+      },
+      "对方": {
+        "module": "chat",
+        "key": "chatPeer"
+      },
+      "[图片]": {
+        "module": "chat",
+        "key": "chatImageMessage"
+      },
+      "[文件]": {
+        "module": "chat",
+        "key": "chatFileMessage"
+      },
+      "[视频]": {
+        "module": "chat",
+        "key": "chatVideoMessage"
+      },
+      "[语音]": {
+        "module": "chat",
+        "key": "chatVoiceMessage"
+      },
+      "[系统消息]": {
+        "module": "chat",
+        "key": "chatSystemMessage"
+      },
+      "[通话记录]": {
+        "module": "chat",
+        "key": "chatCallLogMessage"
+      },
+      "[消息已撤回]": {
+        "module": "chat",
+        "key": "chatStatusRecalled",
+        "wrapper": "[{value}]"
+      },
+      "登录状态已失效，请重新登录": {
+        "module": "customer_service",
+        "key": "csSignInAgain"
+      },
+      "密码至少6位": {
+        "module": "auth",
+        "key": "authErrorPasswordTooShort"
+      }
+    },
+    "chrome": {
+      "操作失败，请重试": {
+        "module": "common",
+        "key": "commonOperationFailed"
+      },
+      "聊天": {
+        "module": "chat",
+        "key": "chatSettingsTitle"
+      },
+      "账号": {
+        "module": "settings",
+        "key": "settingsSectionAccount"
+      },
+      "登录": {
+        "module": "auth",
+        "key": "authLoginButton"
+      },
+      "安全验证": {
+        "module": "auth",
+        "key": "authCaptchaTitle"
+      },
+      "添加好友": {
+        "module": "organization",
+        "key": "organizationAddFriend"
+      },
+      "好友申请": {
+        "module": "contacts",
+        "key": "contactsFriendRequests"
+      },
+      "搜索会话": {
+        "module": "customer_service",
+        "key": "csSearchConversations"
+      },
+      "没有匹配的会话": {
+        "module": "customer_service",
+        "key": "csNoMatchingConversations"
+      },
+      "联系人加载失败": {
+        "module": "contacts",
+        "key": "contactsLoadFailed"
+      },
+      "两次密码不一致": {
+        "module": "auth",
+        "key": "authErrorPasswordMismatch"
+      },
+      "请输入手机号": {
+        "module": "auth",
+        "key": "authHintMobile"
+      },
+      "手机号格式不正确": {
+        "module": "auth",
+        "key": "authErrorInvalidMobile"
+      },
+      "请输入邮箱": {
+        "module": "auth",
+        "key": "authHintEmail"
+      },
+      "邮箱格式不正确": {
+        "module": "auth",
+        "key": "authErrorInvalidEmail"
+      },
+      "新建群聊": {
+        "module": "chat",
+        "key": "homeCreateGroup"
+      },
+      "注册服务暂不可用，请稍后重试": {
+        "module": "common",
+        "key": "errorRegistrationUnavailable"
+      },
+      "操作频繁，请稍后重试": {
+        "module": "common",
+        "key": "errorRateLimited"
+      }
+    },
+    "fileMessages": {
+      "filePickFailed": {
+        "module": "chat",
+        "key": "chatFileReadFailed"
+      },
+      "mediaUsePhotos": {
+        "module": "chat",
+        "key": "chatFileUsePhotos"
+      },
+      "unrecognizedType": {
+        "module": "chat",
+        "key": "chatFileTypeUnknown"
+      },
+      "typeMismatch": {
+        "module": "chat",
+        "key": "chatFileTypeMismatch"
+      },
+      "unsupportedExtension": {
+        "module": "chat",
+        "key": "chatFileExtensionUnsupported"
+      },
+      "unsupportedType": {
+        "module": "chat",
+        "key": "chatFileTypeUnsupported"
+      }
+    },
+    "networkErrors": {
+      "账号或密码错误": {
+        "module": "auth",
+        "key": "authErrorWrongCredentials"
+      },
+      "登录已失效，请重新登录": {
+        "module": "common",
+        "key": "errorSessionExpired"
+      },
+      "该邮箱已注册，请直接登录": {
+        "module": "common",
+        "key": "errorEmailAlreadyRegistered"
+      },
+      "该手机号已注册，请直接登录": {
+        "module": "common",
+        "key": "errorMobileAlreadyRegistered"
+      },
+      "请先完成图形验证码": {
+        "module": "common",
+        "key": "errorCaptchaRequired"
+      },
+      "请先获取并填写验证码": {
+        "module": "auth",
+        "key": "authErrorVerificationRequired"
+      },
+      "验证码发送过于频繁，请稍后再试": {
+        "module": "common",
+        "key": "errorVerificationTooFrequent"
+      },
+      "本小时验证码发送已达上限": {
+        "module": "common",
+        "key": "errorVerificationHourlyLimit"
+      },
+      "今日验证码发送已达上限": {
+        "module": "common",
+        "key": "errorVerificationDailyLimit"
+      },
+      "当前账号不属于该租户，请确认企业后再试": {
+        "module": "common",
+        "key": "errorTenantNotMember"
+      },
+      "当前租户已停用，请联系管理员": {
+        "module": "common",
+        "key": "errorTenantSuspended"
+      },
+      "操作过于频繁，请稍后再试": {
+        "module": "common",
+        "key": "errorRateLimited"
+      }
+    }
+  }
+}

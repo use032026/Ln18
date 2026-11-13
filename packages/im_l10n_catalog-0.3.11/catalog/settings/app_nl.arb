@@ -1,0 +1,471 @@
+{
+  "@@locale": "nl",
+  "settingsTitle": "Instellingen",
+  "settingsSectionEnterprise": "Bedrijf",
+  "settingsSectionAccount": "Account",
+  "settingsSectionGeneral": "Algemeen",
+  "settingsSectionFeatures": "Functies",
+  "settingsSectionAbout": "Over",
+  "settingsEnterpriseInfo": "Bedrijfsinformatie",
+  "settingsProfile": "Mijn profiel",
+  "settingsAccountSecurity": "Accountbeveiliging",
+  "settingsNotification": "Meldingen",
+  "settingsDisplay": "Weergave",
+  "settingsFriendPrivacy": "Privacy",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Chatgeschiedenis",
+  "settingsAbout": "Over StartLink",
+  "settingsLanguage": "Taal",
+  "settingsTimezone": "Tijdzone",
+  "settingsAutoTranslate": "Automatisch vertalen",
+  "settingsNetworkSwitch": "Lijn wisselen",
+  "aboutTitle": "Over StartLink",
+  "aboutVersion": "Versie",
+  "aboutTerms": "Gebruiksvoorwaarden",
+  "aboutPrivacy": "Privacybeleid",
+  "aboutOpenSource": "Opensourcelicenties",
+  "aboutCheckUpdate": "Controleren op updates",
+  "aboutLatestVersion": "U gebruikt de nieuwste versie",
+  "aboutUpdateAvailable": "Nieuwe versie beschikbaar",
+  "aboutUpdateNow": "Nu updaten",
+  "aboutUpdateLater": "Later",
+  "networkTitle": "Lijn wisselen",
+  "networkAutoSelect": "Automatisch",
+  "networkManual": "Handmatig",
+  "timezoneTitle": "Tijdzone",
+  "timezoneAuto": "Systeem volgen",
+  "displayTitle": "Weergave",
+  "displayFontSize": "Lettergrootte",
+  "displayChatBackground": "Chatachtergrond",
+  "displayDarkMode": "Vormgeving",
+  "displayDarkModeSystem": "Systeem volgen",
+  "displayDarkModeSystemHint": "Automatisch wisselen volgens de systeeminstelling",
+  "displayDarkModeOff": "Licht",
+  "displayDarkModeOffHint": "Altijd licht thema gebruiken",
+  "displayDarkModeOn": "Donker",
+  "displayDarkModeOnHint": "Altijd donker thema gebruiken",
+  "accountSecurityTitle": "Accountbeveiliging",
+  "accountSecurityChangePassword": "Wachtwoord wijzigen",
+  "accountSecurityChangeMobile": "Telefoonnummer wijzigen",
+  "accountSecurityChangeEmail": "E-mailadres wijzigen",
+  "accountSecurityLoggedDevices": "Aangemelde apparaten",
+  "accountSecurityDeactivate": "Account verwijderen",
+  "accountSecurityDeactivateConfirm": "Alle gegevens worden na 7 dagen definitief verwijderd. Account verwijderen?",
+  "loggedDevicesTitle": "Aangemelde apparaten",
+  "loggedDevicesCurrent": "Dit apparaat",
+  "loggedDevicesRevoke": "Afmelden",
+  "loggedDevicesRevokeConfirm": "Afmelden op dit apparaat?",
+  "loggedDevicesRevokeSuccess": "Afgemeld op apparaat",
+  "loggedDevicesRevokeFailed": "Mislukt. Probeer het opnieuw.",
+  "loggedDevicesLastActive": "Laatst actief",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Desktop",
+  "loggedDevicesTypeUnknown": "Onbekend apparaat",
+  "fontSizeTitle": "Lettergrootte",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Standaard",
+  "fontSizeLarge": "Groot",
+  "fontSizeExtraLarge": "Extra groot",
+  "fontSizePreview": "Voorbeeld",
+  "timezoneNameHawaii": "Hawaï",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Pacific-tijd",
+  "timezoneNameMountainTime": "Mountain-tijd",
+  "timezoneNameCentralTime": "Central-tijd",
+  "timezoneNameEasternTime": "Eastern-tijd",
+  "timezoneNameAtlanticTime": "Atlantische tijd",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azoren",
+  "timezoneNameLondonDublin": "Londen/Dublin",
+  "timezoneNameBerlinParisRome": "Berlijn/Parijs/Rome",
+  "timezoneNameCairoHelsinki": "Caïro/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskou/Riyad",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Bakoe",
+  "timezoneNameKabul": "Kaboel",
+  "timezoneNameKarachiTashkent": "Karachi/Tasjkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Shanghai/Hongkong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokio/Seoel",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salomonseilanden",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Slim de beste route selecteren",
+  "networkTesting": "Testen…",
+  "networkTestingShort": "Testen",
+  "networkLatencyMs": "Latentie {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Verbindingsmodus",
+  "networkDirectMode": "Directe modus",
+  "networkProxyMode": "Proxymodus",
+  "networkDirectModeDesc": "Rechtstreeks met de server verbinden",
+  "networkProxyModeDesc": "Via een proxyserver verbinden",
+  "networkDirectRoutes": "Directe routes",
+  "networkProxyRoutes": "Proxyroutes",
+  "networkTestAll": "Alles testen",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Knooppunt Hongkong",
+  "networkSingaporeNode": "Knooppunt Singapore",
+  "networkJapanNode": "Knooppunt Japan",
+  "networkUnitedStatesNode": "Knooppunt Verenigde Staten",
+  "networkHint": "Tips:\n• Directe modus: sneller en geschikt voor binnenlands gebruik\n• Proxymodus: stabieler voor grensoverschrijdende communicatie\n• Tik op het vernieuwingspictogram om de latentie van één route te testen",
+  "diagnosticsTitle": "Diagnose",
+  "diagnosticsExplanation": "De logboeken zijn ontdaan van gevoelige gegevens en bevatten operationele en foutinformatie voor dit account en deze ruimte, plus openbare opstartgebeurtenissen. Chatinhoud en aanmeldgegevens zijn uitgesloten.",
+  "diagnosticsHour": "Afgelopen uur",
+  "diagnosticsDay": "Afgelopen 24 uur",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Beschikbare gebeurtenissen: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Logboeken worden op dit apparaat opgeslagen en blijven na herstart beschikbaar.",
+  "diagnosticsNotPersistent": "Sommige logboeken zijn niet opgeslagen. Vernieuw om het opnieuw te proberen.",
+  "diagnosticsExport": "Exporteren en delen",
+  "diagnosticsRefresh": "Vernieuwen",
+  "diagnosticsClear": "Logboeken van deze ruimte wissen",
+  "diagnosticsClearConfirm": "Diagnoselogboeken van deze ruimte wissen? De chatgeschiedenis blijft behouden.",
+  "diagnosticsShared": "Delen via het systeem voltooid. Controleer het bestand in de ontvangende app.",
+  "diagnosticsCancelled": "Delen geannuleerd. U kunt opnieuw exporteren.",
+  "diagnosticsUnconfirmed": "Delen kon niet worden bevestigd. Controleer de ontvangende app.",
+  "diagnosticsFailed": "De bewerking is mislukt. Probeer het opnieuw.",
+  "settingsDeleteWarning": "Als u uw account verwijdert, worden alle bedrijfslidmaatschappen beëindigd. De berichtgeschiedenis kan niet worden hersteld.\n\nU hebt 7 dagen bedenktijd en kunt opnieuw aanmelden om de verwijdering te annuleren.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Verwijdering voortzetten",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Laatste bevestiging",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Uw account verwijderen? Dit wordt na 7 dagen definitief.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Reden voor verwijdering (optioneel)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Verwijdering aangevraagd. Meld u binnen 7 dagen aan om te annuleren.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Bevestig accountverwijdering",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Het account kon niet worden verwijderd. Probeer het opnieuw.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Geblokkeerde gebruikers kunnen u geen berichten sturen en uw profiel en updates niet bekijken.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Op Enter drukken om te verzenden",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Laden mislukt, tik om opnieuw te proberen",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Toestemming voor berichtmeldingen",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Akkoord",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Niet akkoord",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Systeemmachtiging voor meldingen",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Aan",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Uitgeschakeld",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Onbekend",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Niet ondersteund",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Controleren",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Controle mislukt",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Inkomende oproepen op volledig scherm",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Tik om te controleren en toe te staan",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Oproepmeldingen op volledig scherm ingeschakeld",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Sta oproepmeldingen op volledig scherm toe in de systeeminstellingen.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Schema Niet storen",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Niet ingesteld",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Berichtmeldingen inschakelen",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Na inschakelen kunnen JPush/JCore en pushdiensten van apparaten apparaatgegevens, pushkenmerken en bezorginformatie verwerken voor bericht-, klantenservice- en oproepmeldingen. U kunt meldingen uitschakelen in de systeeminstellingen.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Meldingen zijn nog uitgeschakeld. Sta Weijie-meldingen toe in de systeeminstellingen.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (nacht)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Niet storen uitschakelen",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Niet getest",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Niet beschikbaar",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Primaire terugvalroute",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Route niet beschikbaar. Uw huidige route is behouden.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Beschikbare locaties",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Routes konden niet worden vernieuwd. Uw huidige route is behouden.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Vernieuwen",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Locaties vernieuwen",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Routes komen uit geverifieerde officiële configuratie. Bij het opstarten wordt eerst de vorige route hersteld en daarna vernieuwd vanuit actuele, gecachte, initiële en S3/R2-bronnen. Handmatige selectie krijgt voorrang; bij fouten blijft de huidige route behouden.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Onbekend apparaat",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Afmelden",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Huidig",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Apparaten konden niet worden geladen",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Geen aangemelde apparaten",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Voorbeeld",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Deze voorbeeldtekst toont de lettergrootte. Kies een grootte waarmee u prettig kunt chatten.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Alle rechten voorbehouden",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Vertaalvoorbeeld",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Origineel (Engels)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Doeltaal",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tips:\n• Automatisch vertalen gebruikt AI\n• Vertalingen zijn ter referentie en kunnen fouten bevatten\n• Zowel origineel als vertaling verschijnt in de chat\n• Houd een bericht ingedrukt en kies ‘Origineel tonen’",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Standaardachtergrond",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Wit",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Lichtgrijs",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Lichtblauw",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Lichtgroen",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Lichtroze",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Lichtpaars",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Eigen afbeelding",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Achtergrond van deze chat",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Chatachtergrond",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Eigen afbeelding wijzigen",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Kiezen uit foto’s",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Instellen",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Algemene chatachtergrond gebruiken",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Vertaling ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "‘{name}’ afmelden?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} sessie} other {{count} sessies}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Laatst actief {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Ontwikkelaarsdiagnose",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Netwerk niet beschikbaar. Controleer uw netwerkinstellingen.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

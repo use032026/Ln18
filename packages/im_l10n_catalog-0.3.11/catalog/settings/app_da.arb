@@ -1,0 +1,471 @@
+{
+  "@@locale": "da",
+  "settingsTitle": "Indstillinger",
+  "settingsSectionEnterprise": "Virksomhed",
+  "settingsSectionAccount": "Konto",
+  "settingsSectionGeneral": "Generelt",
+  "settingsSectionFeatures": "Funktioner",
+  "settingsSectionAbout": "Om",
+  "settingsEnterpriseInfo": "Virksomhedsoplysninger",
+  "settingsProfile": "Min profil",
+  "settingsAccountSecurity": "Kontosikkerhed",
+  "settingsNotification": "Notifikationer",
+  "settingsDisplay": "Visning",
+  "settingsFriendPrivacy": "Privatliv",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Chathistorik",
+  "settingsAbout": "Om StartLink",
+  "settingsLanguage": "Sprog",
+  "settingsTimezone": "Tidszone",
+  "settingsAutoTranslate": "Automatisk oversættelse",
+  "settingsNetworkSwitch": "Skift linje",
+  "aboutTitle": "Om StartLink",
+  "aboutVersion": "Version",
+  "aboutTerms": "Brugeraftale",
+  "aboutPrivacy": "Privatlivspolitik",
+  "aboutOpenSource": "Open source-licenser",
+  "aboutCheckUpdate": "Søg efter opdateringer",
+  "aboutLatestVersion": "Du har den seneste version",
+  "aboutUpdateAvailable": "Ny version tilgængelig",
+  "aboutUpdateNow": "Opdater nu",
+  "aboutUpdateLater": "Senere",
+  "networkTitle": "Skift linje",
+  "networkAutoSelect": "Automatisk",
+  "networkManual": "Manuelt",
+  "timezoneTitle": "Tidszone",
+  "timezoneAuto": "Følg systemet",
+  "displayTitle": "Visning",
+  "displayFontSize": "Skriftstørrelse",
+  "displayChatBackground": "Chatbaggrund",
+  "displayDarkMode": "Udseende",
+  "displayDarkModeSystem": "Følg systemet",
+  "displayDarkModeSystemHint": "Skift automatisk efter systemindstillingen",
+  "displayDarkModeOff": "Lys",
+  "displayDarkModeOffHint": "Brug altid lyst tema",
+  "displayDarkModeOn": "Mørk",
+  "displayDarkModeOnHint": "Brug altid mørkt tema",
+  "accountSecurityTitle": "Kontosikkerhed",
+  "accountSecurityChangePassword": "Skift adgangskode",
+  "accountSecurityChangeMobile": "Skift telefonnummer",
+  "accountSecurityChangeEmail": "Skift e-mail",
+  "accountSecurityLoggedDevices": "Enheder med login",
+  "accountSecurityDeactivate": "Slet konto",
+  "accountSecurityDeactivateConfirm": "Alle data slettes permanent efter 7 dage. Slet konto?",
+  "loggedDevicesTitle": "Enheder med login",
+  "loggedDevicesCurrent": "Denne enhed",
+  "loggedDevicesRevoke": "Log ud",
+  "loggedDevicesRevokeConfirm": "Log ud fra denne enhed?",
+  "loggedDevicesRevokeSuccess": "Logget ud fra enhed",
+  "loggedDevicesRevokeFailed": "Mislykkedes. Prøv igen.",
+  "loggedDevicesLastActive": "Senest aktiv",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Computer",
+  "loggedDevicesTypeUnknown": "Ukendt enhed",
+  "fontSizeTitle": "Skriftstørrelse",
+  "fontSizeSmall": "Lille",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Stor",
+  "fontSizeExtraLarge": "Ekstra stor",
+  "fontSizePreview": "Forhåndsvisning",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Stillehavstid",
+  "timezoneNameMountainTime": "Bjergtid",
+  "timezoneNameCentralTime": "Centraltid",
+  "timezoneNameEasternTime": "Østlig tid",
+  "timezoneNameAtlanticTime": "Atlantisk tid",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azorerne",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rom",
+  "timezoneNameCairoHelsinki": "Kairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moskva/Riyadh",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tasjkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Beijing/Shanghai/Hongkong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salomonøerne",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Vælg automatisk den bedste rute",
+  "networkTesting": "Tester…",
+  "networkTestingShort": "Tester",
+  "networkLatencyMs": "Forsinkelse {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Forbindelsestilstand",
+  "networkDirectMode": "Direkte tilstand",
+  "networkProxyMode": "Proxytilstand",
+  "networkDirectModeDesc": "Forbind direkte til serveren",
+  "networkProxyModeDesc": "Forbind via en proxyserver",
+  "networkDirectRoutes": "Direkte ruter",
+  "networkProxyRoutes": "Proxyruter",
+  "networkTestAll": "Test alle",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hongkong-node",
+  "networkSingaporeNode": "Singapore-node",
+  "networkJapanNode": "Japan-node",
+  "networkUnitedStatesNode": "USA-node",
+  "networkHint": "Tips:\n• Direkte tilstand: hurtigere og egnet til indenlandsk brug\n• Proxytilstand: mere stabil til kommunikation på tværs af grænser\n• Tryk på opdateringsikonet for at teste forsinkelsen for én rute",
+  "diagnosticsTitle": "Diagnostik",
+  "diagnosticsExplanation": "Loggene er anonymiserede og indeholder drifts- og fejloplysninger for denne konto og dette rum samt offentlige opstartshændelser. Chatindhold og loginoplysninger er udeladt.",
+  "diagnosticsHour": "Seneste time",
+  "diagnosticsDay": "Seneste 24 timer",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Tilgængelige hændelser: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Loggene gemmes på denne enhed og er tilgængelige efter genstart.",
+  "diagnosticsNotPersistent": "Nogle logs er ikke gemt. Opdatér for at prøve igen.",
+  "diagnosticsExport": "Eksportér og del",
+  "diagnosticsRefresh": "Opdater",
+  "diagnosticsClear": "Ryd dette rums logs",
+  "diagnosticsClearConfirm": "Ryd diagnostiklogs for dette rum? Chathistorikken bevares.",
+  "diagnosticsShared": "Systemdeling gennemført. Kontrollér filen i modtagerappen.",
+  "diagnosticsCancelled": "Deling annulleret. Du kan eksportere igen.",
+  "diagnosticsUnconfirmed": "Deling kunne ikke bekræftes. Kontrollér modtagerappen.",
+  "diagnosticsFailed": "Handlingen mislykkedes. Prøv igen.",
+  "settingsDeleteWarning": "Sletning af kontoen fjerner alle virksomhedsmedlemskaber. Beskedhistorikken kan ikke gendannes.\n\nDu har 7 dages fortrydelsesfrist og kan logge ind igen for at annullere sletningen.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Fortsæt sletning",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Endelig bekræftelse",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Slet din konto? Dette bliver permanent efter 7 dage.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Årsag til sletning (valgfrit)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Sletning anmodet. Log ind inden 7 dage for at annullere.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Bekræft sletning af konto",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Kontoen kunne ikke slettes. Prøv igen.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Blokerede brugere kan ikke sende dig beskeder eller se din profil og opdateringer.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Tryk Enter for at sende",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Kunne ikke indlæses, tryk for at prøve igen",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Samtykke til beskednotifikationer",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Accepteret",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Ikke accepteret",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Systemtilladelse til notifikationer",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Til",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Deaktiveret",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Ukendt",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Ikke understøttet",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Kontrollerer",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Kontrol mislykkedes",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Indgående opkald på fuld skærm",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Tryk for at kontrollere og tillade",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Opkaldsvarsler på fuld skærm aktiveret",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Tillad opkaldsvarsler på fuld skærm i systemindstillingerne.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Plan for Forstyr ikke",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Ikke angivet",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Aktivér beskednotifikationer",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Når funktionen er aktiveret, kan JPush/JCore og enhedens push-tjenester behandle enhedsoplysninger, push-id’er og leveringsoplysninger til besked-, kundeservice- og opkaldsvarsler. Du kan slå notifikationer fra i systemindstillingerne.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Notifikationer er stadig slået fra. Tillad Weijie-notifikationer i systemindstillingerne.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (nat)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Slå Forstyr ikke fra",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Ikke testet",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Utilgængelig",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Primær reserverute",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Ruten er utilgængelig. Din nuværende rute blev bevaret.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Tilgængelige steder",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Ruterne kunne ikke opdateres. Din nuværende rute blev bevaret.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Opdaterer",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Opdatér steder",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Ruter kommer fra verificeret officiel konfiguration. Ved start gendannes den sidste rute, før der opdateres fra aktuelle, cachede, oprindelige og S3/R2-kilder. Manuelt valg har prioritet; fejl bevarer den nuværende rute.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Ukendt enhed",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Log ud",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Nuværende",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Enheder kunne ikke indlæses",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Ingen enheder med login",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Forhåndsvisning",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Denne eksempeltekst viser skriftstørrelsen. Vælg en størrelse, der gør det behageligt at chatte.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Alle rettigheder forbeholdes",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Oversættelseseksempel",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (engelsk)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Målsprog",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tips:\n• Automatisk oversættelse bruger AI\n• Oversættelser er vejledende og kan indeholde fejl\n• Både original og oversættelse vises i chatten\n• Hold en besked nede, og vælg »Vis original«",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Standardbaggrund",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Hvid",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Lysegrå",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Lyseblå",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Lysegrøn",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Lyserød",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Lyslilla",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Brugerdefineret billede",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Denne chats baggrund",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Chatbaggrund",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Skift brugerdefineret billede",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Vælg fra fotos",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Angiv",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Brug global chatbaggrund",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Oversættelse ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Log »{name}« ud?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} session} other {{count} sessioner}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Senest aktiv {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Udviklerdiagnostik",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Netværk utilgængeligt. Kontrollér netværksindstillingerne.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "@@locale": "fil",
+  "settingsTitle": "Mga Setting",
+  "settingsSectionEnterprise": "Negosyo",
+  "settingsSectionAccount": "Account",
+  "settingsSectionGeneral": "Pangkalahatan",
+  "settingsSectionFeatures": "Mga feature",
+  "settingsSectionAbout": "Tungkol",
+  "settingsEnterpriseInfo": "Impormasyon ng negosyo",
+  "settingsProfile": "Aking Profile",
+  "settingsAccountSecurity": "Seguridad ng account",
+  "settingsNotification": "Mga abiso",
+  "settingsDisplay": "Display",
+  "settingsFriendPrivacy": "Privacy",
+  "settingsChat": "Chat",
+  "settingsChatHistory": "Kasaysayan ng chat",
+  "settingsAbout": "Tungkol sa StartLink",
+  "settingsLanguage": "Wika",
+  "settingsTimezone": "Time zone",
+  "settingsAutoTranslate": "Awtomatikong pagsasalin",
+  "settingsNetworkSwitch": "Palitan ang linya",
+  "aboutTitle": "Tungkol sa StartLink",
+  "aboutVersion": "Bersyon",
+  "aboutTerms": "Kasunduan sa Paggamit",
+  "aboutPrivacy": "Patakaran sa Pagkapribado",
+  "aboutOpenSource": "Mga lisensiya ng open source",
+  "aboutCheckUpdate": "Suriin ang mga update",
+  "aboutLatestVersion": "Nasa pinakabagong bersyon ka na.",
+  "aboutUpdateAvailable": "Available na ang bagong bersyon",
+  "aboutUpdateNow": "I-update Ngayon",
+  "aboutUpdateLater": "Mamaya",
+  "networkTitle": "Palitan ang linya",
+  "networkAutoSelect": "Awtomatiko",
+  "networkManual": "Manwal",
+  "timezoneTitle": "Time zone",
+  "timezoneAuto": "Sundin ang system",
+  "displayTitle": "Display",
+  "displayFontSize": "Sukat ng Font",
+  "displayChatBackground": "Background ng chat",
+  "displayDarkMode": "Hitsura",
+  "displayDarkModeSystem": "Sundin ang system",
+  "displayDarkModeSystemHint": "Awtomatikong lumipat ayon sa setting ng system",
+  "displayDarkModeOff": "Maliwanag",
+  "displayDarkModeOffHint": "Laging gamitin ang maliwanag na tema",
+  "displayDarkModeOn": "Madilim",
+  "displayDarkModeOnHint": "Laging gamitin ang madilim na tema",
+  "accountSecurityTitle": "Seguridad ng account",
+  "accountSecurityChangePassword": "Baguhin ang Password",
+  "accountSecurityChangeMobile": "Baguhin ang Numero ng Telepono",
+  "accountSecurityChangeEmail": "Baguhin ang email",
+  "accountSecurityLoggedDevices": "Mga naka-sign in na device",
+  "accountSecurityDeactivate": "I-deactivate ang account",
+  "accountSecurityDeactivateConfirm": "Permanenteng mabubura ang lahat ng data pagkatapos ng 7 araw. I-deactivate?",
+  "loggedDevicesTitle": "Mga naka-sign in na device",
+  "loggedDevicesCurrent": "Device na ito",
+  "loggedDevicesRevoke": "Mag-sign out",
+  "loggedDevicesRevokeConfirm": "Mag-sign out sa device na ito?",
+  "loggedDevicesRevokeSuccess": "Nakapag-sign out sa device",
+  "loggedDevicesRevokeFailed": "Hindi nagawa, subukang muli",
+  "loggedDevicesLastActive": "Huling aktibo",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Web",
+  "loggedDevicesTypeDesktop": "Desktop",
+  "loggedDevicesTypeUnknown": "Hindi kilalang device",
+  "fontSizeTitle": "Sukat ng Font",
+  "fontSizeSmall": "Maliit",
+  "fontSizeNormal": "Karaniwan",
+  "fontSizeLarge": "Malaki",
+  "fontSizeExtraLarge": "Napakalaki",
+  "fontSizePreview": "Preview",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Oras sa Pasipiko",
+  "timezoneNameMountainTime": "Oras sa Kabundukan",
+  "timezoneNameCentralTime": "Gitnang Oras",
+  "timezoneNameEasternTime": "Silangang Oras",
+  "timezoneNameAtlanticTime": "Oras sa Atlantiko",
+  "timezoneNameBrasilia": "Brasilia",
+  "timezoneNameAzores": "Azores",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rome",
+  "timezoneNameCairoHelsinki": "Cairo/Helsinki",
+  "timezoneNameMoscowRiyadh": "Moscow/Riyadh",
+  "timezoneNameTehran": "Tehran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tashkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Kathmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Beijing/Shanghai/Hong Kong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Solomon Islands",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Matalinong piliin ang pinakamagandang ruta",
+  "networkTesting": "Sinusubukan...",
+  "networkTestingShort": "Sinusubukan",
+  "networkLatencyMs": "Latency {ms}ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Mode ng koneksiyon",
+  "networkDirectMode": "Direktang mode",
+  "networkProxyMode": "Proxy mode",
+  "networkDirectModeDesc": "Direktang kumonekta sa server",
+  "networkProxyModeDesc": "Kumonekta gamit ang proxy server",
+  "networkDirectRoutes": "Mga direktang ruta",
+  "networkProxyRoutes": "Mga proxy na ruta",
+  "networkTestAll": "Subukan lahat",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hong Kong node",
+  "networkSingaporeNode": "Singapore node",
+  "networkJapanNode": "Japan node",
+  "networkUnitedStatesNode": "Estados Unidos node",
+  "networkHint": "Mga tip:\n• Direktang mode: mas mabilis at angkop sa lokal na paggamit\n• Proxy mode: mas matatag para sa komunikasyon sa ibang bansa\n• I-tap ang refresh icon para subukan ang latency ng isang ruta",
+  "diagnosticsTitle": "Diagnostics",
+  "diagnosticsExplanation": "Inalisan ng sensitibong impormasyon ang mga log at naglalaman ang mga ito ng operasyon at mga error ng account at espasyong ito, kasama ang mga pampublikong kaganapan sa pagsisimula. Hindi kasama ang nilalaman ng chat at mga kredensiyal.",
+  "diagnosticsHour": "Nakaraang oras",
+  "diagnosticsDay": "Nakaraang 24 oras",
+  "diagnosticsWeek": "7 Araw",
+  "diagnosticsEventCount": "Available na kaganapan: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Naka-save ang mga log sa device na ito at mananatiling available matapos mag-restart.",
+  "diagnosticsNotPersistent": "May mga log na hindi pa na-save. I-refresh para subukang muli.",
+  "diagnosticsExport": "I-export at ibahagi",
+  "diagnosticsRefresh": "I-refresh",
+  "diagnosticsClear": "Burahin ang mga log ng espasyong ito",
+  "diagnosticsClearConfirm": "Burahin ang mga diagnostic log ng espasyong ito? Mananatili ang kasaysayan ng chat.",
+  "diagnosticsShared": "Natapos ang pagbabahagi ng system. Tiyakin ang file sa tumanggap na app.",
+  "diagnosticsCancelled": "Nakansela ang pagbabahagi. Maaari kang mag-export muli.",
+  "diagnosticsUnconfirmed": "Hindi makumpirma ang pagbabahagi. Suriin ang tumanggap na app.",
+  "diagnosticsFailed": "Hindi naisagawa. Subukang muli.",
+  "settingsDeleteWarning": "Aalisin ng pagbura sa account ang lahat ng pagiging miyembro sa mga negosyo. Hindi na maibabalik ang kasaysayan ng mensahe.\n\nMay palugit kang 7 araw at maaari kang mag-sign in muli para kanselahin ang pagbura.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Ituloy ang pagbura",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Huling pagkumpirma",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Burahin ang account mo? Magiging permanente ito pagkatapos ng 7 araw.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Dahilan ng pagbura (opsyonal)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Hiniling ang pagbura. Mag-sign in sa loob ng 7 araw para kanselahin.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Kumpirmahin ang Pagtanggal ng Account",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Hindi mabura ang account. Subukang muli.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Hindi ka mapapadalhan ng mensahe ng mga naka-block na user at hindi nila makikita ang iyong profile at mga update.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chat",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Pindutin ang Enter para ipadala",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Nabigong mag-load, i-tap para subukang muli",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Pahintulot sa mga abiso ng mensahe",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Sumang-ayon",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Hindi sumang-ayon",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Pahintulot ng system sa mga abiso",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "Naka-on",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Hindi pinagana",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Hindi kilala",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Hindi suportado",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Sinusuri",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Hindi nasuri",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Mga papasok na tawag na full screen",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "I-tap para suriin at payagan",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Pinagana ang mga full-screen na abiso sa tawag",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Payagan ang mga full-screen na abiso sa tawag sa mga setting ng system.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Iskedyul ng huwag istorbohin",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Hindi pa itinakda",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "I-on ang mga abiso sa mensahe",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "Kapag pinagana, maaaring iproseso ng JPush/JCore at mga push service ng device ang impormasyon ng device, mga push identifier, at impormasyon ng paghahatid para sa mga abiso sa mensahe, serbisyo sa customer, at tawag. Maaari mong i-off ang mga abiso sa mga setting ng system.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Naka-off pa rin ang mga abiso. Payagan ang mga abiso ng Weijie sa mga setting ng system.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (gabi)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "I-off ang huwag istorbohin",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Hindi pa nasubukan",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Hindi available",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Pangunahing fallback",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Hindi available ang ruta. Pinanatili ang kasalukuyang ruta mo.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Mga available na site",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Hindi ma-refresh ang mga ruta. Pinanatili ang kasalukuyang ruta mo.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Nire-refresh",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "I-refresh ang mga site",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Galing ang mga ruta sa na-verify na opisyal na configuration. Sa pagsisimula, ibinabalik ang huling ruta bago i-refresh mula sa kasalukuyan, naka-cache, paunang source, at S3/R2. Prayoridad ang manwal na pagpili; pinapanatili ang kasalukuyang ruta kapag may pagkabigo.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Hindi kilalang device",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Mag-sign out",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Kasalukuyan",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Hindi ma-load ang mga device",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Walang naka-sign in na device",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Preview",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Ipinapakita ng halimbawang tekstong ito ang laki ng font. Pumili ng laki na komportable para sa iyong pakikipag-chat.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Nakalaan ang lahat ng karapatan",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Halimbawa ng pagsasalin",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Orihinal (Ingles)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Target na wika",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Mga tip:\n• Gumagamit ng AI ang awtomatikong pagsasalin\n• Sanggunian lang ang mga salin at maaaring may mga mali\n• Parehong lumilitaw sa chat ang orihinal at salin\n• Pindutin nang matagal ang mensahe at piliin ang “Ipakita ang orihinal”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Default na background",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Puti",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Mapusyaw na abo",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Mapusyaw na asul",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Mapusyaw na berde",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Mapusyaw na rosas",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Mapusyaw na lila",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Custom na larawan",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Background ng chat na ito",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Background ng chat",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Baguhin ang custom na larawan",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Pumili mula sa mga larawan",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Itakda",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Gamitin ang pandaigdigang background ng chat",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Salin ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "I-sign out ang “{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} session} other {{count} session}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Huling aktibo {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Diagnostics para sa developer",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Hindi available ang network. Suriin ang mga setting ng network mo.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

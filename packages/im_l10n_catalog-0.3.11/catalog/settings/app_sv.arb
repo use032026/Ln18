@@ -1,0 +1,471 @@
+{
+  "@@locale": "sv",
+  "settingsTitle": "Inställningar",
+  "settingsSectionEnterprise": "Företag",
+  "settingsSectionAccount": "Konto",
+  "settingsSectionGeneral": "Allmänt",
+  "settingsSectionFeatures": "Funktioner",
+  "settingsSectionAbout": "Om",
+  "settingsEnterpriseInfo": "Företagsinformation",
+  "settingsProfile": "Min profil",
+  "settingsAccountSecurity": "Kontosäkerhet",
+  "settingsNotification": "Aviseringar",
+  "settingsDisplay": "Visning",
+  "settingsFriendPrivacy": "Integritet",
+  "settingsChat": "Chatt",
+  "settingsChatHistory": "Chatthistorik",
+  "settingsAbout": "Om StartLink",
+  "settingsLanguage": "Språk",
+  "settingsTimezone": "Tidszon",
+  "settingsAutoTranslate": "Automatisk översättning",
+  "settingsNetworkSwitch": "Byt linje",
+  "aboutTitle": "Om StartLink",
+  "aboutVersion": "Version",
+  "aboutTerms": "Användaravtal",
+  "aboutPrivacy": "Integritetspolicy",
+  "aboutOpenSource": "Licenser för öppen källkod",
+  "aboutCheckUpdate": "Sök efter uppdateringar",
+  "aboutLatestVersion": "Du använder den senaste versionen",
+  "aboutUpdateAvailable": "Ny version tillgänglig",
+  "aboutUpdateNow": "Uppdatera nu",
+  "aboutUpdateLater": "Senare",
+  "networkTitle": "Byt linje",
+  "networkAutoSelect": "Automatiskt",
+  "networkManual": "Manuellt",
+  "timezoneTitle": "Tidszon",
+  "timezoneAuto": "Följ systemet",
+  "displayTitle": "Visning",
+  "displayFontSize": "Teckensnittsstorlek",
+  "displayChatBackground": "Chattbakgrund",
+  "displayDarkMode": "Utseende",
+  "displayDarkModeSystem": "Följ systemet",
+  "displayDarkModeSystemHint": "Växla automatiskt efter systeminställningen",
+  "displayDarkModeOff": "Ljust",
+  "displayDarkModeOffHint": "Använd alltid ljust tema",
+  "displayDarkModeOn": "Mörkt",
+  "displayDarkModeOnHint": "Använd alltid mörkt tema",
+  "accountSecurityTitle": "Kontosäkerhet",
+  "accountSecurityChangePassword": "Ändra lösenord",
+  "accountSecurityChangeMobile": "Ändra telefonnummer",
+  "accountSecurityChangeEmail": "Byt e-post",
+  "accountSecurityLoggedDevices": "Inloggade enheter",
+  "accountSecurityDeactivate": "Radera konto",
+  "accountSecurityDeactivateConfirm": "Alla data raderas permanent efter 7 dagar. Radera kontot?",
+  "loggedDevicesTitle": "Inloggade enheter",
+  "loggedDevicesCurrent": "Den här enheten",
+  "loggedDevicesRevoke": "Logga ut",
+  "loggedDevicesRevokeConfirm": "Logga ut från den här enheten?",
+  "loggedDevicesRevokeSuccess": "Utloggad från enheten",
+  "loggedDevicesRevokeFailed": "Misslyckades. Försök igen.",
+  "loggedDevicesLastActive": "Senast aktiv",
+  "loggedDevicesTypeIos": "iOS",
+  "loggedDevicesTypeAndroid": "Android",
+  "loggedDevicesTypeWeb": "Webb",
+  "loggedDevicesTypeDesktop": "Dator",
+  "loggedDevicesTypeUnknown": "Okänd enhet",
+  "fontSizeTitle": "Teckensnittsstorlek",
+  "fontSizeSmall": "Liten",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Stor",
+  "fontSizeExtraLarge": "Extra stor",
+  "fontSizePreview": "Förhandsvisning",
+  "timezoneNameHawaii": "Hawaii",
+  "timezoneNameAlaska": "Alaska",
+  "timezoneNamePacificTime": "Stillahavstid",
+  "timezoneNameMountainTime": "Bergstid",
+  "timezoneNameCentralTime": "Centraltid",
+  "timezoneNameEasternTime": "Östkusttid",
+  "timezoneNameAtlanticTime": "Atlanttid",
+  "timezoneNameBrasilia": "Brasília",
+  "timezoneNameAzores": "Azorerna",
+  "timezoneNameLondonDublin": "London/Dublin",
+  "timezoneNameBerlinParisRome": "Berlin/Paris/Rom",
+  "timezoneNameCairoHelsinki": "Kairo/Helsingfors",
+  "timezoneNameMoscowRiyadh": "Moskva/Riyadh",
+  "timezoneNameTehran": "Teheran",
+  "timezoneNameDubaiBaku": "Dubai/Baku",
+  "timezoneNameKabul": "Kabul",
+  "timezoneNameKarachiTashkent": "Karachi/Tasjkent",
+  "timezoneNameMumbaiNewDelhi": "Mumbai/New Delhi",
+  "timezoneNameKathmandu": "Katmandu",
+  "timezoneNameDhakaAlmaty": "Dhaka/Almaty",
+  "timezoneNameYangon": "Yangon",
+  "timezoneNameBangkokHanoiJakarta": "Bangkok/Hanoi/Jakarta",
+  "timezoneNameBeijingShanghaiHongKongTaipei": "Peking/Shanghai/Hongkong/Taipei",
+  "timezoneNameTokyoSeoul": "Tokyo/Seoul",
+  "timezoneNameAdelaide": "Adelaide",
+  "timezoneNameSydneyMelbourne": "Sydney/Melbourne",
+  "timezoneNameSolomonIslands": "Salomonöarna",
+  "timezoneNameAucklandFiji": "Auckland/Fiji",
+  "networkSmartSelectBestRoute": "Välj den bästa rutten automatiskt",
+  "networkTesting": "Testar…",
+  "networkTestingShort": "Testar",
+  "networkLatencyMs": "Fördröjning {ms} ms",
+  "@networkLatencyMs": {
+    "description": "Network latency in milliseconds",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkConnectionMode": "Anslutningsläge",
+  "networkDirectMode": "Direktläge",
+  "networkProxyMode": "Proxyläge",
+  "networkDirectModeDesc": "Anslut direkt till servern",
+  "networkProxyModeDesc": "Anslut via en proxyserver",
+  "networkDirectRoutes": "Direkta rutter",
+  "networkProxyRoutes": "Proxyrutter",
+  "networkTestAll": "Testa alla",
+  "networkChinaTelecom": "China Telecom",
+  "networkChinaUnicom": "China Unicom",
+  "networkChinaMobile": "China Mobile",
+  "networkHongKongNode": "Hongkong-nod",
+  "networkSingaporeNode": "Singapore-nod",
+  "networkJapanNode": "Japan-nod",
+  "networkUnitedStatesNode": "USA-nod",
+  "networkHint": "Tips:\n• Direktläge: snabbare och lämpligt för inhemsk användning\n• Proxyläge: stabilare för kommunikation över gränser\n• Tryck på uppdateringsikonen för att testa fördröjningen för en rutt",
+  "diagnosticsTitle": "Diagnostik",
+  "diagnosticsExplanation": "Loggarna är maskerade och innehåller drift- och felinformation för detta konto och utrymme samt offentliga starthändelser. Chattinnehåll och inloggningsuppgifter är uteslutna.",
+  "diagnosticsHour": "Senaste timmen",
+  "diagnosticsDay": "Senaste 24 timmarna",
+  "diagnosticsWeek": "7D",
+  "diagnosticsEventCount": "Tillgängliga händelser: {count}",
+  "@diagnosticsEventCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "diagnosticsPersistent": "Loggarna sparas på den här enheten och är tillgängliga efter omstart.",
+  "diagnosticsNotPersistent": "Vissa loggar har inte sparats. Uppdatera för att försöka igen.",
+  "diagnosticsExport": "Exportera och dela",
+  "diagnosticsRefresh": "Uppdatera",
+  "diagnosticsClear": "Rensa detta utrymmes loggar",
+  "diagnosticsClearConfirm": "Rensa diagnostikloggar för detta utrymme? Chatthistoriken behålls.",
+  "diagnosticsShared": "Systemdelningen klar. Kontrollera filen i mottagarappen.",
+  "diagnosticsCancelled": "Delningen avbruten. Du kan exportera igen.",
+  "diagnosticsUnconfirmed": "Delningen kunde inte bekräftas. Kontrollera mottagarappen.",
+  "diagnosticsFailed": "Åtgärden misslyckades. Försök igen.",
+  "settingsDeleteWarning": "Radering av kontot tar bort alla företagsmedlemskap. Meddelandehistoriken kan inte återställas.\n\nDu har 7 dagars ångerfrist och kan logga in igen för att avbryta raderingen.",
+  "@settingsDeleteWarning": {
+    "description": "Deleting your account removes all enterprise memberships. Message history cannot be recovered.\n\nYou have a 7-day cooling-off period and can sign in again to cancel deletion."
+  },
+  "settingsContinueDeletion": "Fortsätt radering",
+  "@settingsContinueDeletion": {
+    "description": "Continue deletion"
+  },
+  "settingsFinalConfirmation": "Slutlig bekräftelse",
+  "@settingsFinalConfirmation": {
+    "description": "Final confirmation"
+  },
+  "settingsDeleteFinalPrompt": "Radera ditt konto? Detta blir permanent efter 7 dagar.",
+  "@settingsDeleteFinalPrompt": {
+    "description": "Delete your account? This becomes permanent after 7 days."
+  },
+  "settingsDeletionReasonOptional": "Orsak till radering (valfritt)",
+  "@settingsDeletionReasonOptional": {
+    "description": "Reason for deletion (optional)"
+  },
+  "settingsDeletionSubmitted": "Radering begärd. Logga in inom 7 dagar för att avbryta.",
+  "@settingsDeletionSubmitted": {
+    "description": "Deletion requested. Sign in within 7 days to cancel."
+  },
+  "settingsConfirmDeletion": "Bekräfta radering av konto",
+  "@settingsConfirmDeletion": {
+    "description": "Confirm deletion"
+  },
+  "settingsDeletionFailed": "Kontot kunde inte raderas. Försök igen.",
+  "@settingsDeletionFailed": {
+    "description": "Could not delete the account. Try again."
+  },
+  "settingsBlacklistDescription": "Blockerade användare kan inte skicka meddelanden till dig eller se din profil och uppdateringar.",
+  "@settingsBlacklistDescription": {
+    "description": "Blocked users cannot send you messages or view your profile and updates."
+  },
+  "settingsChatTitle": "Chatt",
+  "@settingsChatTitle": {
+    "description": "Chat"
+  },
+  "settingsEnterToSend": "Tryck Enter för att skicka",
+  "@settingsEnterToSend": {
+    "description": "Press Enter to send"
+  },
+  "settingsNotificationLoadFailed": "Kunde inte laddas, tryck för att försöka igen",
+  "@settingsNotificationLoadFailed": {
+    "description": "Could not load. Tap to retry."
+  },
+  "settingsPushConsent": "Samtycke till meddelandeaviseringar",
+  "@settingsPushConsent": {
+    "description": "Message notification consent"
+  },
+  "settingsConsentGranted": "Godkänt",
+  "@settingsConsentGranted": {
+    "description": "Agreed"
+  },
+  "settingsConsentNotGranted": "Inte godkänt",
+  "@settingsConsentNotGranted": {
+    "description": "Not agreed"
+  },
+  "settingsSystemNotificationPermission": "Systembehörighet för aviseringar",
+  "@settingsSystemNotificationPermission": {
+    "description": "System notification permission"
+  },
+  "settingsPermissionEnabled": "På",
+  "@settingsPermissionEnabled": {
+    "description": "Enabled"
+  },
+  "settingsPermissionDisabled": "Inaktiverat",
+  "@settingsPermissionDisabled": {
+    "description": "Disabled"
+  },
+  "settingsStateUnknown": "Okänt",
+  "@settingsStateUnknown": {
+    "description": "Unknown"
+  },
+  "settingsStateUnsupported": "Stöds inte",
+  "@settingsStateUnsupported": {
+    "description": "Not supported"
+  },
+  "settingsChecking": "Kontrollerar",
+  "@settingsChecking": {
+    "description": "Checking"
+  },
+  "settingsCheckFailed": "Kontrollen misslyckades",
+  "@settingsCheckFailed": {
+    "description": "Check failed"
+  },
+  "settingsFullscreenCalls": "Inkommande samtal i helskärm",
+  "@settingsFullscreenCalls": {
+    "description": "Full-screen incoming calls"
+  },
+  "settingsCheckAndAllow": "Tryck för att kontrollera och tillåta",
+  "@settingsCheckAndAllow": {
+    "description": "Tap to check and allow"
+  },
+  "settingsFullscreenCallsEnabled": "Samtalsaviseringar i helskärm aktiverade",
+  "@settingsFullscreenCallsEnabled": {
+    "description": "Full-screen call alerts enabled"
+  },
+  "settingsFullscreenCallsDisabled": "Tillåt samtalsaviseringar i helskärm i systeminställningarna.",
+  "@settingsFullscreenCallsDisabled": {
+    "description": "Allow full-screen call alerts in system settings."
+  },
+  "settingsDndSchedule": "Schema för Stör ej",
+  "@settingsDndSchedule": {
+    "description": "Do Not Disturb schedule"
+  },
+  "settingsNotSet": "Inte angivet",
+  "@settingsNotSet": {
+    "description": "Not set"
+  },
+  "settingsEnableNotifications": "Aktivera meddelandeaviseringar",
+  "@settingsEnableNotifications": {
+    "description": "Enable message notifications"
+  },
+  "settingsPushDisclosure": "När funktionen är aktiverad kan JPush/JCore och enhetens push-tjänster behandla enhetsinformation, push-identifierare och leveransinformation för meddelande-, kundservice- och samtalsaviseringar. Du kan stänga av aviseringar i systeminställningarna.",
+  "@settingsPushDisclosure": {
+    "description": "When enabled, JPush/JCore and device push services may process device information, push identifiers and delivery information for message, customer-service and call alerts. You can disable notifications in system settings."
+  },
+  "settingsSystemNotificationsStillDisabled": "Aviseringar är fortfarande avstängda. Tillåt Weijie-aviseringar i systeminställningarna.",
+  "@settingsSystemNotificationsStillDisabled": {
+    "description": "Notifications are still disabled. Allow Weijie notifications in system settings."
+  },
+  "settingsDndNight": "22:00–08:00 (natt)",
+  "@settingsDndNight": {
+    "description": "22:00–08:00 (night)"
+  },
+  "settingsDisableDnd": "Stäng av Stör ej",
+  "@settingsDisableDnd": {
+    "description": "Turn off Do Not Disturb"
+  },
+  "settingsRouteNotTested": "Inte testad",
+  "@settingsRouteNotTested": {
+    "description": "Not tested"
+  },
+  "settingsRouteUnavailable": "Otillgänglig",
+  "@settingsRouteUnavailable": {
+    "description": "Unavailable"
+  },
+  "settingsPrimaryFallback": "Primär reservrutt",
+  "@settingsPrimaryFallback": {
+    "description": "Primary fallback"
+  },
+  "settingsRouteRetained": "Rutten är otillgänglig. Din nuvarande rutt behölls.",
+  "@settingsRouteRetained": {
+    "description": "Route unavailable. Your current route was kept."
+  },
+  "settingsAvailableSites": "Tillgängliga platser",
+  "@settingsAvailableSites": {
+    "description": "Available sites"
+  },
+  "settingsRouteRefreshFailed": "Rutterna kunde inte uppdateras. Din nuvarande rutt behölls.",
+  "@settingsRouteRefreshFailed": {
+    "description": "Could not refresh routes. Your current route was kept."
+  },
+  "settingsRefreshing": "Uppdaterar",
+  "@settingsRefreshing": {
+    "description": "Refreshing"
+  },
+  "settingsRefreshSites": "Uppdatera platser",
+  "@settingsRefreshSites": {
+    "description": "Refresh sites"
+  },
+  "settingsRouteSourceDescription": "Rutter kommer från verifierad officiell konfiguration. Vid start återställs den senaste rutten före uppdatering från aktuella, cachade, ursprungliga och S3/R2-källor. Manuellt val prioriteras; vid fel behålls den nuvarande rutten.",
+  "@settingsRouteSourceDescription": {
+    "description": "Routes come from verified official configuration. Startup restores the last route before refreshing from current, cached, seed and S3/R2 sources. Manual selection takes priority; failures keep the current route."
+  },
+  "settingsUnknownDevice": "Okänd enhet",
+  "@settingsUnknownDevice": {
+    "description": "Unknown device"
+  },
+  "settingsSignOutDevice": "Logga ut",
+  "@settingsSignOutDevice": {
+    "description": "Sign out"
+  },
+  "settingsCurrentDevice": "Nuvarande",
+  "@settingsCurrentDevice": {
+    "description": "Current"
+  },
+  "settingsDeviceListFailed": "Enheter kunde inte läsas in",
+  "@settingsDeviceListFailed": {
+    "description": "Could not load devices"
+  },
+  "settingsNoLoggedDevices": "Inga inloggade enheter",
+  "@settingsNoLoggedDevices": {
+    "description": "No signed-in devices"
+  },
+  "settingsFontPreview": "Förhandsvisning",
+  "@settingsFontPreview": {
+    "description": "Preview"
+  },
+  "settingsFontPreviewText": "Den här exempeltexten visar teckenstorleken. Välj en storlek som gör det bekvämt att chatta.",
+  "@settingsFontPreviewText": {
+    "description": "This sample text previews the font size. Choose a size that makes chatting comfortable for you."
+  },
+  "settingsAllRightsReserved": "Alla rättigheter förbehållna",
+  "@settingsAllRightsReserved": {
+    "description": "All rights reserved"
+  },
+  "settingsTranslationExample": "Översättningsexempel",
+  "@settingsTranslationExample": {
+    "description": "Translation example"
+  },
+  "settingsOriginalEnglish": "Original (engelska)",
+  "@settingsOriginalEnglish": {
+    "description": "Original (English)"
+  },
+  "settingsTargetLanguage": "Målspråk",
+  "@settingsTargetLanguage": {
+    "description": "Target language"
+  },
+  "settingsTranslationHelp": "Tips:\n• Automatisk översättning använder AI\n• Översättningar är vägledande och kan innehålla fel\n• Både original och översättning visas i chatten\n• Håll inne ett meddelande och välj ”Visa original”",
+  "@settingsTranslationHelp": {
+    "description": "Tips:\n• Automatic translation uses AI\n• Translations are for reference and may contain errors\n• Both the original and translation appear in chat\n• Touch and hold a message and choose “Show original”"
+  },
+  "settingsBackgroundDefault": "Standardbakgrund",
+  "@settingsBackgroundDefault": {
+    "description": "Default background"
+  },
+  "settingsBackgroundWhite": "Vit",
+  "@settingsBackgroundWhite": {
+    "description": "White"
+  },
+  "settingsBackgroundLightGray": "Ljusgrå",
+  "@settingsBackgroundLightGray": {
+    "description": "Light gray"
+  },
+  "settingsBackgroundBeige": "Beige",
+  "@settingsBackgroundBeige": {
+    "description": "Beige"
+  },
+  "settingsBackgroundLightBlue": "Ljusblå",
+  "@settingsBackgroundLightBlue": {
+    "description": "Light blue"
+  },
+  "settingsBackgroundLightGreen": "Ljusgrön",
+  "@settingsBackgroundLightGreen": {
+    "description": "Light green"
+  },
+  "settingsBackgroundLightPink": "Ljusrosa",
+  "@settingsBackgroundLightPink": {
+    "description": "Light pink"
+  },
+  "settingsBackgroundLightPurple": "Ljuslila",
+  "@settingsBackgroundLightPurple": {
+    "description": "Light purple"
+  },
+  "settingsBackgroundCustom": "Egen bild",
+  "@settingsBackgroundCustom": {
+    "description": "Custom image"
+  },
+  "settingsConversationBackground": "Bakgrund för den här chatten",
+  "@settingsConversationBackground": {
+    "description": "This chat’s background"
+  },
+  "settingsChatBackground": "Chattbakgrund",
+  "@settingsChatBackground": {
+    "description": "Chat background"
+  },
+  "settingsChangeBackgroundImage": "Ändra egen bild",
+  "@settingsChangeBackgroundImage": {
+    "description": "Change custom image"
+  },
+  "settingsSelectBackgroundImage": "Välj från foton",
+  "@settingsSelectBackgroundImage": {
+    "description": "Choose from photos"
+  },
+  "settingsBackgroundSet": "Ange",
+  "@settingsBackgroundSet": {
+    "description": "Set"
+  },
+  "settingsUseGlobalBackground": "Använd global chattbakgrund",
+  "@settingsUseGlobalBackground": {
+    "description": "Use global chat background"
+  },
+  "settingsTranslatedExampleLanguage": "Översättning ({language})",
+  "@settingsTranslatedExampleLanguage": {
+    "description": "settingsTranslatedExampleLanguage",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOutDeviceConfirm": "Logga ut ”{name}”?",
+  "@settingsSignOutDeviceConfirm": {
+    "description": "settingsSignOutDeviceConfirm",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsActiveSessions": "{count, plural, one {{count} session} other {{count} sessioner}}",
+  "@settingsActiveSessions": {
+    "description": "settingsActiveSessions",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeviceLastActive": "Senast aktiv {time}",
+  "@settingsDeviceLastActive": {
+    "description": "settingsDeviceLastActive",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsDeveloperDiagnostics": "Utvecklardiagnostik",
+  "@settingsDeveloperDiagnostics": {
+    "description": "settingsDeveloperDiagnostics"
+  },
+  "networkOfflineBanner": "Nätverket är otillgängligt. Kontrollera nätverksinställningarna.",
+  "@networkOfflineBanner": {
+    "description": "Shared UI presentation networkOfflineBanner"
+  }
+}

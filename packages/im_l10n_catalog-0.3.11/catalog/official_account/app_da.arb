@@ -1,0 +1,112 @@
+{
+  "@@locale": "da",
+  "officialAccountBadge": "Officiel",
+  "officialAccountOpenConversation": "Åbn samtale",
+  "officialAccountJoinHint": "Når du tilføjer denne konto, deltager du i virksomheden som kunde. Vennegodkendelse kræves ikke.",
+  "officialAccountJoinDisabled": "Denne virksomhed accepterer ikke nye kunder. Kontakt support.",
+  "officialAccountRemoved": "Du er fjernet fra virksomheden. Bed den om at invitere dig igen.",
+  "officialAccountBanned": "Din konto er deaktiveret i denne virksomhed.",
+  "officialAccountUnavailable": "Denne officielle konto er utilgængelig i øjeblikket.",
+  "officialAccountJoinBindingDisabled": "Deltagelse i virksomhed er ikke tilladt i denne tilstand.",
+  "officialAccountPlatformRequired": "Brug en platformskonto til at tilføje denne officielle konto.",
+  "officialAccountOpenFailed": "Samtalen kunne ikke åbnes. Prøv igen.",
+  "officialAccountAccountChanged": "Konto eller rum er ændret. Åbn igen.",
+  "officialAccountDirectoryUnavailable": "Virksomhedsoversigten er ikke opdateret. Prøv om lidt.",
+  "officialAccountInboxSyncFailed": "Synkronisering af officiel konto mislykkedes. Lokalt indhold er stadig tilgængeligt.",
+  "officialAccountInboxSyncing": "Synkroniserer officielle kontobeskeder",
+  "officialIdentityQr": "Officiel kontoprofil og QR-kode",
+  "officialIdentityHint": "Administrér den officielle identitet, dine kunder ser",
+  "officialEditProfile": "Rediger profil",
+  "officialSetIdentityHint": "Angiv officielt kontonummer, navn og profilbillede",
+  "officialQrTitle": "Officiel kontos QR-kode",
+  "officialViewReset": "Vis eller nulstil",
+  "officialAutoJoin": "Deltag automatisk i organisationen, når du tilføjer dens officielle konto",
+  "officialAutoJoinHint": "Kunder deltager automatisk i organisationens kunderum, når de tilføjer dens officielle konto",
+  "officialConversationFeatures": "Samtalefunktioner",
+  "officialConversationSettingsHint": "Ændringer påvirker straks kundernes officielle samtaler",
+  "officialServiceMenu": "Servicemenu",
+  "officialServiceMenuHint": "Vis kunderne menuen, der er konfigureret i computerkonsollen",
+  "officialWelcomeOnFirstContact": "Velkomst ved første kontakt",
+  "officialWelcomeMessage": "Velkomstbesked",
+  "officialHumanSupport": "Overdragelse til rigtige medarbejdere",
+  "officialReceptionModeHint": "Nye eller genåbnede modtagelser bruger den valgte tilstand. Aktive samtaler beholder deres nuværende tilstand.",
+  "officialReceptionMode": "Medarbejderens modtagelsestilstand",
+  "officialReceptionInOfficial": "I samtalen med den officielle konto",
+  "officialReceptionLegacy": "Separat medarbejderchat (ældre tilstand)",
+  "officialServiceNotice": "Modtagelsesmeddelelse",
+  "officialServiceNoticeText": "Tekst til modtagelsesmeddelelse",
+  "officialAutoHandoff": "Automatisk medarbejderoverdragelse",
+  "officialAutoHandoffHint": "Tildel en medarbejder, når en kunde skriver til den officielle konto",
+  "officialForwardCustomerText": "Videresend kundens besked",
+  "officialForwardCustomerTextHint": "Send kundens besked videre til den tildelte medarbejder efter overdragelsen",
+  "officialSyncAgentReplies": "Synkronisér medarbejdersvar til den officielle konto",
+  "officialSyncAgentRepliesHint": "Send medarbejdersvar tilbage til den officielle samtale i ældre tilstand",
+  "officialHandoffCooldown": "Interval mellem overdragelsesmeddelelser",
+  "officialAssignedNotice": "Besked om tildelt medarbejder",
+  "officialQueuedNotice": "Købesked",
+  "officialDesktopManagementHint": "Administrér menustruktur, adgangskoder og officielle grupper i computerkonsollen.",
+  "officialSaveFailed": "Kunne ikke gemme. Prøv igen senere.",
+  "officialCooldownRange": "Interval: 0–1440 minutter",
+  "officialMenuItems": "Menupunkter",
+  "officialMenuVersion": "Menuversion",
+  "officialEnabled": "Aktiveret",
+  "officialManageDenied": "Denne konto kan ikke administrere officielle konti",
+  "officialSettingsLoadFailed": "Indstillinger for officiel konto kunne ikke indlæses",
+  "officialProfileSaved": "Officiel kontoprofil gemt",
+  "officialProfileTitle": "Officiel kontoprofil",
+  "officialDisplayName": "Visningsnavn",
+  "officialAvatarUrl": "Profilbilledets URL",
+  "officialAvatarLogoFallback": "Lad stå tomt for at bruge organisationens logo",
+  "officialIdHint": "6–10 cifre; lad stå tomt for at fjerne tilknytning",
+  "officialResetQr": "Nulstil QR-kode",
+  "officialResetQrConfirm": "Den gamle QR-kode stopper straks med at virke. Nulstil?",
+  "officialReset": "Nulstil",
+  "officialQrNotGenerated": "Ingen QR-kode er genereret",
+  "officialQrLoadFailed": "QR-koden kunne ikke indlæses. Prøv igen.",
+  "officialGenerate": "Opret",
+  "officialMenuCustomerOnly": "Kontakt til support er kun tilgængelig for kunder",
+  "officialMenuUpdated": "Menuen er ændret. Prøv igen.",
+  "officialMenuActionFailed": "Handlingen mislykkedes. Kontrollér forbindelsen, og prøv igen.",
+  "officialMenuLoadFailed": "Servicemenuen kunne ikke indlæses",
+  "officialMenuRefreshFailed": "Servicemenuen kunne ikke opdateres",
+  "officialAccountIdValue": "Officiel konto {id}",
+  "@officialAccountIdValue": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "officialCooldownMinutes": "{count, plural, one {{count} minut} other {{count} minutter}}",
+  "@officialCooldownMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialTemplateTokensHint": "Understøtter pladsholderne {staff}, {tenant}, {customer}",
+  "@officialTemplateTokensHint": {
+    "placeholders": {
+      "staff": {
+        "type": "String"
+      },
+      "tenant": {
+        "type": "String"
+      },
+      "customer": {
+        "type": "String"
+      }
+    }
+  },
+  "officialQrUsedCount": "{count, plural, one {Brugt {count} gang} other {Brugt {count} gange}}",
+  "@officialQrUsedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "officialNameLengthInvalid": "Navnet skal indeholde 1–64 tegn",
+  "officialIdFormatInvalid": "Officielt kontonummer skal være 6–10 cifre"
+}

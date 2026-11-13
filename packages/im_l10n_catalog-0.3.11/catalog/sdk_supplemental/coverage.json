@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": 1,
+  "data": {
+    "schemaVersion": 1,
+    "localeCount": 35,
+    "originalLocalesPreserved": [
+      "zh",
+      "zh_TW",
+      "en",
+      "ja",
+      "ko",
+      "vi"
+    ],
+    "newLocales": [
+      "ar",
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "es",
+      "fi",
+      "fil",
+      "fr",
+      "hi",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ms",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "pt_PT",
+      "ro",
+      "ru",
+      "si",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "uk"
+    ],
+    "translatedColumnLocales": [
+      "zh_TW",
+      "en",
+      "ja",
+      "ko",
+      "vi",
+      "ar",
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "es",
+      "fi",
+      "fil",
+      "fr",
+      "hi",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ms",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "pt_PT",
+      "ro",
+      "ru",
+      "si",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "uk"
+    ],
+    "policy": "Existing six-language values are unchanged. Only reviewed shared keys are localized for new locales; unmapped SDK phrases use their existing English value, not an invented translation.",
+    "tables": {
+      "chrome": {
+        "sourceKeyCount": 77,
+        "sharedMappings": {
+          "操作失败，请重试": {
+            "module": "common",
+            "key": "commonOperationFailed"
+          },
+          "聊天": {
+            "module": "chat",
+            "key": "chatSettingsTitle"
+          },
+          "账号": {
+            "module": "settings",
+            "key": "settingsSectionAccount"
+          },
+          "登录": {
+            "module": "auth",
+            "key": "authLoginButton"
+          },
+          "安全验证": {
+            "module": "auth",
+            "key": "authCaptchaTitle"
+          },
+          "添加好友": {
+            "module": "organization",
+            "key": "organizationAddFriend"
+          },
+          "好友申请": {
+            "module": "contacts",
+            "key": "contactsFriendRequests"
+          },
+          "搜索会话": {
+            "module": "customer_service",
+            "key": "csSearchConversations"
+          },
+          "没有匹配的会话": {
+            "module": "customer_service",
+            "key": "csNoMatchingConversations"
+          },
+          "联系人加载失败": {
+            "module": "contacts",
+            "key": "contactsLoadFailed"
+          },
+          "两次密码不一致": {
+            "module": "auth",
+            "key": "authErrorPasswordMismatch"
+          },
+          "请输入手机号": {
+            "module": "auth",
+            "key": "authHintMobile"
+          },
+          "手机号格式不正确": {
+            "module": "auth",
+            "key": "authErrorInvalidMobile"
+          },
+          "请输入邮箱": {
+            "module": "auth",
+            "key": "authHintEmail"
+          },
+          "邮箱格式不正确": {
+            "module": "auth",
+            "key": "authErrorInvalidEmail"
+          },
+          "新建群聊": {
+            "module": "chat",
+            "key": "homeCreateGroup"
+          },
+          "注册服务暂不可用，请稍后重试": {
+            "module": "common",
+            "key": "errorRegistrationUnavailable"
+          },
+          "操作频繁，请稍后重试": {
+            "module": "common",
+            "key": "errorRateLimited"
+          }
+        },
+        "englishFallbackValues": {
+          "客服": "Customer support",
+          "账号已创建，等待审批后请登录": "Account created. Sign in after approval.",
+          "账号已创建，暂时无法进入聊天，请稍后登录": "Account created. Chat is unavailable; please sign in later.",
+          "当前注册方式不可用": "This sign-up method is unavailable.",
+          "请完成安全验证": "Complete the security verification.",
+          "安全验证有误，请重试": "Security verification failed. Please try again.",
+          "安全验证暂不可用，请重试": "Security verification is unavailable. Please try again.",
+          "验证码有误，请重试": "The verification code is incorrect. Please try again.",
+          "验证码已过期，请重新获取": "The code has expired. Request a new code.",
+          "请检查注册信息": "Check your sign-up details.",
+          "账号已存在，请登录": "This account already exists. Please sign in.",
+          "注册未完成，请检查信息或稍后重试": "Sign-up did not complete. Check your details or try again later.",
+          "会话": "Conversations",
+          "登录聊天": "Sign in to chat",
+          "登录后即可查看会话，与好友和群成员聊天": "Sign in to view conversations and chat with friends and groups.",
+          "请先同意使用聊天服务": "Please agree to use the chat service first.",
+          "我已了解并同意使用聊天服务": "I understand and agree to use the chat service",
+          "接入方尚未配置聊天服务，请联系应用提供方": "Chat is not configured. Please contact the app provider.",
+          "接入方尚未配置聊天服务": "Chat is not configured.",
+          "请输入账号": "Enter your account",
+          "正在登录…": "Signing in…",
+          "暂时无法登录，请稍后重试": "Unable to sign in. Please try again later.",
+          "登录验证未通过，请重试": "Verification failed. Please try again.",
+          "连接失败，请检查网络后重试": "Connection failed. Check your network and try again.",
+          "聊天服务的账号接入尚未配置完成，请联系应用提供方": "Account integration is not ready. Contact the app provider.",
+          "账号或密码不正确，或当前账号暂时无法登录": "The account or password is incorrect, or sign-in is unavailable.",
+          "登录未完成，请检查网络后重试": "Sign-in did not complete. Check your network and try again.",
+          "登录验证": "Sign-in verification",
+          "聊天服务暂不可用": "Chat is temporarily unavailable",
+          "聊天服务暂不可用，重试": "Chat is unavailable. Try again",
+          "请先登录当前应用": "Please sign in to this app first",
+          "请先通过宿主登录": "Please sign in to this app first",
+          "此入口未纳入SDK，返回宿主": "This page is unavailable. Return to the app",
+          "返回会话列表": "Back to conversations",
+          "发起聊天": "New chat",
+          "会话加载失败": "Unable to load conversations",
+          "暂无会话，点击右上角发起聊天": "No conversations yet. Start a chat using the top-right button.",
+          "加载更多": "Load more",
+          "暂时无法发起聊天，请稍后重试": "Unable to start a chat. Please try again later.",
+          "暂无可聊天的联系人": "No contacts available to chat",
+          "注册账号": "Create account",
+          "注册后即可开始聊天，无需选择空间": "Create an account to start chatting. No workspace selection is needed.",
+          "重新加载注册方式": "Reload sign-up options",
+          "当前没有可用的注册方式，请联系应用提供方": "Sign-up is unavailable. Contact the app provider.",
+          "验证码（可选）": "Verification code (optional)",
+          "发送验证码": "Send code",
+          "正在处理…": "Processing…",
+          "注册并进入聊天": "Create account and chat",
+          "返回登录": "Back to sign in",
+          "验证码发送失败，请稍后重试": "Unable to send the code. Please try again later.",
+          "注册未完成，请稍后重试": "Sign-up did not complete. Please try again later.",
+          "企业客服": "Customer support",
+          "正在排队": "Waiting in queue",
+          "等待会话准备": "Preparing your conversation",
+          "接待状态暂未确认": "Support status is not confirmed",
+          "正在联系企业客服": "Connecting to customer support",
+          "返回宿主": "Back to app",
+          "客服接入后可进入聊天。可手动查看接待状态。": "Chat opens when support connects. You can check the status below.",
+          "查看接待状态": "Check support status"
+        },
+        "newLocaleCoverage": {
+          "ar": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "bg": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "cs": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "da": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "de": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "el": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "es": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "fi": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "fil": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "fr": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "hi": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "hr": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "hu": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "id": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "it": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "ms": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "nb": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "nl": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "pl": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "pt": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "pt_PT": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "ro": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "ru": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "si": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "sk": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "sv": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "th": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "tr": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          },
+          "uk": {
+            "englishFallback": 59,
+            "sharedArb": 18
+          }
+        }
+      },
+      "web": {
+        "sourceKeyCount": 146,
+        "sharedMappings": {
+          "消息": {
+            "module": "chat",
+            "key": "homeTitle"
+          },
+          "联系人": {
+            "module": "chat",
+            "key": "chatContactDefaultName"
+          },
+          "刷新": {
+            "module": "settings",
+            "key": "diagnosticsRefresh"
+          },
+          "退出登录": {
+            "module": "auth",
+            "key": "authLogout"
+          },
+          "关闭": {
+            "module": "common",
+            "key": "commonClose"
+          },
+          "账号": {
+            "module": "settings",
+            "key": "settingsSectionAccount"
+          },
+          "密码": {
+            "module": "auth",
+            "key": "authPassword"
+          },
+          "安全验证": {
+            "module": "auth",
+            "key": "authCaptchaTitle"
+          },
+          "登录": {
+            "module": "auth",
+            "key": "authLoginButton"
+          },
+          "重试": {
+            "module": "common",
+            "key": "commonRetry"
+          },
+          "昵称": {
+            "module": "auth",
+            "key": "authNickname"
+          },
+          "手机号": {
+            "module": "profile",
+            "key": "profileMobile"
+          },
+          "确认密码": {
+            "module": "auth",
+            "key": "authConfirmPassword"
+          },
+          "注册并登录": {
+            "module": "auth",
+            "key": "authRegisterAndLogin"
+          },
+          "验证码": {
+            "module": "auth",
+            "key": "authVerificationCode"
+          },
+          "邮箱": {
+            "module": "profile",
+            "key": "profileEmail"
+          },
+          "两次输入的密码不一致": {
+            "module": "auth",
+            "key": "authErrorPasswordMismatch"
+          },
+          "添加好友": {
+            "module": "organization",
+            "key": "organizationAddFriend"
+          },
+          "好友申请": {
+            "module": "contacts",
+            "key": "contactsFriendRequests"
+          },
+          "暂无消息": {
+            "module": "chat",
+            "key": "chatNoMessages"
+          },
+          "新建群聊": {
+            "module": "chat",
+            "key": "homeCreateGroup"
+          },
+          "暂无联系人。": {
+            "module": "chat",
+            "key": "chatNoContacts"
+          },
+          "已是好友": {
+            "module": "profile",
+            "key": "profilePageAlreadyFriend"
+          },
+          "好友申请已发送，等待对方同意": {
+            "module": "contacts",
+            "key": "scanFriendRequestPending"
+          },
+          "已成为好友": {
+            "module": "contacts",
+            "key": "friendAccepted"
+          },
+          "已拒绝": {
+            "module": "contacts",
+            "key": "friendRejected"
+          },
+          "同意": {
+            "module": "contacts",
+            "key": "friendAccept"
+          },
+          "拒绝": {
+            "module": "contacts",
+            "key": "friendReject"
+          },
+          "暂无好友申请": {
+            "module": "contacts",
+            "key": "friendNoRequests"
+          },
+          "群名称": {
+            "module": "organization",
+            "key": "groupName"
+          },
+          "聊天": {
+            "module": "chat",
+            "key": "chatSettingsTitle"
+          },
+          "输入消息…": {
+            "module": "chat",
+            "key": "chatInputHint"
+          },
+          "消息内容": {
+            "module": "chat",
+            "key": "chatMessageContent"
+          },
+          "发送": {
+            "module": "common",
+            "key": "commonSend"
+          },
+          "我": {
+            "module": "chat",
+            "key": "chatSelf"
+          },
+          "对方": {
+            "module": "chat",
+            "key": "chatPeer"
+          },
+          "[图片]": {
+            "module": "chat",
+            "key": "chatImageMessage"
+          },
+          "[文件]": {
+            "module": "chat",
+            "key": "chatFileMessage"
+          },
+          "[视频]": {
+            "module": "chat",
+            "key": "chatVideoMessage"
+          },
+          "[语音]": {
+            "module": "chat",
+            "key": "chatVoiceMessage"
+          },
+          "[系统消息]": {
+            "module": "chat",
+            "key": "chatSystemMessage"
+          },
+          "[通话记录]": {
+            "module": "chat",
+            "key": "chatCallLogMessage"
+          },
+          "[消息已撤回]": {
+            "module": "chat",
+            "key": "chatStatusRecalled",
+            "wrapper": "[{value}]"
+          },
+          "登录状态已失效，请重新登录": {
+            "module": "customer_service",
+            "key": "csSignInAgain"
+          },
+          "密码至少6位": {
+            "module": "auth",
+            "key": "authErrorPasswordTooShort"
+          }
+        },
+        "englishFallbackValues": {
+          "需要有效的聊天容器": "A valid chat container is required",
+          "IM 聊天": "IM chat",
+          "用户": "User",
+          "返回": "Back",
+          "操作未完成，请重试": "Could not complete the action. Try again.",
+          "聊天服务暂未就绪，请稍后重试": "Chat is not ready. Please try again shortly.",
+          "登录聊天": "Sign in to chat",
+          "欢迎使用": "Welcome",
+          "登录 IM 账号，即可查看你的消息。": "Sign in to your IM account to see your messages.",
+          "安全验证答案": "Security answer",
+          "注册新账号": "Create an account",
+          "登录后即可查看当前账号的单聊和群聊。": "Sign in to see this account’s direct and group chats.",
+          "换一个": "Try another",
+          "正在登录…": "Signing in…",
+          "请先在应用中登录": "Please sign in to the app first",
+          "聊天暂不可用，请重试": "Chat is unavailable. Please try again.",
+          "注册聊天账号": "Create a chat account",
+          "注册后即可开始聊天，无需选择空间。": "Create an account to start chatting. No workspace selection is needed.",
+          "注册方式": "Sign-up method",
+          "设置密码": "Set a password",
+          "注册验证码": "Registration code",
+          "发送验证码": "Send code",
+          "换一个安全验证": "New security challenge",
+          "重新加载注册方式": "Reload sign-up methods",
+          "手机号或邮箱": "Phone number or email",
+          "密码（至少6位）": "Password (at least 6 characters)",
+          "返回登录": "Back to sign in",
+          "暂未开放注册，请联系应用提供方": "Sign-up is unavailable. Contact the app provider.",
+          "验证码已发送，请稍后再试": "A code was sent. Please wait before trying again.",
+          "验证码已发送，请查收": "Verification code sent",
+          "发起单聊": "New chat",
+          "正在加载会话…": "Loading conversations…",
+          "暂时无法加载会话，请点击刷新重试。": "Could not load conversations. Refresh to try again.",
+          "群": "G",
+          "聊": "C",
+          "群聊": "Group chat",
+          "还没有会话。可以发起单聊，或等待新的消息。": "No conversations yet. Start a chat or wait for a message.",
+          "加载更多会话": "More conversations",
+          "搜索好友名字": "Search friends by name",
+          "刷新好友": "Refresh friends",
+          "选择好友开始聊天": "Choose a friend to chat",
+          "友": "F",
+          "没有找到匹配的好友。": "No matching friends.",
+          "返回会话": "Back to conversations",
+          "正在加载好友…": "Loading friends…",
+          "好友加载失败，请刷新重试。": "Could not load friends. Please refresh.",
+          "搜索账号、手机号或邮箱": "Search account, phone or email",
+          "好友申请消息（可选）": "Friend request message (optional)",
+          "搜索用户": "Search users",
+          "查找用户": "Find a user",
+          "申请消息": "Request message",
+          "查看好友申请": "View friend requests",
+          "已申请": "Requested",
+          "没有找到可添加的用户": "No users available to add",
+          "已成为好友，可返回发起单聊": "You are now friends. Start a chat from the list.",
+          "刷新好友申请": "Refresh requests",
+          "待处理": "Pending",
+          "已发送，等待对方同意": "Sent, awaiting approval",
+          "已取消": "Cancelled",
+          "状态待确认": "Status unconfirmed",
+          "好友申请状态已更新": "Friend request status updated",
+          "创建群聊": "Create group",
+          "刷新可选好友": "Refresh available friends",
+          "选择好友加入群聊，也可以先创建空群。": "Choose friends to invite, or create an empty group.",
+          "暂无好友，可先添加好友。": "No friends yet. Add a friend first.",
+          "聊天界面已关闭": "Chat view is closed",
+          "请先登录": "Please sign in first",
+          "正在加载消息…": "Loading messages…",
+          "无法打开会话，请返回列表后重试。": "Could not open the chat. Return to the list and try again.",
+          "消息加载失败，请点击刷新重试。": "Could not load messages. Please refresh.",
+          "聊天消息": "Chat messages",
+          "加载更早消息": "Load earlier messages",
+          "暂无消息，发一句问候吧。": "No messages yet. Say hello.",
+          "联系客服": "Contact support",
+          "正在连接客服…": "Connecting to support…",
+          "客服": "Support",
+          "正在排队": "In the queue",
+          "客服尚未接入": "Support is not connected yet",
+          "你的请求已提交。客服接入后才能开始聊天。": "Your request was submitted. Chat will start when support joins.",
+          "暂时还无法开始聊天，请稍后刷新状态。": "Chat cannot start yet. Refresh the status shortly.",
+          "刷新客服状态": "Refresh support status",
+          "客服请求未完成，请点击刷新重试。": "Support request failed. Please refresh.",
+          "已连接": "Connected",
+          "正在恢复连接…": "Reconnecting…",
+          "正在连接…": "Connecting…",
+          "连接暂不可用，可手动刷新": "Connection unavailable. You can refresh manually.",
+          "正在更新消息…": "Updating messages…",
+          "客服状态有更新，请刷新查看": "Support status changed. Refresh to see it.",
+          "[此消息类型暂不支持显示]": "[Unsupported message type]",
+          "{name}，{count} 条未读消息": "{name}, {count} unread messages",
+          "与{name}聊天": "Chat with {name}",
+          "邀请{name}": "Invite {name}",
+          "网络连接失败，请检查网络和跨域配置": "Connection failed. Check your network and try again.",
+          "请求超时，请重试": "The request timed out. Please try again.",
+          "请完成安全验证后重试": "Complete the security check and try again.",
+          "请求未完成，请重试或联系应用提供方": "The request failed. Try again or contact the app provider.",
+          "账号已注册，暂未能完成登录，请返回登录重试": "Account created. Return to sign in and try again.",
+          "账号已注册，尚需服务端审核后才能登录": "Account created. Approval is required before sign-in.",
+          "显示设置无效": "Invalid display settings",
+          "请填写必填项": "Please fill in the required fields",
+          "输入内容格式不正确": "Please check the input format"
+        },
+        "newLocaleCoverage": {
+          "ar": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "bg": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "cs": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "da": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "de": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "el": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "es": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "fi": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "fil": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "fr": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "hi": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "hr": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "hu": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "id": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "it": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "ms": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "nb": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "nl": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "pl": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "pt": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "pt_PT": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "ro": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "ru": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "si": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "sk": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "sv": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "th": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "tr": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          },
+          "uk": {
+            "englishFallback": 101,
+            "sharedArb": 45
+          }
+        }
+      },
+      "fileMessages": {
+        "sourceKeyCount": 6,
+        "sharedMappings": {
+          "filePickFailed": {
+            "module": "chat",
+            "key": "chatFileReadFailed"
+          },
+          "mediaUsePhotos": {
+            "module": "chat",
+            "key": "chatFileUsePhotos"
+          },
+          "unrecognizedType": {
+            "module": "chat",
+            "key": "chatFileTypeUnknown"
+          },
+          "typeMismatch": {
+            "module": "chat",
+            "key": "chatFileTypeMismatch"
+          },
+          "unsupportedExtension": {
+            "module": "chat",
+            "key": "chatFileExtensionUnsupported"
+          },
+          "unsupportedType": {
+            "module": "chat",
+            "key": "chatFileTypeUnsupported"
+          }
+        },
+        "englishFallbackValues": {},
+        "newLocaleCoverage": {
+          "ar": {
+            "sharedArb": 6
+          },
+          "bg": {
+            "sharedArb": 6
+          },
+          "cs": {
+            "sharedArb": 6
+          },
+          "da": {
+            "sharedArb": 6
+          },
+          "de": {
+            "sharedArb": 6
+          },
+          "el": {
+            "sharedArb": 6
+          },
+          "es": {
+            "sharedArb": 6
+          },
+          "fi": {
+            "sharedArb": 6
+          },
+          "fil": {
+            "sharedArb": 6
+          },
+          "fr": {
+            "sharedArb": 6
+          },
+          "hi": {
+            "sharedArb": 6
+          },
+          "hr": {
+            "sharedArb": 6
+          },
+          "hu": {
+            "sharedArb": 6
+          },
+          "id": {
+            "sharedArb": 6
+          },
+          "it": {
+            "sharedArb": 6
+          },
+          "ms": {
+            "sharedArb": 6
+          },
+          "nb": {
+            "sharedArb": 6
+          },
+          "nl": {
+            "sharedArb": 6
+          },
+          "pl": {
+            "sharedArb": 6
+          },
+          "pt": {
+            "sharedArb": 6
+          },
+          "pt_PT": {
+            "sharedArb": 6
+          },
+          "ro": {
+            "sharedArb": 6
+          },
+          "ru": {
+            "sharedArb": 6
+          },
+          "si": {
+            "sharedArb": 6
+          },
+          "sk": {
+            "sharedArb": 6
+          },
+          "sv": {
+            "sharedArb": 6
+          },
+          "th": {
+            "sharedArb": 6
+          },
+          "tr": {
+            "sharedArb": 6
+          },
+          "uk": {
+            "sharedArb": 6
+          }
+        }
+      },
+      "networkErrors": {
+        "sourceKeyCount": 12,
+        "sharedMappings": {
+          "账号或密码错误": {
+            "module": "auth",
+            "key": "authErrorWrongCredentials"
+          },
+          "登录已失效，请重新登录": {
+            "module": "common",
+            "key": "errorSessionExpired"
+          },
+          "该邮箱已注册，请直接登录": {
+            "module": "common",
+            "key": "errorEmailAlreadyRegistered"
+          },
+          "该手机号已注册，请直接登录": {
+            "module": "common",
+            "key": "errorMobileAlreadyRegistered"
+          },
+          "请先完成图形验证码": {
+            "module": "common",
+            "key": "errorCaptchaRequired"
+          },
+          "请先获取并填写验证码": {
+            "module": "auth",
+            "key": "authErrorVerificationRequired"
+          },
+          "验证码发送过于频繁，请稍后再试": {
+            "module": "common",
+            "key": "errorVerificationTooFrequent"
+          },
+          "本小时验证码发送已达上限": {
+            "module": "common",
+            "key": "errorVerificationHourlyLimit"
+          },
+          "今日验证码发送已达上限": {
+            "module": "common",
+            "key": "errorVerificationDailyLimit"
+          },
+          "当前账号不属于该租户，请确认企业后再试": {
+            "module": "common",
+            "key": "errorTenantNotMember"
+          },
+          "当前租户已停用，请联系管理员": {
+            "module": "common",
+            "key": "errorTenantSuspended"
+          },
+          "操作过于频繁，请稍后再试": {
+            "module": "common",
+            "key": "errorRateLimited"
+          }
+        },
+        "englishFallbackValues": {},
+        "newLocaleCoverage": {
+          "ar": {
+            "sharedArb": 12
+          },
+          "bg": {
+            "sharedArb": 12
+          },
+          "cs": {
+            "sharedArb": 12
+          },
+          "da": {
+            "sharedArb": 12
+          },
+          "de": {
+            "sharedArb": 12
+          },
+          "el": {
+            "sharedArb": 12
+          },
+          "es": {
+            "sharedArb": 12
+          },
+          "fi": {
+            "sharedArb": 12
+          },
+          "fil": {
+            "sharedArb": 12
+          },
+          "fr": {
+            "sharedArb": 12
+          },
+          "hi": {
+            "sharedArb": 12
+          },
+          "hr": {
+            "sharedArb": 12
+          },
+          "hu": {
+            "sharedArb": 12
+          },
+          "id": {
+            "sharedArb": 12
+          },
+          "it": {
+            "sharedArb": 12
+          },
+          "ms": {
+            "sharedArb": 12
+          },
+          "nb": {
+            "sharedArb": 12
+          },
+          "nl": {
+            "sharedArb": 12
+          },
+          "pl": {
+            "sharedArb": 12
+          },
+          "pt": {
+            "sharedArb": 12
+          },
+          "pt_PT": {
+            "sharedArb": 12
+          },
+          "ro": {
+            "sharedArb": 12
+          },
+          "ru": {
+            "sharedArb": 12
+          },
+          "si": {
+            "sharedArb": 12
+          },
+          "sk": {
+            "sharedArb": 12
+          },
+          "sv": {
+            "sharedArb": 12
+          },
+          "th": {
+            "sharedArb": 12
+          },
+          "tr": {
+            "sharedArb": 12
+          },
+          "uk": {
+            "sharedArb": 12
+          }
+        }
+      }
+    },
+    "profileOverrides": {
+      "authExpandJoin": {
+        "newLocaleValues": {
+          "ar": "Join an enterprise? Enter an invitation code (optional)",
+          "bg": "Join an enterprise? Enter an invitation code (optional)",
+          "cs": "Join an enterprise? Enter an invitation code (optional)",
+          "da": "Join an enterprise? Enter an invitation code (optional)",
+          "de": "Join an enterprise? Enter an invitation code (optional)",
+          "el": "Join an enterprise? Enter an invitation code (optional)",
+          "es": "Join an enterprise? Enter an invitation code (optional)",
+          "fi": "Join an enterprise? Enter an invitation code (optional)",
+          "fil": "Join an enterprise? Enter an invitation code (optional)",
+          "fr": "Join an enterprise? Enter an invitation code (optional)",
+          "hi": "Join an enterprise? Enter an invitation code (optional)",
+          "hr": "Join an enterprise? Enter an invitation code (optional)",
+          "hu": "Join an enterprise? Enter an invitation code (optional)",
+          "id": "Join an enterprise? Enter an invitation code (optional)",
+          "it": "Join an enterprise? Enter an invitation code (optional)",
+          "ms": "Join an enterprise? Enter an invitation code (optional)",
+          "nb": "Join an enterprise? Enter an invitation code (optional)",
+          "nl": "Join an enterprise? Enter an invitation code (optional)",
+          "pl": "Join an enterprise? Enter an invitation code (optional)",
+          "pt": "Join an enterprise? Enter an invitation code (optional)",
+          "pt_PT": "Join an enterprise? Enter an invitation code (optional)",
+          "ro": "Join an enterprise? Enter an invitation code (optional)",
+          "ru": "Join an enterprise? Enter an invitation code (optional)",
+          "si": "Join an enterprise? Enter an invitation code (optional)",
+          "sk": "Join an enterprise? Enter an invitation code (optional)",
+          "sv": "Join an enterprise? Enter an invitation code (optional)",
+          "th": "Join an enterprise? Enter an invitation code (optional)",
+          "tr": "Join an enterprise? Enter an invitation code (optional)",
+          "uk": "Join an enterprise? Enter an invitation code (optional)"
+        },
+        "newLocaleOrigins": {
+          "ar": "sdkEnglishFallback",
+          "bg": "sdkEnglishFallback",
+          "cs": "sdkEnglishFallback",
+          "da": "sdkEnglishFallback",
+          "de": "sdkEnglishFallback",
+          "el": "sdkEnglishFallback",
+          "es": "sdkEnglishFallback",
+          "fi": "sdkEnglishFallback",
+          "fil": "sdkEnglishFallback",
+          "fr": "sdkEnglishFallback",
+          "hi": "sdkEnglishFallback",
+          "hr": "sdkEnglishFallback",
+          "hu": "sdkEnglishFallback",
+          "id": "sdkEnglishFallback",
+          "it": "sdkEnglishFallback",
+          "ms": "sdkEnglishFallback",
+          "nb": "sdkEnglishFallback",
+          "nl": "sdkEnglishFallback",
+          "pl": "sdkEnglishFallback",
+          "pt": "sdkEnglishFallback",
+          "pt_PT": "sdkEnglishFallback",
+          "ro": "sdkEnglishFallback",
+          "ru": "sdkEnglishFallback",
+          "si": "sdkEnglishFallback",
+          "sk": "sdkEnglishFallback",
+          "sv": "sdkEnglishFallback",
+          "th": "sdkEnglishFallback",
+          "tr": "sdkEnglishFallback",
+          "uk": "sdkEnglishFallback"
+        }
+      },
+      "authJoinCredentialHint": {
+        "newLocaleValues": {
+          "ar": "Enter an invitation code",
+          "bg": "Enter an invitation code",
+          "cs": "Enter an invitation code",
+          "da": "Enter an invitation code",
+          "de": "Enter an invitation code",
+          "el": "Enter an invitation code",
+          "es": "Enter an invitation code",
+          "fi": "Enter an invitation code",
+          "fil": "Enter an invitation code",
+          "fr": "Enter an invitation code",
+          "hi": "Enter an invitation code",
+          "hr": "Enter an invitation code",
+          "hu": "Enter an invitation code",
+          "id": "Enter an invitation code",
+          "it": "Enter an invitation code",
+          "ms": "Enter an invitation code",
+          "nb": "Enter an invitation code",
+          "nl": "Enter an invitation code",
+          "pl": "Enter an invitation code",
+          "pt": "Enter an invitation code",
+          "pt_PT": "Enter an invitation code",
+          "ro": "Enter an invitation code",
+          "ru": "Enter an invitation code",
+          "si": "Enter an invitation code",
+          "sk": "Enter an invitation code",
+          "sv": "Enter an invitation code",
+          "th": "Enter an invitation code",
+          "tr": "Enter an invitation code",
+          "uk": "Enter an invitation code"
+        },
+        "newLocaleOrigins": {
+          "ar": "sdkEnglishFallback",
+          "bg": "sdkEnglishFallback",
+          "cs": "sdkEnglishFallback",
+          "da": "sdkEnglishFallback",
+          "de": "sdkEnglishFallback",
+          "el": "sdkEnglishFallback",
+          "es": "sdkEnglishFallback",
+          "fi": "sdkEnglishFallback",
+          "fil": "sdkEnglishFallback",
+          "fr": "sdkEnglishFallback",
+          "hi": "sdkEnglishFallback",
+          "hr": "sdkEnglishFallback",
+          "hu": "sdkEnglishFallback",
+          "id": "sdkEnglishFallback",
+          "it": "sdkEnglishFallback",
+          "ms": "sdkEnglishFallback",
+          "nb": "sdkEnglishFallback",
+          "nl": "sdkEnglishFallback",
+          "pl": "sdkEnglishFallback",
+          "pt": "sdkEnglishFallback",
+          "pt_PT": "sdkEnglishFallback",
+          "ro": "sdkEnglishFallback",
+          "ru": "sdkEnglishFallback",
+          "si": "sdkEnglishFallback",
+          "sk": "sdkEnglishFallback",
+          "sv": "sdkEnglishFallback",
+          "th": "sdkEnglishFallback",
+          "tr": "sdkEnglishFallback",
+          "uk": "sdkEnglishFallback"
+        }
+      },
+      "authJoinHelp": {
+        "newLocaleValues": {
+          "ar": "Enter an invitation code provided by the enterprise to join after registration.",
+          "bg": "Enter an invitation code provided by the enterprise to join after registration.",
+          "cs": "Enter an invitation code provided by the enterprise to join after registration.",
+          "da": "Enter an invitation code provided by the enterprise to join after registration.",
+          "de": "Enter an invitation code provided by the enterprise to join after registration.",
+          "el": "Enter an invitation code provided by the enterprise to join after registration.",
+          "es": "Enter an invitation code provided by the enterprise to join after registration.",
+          "fi": "Enter an invitation code provided by the enterprise to join after registration.",
+          "fil": "Enter an invitation code provided by the enterprise to join after registration.",
+          "fr": "Enter an invitation code provided by the enterprise to join after registration.",
+          "hi": "Enter an invitation code provided by the enterprise to join after registration.",
+          "hr": "Enter an invitation code provided by the enterprise to join after registration.",
+          "hu": "Enter an invitation code provided by the enterprise to join after registration.",
+          "id": "Enter an invitation code provided by the enterprise to join after registration.",
+          "it": "Enter an invitation code provided by the enterprise to join after registration.",
+          "ms": "Enter an invitation code provided by the enterprise to join after registration.",
+          "nb": "Enter an invitation code provided by the enterprise to join after registration.",
+          "nl": "Enter an invitation code provided by the enterprise to join after registration.",
+          "pl": "Enter an invitation code provided by the enterprise to join after registration.",
+          "pt": "Enter an invitation code provided by the enterprise to join after registration.",
+          "pt_PT": "Enter an invitation code provided by the enterprise to join after registration.",
+          "ro": "Enter an invitation code provided by the enterprise to join after registration.",
+          "ru": "Enter an invitation code provided by the enterprise to join after registration.",
+          "si": "Enter an invitation code provided by the enterprise to join after registration.",
+          "sk": "Enter an invitation code provided by the enterprise to join after registration.",
+          "sv": "Enter an invitation code provided by the enterprise to join after registration.",
+          "th": "Enter an invitation code provided by the enterprise to join after registration.",
+          "tr": "Enter an invitation code provided by the enterprise to join after registration.",
+          "uk": "Enter an invitation code provided by the enterprise to join after registration."
+        },
+        "newLocaleOrigins": {
+          "ar": "sdkEnglishFallback",
+          "bg": "sdkEnglishFallback",
+          "cs": "sdkEnglishFallback",
+          "da": "sdkEnglishFallback",
+          "de": "sdkEnglishFallback",
+          "el": "sdkEnglishFallback",
+          "es": "sdkEnglishFallback",
+          "fi": "sdkEnglishFallback",
+          "fil": "sdkEnglishFallback",
+          "fr": "sdkEnglishFallback",
+          "hi": "sdkEnglishFallback",
+          "hr": "sdkEnglishFallback",
+          "hu": "sdkEnglishFallback",
+          "id": "sdkEnglishFallback",
+          "it": "sdkEnglishFallback",
+          "ms": "sdkEnglishFallback",
+          "nb": "sdkEnglishFallback",
+          "nl": "sdkEnglishFallback",
+          "pl": "sdkEnglishFallback",
+          "pt": "sdkEnglishFallback",
+          "pt_PT": "sdkEnglishFallback",
+          "ro": "sdkEnglishFallback",
+          "ru": "sdkEnglishFallback",
+          "si": "sdkEnglishFallback",
+          "sk": "sdkEnglishFallback",
+          "sv": "sdkEnglishFallback",
+          "th": "sdkEnglishFallback",
+          "tr": "sdkEnglishFallback",
+          "uk": "sdkEnglishFallback"
+        }
+      },
+      "authJoinNotFound": {
+        "newLocaleValues": {
+          "ar": "The invitation code is invalid or does not exist",
+          "bg": "The invitation code is invalid or does not exist",
+          "cs": "The invitation code is invalid or does not exist",
+          "da": "The invitation code is invalid or does not exist",
+          "de": "The invitation code is invalid or does not exist",
+          "el": "The invitation code is invalid or does not exist",
+          "es": "The invitation code is invalid or does not exist",
+          "fi": "The invitation code is invalid or does not exist",
+          "fil": "The invitation code is invalid or does not exist",
+          "fr": "The invitation code is invalid or does not exist",
+          "hi": "The invitation code is invalid or does not exist",
+          "hr": "The invitation code is invalid or does not exist",
+          "hu": "The invitation code is invalid or does not exist",
+          "id": "The invitation code is invalid or does not exist",
+          "it": "The invitation code is invalid or does not exist",
+          "ms": "The invitation code is invalid or does not exist",
+          "nb": "The invitation code is invalid or does not exist",
+          "nl": "The invitation code is invalid or does not exist",
+          "pl": "The invitation code is invalid or does not exist",
+          "pt": "The invitation code is invalid or does not exist",
+          "pt_PT": "The invitation code is invalid or does not exist",
+          "ro": "The invitation code is invalid or does not exist",
+          "ru": "The invitation code is invalid or does not exist",
+          "si": "The invitation code is invalid or does not exist",
+          "sk": "The invitation code is invalid or does not exist",
+          "sv": "The invitation code is invalid or does not exist",
+          "th": "The invitation code is invalid or does not exist",
+          "tr": "The invitation code is invalid or does not exist",
+          "uk": "The invitation code is invalid or does not exist"
+        },
+        "newLocaleOrigins": {
+          "ar": "sdkEnglishFallback",
+          "bg": "sdkEnglishFallback",
+          "cs": "sdkEnglishFallback",
+          "da": "sdkEnglishFallback",
+          "de": "sdkEnglishFallback",
+          "el": "sdkEnglishFallback",
+          "es": "sdkEnglishFallback",
+          "fi": "sdkEnglishFallback",
+          "fil": "sdkEnglishFallback",
+          "fr": "sdkEnglishFallback",
+          "hi": "sdkEnglishFallback",
+          "hr": "sdkEnglishFallback",
+          "hu": "sdkEnglishFallback",
+          "id": "sdkEnglishFallback",
+          "it": "sdkEnglishFallback",
+          "ms": "sdkEnglishFallback",
+          "nb": "sdkEnglishFallback",
+          "nl": "sdkEnglishFallback",
+          "pl": "sdkEnglishFallback",
+          "pt": "sdkEnglishFallback",
+          "pt_PT": "sdkEnglishFallback",
+          "ro": "sdkEnglishFallback",
+          "ru": "sdkEnglishFallback",
+          "si": "sdkEnglishFallback",
+          "sk": "sdkEnglishFallback",
+          "sv": "sdkEnglishFallback",
+          "th": "sdkEnglishFallback",
+          "tr": "sdkEnglishFallback",
+          "uk": "sdkEnglishFallback"
+        }
+      },
+      "authQuickLoginSummary": {
+        "newLocaleValues": {
+          "ar": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "bg": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "cs": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "da": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "de": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "el": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "es": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "fi": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "fil": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "fr": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "hi": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "hr": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "hu": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "id": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "it": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "ms": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "nb": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "nl": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "pl": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "pt": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "pt_PT": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "ro": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "ru": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "si": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "sk": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "sv": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "th": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "tr": "{count} quick-login accounts. Credentials are supplied by the host.",
+          "uk": "{count} quick-login accounts. Credentials are supplied by the host."
+        },
+        "newLocaleOrigins": {
+          "ar": "sdkEnglishFallback",
+          "bg": "sdkEnglishFallback",
+          "cs": "sdkEnglishFallback",
+          "da": "sdkEnglishFallback",
+          "de": "sdkEnglishFallback",
+          "el": "sdkEnglishFallback",
+          "es": "sdkEnglishFallback",
+          "fi": "sdkEnglishFallback",
+          "fil": "sdkEnglishFallback",
+          "fr": "sdkEnglishFallback",
+          "hi": "sdkEnglishFallback",
+          "hr": "sdkEnglishFallback",
+          "hu": "sdkEnglishFallback",
+          "id": "sdkEnglishFallback",
+          "it": "sdkEnglishFallback",
+          "ms": "sdkEnglishFallback",
+          "nb": "sdkEnglishFallback",
+          "nl": "sdkEnglishFallback",
+          "pl": "sdkEnglishFallback",
+          "pt": "sdkEnglishFallback",
+          "pt_PT": "sdkEnglishFallback",
+          "ro": "sdkEnglishFallback",
+          "ru": "sdkEnglishFallback",
+          "si": "sdkEnglishFallback",
+          "sk": "sdkEnglishFallback",
+          "sv": "sdkEnglishFallback",
+          "th": "sdkEnglishFallback",
+          "tr": "sdkEnglishFallback",
+          "uk": "sdkEnglishFallback"
+        }
+      }
+    },
+    "legalAndExamples": "Existing document bodies, examples and their existing fallback logic are unchanged. No 35-language legal translation is claimed."
+  }
+}

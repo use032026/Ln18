@@ -1,0 +1,122 @@
+{
+  "@@locale": "zh",
+  "notificationTitle": "通知",
+  "@notificationTitle": {
+    "description": "Notification title"
+  },
+  "notificationGlobalMute": "全局静音",
+  "@notificationGlobalMute": {
+    "description": "Global mute"
+  },
+  "notificationSound": "声音",
+  "@notificationSound": {
+    "description": "Sound"
+  },
+  "notificationVibration": "振动",
+  "@notificationVibration": {
+    "description": "Vibration"
+  },
+  "notificationPreview": "通知预览",
+  "@notificationPreview": {
+    "description": "Notification preview"
+  },
+  "notificationDndStart": "免打扰开始时间",
+  "@notificationDndStart": {
+    "description": "DND start"
+  },
+  "notificationDndEnd": "免打扰结束时间",
+  "@notificationDndEnd": {
+    "description": "DND end"
+  },
+  "notificationNewMessageTitle": "微界新消息",
+  "notificationOnlineServiceTitle": "在线客服新消息",
+  "notificationNewMessageBody": "你收到一条新消息",
+  "notificationImagePreview": "发来了一张图片",
+  "notificationVideoPreview": "发来了一段视频",
+  "notificationVoicePreview": "发来了一条语音消息",
+  "notificationFilePreview": "发来了一个文件",
+  "notificationContactPreview": "发来了一张名片",
+  "notificationCallLogPreview": "发来了一条通话记录",
+  "notificationLocationPreview": "分享了一个位置",
+  "notificationLinkPreview": "分享了一个链接",
+  "notificationMentionMe": "@了你：{body}",
+  "@notificationMentionMe": {
+    "placeholders": {
+      "body": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMentionMeBy": "{sender} @了你：{body}",
+  "@notificationMentionMeBy": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMentionAll": "@所有人：{body}",
+  "@notificationMentionAll": {
+    "placeholders": {
+      "body": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMentionAllBy": "{sender} @所有人：{body}",
+  "@notificationMentionAllBy": {
+    "placeholders": {
+      "sender": {
+        "type": "String"
+      },
+      "body": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationSecurityTitle": "账号安全提醒",
+  "notificationSecurityBody": "你的微界账号出现安全变更，请及时查看。",
+  "notificationFriendAcceptedTitle": "好友申请已通过",
+  "notificationFriendRejectedTitle": "好友申请已被拒绝",
+  "notificationFriendAcceptedBody": "对方已通过你的好友申请",
+  "notificationFriendRejectedBody": "对方拒绝了你的好友申请",
+  "notificationVideoCallTitle": "视频通话邀请",
+  "notificationAudioCallTitle": "语音通话邀请",
+  "notificationVideoCallBody": "{caller}邀请你进行视频通话",
+  "@notificationVideoCallBody": {
+    "placeholders": {
+      "caller": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationAudioCallBody": "{caller}邀请你进行语音通话",
+  "@notificationAudioCallBody": {
+    "placeholders": {
+      "caller": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMessageChannelName": "消息通知",
+  "notificationMessageChannelDescription": "聊天消息、通话记录和系统消息提醒",
+  "notificationCallChannelName": "通话通知",
+  "notificationCallChannelDescription": "语音和视频来电提醒",
+  "notificationSecurityChannelName": "账号安全通知",
+  "notificationSecurityChannelDescription": "账号登录、密码和手机号变更提醒",
+  "notificationUnknownCaller": "未知来电人",
+  "notificationBadgeChannelName": "消息角标",
+  "notificationBadgeChannelDescription": "用于在桌面图标显示未读消息数量",
+  "notificationBadgeUnreadCount": "{count} 条未读消息",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ 条未读消息"
+}

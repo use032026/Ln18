@@ -1,0 +1,75 @@
+{
+  "@@locale": "de",
+  "appRuntimeLoadFailed": "Kontodaten konnten nicht geladen werden",
+  "privacyConsentTitle": "Allgemeine Geschäftsbedingungen & Datenschutzerklärung",
+  "privacyConsentBodyAndroid": "Willkommen bei {brand}. Für die Kontoanmeldung, Sofortnachrichten, die Zusammenarbeit im Unternehmen, den Online-Kundendienst, Nachrichtenbenachrichtigungen und den Sicherheitsschutz müssen wir gemäß den Nutzungsbedingungen und der Datenschutzerklärung erforderliche Informationen verarbeiten.\n\nBevor Sie auf „Zustimmen“ tippen, lesen wir keine Zwischenablagedaten, initialisieren weder JPush/JCore noch Push-SDKs der Gerätehersteller und greifen damit nicht auf Android ID, OAID, Listen installierter Apps, MAC-Adressen oder ähnliche Informationen zu. Wenn Sie vorerst ablehnen, speichern wir Ihre Entscheidung; Sie können die Dokumente weiterhin lesen und später erneut entscheiden.\n\nNach Ihrer Zustimmung können JPush/JCore und Push-Dienste der Gerätehersteller zur Zustellung von Nachrichten-, Kundendienst- und Anrufbenachrichtigungen Gerätemodell, Android-Version, App-Paket und -Version, Netzwerktyp, IP-Adresse, Android ID, OAID, Push-Registrierungs-ID, Hersteller-Push-Token sowie Zustellungs- und Klickdaten von Benachrichtigungen verarbeiten. Nicht erforderliche Funktionen wie intelligenter Push, Listen installierter Apps, MAC, IMEI, IMSI, WLAN-Listen, automatisches Aufwecken und verknüpfter Start sind deaktiviert.\n\nAuf die Zwischenablage wird nur zugegriffen, wenn Sie selbst kopieren oder einfügen. Kamera-, Mikrofon-, Benachrichtigungs- und andere Systemberechtigungen werden nur angefragt, wenn Sie die jeweilige Funktion aktiv nutzen. Die Verweigerung einer Berechtigung betrifft nur diese Funktion. Bitte lesen Sie die vollständigen Dokumente unten und entscheiden Sie, ob Sie zustimmen.",
+  "privacyConsentBodyIos": "Willkommen bei {brand}. Für die Kontoanmeldung, Sofortnachrichten, die Zusammenarbeit im Unternehmen, den Online-Kundendienst, Nachrichtenbenachrichtigungen und den Sicherheitsschutz müssen wir gemäß den Nutzungsbedingungen und der Datenschutzerklärung erforderliche Informationen verarbeiten.\n\nBevor Sie auf „Zustimmen“ tippen, lesen wir keine Zwischenablagedaten, initialisieren JPush/JCore nicht, registrieren uns nicht beim Apple Push Notification service (APNs) und beziehen keine Push-Kennungen wie die JPush-Registrierungs-ID oder das APNs-Gerätetoken. Wenn Sie vorerst ablehnen, speichern wir Ihre Entscheidung; Sie können die Dokumente weiterhin lesen und später erneut entscheiden.\n\nNach Ihrer Zustimmung können wir zur Zustellung von Nachrichten-, Kundendienst- und Anrufbenachrichtigungen iPhone-Modell, iOS-Version, App-Paket und -Version, Netzwerktyp, IP-Adresse, IDFV, JPush-Registrierungs-ID, APNs-Gerätetoken sowie Zustellungs- und Klickdaten von Benachrichtigungen verarbeiten. JPush/JCore stellt die Verbindung zum Push-Dienst her; Apple APNs verarbeitet die App-Kennung, das Gerätetoken und den Benachrichtigungsinhalt zur Zustellung von Systembenachrichtigungen. Die aktuelle iOS-App nutzt keine Werbedienste und bezieht keine IDFA.\n\nAuf die Zwischenablage wird nur zugegriffen, wenn Sie selbst kopieren oder einfügen. Kamera-, Mikrofon-, Benachrichtigungs- und andere Systemberechtigungen werden nur angefragt, wenn Sie die jeweilige Funktion aktiv nutzen. Die Verweigerung einer Berechtigung betrifft nur diese Funktion. Bitte lesen Sie die vollständigen Dokumente unten und entscheiden Sie, ob Sie zustimmen.",
+  "privacyConsentTermsLink": "Nutzungsbedingungen",
+  "privacyConsentConjunction": "und",
+  "privacyConsentPrivacyLink": "Datenschutzerklärung",
+  "privacyConsentDecline": "Ablehnen",
+  "privacyConsentDeclinedExit": "Sie haben den Nutzungsbedingungen und der Datenschutzerklärung nicht zugestimmt. Die App wird jetzt geschlossen.",
+  "privacyConsentAccept": "Zustimmen",
+  "privacyConsentRuntimeFailure": "Start fehlgeschlagen. Netzwerk prüfen und erneut versuchen.",
+  "privacyConsentSaveFailure": "Ihre Entscheidung konnte nicht gespeichert werden. Bitte erneut versuchen.",
+  "appUpdateRequiredTitle": "Zum Fortfahren ist ein Update erforderlich",
+  "appUpdateOptionalTitle": "Neue Version verfügbar",
+  "appUpdateVersionAvailable": "{brand} {version} ist verfügbar",
+  "appUpdateLater": "Später",
+  "appUpdateNow": "Jetzt aktualisieren",
+  "appUpdateProcessing": "Wird verarbeitet …",
+  "appUpdateInvalidUrl": "Die Update-Adresse ist ungültig. Bitte später erneut versuchen.",
+  "appUpdateOpenUrlFailed": "Der Update-Link konnte nicht geöffnet werden. Bitte später erneut versuchen.",
+  "appUpdateDownloadInterrupted": "Download unterbrochen. Netzwerk prüfen und erneut versuchen.",
+  "appUpdatePackageVerificationFailed": "Paketprüfung fehlgeschlagen. Bitte erneut herunterladen.",
+  "appUpdatePermissionDenied": "Erlauben Sie {brand} in den Systemeinstellungen, Updates zu installieren.",
+  "appUpdateOpenInstallerFailed": "Das Installationsprogramm konnte nicht geöffnet werden. Installationsberechtigungen prüfen.",
+  "appUpdateGenericFailure": "Update fehlgeschlagen. Netzwerk prüfen und erneut versuchen.",
+  "appUpdateUnavailable": "Die neue Version kann noch nicht heruntergeladen werden. Bitte später erneut versuchen.",
+  "appUpdateCheckFailed": "Die Suche nach Updates ist fehlgeschlagen. Bitte später erneut versuchen.",
+  "appUpdateChecking": "Wird geprüft",
+  "privacySettingsTitle": "Datenschutz",
+  "privacySearchableByMobile": "Suche über Telefonnummer erlauben",
+  "privacySearchableByLppId": "Suche über StartLink-ID erlauben",
+  "privacyAllowFriendRequest": "Freundschaftsanfragen erlauben",
+  "privacyProfileVisibility": "Profilsichtbarkeit",
+  "privacyEveryone": "Alle",
+  "privacyFriendsOfFriends": "Freunde von Freunden",
+  "privacyNobody": "Niemand",
+  "privacyFriendsOnly": "Nur Freunde",
+  "privacySaveSuccess": "Einstellungen gespeichert",
+  "privacySaveFailed": "Speichern fehlgeschlagen. Bitte erneut versuchen.",
+  "termsTitle": "Nutzungsbedingungen",
+  "privacyPolicyTitle": "Datenschutzrichtlinie",
+  "permissionGroupManageDenied": "Nur der Gruppeninhaber oder Administratoren können die Gruppeneinstellungen ändern.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Nur der Gruppeninhaber oder Administratoren können den Gruppennamen ändern.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "In dieser Gruppe dürfen Mitglieder einander nicht als Freunde hinzufügen.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "Für diese Organisation ist die Kundenisolierung aktiviert. Sie können Kunden nicht als Freunde hinzufügen.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Aktuelle Fassung auf der Website ansehen",
+  "legalOfficialOpenFailed": "Die Website konnte nicht geöffnet werden. Die lokale Sicherung wird angezeigt.",
+  "legalLocalChineseNotice": "Die lokale Sicherung des Rechtsdokuments liegt in vereinfachtem Chinesisch vor.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

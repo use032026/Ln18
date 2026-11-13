@@ -1,0 +1,348 @@
+{
+  "customer": "Khách",
+  "action": {
+    "claim": "Tiếp nhận",
+    "closeThread": "Đóng hội thoại",
+    "takeover": "Tiếp quản thủ công"
+  },
+  "transfer": {
+    "confirm": "Transfer",
+    "currentStaff": "Current agent",
+    "detail": "Transfer the current conversation with \"{customer}\" to another agent. The recipient can view the full conversation history.",
+    "empty": "No transferable service members",
+    "loading": "Loading service members...",
+    "open": "Transfer to another agent",
+    "openShort": "Transfer",
+    "assignShort": "Assign",
+    "assign": {
+      "confirm": "Confirm assignment",
+      "detail": "Assign the current conversation with \"{customer}\" to an agent.",
+      "empty": "No assignable agents",
+      "loading": "Loading service members...",
+      "open": "Assign to agent",
+      "reasonLabel": "Assignment note",
+      "reasonPlaceholder": "Example: assign by language, queue ownership, or specialist skill",
+      "searchPlaceholder": "Search agent name or account",
+      "title": "Assign conversation",
+      "transferring": "Assigning..."
+    },
+    "reasonLabel": "Transfer note",
+    "reasonPlaceholder": "Example: customer requests Cantonese support, specialist follow-up needed",
+    "role": {
+      "admin": "Admin",
+      "customer_service": "Agent",
+      "owner": "Owner"
+    },
+    "searchPlaceholder": "Search agent name or account",
+    "selectTarget": "Select the target agent",
+    "title": "Transfer conversation",
+    "transferring": "Transferring...",
+    "unassignedStaff": "Unassigned",
+    "unavailable": "This conversation cannot be transferred yet. Claim or take over it first."
+  },
+  "send": {
+    "localFileExpired": "The local file expired. Select it again.",
+    "selectThread": "Select an online customer service conversation",
+    "sendInterruptedRetry": "Sending was interrupted. Click to retry.",
+    "threadClosedReadonly": "The conversation has ended and is now read-only.",
+    "videoPosterFailed": "Failed to generate video poster"
+  },
+  "contextPanel": {
+    "aiDraft": "AI draft",
+    "collapseCustomer": "Collapse customer info",
+    "dragSort": "Drag to reorder",
+    "emptyText": "Select a queued, active, or history conversation from the pool to view customer details.",
+    "emptyTitle": "No customer selected",
+    "expandCustomer": "Expand customer info",
+    "knowledge": "Knowledge base",
+    "pin": "Pin customer info",
+    "quickReply": "Quick replies",
+    "railAria": "Customer context shortcuts",
+    "selectFirst": "Select a conversation to view customer info",
+    "sessionInfo": "Conversation info",
+    "sessionNotesUnavailable": "Session notes are available only for online service temp sessions.",
+    "sessionSummary": "Conversation summary",
+    "sessionSummaryEmpty": "No conversation summary from the API yet.",
+    "title": "Customer info",
+    "toolsAria": "Customer service tools",
+    "unpin": "Unpin"
+  },
+  "sessionNotes": {
+    "add": "Add",
+    "contentRequired": "Enter a session note",
+    "contentTooLong": "Session notes cannot exceed {max} characters",
+    "count": "{count} notes",
+    "createFailed": "Failed to add note: {error}",
+    "createPinned": "Pin",
+    "created": "Note added",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this session note?",
+    "deleteFailed": "Failed to delete note: {error}",
+    "deleted": "Note deleted",
+    "editorLabel": "Session note content",
+    "empty": "No session notes",
+    "loadFailed": "Failed to load session notes: {error}",
+    "loading": "Loading session notes...",
+    "pin": "Pin",
+    "pinFailed": "Failed to update note pin: {error}",
+    "pinUpdated": "Note pin updated",
+    "placeholder": "Example: VIP customer, cares about refund timing",
+    "title": "Session notes",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time",
+    "unpin": "Unpin"
+  },
+  "transferRemarks": {
+    "closeAria": "Close transfer remarks",
+    "empty": "No transfer remarks",
+    "fromTo": "{from} transferred to {to}",
+    "inlineLabel": "Transfer note: {reason}",
+    "internalOnly": "Visible to agents only. Customers cannot see these notes.",
+    "noReason": "No transfer note",
+    "open": "Transfer remarks",
+    "openShort": "Transfer remarks",
+    "title": "Transfer remarks",
+    "unknownStaff": "Unknown agent",
+    "unknownTime": "Unknown time"
+  },
+  "closeConfirm": {
+    "confirm": "Đóng hội thoại",
+    "detail": "Sau khi đóng, hội thoại dịch vụ này sẽ vào lịch sử và ô nhập sẽ chuyển sang chỉ đọc.",
+    "pendingWarning": "Còn {count} tin nhắn chưa gửi xong. Nên xử lý trước khi đóng nếu cần.",
+    "risk": "Nếu khách truy cập lại, quy tắc máy chủ sẽ xếp hàng lại hoặc tạo tuyến CSKH mới.",
+    "title": "Đóng hội thoại với \"{customer}\"?"
+  },
+  "header": {
+    "autoTranslateDisabled": "Tắt cho hội thoại này",
+    "autoTranslateEnabled": "Bật cho hội thoại này",
+    "autoTranslateGlobalDisabled": "Theo toàn cục, đang tắt",
+    "autoTranslateGlobalEnabled": "Theo toàn cục, đang bật",
+    "autoTranslateNamed": "Tự động dịch: {state}",
+    "actionsAria": "Thao tác hội thoại",
+    "normalCustomer": "Khách thường",
+    "openCustomerInfo": "Mở thông tin khách hàng",
+    "pendingClaim": "Chờ tiếp nhận",
+    "pendingTakeover": "Chờ tiếp quản",
+    "readonly": "Chỉ đọc",
+    "replyable": "Có thể trả lời",
+    "slaRisk": "Rủi ro SLA",
+    "statusAria": "Trạng thái hội thoại CSKH",
+    "unread": "{count} chưa đọc",
+    "vipCustomer": "Khách VIP"
+  },
+  "reception": {
+    "autoEnableHint": "Bấm để chuyển sang trực tuyến và bật phân bổ tự động.",
+    "control": "Điều khiển tiếp nhận",
+    "mode": "Chế độ tiếp nhận",
+    "queueMode": {
+      "auto": {
+        "description": "Máy chủ phân bổ hội thoại trong hàng đợi cho nhân viên trực tuyến theo quy tắc.",
+        "disabledOffline": "Chỉ có thể bật phân bổ tự động khi đang trực tuyến.",
+        "disabledUnsynced": "Trạng thái tiếp nhận chưa đồng bộ nên chưa thể bật phân bổ tự động.",
+        "label": "Phân bổ tự động"
+      },
+      "manual": {
+        "description": "Hội thoại trong hàng đợi ở lại nhóm hội thoại để nhân viên tiếp nhận thủ công.",
+        "label": "Tiếp nhận thủ công"
+      }
+    },
+    "status": "Trạng thái tiếp nhận",
+    "statusOption": {
+      "break": {
+        "description": "Rời vị trí trong thời gian ngắn và không nhận hội thoại mới trong hàng đợi.",
+        "label": "Tạm rời"
+      },
+      "busy": {
+        "description": "Tạm dừng tự động tiếp nhận và tiếp tục xử lý hội thoại hiện tại.",
+        "label": "Bận"
+      },
+      "offline": {
+        "description": "Không tham gia tiếp nhận. Nên xử lý hoặc chuyển giao hội thoại hiện tại trước.",
+        "label": "Ngoại tuyến"
+      },
+      "online": {
+        "description": "Có thể tiếp nhận hội thoại mới và tham gia phân bổ tự động.",
+        "label": "Trực tuyến"
+      },
+      "unsynced": {
+        "description": "Trạng thái tiếp nhận đang đồng bộ. Mặc định bận và không tiếp nhận."
+      }
+    },
+    "summary": "{status} · {mode} · {sessions}"
+  },
+  "messageStage": {
+    "aria": "Chat CSKH",
+    "customerFallback": "Khách",
+    "customerReadAt": "Khách đã đọc {time}",
+    "customerReadTimeUnknown": "Không rõ thời gian khách đã đọc",
+    "customerUnread": "Khách chưa đọc",
+    "read": "Đã đọc",
+    "newMessages": "↓ {count} tin nhắn mới",
+    "typingPreviewEmpty": "The customer is typing...",
+    "typingPreviewLabel": "Customer is typing",
+    "unread": "Chưa đọc"
+  },
+  "online": {
+    "accessModeUnsynced": "Chế độ tiếp nhận chưa đồng bộ",
+    "assistantNeedsWidth": "{pane} cần vùng làm việc rộng hơn. Hãy kéo rộng cửa sổ hoặc thu gọn hàng đợi trước.",
+    "autoAccess": "Tự động tiếp nhận",
+    "commandSummary": "Hội thoại {total} · {mode} · Sức chứa {capacity}",
+    "commandTitle": "Bảng điều phối CSKH",
+    "dragSort": "Kéo để sắp xếp",
+    "expandActiveTitle": "Mở hội thoại đang xử lý, hiện có {count}",
+    "expandQueue": "Mở hàng đợi tiếp nhận",
+    "expandQueuedTitle": "Mở hội thoại trong hàng đợi, hiện có {count}",
+    "expandSlaTitle": "Mở hội thoại rủi ro SLA, hiện có {count}",
+    "expandUnreadTitle": "Mở hội thoại chưa đọc, hiện có {count}",
+    "metrics": {
+      "capacity": "Capacity",
+      "assigned": "Assigned",
+      "maxAssignable": "Max assignable",
+      "queued": "Queued",
+      "active": "Active",
+      "unread": "Unread",
+      "sla": "SLA"
+    },
+    "manualAccess": "Tiếp nhận thủ công",
+    "queueRailAria": "Radar hàng đợi CSKH",
+    "receptionNotSynced": "Trạng thái tiếp nhận chưa đồng bộ, vui lòng thử lại sau",
+    "resizeAssistant": "Điều chỉnh chiều rộng công cụ hỗ trợ",
+    "resizeCustomer": "Điều chỉnh chiều rộng hồ sơ khách",
+    "resizeList": "Điều chỉnh chiều rộng danh sách CSKH",
+    "status": {
+      "online": "Online",
+      "busy": "Busy",
+      "break": "Break",
+      "offline": "Offline",
+      "unsynced": "Not synced"
+    },
+    "unread": "Chưa đọc",
+    "unreadHint": "Đã mở mục chưa đọc cần xử lý. Hãy ưu tiên hội thoại có chấm đỏ; bộ lọc chưa đọc riêng đang chờ backend."
+  },
+  "threadList": {
+    "claim": "Tiếp nhận",
+    "claiming": "Đang tiếp nhận",
+    "claimTitle": "Tiếp nhận thủ công hội thoại khách này",
+    "current": "Hiện tại",
+    "empty": {
+      "clearSearch": "Xóa tìm kiếm",
+      "filteredDescription": "Không có hội thoại cần xử lý trong bộ lọc hiện tại. Có thể chuyển sang lịch sử hoặc chờ khách trong hàng đợi.",
+      "filteredTitle": "Bộ lọc hiện tại trống",
+      "historyFilteredDescription": "Không có hội thoại lịch sử để hiển thị trong bộ lọc hiện tại. Quay lại hội thoại hiện tại để tiếp tục xử lý khách trực tuyến.",
+      "historyFilteredTitle": "Bộ lọc lịch sử hiện tại trống",
+      "noCurrentDescription": "Khách trong hàng đợi sẽ tự động vào nhóm hội thoại; cũng có thể chuyển sang lịch sử để xem hội thoại đã kết thúc.",
+      "noCurrentTitle": "Chưa có hội thoại hiện tại",
+      "noHistoryDescription": "Hội thoại đã kết thúc sẽ vào danh sách lịch sử; hiện có thể theo dõi hàng đợi, đang xử lý và rủi ro SLA.",
+      "noHistoryTitle": "Chưa có hội thoại lịch sử",
+      "noSlaTitle": "Chưa có rủi ro SLA",
+      "queuedDescription": "Hiện không có khách chờ tiếp nhận. Có thể chuyển sang tất cả hoặc đang xử lý.",
+      "searchCurrentDescription": "Nhóm hội thoại hiện tại không có kết quả khớp. Hãy xóa tìm kiếm hoặc chuyển sang lịch sử.",
+      "searchHistoryDescription": "Lịch sử không có khách, kênh hoặc nội dung tin nhắn khớp. Hãy xóa tìm kiếm để xem tiếp.",
+      "searchTitle": "Không tìm thấy hội thoại khớp",
+      "servingDescription": "Hiện không có hội thoại đang tiếp nhận. Có thể chuyển sang hàng đợi hoặc xem lịch sử.",
+      "slaDescription": "Chưa phát hiện tín hiệu rủi ro SLA. Quay lại tất cả hội thoại và tiếp tục theo tin chưa đọc hoặc thời gian tin cuối.",
+      "viewAll": "Xem tất cả",
+      "viewQueued": "Xem hàng đợi"
+    },
+    "filterAll": "Tất cả",
+    "filterAria": "Bộ lọc CSKH",
+    "filterQueued": "Hàng đợi",
+    "filterServing": "Đang xử lý",
+    "history": "Lịch sử",
+    "historyStatus": {
+      "closedByVisitor": "Closed by visitor",
+      "closedByStaff": "Closed by agent",
+      "closedTimeout": "Closed by timeout",
+      "closedSystem": "Closed by system",
+      "transferred": "Transferred",
+      "archived": "Archived",
+      "ended": "Ended"
+    },
+    "historyStatusUnread": "Ended · {count} unread",
+    "historyThread": "Hội thoại lịch sử",
+    "loadMore": "Tải thêm",
+    "loadFailed": "Tải hội thoại thất bại, vui lòng thử lại sau",
+    "loading": "Đang tải hội thoại...",
+    "loadingMore": "Đang tải thêm...",
+    "modeTabsAria": "Hiện tại và lịch sử",
+    "noMessage": "Chưa có tin nhắn",
+    "queueMetaMinutes": "Hàng đợi #{position} · Thời gian chờ ước tính {minutes} phút",
+    "queueMetaSeconds": "Hàng đợi #{position} · Thời gian chờ ước tính {seconds} giây",
+    "queueMetaUnknown": "Hàng đợi #{position} · Thời gian chờ ước tính --",
+    "queuePosition": "Hàng đợi #{position}",
+    "queueWaitMinutes": "Chờ {minutes} phút",
+    "queueWaitSeconds": "Chờ {seconds} giây",
+    "queueWaitUnknown": "Chờ --",
+    "queueWaiting": "Đang xếp hàng · Chờ tiếp nhận",
+    "queueWaitingAutomatic": "Đang xếp hàng · Chờ phân công tự động",
+    "readonly": "Chỉ đọc",
+    "searchPlaceholder": "Tìm khách, kênh hoặc nội dung hội thoại",
+    "showMore": "Hiển thị thêm {count} hội thoại",
+    "summary": "Hiện tại {current} · Hàng đợi {queued} · Lịch sử {history}",
+    "title": "Nhóm hội thoại",
+    "unknownCustomer": "Khách không rõ"
+  },
+  "status": {
+    "aiTransfer": "Chuyển từ AI sang nhân viên",
+    "closed": "Đã kết thúc",
+    "queueing": "Khách đang chờ",
+    "serving": "Nhân viên đang hỗ trợ",
+    "unknown": "Đang đồng bộ trạng thái"
+  },
+  "visitor": "Khách",
+  "workspace": {
+    "actionFailed": "{action}: {error}",
+    "aiDraftInsertedNotice": "Đã chèn gợi ý trả lời AI vào ô nhập, vui lòng xác nhận trước khi gửi cho khách.",
+    "closedUnreadNotice": "Có {count} tin nhắn chưa đọc trước khi đóng",
+    "closing": "Đang đóng...",
+    "composerDisabled": {
+      "automaticAssignment": "Đã bật phân công tự động. Bạn có thể trả lời sau khi hệ thống phân công hội thoại.",
+      "claim": "Hội thoại này vẫn đang trong hàng đợi. Hãy tiếp nhận trước.",
+      "managementReadonly": "Chế độ xem. Bạn không thể trả lời. Hội thoại vẫn đang diễn ra và có thể chuyển cho nhân viên.",
+      "readonly": "Hội thoại đã kết thúc, không thể tiếp tục trả lời",
+      "transferred": "Hội thoại đã được chuyển tiếp, không thể trả lời",
+      "takeover": "Hội thoại này vẫn do AI xử lý. Hãy tiếp quản thủ công trước."
+    },
+    "currentCustomer": "Khách hiện tại",
+    "editFailed": "Chỉnh sửa thất bại",
+    "emptyAiDraft": "Gợi ý trả lời AI này chưa có nội dung có thể chèn.",
+    "emptyAssistantContent": "Nội dung hỗ trợ này chưa có nội dung có thể chèn.",
+    "emptyKnowledgeContent": "Nội dung tri thức này chưa có nội dung có thể chèn.",
+    "fileCopied": "Đã sao chép tệp.",
+    "imageCopied": "Đã sao chép hình ảnh.",
+    "insertedNotice": "Đã chèn vào ô nhập, vui lòng xác nhận trước khi gửi cho khách.",
+    "mediaNoUrl": "Tin nhắn media này không có địa chỉ có thể xử lý.",
+    "openFailed": "Mở thất bại",
+    "opened": "Đã mở.",
+    "openedForEdit": "Đã mở để chỉnh sửa.",
+    "lookupLoadedRangeOnly": "Hiện chỉ có thể định vị các tin nhắn CS đã tải.",
+    "revealFailed": "Hiển thị vị trí tệp thất bại",
+    "revealedInFinder": "Đã hiển thị trong Finder.",
+    "revealedInFolder": "Đã hiển thị trong thư mục.",
+    "saveAsFailed": "Lưu thành thất bại",
+    "savedAs": "Đã lưu thành.",
+    "selectThread": "Vui lòng chọn hội thoại CSKH",
+    "serviceConversation": "Hội thoại CSKH",
+    "threadChangedConfirmAgain": "Hội thoại hiện tại đã thay đổi, vui lòng xác nhận đóng lại.",
+    "inline": {
+      "emptyMessages": "Chưa có lịch sử tin nhắn. Có thể xem thông tin khách trước hoặc chờ khách bắt đầu trò chuyện.",
+      "loadFailed": "Tải hội thoại thất bại: {error}",
+      "loading": "Đang tải hội thoại...",
+      "noThread": "Chọn hội thoại trong hàng đợi, đang xử lý hoặc lịch sử để bắt đầu xử lý."
+    },
+    "mode": {
+      "current": "Đang tiếp nhận",
+      "history": "Hội thoại lịch sử",
+      "viewing": "Chế độ xem"
+    },
+    "reception": {
+      "ai": "Hiện do AI xử lý · Từ {source} · Cần tiếp quản trước khi trả lời thủ công",
+      "automaticAssignment": "Khách đang trong hàng đợi · Từ {source} · Chờ hệ thống tự động phân công",
+      "ended": "Hội thoại đã kết thúc · {status}",
+      "queued": "Khách đang trong hàng đợi · Từ {source} · Cần tiếp nhận trước khi trả lời thủ công",
+      "serving": "Hội thoại đã tiếp nhận · Từ {source} · Có thể tiếp tục trao đổi",
+      "viewing": "Chế độ xem · {status} · Từ {source} · Không thể trả lời"
+    },
+    "unknownSource": "Nguồn không rõ"
+  }
+}

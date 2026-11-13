@@ -1,0 +1,75 @@
+{
+  "@@locale": "uk",
+  "appRuntimeLoadFailed": "Не вдалося завантажити дані облікового запису",
+  "privacyConsentTitle": "Умови надання послуг та Політика конфіденційності",
+  "privacyConsentBodyAndroid": "Вітаємо в {brand}. Для входу в обліковий запис, обміну миттєвими повідомленнями, корпоративної співпраці, онлайн-підтримки, сповіщень і захисту безпеки нам потрібно обробляти необхідну інформацію відповідно до Умов використання та Політики конфіденційності.\n\nДо натискання «Погоджуюся» ми не читаємо буфер обміну, не ініціалізуємо JPush/JCore або SDK push-сповіщень виробників пристроїв і не використовуємо ці SDK для доступу до Android ID, OAID, списку встановлених застосунків, MAC-адрес та подібних даних. Якщо ви поки відмовитеся, ми збережемо цей вибір; ви зможете продовжити читання документів і змінити рішення пізніше.\n\nПісля згоди для доставлення сповіщень про повідомлення, підтримку та вхідні дзвінки JPush/JCore і push-сервіси виробників пристроїв можуть обробляти модель пристрою, версію Android, назву пакета й версію застосунку, тип мережі, IP-адресу, Android ID, OAID, Registration ID, push-токен виробника та дані доставлення сповіщень і натискань на них. Ми вимкнули необов’язкові можливості: розумні push-сповіщення, список встановлених застосунків, MAC, IMEI, IMSI, списки Wi-Fi, автоматичне пробудження та пов’язаний запуск.\n\nДоступ до буфера обміну здійснюється лише під час копіювання або вставлення. Дозволи на камеру, мікрофон, сповіщення та інші системні функції запитуються лише під час використання відповідної функції. Відмова в одному дозволі впливає лише на пов’язану функцію. Прочитайте повні документи нижче та вирішіть, чи погоджуєтеся ви.",
+  "privacyConsentBodyIos": "Вітаємо в {brand}. Для входу в обліковий запис, обміну миттєвими повідомленнями, корпоративної співпраці, онлайн-підтримки, сповіщень і захисту безпеки нам потрібно обробляти необхідну інформацію відповідно до Умов використання та Політики конфіденційності.\n\nДо натискання «Погоджуюся» ми не читаємо буфер обміну, не ініціалізуємо JPush/JCore, не реєструємося в Apple Push Notification service (APNs) і не отримуємо push-ідентифікатори, наприклад JPush Registration ID або токен пристрою APNs. Якщо ви поки відмовитеся, ми збережемо цей вибір; ви зможете продовжити читання документів і змінити рішення пізніше.\n\nПісля згоди для доставлення сповіщень про повідомлення, підтримку та вхідні дзвінки ми можемо обробляти модель iPhone, версію iOS, назву пакета й версію застосунку, тип мережі, IP-адресу, IDFV, JPush Registration ID, токен пристрою APNs, дані доставлення сповіщень і натискань на них. JPush/JCore підключається до push-сервісу; Apple APNs обробляє ідентифікатор застосунку, токен пристрою та вміст сповіщення для доставлення системних сповіщень. Поточний застосунок для iOS не використовує рекламних сервісів і не отримує IDFA.\n\nДоступ до буфера обміну здійснюється лише під час копіювання або вставлення. Дозволи на камеру, мікрофон, сповіщення та інші системні функції запитуються лише під час використання відповідної функції. Відмова в одному дозволі впливає лише на пов’язану функцію. Прочитайте повні документи нижче та вирішіть, чи погоджуєтеся ви.",
+  "privacyConsentTermsLink": "Угода користувача",
+  "privacyConsentConjunction": "і",
+  "privacyConsentPrivacyLink": "Політика конфіденційності",
+  "privacyConsentDecline": "Не погоджуюсь",
+  "privacyConsentDeclinedExit": "Ви не прийняли Умови використання та Політику конфіденційності. Застосунок закриється.",
+  "privacyConsentAccept": "Погодитися",
+  "privacyConsentRuntimeFailure": "Помилка запуску. Перевірте мережу та спробуйте ще раз.",
+  "privacyConsentSaveFailure": "Не вдалося зберегти вибір. Спробуйте ще раз.",
+  "appUpdateRequiredTitle": "Оновіть застосунок, щоб продовжити",
+  "appUpdateOptionalTitle": "Доступна нова версія",
+  "appUpdateVersionAvailable": "Доступна версія {brand} {version}",
+  "appUpdateLater": "Пізніше",
+  "appUpdateNow": "Оновити зараз",
+  "appUpdateProcessing": "Обробка...",
+  "appUpdateInvalidUrl": "Недійсна адреса оновлення. Спробуйте пізніше.",
+  "appUpdateOpenUrlFailed": "Не вдалося відкрити посилання оновлення. Спробуйте пізніше.",
+  "appUpdateDownloadInterrupted": "Завантаження перервано. Перевірте мережу та спробуйте ще раз.",
+  "appUpdatePackageVerificationFailed": "Пакет не пройшов перевірку. Завантажте його знову.",
+  "appUpdatePermissionDenied": "Дозвольте {brand} встановлювати оновлення в системних налаштуваннях.",
+  "appUpdateOpenInstallerFailed": "Не вдалося відкрити системний інсталятор. Перевірте дозволи на встановлення.",
+  "appUpdateGenericFailure": "Помилка оновлення. Перевірте мережу та спробуйте ще раз.",
+  "appUpdateUnavailable": "Нова версія поки недоступна для завантаження. Спробуйте пізніше.",
+  "appUpdateCheckFailed": "Не вдалося перевірити оновлення. Спробуйте пізніше.",
+  "appUpdateChecking": "Перевірка",
+  "privacySettingsTitle": "Конфіденційність",
+  "privacySearchableByMobile": "Дозволити пошук за номером телефону",
+  "privacySearchableByLppId": "Дозволити пошук за StartLink ID",
+  "privacyAllowFriendRequest": "Дозволити запити в друзі",
+  "privacyProfileVisibility": "Видимість профілю",
+  "privacyEveryone": "Усі",
+  "privacyFriendsOfFriends": "Друзі друзів",
+  "privacyNobody": "Ніхто",
+  "privacyFriendsOnly": "Лише друзі",
+  "privacySaveSuccess": "Налаштування збережено",
+  "privacySaveFailed": "Не вдалося зберегти. Спробуйте ще раз",
+  "termsTitle": "Угода користувача",
+  "privacyPolicyTitle": "Політика конфіденційності",
+  "permissionGroupManageDenied": "Лише власник і адміністратори можуть змінювати налаштування групи.",
+  "@permissionGroupManageDenied": {
+    "description": "Localized permissionGroupManageDenied presentation message"
+  },
+  "permissionGroupNameDenied": "Лише власник і адміністратори можуть змінювати назву групи.",
+  "@permissionGroupNameDenied": {
+    "description": "Localized permissionGroupNameDenied presentation message"
+  },
+  "permissionGroupAddFriendDisabled": "У цій групі учасники не можуть додавати одне одного в друзі.",
+  "@permissionGroupAddFriendDisabled": {
+    "description": "Localized permissionGroupAddFriendDisabled presentation message"
+  },
+  "permissionCustomerIsolation": "В організації ввімкнено ізоляцію клієнтів. Не можна додавати клієнтів у друзі.",
+  "@permissionCustomerIsolation": {
+    "description": "Localized permissionCustomerIsolation presentation message"
+  },
+  "legalOpenOfficial": "Відкрити останню версію на сайті",
+  "legalOfficialOpenFailed": "Не вдалося відкрити сайт. Показано локальну копію.",
+  "legalLocalChineseNotice": "Локальна резервна копія юридичного документа доступна спрощеною китайською.",
+  "legalPlatformDocumentTitle": "{title} ({platform})",
+  "@legalPlatformDocumentTitle": {
+    "description": "Legal document title with platform",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  }
+}

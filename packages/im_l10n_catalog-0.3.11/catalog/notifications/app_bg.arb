@@ -1,0 +1,53 @@
+{
+  "@@locale": "bg",
+  "notificationTitle": "Известия",
+  "notificationGlobalMute": "Не безпокой",
+  "notificationSound": "Звук",
+  "notificationVibration": "Вибрация",
+  "notificationPreview": "Преглед на съобщение",
+  "notificationDndStart": "Начало на „Не безпокой“",
+  "notificationDndEnd": "Край на „Не безпокой“",
+  "notificationNewMessageTitle": "Ново съобщение в StartLink",
+  "notificationOnlineServiceTitle": "Ново съобщение от обслужването на клиенти",
+  "notificationNewMessageBody": "Получихте ново съобщение",
+  "notificationImagePreview": "Изпрати изображение",
+  "notificationVideoPreview": "Изпрати видео",
+  "notificationVoicePreview": "Изпрати гласово съобщение",
+  "notificationFilePreview": "Изпрати файл",
+  "notificationContactPreview": "Изпрати контактна карта",
+  "notificationCallLogPreview": "Изпрати запис за обаждане",
+  "notificationLocationPreview": "Сподели местоположение",
+  "notificationLinkPreview": "Сподели връзка",
+  "notificationMentionMe": "Спомена ви: {body}",
+  "notificationMentionMeBy": "{sender} ви спомена: {body}",
+  "notificationMentionAll": "Спомена всички: {body}",
+  "notificationMentionAllBy": "{sender} спомена всички: {body}",
+  "notificationSecurityTitle": "Сигнал за сигурността на профила",
+  "notificationSecurityBody": "Настройките за сигурност на StartLink профила ви са променени. Проверете ги сега.",
+  "notificationFriendAcceptedTitle": "Заявката за приятелство е приета",
+  "notificationFriendRejectedTitle": "Заявката за приятелство е отказана",
+  "notificationFriendAcceptedBody": "Събеседникът прие заявката ви за приятелство",
+  "notificationFriendRejectedBody": "Събеседникът отказа заявката ви за приятелство",
+  "notificationVideoCallTitle": "Покана за видеоразговор",
+  "notificationAudioCallTitle": "Покана за гласово обаждане",
+  "notificationVideoCallBody": "{caller} ви покани на видеоразговор",
+  "notificationAudioCallBody": "{caller} ви покани на гласово обаждане",
+  "notificationMessageChannelName": "Съобщения",
+  "notificationMessageChannelDescription": "Съобщения от разговори, записи за обаждания и системни сигнали",
+  "notificationCallChannelName": "Обаждания",
+  "notificationCallChannelDescription": "Сигнали за гласови и видеообаждания",
+  "notificationSecurityChannelName": "Сигурност на профила",
+  "notificationSecurityChannelDescription": "Сигнали за вход и промени на парола и мобилен номер",
+  "notificationUnknownCaller": "Непознат обаждащ се",
+  "notificationBadgeChannelName": "Значки за съобщения",
+  "notificationBadgeChannelDescription": "Брой непрочетени съобщения върху иконата на приложението",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} непрочетено съобщение} other {{count} непрочетени съобщения}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ непрочетени съобщения"
+}

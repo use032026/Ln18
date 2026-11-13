@@ -1,0 +1,53 @@
+{
+  "@@locale": "nb",
+  "notificationTitle": "Varsler",
+  "notificationGlobalMute": "Ikke forstyrr",
+  "notificationSound": "Lyd",
+  "notificationVibration": "Vibrasjon",
+  "notificationPreview": "Forhåndsvisning av meldinger",
+  "notificationDndStart": "Starttid for Ikke forstyrr",
+  "notificationDndEnd": "Sluttid for Ikke forstyrr",
+  "notificationNewMessageTitle": "Ny StartLink-melding",
+  "notificationOnlineServiceTitle": "Ny kundeservicemelding",
+  "notificationNewMessageBody": "Du har mottatt en ny melding",
+  "notificationImagePreview": "Sendte et bilde",
+  "notificationVideoPreview": "Sendte en video",
+  "notificationVoicePreview": "Sendte en talemelding",
+  "notificationFilePreview": "Sendte en fil",
+  "notificationContactPreview": "Sendte et kontaktkort",
+  "notificationCallLogPreview": "Sendte en anropslogg",
+  "notificationLocationPreview": "Delte en posisjon",
+  "notificationLinkPreview": "Delte en lenke",
+  "notificationMentionMe": "Omtalte deg: {body}",
+  "notificationMentionMeBy": "{sender} omtalte deg: {body}",
+  "notificationMentionAll": "Omtalte alle: {body}",
+  "notificationMentionAllBy": "{sender} omtalte alle: {body}",
+  "notificationSecurityTitle": "Varsel om kontosikkerhet",
+  "notificationSecurityBody": "Sikkerhetsinnstillingene for StartLink-kontoen din er endret. Kontroller dem nå.",
+  "notificationFriendAcceptedTitle": "Venneforespørsel godtatt",
+  "notificationFriendRejectedTitle": "Venneforespørsel avvist",
+  "notificationFriendAcceptedBody": "Den andre godtok venneforespørselen din",
+  "notificationFriendRejectedBody": "Den andre avviste venneforespørselen din",
+  "notificationVideoCallTitle": "Invitasjon til videosamtale",
+  "notificationAudioCallTitle": "Invitasjon til talesamtale",
+  "notificationVideoCallBody": "{caller} inviterte deg til en videosamtale",
+  "notificationAudioCallBody": "{caller} inviterte deg til en talesamtale",
+  "notificationMessageChannelName": "Meldinger",
+  "notificationMessageChannelDescription": "Chatmeldinger, anropslogger og systemvarsler",
+  "notificationCallChannelName": "Anrop",
+  "notificationCallChannelDescription": "Varsler om tale- og videosamtaler",
+  "notificationSecurityChannelName": "Kontosikkerhet",
+  "notificationSecurityChannelDescription": "Varsler om innlogging og endringer av passord eller mobilnummer",
+  "notificationUnknownCaller": "Ukjent innringer",
+  "notificationBadgeChannelName": "Meldingsmerker",
+  "notificationBadgeChannelDescription": "Antall uleste meldinger på appikonet",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} ulest melding} other {{count} uleste meldinger}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ uleste meldinger"
+}

@@ -1,0 +1,53 @@
+{
+  "@@locale": "th",
+  "notificationTitle": "การแจ้งเตือน",
+  "notificationGlobalMute": "ห้ามรบกวน",
+  "notificationSound": "เสียง",
+  "notificationVibration": "การสั่น",
+  "notificationPreview": "ตัวอย่างข้อความ",
+  "notificationDndStart": "เวลาเริ่มห้ามรบกวน",
+  "notificationDndEnd": "เวลาสิ้นสุดห้ามรบกวน",
+  "notificationNewMessageTitle": "ข้อความใหม่จาก StartLink",
+  "notificationOnlineServiceTitle": "ข้อความใหม่จากฝ่ายบริการลูกค้า",
+  "notificationNewMessageBody": "คุณได้รับข้อความใหม่",
+  "notificationImagePreview": "ส่งรูปภาพ",
+  "notificationVideoPreview": "ส่งวิดีโอ",
+  "notificationVoicePreview": "ส่งข้อความเสียง",
+  "notificationFilePreview": "ส่งไฟล์",
+  "notificationContactPreview": "ส่งบัตรผู้ติดต่อ",
+  "notificationCallLogPreview": "ส่งบันทึกการโทร",
+  "notificationLocationPreview": "แชร์ตำแหน่ง",
+  "notificationLinkPreview": "แชร์ลิงก์",
+  "notificationMentionMe": "กล่าวถึงคุณ: {body}",
+  "notificationMentionMeBy": "{sender} กล่าวถึงคุณ: {body}",
+  "notificationMentionAll": "กล่าวถึงทุกคน: {body}",
+  "notificationMentionAllBy": "{sender} กล่าวถึงทุกคน: {body}",
+  "notificationSecurityTitle": "แจ้งเตือนความปลอดภัยของบัญชี",
+  "notificationSecurityBody": "การตั้งค่าความปลอดภัยบัญชี StartLink ของคุณเปลี่ยนแปลง โปรดตรวจสอบทันที",
+  "notificationFriendAcceptedTitle": "ยอมรับคำขอเป็นเพื่อนแล้ว",
+  "notificationFriendRejectedTitle": "ปฏิเสธคำขอเป็นเพื่อนแล้ว",
+  "notificationFriendAcceptedBody": "อีกฝ่ายยอมรับคำขอเป็นเพื่อนของคุณ",
+  "notificationFriendRejectedBody": "อีกฝ่ายปฏิเสธคำขอเป็นเพื่อนของคุณ",
+  "notificationVideoCallTitle": "คำเชิญวิดีโอคอล",
+  "notificationAudioCallTitle": "คำเชิญโทรด้วยเสียง",
+  "notificationVideoCallBody": "{caller} เชิญคุณเข้าร่วมวิดีโอคอล",
+  "notificationAudioCallBody": "{caller} เชิญคุณเข้าร่วมการโทรด้วยเสียง",
+  "notificationMessageChannelName": "ข้อความ",
+  "notificationMessageChannelDescription": "ข้อความแชท บันทึกการโทร และการแจ้งเตือนระบบ",
+  "notificationCallChannelName": "การโทร",
+  "notificationCallChannelDescription": "การแจ้งเตือนสายโทรด้วยเสียงและวิดีโอ",
+  "notificationSecurityChannelName": "ความปลอดภัยของบัญชี",
+  "notificationSecurityChannelDescription": "แจ้งเตือนการเข้าสู่ระบบ การเปลี่ยนรหัสผ่านและหมายเลขมือถือ",
+  "notificationUnknownCaller": "ผู้โทรไม่ทราบชื่อ",
+  "notificationBadgeChannelName": "ป้ายข้อความ",
+  "notificationBadgeChannelDescription": "จำนวนข้อความที่ยังไม่อ่านบนไอคอนแอป",
+  "notificationBadgeUnreadCount": "{count, plural, one {ข้อความยังไม่อ่าน {count} ข้อความ} other {ข้อความยังไม่อ่าน {count} ข้อความ}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "ข้อความยังไม่อ่าน 99+ ข้อความ"
+}

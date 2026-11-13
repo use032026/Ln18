@@ -1,0 +1,1369 @@
+{
+  "@@locale": "hi",
+  "customerServiceTitle": "सेवा डेस्क",
+  "customerServiceQueue": "कतार में",
+  "customerServiceActive": "सक्रिय",
+  "customerServiceClaim": "स्वीकार करें",
+  "customerServiceTakeover": "अपने नियंत्रण में लें",
+  "customerServiceClose": "सेवा समाप्त करें",
+  "customerServiceCloseConfirm": "यह सेवा सत्र समाप्त करें?",
+  "customerServiceNoQueue": "कतार में कोई सत्र नहीं है",
+  "customerServiceNoActive": "कोई सक्रिय सत्र नहीं है",
+  "customerServiceVisitor": "आगंतुक",
+  "customerServiceCustomer": "ग्राहक",
+  "customerServiceAssignedTo": "सौंपा गया",
+  "customerServiceTransferConversation": "चैट सौंपें",
+  "marketingToolbar": "मार्केटिंग साधन",
+  "customerServiceBroadcastDirectTitle": "ग्राहकों को सामूहिक संदेश",
+  "csAiReplyTitle": "AI जवाब",
+  "@csAiReplyTitle": {
+    "description": "AI reply"
+  },
+  "csCustomerMessage": "ग्राहक का संदेश",
+  "@csCustomerMessage": {
+    "description": "Customer message"
+  },
+  "csReplySuggestions": "जवाब सुझाव",
+  "@csReplySuggestions": {
+    "description": "Reply suggestions"
+  },
+  "csGenerateReplySuggestions": "जवाब सुझाव बनाएँ",
+  "@csGenerateReplySuggestions": {
+    "description": "Generate reply suggestions"
+  },
+  "csRegenerate": "पुनः बनाएं",
+  "@csRegenerate": {
+    "description": "Regenerate"
+  },
+  "csGenerateSuggestion": "सुझाव बनाएँ",
+  "@csGenerateSuggestion": {
+    "description": "Generate suggestion"
+  },
+  "csAdoptingReply": "डाला जा रहा है…",
+  "@csAdoptingReply": {
+    "description": "Inserting…"
+  },
+  "csInsertReply": "जवाब डालें",
+  "@csInsertReply": {
+    "description": "Insert reply"
+  },
+  "csKnowledgeSources": "जानकारी के स्रोत",
+  "@csKnowledgeSources": {
+    "description": "Knowledge sources"
+  },
+  "csKnowledgeBaseMaterial": "नॉलेज बेस सामग्री",
+  "@csKnowledgeBaseMaterial": {
+    "description": "Knowledge base material"
+  },
+  "csNoAiReplyHistory": "अभी कोई सुझाव नहीं है। AI जवाब बनाने के लिए टैप करें।",
+  "@csNoAiReplyHistory": {
+    "description": "No suggestions yet. Tap to generate an AI reply."
+  },
+  "csAiNoCustomerMessage": "जवाब बनाने के लिए कोई ग्राहक संदेश उपलब्ध नहीं है।",
+  "@csAiNoCustomerMessage": {
+    "description": "No customer message is available to generate a reply."
+  },
+  "csAiPermissionDenied": "यह खाता ग्राहक सेवा AI इस्तेमाल नहीं कर सकता।",
+  "@csAiPermissionDenied": {
+    "description": "This account cannot use customer-service AI."
+  },
+  "csAiThreadUnsupported": "इस बातचीत प्रकार के लिए AI जवाब समर्थित नहीं हैं।",
+  "@csAiThreadUnsupported": {
+    "description": "AI replies are not supported for this conversation type."
+  },
+  "csAiThreadUnavailable": "यह सहायता बातचीत उपलब्ध नहीं है। रीफ़्रेश करके फिर कोशिश करें।",
+  "@csAiThreadUnavailable": {
+    "description": "This support conversation is unavailable. Refresh and try again."
+  },
+  "csAiReplyFailed": "AI जवाब नहीं बन सका। फिर कोशिश करें।",
+  "@csAiReplyFailed": {
+    "description": "Could not generate an AI reply. Try again."
+  },
+  "csContentBlocked": "मॉडरेशन ने सामग्री ब्लॉक की है।",
+  "@csContentBlocked": {
+    "description": "The content was blocked by moderation."
+  },
+  "csBroadcastNotGroupMember": "समूह सामूहिक संदेश भेजने से पहले समूह में शामिल हों।",
+  "@csBroadcastNotGroupMember": {
+    "description": "Join the group before sending a group broadcast."
+  },
+  "csSelectGroup": "समूह चैट चुनें",
+  "@csSelectGroup": {
+    "description": "Select a group chat"
+  },
+  "csTenantBroadcastNoGroup": "पूरे टेनेंट के सामूहिक संदेश का लक्ष्य समूह चैट नहीं हो सकता।",
+  "@csTenantBroadcastNoGroup": {
+    "description": "A tenant-wide broadcast cannot target a group chat."
+  },
+  "csBroadcastTargetNotFound": "लक्ष्य समूह या कार्य नहीं मिला।",
+  "@csBroadcastTargetNotFound": {
+    "description": "The target group or task was not found."
+  },
+  "csBroadcastTargetNotGroup": "लक्ष्य समूह चैट नहीं है।",
+  "@csBroadcastTargetNotGroup": {
+    "description": "The target is not a group chat."
+  },
+  "csBroadcastGroupUnavailable": "लक्ष्य समूह उपलब्ध नहीं है।",
+  "@csBroadcastGroupUnavailable": {
+    "description": "The target group is unavailable."
+  },
+  "csMessageFormatUnsupported": "यह संदेश प्रारूप समर्थित नहीं है।",
+  "@csMessageFormatUnsupported": {
+    "description": "This message format is not supported."
+  },
+  "csBroadcastNoRecipients": "लक्ष्य दायरे में कोई योग्य प्राप्तकर्ता नहीं मिला।",
+  "@csBroadcastNoRecipients": {
+    "description": "No eligible recipients were found in the target scope."
+  },
+  "csBroadcastTooManyRecipients": "प्राप्तकर्ताओं की संख्या सामूहिक संदेश सीमा से अधिक है।",
+  "@csBroadcastTooManyRecipients": {
+    "description": "The recipient count exceeds the broadcast limit."
+  },
+  "csBroadcastRateLimited": "बहुत अधिक सामूहिक संदेश अनुरोध। बाद में कोशिश करें।",
+  "@csBroadcastRateLimited": {
+    "description": "Too many broadcast requests. Try again later."
+  },
+  "csBroadcastRetryUnsupported": "समूह सामूहिक संदेश में अलग-अलग प्राप्तकर्ताओं को फिर भेजना समर्थित नहीं है।",
+  "@csBroadcastRetryUnsupported": {
+    "description": "Group broadcasts do not support retrying individual recipients."
+  },
+  "csBroadcastAdminPermissionRequired": "इस सामूहिक संदेश के लिए व्यवस्थापक अनुमति ज़रूरी है।",
+  "@csBroadcastAdminPermissionRequired": {
+    "description": "Administrator permission is required for this broadcast."
+  },
+  "csServerError": "सर्वर त्रुटि",
+  "@csServerError": {
+    "description": "Server error"
+  },
+  "csBroadcastFailed": "सामूहिक संदेश विफल हुआ",
+  "@csBroadcastFailed": {
+    "description": "Broadcast failed"
+  },
+  "csOnlineSupport": "ऑनलाइन सहायता",
+  "@csOnlineSupport": {
+    "description": "Online support"
+  },
+  "csCustomerService": "ग्राहक सेवा",
+  "@csCustomerService": {
+    "description": "Customer service"
+  },
+  "csPerformance": "प्रदर्शन",
+  "@csPerformance": {
+    "description": "Performance"
+  },
+  "csReception": "ग्राहक स्वागत",
+  "@csReception": {
+    "description": "Reception"
+  },
+  "csMode": "मोड",
+  "@csMode": {
+    "description": "Mode"
+  },
+  "csManualAcceptance": "मैन्युअल स्वीकृति",
+  "@csManualAcceptance": {
+    "description": "Manual acceptance"
+  },
+  "csAutomaticAssignment": "अपने-आप आवंटन",
+  "@csAutomaticAssignment": {
+    "description": "Automatic assignment"
+  },
+  "csAcceptanceModeFailed": "स्वीकृति मोड नहीं बदल सका। फिर कोशिश करें।",
+  "@csAcceptanceModeFailed": {
+    "description": "Could not change the acceptance mode. Try again."
+  },
+  "csStatusChangeFailed": "स्थिति नहीं बदल सकी। फिर कोशिश करें।",
+  "@csStatusChangeFailed": {
+    "description": "Could not change the status. Try again."
+  },
+  "csEnterEnterpriseFirst": "पहले कंपनी स्पेस खोलें।",
+  "@csEnterEnterpriseFirst": {
+    "description": "Enter an enterprise space first."
+  },
+  "csWorkbenchPermissionDenied": "इस भूमिका को कार्यस्थल की पहुँच नहीं है।",
+  "@csWorkbenchPermissionDenied": {
+    "description": "This role cannot access the workbench."
+  },
+  "csOwnerWorkbench": "स्वामी कार्यस्थल",
+  "@csOwnerWorkbench": {
+    "description": "Owner workbench"
+  },
+  "csAdminWorkbench": "व्यवस्थापक कार्यस्थल",
+  "@csAdminWorkbench": {
+    "description": "Admin workbench"
+  },
+  "csCustomerOperations": "ग्राहक संचालन",
+  "@csCustomerOperations": {
+    "description": "Customer operations"
+  },
+  "csAllCustomers": "सभी ग्राहक",
+  "@csAllCustomers": {
+    "description": "All customers"
+  },
+  "csEnterpriseJoinApplications": "कंपनी में शामिल होने के अनुरोध",
+  "@csEnterpriseJoinApplications": {
+    "description": "Enterprise join requests"
+  },
+  "csCustomerGrowth": "ग्राहक वृद्धि",
+  "@csCustomerGrowth": {
+    "description": "Customer growth"
+  },
+  "csServiceOperations": "सेवा संचालन",
+  "@csServiceOperations": {
+    "description": "Service operations"
+  },
+  "csServiceCenter": "सहायता केंद्र",
+  "@csServiceCenter": {
+    "description": "Support center"
+  },
+  "csTeamServiceEfficiency": "टीम की सेवा दक्षता",
+  "@csTeamServiceEfficiency": {
+    "description": "Team service efficiency"
+  },
+  "csRiskGovernance": "जोखिम प्रबंधन",
+  "@csRiskGovernance": {
+    "description": "Risk management"
+  },
+  "csRiskConversations": "जोखिम वाली बातचीत",
+  "@csRiskConversations": {
+    "description": "At-risk conversations"
+  },
+  "csConversationAudit": "बातचीत की जाँच",
+  "@csConversationAudit": {
+    "description": "Conversation audit"
+  },
+  "csOperationAudit": "कार्रवाइयों की जाँच",
+  "@csOperationAudit": {
+    "description": "Operation audit"
+  },
+  "csGroupOperations": "समूह संचालन",
+  "@csGroupOperations": {
+    "description": "Group operations"
+  },
+  "csGroupSupervision": "समूह पर्यवेक्षण",
+  "@csGroupSupervision": {
+    "description": "Group supervision"
+  },
+  "csEnterpriseBroadcast": "कंपनी का सामूहिक संदेश",
+  "@csEnterpriseBroadcast": {
+    "description": "Enterprise broadcast"
+  },
+  "csViewByAgent": "सेवा प्रतिनिधि के अनुसार देखें",
+  "@csViewByAgent": {
+    "description": "View by agent"
+  },
+  "csResponseTimeout": "जवाब देने की समय-सीमा समाप्त",
+  "@csResponseTimeout": {
+    "description": "Response timeout"
+  },
+  "csNoCustomerData": "ग्राहकों का कोई डेटा नहीं",
+  "@csNoCustomerData": {
+    "description": "No customer data"
+  },
+  "csSearchCustomers": "ग्राहक खोजें",
+  "@csSearchCustomers": {
+    "description": "Search customers"
+  },
+  "csTotalCustomers": "कुल ग्राहक",
+  "@csTotalCustomers": {
+    "description": "Total customers"
+  },
+  "csPendingAssignment": "आवंटन की प्रतीक्षा",
+  "@csPendingAssignment": {
+    "description": "Awaiting assignment"
+  },
+  "csUnassignedCustomers": "बिना आवंटित ग्राहक",
+  "@csUnassignedCustomers": {
+    "description": "Unassigned customers"
+  },
+  "csNoUnassignedCustomers": "कोई बिना आवंटित ग्राहक नहीं",
+  "@csNoUnassignedCustomers": {
+    "description": "No unassigned customers"
+  },
+  "csAddedToday": "आज जोड़े गए",
+  "@csAddedToday": {
+    "description": "Added today"
+  },
+  "csAssignmentOverdue": "आवंटन में देरी",
+  "@csAssignmentOverdue": {
+    "description": "Assignment overdue"
+  },
+  "csNoGrowthData": "वृद्धि का कोई डेटा नहीं",
+  "@csNoGrowthData": {
+    "description": "No growth data"
+  },
+  "csRangeToday": "आज",
+  "@csRangeToday": {
+    "description": "Today"
+  },
+  "csRangeThisMonth": "इस महीने",
+  "@csRangeThisMonth": {
+    "description": "This month"
+  },
+  "csRangeThisQuarter": "इस तिमाही",
+  "@csRangeThisQuarter": {
+    "description": "This quarter"
+  },
+  "csRangeHalfYear": "छह महीने",
+  "@csRangeHalfYear": {
+    "description": "Six months"
+  },
+  "csNewCustomers": "नए ग्राहक",
+  "@csNewCustomers": {
+    "description": "New customers"
+  },
+  "csActiveCustomers": "सक्रिय ग्राहक",
+  "@csActiveCustomers": {
+    "description": "Active customers"
+  },
+  "csInactiveCustomers": "निष्क्रिय ग्राहक",
+  "@csInactiveCustomers": {
+    "description": "Inactive customers"
+  },
+  "csChurnRisk": "ग्राहक खोने का जोखिम",
+  "@csChurnRisk": {
+    "description": "Churn risk"
+  },
+  "csNoCustomerGroups": "ग्राहक समूहों का कोई डेटा नहीं",
+  "@csNoCustomerGroups": {
+    "description": "No customer group data"
+  },
+  "csSearchCustomerGroups": "ग्राहक समूह खोजें",
+  "@csSearchCustomerGroups": {
+    "description": "Search customer groups"
+  },
+  "csNoEfficiencyData": "सेवा दक्षता का कोई डेटा नहीं",
+  "@csNoEfficiencyData": {
+    "description": "No service efficiency data"
+  },
+  "csAverageResponse": "औसत जवाब समय",
+  "@csAverageResponse": {
+    "description": "Average response"
+  },
+  "csHandledConversations": "निपटाई गई बातचीत",
+  "@csHandledConversations": {
+    "description": "Handled conversations"
+  },
+  "csServiceGroupMonitor": "सेवा समूहों की निगरानी",
+  "@csServiceGroupMonitor": {
+    "description": "Service group monitoring"
+  },
+  "csNoServiceGroups": "सेवा समूहों का कोई डेटा नहीं",
+  "@csNoServiceGroups": {
+    "description": "No service group data"
+  },
+  "csSearchCustomersOrGroups": "ग्राहक या सेवा समूह खोजें",
+  "@csSearchCustomersOrGroups": {
+    "description": "Search customers or service groups"
+  },
+  "csConversationManagement": "सहायता बातचीत प्रबंधन",
+  "@csConversationManagement": {
+    "description": "Support conversation management"
+  },
+  "csNoConversations": "कोई बातचीत नहीं",
+  "@csNoConversations": {
+    "description": "No conversations"
+  },
+  "csSearchCustomerVisitorThread": "ग्राहक, आगंतुक या बातचीत खोजें",
+  "@csSearchCustomerVisitorThread": {
+    "description": "Search customers, visitors or conversations"
+  },
+  "csNoRiskConversations": "कोई जोखिम वाली बातचीत नहीं",
+  "@csNoRiskConversations": {
+    "description": "No at-risk conversations"
+  },
+  "csSearchCustomerAgentThread": "ग्राहक, सेवा प्रतिनिधि या बातचीत खोजें",
+  "@csSearchCustomerAgentThread": {
+    "description": "Search customers, agents or conversations"
+  },
+  "csNoConversationRecords": "बातचीत का कोई रिकॉर्ड नहीं",
+  "@csNoConversationRecords": {
+    "description": "No conversation records"
+  },
+  "csNoAuditRecords": "जाँच का कोई रिकॉर्ड नहीं",
+  "@csNoAuditRecords": {
+    "description": "No audit records"
+  },
+  "csSearchOperatorOrCustomer": "कार्रवाई करने वाले या ग्राहक खोजें",
+  "@csSearchOperatorOrCustomer": {
+    "description": "Search operators or customers"
+  },
+  "csNoAgentServiceData": "सेवा प्रतिनिधियों की सेवा का कोई डेटा नहीं",
+  "@csNoAgentServiceData": {
+    "description": "No agent service data"
+  },
+  "csSearchAgents": "सेवा प्रतिनिधि खोजें",
+  "@csSearchAgents": {
+    "description": "Search agents"
+  },
+  "csNoTimedOutConversations": "कोई समय-सीमा पार कर चुकी बातचीत नहीं",
+  "@csNoTimedOutConversations": {
+    "description": "No timed-out conversations"
+  },
+  "csSearchCustomerOrThread": "ग्राहक या बातचीत खोजें",
+  "@csSearchCustomerOrThread": {
+    "description": "Search customers or conversations"
+  },
+  "csAgentStatus": "सेवा प्रतिनिधि की स्थिति",
+  "@csAgentStatus": {
+    "description": "Agent status"
+  },
+  "csNoAgentStatusData": "सेवा प्रतिनिधियों की स्थिति का कोई डेटा नहीं",
+  "@csNoAgentStatusData": {
+    "description": "No agent status data"
+  },
+  "csNoAgentsData": "सेवा प्रतिनिधियों का कोई डेटा नहीं",
+  "@csNoAgentsData": {
+    "description": "No agent data"
+  },
+  "csUnassignedApiUnavailable": "बिना आवंटित ग्राहकों की सूची अभी उपलब्ध नहीं है।",
+  "@csUnassignedApiUnavailable": {
+    "description": "Unassigned customers are temporarily unavailable."
+  },
+  "csAwaitingAgent": "सेवा प्रतिनिधि की प्रतीक्षा",
+  "@csAwaitingAgent": {
+    "description": "Awaiting an agent"
+  },
+  "csAssign": "आवंटित करें",
+  "@csAssign": {
+    "description": "Assign"
+  },
+  "csCustomerDetails": "ग्राहक का विवरण",
+  "@csCustomerDetails": {
+    "description": "Customer details"
+  },
+  "csAssignableAgentsLoadFailed": "उपलब्ध सेवा प्रतिनिधियों को लोड नहीं किया जा सका।",
+  "@csAssignableAgentsLoadFailed": {
+    "description": "Could not load available agents."
+  },
+  "csAssignedByRules": "नियमों के अनुसार अपने-आप आवंटित किया गया",
+  "@csAssignedByRules": {
+    "description": "Assigned automatically by the rules"
+  },
+  "csAgentAssigned": "सेवा प्रतिनिधि आवंटित किया गया",
+  "@csAgentAssigned": {
+    "description": "Agent assigned"
+  },
+  "csAssignAgentFailed": "सेवा प्रतिनिधि आवंटित नहीं किया जा सका।",
+  "@csAssignAgentFailed": {
+    "description": "Could not assign an agent."
+  },
+  "csAssignAgent": "सेवा प्रतिनिधि आवंटित करें",
+  "@csAssignAgent": {
+    "description": "Assign agent"
+  },
+  "csAssignByRules": "नियमों के अनुसार अपने-आप आवंटित करें",
+  "@csAssignByRules": {
+    "description": "Assign automatically by the rules"
+  },
+  "csServerSelectsAgent": "सेवा उपयुक्त सेवा प्रतिनिधि चुनती है।",
+  "@csServerSelectsAgent": {
+    "description": "The service selects a suitable agent."
+  },
+  "csNoAssignableAgents": "आवंटन के लिए कोई सेवा प्रतिनिधि उपलब्ध नहीं है।",
+  "@csNoAssignableAgents": {
+    "description": "No agents are available for assignment."
+  },
+  "csAgentStatusUnavailable": "सेवा प्रतिनिधियों की स्थिति अभी उपलब्ध नहीं है।",
+  "@csAgentStatusUnavailable": {
+    "description": "Agent status is temporarily unavailable."
+  },
+  "csConversationAuditPending": "बातचीत की जाँच अभी उपलब्ध नहीं है।",
+  "@csConversationAuditPending": {
+    "description": "Conversation audit is not available yet."
+  },
+  "csRiskThreadsPending": "जोखिम वाली बातचीत अभी उपलब्ध नहीं है।",
+  "@csRiskThreadsPending": {
+    "description": "At-risk conversations are not available yet."
+  },
+  "csTimeoutThreadsPending": "जवाब देने की समय-सीमा पार होने का विवरण अभी उपलब्ध नहीं है।",
+  "@csTimeoutThreadsPending": {
+    "description": "Response timeout details are not available yet."
+  },
+  "csOperationAuditUnavailable": "कार्रवाइयों की जाँच अभी उपलब्ध नहीं है।",
+  "@csOperationAuditUnavailable": {
+    "description": "Operation audit is temporarily unavailable."
+  },
+  "csOperationRecord": "कार्रवाई का रिकॉर्ड",
+  "@csOperationRecord": {
+    "description": "Operation record"
+  },
+  "csCustomerConversations": "ग्राहकों की बातचीत",
+  "@csCustomerConversations": {
+    "description": "Customer conversations"
+  },
+  "csQueued": "कतार में",
+  "@csQueued": {
+    "description": "Queued"
+  },
+  "csReceptionStaff": "स्वागत कर्मचारी",
+  "@csReceptionStaff": {
+    "description": "Reception staff"
+  },
+  "csServiceCenterOverview": "सहायता केंद्र का अवलोकन",
+  "@csServiceCenterOverview": {
+    "description": "Support center overview"
+  },
+  "csLiveMonitoring": "सीधी निगरानी",
+  "@csLiveMonitoring": {
+    "description": "Live monitoring"
+  },
+  "csMonitoringLoadFailed": "सीधी निगरानी लोड नहीं की जा सकी।",
+  "@csMonitoringLoadFailed": {
+    "description": "Could not load live monitoring."
+  },
+  "csMonitorLiveConversations": "चल रही सहायता बातचीत की निगरानी करें",
+  "@csMonitorLiveConversations": {
+    "description": "Monitor live support conversations"
+  },
+  "csSyncingAgents": "सेवा प्रतिनिधियों का समन्वयन हो रहा है",
+  "@csSyncingAgents": {
+    "description": "Syncing agents"
+  },
+  "csFilterByAgent": "सेवा प्रतिनिधि के अनुसार छाँटें",
+  "@csFilterByAgent": {
+    "description": "Filter by agent"
+  },
+  "csAllAgents": "सभी सेवा प्रतिनिधि",
+  "@csAllAgents": {
+    "description": "All agents"
+  },
+  "csInProgress": "जारी है",
+  "@csInProgress": {
+    "description": "In progress"
+  },
+  "csAllStatuses": "सभी स्थितियाँ",
+  "@csAllStatuses": {
+    "description": "All statuses"
+  },
+  "csAllChannels": "सभी चैनल",
+  "@csAllChannels": {
+    "description": "All channels"
+  },
+  "csVisitorInquiry": "आगंतुकों की पूछताछ",
+  "@csVisitorInquiry": {
+    "description": "Visitor inquiries"
+  },
+  "csImSupport": "IM सहायता",
+  "@csImSupport": {
+    "description": "IM support"
+  },
+  "csNoMatchingActiveThreads": "इन फ़िल्टर से मेल खाने वाली कोई सक्रिय सहायता बातचीत नहीं है।",
+  "@csNoMatchingActiveThreads": {
+    "description": "No active support conversations match these filters."
+  },
+  "csMonitored": "निगरानी जारी है",
+  "@csMonitored": {
+    "description": "Monitoring"
+  },
+  "csMonitor": "निगरानी करें",
+  "@csMonitor": {
+    "description": "Monitor"
+  },
+  "csSelectThreadsToMonitor": "साथ-साथ निगरानी करने के लिए ऊपर बातचीत चुनें।",
+  "@csSelectThreadsToMonitor": {
+    "description": "Select conversations above to monitor side by side."
+  },
+  "csDetailsSyncFailed": "विवरण का समन्वयन नहीं किया जा सका। थोड़ी देर बाद रीफ़्रेश करें।",
+  "@csDetailsSyncFailed": {
+    "description": "Could not sync details. Refresh shortly."
+  },
+  "csNoPreviewMessages": "पूर्वावलोकन के लिए कोई संदेश नहीं",
+  "@csNoPreviewMessages": {
+    "description": "No messages to preview"
+  },
+  "csCallPreview": "[कॉल]",
+  "@csCallPreview": {
+    "description": "[Call]"
+  },
+  "csNoCustomerConversations": "ग्राहकों की कोई बातचीत नहीं",
+  "@csNoCustomerConversations": {
+    "description": "No customer conversations"
+  },
+  "csNoOnlineSupportThreads": "ऑनलाइन सहायता की कोई बातचीत नहीं",
+  "@csNoOnlineSupportThreads": {
+    "description": "No online support conversations"
+  },
+  "csCurrentConversations": "मौजूदा बातचीत",
+  "@csCurrentConversations": {
+    "description": "Current conversations"
+  },
+  "csQueueCount": "कतार में लोग",
+  "@csQueueCount": {
+    "description": "People in queue"
+  },
+  "csBusyAgents": "व्यस्त सेवा प्रतिनिधि",
+  "@csBusyAgents": {
+    "description": "Busy agents"
+  },
+  "csIdleAgents": "उपलब्ध सेवा प्रतिनिधि",
+  "@csIdleAgents": {
+    "description": "Available agents"
+  },
+  "csOnlineSupportOverview": "ऑनलाइन सहायता का अवलोकन",
+  "@csOnlineSupportOverview": {
+    "description": "Online support overview"
+  },
+  "csVisitorsQueued": "कतार में आगंतुक",
+  "@csVisitorsQueued": {
+    "description": "Visitors queued"
+  },
+  "csVisitorsActive": "सेवा प्राप्त कर रहे आगंतुक",
+  "@csVisitorsActive": {
+    "description": "Visitors being served"
+  },
+  "csCustomerThreadsPending": "ग्राहकों की लंबित बातचीत",
+  "@csCustomerThreadsPending": {
+    "description": "Pending customer conversations"
+  },
+  "csCustomerThreadsActive": "ग्राहकों की सक्रिय बातचीत",
+  "@csCustomerThreadsActive": {
+    "description": "Active customer conversations"
+  },
+  "csTotalQueue": "कतार में कुल",
+  "@csTotalQueue": {
+    "description": "Total queued"
+  },
+  "csQueueShare": "कुल कतार में हिस्सा",
+  "@csQueueShare": {
+    "description": "Share of total queue"
+  },
+  "csActiveShare": "सक्रिय सेवा में हिस्सा",
+  "@csActiveShare": {
+    "description": "Share of active service"
+  },
+  "csAverageWait": "औसत प्रतीक्षा",
+  "@csAverageWait": {
+    "description": "Average wait"
+  },
+  "csOnlineSupportQueued": "कतार में ऑनलाइन सहायता",
+  "@csOnlineSupportQueued": {
+    "description": "Online support queued"
+  },
+  "csOnlineSupportActive": "सक्रिय ऑनलाइन सहायता",
+  "@csOnlineSupportActive": {
+    "description": "Online support active"
+  },
+  "csPerformanceUnavailable": "सेवा प्रतिनिधियों का प्रदर्शन अभी उपलब्ध नहीं है।",
+  "@csPerformanceUnavailable": {
+    "description": "Agent performance is temporarily unavailable."
+  },
+  "csServed": "सेवा दी गई",
+  "@csServed": {
+    "description": "Served"
+  },
+  "csAverageFirstResponse": "पहले जवाब का औसत समय",
+  "@csAverageFirstResponse": {
+    "description": "Average first response"
+  },
+  "csAverageDuration": "औसत अवधि",
+  "@csAverageDuration": {
+    "description": "Average duration"
+  },
+  "csAverageRating": "औसत रेटिंग",
+  "@csAverageRating": {
+    "description": "Average rating"
+  },
+  "csFirstResponse": "पहला जवाब",
+  "@csFirstResponse": {
+    "description": "First response"
+  },
+  "csDuration": "अवधि",
+  "@csDuration": {
+    "description": "Duration"
+  },
+  "csRating": "रेटिंग",
+  "@csRating": {
+    "description": "Rating"
+  },
+  "csPassRate": "उत्तीर्ण दर",
+  "@csPassRate": {
+    "description": "Pass rate"
+  },
+  "csConversationGovernance": "बातचीत का नियमन",
+  "@csConversationGovernance": {
+    "description": "Conversation governance"
+  },
+  "csFreezeConversation": "बातचीत रोकें",
+  "@csFreezeConversation": {
+    "description": "Freeze conversation"
+  },
+  "csUnfreezeConversation": "बातचीत फिर चालू करें",
+  "@csUnfreezeConversation": {
+    "description": "Unfreeze conversation"
+  },
+  "csConversationDetails": "बातचीत का विवरण",
+  "@csConversationDetails": {
+    "description": "Conversation details"
+  },
+  "csConversationId": "बातचीत ID",
+  "@csConversationId": {
+    "description": "Conversation ID"
+  },
+  "csConversationFrozen": "बातचीत रोक दी गई",
+  "@csConversationFrozen": {
+    "description": "Conversation frozen"
+  },
+  "csConversationUnfrozen": "बातचीत फिर चालू की गई",
+  "@csConversationUnfrozen": {
+    "description": "Conversation unfrozen"
+  },
+  "csFreezeReasonOptional": "रोकने का कारण (वैकल्पिक)",
+  "@csFreezeReasonOptional": {
+    "description": "Reason for freezing (optional)"
+  },
+  "csUnfreezeReasonOptional": "फिर चालू करने का कारण (वैकल्पिक)",
+  "@csUnfreezeReasonOptional": {
+    "description": "Reason for unfreezing (optional)"
+  },
+  "csConfirmFreeze": "रोकने की पुष्टि करें",
+  "@csConfirmFreeze": {
+    "description": "Confirm freeze"
+  },
+  "csConfirmUnfreeze": "फिर चालू करने की पुष्टि करें",
+  "@csConfirmUnfreeze": {
+    "description": "Confirm unfreeze"
+  },
+  "csFrequentReplies": "अक्सर इस्तेमाल होने वाले जवाब",
+  "@csFrequentReplies": {
+    "description": "Frequent replies"
+  },
+  "csReplyTemplates": "जवाब के टेम्प्लेट",
+  "@csReplyTemplates": {
+    "description": "Reply templates"
+  },
+  "csRepliesLoadFailed": "जवाब लोड नहीं किए जा सके।",
+  "@csRepliesLoadFailed": {
+    "description": "Could not load replies."
+  },
+  "csPullToRetry": "रीफ़्रेश करके दोबारा कोशिश करने के लिए नीचे खींचें।",
+  "@csPullToRetry": {
+    "description": "Pull down to refresh and try again."
+  },
+  "csNoQuickReplies": "कोई त्वरित जवाब नहीं",
+  "@csNoQuickReplies": {
+    "description": "No quick replies"
+  },
+  "csRepliesAppearWhenEnabled": "जवाबों का संग्रह चालू होने पर जवाब यहाँ दिखाई देंगे।",
+  "@csRepliesAppearWhenEnabled": {
+    "description": "Replies will appear here when the library is enabled."
+  },
+  "csNoMatchingReplies": "कोई मेल खाता जवाब नहीं",
+  "@csNoMatchingReplies": {
+    "description": "No matching replies"
+  },
+  "csTryAnotherKeyword": "दूसरे शब्द से खोजें",
+  "@csTryAnotherKeyword": {
+    "description": "Try another keyword"
+  },
+  "csSearchReplies": "जवाब खोजें",
+  "@csSearchReplies": {
+    "description": "Search replies"
+  },
+  "csUnnamedReply": "बिना शीर्षक का जवाब",
+  "@csUnnamedReply": {
+    "description": "Untitled reply"
+  },
+  "csBroadcastRoleDenied": "यह भूमिका सामूहिक संदेश नहीं भेज सकती।",
+  "@csBroadcastRoleDenied": {
+    "description": "This role cannot send broadcasts."
+  },
+  "csBroadcastAgentOnly": "सामूहिक संदेश केवल सेवा प्रतिनिधि भेज सकते हैं।",
+  "@csBroadcastAgentOnly": {
+    "description": "Broadcast messaging is available only to agents."
+  },
+  "csSubmittingTask": "कार्य सबमिट किया जा रहा है…",
+  "@csSubmittingTask": {
+    "description": "Submitting task…"
+  },
+  "csPreviewing": "पूर्वावलोकन तैयार किया जा रहा है…",
+  "@csPreviewing": {
+    "description": "Preparing preview…"
+  },
+  "csPreviewAndSubmit": "पूर्वावलोकन देखें और सबमिट करें",
+  "@csPreviewAndSubmit": {
+    "description": "Preview and submit"
+  },
+  "csBroadcastMessages": "सामूहिक संदेश",
+  "@csBroadcastMessages": {
+    "description": "Broadcast messages"
+  },
+  "csGroupsLoadFailed": "समूह चैट लोड नहीं की जा सकीं।",
+  "@csGroupsLoadFailed": {
+    "description": "Could not load group chats."
+  },
+  "csGroupsRetryHint": "थोड़ी देर बाद दोबारा कोशिश करें या इस स्पेस में बातचीत की सूची देखें।",
+  "@csGroupsRetryHint": {
+    "description": "Try again shortly, or check the conversation list in this space."
+  },
+  "csTargetScope": "प्राप्तकर्ताओं का दायरा",
+  "@csTargetScope": {
+    "description": "Target scope"
+  },
+  "csAllTenantMembers": "टेनेंट के सभी सदस्य",
+  "@csAllTenantMembers": {
+    "description": "All tenant members"
+  },
+  "csTenantPrivateDeliveryHint": "इस कंपनी के पात्र सदस्यों को अलग-अलग संदेश भेजें।",
+  "@csTenantPrivateDeliveryHint": {
+    "description": "Send individual messages to eligible members of this enterprise."
+  },
+  "csNoSelectableGroups": "कोई समूह चैट उपलब्ध नहीं है।",
+  "@csNoSelectableGroups": {
+    "description": "No group chats are available."
+  },
+  "csNoMatchingGroups": "कोई मेल खाती समूह चैट नहीं",
+  "@csNoMatchingGroups": {
+    "description": "No matching group chats"
+  },
+  "csJoinedGroupsOnlyHint": "सदस्यों को निजी संदेश और समूह में सामूहिक संदेश केवल उन समूहों में भेजे जा सकते हैं जिनमें यह खाता शामिल है।",
+  "@csJoinedGroupsOnlyHint": {
+    "description": "Member direct messages and group broadcasts support only groups this account has joined."
+  },
+  "csTryAnotherKeywordAgain": "दूसरे शब्द से खोजें।",
+  "@csTryAnotherKeywordAgain": {
+    "description": "Try another keyword."
+  },
+  "csChooseGroup": "समूह चैट चुनें",
+  "@csChooseGroup": {
+    "description": "Choose a group chat"
+  },
+  "csEnterBroadcastContent": "सामूहिक संदेश की सामग्री दर्ज करें",
+  "@csEnterBroadcastContent": {
+    "description": "Enter broadcast content"
+  },
+  "csSignInAgain": "आपका सत्र समाप्त हो गया है। फिर से साइन इन करें।",
+  "@csSignInAgain": {
+    "description": "Your session has expired. Sign in again."
+  },
+  "csConfirmBroadcast": "सामूहिक संदेश की पुष्टि करें",
+  "@csConfirmBroadcast": {
+    "description": "Confirm broadcast"
+  },
+  "csBroadcastConfirmationHint": "संदेश मौजूदा सेवा प्रतिनिधि के नाम से भेजे जाते हैं और सबमिट करने के बाद पृष्ठभूमि में पहुँचाए जाते हैं। भेजे गए संदेश वापस नहीं लिए जा सकते।",
+  "@csBroadcastConfirmationHint": {
+    "description": "Messages are sent as the current agent and delivered asynchronously after submission. Sent messages cannot be recalled."
+  },
+  "csSubmitTask": "कार्य सबमिट करें",
+  "@csSubmitTask": {
+    "description": "Submit task"
+  },
+  "csBroadcastMembersIndividually": "कंपनी के सदस्यों को अलग-अलग संदेश भेजें",
+  "@csBroadcastMembersIndividually": {
+    "description": "Message enterprise members individually"
+  },
+  "csBroadcastGroupMembersPrivate": "समूह सदस्यों को निजी संदेश भेजें",
+  "@csBroadcastGroupMembersPrivate": {
+    "description": "Message group members privately"
+  },
+  "csBroadcastGroupMembersHint": "समूह के हर सदस्य को अलग निजी संदेश भेजें।",
+  "@csBroadcastGroupMembersHint": {
+    "description": "Send a separate direct message to each member of a group."
+  },
+  "csBroadcastToGroup": "समूह में सामूहिक संदेश भेजें",
+  "@csBroadcastToGroup": {
+    "description": "Broadcast in group"
+  },
+  "csBroadcastToGroupHint": "सीधे समूह चैट में संदेश भेजें।",
+  "@csBroadcastToGroupHint": {
+    "description": "Send a message directly in a group chat."
+  },
+  "csCustomerGroupBroadcast": "ग्राहकों और समूहों को सामूहिक संदेश",
+  "@csCustomerGroupBroadcast": {
+    "description": "Customer and group broadcasts"
+  },
+  "csEnterBroadcastText": "सामूहिक संदेश का पाठ दर्ज करें",
+  "@csEnterBroadcastText": {
+    "description": "Enter broadcast text"
+  },
+  "csSearchGroupChats": "समूह चैट खोजें",
+  "@csSearchGroupChats": {
+    "description": "Search group chats"
+  },
+  "csTenantBroadcastNoGroupNeeded": "टेनेंट के सभी सदस्यों को भेजने के लिए समूह चुनना ज़रूरी नहीं है।",
+  "@csTenantBroadcastNoGroupNeeded": {
+    "description": "No group selection is needed for all tenant members."
+  },
+  "csClearGroupSelection": "समूह का चयन हटाएँ",
+  "@csClearGroupSelection": {
+    "description": "Clear group selection"
+  },
+  "csPreviewResults": "नतीजों का पूर्वावलोकन",
+  "@csPreviewResults": {
+    "description": "Preview results"
+  },
+  "csRetrying": "दोबारा कोशिश हो रही है",
+  "@csRetrying": {
+    "description": "Retrying"
+  },
+  "csRetryFailedRecipients": "असफल प्राप्तकर्ताओं के लिए फिर से भेजें",
+  "@csRetryFailedRecipients": {
+    "description": "Retry failed recipients"
+  },
+  "csUnnamedGroup": "बिना नाम की समूह चैट",
+  "@csUnnamedGroup": {
+    "description": "Unnamed group chat"
+  },
+  "csNoMatchingConversations": "कोई मेल खाती बातचीत नहीं",
+  "@csNoMatchingConversations": {
+    "description": "No matching conversations"
+  },
+  "csNoHistoryConversations": "बातचीत का कोई इतिहास नहीं",
+  "@csNoHistoryConversations": {
+    "description": "No conversation history"
+  },
+  "csNoQueuedConversations": "कतार में कोई बातचीत नहीं",
+  "@csNoQueuedConversations": {
+    "description": "No queued conversations"
+  },
+  "csNoActiveConversations": "कोई सक्रिय बातचीत नहीं",
+  "@csNoActiveConversations": {
+    "description": "No active conversations"
+  },
+  "csNoVipConversations": "कोई VIP बातचीत नहीं",
+  "@csNoVipConversations": {
+    "description": "No VIP conversations"
+  },
+  "csHumanTakeover": "मानव प्रतिनिधि को सौंपें",
+  "@csHumanTakeover": {
+    "description": "Human takeover"
+  },
+  "csContinueConversation": "बातचीत जारी रखें",
+  "@csContinueConversation": {
+    "description": "Continue conversation"
+  },
+  "csView": "देखें",
+  "@csView": {
+    "description": "View"
+  },
+  "csAcceptThreadFailed": "बातचीत स्वीकार नहीं की जा सकी। दोबारा कोशिश करें।",
+  "@csAcceptThreadFailed": {
+    "description": "Could not accept the conversation. Try again."
+  },
+  "csTakeoverFailed": "बातचीत का ज़िम्मा नहीं लिया जा सका। दोबारा कोशिश करें।",
+  "@csTakeoverFailed": {
+    "description": "Could not take over. Try again."
+  },
+  "csThreadEnded": "बातचीत समाप्त हुई",
+  "@csThreadEnded": {
+    "description": "Conversation ended"
+  },
+  "csCloseConversation": "बातचीत बंद करें",
+  "@csCloseConversation": {
+    "description": "Close conversation"
+  },
+  "csCloseConversationHint": "बंद करने पर चैट का इतिहास बना रहता है। सेवा नीति के अनुसार बातचीत फिर से कतार में लगाई या आवंटित की जा सकती है।",
+  "@csCloseConversationHint": {
+    "description": "Closing keeps the chat history. The conversation may be queued or assigned again under the service policy."
+  },
+  "csConversationClosed": "बातचीत बंद की गई",
+  "@csConversationClosed": {
+    "description": "Conversation closed"
+  },
+  "csCloseFailed": "बातचीत बंद नहीं की जा सकी। दोबारा कोशिश करें।",
+  "@csCloseFailed": {
+    "description": "Could not close the conversation. Try again."
+  },
+  "csSearchConversations": "बातचीत खोजें",
+  "@csSearchConversations": {
+    "description": "Search conversations"
+  },
+  "csCurrentReception": "अभी सेवा दी जा रही है",
+  "@csCurrentReception": {
+    "description": "Current reception"
+  },
+  "csConversationHistory": "बातचीत का इतिहास",
+  "@csConversationHistory": {
+    "description": "Conversation history"
+  },
+  "csConversationSyncing": "बातचीत का समन्वयन हो रहा है। थोड़ी देर बाद रीफ़्रेश करें।",
+  "@csConversationSyncing": {
+    "description": "Conversation is syncing. Refresh shortly."
+  },
+  "csTransferredConversation": "सौंपी गई बातचीत",
+  "@csTransferredConversation": {
+    "description": "Transferred conversation"
+  },
+  "csDismissNotice": "सूचना हटाएँ",
+  "@csDismissNotice": {
+    "description": "Dismiss notification"
+  },
+  "csServedToday": "आज सेवा दी गई",
+  "@csServedToday": {
+    "description": "Served today"
+  },
+  "csAverageHandling": "निपटाने का औसत समय",
+  "@csAverageHandling": {
+    "description": "Average handling"
+  },
+  "csSatisfaction": "संतुष्टि",
+  "@csSatisfaction": {
+    "description": "Satisfaction"
+  },
+  "csTimedOutConversations": "समय-सीमा पार कर चुकी बातचीत",
+  "@csTimedOutConversations": {
+    "description": "Timed-out conversations"
+  },
+  "csQueuedAwaitingAssignment": "कतार में · अपने-आप आवंटन की प्रतीक्षा",
+  "@csQueuedAwaitingAssignment": {
+    "description": "Queued · Awaiting automatic assignment"
+  },
+  "csQueuedAwaitingAcceptance": "कतार में · स्वीकार किए जाने की प्रतीक्षा",
+  "@csQueuedAwaitingAcceptance": {
+    "description": "Queued · Awaiting acceptance"
+  },
+  "csWaitUnknown": "प्रतीक्षा --",
+  "@csWaitUnknown": {
+    "description": "Wait --"
+  },
+  "csEstimatedWaitUnknown": "अनुमानित प्रतीक्षा --",
+  "@csEstimatedWaitUnknown": {
+    "description": "Estimated wait --"
+  },
+  "csChannelDouyin": "Douyin",
+  "@csChannelDouyin": {
+    "description": "Douyin"
+  },
+  "csChannelWechat": "वीचैट",
+  "@csChannelWechat": {
+    "description": "WeChat"
+  },
+  "csChannelWeb": "वेब",
+  "@csChannelWeb": {
+    "description": "Web"
+  },
+  "csChannelOwnApp": "अपना ऐप",
+  "@csChannelOwnApp": {
+    "description": "Own app"
+  },
+  "csWorkbenchUnreadCount": "सहायता कार्यस्थल ({count})",
+  "@csWorkbenchUnreadCount": {
+    "description": "Localized support presentation csWorkbenchUnreadCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChangedTo": "{label} में बदला गया",
+  "@csChangedTo": {
+    "description": "Localized support presentation csChangedTo",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "csCustomDateRange": "मनचाहा {range}",
+  "@csCustomDateRange": {
+    "description": "Localized support presentation csCustomDateRange",
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "csIdentifierValue": "Weijie ID: {id}",
+  "@csIdentifierValue": {
+    "description": "Localized support presentation csIdentifierValue",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "csSessionCount": "{count, plural, one {{count} सत्र} other {{count} सत्र}}",
+  "@csSessionCount": {
+    "description": "Localized support presentation csSessionCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csChannelPerformance": "{channel} · सत्र: {count} · पहला जवाब: {response} · रेटिंग: {rating}",
+  "@csChannelPerformance": {
+    "description": "Localized support presentation csChannelPerformance",
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "response": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "String"
+      }
+    }
+  },
+  "csAgentWorkload": "सेवा जारी {active}/{capacity} · {mode}",
+  "@csAgentWorkload": {
+    "description": "Localized support presentation csAgentWorkload",
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      },
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastSubmitted": "सामूहिक संदेश सबमिट किया गया। प्राप्तकर्ता: {count}",
+  "@csBroadcastSubmitted": {
+    "description": "Localized support presentation csBroadcastSubmitted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csRecipientsRequeued": "{count, plural, one {{count} असफल प्राप्तकर्ता फिर कतार में जोड़ा गया} other {{count} असफल प्राप्तकर्ता फिर कतार में जोड़े गए}}",
+  "@csRecipientsRequeued": {
+    "description": "Localized support presentation csRecipientsRequeued",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csBroadcastModeValue": "तरीका: {mode}",
+  "@csBroadcastModeValue": {
+    "description": "Localized support presentation csBroadcastModeValue",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastGroupValue": "समूह चैट: {group}",
+  "@csBroadcastGroupValue": {
+    "description": "Localized support presentation csBroadcastGroupValue",
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "csEstimatedRecipients": "अनुमानित प्राप्तकर्ता: {count}",
+  "@csEstimatedRecipients": {
+    "description": "Localized support presentation csEstimatedRecipients",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csSampleValue": "नमूना: {sample}",
+  "@csSampleValue": {
+    "description": "Localized support presentation csSampleValue",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "csTaskStatusValue": "कार्य: {status}",
+  "@csTaskStatusValue": {
+    "description": "Localized support presentation csTaskStatusValue",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "csBroadcastProgress": "पहुँचे {sent}/{total}, असफल {failed}, छोड़े गए {skipped}",
+  "@csBroadcastProgress": {
+    "description": "Localized support presentation csBroadcastProgress",
+    "placeholders": {
+      "sent": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "csMemberCount": "{count, plural, one {{count} सदस्य} other {{count} सदस्य}}",
+  "@csMemberCount": {
+    "description": "Localized support presentation csMemberCount",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csQueuePosition": "कतार में स्थान: {position}",
+  "@csQueuePosition": {
+    "description": "Localized support presentation csQueuePosition",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitMinutes": "{count, plural, one {अनुमानित प्रतीक्षा: {count} मिनट} other {अनुमानित प्रतीक्षा: {count} मिनट}}",
+  "@csEstimatedWaitMinutes": {
+    "description": "Localized support presentation csEstimatedWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csEstimatedWaitSeconds": "{count, plural, one {अनुमानित प्रतीक्षा: {count} सेकंड} other {अनुमानित प्रतीक्षा: {count} सेकंड}}",
+  "@csEstimatedWaitSeconds": {
+    "description": "Localized support presentation csEstimatedWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csAssignedAgentValue": "सेवा प्रतिनिधि: {agent}",
+  "@csAssignedAgentValue": {
+    "description": "Localized support presentation csAssignedAgentValue",
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "csSourceValue": "स्रोत: {source}",
+  "@csSourceValue": {
+    "description": "Localized support presentation csSourceValue",
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "csQueueBadge": "कतार में #{position}",
+  "@csQueueBadge": {
+    "description": "Localized support presentation csQueueBadge",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitMinutes": "प्रतीक्षा {count} मिनट",
+  "@csWaitMinutes": {
+    "description": "Localized support presentation csWaitMinutes",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csWaitSeconds": "प्रतीक्षा {count} सेकंड",
+  "@csWaitSeconds": {
+    "description": "Localized support presentation csWaitSeconds",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "csTransferNoticeTitle": "आपको बातचीत सौंपी गई",
+  "@csTransferNoticeTitle": {
+    "description": "Localized support presentation csTransferNoticeTitle"
+  },
+  "csTransferNoticeBody": "आपको एक सहायता बातचीत सौंपी गई है। उसका इतिहास देखने के लिए कार्यस्थल खोलें।",
+  "@csTransferNoticeBody": {
+    "description": "Localized support presentation csTransferNoticeBody"
+  },
+  "csTransferNoticeReason": "आपको एक सहायता बातचीत सौंपी गई है। टिप्पणी: {reason}",
+  "@csTransferNoticeReason": {
+    "description": "Localized support presentation csTransferNoticeReason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "csDeliveryPending": "पहुँचने की प्रतीक्षा",
+  "@csDeliveryPending": {
+    "description": "Pending delivery"
+  },
+  "csDelivering": "पहुँचाया जा रहा है",
+  "@csDelivering": {
+    "description": "Delivering"
+  },
+  "csDeliveryCompleted": "पूर्ण",
+  "@csDeliveryCompleted": {
+    "description": "Completed"
+  },
+  "csDeliveryFailed": "असफल",
+  "@csDeliveryFailed": {
+    "description": "Failed"
+  },
+  "csRegisteredCustomer": "पंजीकृत ग्राहक",
+  "@csRegisteredCustomer": {
+    "description": "Registered customer"
+  },
+  "csUnknownChannel": "अज्ञात चैनल",
+  "@csUnknownChannel": {
+    "description": "Unknown channel"
+  },
+  "csUnknownCustomer": "अज्ञात ग्राहक",
+  "@csUnknownCustomer": {
+    "description": "Unknown customer"
+  },
+  "csTransferredHistory": "सौंपी गई बातचीत का इतिहास",
+  "@csTransferredHistory": {
+    "description": "History of a transferred conversation"
+  },
+  "csChannelWhatsapp": "WhatsApp",
+  "@csChannelWhatsapp": {
+    "description": "WhatsApp"
+  },
+  "csChannelTelegram": "Telegram",
+  "@csChannelTelegram": {
+    "description": "Telegram"
+  },
+  "csVip": "VIP",
+  "@csVip": {
+    "description": "VIP"
+  },
+  "csHistoryClosedAt": "{timestamp} को बंद हुआ",
+  "@csHistoryClosedAt": {
+    "description": "Localized support presentation csHistoryClosedAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csHistoryLastActiveAt": "पिछली बार सक्रिय: {timestamp}",
+  "@csHistoryLastActiveAt": {
+    "description": "Localized support presentation csHistoryLastActiveAt",
+    "placeholders": {
+      "timestamp": {
+        "type": "String"
+      }
+    }
+  },
+  "csChannelMiniProgram": "मिनी प्रोग्राम",
+  "@csChannelMiniProgram": {
+    "description": "Mini program"
+  },
+  "csChannelLine": "LINE",
+  "@csChannelLine": {
+    "description": "LINE"
+  },
+  "csChannelMessenger": "Messenger",
+  "@csChannelMessenger": {
+    "description": "Messenger"
+  }
+}

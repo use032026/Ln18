@@ -1,0 +1,53 @@
+{
+  "@@locale": "fi",
+  "notificationTitle": "Ilmoitukset",
+  "notificationGlobalMute": "Älä häiritse",
+  "notificationSound": "Ääni",
+  "notificationVibration": "Värinä",
+  "notificationPreview": "Viestin esikatselu",
+  "notificationDndStart": "Älä häiritse -tilan alkamisaika",
+  "notificationDndEnd": "Älä häiritse -tilan päättymisaika",
+  "notificationNewMessageTitle": "Uusi StartLink-viesti",
+  "notificationOnlineServiceTitle": "Uusi asiakaspalveluviesti",
+  "notificationNewMessageBody": "Sait uuden viestin",
+  "notificationImagePreview": "Lähetti kuvan",
+  "notificationVideoPreview": "Lähetti videon",
+  "notificationVoicePreview": "Lähetti ääniviestin",
+  "notificationFilePreview": "Lähetti tiedoston",
+  "notificationContactPreview": "Lähetti yhteystietokortin",
+  "notificationCallLogPreview": "Lähetti puhelutietueen",
+  "notificationLocationPreview": "Jakoi sijainnin",
+  "notificationLinkPreview": "Jakoi linkin",
+  "notificationMentionMe": "Mainitsi sinut: {body}",
+  "notificationMentionMeBy": "{sender} mainitsi sinut: {body}",
+  "notificationMentionAll": "Mainitsi kaikki: {body}",
+  "notificationMentionAllBy": "{sender} mainitsi kaikki: {body}",
+  "notificationSecurityTitle": "Tilin turvallisuushälytys",
+  "notificationSecurityBody": "StartLink-tilisi turvallisuusasetukset muuttuivat. Tarkista ne nyt.",
+  "notificationFriendAcceptedTitle": "Ystäväpyyntö hyväksytty",
+  "notificationFriendRejectedTitle": "Ystäväpyyntö hylätty",
+  "notificationFriendAcceptedBody": "Toinen osapuoli hyväksyi ystäväpyyntösi",
+  "notificationFriendRejectedBody": "Toinen osapuoli hylkäsi ystäväpyyntösi",
+  "notificationVideoCallTitle": "Kutsu videopuheluun",
+  "notificationAudioCallTitle": "Kutsu äänipuheluun",
+  "notificationVideoCallBody": "{caller} kutsui sinut videopuheluun",
+  "notificationAudioCallBody": "{caller} kutsui sinut äänipuheluun",
+  "notificationMessageChannelName": "Viestit",
+  "notificationMessageChannelDescription": "Keskusteluviestit, puhelutietueet ja järjestelmähälytykset",
+  "notificationCallChannelName": "Puhelut",
+  "notificationCallChannelDescription": "Ääni- ja videopuhelujen hälytykset",
+  "notificationSecurityChannelName": "Tilin turvallisuus",
+  "notificationSecurityChannelDescription": "Kirjautumisen sekä salasanan ja matkapuhelinnumeron muutosten hälytykset",
+  "notificationUnknownCaller": "Tuntematon soittaja",
+  "notificationBadgeChannelName": "Viestimerkit",
+  "notificationBadgeChannelDescription": "Lukemattomien viestien määrä sovelluskuvakkeessa",
+  "notificationBadgeUnreadCount": "{count, plural, one {{count} lukematon viesti} other {{count} lukematonta viestiä}}",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "Yli 99 lukematonta viestiä"
+}

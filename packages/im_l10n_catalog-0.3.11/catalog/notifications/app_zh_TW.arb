@@ -1,0 +1,53 @@
+{
+  "@@locale": "zh_TW",
+  "notificationTitle": "通知",
+  "notificationGlobalMute": "全域靜音",
+  "notificationSound": "聲音",
+  "notificationVibration": "震動",
+  "notificationPreview": "通知預覽",
+  "notificationDndStart": "勿擾開始時間",
+  "notificationDndEnd": "勿擾結束時間",
+  "notificationNewMessageTitle": "微界新訊息",
+  "notificationOnlineServiceTitle": "線上客服新訊息",
+  "notificationNewMessageBody": "你收到一則新訊息",
+  "notificationImagePreview": "傳來了一張圖片",
+  "notificationVideoPreview": "傳來了一段影片",
+  "notificationVoicePreview": "傳來了一則語音訊息",
+  "notificationFilePreview": "傳來了一個檔案",
+  "notificationContactPreview": "傳來了一張名片",
+  "notificationCallLogPreview": "傳來了一則通話記錄",
+  "notificationLocationPreview": "分享了一個位置",
+  "notificationLinkPreview": "分享了一個連結",
+  "notificationMentionMe": "提及了你：{body}",
+  "notificationMentionMeBy": "{sender} 提及了你：{body}",
+  "notificationMentionAll": "提及所有人：{body}",
+  "notificationMentionAllBy": "{sender} 提及所有人：{body}",
+  "notificationSecurityTitle": "帳號安全提醒",
+  "notificationSecurityBody": "你的微界帳號安全設定已變更，請立即查看。",
+  "notificationFriendAcceptedTitle": "好友申請已通過",
+  "notificationFriendRejectedTitle": "好友申請已被拒絕",
+  "notificationFriendAcceptedBody": "對方已通過你的好友申請",
+  "notificationFriendRejectedBody": "對方拒絕了你的好友申請",
+  "notificationVideoCallTitle": "視訊通話邀請",
+  "notificationAudioCallTitle": "語音通話邀請",
+  "notificationVideoCallBody": "{caller}邀請你進行視訊通話",
+  "notificationAudioCallBody": "{caller}邀請你進行語音通話",
+  "notificationMessageChannelName": "訊息通知",
+  "notificationMessageChannelDescription": "聊天訊息、通話記錄和系統訊息提醒",
+  "notificationCallChannelName": "通話通知",
+  "notificationCallChannelDescription": "語音和視訊來電提醒",
+  "notificationSecurityChannelName": "帳號安全通知",
+  "notificationSecurityChannelDescription": "帳號登入、密碼和手機號碼變更提醒",
+  "notificationUnknownCaller": "未知來電者",
+  "notificationBadgeChannelName": "訊息標記",
+  "notificationBadgeChannelDescription": "用於在桌面圖示顯示未讀訊息數量",
+  "notificationBadgeUnreadCount": "{count} 則未讀訊息",
+  "@notificationBadgeUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationBadgeUnreadOverflow": "99+ 則未讀訊息"
+}
